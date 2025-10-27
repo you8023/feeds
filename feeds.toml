@@ -9,7 +9,31 @@ dateSelector = ".date"
 [axonius]
 title = "axonius"
 url = "https://axonius.com/blog"
-entrySelector = ".grid__col--1-2-2-3-3-4 > .Card-module-scss-module__QQputq__card"
+entrySelector = ".grid__col--1-2-2-3-3-4 .Card-module-scss-module__QQputq__card"
 titleSelector = ".Card-module-scss-module__QQputq__cardTitle"
 linkSelector = ".Card-module-scss-module__QQputq__cardA"
 dateSelector = ".Card-module-scss-module__QQputq__cardAuthorDate"
+
+[codeintegrity]
+title = "codeintegrity"
+url = "https://www.codeintegrity.ai/blog"
+entrySelector = ".grid a"
+titleSelector = ".grid .text-lg"
+linkSelector = ".grid a"
+dateSelector = ".grid time"
+
+[ox.security]
+title = "ox.security"
+url = "https://www.ox.security/blog"
+entrySelector = ".blog-post-container article"
+titleSelector = ".entry-title"
+linkSelector = ".blog-post-img-link"
+dateSelector = ".post-date"
+
+[cyera]
+title = "cyera"
+url = "https://www.cyera.com/blog"
+entrySelector = ".resource_item--blog"
+titleSelector = ".resource-card__heading"
+linkSelector = ".resource_item-link--blog"
+dateSelector = ".resource-card__date"
