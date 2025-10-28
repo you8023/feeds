@@ -21,8 +21,8 @@ title = "codeintegrity"
 url = "https://www.codeintegrity.ai/blog"
 entrySelector = ".grid a"
 titleSelector = ".grid .text-lg"
-linkSelector = ".grid a"
-dateSelector = ".grid time"
+linkSelector = "*"
+dateSelector = "time"
 dateFormat = "MMM d, yyyy"
 
 [ox-security]
@@ -32,7 +32,7 @@ entrySelector = ".blog-post-container article"
 titleSelector = ".entry-title"
 linkSelector = ".blog-post-img-link"
 dateSelector = ".post-date"
-dateFormat = "MMM d, yyyy"
+dateFormat = "MMMM d, yyyy"
 
 [cyera]
 title = "cyera"
@@ -41,7 +41,7 @@ entrySelector = ".resource_item--blog"
 titleSelector = ".resource-card__heading"
 linkSelector = ".resource_item-link--blog"
 dateSelector = ".resource-card__date"
-dateFormat = ""
+dateFormat = "MMM d, yyyy"
 
 [formal]
 title = "formal"
