@@ -72,3 +72,21 @@ titleSelector = "> div:nth-child(2) > div:nth-child(2) > h4"
 linkSelector = "*"
 dateSelector = "> div:nth-child(2) > div:nth-child(1) > h4"
 dateFormat = "MMM d, yyyy"
+
+[maze]
+title = "maze"
+url = "https://mazehq.com/blog"
+entrySelector = "#blog a"
+titleSelector = ".c-tile-article__copy"
+linkSelector = "*"
+dateSelector = ".tag__date"
+dateFormat = "MMMM d, yyyy"
+
+[niteshsurana]
+title = "niteshsurana"
+url = "https://niteshsurana.com/"
+entrySelector = "body > div:nth-child(6) > ul li"
+titleSelector = "a"
+linkSelector = "a"
+dateSelector = "*"
+dateFormat = "yyyy-MM-dd"
