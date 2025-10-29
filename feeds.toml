@@ -113,7 +113,7 @@ url = "https://www.hush.security/blog"
 entrySelector = ".blog_item"
 titleSelector = ".heading-style-h6"
 linkSelector = ".blog_item-link"
-dateSelector = ".text-color-secondary"
+dateSelector = ".blog_author_text-wrapper > div:nth-child(2)"
 dateFormat = "MMM d, yyyy"
 
 [mnemonic]
