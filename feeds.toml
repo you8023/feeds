@@ -133,3 +133,12 @@ titleSelector = "a"
 linkSelector = "a"
 dateSelector = "span"
 dateFormat = "dd MMM yyyy"
+
+[pvotal]
+title = "pvotal"
+url = "https://pvotal.tech/blog/"
+entrySelector = ".wpr-grid-item"
+titleSelector = ".wpr-grid-item-title a"
+linkSelector = ".wpr-grid-item-title a"
+dateSelector = ".wpr-grid-item-date > div > span"
+dateFormat = "MMMM d, yyyy"
