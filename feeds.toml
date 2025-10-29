@@ -90,3 +90,37 @@ titleSelector = "a"
 linkSelector = "a"
 dateSelector = "*"
 dateFormat = "yyyy-MM-dd"
+
+[chainguard]
+title = "chainguard"
+url = "https://www.chainguard.dev/unchained"
+entrySelector = "main > section:nth-child(2) > ul > li"
+titleSelector = ".card-text h3"
+linkSelector = "a"
+dateSelector = ".card-data time"
+dateFormat = "MMMM d, yyyy"
+
+[trustoncloud]
+title = "trustoncloud"
+url = "https://trustoncloud.com/blog"
+entrySelector = "main > div > section:nth-child(3) article"
+titleSelector = ".elementor-post__title"
+linkSelector = "a.elementor-post__thumbnail__link"
+
+[hush_security]
+title = "hush_security"
+url = "https://www.hush.security/blog"
+entrySelector = ".blog_item"
+titleSelector = ".heading-style-h6"
+linkSelector = ".blog_item-link"
+dateSelector = ".text-color-secondary"
+dateFormat = "MMM d, yyyy"
+
+[mnemonic]
+title = "mnemonic"
+url = "https://www.mnemonic.io/resources/blog/"
+entrySelector = ".justify-content-center > div > ul > li"
+titleSelector = ".partial-title--has-link a"
+linkSelector = ".partial-title--has-link a"
+dateSelector = ".partial__byline__date"
+dateFormat = "dd.MM.yyyy"
