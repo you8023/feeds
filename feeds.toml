@@ -235,3 +235,21 @@ titleSelector = "header h2 > a"
 linkSelector = "header h2 > a"
 dateSelector = "header time"
 dateFormat = "yyyy-MM-ddThh:mm:ss.SSSZ"
+
+[skybound]
+title = "skybound"
+url = "https://www.skybound.link/"
+entrySelector = ".posts article"
+titleSelector = ".post-title a"
+linkSelector = ".post-title a"
+dateSelector = ".post-meta time"
+dateFormat = "yyyy-MM-dd"
+
+[flowerwitch]
+title = "flowerwitch"
+url = "https://flowerwitch.github.io/"
+entrySelector = "#content-body article"
+titleSelector = "a.article-title"
+linkSelector = "a.article-title"
+dateSelector = ".meta-info time"
+dateFormat = "yyyy-MM-ddThh:mm:ss.SSSZ"
