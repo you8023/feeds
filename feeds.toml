@@ -199,3 +199,21 @@ titleSelector = ".topic-list-item-card_title-text"
 linkSelector = ".topic-list-item-card_body"
 dateSelector = "time"
 dateFormat = "yyyy-MM-ddThh:mm:ss.SSSZ"
+
+[beelzebub]
+title = "beelzebub"
+url = "https://beelzebub.ai/blog/"
+entrySelector = ".grid article"
+titleSelector = "h2"
+linkSelector = "a.btn-text"
+dateSelector = ".font-primary > span:nth-child(1)"
+dateFormat = "MMM dd, yyyy"
+
+[exaforce]
+title = "exaforce"
+url = "https://www.exaforce.com/blog"
+entrySelector = ".blog_list-item"
+titleSelector = "h2.heading_blog"
+linkSelector = ".card_link"
+dateSelector = "p.blog_description"
+dateFormat = "MMM do, yyyy"
