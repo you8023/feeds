@@ -149,3 +149,19 @@ url = "https://risk3sixty.com/blog"
 entrySelector = "article.elementor-post"
 titleSelector = ".elementor-post__title"
 linkSelector = ".elementor-post__title a"
+
+[kerbit]
+title = "kerbit"
+url = "https://kerbit.io/#research"
+entrySelector = "#blogCardContainer .research-card"
+titleSelector = ".research-card-title"
+linkSelector = "a"
+
+[zviwex]
+title = "zviwex"
+url = "https://zviwex.com/"
+entrySelector = ".wrapper__main >div.post:nth-of-type(n+2)"
+titleSelector = ".post__content a"
+linkSelector = ".post__content a"
+dateSelector = ".post__footer-date"
+dateFormat = "dd MMM yyyy"
