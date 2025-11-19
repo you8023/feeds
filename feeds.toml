@@ -181,3 +181,21 @@ titleSelector = "h3"
 linkSelector = "a"
 dateSelector = "time"
 dateFormat = "MM/dd/yy"
+
+[mercari_security]
+title = "mercari_security"
+url = "https://engineering.mercari.com/en/blog/category/security/"
+entrySelector = ".left > ul > li"
+titleSelector = "h3"
+linkSelector = "a"
+dateSelector = "time"
+dateFormat = "yyyy/MM/dd"
+
+[security_googlecloudcommunity]
+title = "security_googlecloudcommunity"
+url = "https://security.googlecloudcommunity.com/p/blog"
+entrySelector = ".topic-list-item-card"
+titleSelector = ".topic-list-item-card_title-text"
+linkSelector = ".topic-list-item-card_body"
+dateSelector = "time"
+dateFormat = "yyyy-MM-ddThh:mm:ss.SSSZ"
