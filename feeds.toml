@@ -269,3 +269,21 @@ url = "https://www.sweet.security/blog"
 entrySelector = ".w-dyn-item"
 titleSelector = ".blog-item-title-h4-regular"
 linkSelector = "a"
+
+[awssecuritydigest]
+title = "awssecuritydigest"
+url = "https://awssecuritydigest.com/articles"
+entrySelector = ".card"
+titleSelector = "h2 a"
+linkSelector = "h2 a"
+dateSelector = ".date"
+dateFormat = "MMMM d, yyyy"
+
+[armosec]
+title = "armosec"
+url = "https://www.armosec.io/blog/"
+entrySelector = ".blog-articles__list .blog-article"
+titleSelector = ".blog-article__title"
+linkSelector = "*"
+dateSelector = ".blog-article__meta li"
+dateFormat = "MMM d, yyyy"
