@@ -253,3 +253,19 @@ titleSelector = "a.article-title"
 linkSelector = "a.article-title"
 dateSelector = ".meta-info time"
 dateFormat = "yyyy-MM-ddThh:mm:ss.SSSZ"
+
+[trimarcsecurity]
+title = "trimarcsecurity"
+url = "https://www.trimarcsecurity.com/hub"
+entrySelector = ".grid article"
+titleSelector = "h2"
+linkSelector = "a.btn-text"
+dateSelector = ".font-primary > span:nth-child(1)"
+dateFormat = "MMM dd, yyyy"
+
+[sweet_security]
+title = "sweet_security"
+url = "https://www.sweet.security/blog"
+entrySelector = ".w-dyn-item"
+titleSelector = ".blog-item-title-h4-regular"
+linkSelector = "a"
