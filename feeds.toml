@@ -297,15 +297,6 @@ linkSelector = ".cms-card_item"
 dateSelector = ".text-style-date"
 dateFormat = "MMM d, yyyy"
 
-[sans_edu_cloud_sec]
-title = "sans_edu_cloud_sec"
-url = "https://www.sans.edu/cyber-research/?focus-area=cloud-security"
-entrySelector = ".article-listing__item"
-titleSelector = ".title"
-linkSelector = ".block-link"
-dateSelector = ".date"
-dateFormat = "MMMM d, yyyy"
-
 [forem_cloud_sec]
 title = "forem_cloud_sec"
 url = "https://zeroday.forem.com/t/cloudsecurity"
@@ -313,3 +304,12 @@ entrySelector = ".crayons-story"
 titleSelector = ".crayons-story__title a"
 linkSelector = ".crayons-story__hidden-navigation-link"
 dateSelector = ".crayons-story__tertiary time"
+
+[uber_sec]
+title = "uber_sec"
+url = "https://www.uber.com/en-AU/blog/engineering/security/"
+entrySelector = "#main div[data-baseweb='flex-grid-item'] > a"
+titleSelector = "h2"
+linkSelector = "*"
+dateSelector = ".date"
+dateFormat = "d MMMM / Global"
