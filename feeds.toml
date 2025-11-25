@@ -313,3 +313,21 @@ titleSelector = "h2"
 linkSelector = "*"
 dateSelector = ".date"
 dateFormat = "d MMMM / Global"
+
+[mattias]
+title = "mattias"
+url = "https://mattias.engineer/blog/"
+entrySelector = ".article"
+titleSelector = ".text-xl > div"
+linkSelector = "*"
+dateSelector = "time:nth-child(1)"
+dateFormat = "d MMMM yyyy"
+
+[slayer0x]
+title = "slayer0x"
+url = "https://slayer0x.github.io/"
+entrySelector = ".list__item"
+titleSelector = "h2 a"
+linkSelector = "h2 a"
+dateSelector = "time"
+dateFormat = "MMMM dd, yyyy"
