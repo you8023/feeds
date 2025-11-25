@@ -320,7 +320,8 @@ url = "https://mattias.engineer/blog/"
 entrySelector = ".article"
 titleSelector = ".text-xl > div"
 linkSelector = "*"
-dateSelector = "time:nth-child(1)"
+dateSelector = "time"
+dateFormat = "d MMMM yyyy"
 
 [slayer0x]
 title = "slayer0x"
