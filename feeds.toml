@@ -257,11 +257,11 @@ dateFormat = "yyyy-MM-ddThh:mm:ss.SSSZ"
 [trimarcsecurity]
 title = "trimarcsecurity"
 url = "https://www.trimarcsecurity.com/hub"
-entrySelector = ".grid article"
-titleSelector = "h2"
-linkSelector = "a.btn-text"
-dateSelector = ".font-primary > span:nth-child(1)"
-dateFormat = "MMM dd, yyyy"
+entrySelector = ".gallery-item-container"
+titleSelector = ".post-title h2"
+linkSelector = "a"
+dateSelector = ".post-metadata__date"
+dateFormat = "MMM d, yyyy"
 
 [sweet_security]
 title = "sweet_security"
