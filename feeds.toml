@@ -312,7 +312,7 @@ entrySelector = "#main div[data-baseweb='flex-grid-item'] > a"
 titleSelector = "h2"
 linkSelector = "*"
 dateSelector = ".date"
-dateFormat = "d MMMM / Global"
+dateFormat = "dMMMM,yyyy"
 
 [mattias]
 title = "mattias"
@@ -321,7 +321,6 @@ entrySelector = ".article"
 titleSelector = ".text-xl > div"
 linkSelector = "*"
 dateSelector = "time:nth-child(1)"
-dateFormat = "d MMMM yyyy"
 
 [slayer0x]
 title = "slayer0x"
@@ -331,3 +330,10 @@ titleSelector = "h2 a"
 linkSelector = "h2 a"
 dateSelector = "time"
 dateFormat = "MMMM dd, yyyy"
+
+[blast_security]
+title = "blast_security"
+url = "https://blast.security/blog/"
+entrySelector = ".blog-filter-item__link"
+titleSelector = ".blog-filter-item__title"
+linkSelector = "*"
