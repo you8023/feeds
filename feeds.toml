@@ -353,3 +353,21 @@ url = "https://blog.pwnedlabs.io/all"
 entrySelector = ".blog-listing__post"
 titleSelector = ".blog-listing__post-title-link"
 linkSelector = ".blog-listing__post-title-link"
+
+[mobeta]
+title = "mobeta"
+url = "https://mobeta.fr/blog/"
+entrySelector = ".elementor-post"
+titleSelector = ".elementor-post__title a"
+linkSelector = ".elementor-post__title a"
+dateSelector = ".elementor-post-date"
+dateFormat = "d MMMM yyyy"
+
+[trufflesecurity]
+title = "trufflesecurity"
+url = "https://trufflesecurity.com/blog"
+entrySelector = ".nc-item"
+titleSelector = "h4.framer-text"
+linkSelector = "*"
+dateSelector = "div > div > div:nth-child(2) > p"
+dateFormat = "MMM d, yyyy"
