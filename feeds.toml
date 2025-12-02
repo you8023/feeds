@@ -338,3 +338,18 @@ url = "https://blast.security/blog/"
 entrySelector = ".blog-filter-item__link"
 titleSelector = ".blog-filter-item__title"
 linkSelector = "*"
+
+[sapirxfed]
+title = "sapirxfed"
+url = "https://sapirxfed.com/blog-posts/"
+entrySelector = ".wp-block-post"
+titleSelector = ".wp-block-post-title a"
+linkSelector = ".wp-block-post-title a"
+dateSelector = ".wp-block-post-date time"
+
+[pwnedlabs]
+title = "pwnedlabs"
+url = "https://blog.pwnedlabs.io/all"
+entrySelector = ".blog-listing__post"
+titleSelector = ".blog-listing__post-title-link"
+linkSelector = ".blog-listing__post-title-link"
