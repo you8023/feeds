@@ -379,7 +379,7 @@ entrySelector = ".crayons-story"
 titleSelector = ".crayons-story__title a"
 linkSelector = ".crayons-story__title a"
 dateSelector = ".crayons-story__tertiary time"
-matchOneOf = ["aws", "cicd", "cloud", "azure", "gcp", "terraform", "kubernetes", "docker", "container"]
+matchOneOf = ["/t/aws", "cicd", "cloud", "azure", "gcp", "terraform", "kubernetes", "k8s", "docker", " container"]
 
 [checkmarx]
 title = "checkmarx"
@@ -389,3 +389,10 @@ titleSelector = ".card-post__description"
 linkSelector = ".card-post__description"
 dateSelector = ".card-post__title"
 dateFormat = "MMMM d, yyyy"
+
+[gitlab_sec]
+title = "gitlab_sec"
+url = "https://about.gitlab.com/blog/categories/security/"
+entrySelector = ":where(.featured-post, .card)"
+titleSelector = ":where(h3, h4)"
+linkSelector = ":where(.slp-btn-primary, .card-body)"
