@@ -371,3 +371,21 @@ titleSelector = "h4.framer-text"
 linkSelector = "*"
 dateSelector = "div > div > div:nth-child(2) > p"
 dateFormat = "MMM d, yyyy"
+
+[dev_to_cloud_sec]
+title = "dev_to_cloud_sec"
+url = "https://dev.to/t/security"
+entrySelector = ".crayons-story"
+titleSelector = ".crayons-story__title a"
+linkSelector = ".crayons-story__title a"
+dateSelector = ".crayons-story__tertiary time"
+matchOneOf = ["aws", "cicd", "cloud", "azure", "gcp", "terraform", "kubernetes", "docker", "container"]
+
+[checkmarx]
+title = "checkmarx"
+url = "https://checkmarx.com/zero/research/"
+entrySelector = ".card-post"
+titleSelector = ".card-post__description"
+linkSelector = ".card-post__description"
+dateSelector = ".card-post__title"
+dateFormat = "MMMM d, yyyy"
