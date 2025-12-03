@@ -396,3 +396,23 @@ url = "https://about.gitlab.com/blog/categories/security/"
 entrySelector = ":where(.featured-post, .card)"
 titleSelector = ":where(h3, h4)"
 linkSelector = ":where(.slp-btn-primary, .card-body)"
+
+[apiiro]
+title = "apiiro"
+url = "https://apiiro.com/blog/"
+entrySelector = "#main > a"
+titleSelector = "h3"
+linkSelector = "*"
+dateSelector = ".text-sm > div:nth-child(2)"
+dateFormat = "MMMM d yyyy"
+filters = ["apiiro"]
+
+[mondoo]
+title = "mondoo"
+url = "https://mondoo.com/blog"
+entrySelector = ".blog-main-collection_item"
+titleSelector = "h6"
+linkSelector = ".blog-main-collection_item-link"
+dateSelector = ".blogpost-top-content_footer > div:nth-child(2)"
+dateFormat = "MMMM d, yyyy"
+filters = ["releases"]
