@@ -434,3 +434,22 @@ titleSelector = ".blog-title"
 linkSelector = ".read-more"
 dateSelector = ".blog-info"
 dateFormat = "Posted d MMM yyyy"
+
+[koi_ai]
+title = "koi_ai"
+url = "https://www.koi.ai/blog"
+entrySelector = ".posts_item"
+titleSelector = ".blog-title"
+linkSelector = "> a"
+dateSelector = ".blog_date"
+dateFormat = "MMMM d, yyyy"
+filters = ["Company News"]
+
+[helixguard]
+title = "helixguard"
+url = "https://helixguard.ai/blog"
+entrySelector = ".post-card"
+titleSelector = ".blog-title a"
+linkSelector = ".blog-title a"
+dateSelector = ".blog_date"
+dateFormat = "yyyy-MM-dd"
