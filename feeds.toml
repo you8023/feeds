@@ -405,7 +405,7 @@ titleSelector = "h3"
 linkSelector = "*"
 dateSelector = ".text-sm > div:nth-child(2)"
 dateFormat = "MMMM d yyyy"
-filters = ["apiiro"]
+filters = [" apiiro", "apiiro "]
 
 [mondoo]
 title = "mondoo"
@@ -416,3 +416,21 @@ linkSelector = ".blog-main-collection_item-link"
 dateSelector = ".blogpost-top-content_footer > div:nth-child(2)"
 dateFormat = "MMMM d, yyyy"
 filters = ["releases"]
+
+[thottysploity]
+title = "thottysploity"
+url = "https://thottysploity.github.io/"
+entrySelector = ".post"
+titleSelector = ".post-title a"
+linkSelector = ".post-title a"
+dateSelector = ".post-date"
+dateFormat = "yyyy-MM-dd"
+
+[a2secure]
+title = "a2secure"
+url = "https://www.a2secure.com/en/blog/"
+entrySelector = ".content-block__menu-grid"
+titleSelector = ".blog-title"
+linkSelector = ".read-more"
+dateSelector = ".blog-info"
+dateFormat = "Posted d MMM yyyy"
