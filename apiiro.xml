@@ -2,9 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://apiiro.com/blog/</id>
     <title>apiiro</title>
-    <updated>2025-12-04T11:44:45.738Z</updated>
+    <updated>2025-12-04T13:19:55.744Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://apiiro.com/wp-content/uploads/2024/04/Favicon-2-150x150.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Critical Vulnerability – RCE in React Server Components & Next.js]]></title>
+        <id>https://apiiro.com/blog/critical-vulnerability-rce-in-react-server-components-next-js/</id>
+        <link href="https://apiiro.com/blog/critical-vulnerability-rce-in-react-server-components-next-js/"/>
+        <updated>2025-12-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img class="aspect-[1200/627] w-full rounded-[5px]" src="https://apiiro.com/wp-content/uploads/2025/12/Alert-icon-1024x576.jpg" alt="" loading="lazy">
+            <div class="mt-[15px]">
+                <h3 class="text-[20px] mb-[18px] tracking-[0.4px]">Critical Vulnerability – RCE in React Server Components &amp; Next.js</h3>
+                <div class="flex flex-col md:flex-row md:items-center gap-[18px] mb-[18px]">
+                                            <div class="relative ">
+                                                            <img src="https://apiiro.com/wp-content/uploads/2024/08/THZRVLUTD-U05S31ZF9RT-0dbcbe646a99-512.png" alt="" class="rounded-full border-2 border-transparent w-[51px] h-[51px]" loading="lazy">
+                                                                                </div>
+                                        <div class="text-sm tracking-[0.07px]">
+                                                    <div class="font-bold">
+                                Nadav Shakarzy                            </div>
+                                                <div>
+                            December 4 2025                        </div>
+                    </div>
+
+                </div>
+                <p class="mb-0 text-black_light text-sm tracking-[0.07px] line-clamp-3">On December 3, 2025, coordinated disclosures revealed critical remote code execution (RCE) vulnerabilities in React Server Components (RSC) and Next.js: At the core, the issue is unsafe deserialization in the RSC “Flight” protocol. With a single crafted HTTP request to an exposed RSC / Server Function endpoint, an attacker can reach pre-auth arbitrary code execution […]</p>
+            </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Shai-Hulud 2: A New Wave of npm Supply Chain Malware Targeting Developers and CI/CD Systems]]></title>
         <id>https://apiiro.com/blog/shai-hulud-2-a-new-wave-of-npm-supply-chain-malware-targeting-developers-and-ci-cd-systems/</id>
