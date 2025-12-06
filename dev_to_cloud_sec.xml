@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2025-12-06T19:39:38.949Z</updated>
+    <updated>2025-12-06T20:42:33.887Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
@@ -92,7 +92,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/mandraketech/stop-using-localhost8080-why-your-dev-environment-needs-production-grade-network-security-2dao#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Stop Using localhost:8080 - Why Your Dev Environment Needs Production-Grade Network Security">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="antmx3li2gal7m6birmd94odnow16ned" class="crayons-icon"><title id="antmx3li2gal7m6birmd94odnow16ned">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aovgsywzdd5j0o4ioadlcqlt24wraht9" class="crayons-icon"><title id="aovgsywzdd5j0o4ioadlcqlt24wraht9">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -101,7 +101,118 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             15 min read
           </small>
-            <button type="button" id="article-save-button-3087721" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3087721" data-article-author-id="140699" aria-label="Save post Stop Using localhost:8080 - Why Your Dev Environment Needs Production-Grade Network Security to reading list" title="Save post Stop Using localhost:8080 - Why Your Dev Environment Needs Production-Grade Network Security to reading list">
+            <button type="button" id="article-save-button-3087721" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3087721" data-article-author-id="140699" aria-label="Save post Stop Using localhost:8080 - Why Your Dev Environment Needs Production-Grade Network Security to reading list" title="Save post Stop Using localhost:8080 - Why Your Dev Environment Needs Production-Grade Network Security to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Secret Behind SAST: The Security Blind Spot Developers Can’t Ignore (Part 1)]]></title>
+        <id>https://dev.to/vardan_matevosian_tech/the-secret-behind-sast-the-security-blind-spot-developers-cant-ignore-part-1-3n7m</id>
+        <link href="https://dev.to/vardan_matevosian_tech/the-secret-behind-sast-the-security-blind-spot-developers-cant-ignore-part-1-3n7m"/>
+        <updated>2025-12-06T17:41:46.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/vardan_matevosian_tech/the-secret-behind-sast-the-security-blind-spot-developers-cant-ignore-part-1-3n7m" aria-labelledby="article-link-3082466" class="crayons-story__hidden-navigation-link">The Secret Behind SAST: The Security Blind Spot Developers Can’t Ignore (Part 1)</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/vardan_matevosian_tech" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3641843%2Fe2efae7c-08f5-4b2d-b8c1-7f4d98e6ed96.jpg" alt="vardan_matevosian_tech profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/vardan_matevosian_tech" class="crayons-story__secondary fw-medium m:hidden">
+              Vardan Matevosian
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3082466" aria-controls="story-author-preview-content-3082466" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Vardan Matevosian profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Vardan Matevosian
+                
+              </button>
+              <div id="story-author-preview-content-3082466" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/vardan_matevosian_tech" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3641843%2Fe2efae7c-08f5-4b2d-b8c1-7f4d98e6ed96.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Vardan Matevosian</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3641843,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Vardan Matevosian&quot;}" data-fetched="fetched" aria-label="Follow user: Vardan Matevosian" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3641843"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/vardan_matevosian_tech/the-secret-behind-sast-the-security-blind-spot-developers-cant-ignore-part-1-3n7m" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-06T17:41:46Z" title="Saturday, December 6, 2025 at 5:41:46 PM">Dec 6</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1765042906"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/vardan_matevosian_tech/the-secret-behind-sast-the-security-blind-spot-developers-cant-ignore-part-1-3n7m" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F53rrstjaroqm9qti5ipv.png" id="article-link-3082466">
+          The Secret Behind SAST: The Security Blind Spot Developers Can’t Ignore (Part 1)
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/sast"><span class="crayons-tag__prefix">#</span>sast</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/vardan_matevosian_tech/the-secret-behind-sast-the-security-blind-spot-developers-cant-ignore-part-1-3n7m#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Secret Behind SAST: The Security Blind Spot Developers Can’t Ignore (Part 1)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alf9uje398acrdbt7jkne9rfafqr5zzw" class="crayons-icon"><title id="alf9uje398acrdbt7jkne9rfafqr5zzw">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            8 min read
+          </small>
+            <button type="button" id="article-save-button-3082466" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3082466" data-article-author-id="3641843" aria-label="Save post The Secret Behind SAST: The Security Blind Spot Developers Can’t Ignore (Part 1) to reading list" title="Save post The Secret Behind SAST: The Security Blind Spot Developers Can’t Ignore (Part 1) to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -219,7 +330,7 @@
             </div>
           </a>
             <a href="https://dev.to/aerabi/day-6-the-audit-2ak2#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Day 6 — Image Hardening (The Audit)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ae006nbrf2hoohtv79crih7964mq9719" class="crayons-icon"><title id="ae006nbrf2hoohtv79crih7964mq9719">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aq9ea4fgl1vo545xa61y174hbd4o41i0" class="crayons-icon"><title id="aq9ea4fgl1vo545xa61y174hbd4o41i0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -228,7 +339,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3087248" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3087248" data-article-author-id="416596" aria-label="Save post Day 6 — Image Hardening (The Audit) to reading list" title="Save post Day 6 — Image Hardening (The Audit) to reading list">
+            <button type="button" id="article-save-button-3087248" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3087248" data-article-author-id="416596" aria-label="Save post Day 6 — Image Hardening (The Audit) to reading list" title="Save post Day 6 — Image Hardening (The Audit) to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -330,7 +441,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/lshw54/building-a-cost-effective-autonomous-threat-containment-system-on-aws-2mkk#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building a Cost-Effective Autonomous Threat Containment System on AWS">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ajbk5xinx5gn16z9qfdugeevcca7xsc2" class="crayons-icon"><title id="ajbk5xinx5gn16z9qfdugeevcca7xsc2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqida247zvtcyn77y88upafcg0suh7vz" class="crayons-icon"><title id="aqida247zvtcyn77y88upafcg0suh7vz">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -339,7 +450,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3088834" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3088834" data-article-author-id="717013" aria-label="Save post Building a Cost-Effective Autonomous Threat Containment System on AWS to reading list" title="Save post Building a Cost-Effective Autonomous Threat Containment System on AWS to reading list">
+            <button type="button" id="article-save-button-3088834" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3088834" data-article-author-id="717013" aria-label="Save post Building a Cost-Effective Autonomous Threat Containment System on AWS to reading list" title="Save post Building a Cost-Effective Autonomous Threat Containment System on AWS to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -441,7 +552,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/muthu_kumarmurugaiyan_23/building-slimshield-a-production-ready-docker-security-platform-with-18-advanced-features-31n9#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building SlimShield: A Production-Ready Docker Security Platform with 18 Advanced Features 🚀">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aav4be7gpk59xa66b26667enn0jriyer" class="crayons-icon"><title id="aav4be7gpk59xa66b26667enn0jriyer">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anay1isb83p10a4lfaia0i4xs0uzkjov" class="crayons-icon"><title id="anay1isb83p10a4lfaia0i4xs0uzkjov">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -450,7 +561,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3087796" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3087796" data-article-author-id="3648610" aria-label="Save post Building SlimShield: A Production-Ready Docker Security Platform with 18 Advanced Features 🚀 to reading list" title="Save post Building SlimShield: A Production-Ready Docker Security Platform with 18 Advanced Features 🚀 to reading list">
+            <button type="button" id="article-save-button-3087796" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3087796" data-article-author-id="3648610" aria-label="Save post Building SlimShield: A Production-Ready Docker Security Platform with 18 Advanced Features 🚀 to reading list" title="Save post Building SlimShield: A Production-Ready Docker Security Platform with 18 Advanced Features 🚀 to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -552,7 +663,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/sudarshan_yadav/day-8-inbound-outbound-rules-in-aws-security-groups-43ab#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 📅 Day 8 — Inbound &amp; Outbound Rules in AWS Security Groups">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="af3qhrgatyl8tdfr6d7s99e4s7z50igl" class="crayons-icon"><title id="af3qhrgatyl8tdfr6d7s99e4s7z50igl">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7np80jtsoo4ba6cg3gvvte1netwcgwr" class="crayons-icon"><title id="a7np80jtsoo4ba6cg3gvvte1netwcgwr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -561,7 +672,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
           </small>
-            <button type="button" id="article-save-button-3086663" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3086663" data-article-author-id="3624364" aria-label="Save post 📅 Day 8 — Inbound &amp; Outbound Rules in AWS Security Groups to reading list" title="Save post 📅 Day 8 — Inbound &amp; Outbound Rules in AWS Security Groups to reading list">
+            <button type="button" id="article-save-button-3086663" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3086663" data-article-author-id="3624364" aria-label="Save post 📅 Day 8 — Inbound &amp; Outbound Rules in AWS Security Groups to reading list" title="Save post 📅 Day 8 — Inbound &amp; Outbound Rules in AWS Security Groups to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
