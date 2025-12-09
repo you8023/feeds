@@ -477,3 +477,19 @@ url = "https://mindgard.ai/learn/blog"
 entrySelector = ".blog-grid-twos-item"
 titleSelector = ".blog-grid-2x-title"
 linkSelector = "a.blog-item"
+
+[dazesecurity]
+title = "dazesecurity"
+url = "https://dazesecurity.io/blog"
+entrySelector = ".MuiGrid2-root > a"
+titleSelector = "h5"
+linkSelector = "*"
+dateSelector = "time"
+dateFormat = "MMMM d, yyyy"
+
+[offensai]
+title = "offensai"
+url = "https://www.offensai.com/blog"
+entrySelector = "article"
+titleSelector = "h3 > a"
+linkSelector = "h3 > a"
