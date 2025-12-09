@@ -493,3 +493,27 @@ url = "https://www.offensai.com/blog"
 entrySelector = "article"
 titleSelector = "h3 > a"
 linkSelector = "h3 > a"
+
+[abnormal_ai]
+title = "abnormal_ai"
+url = "https://abnormal.ai/blog"
+entrySelector = "a.ρrzkOg"
+titleSelector = "span.chakra-text"
+linkSelector = "*"
+dateSelector = ".chakra-stack > p:nth-child(1)"
+dateFormat = "MMMM d, yyyy"
+matchOneOf = ["Malware & Ransomware", "Account Takeover", "Attack Stories", "Artificial Intelligence", "Business Email Compromise", "Credential Phishing", "Data & Trends", "Graymail", "Industry Research", "Third-Party App Attacks", "Threat Intel", "Vendor Email Compromise", "Security Solutions"]
+
+[armis_lab_research]
+title = "armis_lab_research"
+url = "https://www.armis.com/blog/?cat=armis-research"
+entrySelector = ".resources__item"
+titleSelector = ".resource__content > h5"
+linkSelector = ".resource > a"
+
+[armis_attack_vul]
+title = "armis_attack_vul"
+url = "https://www.armis.com/blog?cat=attacks-vulnerabilities"
+entrySelector = ".resources__item"
+titleSelector = ".resource__content > h5"
+linkSelector = ".resource > a"
