@@ -456,12 +456,13 @@ dateFormat = "yyyy-MM-dd"
 
 [stream_security]
 title = "stream_security"
-url = "https://www.stream.security/blog-category/cloud-detection-response"
+url = "https://www.stream.security/blog"
 entrySelector = ".post-card"
-titleSelector = ".b-title h5"
+titleSelector = ".b-title h2"
 linkSelector = ".b-title"
 dateSelector = ".date"
 dateFormat = "MMM d, yyyy"
+matchOneOf = ["Cloud Detection & Response", "Cloud Security", "AI"]
 
 [itewiki]
 title = "itewiki"
@@ -469,3 +470,10 @@ url = "https://www.itewiki.fi/bountyy#posts"
 entrySelector = ".post_item"
 titleSelector = ".title_"
 linkSelector = ".no_link"
+
+[mindgard]
+title = "mindgard"
+url = "https://mindgard.ai/learn/blog"
+entrySelector = ".blog-grid-twos-item"
+titleSelector = ".blog-grid-2x-title"
+linkSelector = "a.blog-item"
