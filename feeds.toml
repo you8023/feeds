@@ -497,7 +497,7 @@ linkSelector = "h3 > a"
 [abnormal_ai]
 title = "abnormal_ai"
 url = "https://abnormal.ai/blog"
-entrySelector = "a.ρrzkOg"
+entrySelector = ".ρd__all > a.ρi"
 titleSelector = "span.chakra-text"
 linkSelector = "*"
 dateSelector = ".chakra-stack > p:nth-child(1)"
@@ -517,3 +517,13 @@ url = "https://www.armis.com/blog?cat=attacks-vulnerabilities"
 entrySelector = ".resources__item"
 titleSelector = ".resource__content > h5"
 linkSelector = ".resource > a"
+
+[crowdstrike]
+title = "crowdstrike"
+url = "https://www.crowdstrike.com/en-us/blog/recent-articles/"
+entrySelector = ".recent_article"
+titleSelector = "h3 > a"
+linkSelector = "h3 > a"
+dateSelector = ".publish_info > p"
+dateFormat = "MMMM d, yyyy"
+filters = ["Executive Viewpoint", "Public Sector", "Small Business", "Next-Gen SIEM & Log Management"]
