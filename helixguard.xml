@@ -2,9 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://helixguard.ai/blog</id>
     <title>helixguard</title>
-    <updated>2025-12-10T15:50:04.659Z</updated>
+    <updated>2025-12-10T17:48:53.188Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://helixguard.ai/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[How widespread is the impact of Critical Security Vulnerability in React Server Components(CVE-2025-55182)]]></title>
+        <id>https://helixguard.ai/blog/CVE-2025-55182</id>
+        <link href="https://helixguard.ai/blog/CVE-2025-55182"/>
+        <updated>2025-12-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div data-v-0e1120e2="" class="post-header"><div data-v-0e1120e2="" class="post-meta"><span data-v-0e1120e2="" class="post-date">2025-12-10</span><span data-v-0e1120e2="" class="post-author">HelixGuard Team</span><span data-v-0e1120e2="" class="reading-time">5 min read</span></div></div><h2 data-v-0e1120e2="" class="post-title"><a data-v-0e1120e2="" href="/blog/CVE-2025-55182" class="">How widespread is the impact of Critical Security Vulnerability in React Server Components(CVE-2025-55182)</a></h2><p data-v-0e1120e2="" class="post-excerpt">React Server Components (RSC) are a new feature in React that allows developers to render React components on the server. However, a critical security vulnerability in RSC could allow an attacker to inject arbitrary commands into the server's command execution environment. This could lead to unauthorized access, data exposure, or even complete system compromise.</p><div data-v-0e1120e2="" class="post-footer"><div data-v-0e1120e2="" class="post-tags"><button data-v-0e1120e2="" class="tag">Vulnerability</button><button data-v-0e1120e2="" class="tag">React Server Components</button></div><a data-v-0e1120e2="" href="/blog/CVE-2025-55182" class="read-more"> Read More → </a></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Deep Dive into the Next.js RSC RCE PoC (CVE-2025-66478)]]></title>
         <id>https://helixguard.ai/blog/CVE-2025-66478</id>
@@ -39,12 +46,5 @@
         <link href="https://helixguard.ai/blog/CVE-2025-64513"/>
         <updated>2025-11-12T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<div data-v-0e1120e2="" class="post-header"><div data-v-0e1120e2="" class="post-meta"><span data-v-0e1120e2="" class="post-date">2025-11-12</span><span data-v-0e1120e2="" class="post-author">HelixGuard Team</span><span data-v-0e1120e2="" class="reading-time">3 min read</span></div></div><h2 data-v-0e1120e2="" class="post-title"><a data-v-0e1120e2="" href="/blog/CVE-2025-64513" class="">Milvus Proxy Authentication Bypass Vulnerability(CVE-2025-64513)</a></h2><p data-v-0e1120e2="" class="post-excerpt">Milvus is an open-source vector database designed for generative AI workloads. In affected versions, the Proxy treats the user-controlled HTTP header `sourceId` as an internal component credential.</p><div data-v-0e1120e2="" class="post-footer"><div data-v-0e1120e2="" class="post-tags"><button data-v-0e1120e2="" class="tag">Vulnerability</button><button data-v-0e1120e2="" class="tag">Milvus</button></div><a data-v-0e1120e2="" href="/blog/CVE-2025-64513" class="read-more"> Read More → </a></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Attacker Target VSCode Extension Marketplace, IDE Plugins Face Higher Supply Chain Attack Risks]]></title>
-        <id>https://helixguard.ai/blog/malicious-vscode-plugin-2025-10-28</id>
-        <link href="https://helixguard.ai/blog/malicious-vscode-plugin-2025-10-28"/>
-        <updated>2025-10-28T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div data-v-0e1120e2="" class="post-header"><div data-v-0e1120e2="" class="post-meta"><span data-v-0e1120e2="" class="post-date">2025-10-28</span><span data-v-0e1120e2="" class="post-author">HelixGuard Team</span><span data-v-0e1120e2="" class="reading-time">6 min read</span></div></div><h2 data-v-0e1120e2="" class="post-title"><a data-v-0e1120e2="" href="/blog/malicious-vscode-plugin-2025-10-28" class="">Attacker Target VSCode Extension Marketplace, IDE Plugins Face Higher Supply Chain Attack Risks</a></h2><p data-v-0e1120e2="" class="post-excerpt">VSCode extension marketplace and IDE plugins are vulnerable to supply chain attacks, as attackers can publish malicious extensions that contain hidden backdoors or exploit existing vulnerabilities. This could lead to unauthorized access, data exposure, or even complete system compromise.</p><div data-v-0e1120e2="" class="post-footer"><div data-v-0e1120e2="" class="post-tags"><button data-v-0e1120e2="" class="tag">Malware</button><button data-v-0e1120e2="" class="tag">VSCode</button></div><a data-v-0e1120e2="" href="/blog/malicious-vscode-plugin-2025-10-28" class="read-more"> Read More → </a></div>]]></content>
     </entry>
 </feed>
