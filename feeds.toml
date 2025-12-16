@@ -534,3 +534,20 @@ url = "https://www.cynet.com/blog/"
 entrySelector = ".ue_post_grid_item"
 titleSelector = ".ue_p_title"
 linkSelector = ".ue_post_full_link"
+
+[phishing_club]
+title = "phishing_club"
+url = "https://phishing.club/blog/"
+entrySelector = ".post-card"
+titleSelector = ".post-content > h3 > a"
+linkSelector = ".post-content > h3 > a"
+dateSelector = ".post-meta time"
+
+[flare_report]
+title = "flare.io report"
+url = "https://flare.io/learn/resources/"
+entrySelector = ".filter-animation .success-stories-content .loop-item"
+titleSelector = ".loop-title > a"
+linkSelector = ".loop-title > a"
+dateSelector = "> div > div:nth-child(2) > div"
+dateFormat = "dd.MM.yyyy"
