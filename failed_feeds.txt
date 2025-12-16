@@ -22,21 +22,3 @@ titleSelector = ".text-DarkestBlue"
 linkSelector = "> a"
 dateSelector = ".text-darkGray"
 dateFormat = "MMMM d, yyyy"
-
-[trainsec]
-title = "trainsec"
-url = "https://trainsec.net/library/"
-entrySelector = ".elementor-post"
-titleSelector = ".elementor-post__title > a"
-linkSelector = ".elementor-post__title > a"
-dateSelector = ".elementor-post-date"
-dateFormat = "MMMM d, yyyy"
-
-[seandeaton]
-title = "seandeaton"
-url = "https://www.seandeaton.com/"
-entrySelector = "article.gh-card"
-titleSelector = ":where(.gh-article-title, .gh-card-title)"
-linkSelector = ".gh-card-link"
-dateSelector = "time"
-dateFormat = "MMM d, yyyy"
