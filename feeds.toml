@@ -551,3 +551,21 @@ titleSelector = ".loop-title > a"
 linkSelector = ".loop-title > a"
 dateSelector = "> div > div:nth-child(2) > div"
 dateFormat = "dd.MM.yyyy"
+
+[eversinc33]
+title = "eversinc33"
+url = "https://eversinc33.com/"
+entrySelector = "article.post"
+titleSelector = ".post-title-link"
+linkSelector = ".post-title-link"
+dateSelector = ".post-time"
+dateFormat = "yyyy-MM-dd"
+
+[cydome]
+title = "cydome"
+url = "https://cydome.io/resource-categorization/news/"
+entrySelector = ".jet-listing-grid__item"
+titleSelector = ".elementor-heading-title"
+linkSelector = ".elementor-button-link"
+dateSelector = ".elementor-post-info__item--type-date time"
+dateFormat = "MMMM d, yyyy"
