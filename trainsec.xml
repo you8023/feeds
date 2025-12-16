@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://trainsec.net/library/</id>
+    <title>trainsec</title>
+    <updated>2025-12-16T09:15:06.257Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <icon>https://trainsec.net/wp-content/uploads/2024/05/Icon-no-space@2x-150x150.png</icon>
+    <entry>
+        <title type="html"><![CDATA[AMSI Scanning in C#: P/Invoke, Memory-Mapped Files, and Safe Interop]]></title>
+        <id>https://trainsec.net/library/windows-internals/anti-malware-scan-interface-c-sharp/</id>
+        <link href="https://trainsec.net/library/windows-internals/anti-malware-scan-interface-c-sharp/"/>
+        <updated>2025-12-16T09:15:02.491Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/anti-malware-scan-interface-c-sharp/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="2560" height="1453" src="https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-scaled.png" class="attachment-full size-full wp-image-8789" alt="Screenshot 2025 11 09 at 16.11.13 scaled" srcset="https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-scaled.png 2560w, https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-300x170.png 300w, https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-1024x581.png 1024w, https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-768x436.png 768w, https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-1536x872.png 1536w, https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-2048x1162.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/anti-malware-scan-interface-c-sharp/">
+				AMSI Scanning in C#: P/Invoke, Memory-Mapped Files, and Safe Interop			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			November 10, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In this video, I demonstrate how to perform a file scan using Windows AMSI directly from C#.<br>
+I walk through importing AMSI functions from Amsi.dll with P/Invoke, enabling PreserveSig = false for automatic exception handling, mapping a file into memory, and passing an unsafe pointer to AmsiScanBuffer.</p>
+		</div>
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/anti-malware-scan-interface-c-sharp/" aria-label="Read more about AMSI Scanning in C#: P/Invoke, Memory-Mapped Files, and Safe Interop" tabindex="-1">
+			Dive in		</a>
+
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMSI Scanning in C#: P/Invoke, Memory-Mapped Files, and Safe Interop]]></title>
+        <id>https://trainsec.net/library/windows-internals/anti-malware-scan-interface-c-sharp/</id>
+        <link href="https://trainsec.net/library/windows-internals/anti-malware-scan-interface-c-sharp/"/>
+        <updated>2025-12-16T09:15:02.496Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/anti-malware-scan-interface-c-sharp/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="2560" height="1453" src="https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-scaled.png" class="attachment-full size-full wp-image-8789" alt="Screenshot 2025 11 09 at 16.11.13 scaled" srcset="https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-scaled.png 2560w, https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-300x170.png 300w, https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-1024x581.png 1024w, https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-768x436.png 768w, https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-1536x872.png 1536w, https://trainsec.net/wp-content/uploads/2025/11/Screenshot-2025-11-09-at-16.11.13-2048x1162.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/anti-malware-scan-interface-c-sharp/">
+				AMSI Scanning in C#: P/Invoke, Memory-Mapped Files, and Safe Interop			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			November 10, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In this video, I demonstrate how to perform a file scan using Windows AMSI directly from C#.<br> I walk through importing AMSI functions from		</p></div>
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/anti-malware-scan-interface-c-sharp/" aria-label="Read more about AMSI Scanning in C#: P/Invoke, Memory-Mapped Files, and Safe Interop" tabindex="-1">
+			Read More 		</a>
+
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to scan files with the Anti-Malware Scan Interface in Windows?]]></title>
+        <id>https://trainsec.net/library/windows-internals/how-to-scan-files-with-the-anti-malware-scan-interface-in-windows/</id>
+        <link href="https://trainsec.net/library/windows-internals/how-to-scan-files-with-the-anti-malware-scan-interface-in-windows/"/>
+        <updated>2025-12-16T09:15:02.505Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/how-to-scan-files-with-the-anti-malware-scan-interface-in-windows/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="2560" height="1455" src="https://trainsec.net/wp-content/uploads/2025/11/amsi-scaled.png" class="attachment-full size-full wp-image-8780" alt="amsi scaled" srcset="https://trainsec.net/wp-content/uploads/2025/11/amsi-scaled.png 2560w, https://trainsec.net/wp-content/uploads/2025/11/amsi-300x171.png 300w, https://trainsec.net/wp-content/uploads/2025/11/amsi-1024x582.png 1024w, https://trainsec.net/wp-content/uploads/2025/11/amsi-768x437.png 768w, https://trainsec.net/wp-content/uploads/2025/11/amsi-1536x873.png 1536w, https://trainsec.net/wp-content/uploads/2025/11/amsi-2048x1164.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/how-to-scan-files-with-the-anti-malware-scan-interface-in-windows/">
+				How to scan files with the Anti-Malware Scan Interface in Windows?			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			November 10, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In this session, I wanted to show how AMSI works in practice and how we		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/how-to-scan-files-with-the-anti-malware-scan-interface-in-windows/" aria-label="Read more about How to scan files with the Anti-Malware Scan Interface in Windows?" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cyber & AI – Friend or Foe? Lessons from the Orange Systems Inspiration Session]]></title>
+        <id>https://trainsec.net/library/malware-analysis/cyber-ai-friend-or-foe-lessons-from-the-orange-systems-inspiration-session/</id>
+        <link href="https://trainsec.net/library/malware-analysis/cyber-ai-friend-or-foe-lessons-from-the-orange-systems-inspiration-session/"/>
+        <updated>2025-12-16T09:15:02.505Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/cyber-ai-friend-or-foe-lessons-from-the-orange-systems-inspiration-session/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="720" height="404" src="https://trainsec.net/wp-content/uploads/2025/11/hq720.png" class="attachment-full size-full wp-image-8765" alt="hq720" srcset="https://trainsec.net/wp-content/uploads/2025/11/hq720.png 720w, https://trainsec.net/wp-content/uploads/2025/11/hq720-300x168.png 300w" sizes="(max-width: 720px) 100vw, 720px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/cyber-ai-friend-or-foe-lessons-from-the-orange-systems-inspiration-session/">
+				Cyber &amp; AI – Friend or Foe? Lessons from the Orange Systems Inspiration Session			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			November 10, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>AI is not good or bad, it’s a mirror. It reflects how we use it.		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/cyber-ai-friend-or-foe-lessons-from-the-orange-systems-inspiration-session/" aria-label="Read more about Cyber &amp; AI – Friend or Foe? Lessons from the Orange Systems Inspiration Session" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inside Windows Sessions: A Deep Dive with Pavel]]></title>
+        <id>https://trainsec.net/library/windows-internals/inside-windows-sessions/</id>
+        <link href="https://trainsec.net/library/windows-internals/inside-windows-sessions/"/>
+        <updated>2025-12-16T09:15:02.505Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/inside-windows-sessions/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="2560" height="1346" src="https://trainsec.net/wp-content/uploads/2025/09/Inside-Windows-Sessions-scaled.png" class="attachment-full size-full wp-image-7616" alt="Inside Windows Sessions" srcset="https://trainsec.net/wp-content/uploads/2025/09/Inside-Windows-Sessions-scaled.png 2560w, https://trainsec.net/wp-content/uploads/2025/09/Inside-Windows-Sessions-300x158.png 300w, https://trainsec.net/wp-content/uploads/2025/09/Inside-Windows-Sessions-1024x538.png 1024w, https://trainsec.net/wp-content/uploads/2025/09/Inside-Windows-Sessions-768x404.png 768w, https://trainsec.net/wp-content/uploads/2025/09/Inside-Windows-Sessions-1536x808.png 1536w, https://trainsec.net/wp-content/uploads/2025/09/Inside-Windows-Sessions-2048x1077.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/inside-windows-sessions/">
+				Inside Windows Sessions: A Deep Dive with Pavel			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			September 22, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Learn how Windows sessions manage processes, desktops, clipboards, and security. Pavel Yosifovich explains Session 0,		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/inside-windows-sessions/" aria-label="Read more about Inside Windows Sessions: A Deep Dive with Pavel" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Capture a Process Snapshot in Windows]]></title>
+        <id>https://trainsec.net/library/windows-internals/process-snapshotting-in-windows/</id>
+        <link href="https://trainsec.net/library/windows-internals/process-snapshotting-in-windows/"/>
+        <updated>2025-12-16T09:15:02.506Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-snapshotting-in-windows/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="2560" height="1310" src="https://trainsec.net/wp-content/uploads/2025/09/Process-snapshotting-scaled.png" class="attachment-full size-full wp-image-7431" alt="Process snapshotting" srcset="https://trainsec.net/wp-content/uploads/2025/09/Process-snapshotting-scaled.png 2560w, https://trainsec.net/wp-content/uploads/2025/09/Process-snapshotting-300x153.png 300w, https://trainsec.net/wp-content/uploads/2025/09/Process-snapshotting-1024x524.png 1024w, https://trainsec.net/wp-content/uploads/2025/09/Process-snapshotting-768x393.png 768w, https://trainsec.net/wp-content/uploads/2025/09/Process-snapshotting-1536x786.png 1536w, https://trainsec.net/wp-content/uploads/2025/09/Process-snapshotting-2048x1048.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/process-snapshotting-in-windows/">
+				How to Capture a Process Snapshot in Windows			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			September 16, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>When working with processes, we often want to understand what is going on inside them.		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-snapshotting-in-windows/" aria-label="Read more about How to Capture a Process Snapshot in Windows" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MAoS – Malware Analysis on Steroids book released]]></title>
+        <id>https://trainsec.net/library/malware-analysis/maos-malware-analysis-on-steroids-book/</id>
+        <link href="https://trainsec.net/library/malware-analysis/maos-malware-analysis-on-steroids-book/"/>
+        <updated>2025-12-16T09:15:02.506Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/maos-malware-analysis-on-steroids-book/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1024" height="1536" src="https://trainsec.net/wp-content/uploads/2025/05/MAoS-Book-Cover.png" class="attachment-full size-full wp-image-5599" alt="maos - malware analysis on steroids" srcset="https://trainsec.net/wp-content/uploads/2025/05/MAoS-Book-Cover.png 1024w, https://trainsec.net/wp-content/uploads/2025/05/MAoS-Book-Cover-200x300.png 200w, https://trainsec.net/wp-content/uploads/2025/05/MAoS-Book-Cover-683x1024.png 683w, https://trainsec.net/wp-content/uploads/2025/05/MAoS-Book-Cover-768x1152.png 768w" sizes="(max-width: 1024px) 100vw, 1024px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/maos-malware-analysis-on-steroids-book/">
+				MAoS – Malware Analysis on Steroids book released			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			September 11, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Unlike most malware books, this one doesn’t stay clean, academic, or theoretical. MAoS is a		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/maos-malware-analysis-on-steroids-book/" aria-label="Read more about MAoS – Malware Analysis on Steroids book released" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Build a Process Tree in Windows with Code]]></title>
+        <id>https://trainsec.net/library/windows-internals/process-tree-in-windows/</id>
+        <link href="https://trainsec.net/library/windows-internals/process-tree-in-windows/"/>
+        <updated>2025-12-16T09:15:02.508Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-tree-in-windows/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="2560" height="1331" src="https://trainsec.net/wp-content/uploads/2025/09/Get-the-Process-Tree-on-Windows-scaled.png" class="attachment-full size-full wp-image-7170" alt="process explorer on windows" srcset="https://trainsec.net/wp-content/uploads/2025/09/Get-the-Process-Tree-on-Windows-scaled.png 2560w, https://trainsec.net/wp-content/uploads/2025/09/Get-the-Process-Tree-on-Windows-300x156.png 300w, https://trainsec.net/wp-content/uploads/2025/09/Get-the-Process-Tree-on-Windows-1024x533.png 1024w, https://trainsec.net/wp-content/uploads/2025/09/Get-the-Process-Tree-on-Windows-768x399.png 768w, https://trainsec.net/wp-content/uploads/2025/09/Get-the-Process-Tree-on-Windows-1536x799.png 1536w, https://trainsec.net/wp-content/uploads/2025/09/Get-the-Process-Tree-on-Windows-2048x1065.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/process-tree-in-windows/">
+				How to Build a Process Tree in Windows with Code			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			September 5, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In this video we walk through how process trees are built in Windows, starting with		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-tree-in-windows/" aria-label="Read more about How to Build a Process Tree in Windows with Code" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How does Windows Subsystem for Linux (Version 1) actually work?]]></title>
+        <id>https://trainsec.net/library/windows-internals/windows-subsystem-for-linux/</id>
+        <link href="https://trainsec.net/library/windows-internals/windows-subsystem-for-linux/"/>
+        <updated>2025-12-16T09:15:02.510Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/windows-subsystem-for-linux/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1920" height="1084" src="https://trainsec.net/wp-content/uploads/2025/08/windows-subsystem-linux.webp" class="attachment-full size-full wp-image-6859" alt="wsl 1" srcset="https://trainsec.net/wp-content/uploads/2025/08/windows-subsystem-linux.webp 1920w, https://trainsec.net/wp-content/uploads/2025/08/windows-subsystem-linux-300x169.webp 300w, https://trainsec.net/wp-content/uploads/2025/08/windows-subsystem-linux-1024x578.webp 1024w, https://trainsec.net/wp-content/uploads/2025/08/windows-subsystem-linux-768x434.webp 768w, https://trainsec.net/wp-content/uploads/2025/08/windows-subsystem-linux-1536x867.webp 1536w" sizes="(max-width: 1920px) 100vw, 1920px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/windows-subsystem-for-linux/">
+				How does Windows Subsystem for Linux (Version 1) actually work?			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			August 27, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Windows Subsystem for Linux (WSL) first appeared in Windows 10 (Anniversary Update, 1607). It enables		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/windows-subsystem-for-linux/" aria-label="Read more about How does Windows Subsystem for Linux (Version 1) actually work?" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kernel Allocation Tags in Windows Explained]]></title>
+        <id>https://trainsec.net/library/windows-internals/kernel-allocation-tags-in-windows-explained/</id>
+        <link href="https://trainsec.net/library/windows-internals/kernel-allocation-tags-in-windows-explained/"/>
+        <updated>2025-12-16T09:15:02.511Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/kernel-allocation-tags-in-windows-explained/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="802" height="452" src="https://trainsec.net/wp-content/uploads/2025/08/kernel-allocation-tags-in-Windows.webp" class="attachment-full size-full wp-image-6755" alt="kernel allocation tags in Windows" srcset="https://trainsec.net/wp-content/uploads/2025/08/kernel-allocation-tags-in-Windows.webp 802w, https://trainsec.net/wp-content/uploads/2025/08/kernel-allocation-tags-in-Windows-300x169.webp 300w, https://trainsec.net/wp-content/uploads/2025/08/kernel-allocation-tags-in-Windows-768x433.webp 768w" sizes="(max-width: 802px) 100vw, 802px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/kernel-allocation-tags-in-windows-explained/">
+				Kernel Allocation Tags in Windows Explained			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			August 21, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Learn what kernel allocation tags are, how they help track Windows kernel memory, detect driver		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/kernel-allocation-tags-in-windows-explained/" aria-label="Read more about Kernel Allocation Tags in Windows Explained" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inside the Windows Recycle Bin – What Really Happens When You Delete a File?]]></title>
+        <id>https://trainsec.net/library/windows-internals/inside-the-windows-recycle-bin-what-really-happens-when-you-delete-a-file/</id>
+        <link href="https://trainsec.net/library/windows-internals/inside-the-windows-recycle-bin-what-really-happens-when-you-delete-a-file/"/>
+        <updated>2025-12-16T09:15:02.513Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/inside-the-windows-recycle-bin-what-really-happens-when-you-delete-a-file/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1536" height="1024" src="https://trainsec.net/wp-content/uploads/2025/08/6adaf8b0-a5ee-4ad7-94a1-94eb00c1802e.webp" class="attachment-full size-full wp-image-6733" alt="6adaf8b0 a5ee 4ad7 94a1 94eb00c1802e" srcset="https://trainsec.net/wp-content/uploads/2025/08/6adaf8b0-a5ee-4ad7-94a1-94eb00c1802e.webp 1536w, https://trainsec.net/wp-content/uploads/2025/08/6adaf8b0-a5ee-4ad7-94a1-94eb00c1802e-300x200.webp 300w, https://trainsec.net/wp-content/uploads/2025/08/6adaf8b0-a5ee-4ad7-94a1-94eb00c1802e-1024x683.webp 1024w, https://trainsec.net/wp-content/uploads/2025/08/6adaf8b0-a5ee-4ad7-94a1-94eb00c1802e-768x512.webp 768w" sizes="(max-width: 1536px) 100vw, 1536px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/inside-the-windows-recycle-bin-what-really-happens-when-you-delete-a-file/">
+				Inside the Windows Recycle Bin – What Really Happens When You Delete a File?			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			August 13, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>We’ve all used the Recycle Bin. You delete a file, and it shows up there,		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/inside-the-windows-recycle-bin-what-really-happens-when-you-delete-a-file/" aria-label="Read more about Inside the Windows Recycle Bin – What Really Happens When You Delete a File?" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Two Sides of The Same Coin – From Dissected Malware to EDR Evasion]]></title>
+        <id>https://trainsec.net/library/malware-analysis/two-sides-of-the-same-coin-from-dissected-malware-to-edr-evasion/</id>
+        <link href="https://trainsec.net/library/malware-analysis/two-sides-of-the-same-coin-from-dissected-malware-to-edr-evasion/"/>
+        <updated>2025-12-16T09:15:02.514Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/two-sides-of-the-same-coin-from-dissected-malware-to-edr-evasion/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1203" height="934" src="https://trainsec.net/wp-content/uploads/2025/08/rs_before-2.webp" class="attachment-full size-full wp-image-6698" alt="rs before 2" srcset="https://trainsec.net/wp-content/uploads/2025/08/rs_before-2.webp 1203w, https://trainsec.net/wp-content/uploads/2025/08/rs_before-2-300x233.webp 300w, https://trainsec.net/wp-content/uploads/2025/08/rs_before-2-1024x795.webp 1024w, https://trainsec.net/wp-content/uploads/2025/08/rs_before-2-768x596.webp 768w" sizes="(max-width: 1203px) 100vw, 1203px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/two-sides-of-the-same-coin-from-dissected-malware-to-edr-evasion/">
+				Two Sides of The Same Coin – From Dissected Malware to EDR Evasion			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			August 10, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>This blog is not here to give you a “step-by-step recipe.” It’s here to open		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/two-sides-of-the-same-coin-from-dissected-malware-to-edr-evasion/" aria-label="Read more about Two Sides of The Same Coin – From Dissected Malware to EDR Evasion" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protected Processes & PPL: keeping Windows’ heart safe]]></title>
+        <id>https://trainsec.net/library/windows-internals/protected-processes-ppl-keeping-windows-heart-safe/</id>
+        <link href="https://trainsec.net/library/windows-internals/protected-processes-ppl-keeping-windows-heart-safe/"/>
+        <updated>2025-12-16T09:15:02.518Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/protected-processes-ppl-keeping-windows-heart-safe/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1920" height="1045" src="https://trainsec.net/wp-content/uploads/2025/08/Protected-Processes.webp" class="attachment-full size-full wp-image-6661" alt="Protected Processes" srcset="https://trainsec.net/wp-content/uploads/2025/08/Protected-Processes.webp 1920w, https://trainsec.net/wp-content/uploads/2025/08/Protected-Processes-300x163.webp 300w, https://trainsec.net/wp-content/uploads/2025/08/Protected-Processes-1024x557.webp 1024w, https://trainsec.net/wp-content/uploads/2025/08/Protected-Processes-768x418.webp 768w, https://trainsec.net/wp-content/uploads/2025/08/Protected-Processes-1536x836.webp 1536w" sizes="(max-width: 1920px) 100vw, 1920px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/protected-processes-ppl-keeping-windows-heart-safe/">
+				Protected Processes &amp; PPL: keeping Windows’ heart safe			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			August 7, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Starting with Windows Vista, Microsoft introduced protected processes—special executables the kernel shields from injection, memory		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/protected-processes-ppl-keeping-windows-heart-safe/" aria-label="Read more about Protected Processes &amp; PPL: keeping Windows’ heart safe" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kernel Debugging Windows VMs – A Practical Walk-Through]]></title>
+        <id>https://trainsec.net/library/windows-internals/kernel-debugging-windows-vms-a-practical-walk-through/</id>
+        <link href="https://trainsec.net/library/windows-internals/kernel-debugging-windows-vms-a-practical-walk-through/"/>
+        <updated>2025-12-16T09:15:02.519Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/kernel-debugging-windows-vms-a-practical-walk-through/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1920" height="986" src="https://trainsec.net/wp-content/uploads/2025/07/Kernel-Debugging-with-Virtual-Machine.webp" class="attachment-full size-full wp-image-6621" alt="Kernel Debugging with Virtual Machine" srcset="https://trainsec.net/wp-content/uploads/2025/07/Kernel-Debugging-with-Virtual-Machine.webp 1920w, https://trainsec.net/wp-content/uploads/2025/07/Kernel-Debugging-with-Virtual-Machine-300x154.webp 300w, https://trainsec.net/wp-content/uploads/2025/07/Kernel-Debugging-with-Virtual-Machine-1024x526.webp 1024w, https://trainsec.net/wp-content/uploads/2025/07/Kernel-Debugging-with-Virtual-Machine-768x394.webp 768w, https://trainsec.net/wp-content/uploads/2025/07/Kernel-Debugging-with-Virtual-Machine-1536x789.webp 1536w" sizes="(max-width: 1920px) 100vw, 1920px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/kernel-debugging-windows-vms-a-practical-walk-through/">
+				Kernel Debugging Windows VMs – A Practical Walk-Through			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			July 31, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Debugging Windows at kernel level lets you watch every CPU instruction, intercept system calls, and		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/kernel-debugging-windows-vms-a-practical-walk-through/" aria-label="Read more about Kernel Debugging Windows VMs – A Practical Walk-Through" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction to Windows Management Instrumentation (WMI)]]></title>
+        <id>https://trainsec.net/library/windows-internals/windows-management-instrumentation-wmi/</id>
+        <link href="https://trainsec.net/library/windows-internals/windows-management-instrumentation-wmi/"/>
+        <updated>2025-12-16T09:15:02.521Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/windows-management-instrumentation-wmi/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1600" height="900" src="https://trainsec.net/wp-content/uploads/2025/07/Introduction-to-Windows-Management-Instrumentation-WMI.webp" class="attachment-full size-full wp-image-6601" alt="Introduction to Windows Management Instrumentation - WMI" srcset="https://trainsec.net/wp-content/uploads/2025/07/Introduction-to-Windows-Management-Instrumentation-WMI.webp 1600w, https://trainsec.net/wp-content/uploads/2025/07/Introduction-to-Windows-Management-Instrumentation-WMI-300x169.webp 300w, https://trainsec.net/wp-content/uploads/2025/07/Introduction-to-Windows-Management-Instrumentation-WMI-1024x576.webp 1024w, https://trainsec.net/wp-content/uploads/2025/07/Introduction-to-Windows-Management-Instrumentation-WMI-768x432.webp 768w, https://trainsec.net/wp-content/uploads/2025/07/Introduction-to-Windows-Management-Instrumentation-WMI-1536x864.webp 1536w" sizes="(max-width: 1600px) 100vw, 1600px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/windows-management-instrumentation-wmi/">
+				Introduction to Windows Management Instrumentation (WMI)			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			July 20, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In just 25 minutes the walk-through shows you how Windows Management Instrumentation (WMI) reveals almost		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/windows-management-instrumentation-wmi/" aria-label="Read more about Introduction to Windows Management Instrumentation (WMI)" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Writing a Simple Key Logger]]></title>
+        <id>https://trainsec.net/library/windows-internals/writing-a-simple-key-logger/</id>
+        <link href="https://trainsec.net/library/windows-internals/writing-a-simple-key-logger/"/>
+        <updated>2025-12-16T09:15:02.522Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/writing-a-simple-key-logger/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1897" height="933" src="https://trainsec.net/wp-content/uploads/2025/04/Writing-a-Simple-Key-Logger.png" class="attachment-full size-full wp-image-5158" alt="Writing a Simple Key Logger" srcset="https://trainsec.net/wp-content/uploads/2025/04/Writing-a-Simple-Key-Logger.png 1897w, https://trainsec.net/wp-content/uploads/2025/04/Writing-a-Simple-Key-Logger-300x148.png 300w, https://trainsec.net/wp-content/uploads/2025/04/Writing-a-Simple-Key-Logger-1024x504.png 1024w, https://trainsec.net/wp-content/uploads/2025/04/Writing-a-Simple-Key-Logger-768x378.png 768w, https://trainsec.net/wp-content/uploads/2025/04/Writing-a-Simple-Key-Logger-1536x755.png 1536w" sizes="(max-width: 1897px) 100vw, 1897px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/writing-a-simple-key-logger/">
+				Writing a Simple Key Logger			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			June 2, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In this video, Pavel walks through how to implement a basic keylogger in Windows using		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/writing-a-simple-key-logger/" aria-label="Read more about Writing a Simple Key Logger" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can Document Files Be Trusted?]]></title>
+        <id>https://trainsec.net/library/malware-analysis/can-document-files-be-trusted/</id>
+        <link href="https://trainsec.net/library/malware-analysis/can-document-files-be-trusted/"/>
+        <updated>2025-12-16T09:15:02.524Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/can-document-files-be-trusted/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1000" height="1000" src="https://trainsec.net/wp-content/uploads/2025/05/pdf.jpeg" class="attachment-full size-full wp-image-5560" alt="pdf" srcset="https://trainsec.net/wp-content/uploads/2025/05/pdf.jpeg 1000w, https://trainsec.net/wp-content/uploads/2025/05/pdf-300x300.jpeg 300w, https://trainsec.net/wp-content/uploads/2025/05/pdf-150x150.jpeg 150w, https://trainsec.net/wp-content/uploads/2025/05/pdf-768x768.jpeg 768w" sizes="(max-width: 1000px) 100vw, 1000px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/can-document-files-be-trusted/">
+				Can Document Files Be Trusted?			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			June 2, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>There are a variety of threats in today’s cyber landscape, but one of the biggest		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/can-document-files-be-trusted/" aria-label="Read more about Can Document Files Be Trusted?" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Running an Executable as SYSTEM: Unlocking Windows Privilege Escalation Techniques]]></title>
+        <id>https://trainsec.net/library/windows-internals/running-an-executable-as-system/</id>
+        <link href="https://trainsec.net/library/windows-internals/running-an-executable-as-system/"/>
+        <updated>2025-12-16T09:15:02.525Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/running-an-executable-as-system/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1746" height="927" src="https://trainsec.net/wp-content/uploads/2025/03/executable-as-system.jpg" class="attachment-full size-full wp-image-3749" alt="executable as system" srcset="https://trainsec.net/wp-content/uploads/2025/03/executable-as-system.jpg 1746w, https://trainsec.net/wp-content/uploads/2025/03/executable-as-system-300x159.jpg 300w, https://trainsec.net/wp-content/uploads/2025/03/executable-as-system-1024x544.jpg 1024w, https://trainsec.net/wp-content/uploads/2025/03/executable-as-system-768x408.jpg 768w, https://trainsec.net/wp-content/uploads/2025/03/executable-as-system-1536x816.jpg 1536w" sizes="(max-width: 1746px) 100vw, 1746px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/running-an-executable-as-system/">
+				Running an Executable as SYSTEM: Unlocking Windows Privilege Escalation Techniques			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			April 17, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In this hands-on session, Pavel Yosifovich demonstrates how to launch a process under the SYSTEM		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/running-an-executable-as-system/" aria-label="Read more about Running an Executable as SYSTEM: Unlocking Windows Privilege Escalation Techniques" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reinventing UART Security: Leveraging the Parity Bit for Robust Protection in OT Networks]]></title>
+        <id>https://trainsec.net/library/hardware-hacking/uart-security-the-parity-bit/</id>
+        <link href="https://trainsec.net/library/hardware-hacking/uart-security-the-parity-bit/"/>
+        <updated>2025-12-16T09:15:02.526Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/hardware-hacking/uart-security-the-parity-bit/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1024" height="1024" src="https://trainsec.net/wp-content/uploads/2025/04/WhatsApp-Image-2025-03-20-at-17.07.04_4da72a4b.jpg" class="attachment-full size-full wp-image-4482" alt="Parity bit" srcset="https://trainsec.net/wp-content/uploads/2025/04/WhatsApp-Image-2025-03-20-at-17.07.04_4da72a4b.jpg 1024w, https://trainsec.net/wp-content/uploads/2025/04/WhatsApp-Image-2025-03-20-at-17.07.04_4da72a4b-300x300.jpg 300w, https://trainsec.net/wp-content/uploads/2025/04/WhatsApp-Image-2025-03-20-at-17.07.04_4da72a4b-150x150.jpg 150w, https://trainsec.net/wp-content/uploads/2025/04/WhatsApp-Image-2025-03-20-at-17.07.04_4da72a4b-768x768.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/hardware-hacking/uart-security-the-parity-bit/">
+				Reinventing UART Security: Leveraging the Parity Bit for Robust Protection in OT Networks			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Amichai Yifrach		</span>
+				<span class="elementor-post-date">
+			April 1, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>A practical and innovative approach to securing UART-based communication in OT networks—without replacing existing infrastructure.		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/hardware-hacking/uart-security-the-parity-bit/" aria-label="Read more about Reinventing UART Security: Leveraging the Parity Bit for Robust Protection in OT Networks" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Writing a WinDbg Extension: Streamline Your Debugging Workflow]]></title>
+        <id>https://trainsec.net/library/windows-internals/write-windbg-extensions/</id>
+        <link href="https://trainsec.net/library/windows-internals/write-windbg-extensions/"/>
+        <updated>2025-12-16T09:15:02.528Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/write-windbg-extensions/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1707" height="897" src="https://trainsec.net/wp-content/uploads/2025/03/windbg-extensions.jpg" class="attachment-full size-full wp-image-3742" alt="windbg" srcset="https://trainsec.net/wp-content/uploads/2025/03/windbg-extensions.jpg 1707w, https://trainsec.net/wp-content/uploads/2025/03/windbg-extensions-300x158.jpg 300w, https://trainsec.net/wp-content/uploads/2025/03/windbg-extensions-1024x538.jpg 1024w, https://trainsec.net/wp-content/uploads/2025/03/windbg-extensions-768x404.jpg 768w, https://trainsec.net/wp-content/uploads/2025/03/windbg-extensions-1536x807.jpg 1536w" sizes="(max-width: 1707px) 100vw, 1707px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/write-windbg-extensions/">
+				Writing a WinDbg Extension: Streamline Your Debugging Workflow			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			March 17, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>WinDbg is a powerful and highly extensible debugger that is widely used for Windows development,		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/write-windbg-extensions/" aria-label="Read more about Writing a WinDbg Extension: Streamline Your Debugging Workflow" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding UAC Virtualization: A Security Mechanism for Legacy Applications]]></title>
+        <id>https://trainsec.net/library/windows-internals/understanding-uac-virtualization/</id>
+        <link href="https://trainsec.net/library/windows-internals/understanding-uac-virtualization/"/>
+        <updated>2025-12-16T09:15:02.529Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/understanding-uac-virtualization/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2025/03/Understanding-UAC-Virtualization.jpg" class="attachment-full size-full wp-image-3751" alt="Understanding UAC Virtualization" srcset="https://trainsec.net/wp-content/uploads/2025/03/Understanding-UAC-Virtualization.jpg 1280w, https://trainsec.net/wp-content/uploads/2025/03/Understanding-UAC-Virtualization-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2025/03/Understanding-UAC-Virtualization-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2025/03/Understanding-UAC-Virtualization-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/understanding-uac-virtualization/">
+				Understanding UAC Virtualization: A Security Mechanism for Legacy Applications			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			March 17, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In this video, we dive deep into User Account Control (UAC) Virtualization—a feature introduced in		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/understanding-uac-virtualization/" aria-label="Read more about Understanding UAC Virtualization: A Security Mechanism for Legacy Applications" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reverse Engineering ARM based Mirai Botnet]]></title>
+        <id>https://trainsec.net/library/malware-analysis/reverse-engineering-arm-based-mirai-botnet/</id>
+        <link href="https://trainsec.net/library/malware-analysis/reverse-engineering-arm-based-mirai-botnet/"/>
+        <updated>2025-12-16T09:15:02.531Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/reverse-engineering-arm-based-mirai-botnet/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="5120" height="2510" src="https://trainsec.net/wp-content/uploads/2025/02/Reverse-Engineering-ARM-based-Mirai-Botnet.png" class="attachment-full size-full wp-image-3001" alt="Reverse Engineering ARM based Mirai Botnet" srcset="https://trainsec.net/wp-content/uploads/2025/02/Reverse-Engineering-ARM-based-Mirai-Botnet.png 5120w, https://trainsec.net/wp-content/uploads/2025/02/Reverse-Engineering-ARM-based-Mirai-Botnet-300x147.png 300w, https://trainsec.net/wp-content/uploads/2025/02/Reverse-Engineering-ARM-based-Mirai-Botnet-1024x502.png 1024w, https://trainsec.net/wp-content/uploads/2025/02/Reverse-Engineering-ARM-based-Mirai-Botnet-768x377.png 768w, https://trainsec.net/wp-content/uploads/2025/02/Reverse-Engineering-ARM-based-Mirai-Botnet-1536x753.png 1536w, https://trainsec.net/wp-content/uploads/2025/02/Reverse-Engineering-ARM-based-Mirai-Botnet-2048x1004.png 2048w" sizes="(max-width: 5120px) 100vw, 5120px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/reverse-engineering-arm-based-mirai-botnet/">
+				Reverse Engineering ARM based Mirai Botnet			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			February 17, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In this video, I’ll walk you through my methodology and insights gained when uncovering how		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/reverse-engineering-arm-based-mirai-botnet/" aria-label="Read more about Reverse Engineering ARM based Mirai Botnet" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring the Blue Screen of Death: A Practical Deep Dive]]></title>
+        <id>https://trainsec.net/library/windows-internals/blue-screen-of-death-a-practical-deep-dive/</id>
+        <link href="https://trainsec.net/library/windows-internals/blue-screen-of-death-a-practical-deep-dive/"/>
+        <updated>2025-12-16T09:15:02.532Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/blue-screen-of-death-a-practical-deep-dive/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="4266" height="2396" src="https://trainsec.net/wp-content/uploads/2025/02/green-screen-of-death.png" class="attachment-full size-full wp-image-2984" alt="Windows Insider Green Screen of Death showing a frowny face and crash information." srcset="https://trainsec.net/wp-content/uploads/2025/02/green-screen-of-death.png 4266w, https://trainsec.net/wp-content/uploads/2025/02/green-screen-of-death-300x168.png 300w, https://trainsec.net/wp-content/uploads/2025/02/green-screen-of-death-1024x575.png 1024w, https://trainsec.net/wp-content/uploads/2025/02/green-screen-of-death-768x431.png 768w, https://trainsec.net/wp-content/uploads/2025/02/green-screen-of-death-1536x863.png 1536w, https://trainsec.net/wp-content/uploads/2025/02/green-screen-of-death-2048x1150.png 2048w" sizes="(max-width: 4266px) 100vw, 4266px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/blue-screen-of-death-a-practical-deep-dive/">
+				Exploring the Blue Screen of Death: A Practical Deep Dive			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			February 17, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Dive into Pavel’s latest post exploring the Windows Blue Screen of Death—what triggers it, why		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/blue-screen-of-death-a-practical-deep-dive/" aria-label="Read more about Exploring the Blue Screen of Death: A Practical Deep Dive" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Live Workshop: Attack and Defense: Remote Thread Injection and Detection (Recorded)]]></title>
+        <id>https://trainsec.net/library/malware-analysis/join-our-live-workshop-attack-and-defense-remote-thread-injection-and-detection/</id>
+        <link href="https://trainsec.net/library/malware-analysis/join-our-live-workshop-attack-and-defense-remote-thread-injection-and-detection/"/>
+        <updated>2025-12-16T09:15:02.534Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/join-our-live-workshop-attack-and-defense-remote-thread-injection-and-detection/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1600" height="900" src="https://trainsec.net/wp-content/uploads/2025/01/Green-Professional-Technology-Webinar-Twitter-Post.png" class="attachment-full size-full wp-image-2900" alt="Green Professional Technology Webinar Twitter Post" srcset="https://trainsec.net/wp-content/uploads/2025/01/Green-Professional-Technology-Webinar-Twitter-Post.png 1600w, https://trainsec.net/wp-content/uploads/2025/01/Green-Professional-Technology-Webinar-Twitter-Post-300x169.png 300w, https://trainsec.net/wp-content/uploads/2025/01/Green-Professional-Technology-Webinar-Twitter-Post-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2025/01/Green-Professional-Technology-Webinar-Twitter-Post-768x432.png 768w, https://trainsec.net/wp-content/uploads/2025/01/Green-Professional-Technology-Webinar-Twitter-Post-1536x864.png 1536w" sizes="(max-width: 1600px) 100vw, 1600px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/join-our-live-workshop-attack-and-defense-remote-thread-injection-and-detection/">
+				Live Workshop: Attack and Defense: Remote Thread Injection and Detection (Recorded)			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			January 28, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>We’re excited to share the recorded workshop on Remote Thread Injection and EDR-based detection that		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/join-our-live-workshop-attack-and-defense-remote-thread-injection-and-detection/" aria-label="Read more about Live Workshop: Attack and Defense: Remote Thread Injection and Detection (Recorded)" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding RunDLL32: Leveraging Dynamic Function Invocation]]></title>
+        <id>https://trainsec.net/library/programming/rundll32/</id>
+        <link href="https://trainsec.net/library/programming/rundll32/"/>
+        <updated>2025-12-16T09:15:02.535Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/programming/rundll32/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="2560" height="1440" src="https://trainsec.net/wp-content/uploads/2025/01/RunDll32.jpg" class="attachment-full size-full wp-image-2725" alt="RunDll32" srcset="https://trainsec.net/wp-content/uploads/2025/01/RunDll32.jpg 2560w, https://trainsec.net/wp-content/uploads/2025/01/RunDll32-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2025/01/RunDll32-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2025/01/RunDll32-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2025/01/RunDll32-1536x864.jpg 1536w, https://trainsec.net/wp-content/uploads/2025/01/RunDll32-2048x1152.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/programming/rundll32/">
+				Understanding RunDLL32: Leveraging Dynamic Function Invocation			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			January 13, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Unlock the power of RunDLL32! Learn how to execute DLL functions, invoke control panel dialogs,		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/programming/rundll32/" aria-label="Read more about Understanding RunDLL32: Leveraging Dynamic Function Invocation" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dissecting the BlackByte Ransomware]]></title>
+        <id>https://trainsec.net/library/malware-analysis/dissecting-blackbyte-ransomware/</id>
+        <link href="https://trainsec.net/library/malware-analysis/dissecting-blackbyte-ransomware/"/>
+        <updated>2025-12-16T09:15:02.544Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/dissecting-blackbyte-ransomware/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="800" height="323" src="https://trainsec.net/wp-content/uploads/2025/01/image.png" class="attachment-full size-full wp-image-2647" alt="BlackByte ransomware" srcset="https://trainsec.net/wp-content/uploads/2025/01/image.png 800w, https://trainsec.net/wp-content/uploads/2025/01/image-300x121.png 300w, https://trainsec.net/wp-content/uploads/2025/01/image-768x310.png 768w" sizes="(max-width: 800px) 100vw, 800px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/dissecting-blackbyte-ransomware/">
+				Dissecting the BlackByte Ransomware			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			January 9, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Explore BlackByte ransomware: ProxyShell exploits, anti-debugging, and reverse engineering insights. Dive deep into this malware’s		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/dissecting-blackbyte-ransomware/" aria-label="Read more about Dissecting the BlackByte Ransomware" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shell Icon Handler extension]]></title>
+        <id>https://trainsec.net/library/programming/shell-icon-handler-extension/</id>
+        <link href="https://trainsec.net/library/programming/shell-icon-handler-extension/"/>
+        <updated>2025-12-16T09:15:02.545Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/programming/shell-icon-handler-extension/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="2560" height="1345" src="https://trainsec.net/wp-content/uploads/2025/01/Shell-Icon-Handler-extension.jpg" class="attachment-full size-full wp-image-2624" alt="Shell Icon Handler extension" srcset="https://trainsec.net/wp-content/uploads/2025/01/Shell-Icon-Handler-extension.jpg 2560w, https://trainsec.net/wp-content/uploads/2025/01/Shell-Icon-Handler-extension-300x158.jpg 300w, https://trainsec.net/wp-content/uploads/2025/01/Shell-Icon-Handler-extension-1024x538.jpg 1024w, https://trainsec.net/wp-content/uploads/2025/01/Shell-Icon-Handler-extension-768x404.jpg 768w, https://trainsec.net/wp-content/uploads/2025/01/Shell-Icon-Handler-extension-1536x807.jpg 1536w, https://trainsec.net/wp-content/uploads/2025/01/Shell-Icon-Handler-extension-2048x1076.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/programming/shell-icon-handler-extension/">
+				Shell Icon Handler extension			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			January 9, 2025		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Shell extensions are a powerful feature of the Windows shell that allow developers to extend		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/programming/shell-icon-handler-extension/" aria-label="Read more about Shell Icon Handler extension" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding the Differences Between CreateProcessAsUser and CreateProcessWithTokenW in Windows]]></title>
+        <id>https://trainsec.net/library/windows-internals/understanding-the-differences-between-createprocessasuser-and-createprocesswithtokenw-in-windows/</id>
+        <link href="https://trainsec.net/library/windows-internals/understanding-the-differences-between-createprocessasuser-and-createprocesswithtokenw-in-windows/"/>
+        <updated>2025-12-16T09:15:02.547Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/understanding-the-differences-between-createprocessasuser-and-createprocesswithtokenw-in-windows/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1989" height="1071" src="https://trainsec.net/wp-content/uploads/2024/12/CreateProcessAsUser-and-CreateProcessWithTokenW-in-Windows.jpg" class="attachment-full size-full wp-image-2563" alt="CreateProcessAsUser and CreateProcessWithTokenW in Windows" srcset="https://trainsec.net/wp-content/uploads/2024/12/CreateProcessAsUser-and-CreateProcessWithTokenW-in-Windows.jpg 1989w, https://trainsec.net/wp-content/uploads/2024/12/CreateProcessAsUser-and-CreateProcessWithTokenW-in-Windows-300x162.jpg 300w, https://trainsec.net/wp-content/uploads/2024/12/CreateProcessAsUser-and-CreateProcessWithTokenW-in-Windows-1024x551.jpg 1024w, https://trainsec.net/wp-content/uploads/2024/12/CreateProcessAsUser-and-CreateProcessWithTokenW-in-Windows-768x414.jpg 768w, https://trainsec.net/wp-content/uploads/2024/12/CreateProcessAsUser-and-CreateProcessWithTokenW-in-Windows-1536x827.jpg 1536w" sizes="(max-width: 1989px) 100vw, 1989px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/understanding-the-differences-between-createprocessasuser-and-createprocesswithtokenw-in-windows/">
+				Understanding the Differences Between CreateProcessAsUser and CreateProcessWithTokenW in Windows			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			December 17, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In this video, we dive into two powerful Windows API functions—CreateProcessAsUser and CreateProcessWithTokenW—that allow you		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/understanding-the-differences-between-createprocessasuser-and-createprocesswithtokenw-in-windows/" aria-label="Read more about Understanding the Differences Between CreateProcessAsUser and CreateProcessWithTokenW in Windows" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Simple RPC Client and Server: A Step-by-Step Guide]]></title>
+        <id>https://trainsec.net/library/windows-internals/building-a-simple-rpc-client-and-server-a-step-by-step-guide/</id>
+        <link href="https://trainsec.net/library/windows-internals/building-a-simple-rpc-client-and-server-a-step-by-step-guide/"/>
+        <updated>2025-12-16T09:15:02.548Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/building-a-simple-rpc-client-and-server-a-step-by-step-guide/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="2558" height="1440" src="https://trainsec.net/wp-content/uploads/2024/11/rpc.jpg" class="attachment-full size-full wp-image-2488" alt="simple rpc client" srcset="https://trainsec.net/wp-content/uploads/2024/11/rpc.jpg 2558w, https://trainsec.net/wp-content/uploads/2024/11/rpc-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2024/11/rpc-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2024/11/rpc-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2024/11/rpc-1536x865.jpg 1536w, https://trainsec.net/wp-content/uploads/2024/11/rpc-2048x1153.jpg 2048w" sizes="(max-width: 2558px) 100vw, 2558px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/building-a-simple-rpc-client-and-server-a-step-by-step-guide/">
+				Building a Simple RPC Client and Server: A Step-by-Step Guide			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			November 20, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Remote Procedure Calls (RPC) are a fundamental mechanism in distributed computing, allowing functions to execute		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/building-a-simple-rpc-client-and-server-a-step-by-step-guide/" aria-label="Read more about Building a Simple RPC Client and Server: A Step-by-Step Guide" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring NTFS Alternate Streams: A Hidden Gem of the Windows File System]]></title>
+        <id>https://trainsec.net/library/windows-internals/exploring-ntfs-alternate-streams-a-hidden-gem-of-the-windows-file-system/</id>
+        <link href="https://trainsec.net/library/windows-internals/exploring-ntfs-alternate-streams-a-hidden-gem-of-the-windows-file-system/"/>
+        <updated>2025-12-16T09:15:02.550Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/exploring-ntfs-alternate-streams-a-hidden-gem-of-the-windows-file-system/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1887" height="1115" src="https://trainsec.net/wp-content/uploads/2024/11/NTFS-Alternate-Streams.jpg" class="attachment-full size-full wp-image-2479" alt="NTFS Alternate Stream" srcset="https://trainsec.net/wp-content/uploads/2024/11/NTFS-Alternate-Streams.jpg 1887w, https://trainsec.net/wp-content/uploads/2024/11/NTFS-Alternate-Streams-300x177.jpg 300w, https://trainsec.net/wp-content/uploads/2024/11/NTFS-Alternate-Streams-1024x605.jpg 1024w, https://trainsec.net/wp-content/uploads/2024/11/NTFS-Alternate-Streams-768x454.jpg 768w, https://trainsec.net/wp-content/uploads/2024/11/NTFS-Alternate-Streams-1536x908.jpg 1536w" sizes="(max-width: 1887px) 100vw, 1887px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/exploring-ntfs-alternate-streams-a-hidden-gem-of-the-windows-file-system/">
+				Exploring NTFS Alternate Streams: A Hidden Gem of the Windows File System			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			November 20, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>The NTFS file system, widely used in Windows environments, is packed with fascinating features. Among		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/exploring-ntfs-alternate-streams-a-hidden-gem-of-the-windows-file-system/" aria-label="Read more about Exploring NTFS Alternate Streams: A Hidden Gem of the Windows File System" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debugging DLL Files with IDA Disassembler]]></title>
+        <id>https://trainsec.net/library/malware-analysis/debugging-dll-files-with-ida-disassembler/</id>
+        <link href="https://trainsec.net/library/malware-analysis/debugging-dll-files-with-ida-disassembler/"/>
+        <updated>2025-12-16T09:15:02.552Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/debugging-dll-files-with-ida-disassembler/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="3474" height="1840" src="https://trainsec.net/wp-content/uploads/2024/11/Debugging-DLL-Files-with-IDA-Disassembler.png" class="attachment-full size-full wp-image-2469" alt="Debugging DLL Files with IDA Disassembler" srcset="https://trainsec.net/wp-content/uploads/2024/11/Debugging-DLL-Files-with-IDA-Disassembler.png 3474w, https://trainsec.net/wp-content/uploads/2024/11/Debugging-DLL-Files-with-IDA-Disassembler-300x159.png 300w, https://trainsec.net/wp-content/uploads/2024/11/Debugging-DLL-Files-with-IDA-Disassembler-1024x542.png 1024w, https://trainsec.net/wp-content/uploads/2024/11/Debugging-DLL-Files-with-IDA-Disassembler-768x407.png 768w, https://trainsec.net/wp-content/uploads/2024/11/Debugging-DLL-Files-with-IDA-Disassembler-1536x814.png 1536w, https://trainsec.net/wp-content/uploads/2024/11/Debugging-DLL-Files-with-IDA-Disassembler-2048x1085.png 2048w" sizes="(max-width: 3474px) 100vw, 3474px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/debugging-dll-files-with-ida-disassembler/">
+				Debugging DLL Files with IDA Disassembler			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			November 10, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>IDA (Interactive DisAssembler) is a professional reverse engineering tool used to analyze compiled software by		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/debugging-dll-files-with-ida-disassembler/" aria-label="Read more about Debugging DLL Files with IDA Disassembler" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Writing a Windows Service]]></title>
+        <id>https://trainsec.net/library/windows-internals/writing-a-windows-service/</id>
+        <link href="https://trainsec.net/library/windows-internals/writing-a-windows-service/"/>
+        <updated>2025-12-16T09:15:02.555Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/writing-a-windows-service/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1995" height="1059" src="https://trainsec.net/wp-content/uploads/2024/11/writing-a-simple-windows-service.png" class="attachment-full size-full wp-image-2454" alt="writing a simple windows service" srcset="https://trainsec.net/wp-content/uploads/2024/11/writing-a-simple-windows-service.png 1995w, https://trainsec.net/wp-content/uploads/2024/11/writing-a-simple-windows-service-300x159.png 300w, https://trainsec.net/wp-content/uploads/2024/11/writing-a-simple-windows-service-1024x544.png 1024w, https://trainsec.net/wp-content/uploads/2024/11/writing-a-simple-windows-service-768x408.png 768w, https://trainsec.net/wp-content/uploads/2024/11/writing-a-simple-windows-service-1536x815.png 1536w" sizes="(max-width: 1995px) 100vw, 1995px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/writing-a-windows-service/">
+				Writing a Windows Service			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			November 10, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Hi, and welcome to this video on writing a Windows service. In the previous video,		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/writing-a-windows-service/" aria-label="Read more about Writing a Windows Service" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction to Windows Services]]></title>
+        <id>https://trainsec.net/library/windows-internals/introduction-to-windows-services/</id>
+        <link href="https://trainsec.net/library/windows-internals/introduction-to-windows-services/"/>
+        <updated>2025-12-16T09:15:02.556Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/introduction-to-windows-services/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1800" height="973" src="https://trainsec.net/wp-content/uploads/2024/11/Windows-services.png" class="attachment-full size-full wp-image-2447" alt="Windows services" srcset="https://trainsec.net/wp-content/uploads/2024/11/Windows-services.png 1800w, https://trainsec.net/wp-content/uploads/2024/11/Windows-services-300x162.png 300w, https://trainsec.net/wp-content/uploads/2024/11/Windows-services-1024x554.png 1024w, https://trainsec.net/wp-content/uploads/2024/11/Windows-services-768x415.png 768w, https://trainsec.net/wp-content/uploads/2024/11/Windows-services-1536x830.png 1536w" sizes="(max-width: 1800px) 100vw, 1800px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/introduction-to-windows-services/">
+				Introduction to Windows Services			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			November 10, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>The term “service” is commonly used in software, but here we’re discussing Windows services specifically.		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/introduction-to-windows-services/" aria-label="Read more about Introduction to Windows Services" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction to the Windows Performance Analyzer (WPA)]]></title>
+        <id>https://trainsec.net/library/windows-internals/introduction-to-the-windows-performance-analyzer/</id>
+        <link href="https://trainsec.net/library/windows-internals/introduction-to-the-windows-performance-analyzer/"/>
+        <updated>2025-12-16T09:15:02.558Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/introduction-to-the-windows-performance-analyzer/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1992" height="1002" src="https://trainsec.net/wp-content/uploads/2024/11/Introduction-to-the-Windows-Performance-Analyzer.png" class="attachment-full size-full wp-image-2437" alt="Windows Performance Analyzer" srcset="https://trainsec.net/wp-content/uploads/2024/11/Introduction-to-the-Windows-Performance-Analyzer.png 1992w, https://trainsec.net/wp-content/uploads/2024/11/Introduction-to-the-Windows-Performance-Analyzer-300x151.png 300w, https://trainsec.net/wp-content/uploads/2024/11/Introduction-to-the-Windows-Performance-Analyzer-1024x515.png 1024w, https://trainsec.net/wp-content/uploads/2024/11/Introduction-to-the-Windows-Performance-Analyzer-768x386.png 768w, https://trainsec.net/wp-content/uploads/2024/11/Introduction-to-the-Windows-Performance-Analyzer-1536x773.png 1536w" sizes="(max-width: 1992px) 100vw, 1992px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/introduction-to-the-windows-performance-analyzer/">
+				Introduction to the Windows Performance Analyzer (WPA)			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			November 10, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>We’re talking here about the Windows Performance Analyzer (WPA). The Windows Performance Toolkit can be		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/introduction-to-the-windows-performance-analyzer/" aria-label="Read more about Introduction to the Windows Performance Analyzer (WPA)" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Celebrate Uriel Kosayev’s Birthday with crazy price cuts!]]></title>
+        <id>https://trainsec.net/library/malware-analysis/celebrate-uriel-kosayevs-birthday-with-crazy-price-cuts/</id>
+        <link href="https://trainsec.net/library/malware-analysis/celebrate-uriel-kosayevs-birthday-with-crazy-price-cuts/"/>
+        <updated>2025-12-16T09:15:02.559Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/celebrate-uriel-kosayevs-birthday-with-crazy-price-cuts/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="864" height="864" src="https://trainsec.net/wp-content/uploads/2024/10/uriel-bd.gif" class="attachment-full size-full wp-image-2427" alt="Uriel Kosayev Birthday sale"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/celebrate-uriel-kosayevs-birthday-with-crazy-price-cuts/">
+				Celebrate Uriel Kosayev’s Birthday with crazy price cuts!			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			October 29, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>We’re excited to share a special occasion with you – Uriel Kosayev, one of our</p>
+		</div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/celebrate-uriel-kosayevs-birthday-with-crazy-price-cuts/" aria-label="Read more about Celebrate Uriel Kosayev’s Birthday with crazy price cuts!" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Back to the Future of the Cyber Landscape]]></title>
+        <id>https://trainsec.net/library/malware-analysis/back-to-the-future-of-the-cyber-landscape/</id>
+        <link href="https://trainsec.net/library/malware-analysis/back-to-the-future-of-the-cyber-landscape/"/>
+        <updated>2025-12-16T09:15:02.560Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/back-to-the-future-of-the-cyber-landscape/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1908" height="907" src="https://trainsec.net/wp-content/uploads/2024/10/uriel-lecture.png" class="attachment-full size-full wp-image-2385" alt="uriel lecture" srcset="https://trainsec.net/wp-content/uploads/2024/10/uriel-lecture.png 1908w, https://trainsec.net/wp-content/uploads/2024/10/uriel-lecture-300x143.png 300w, https://trainsec.net/wp-content/uploads/2024/10/uriel-lecture-1024x487.png 1024w, https://trainsec.net/wp-content/uploads/2024/10/uriel-lecture-768x365.png 768w, https://trainsec.net/wp-content/uploads/2024/10/uriel-lecture-1536x730.png 1536w" sizes="(max-width: 1908px) 100vw, 1908px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/back-to-the-future-of-the-cyber-landscape/">
+				Back to the Future of the Cyber Landscape			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			October 2, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In the video, I draw from my 15 years of experience to explain that recognizing		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/back-to-the-future-of-the-cyber-landscape/" aria-label="Read more about Back to the Future of the Cyber Landscape" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MuddyWater Initial Access Trojan]]></title>
+        <id>https://trainsec.net/library/malware-analysis/muddywater-initial-access-trojan/</id>
+        <link href="https://trainsec.net/library/malware-analysis/muddywater-initial-access-trojan/"/>
+        <updated>2025-12-16T09:15:02.561Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/muddywater-initial-access-trojan/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1600" height="680" src="https://trainsec.net/wp-content/uploads/2024/09/muddywater.jpg" class="attachment-full size-full wp-image-2379" alt="muddywater" srcset="https://trainsec.net/wp-content/uploads/2024/09/muddywater.jpg 1600w, https://trainsec.net/wp-content/uploads/2024/09/muddywater-300x128.jpg 300w, https://trainsec.net/wp-content/uploads/2024/09/muddywater-1024x435.jpg 1024w, https://trainsec.net/wp-content/uploads/2024/09/muddywater-768x326.jpg 768w, https://trainsec.net/wp-content/uploads/2024/09/muddywater-1536x653.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/muddywater-initial-access-trojan/">
+				MuddyWater Initial Access Trojan			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			September 29, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In this malware analysis video, we explore how MuddyWater, an Iranian APT group, utilizes legitimate		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/muddywater-initial-access-trojan/" aria-label="Read more about MuddyWater Initial Access Trojan" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trojan Horse Implementation in Hardware]]></title>
+        <id>https://trainsec.net/library/hardware-hacking/trojan-horse-implementation-in-hardware/</id>
+        <link href="https://trainsec.net/library/hardware-hacking/trojan-horse-implementation-in-hardware/"/>
+        <updated>2025-12-16T09:15:02.563Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/hardware-hacking/trojan-horse-implementation-in-hardware/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1024" height="1024" src="https://trainsec.net/wp-content/uploads/2024/09/trojan-horse.png" class="attachment-full size-full wp-image-2348" alt="trojan horse" srcset="https://trainsec.net/wp-content/uploads/2024/09/trojan-horse.png 1024w, https://trainsec.net/wp-content/uploads/2024/09/trojan-horse-300x300.png 300w, https://trainsec.net/wp-content/uploads/2024/09/trojan-horse-150x150.png 150w, https://trainsec.net/wp-content/uploads/2024/09/trojan-horse-768x768.png 768w" sizes="(max-width: 1024px) 100vw, 1024px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/hardware-hacking/trojan-horse-implementation-in-hardware/">
+				Trojan Horse Implementation in Hardware			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Amichai Yifrach		</span>
+				<span class="elementor-post-date">
+			September 16, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>When I speak about Hardware Hacking and its crucial role in the safety of our		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/hardware-hacking/trojan-horse-implementation-in-hardware/" aria-label="Read more about Trojan Horse Implementation in Hardware" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sharing Kernel Objects by Name – Perks and Perils]]></title>
+        <id>https://trainsec.net/library/programming/sharing-kernel-objects-by-name-perks-and-perils/</id>
+        <link href="https://trainsec.net/library/programming/sharing-kernel-objects-by-name-perks-and-perils/"/>
+        <updated>2025-12-16T09:15:02.564Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/programming/sharing-kernel-objects-by-name-perks-and-perils/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1237" height="560" src="https://trainsec.net/wp-content/uploads/2024/09/image-1.png" class="attachment-full size-full wp-image-2317" alt="image 1" srcset="https://trainsec.net/wp-content/uploads/2024/09/image-1.png 1237w, https://trainsec.net/wp-content/uploads/2024/09/image-1-300x136.png 300w, https://trainsec.net/wp-content/uploads/2024/09/image-1-1024x464.png 1024w, https://trainsec.net/wp-content/uploads/2024/09/image-1-768x348.png 768w" sizes="(max-width: 1237px) 100vw, 1237px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/programming/sharing-kernel-objects-by-name-perks-and-perils/">
+				Sharing Kernel Objects by Name – Perks and Perils			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			September 13, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Some Windows kernel object types can have string-based names, which is one way such objects		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/programming/sharing-kernel-objects-by-name-perks-and-perils/" aria-label="Read more about Sharing Kernel Objects by Name – Perks and Perils" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Keyboard Hook with Image File Execution Options]]></title>
+        <id>https://trainsec.net/library/windows-internals/keyboard-hook-with-with-image-file-execution-options/</id>
+        <link href="https://trainsec.net/library/windows-internals/keyboard-hook-with-with-image-file-execution-options/"/>
+        <updated>2025-12-16T09:15:02.566Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/keyboard-hook-with-with-image-file-execution-options/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="978" height="583" src="https://trainsec.net/wp-content/uploads/2024/08/image-2.png" class="attachment-full size-full wp-image-2228" alt="image 2" srcset="https://trainsec.net/wp-content/uploads/2024/08/image-2.png 978w, https://trainsec.net/wp-content/uploads/2024/08/image-2-300x179.png 300w, https://trainsec.net/wp-content/uploads/2024/08/image-2-768x458.png 768w" sizes="(max-width: 978px) 100vw, 978px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/keyboard-hook-with-with-image-file-execution-options/">
+				Keyboard Hook with Image File Execution Options			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			August 25, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Keyboard hooking using Image File Execution Options and pretending to be a debugger. </p>		</div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/keyboard-hook-with-with-image-file-execution-options/" aria-label="Read more about Keyboard Hook with Image File Execution Options" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maximum Handles in a process]]></title>
+        <id>https://trainsec.net/library/windows-internals/maximum-handles-in-a-process/</id>
+        <link href="https://trainsec.net/library/windows-internals/maximum-handles-in-a-process/"/>
+        <updated>2025-12-16T09:15:02.567Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/maximum-handles-in-a-process/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1501" height="800" src="https://trainsec.net/wp-content/uploads/2024/08/Process-Handles-and-Identifiers-e1723557866971.png" class="attachment-full size-full wp-image-2101" alt="Process Handles and Identifiers"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/maximum-handles-in-a-process/">
+				Maximum Handles in a process			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			August 13, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Ever wondered how many handles you can create in a process? Each process has its		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/maximum-handles-in-a-process/" aria-label="Read more about Maximum Handles in a process" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One Electron to Rule Them All]]></title>
+        <id>https://trainsec.net/library/malware-analysis/one-electron-to-rule-them-all/</id>
+        <link href="https://trainsec.net/library/malware-analysis/one-electron-to-rule-them-all/"/>
+        <updated>2025-12-16T09:15:02.569Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/one-electron-to-rule-them-all/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="800" height="162" src="https://trainsec.net/wp-content/uploads/2024/08/image4.png" class="attachment-full size-full wp-image-1898" alt="electron based cross platform vulnerability exploitation" srcset="https://trainsec.net/wp-content/uploads/2024/08/image4.png 800w, https://trainsec.net/wp-content/uploads/2024/08/image4-300x61.png 300w, https://trainsec.net/wp-content/uploads/2024/08/image4-768x156.png 768w" sizes="(max-width: 800px) 100vw, 800px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/one-electron-to-rule-them-all/">
+				One Electron to Rule Them All			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			August 1, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Authors Uriel Kosayev — @MalFuzzer, Hai Vaknin — @VakninHai, Tamir Yehuda — @Tamirye94, Matan Bahar — @Bl4ckShad3 Prologue As red teamers, we are</p>
+		</div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/one-electron-to-rule-them-all/" aria-label="Read more about One Electron to Rule Them All" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best starter Hardware Hacking Toolkit]]></title>
+        <id>https://trainsec.net/library/hardware-hacking/best-starter-hardware-hacking-toolkit/</id>
+        <link href="https://trainsec.net/library/hardware-hacking/best-starter-hardware-hacking-toolkit/"/>
+        <updated>2025-12-16T09:15:02.570Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/hardware-hacking/best-starter-hardware-hacking-toolkit/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="512" height="512" src="https://trainsec.net/wp-content/uploads/2024/07/unnamed.png" class="attachment-full size-full wp-image-1596" alt="Hardware hacking tool kit" srcset="https://trainsec.net/wp-content/uploads/2024/07/unnamed.png 512w, https://trainsec.net/wp-content/uploads/2024/07/unnamed-300x300.png 300w, https://trainsec.net/wp-content/uploads/2024/07/unnamed-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/hardware-hacking/best-starter-hardware-hacking-toolkit/">
+				Best starter Hardware Hacking Toolkit			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Amichai Yifrach		</span>
+				<span class="elementor-post-date">
+			July 30, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>A practical guide to building your first hardware hacking toolkit. From screwdrivers and wire cutters		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/hardware-hacking/best-starter-hardware-hacking-toolkit/" aria-label="Read more about Best starter Hardware Hacking Toolkit" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CrowdStrike and the Formidable BSOD]]></title>
+        <id>https://trainsec.net/library/windows-internals/crowdstrike-and-the-formidable-bsod/</id>
+        <link href="https://trainsec.net/library/windows-internals/crowdstrike-and-the-formidable-bsod/"/>
+        <updated>2025-12-16T09:15:02.572Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/crowdstrike-and-the-formidable-bsod/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1200" height="675" src="https://trainsec.net/wp-content/uploads/2024/07/image1-5.png" class="attachment-full size-full wp-image-887" alt="image1 5" srcset="https://trainsec.net/wp-content/uploads/2024/07/image1-5.png 1200w, https://trainsec.net/wp-content/uploads/2024/07/image1-5-300x169.png 300w, https://trainsec.net/wp-content/uploads/2024/07/image1-5-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2024/07/image1-5-768x432.png 768w" sizes="(max-width: 1200px) 100vw, 1200px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/crowdstrike-and-the-formidable-bsod/">
+				CrowdStrike and the Formidable BSOD			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			July 21, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Millions of machines around the world crashed a few days ago, showing the dreaded “Blue</p>
+		</div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/crowdstrike-and-the-formidable-bsod/" aria-label="Read more about CrowdStrike and the Formidable BSOD" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel® Audio Driver Unquoted Service Path Vulnerability]]></title>
+        <id>https://trainsec.net/library/malware-analysis/intel-audio-driver-unquoted-service-path-vulnerability/</id>
+        <link href="https://trainsec.net/library/malware-analysis/intel-audio-driver-unquoted-service-path-vulnerability/"/>
+        <updated>2025-12-16T09:15:02.575Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/intel-audio-driver-unquoted-service-path-vulnerability/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="791" height="386" src="https://trainsec.net/wp-content/uploads/2024/07/image2-3.png" class="attachment-full size-full wp-image-884" alt="image2 3" srcset="https://trainsec.net/wp-content/uploads/2024/07/image2-3.png 791w, https://trainsec.net/wp-content/uploads/2024/07/image2-3-300x146.png 300w, https://trainsec.net/wp-content/uploads/2024/07/image2-3-768x375.png 768w" sizes="(max-width: 791px) 100vw, 791px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/intel-audio-driver-unquoted-service-path-vulnerability/">
+				Intel® Audio Driver Unquoted Service Path Vulnerability			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			July 21, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Intel is a very well-known and large company that serves many personal computers and servers		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/intel-audio-driver-unquoted-service-path-vulnerability/" aria-label="Read more about Intel® Audio Driver Unquoted Service Path Vulnerability" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MSI TrueColor Unquoted Service Path]]></title>
+        <id>https://trainsec.net/library/malware-analysis/msi-truecolor-unquoted-service-path/</id>
+        <link href="https://trainsec.net/library/malware-analysis/msi-truecolor-unquoted-service-path/"/>
+        <updated>2025-12-16T09:15:02.581Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/msi-truecolor-unquoted-service-path/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1014" height="272" src="https://trainsec.net/wp-content/uploads/2024/07/image3-2.png" class="attachment-full size-full wp-image-879" alt="image3 2" srcset="https://trainsec.net/wp-content/uploads/2024/07/image3-2.png 1014w, https://trainsec.net/wp-content/uploads/2024/07/image3-2-300x80.png 300w, https://trainsec.net/wp-content/uploads/2024/07/image3-2-768x206.png 768w" sizes="(max-width: 1014px) 100vw, 1014px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/msi-truecolor-unquoted-service-path/">
+				MSI TrueColor Unquoted Service Path			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			July 21, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>MSI TrueColor utility comes as a pre-installed utility program on MSI gaming laptops that is		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/msi-truecolor-unquoted-service-path/" aria-label="Read more about MSI TrueColor Unquoted Service Path" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Process Tree]]></title>
+        <id>https://trainsec.net/library/windows-internals/building-a-process-tree/</id>
+        <link href="https://trainsec.net/library/windows-internals/building-a-process-tree/"/>
+        <updated>2025-12-16T09:15:02.583Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/building-a-process-tree/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1076" height="777" src="https://trainsec.net/wp-content/uploads/2024/07/Building-a-Process-Tree-in-windows-1.png" class="attachment-full size-full wp-image-646" alt="Building a Process Tree in windows 1" srcset="https://trainsec.net/wp-content/uploads/2024/07/Building-a-Process-Tree-in-windows-1.png 1076w, https://trainsec.net/wp-content/uploads/2024/07/Building-a-Process-Tree-in-windows-1-300x217.png 300w, https://trainsec.net/wp-content/uploads/2024/07/Building-a-Process-Tree-in-windows-1-1024x739.png 1024w, https://trainsec.net/wp-content/uploads/2024/07/Building-a-Process-Tree-in-windows-1-768x555.png 768w" sizes="(max-width: 1076px) 100vw, 1076px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/building-a-process-tree/">
+				Building a Process Tree			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			July 15, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In Windows, every process is associated with a parent process, usually the one created it.</p>
+		</div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/building-a-process-tree/" aria-label="Read more about Building a Process Tree" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Malware Shlayer]]></title>
+        <id>https://trainsec.net/library/malware-analysis/the-malware-shlayer/</id>
+        <link href="https://trainsec.net/library/malware-analysis/the-malware-shlayer/"/>
+        <updated>2025-12-16T09:15:02.584Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/the-malware-shlayer/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="770" height="436" src="https://trainsec.net/wp-content/uploads/2024/07/Shlayer-Adware-Analysis-3.png" class="attachment-full size-full wp-image-415" alt="Shlayer Adware Analysis 3" srcset="https://trainsec.net/wp-content/uploads/2024/07/Shlayer-Adware-Analysis-3.png 770w, https://trainsec.net/wp-content/uploads/2024/07/Shlayer-Adware-Analysis-3-300x170.png 300w, https://trainsec.net/wp-content/uploads/2024/07/Shlayer-Adware-Analysis-3-768x435.png 768w" sizes="(max-width: 770px) 100vw, 770px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/the-malware-shlayer/">
+				The Malware Shlayer			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			July 8, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>As Mac malware becomes more widespread and as detection mechanisms get more sophisticated, malware actors		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/the-malware-shlayer/" aria-label="Read more about The Malware Shlayer" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Application Types” on Windows]]></title>
+        <id>https://trainsec.net/library/windows-internals/application-types-on-windows/</id>
+        <link href="https://trainsec.net/library/windows-internals/application-types-on-windows/"/>
+        <updated>2025-12-16T09:15:02.585Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/application-types-on-windows/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1378" height="702" src="https://trainsec.net/wp-content/uploads/2024/07/image1-2.png" class="attachment-full size-full wp-image-402" alt="image1 2" srcset="https://trainsec.net/wp-content/uploads/2024/07/image1-2.png 1378w, https://trainsec.net/wp-content/uploads/2024/07/image1-2-300x153.png 300w, https://trainsec.net/wp-content/uploads/2024/07/image1-2-1024x522.png 1024w, https://trainsec.net/wp-content/uploads/2024/07/image1-2-768x391.png 768w" sizes="(max-width: 1378px) 100vw, 1378px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/application-types-on-windows/">
+				“Application Types” on Windows			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			July 8, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>There are many processes running on a typical Windows system – here are some of		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/application-types-on-windows/" aria-label="Read more about “Application Types” on Windows" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Code Injection with Image File Execution Options]]></title>
+        <id>https://trainsec.net/library/windows-internals/code-injection-with-image-file-execution-options/</id>
+        <link href="https://trainsec.net/library/windows-internals/code-injection-with-image-file-execution-options/"/>
+        <updated>2025-12-16T09:15:02.587Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/code-injection-with-image-file-execution-options/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="866" height="376" src="https://trainsec.net/wp-content/uploads/2024/07/image3-1.png" class="attachment-full size-full wp-image-385" alt="image3 1" srcset="https://trainsec.net/wp-content/uploads/2024/07/image3-1.png 866w, https://trainsec.net/wp-content/uploads/2024/07/image3-1-300x130.png 300w, https://trainsec.net/wp-content/uploads/2024/07/image3-1-768x333.png 768w" sizes="(max-width: 866px) 100vw, 866px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/code-injection-with-image-file-execution-options/">
+				Code Injection with Image File Execution Options			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			July 8, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>A well-known features of Windows is the Image File Execution Options registry key located in		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/code-injection-with-image-file-execution-options/" aria-label="Read more about Code Injection with Image File Execution Options" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft WslService Unquoted Service Path Vulnerability]]></title>
+        <id>https://trainsec.net/library/malware-analysis/microsoft-wslservice-unquoted-service-path-vulnerability/</id>
+        <link href="https://trainsec.net/library/malware-analysis/microsoft-wslservice-unquoted-service-path-vulnerability/"/>
+        <updated>2025-12-16T09:15:02.588Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/microsoft-wslservice-unquoted-service-path-vulnerability/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1120" height="592" src="https://trainsec.net/wp-content/uploads/2024/07/image1.png" class="attachment-full size-full wp-image-334" alt="image1" srcset="https://trainsec.net/wp-content/uploads/2024/07/image1.png 1120w, https://trainsec.net/wp-content/uploads/2024/07/image1-300x159.png 300w, https://trainsec.net/wp-content/uploads/2024/07/image1-1024x541.png 1024w, https://trainsec.net/wp-content/uploads/2024/07/image1-768x406.png 768w" sizes="(max-width: 1120px) 100vw, 1120px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/microsoft-wslservice-unquoted-service-path-vulnerability/">
+				Microsoft WslService Unquoted Service Path Vulnerability			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			July 8, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>WslService is a deployed service on Windows machines with the WSL (Windows Subsystem for Linux)		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/microsoft-wslservice-unquoted-service-path-vulnerability/" aria-label="Read more about Microsoft WslService Unquoted Service Path Vulnerability" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dissecting Ardamax Keylogger]]></title>
+        <id>https://trainsec.net/library/malware-analysis/dissecting-ardamax-keylogger/</id>
+        <link href="https://trainsec.net/library/malware-analysis/dissecting-ardamax-keylogger/"/>
+        <updated>2025-12-16T09:15:02.589Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/dissecting-ardamax-keylogger/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1435" height="871" src="https://trainsec.net/wp-content/uploads/2024/07/Dissecting-Ardamax-Keylogger-3.png" class="attachment-full size-full wp-image-293" alt="Ardamax main website" srcset="https://trainsec.net/wp-content/uploads/2024/07/Dissecting-Ardamax-Keylogger-3.png 1435w, https://trainsec.net/wp-content/uploads/2024/07/Dissecting-Ardamax-Keylogger-3-300x182.png 300w, https://trainsec.net/wp-content/uploads/2024/07/Dissecting-Ardamax-Keylogger-3-1024x622.png 1024w, https://trainsec.net/wp-content/uploads/2024/07/Dissecting-Ardamax-Keylogger-3-768x466.png 768w" sizes="(max-width: 1435px) 100vw, 1435px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/dissecting-ardamax-keylogger/">
+				Dissecting Ardamax Keylogger			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			July 4, 2024		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Last month, we decided to enrich our knowledge by delving into research on a popular		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/dissecting-ardamax-keylogger/" aria-label="Read more about Dissecting Ardamax Keylogger" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+</feed>
