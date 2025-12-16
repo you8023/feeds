@@ -4,3 +4,21 @@ url = "https://kerbit.io/#research"
 entrySelector = "#blogCardContainer .research-card"
 titleSelector = ".research-card-title"
 linkSelector = "a"
+
+[openai_safety]
+title = "openai_safety"
+url = "https://openai.com/news/safety-alignment/"
+entrySelector = ".max-w-container .grid > .group"
+titleSelector = "a > div > div"
+linkSelector = "a"
+dateSelector = "a > div > p time"
+dateFormat = "MMM d, yyyy"
+
+[kroll]
+title = "kroll"
+url = "https://www.kroll.com/en/publications?page=1&by_industryormarket=Technology+Media+and+Telecom"
+entrySelector = ".grid-col-1 > div"
+titleSelector = ".text-DarkestBlue"
+linkSelector = "> a"
+dateSelector = ".text-darkGray"
+dateFormat = "MMMM d, yyyy"
