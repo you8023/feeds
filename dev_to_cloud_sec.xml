@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2025-12-18T10:49:49.547Z</updated>
+    <updated>2025-12-18T13:14:10.856Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[🛡️ Ethical Hacking Lab Walkthrough: Website Cloning & SMB Enumeration (Beginner-Friendly)]]></title>
+        <id>https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1</id>
+        <link href="https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1"/>
+        <updated>2025-12-18T12:06:18.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1" aria-labelledby="article-link-3113385" class="crayons-story__hidden-navigation-link">🛡️ Ethical Hacking Lab Walkthrough: Website Cloning &amp; SMB Enumeration (Beginner-Friendly)</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/ldwit" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3053917%2Fe1143420-4be6-4382-b610-ea6fc4a3d21a.jpg" alt="ldwit profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/ldwit" class="crayons-story__secondary fw-medium m:hidden">
+              LaTerral Williams
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3113385" aria-controls="story-author-preview-content-3113385" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="LaTerral Williams profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                LaTerral Williams
+                
+              </button>
+              <div id="story-author-preview-content-3113385" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/ldwit" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3053917%2Fe1143420-4be6-4382-b610-ea6fc4a3d21a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">LaTerral Williams</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3053917,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;LaTerral Williams&quot;}" data-fetched="fetched" aria-label="Follow user: LaTerral Williams" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3053917"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-18T12:06:18Z" title="Thursday, December 18, 2025 at 12:06:18 PM">Dec 18</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766059578"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1" data-preload-image="" id="article-link-3113385">
+          🛡️ Ethical Hacking Lab Walkthrough: Website Cloning &amp; SMB Enumeration (Beginner-Friendly)
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(227, 255, 0, 0.10);
+        --tag-prefix: #e3ff00;
+        --tag-bg-hover: rgba(227, 255, 0, 0.10);
+        --tag-prefix-hover: #e3ff00;
+      " href="/t/cybersecurity"><span class="crayons-tag__prefix">#</span>cybersecurity</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/parocyber"><span class="crayons-tag__prefix">#</span>parocyber</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🛡️ Ethical Hacking Lab Walkthrough: Website Cloning &amp; SMB Enumeration (Beginner-Friendly)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1p9wpsxtlgz3i9gz5r24hyjh48myyv8" class="crayons-icon"><title id="a1p9wpsxtlgz3i9gz5r24hyjh48myyv8">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3113385" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3113385" data-article-author-id="3053917" aria-label="Save post 🛡️ Ethical Hacking Lab Walkthrough: Website Cloning &amp; SMB Enumeration (Beginner-Friendly) to reading list" title="Save post 🛡️ Ethical Hacking Lab Walkthrough: Website Cloning &amp; SMB Enumeration (Beginner-Friendly) to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Great GCP Identity Crisis: Unraveling Resource Manager Tags vs. Labels]]></title>
         <id>https://dev.to/mechcloud_academy/the-great-gcp-identity-crisis-unraveling-resource-manager-tags-vs-labels-41fk</id>
@@ -108,7 +219,7 @@
             </div>
           </a>
             <a href="https://dev.to/mechcloud_academy/the-great-gcp-identity-crisis-unraveling-resource-manager-tags-vs-labels-41fk#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Great GCP Identity Crisis: Unraveling Resource Manager Tags vs. Labels">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ac8ygse2n1xkvf8jej5ns1fzyb7y6pbz" class="crayons-icon"><title id="ac8ygse2n1xkvf8jej5ns1fzyb7y6pbz">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afn8ml709l6ch48fi25tspdvj12uyese" class="crayons-icon"><title id="afn8ml709l6ch48fi25tspdvj12uyese">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -117,7 +228,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             8 min read
           </small>
-            <button type="button" id="article-save-button-3112520" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3112520" data-article-author-id="2897157" aria-label="Save post The Great GCP Identity Crisis: Unraveling Resource Manager Tags vs. Labels to reading list" title="Save post The Great GCP Identity Crisis: Unraveling Resource Manager Tags vs. Labels to reading list">
+            <button type="button" id="article-save-button-3112520" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3112520" data-article-author-id="2897157" aria-label="Save post The Great GCP Identity Crisis: Unraveling Resource Manager Tags vs. Labels to reading list" title="Save post The Great GCP Identity Crisis: Unraveling Resource Manager Tags vs. Labels to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -219,7 +330,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/huydanggdg/instructions-for-deploying-the-nist-sp-800-53-framework-on-the-aws-platform-11hj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Instructions for deploying the NIST SP 800-53 Framework on the AWS platform.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ar1587ool112dag63dp6w9gyzwcmhu6p" class="crayons-icon"><title id="ar1587ool112dag63dp6w9gyzwcmhu6p">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a48k7kfzwy9pdjek31k08e52mgmbdbcl" class="crayons-icon"><title id="a48k7kfzwy9pdjek31k08e52mgmbdbcl">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -228,7 +339,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
           </small>
-            <button type="button" id="article-save-button-3112713" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3112713" data-article-author-id="1238970" aria-label="Save post Instructions for deploying the NIST SP 800-53 Framework on the AWS platform. to reading list" title="Save post Instructions for deploying the NIST SP 800-53 Framework on the AWS platform. to reading list">
+            <button type="button" id="article-save-button-3112713" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3112713" data-article-author-id="1238970" aria-label="Save post Instructions for deploying the NIST SP 800-53 Framework on the AWS platform. to reading list" title="Save post Instructions for deploying the NIST SP 800-53 Framework on the AWS platform. to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -330,7 +441,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/piya__c204c9e90/key-azure-backup-solutions-you-should-know-azure-native-only-1k5p#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Key Azure Backup Solutions You Should Know (Azure-Native Only)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alm3ghpberh43xoxirzkz4ce7vc0bduc" class="crayons-icon"><title id="alm3ghpberh43xoxirzkz4ce7vc0bduc">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2eyb2qzmfe16qjg9ej4byb2ev2qa93d" class="crayons-icon"><title id="a2eyb2qzmfe16qjg9ej4byb2ev2qa93d">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -339,7 +450,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3113170" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3113170" data-article-author-id="1696885" aria-label="Save post Key Azure Backup Solutions You Should Know (Azure-Native Only) to reading list" title="Save post Key Azure Backup Solutions You Should Know (Azure-Native Only) to reading list">
+            <button type="button" id="article-save-button-3113170" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3113170" data-article-author-id="1696885" aria-label="Save post Key Azure Backup Solutions You Should Know (Azure-Native Only) to reading list" title="Save post Key Azure Backup Solutions You Should Know (Azure-Native Only) to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -441,7 +552,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/ldwit/building-a-casb-like-threat-monitoring-lab-in-aws-beginner-friendly-4m80#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🛡️ Building a CASB‑Like Threat Monitoring Lab in AWS (Beginner Friendly)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afbr72p6liyec3wu1zeidrc0qwpn9qem" class="crayons-icon"><title id="afbr72p6liyec3wu1zeidrc0qwpn9qem">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2xvgbnhzvd3khimqsubhm428eph89p5" class="crayons-icon"><title id="a2xvgbnhzvd3khimqsubhm428eph89p5">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -450,118 +561,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             5 min read
           </small>
-            <button type="button" id="article-save-button-3107298" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3107298" data-article-author-id="3053917" aria-label="Save post 🛡️ Building a CASB‑Like Threat Monitoring Lab in AWS (Beginner Friendly) to reading list" title="Save post 🛡️ Building a CASB‑Like Threat Monitoring Lab in AWS (Beginner Friendly) to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🛡️ Building a Mini Cloud Security Posture Management (CSPM) Lab Using AWS Security Hub + AWS Config]]></title>
-        <id>https://dev.to/ldwit/building-a-mini-cloud-security-posture-management-cspm-lab-using-aws-security-hub-aws-config-3c8o</id>
-        <link href="https://dev.to/ldwit/building-a-mini-cloud-security-posture-management-cspm-lab-using-aws-security-hub-aws-config-3c8o"/>
-        <updated>2025-12-17T18:15:36.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/ldwit/building-a-mini-cloud-security-posture-management-cspm-lab-using-aws-security-hub-aws-config-3c8o" aria-labelledby="article-link-3107254" class="crayons-story__hidden-navigation-link">🛡️ Building a Mini Cloud Security Posture Management (CSPM) Lab Using AWS Security Hub + AWS Config</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/ldwit" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3053917%2Fe1143420-4be6-4382-b610-ea6fc4a3d21a.jpg" alt="ldwit profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/ldwit" class="crayons-story__secondary fw-medium m:hidden">
-              LaTerral Williams
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3107254" aria-controls="story-author-preview-content-3107254" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="LaTerral Williams profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                LaTerral Williams
-                
-              </button>
-              <div id="story-author-preview-content-3107254" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/ldwit" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3053917%2Fe1143420-4be6-4382-b610-ea6fc4a3d21a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">LaTerral Williams</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3053917,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;LaTerral Williams&quot;}" data-fetched="fetched" aria-label="Follow user: LaTerral Williams" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3053917"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/ldwit/building-a-mini-cloud-security-posture-management-cspm-lab-using-aws-security-hub-aws-config-3c8o" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-17T18:15:36Z" title="Wednesday, December 17, 2025 at 6:15:36 PM">Dec 17</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1765995336"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/ldwit/building-a-mini-cloud-security-posture-management-cspm-lab-using-aws-security-hub-aws-config-3c8o" data-preload-image="" id="article-link-3107254">
-          🛡️ Building a Mini Cloud Security Posture Management (CSPM) Lab Using AWS Security Hub + AWS Config
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(255, 153, 0, 0.10);
-        --tag-prefix: #FF9900;
-        --tag-bg-hover: rgba(255, 153, 0, 0.10);
-        --tag-prefix-hover: #FF9900;
-      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/cspm"><span class="crayons-tag__prefix">#</span>cspm</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/ldwit/building-a-mini-cloud-security-posture-management-cspm-lab-using-aws-security-hub-aws-config-3c8o#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🛡️ Building a Mini Cloud Security Posture Management (CSPM) Lab Using AWS Security Hub + AWS Config">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alkwlbgkx688ktasqyu140tdpasrthmm" class="crayons-icon"><title id="alkwlbgkx688ktasqyu140tdpasrthmm">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            10 min read
-          </small>
-            <button type="button" id="article-save-button-3107254" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3107254" data-article-author-id="3053917" aria-label="Save post 🛡️ Building a Mini Cloud Security Posture Management (CSPM) Lab Using AWS Security Hub + AWS Config to reading list" title="Save post 🛡️ Building a Mini Cloud Security Posture Management (CSPM) Lab Using AWS Security Hub + AWS Config to reading list">
+            <button type="button" id="article-save-button-3107298" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3107298" data-article-author-id="3053917" aria-label="Save post 🛡️ Building a CASB‑Like Threat Monitoring Lab in AWS (Beginner Friendly) to reading list" title="Save post 🛡️ Building a CASB‑Like Threat Monitoring Lab in AWS (Beginner Friendly) to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
