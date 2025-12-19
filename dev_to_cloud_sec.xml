@@ -2,9 +2,231 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2025-12-19T15:49:39.646Z</updated>
+    <updated>2025-12-19T16:53:33.651Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Stop Treating Docker Like a Fancy Zip File: Generating Production-Grade Containers with AI]]></title>
+        <id>https://dev.to/huizhudev/stop-treating-docker-like-a-fancy-zip-file-generating-production-grade-containers-with-ai-2mk8</id>
+        <link href="https://dev.to/huizhudev/stop-treating-docker-like-a-fancy-zip-file-generating-production-grade-containers-with-ai-2mk8"/>
+        <updated>2025-12-19T16:00:30.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/huizhudev/stop-treating-docker-like-a-fancy-zip-file-generating-production-grade-containers-with-ai-2mk8" aria-labelledby="article-link-3115961" class="crayons-story__hidden-navigation-link">Stop Treating Docker Like a Fancy Zip File: Generating Production-Grade Containers with AI</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/huizhudev" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3523303%2F0cb4546b-f0a6-4640-8060-37e3b1a5f41f.jpg" alt="huizhudev profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/huizhudev" class="crayons-story__secondary fw-medium m:hidden">
+              Hui
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3115961" aria-controls="story-author-preview-content-3115961" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Hui profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Hui
+                
+              </button>
+              <div id="story-author-preview-content-3115961" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/huizhudev" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3523303%2F0cb4546b-f0a6-4640-8060-37e3b1a5f41f.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Hui</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3523303,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Hui&quot;}" data-fetched="fetched" aria-label="Follow user: Hui" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3523303"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/huizhudev/stop-treating-docker-like-a-fancy-zip-file-generating-production-grade-containers-with-ai-2mk8" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-19T16:00:30Z" title="Friday, December 19, 2025 at 4:00:30 PM">Dec 19</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766160030"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/huizhudev/stop-treating-docker-like-a-fancy-zip-file-generating-production-grade-containers-with-ai-2mk8" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foil2b37f2l2qduoybkcc.png" id="article-link-3115961">
+          Stop Treating Docker Like a Fancy Zip File: Generating Production-Grade Containers with AI
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/containers"><span class="crayons-tag__prefix">#</span>containers</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/huizhudev/stop-treating-docker-like-a-fancy-zip-file-generating-production-grade-containers-with-ai-2mk8#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Stop Treating Docker Like a Fancy Zip File: Generating Production-Grade Containers with AI">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="adwq0vpfai6uxzftoj1qokl7dmr3lr7w" class="crayons-icon"><title id="adwq0vpfai6uxzftoj1qokl7dmr3lr7w">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3115961" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3115961" data-article-author-id="3523303" aria-label="Save post Stop Treating Docker Like a Fancy Zip File: Generating Production-Grade Containers with AI to reading list" title="Save post Stop Treating Docker Like a Fancy Zip File: Generating Production-Grade Containers with AI to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Vault Integration]]></title>
+        <id>https://dev.to/aws-builders/aws-vault-integration-4jac</id>
+        <link href="https://dev.to/aws-builders/aws-vault-integration-4jac"/>
+        <updated>2025-12-19T15:05:56.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/aws-builders/aws-vault-integration-4jac" aria-labelledby="article-link-3115843" class="crayons-story__hidden-navigation-link">AWS Vault Integration</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/aws-builders">
+            <img alt="AWS Community Builders  logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2794%2F88da75b6-aadd-4ea1-8083-ae2dfca8be94.png" class="crayons-logo__image" loading="lazy">
+          </a>
+
+          <a href="/ashutosh5786" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F723571%2F26743782-3d80-4383-98a3-e886e0cc97d2.jpeg" alt="ashutosh5786 profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/ashutosh5786" class="crayons-story__secondary fw-medium m:hidden">
+              Ashutosh Singh
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3115843" aria-controls="story-author-preview-content-3115843" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Ashutosh Singh profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Ashutosh Singh
+                
+              </button>
+              <div id="story-author-preview-content-3115843" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/ashutosh5786" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F723571%2F26743782-3d80-4383-98a3-e886e0cc97d2.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Ashutosh Singh</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:723571,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Ashutosh Singh&quot;}" data-fetched="fetched" aria-label="Follow user: Ashutosh Singh" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="723571"></div>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/aws-builders" class="crayons-story__secondary fw-medium">AWS Community Builders </a>
+            </span>
+          </div>
+          <a href="https://dev.to/aws-builders/aws-vault-integration-4jac" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-19T15:05:56Z" title="Friday, December 19, 2025 at 3:05:56 PM">Dec 19</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766156756"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/aws-builders/aws-vault-integration-4jac" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9xibv40e2vc3wllbivr2.jpg" id="article-link-3115843">
+          AWS Vault Integration
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/aws-builders/aws-vault-integration-4jac#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS Vault Integration">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a69lbuzwfoe259wtlbzpfjk4sfw2rr4q" class="crayons-icon"><title id="a69lbuzwfoe259wtlbzpfjk4sfw2rr4q">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            2 min read
+          </small>
+            <button type="button" id="article-save-button-3115843" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3115843" data-article-author-id="723571" aria-label="Save post AWS Vault Integration to reading list" title="Save post AWS Vault Integration to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Securing Gmail AI Agents against Prompt Injection with Model Armor]]></title>
         <id>https://dev.to/googleworkspace/securing-gmail-ai-agents-against-prompt-injection-with-model-armor-4fo</id>
@@ -98,7 +320,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/googleworkspace/securing-gmail-ai-agents-against-prompt-injection-with-model-armor-4fo#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Securing Gmail AI Agents against Prompt Injection with Model Armor">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apzi7agbznzh5flqc7cykc8ouvjszyhd" class="crayons-icon"><title id="apzi7agbznzh5flqc7cykc8ouvjszyhd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="agtgyju1kv6p9po3xkd31sy7ubleniuf" class="crayons-icon"><title id="agtgyju1kv6p9po3xkd31sy7ubleniuf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -203,7 +425,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/irfansatrio/from-network-segmentation-to-micro-segmentation-on-aws-1jc8#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - From Network Segmentation to Micro-segmentation on AWS">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aleovr3hegfc2xco6wix3yaawnqwjs8n" class="crayons-icon"><title id="aleovr3hegfc2xco6wix3yaawnqwjs8n">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ae8it13jkll7ymo7cay3f2yzc9jak9e2" class="crayons-icon"><title id="ae8it13jkll7ymo7cay3f2yzc9jak9e2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -308,7 +530,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/nataliam/aws-backup-and-logically-air-gapped-vault-3mio#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS Backup and Logically Air Gapped Vault">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aldj6hquwf9xm5l835ovg1merjdshsou" class="crayons-icon"><title id="aldj6hquwf9xm5l835ovg1merjdshsou">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aewwdeyd6qlx6ut7gv65f7750orfr9d0" class="crayons-icon"><title id="aewwdeyd6qlx6ut7gv65f7750orfr9d0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -318,225 +540,6 @@
             4 min read
           </small>
             <button type="button" id="article-save-button-2805002" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="2805002" data-article-author-id="287847" aria-label="Save post AWS Backup and Logically Air Gapped Vault to reading list" title="Save post AWS Backup and Logically Air Gapped Vault to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EC2 Key Pairs]]></title>
-        <id>https://dev.to/prahal_np_690f1dc355c914/ec2-key-pairs-46jh</id>
-        <link href="https://dev.to/prahal_np_690f1dc355c914/ec2-key-pairs-46jh"/>
-        <updated>2025-12-19T05:46:29.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/prahal_np_690f1dc355c914/ec2-key-pairs-46jh" aria-labelledby="article-link-3114768" class="crayons-story__hidden-navigation-link">EC2 Key Pairs</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/prahal_np_690f1dc355c914" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2966527%2F00614f13-9de6-4fd8-8c8e-ec03096afb7f.jpg" alt="prahal_np_690f1dc355c914 profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/prahal_np_690f1dc355c914" class="crayons-story__secondary fw-medium m:hidden">
-              Prahal N P
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3114768" aria-controls="story-author-preview-content-3114768" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Prahal N P profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Prahal N P
-                
-              </button>
-              <div id="story-author-preview-content-3114768" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/prahal_np_690f1dc355c914" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2966527%2F00614f13-9de6-4fd8-8c8e-ec03096afb7f.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Prahal N P</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2966527,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Prahal N P&quot;}" data-fetched="fetched" aria-label="Follow user: Prahal N P" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="2966527"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/prahal_np_690f1dc355c914/ec2-key-pairs-46jh" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-19T05:46:29Z" title="Friday, December 19, 2025 at 5:46:29 AM">Dec 19</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766123189"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/prahal_np_690f1dc355c914/ec2-key-pairs-46jh" data-preload-image="" id="article-link-3114768">
-          EC2 Key Pairs
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 131, 53, 0.10);
-        --tag-prefix: #008335;
-        --tag-bg-hover: rgba(0, 131, 53, 0.10);
-        --tag-prefix-hover: #008335;
-      " href="/t/beginners"><span class="crayons-tag__prefix">#</span>beginners</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/prahal_np_690f1dc355c914/ec2-key-pairs-46jh#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - EC2 Key Pairs">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9ah05u86a10a63q3otq6d7do1ar4317" class="crayons-icon"><title id="a9ah05u86a10a63q3otq6d7do1ar4317">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3114768" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3114768" data-article-author-id="2966527" aria-label="Save post EC2 Key Pairs to reading list" title="Save post EC2 Key Pairs to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[# Defending the Cloud-Native Frontier: Security as Code with Terraform & OPA]]></title>
-        <id>https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500</id>
-        <link href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500"/>
-        <updated>2025-12-19T01:00:58.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500" aria-labelledby="article-link-3114454" class="crayons-story__hidden-navigation-link"># Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA</a>
-    <div class="crayons-article__cover crayons-article__cover__image__feed" style="width: 100%; aspect-ratio: 16 / 9; position: relative;">
-      <iframe src="https://www.youtube.com/embed/eiNhcvhAvX8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" title="# Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA" style="border: 0px; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
-    </div>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/alam-cloud-engineer" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1389753%2F610e8c24-59e0-4d21-bcad-0013bbf2367f.png" alt="alam-cloud-engineer profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/alam-cloud-engineer" class="crayons-story__secondary fw-medium m:hidden">
-              Alam
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3114454" aria-controls="story-author-preview-content-3114454" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Alam profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Alam
-                
-              </button>
-              <div id="story-author-preview-content-3114454" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/alam-cloud-engineer" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1389753%2F610e8c24-59e0-4d21-bcad-0013bbf2367f.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Alam</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1389753,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Alam&quot;}" data-fetched="fetched" aria-label="Follow user: Alam" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="1389753"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-19T01:00:58Z" title="Friday, December 19, 2025 at 1:00:58 AM">Dec 19</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766106058"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500" data-preload-image="" id="article-link-3114454">
-          # Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/infrastructureascode"><span class="crayons-tag__prefix">#</span>infrastructureascode</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/devsecops"><span class="crayons-tag__prefix">#</span>devsecops</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - # Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="atjgjunxosp1ms7o7k8z7sp57oy4dedi" class="crayons-icon"><title id="atjgjunxosp1ms7o7k8z7sp57oy4dedi">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            1 min read
-          </small>
-            <button type="button" id="article-save-button-3114454" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3114454" data-article-author-id="1389753" aria-label="Save post # Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA to reading list" title="Save post # Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -654,7 +657,7 @@
             </div>
           </a>
             <a href="https://dev.to/aerabi/day-19-secret-management-the-okterakt-98p#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Day 19 — Secret Management (The Okterakt)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ao716vpgb4tf8okw6kp6lyt5kwsmyadx" class="crayons-icon"><title id="ao716vpgb4tf8okw6kp6lyt5kwsmyadx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ati2k41z1h18biqkz6ldofs1ew42m9hn" class="crayons-icon"><title id="ati2k41z1h18biqkz6ldofs1ew42m9hn">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -679,11 +682,11 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[🛡️ Ethical Hacking Lab Walkthrough: Website Cloning & SMB Enumeration (Beginner-Friendly)]]></title>
-        <id>https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1</id>
-        <link href="https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1"/>
-        <updated>2025-12-18T12:06:18.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1" aria-labelledby="article-link-3113385" class="crayons-story__hidden-navigation-link">🛡️ Ethical Hacking Lab Walkthrough: Website Cloning &amp; SMB Enumeration (Beginner-Friendly)</a>
+        <title type="html"><![CDATA[EC2 Key Pairs]]></title>
+        <id>https://dev.to/prahal_np_690f1dc355c914/ec2-key-pairs-46jh</id>
+        <link href="https://dev.to/prahal_np_690f1dc355c914/ec2-key-pairs-46jh"/>
+        <updated>2025-12-19T05:46:29.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/prahal_np_690f1dc355c914/ec2-key-pairs-46jh" aria-labelledby="article-link-3114768" class="crayons-story__hidden-navigation-link">EC2 Key Pairs</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
@@ -691,40 +694,40 @@
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
 
-          <a href="/ldwit" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3053917%2Fe1143420-4be6-4382-b610-ea6fc4a3d21a.jpg" alt="ldwit profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/prahal_np_690f1dc355c914" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2966527%2F00614f13-9de6-4fd8-8c8e-ec03096afb7f.jpg" alt="prahal_np_690f1dc355c914 profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/ldwit" class="crayons-story__secondary fw-medium m:hidden">
-              LaTerral Williams
+            <a href="/prahal_np_690f1dc355c914" class="crayons-story__secondary fw-medium m:hidden">
+              Prahal N P
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3113385" aria-controls="story-author-preview-content-3113385" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="LaTerral Williams profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                LaTerral Williams
+              <button id="story-author-preview-trigger-3114768" aria-controls="story-author-preview-content-3114768" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Prahal N P profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Prahal N P
                 
               </button>
-              <div id="story-author-preview-content-3113385" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-3114768" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/ldwit" class="flex">
+                    <a href="/prahal_np_690f1dc355c914" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3053917%2Fe1143420-4be6-4382-b610-ea6fc4a3d21a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2966527%2F00614f13-9de6-4fd8-8c8e-ec03096afb7f.jpg" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">LaTerral Williams</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Prahal N P</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3053917,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;LaTerral Williams&quot;}" data-fetched="fetched" aria-label="Follow user: LaTerral Williams" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2966527,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Prahal N P&quot;}" data-fetched="fetched" aria-label="Follow user: Prahal N P" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="3053917"></div>
+                  <div class="author-preview-metadata-container" data-author-id="2966527"></div>
                 </div>
               </div>
             </div>
 
           </div>
-          <a href="https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-18T12:06:18Z" title="Thursday, December 18, 2025 at 12:06:18 PM">Dec 18</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766059578"></span></a>
+          <a href="https://dev.to/prahal_np_690f1dc355c914/ec2-key-pairs-46jh" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-19T05:46:29Z" title="Friday, December 19, 2025 at 5:46:29 AM">Dec 19</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766123189"></span></a>
         </div>
       </div>
 
@@ -732,23 +735,125 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1" data-preload-image="" id="article-link-3113385">
-          🛡️ Ethical Hacking Lab Walkthrough: Website Cloning &amp; SMB Enumeration (Beginner-Friendly)
+        <a href="https://dev.to/prahal_np_690f1dc355c914/ec2-key-pairs-46jh" data-preload-image="" id="article-link-3114768">
+          EC2 Key Pairs
         </a>
       </h2>
         <div class="crayons-story__tags">
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(227, 255, 0, 0.10);
-        --tag-prefix: #e3ff00;
-        --tag-bg-hover: rgba(227, 255, 0, 0.10);
-        --tag-prefix-hover: #e3ff00;
-      " href="/t/cybersecurity"><span class="crayons-tag__prefix">#</span>cybersecurity</a>
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(255, 153, 0, 0.10);
-        --tag-prefix: #FF9900;
-        --tag-bg-hover: rgba(255, 153, 0, 0.10);
-        --tag-prefix-hover: #FF9900;
-      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+        --tag-bg: rgba(0, 131, 53, 0.10);
+        --tag-prefix: #008335;
+        --tag-bg-hover: rgba(0, 131, 53, 0.10);
+        --tag-prefix-hover: #008335;
+      " href="/t/beginners"><span class="crayons-tag__prefix">#</span>beginners</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/prahal_np_690f1dc355c914/ec2-key-pairs-46jh#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - EC2 Key Pairs">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afd6shpnzghaiyes5dneshzai1n9xonh" class="crayons-icon"><title id="afd6shpnzghaiyes5dneshzai1n9xonh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            2 min read
+          </small>
+            <button type="button" id="article-save-button-3114768" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3114768" data-article-author-id="2966527" aria-label="Save post EC2 Key Pairs to reading list" title="Save post EC2 Key Pairs to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[# Defending the Cloud-Native Frontier: Security as Code with Terraform & OPA]]></title>
+        <id>https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500</id>
+        <link href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500"/>
+        <updated>2025-12-19T01:00:58.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500" aria-labelledby="article-link-3114454" class="crayons-story__hidden-navigation-link"># Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA</a>
+    <div class="crayons-article__cover crayons-article__cover__image__feed" style="width: 100%; aspect-ratio: 16 / 9; position: relative;">
+      <iframe src="https://www.youtube.com/embed/eiNhcvhAvX8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" title="# Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA" style="border: 0px; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+    </div>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/alam-cloud-engineer" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1389753%2F610e8c24-59e0-4d21-bcad-0013bbf2367f.png" alt="alam-cloud-engineer profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/alam-cloud-engineer" class="crayons-story__secondary fw-medium m:hidden">
+              Alam
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3114454" aria-controls="story-author-preview-content-3114454" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Alam profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Alam
+                
+              </button>
+              <div id="story-author-preview-content-3114454" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/alam-cloud-engineer" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1389753%2F610e8c24-59e0-4d21-bcad-0013bbf2367f.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Alam</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1389753,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Alam&quot;}" data-fetched="fetched" aria-label="Follow user: Alam" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="1389753"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-19T01:00:58Z" title="Friday, December 19, 2025 at 1:00:58 AM">Dec 19</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766106058"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500" data-preload-image="" id="article-link-3114454">
+          # Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(27, 172, 128, 0.10);
         --tag-prefix: #1bac80;
@@ -760,21 +865,27 @@
         --tag-prefix: #3b49df;
         --tag-bg-hover: rgba(59, 73, 223, 0.10);
         --tag-prefix-hover: #3b49df;
-      " href="/t/parocyber"><span class="crayons-tag__prefix">#</span>parocyber</a>
+      " href="/t/infrastructureascode"><span class="crayons-tag__prefix">#</span>infrastructureascode</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/devsecops"><span class="crayons-tag__prefix">#</span>devsecops</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-            <a href="https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🛡️ Ethical Hacking Lab Walkthrough: Website Cloning &amp; SMB Enumeration (Beginner-Friendly)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abm4o9gb3gsupmt4j76qge7poq2d0ou6" class="crayons-icon"><title id="abm4o9gb3gsupmt4j76qge7poq2d0ou6">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - # Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahis80b85dthexm7sz69nmmd36dm3hdy" class="crayons-icon"><title id="ahis80b85dthexm7sz69nmmd36dm3hdy">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
+            1 min read
           </small>
-            <button type="button" id="article-save-button-3113385" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3113385" data-article-author-id="3053917" aria-label="Save post 🛡️ Ethical Hacking Lab Walkthrough: Website Cloning &amp; SMB Enumeration (Beginner-Friendly) to reading list" title="Save post 🛡️ Ethical Hacking Lab Walkthrough: Website Cloning &amp; SMB Enumeration (Beginner-Friendly) to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3114454" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3114454" data-article-author-id="1389753" aria-label="Save post # Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA to reading list" title="Save post # Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -870,7 +981,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/morekiranp/iam-roles-temporary-credentials-alerting-aws-well-architected-framework-security-pillar-3afo#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - IAM Roles, Temporary Credentials &amp; Alerting - AWS Well-Architected Framework (Security Pillar)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apwfy07794xew5rbdt6ergn8vocnbsbh" class="crayons-icon"><title id="apwfy07794xew5rbdt6ergn8vocnbsbh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9c6cfjilxsb92006uj2m0m3tqv5giul" class="crayons-icon"><title id="a9c6cfjilxsb92006uj2m0m3tqv5giul">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
