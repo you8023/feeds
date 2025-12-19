@@ -2,9 +2,240 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2025-12-19T05:47:33.692Z</updated>
+    <updated>2025-12-19T06:56:59.614Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Securing Gmail AI Agents against Prompt Injection with Model Armor]]></title>
+        <id>https://dev.to/googleworkspace/securing-gmail-ai-agents-against-prompt-injection-with-model-armor-4fo</id>
+        <link href="https://dev.to/googleworkspace/securing-gmail-ai-agents-against-prompt-injection-with-model-armor-4fo"/>
+        <updated>2025-12-19T01:49:49.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/googleworkspace/securing-gmail-ai-agents-against-prompt-injection-with-model-armor-4fo" aria-labelledby="article-link-3114474" class="crayons-story__hidden-navigation-link">Securing Gmail AI Agents against Prompt Injection with Model Armor</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/googleworkspace">
+            <img alt="Google Workspace Developers logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F7950%2F1d000682-29bf-470d-acd7-ef37daf86a04.png" class="crayons-logo__image" loading="lazy">
+          </a>
+
+          <a href="/jpoehnelt" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F787270%2F4422db93-071d-4fd2-a6fb-0f34cef4367d.jpeg" alt="jpoehnelt profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/jpoehnelt" class="crayons-story__secondary fw-medium m:hidden">
+              Justin Poehnelt
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3114474" aria-controls="story-author-preview-content-3114474" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Justin Poehnelt profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Justin Poehnelt
+                
+              </button>
+              <div id="story-author-preview-content-3114474" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/jpoehnelt" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F787270%2F4422db93-071d-4fd2-a6fb-0f34cef4367d.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Justin Poehnelt</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:787270,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Justin Poehnelt&quot;}" data-fetched="fetched" aria-label="Follow user: Justin Poehnelt" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="787270"></div>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/googleworkspace" class="crayons-story__secondary fw-medium">Google Workspace Developers</a>
+            </span>
+          </div>
+          <a href="https://dev.to/googleworkspace/securing-gmail-ai-agents-against-prompt-injection-with-model-armor-4fo" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-19T01:49:49Z" title="Friday, December 19, 2025 at 1:49:49 AM">Dec 19</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766108989"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/googleworkspace/securing-gmail-ai-agents-against-prompt-injection-with-model-armor-4fo" data-preload-image="" id="article-link-3114474">
+          Securing Gmail AI Agents against Prompt Injection with Model Armor
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/mcp"><span class="crayons-tag__prefix">#</span>mcp</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 60, 179, 0.10);
+        --tag-prefix: #003cb3;
+        --tag-bg-hover: rgba(0, 60, 179, 0.10);
+        --tag-prefix-hover: #003cb3;
+      " href="/t/googlecloud"><span class="crayons-tag__prefix">#</span>googlecloud</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/googleworkspace/securing-gmail-ai-agents-against-prompt-injection-with-model-armor-4fo#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Securing Gmail AI Agents against Prompt Injection with Model Armor">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a19871w6fwxmtoeb3hmuiaw63oisc14g" class="crayons-icon"><title id="a19871w6fwxmtoeb3hmuiaw63oisc14g">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            7 min read
+          </small>
+            <button type="button" id="article-save-button-3114474" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3114474" data-article-author-id="787270" aria-label="Save post Securing Gmail AI Agents against Prompt Injection with Model Armor to reading list" title="Save post Securing Gmail AI Agents against Prompt Injection with Model Armor to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[# Defending the Cloud-Native Frontier: Security as Code with Terraform & OPA]]></title>
+        <id>https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500</id>
+        <link href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500"/>
+        <updated>2025-12-19T01:00:58.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500" aria-labelledby="article-link-3114454" class="crayons-story__hidden-navigation-link"># Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA</a>
+    <div class="crayons-article__cover crayons-article__cover__image__feed" style="width: 100%; aspect-ratio: 16 / 9; position: relative;">
+      <iframe src="https://www.youtube.com/embed/eiNhcvhAvX8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" title="# Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA" style="border: 0px; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+    </div>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/alam-cloud-engineer" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1389753%2F610e8c24-59e0-4d21-bcad-0013bbf2367f.png" alt="alam-cloud-engineer profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/alam-cloud-engineer" class="crayons-story__secondary fw-medium m:hidden">
+              Alam
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3114454" aria-controls="story-author-preview-content-3114454" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Alam profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Alam
+                
+              </button>
+              <div id="story-author-preview-content-3114454" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/alam-cloud-engineer" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1389753%2F610e8c24-59e0-4d21-bcad-0013bbf2367f.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Alam</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1389753,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Alam&quot;}" data-fetched="fetched" aria-label="Follow user: Alam" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="1389753"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-19T01:00:58Z" title="Friday, December 19, 2025 at 1:00:58 AM">Dec 19</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766106058"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500" data-preload-image="" id="article-link-3114454">
+          # Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/infrastructureascode"><span class="crayons-tag__prefix">#</span>infrastructureascode</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/devsecops"><span class="crayons-tag__prefix">#</span>devsecops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - # Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8u47g3hbggcohzqn27e7bf305rbtm13" class="crayons-icon"><title id="a8u47g3hbggcohzqn27e7bf305rbtm13">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            1 min read
+          </small>
+            <button type="button" id="article-save-button-3114454" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3114454" data-article-author-id="1389753" aria-label="Save post # Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA to reading list" title="Save post # Defending the Cloud-Native Frontier: Security as Code with Terraform &amp; OPA to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🛡️ Ethical Hacking Lab Walkthrough: Website Cloning & SMB Enumeration (Beginner-Friendly)]]></title>
         <id>https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1</id>
@@ -92,7 +323,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/ldwit/ethical-hacking-lab-walkthrough-website-cloning-smb-enumeration-beginner-friendly-37k1#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🛡️ Ethical Hacking Lab Walkthrough: Website Cloning &amp; SMB Enumeration (Beginner-Friendly)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="arcjzmrrdds4qj4q0mgm2bavnrdeuasm" class="crayons-icon"><title id="arcjzmrrdds4qj4q0mgm2bavnrdeuasm">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8kq22l367kc3y84hu5ytd2i5tvypap9" class="crayons-icon"><title id="a8kq22l367kc3y84hu5ytd2i5tvypap9">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -197,7 +428,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/morekiranp/iam-roles-temporary-credentials-alerting-aws-well-architected-framework-security-pillar-3afo#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - IAM Roles, Temporary Credentials &amp; Alerting - AWS Well-Architected Framework (Security Pillar)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akhuz0v3ci2ul1sopzcstgskskaiguh4" class="crayons-icon"><title id="akhuz0v3ci2ul1sopzcstgskskaiguh4">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="al1kqxiwatd05urjhnrghe2pzskvwbpx" class="crayons-icon"><title id="al1kqxiwatd05urjhnrghe2pzskvwbpx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -308,7 +539,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/jai_surya_m/amazon-athena-in-the-aws-periodic-table-5g4m#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Amazon Athena in the AWS Periodic Table">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="agrg1ycet2g5wnsqwfjflr3vayoxxw4o" class="crayons-icon"><title id="agrg1ycet2g5wnsqwfjflr3vayoxxw4o">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="amiycqsg8ip9l11d2g0lmnlppnmncntb" class="crayons-icon"><title id="amiycqsg8ip9l11d2g0lmnlppnmncntb">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -419,7 +650,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/piya__c204c9e90/key-azure-backup-solutions-you-should-know-azure-native-only-1k5p#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Key Azure Backup Solutions You Should Know (Azure-Native Only)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aj5xseqsezgb93agvf4lsn9fi0yjqyfs" class="crayons-icon"><title id="aj5xseqsezgb93agvf4lsn9fi0yjqyfs">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afl3zvqeia7i5rkppb6twedbg0c4pvyj" class="crayons-icon"><title id="afl3zvqeia7i5rkppb6twedbg0c4pvyj">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -429,127 +660,6 @@
             4 min read
           </small>
             <button type="button" id="article-save-button-3113170" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3113170" data-article-author-id="1696885" aria-label="Save post Key Azure Backup Solutions You Should Know (Azure-Native Only) to reading list" title="Save post Key Azure Backup Solutions You Should Know (Azure-Native Only) to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Instructions for deploying the NIST SP 800-53 Framework on the AWS platform.]]></title>
-        <id>https://dev.to/huydanggdg/instructions-for-deploying-the-nist-sp-800-53-framework-on-the-aws-platform-11hj</id>
-        <link href="https://dev.to/huydanggdg/instructions-for-deploying-the-nist-sp-800-53-framework-on-the-aws-platform-11hj"/>
-        <updated>2025-12-18T08:49:42.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/huydanggdg/instructions-for-deploying-the-nist-sp-800-53-framework-on-the-aws-platform-11hj" aria-labelledby="article-link-3112713" class="crayons-story__hidden-navigation-link">Instructions for deploying the NIST SP 800-53 Framework on the AWS platform.</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/huydanggdg" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1238970%2Ff7463c48-37c0-44a3-847e-9070cffc73a3.jpg" alt="huydanggdg profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/huydanggdg" class="crayons-story__secondary fw-medium m:hidden">
-              Huy Dang
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3112713" aria-controls="story-author-preview-content-3112713" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Huy Dang profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Huy Dang
-                
-              </button>
-              <div id="story-author-preview-content-3112713" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/huydanggdg" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1238970%2Ff7463c48-37c0-44a3-847e-9070cffc73a3.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Huy Dang</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1238970,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Huy Dang&quot;}" data-fetched="fetched" aria-label="Follow user: Huy Dang" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="1238970"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/huydanggdg/instructions-for-deploying-the-nist-sp-800-53-framework-on-the-aws-platform-11hj" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-18T08:49:42Z" title="Thursday, December 18, 2025 at 8:49:42 AM">Dec 18</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766047782"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/huydanggdg/instructions-for-deploying-the-nist-sp-800-53-framework-on-the-aws-platform-11hj" data-preload-image="" id="article-link-3112713">
-          Instructions for deploying the NIST SP 800-53 Framework on the AWS platform.
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(254, 255, 165, 0.10);
-        --tag-prefix: #FEFFA5;
-        --tag-bg-hover: rgba(254, 255, 165, 0.10);
-        --tag-prefix-hover: #FEFFA5;
-      " href="/t/tutorial"><span class="crayons-tag__prefix">#</span>tutorial</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(255, 153, 0, 0.10);
-        --tag-prefix: #FF9900;
-        --tag-bg-hover: rgba(255, 153, 0, 0.10);
-        --tag-prefix-hover: #FF9900;
-      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/huydanggdg/instructions-for-deploying-the-nist-sp-800-53-framework-on-the-aws-platform-11hj" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3112713" aria-label="Add a comment to post - Instructions for deploying the NIST SP 800-53 Framework on the AWS platform.">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/huydanggdg/instructions-for-deploying-the-nist-sp-800-53-framework-on-the-aws-platform-11hj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Instructions for deploying the NIST SP 800-53 Framework on the AWS platform.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a53kvwwwvn0jwprdtu92tl4ev2qzrj8c" class="crayons-icon"><title id="a53kvwwwvn0jwprdtu92tl4ev2qzrj8c">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3112713" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3112713" data-article-author-id="1238970" aria-label="Save post Instructions for deploying the NIST SP 800-53 Framework on the AWS platform. to reading list" title="Save post Instructions for deploying the NIST SP 800-53 Framework on the AWS platform. to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
