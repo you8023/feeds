@@ -2,9 +2,114 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2025-12-21T17:42:55.342Z</updated>
+    <updated>2025-12-21T18:57:10.194Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Control centralizado de S3 Block Public Access a nivel organizacional (en español sencillo)]]></title>
+        <id>https://dev.to/pangoro24/control-centralizado-de-s3-block-public-access-a-nivel-organizacional-en-espanol-sencillo-4n2j</id>
+        <link href="https://dev.to/pangoro24/control-centralizado-de-s3-block-public-access-a-nivel-organizacional-en-espanol-sencillo-4n2j"/>
+        <updated>2025-12-21T18:00:52.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/pangoro24/control-centralizado-de-s3-block-public-access-a-nivel-organizacional-en-espanol-sencillo-4n2j" aria-labelledby="article-link-3119150" class="crayons-story__hidden-navigation-link">Control centralizado de S3 Block Public Access a nivel organizacional (en español sencillo)</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/pangoro24" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F708573%2F622961b7-3b15-4c53-9303-b10cba1ae929.jpeg" alt="pangoro24 profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/pangoro24" class="crayons-story__secondary fw-medium m:hidden">
+              Pablo Gonzalez Robles
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3119150" aria-controls="story-author-preview-content-3119150" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Pablo Gonzalez Robles profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Pablo Gonzalez Robles
+                
+              </button>
+              <div id="story-author-preview-content-3119150" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/pangoro24" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F708573%2F622961b7-3b15-4c53-9303-b10cba1ae929.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Pablo Gonzalez Robles</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:708573,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Pablo Gonzalez Robles&quot;}" data-fetched="fetched" aria-label="Follow user: Pablo Gonzalez Robles" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="708573"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/pangoro24/control-centralizado-de-s3-block-public-access-a-nivel-organizacional-en-espanol-sencillo-4n2j" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-21T18:00:52Z" title="Sunday, December 21, 2025 at 6:00:52 PM">Dec 21</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766340052"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/pangoro24/control-centralizado-de-s3-block-public-access-a-nivel-organizacional-en-espanol-sencillo-4n2j" data-preload-image="" id="article-link-3119150">
+          Control centralizado de S3 Block Public Access a nivel organizacional (en español sencillo)
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(242, 46, 7, 0.10);
+        --tag-prefix: #f22e07;
+        --tag-bg-hover: rgba(242, 46, 7, 0.10);
+        --tag-prefix-hover: #f22e07;
+      " href="/t/management"><span class="crayons-tag__prefix">#</span>management</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/pangoro24/control-centralizado-de-s3-block-public-access-a-nivel-organizacional-en-espanol-sencillo-4n2j#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Control centralizado de S3 Block Public Access a nivel organizacional (en español sencillo)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="al6lo1u9vbnch9sxtfc9z2xf0dubtzay" class="crayons-icon"><title id="al6lo1u9vbnch9sxtfc9z2xf0dubtzay">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            3 min read
+          </small>
+            <button type="button" id="article-save-button-3119150" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3119150" data-article-author-id="708573" aria-label="Save post Control centralizado de S3 Block Public Access a nivel organizacional (en español sencillo) to reading list" title="Save post Control centralizado de S3 Block Public Access a nivel organizacional (en español sencillo) to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🛡️ AWS Config Drift Detection Lab - Beginner-Friendly Guide]]></title>
         <id>https://dev.to/ldwit/aws-config-drift-detection-lab-beginner-friendly-guide-39c8</id>
@@ -92,7 +197,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/ldwit/aws-config-drift-detection-lab-beginner-friendly-guide-39c8#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🛡️ AWS Config Drift Detection Lab - Beginner-Friendly Guide">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a6a8z8s68qpq6qtqsegv98yd3zzor4zz" class="crayons-icon"><title id="a6a8z8s68qpq6qtqsegv98yd3zzor4zz">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="asp5ub9p22sdzskqfi65dge6yufc8akg" class="crayons-icon"><title id="asp5ub9p22sdzskqfi65dge6yufc8akg">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -101,7 +206,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             6 min read
           </small>
-            <button type="button" id="article-save-button-3107446" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3107446" data-article-author-id="3053917" aria-label="Save post 🛡️ AWS Config Drift Detection Lab - Beginner-Friendly Guide to reading list" title="Save post 🛡️ AWS Config Drift Detection Lab - Beginner-Friendly Guide to reading list">
+            <button type="button" id="article-save-button-3107446" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3107446" data-article-author-id="3053917" aria-label="Save post 🛡️ AWS Config Drift Detection Lab - Beginner-Friendly Guide to reading list" title="Save post 🛡️ AWS Config Drift Detection Lab - Beginner-Friendly Guide to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -203,7 +308,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/yashvikothari/lego-city-how-to-build-anything-without-it-falling-over-4c01#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Lego City: How to Build Anything Without It Falling Over">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a6zwqp5d3xtk1vlpxp96eqsg9a8orees" class="crayons-icon"><title id="a6zwqp5d3xtk1vlpxp96eqsg9a8orees">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3qykdtmqhi0pq3e6ruqrf1vg8be502e" class="crayons-icon"><title id="a3qykdtmqhi0pq3e6ruqrf1vg8be502e">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -212,7 +317,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3117358" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3117358" data-article-author-id="545159" aria-label="Save post Lego City: How to Build Anything Without It Falling Over to reading list" title="Save post Lego City: How to Build Anything Without It Falling Over to reading list">
+            <button type="button" id="article-save-button-3117358" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3117358" data-article-author-id="545159" aria-label="Save post Lego City: How to Build Anything Without It Falling Over to reading list" title="Save post Lego City: How to Build Anything Without It Falling Over to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -330,7 +435,7 @@
             </div>
           </a>
             <a href="https://dev.to/aerabi/day-20-incident-response-the-ambush-6a5#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Day 20 — Incident Response (The Ambush)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7juhxn1gkxh3t0s1tblrnjnxlw070oo" class="crayons-icon"><title id="a7juhxn1gkxh3t0s1tblrnjnxlw070oo">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3xi4f4e460ofisicye26ikpak1xyna3" class="crayons-icon"><title id="a3xi4f4e460ofisicye26ikpak1xyna3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -339,7 +444,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
           </small>
-            <button type="button" id="article-save-button-3116633" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3116633" data-article-author-id="416596" aria-label="Save post Day 20 — Incident Response (The Ambush) to reading list" title="Save post Day 20 — Incident Response (The Ambush) to reading list">
+            <button type="button" id="article-save-button-3116633" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3116633" data-article-author-id="416596" aria-label="Save post Day 20 — Incident Response (The Ambush) to reading list" title="Save post Day 20 — Incident Response (The Ambush) to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -451,7 +556,7 @@
             </div>
           </a>
             <a href="https://dev.to/aerabi/day-21-balancing-speed-and-security-confrontation-with-jack-3kd6#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Day 21 — Balancing Speed and Security (Confrontation with Jack)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="askbsevqaw645hpyd5csfrjkw9c33lfx" class="crayons-icon"><title id="askbsevqaw645hpyd5csfrjkw9c33lfx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aik3bdcjc796t9t5nriyriioqdxwapv1" class="crayons-icon"><title id="aik3bdcjc796t9t5nriyriioqdxwapv1">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -460,7 +565,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
           </small>
-            <button type="button" id="article-save-button-3118903" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3118903" data-article-author-id="416596" aria-label="Save post Day 21 — Balancing Speed and Security (Confrontation with Jack) to reading list" title="Save post Day 21 — Balancing Speed and Security (Confrontation with Jack) to reading list">
+            <button type="button" id="article-save-button-3118903" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3118903" data-article-author-id="416596" aria-label="Save post Day 21 — Balancing Speed and Security (Confrontation with Jack) to reading list" title="Save post Day 21 — Balancing Speed and Security (Confrontation with Jack) to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -572,7 +677,7 @@
             </div>
           </a>
             <a href="https://dev.to/aws-builders/using-aws-outbound-identity-federation-for-azure-resources-2d7c#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Using AWS Outbound Identity Federation for Azure Resources">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="agje70xzi063r2dk16zvp0i6xucsh6n2" class="crayons-icon"><title id="agje70xzi063r2dk16zvp0i6xucsh6n2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="arakbsrpjjeuzztmvglmsoqbc6y24h15" class="crayons-icon"><title id="arakbsrpjjeuzztmvglmsoqbc6y24h15">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -581,7 +686,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             7 min read
           </small>
-            <button type="button" id="article-save-button-3116082" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3116082" data-article-author-id="836140" aria-label="Save post Using AWS Outbound Identity Federation for Azure Resources to reading list" title="Save post Using AWS Outbound Identity Federation for Azure Resources to reading list">
+            <button type="button" id="article-save-button-3116082" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3116082" data-article-author-id="836140" aria-label="Save post Using AWS Outbound Identity Federation for Azure Resources to reading list" title="Save post Using AWS Outbound Identity Federation for Azure Resources to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -683,7 +788,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/aws-builders/aws-vault-integration-4jac#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS Vault Integration">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="at4mq8jcy77afne39vmsbd4kkpnr2ybk" class="crayons-icon"><title id="at4mq8jcy77afne39vmsbd4kkpnr2ybk">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aamjnrm6ssazfw31tdwad72p8rp79my6" class="crayons-icon"><title id="aamjnrm6ssazfw31tdwad72p8rp79my6">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -692,7 +797,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
           </small>
-            <button type="button" id="article-save-button-3115843" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3115843" data-article-author-id="723571" aria-label="Save post AWS Vault Integration to reading list" title="Save post AWS Vault Integration to reading list">
+            <button type="button" id="article-save-button-3115843" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3115843" data-article-author-id="723571" aria-label="Save post AWS Vault Integration to reading list" title="Save post AWS Vault Integration to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -794,7 +899,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/ldwit/building-an-iam-security-dashboard-with-power-bi-beginner-friendly-walkthrough-45hd#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🔐 Building an IAM Security Dashboard with Power BI (Beginner-Friendly Walkthrough)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afpq35dfgcwfl5sy92blxfugehcdp85q" class="crayons-icon"><title id="afpq35dfgcwfl5sy92blxfugehcdp85q">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a36hzaozdgywjrfosjh0nmeleecbht2g" class="crayons-icon"><title id="a36hzaozdgywjrfosjh0nmeleecbht2g">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -803,7 +908,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             7 min read
           </small>
-            <button type="button" id="article-save-button-3115976" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3115976" data-article-author-id="3053917" aria-label="Save post 🔐 Building an IAM Security Dashboard with Power BI (Beginner-Friendly Walkthrough) to reading list" title="Save post 🔐 Building an IAM Security Dashboard with Power BI (Beginner-Friendly Walkthrough) to reading list">
+            <button type="button" id="article-save-button-3115976" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3115976" data-article-author-id="3053917" aria-label="Save post 🔐 Building an IAM Security Dashboard with Power BI (Beginner-Friendly Walkthrough) to reading list" title="Save post 🔐 Building an IAM Security Dashboard with Power BI (Beginner-Friendly Walkthrough) to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -905,7 +1010,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/huizhudev/stop-treating-docker-like-a-fancy-zip-file-generating-production-grade-containers-with-ai-2mk8#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Stop Treating Docker Like a Fancy Zip File: Generating Production-Grade Containers with AI">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anxeqmqjhavml0r2oiecuasn4wna5j0a" class="crayons-icon"><title id="anxeqmqjhavml0r2oiecuasn4wna5j0a">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="adqg8xcg8xizz344j7qdxbul0lqrabga" class="crayons-icon"><title id="adqg8xcg8xizz344j7qdxbul0lqrabga">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -914,7 +1019,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3115961" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3115961" data-article-author-id="3523303" aria-label="Save post Stop Treating Docker Like a Fancy Zip File: Generating Production-Grade Containers with AI to reading list" title="Save post Stop Treating Docker Like a Fancy Zip File: Generating Production-Grade Containers with AI to reading list">
+            <button type="button" id="article-save-button-3115961" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3115961" data-article-author-id="3523303" aria-label="Save post Stop Treating Docker Like a Fancy Zip File: Generating Production-Grade Containers with AI to reading list" title="Save post Stop Treating Docker Like a Fancy Zip File: Generating Production-Grade Containers with AI to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
