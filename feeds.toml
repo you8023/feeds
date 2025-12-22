@@ -677,3 +677,21 @@ titleSelector = ".post_title > a"
 linkSelector = ".post_title > a"
 dateSelector = ".post_date > a"
 dateFormat = "MMMM d, yyyy"
+
+[xia0_sh]
+title = "xia0_sh"
+url = "https://xia0.sh/blog"
+entrySelector = "section > ul > li"
+titleSelector = "h3"
+linkSelector = "a"
+dateSelector = "a > div > div > span:nth-child(3)"
+dateFormat = "MMM d, yyyy"
+
+[streypaws]
+title = "streypaws"
+url = "https://streypaws.github.io/"
+entrySelector = "#post-list article"
+titleSelector = "h1"
+linkSelector = "a"
+dateSelector = "time"
+dateFormat = "MMM d, yyyy"
