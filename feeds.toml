@@ -607,3 +607,19 @@ titleSelector = "a"
 linkSelector = "a"
 dateSelector = ".blog-list-date"
 dateFormat = "~ MMM d, yyyy"
+
+[hnsecurity]
+title = "hnsecurity"
+url = "https://hnsecurity.it/blog/"
+entrySelector = ".grid-container > div"
+titleSelector = "h3 > a"
+linkSelector = "h3 > a"
+dateSelector = ".t-entry-date"
+dateFormat = "MMMM d, yyyy"
+
+[claroty team82]
+title = "claroty team82"
+url = "https://claroty.com/team82/research"
+entrySelector = ".entry-card"
+titleSelector = "h2"
+linkSelector = "*"
