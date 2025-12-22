@@ -623,3 +623,21 @@ url = "https://claroty.com/team82/research"
 entrySelector = ".entry-card"
 titleSelector = "h2"
 linkSelector = "*"
+
+[oddlama]
+title = "oddlama"
+url = "https://oddlama.org/blog/"
+entrySelector = "article"
+titleSelector = "a"
+linkSelector = "a"
+dateSelector = "time"
+dateFormat = "yyyy-MM-dd"
+
+[afine]
+title = "afine"
+url = "https://afine.com/blog/"
+entrySelector = ".blog__item"
+titleSelector = "h2 > a"
+linkSelector = "h2 > a"
+dateSelector = ".blog__item__meta > time > span"
+dateFormat = "MMM d, yyyy"
