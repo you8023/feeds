@@ -695,3 +695,21 @@ titleSelector = "h1"
 linkSelector = "a"
 dateSelector = "time"
 dateFormat = "MMM d, yyyy"
+
+[washi]
+title = "washi"
+url = "https://blog.washi.dev/"
+entrySelector = "#post-list article"
+titleSelector = "h1"
+linkSelector = "a"
+dateSelector = "time"
+dateFormat = "MMM d, yyyy"
+
+[brownfinesecurity]
+title = "brownfinesecurity"
+url = "https://brownfinesecurity.com/blog"
+entrySelector = ".container section > div > div"
+titleSelector = "h3 > a"
+linkSelector = "h3 > a"
+dateSelector = "time"
+dateFormat = "MMMM d, yyyy"
