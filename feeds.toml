@@ -685,7 +685,7 @@ entrySelector = "section > ul > li"
 titleSelector = "h3"
 linkSelector = "a"
 dateSelector = "a > div > div > span:nth-child(3)"
-dateFormat = "MMM d, yyyy"
+dateFormat = "MMMM d, yyyy"
 
 [streypaws]
 title = "streypaws"
@@ -711,5 +711,23 @@ url = "https://brownfinesecurity.com/blog"
 entrySelector = ".container section > div > div"
 titleSelector = "h3 > a"
 linkSelector = "h3 > a"
+dateSelector = "time"
+dateFormat = "MMMM d, yyyy"
+
+[dayzerosec]
+title = "dayzerosec"
+url = "https://dayzerosec.com/blog/"
+entrySelector = "article"
+titleSelector = "h3 > a"
+linkSelector = "h3 > a"
+dateSelector = "time"
+dateFormat = "dd MMMM yyyy"
+
+[josh_magic_box]
+title = "josh_magic_box"
+url = "https://magic-box.dev/blog/"
+entrySelector = "article"
+titleSelector = "a > h2"
+linkSelector = "a"
 dateSelector = "time"
 dateFormat = "MMMM d, yyyy"
