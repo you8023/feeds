@@ -22,3 +22,11 @@ titleSelector = ".text-DarkestBlue"
 linkSelector = "> a"
 dateSelector = ".text-darkGray"
 dateFormat = "MMMM d, yyyy"
+
+[eshard]
+title = "eshard"
+url = "https://eshard.com/posts"
+entrySelector = "#__next > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(1) > div"
+titleSelector = "h3"
+linkSelector = "a"
+filters = ["Corporate News"]
