@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2025-12-22T09:55:30.844Z</updated>
+    <updated>2025-12-22T10:52:39.887Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
@@ -108,7 +108,7 @@
             </div>
           </a>
             <a href="https://dev.to/pradumnasaraf/improving-container-security-with-docker-hardened-images-3bia#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Improving Container Security with Docker Hardened Images">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abw9fse7cay7voyv3zu4x54dxmc7zqis" class="crayons-icon"><title id="abw9fse7cay7voyv3zu4x54dxmc7zqis">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a62436moy3mjy4a5pt8zxc8ccp3oa3us" class="crayons-icon"><title id="a62436moy3mjy4a5pt8zxc8ccp3oa3us">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -118,6 +118,117 @@
             6 min read
           </small>
             <button type="button" id="article-save-button-3118858" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3118858" data-article-author-id="682769" aria-label="Save post Improving Container Security with Docker Hardened Images to reading list" title="Save post Improving Container Security with Docker Hardened Images to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to integrate Brakeman Security Scanner with GitHub Code Scanning]]></title>
+        <id>https://dev.to/sampart/how-to-integrate-brakeman-security-scanner-with-github-code-scanning-44an</id>
+        <link href="https://dev.to/sampart/how-to-integrate-brakeman-security-scanner-with-github-code-scanning-44an"/>
+        <updated>2025-12-22T10:11:50.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/sampart/how-to-integrate-brakeman-security-scanner-with-github-code-scanning-44an" aria-labelledby="article-link-3113733" class="crayons-story__hidden-navigation-link">How to integrate Brakeman Security Scanner with GitHub Code Scanning</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/sampart" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F129618%2Fb41a92f3-5c12-40f8-b5a5-35dbc240b769.jpeg" alt="sampart profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/sampart" class="crayons-story__secondary fw-medium m:hidden">
+              Sam Partington
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3113733" aria-controls="story-author-preview-content-3113733" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Sam Partington profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Sam Partington
+                
+              </button>
+              <div id="story-author-preview-content-3113733" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/sampart" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F129618%2Fb41a92f3-5c12-40f8-b5a5-35dbc240b769.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Sam Partington</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:129618,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Sam Partington&quot;}" data-fetched="fetched" aria-label="Follow user: Sam Partington" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="129618"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/sampart/how-to-integrate-brakeman-security-scanner-with-github-code-scanning-44an" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-22T10:11:50Z" title="Monday, December 22, 2025 at 10:11:50 AM">Dec 22</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766398310"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/sampart/how-to-integrate-brakeman-security-scanner-with-github-code-scanning-44an" data-preload-image="" id="article-link-3113733">
+          How to integrate Brakeman Security Scanner with GitHub Code Scanning
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/github"><span class="crayons-tag__prefix">#</span>github</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(204, 0, 0, 0.10);
+        --tag-prefix: #cc0000;
+        --tag-bg-hover: rgba(204, 0, 0, 0.10);
+        --tag-prefix-hover: #cc0000;
+      " href="/t/rails"><span class="crayons-tag__prefix">#</span>rails</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/sampart/how-to-integrate-brakeman-security-scanner-with-github-code-scanning-44an#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How to integrate Brakeman Security Scanner with GitHub Code Scanning">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abv37aor612iwf2jok44wohheoc1imx6" class="crayons-icon"><title id="abv37aor612iwf2jok44wohheoc1imx6">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+            <button type="button" id="article-save-button-3113733" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3113733" data-article-author-id="129618" aria-label="Save post How to integrate Brakeman Security Scanner with GitHub Code Scanning to reading list" title="Save post How to integrate Brakeman Security Scanner with GitHub Code Scanning to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -213,7 +324,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/pangoro24/control-centralizado-de-s3-block-public-access-a-nivel-organizacional-en-espanol-sencillo-4n2j#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Control centralizado de S3 Block Public Access a nivel organizacional (en español sencillo)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aotrt35dbv9utrjln8apnjixkhdcrt6f" class="crayons-icon"><title id="aotrt35dbv9utrjln8apnjixkhdcrt6f">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8uwt3jma5fyg9fgx6ewfp7u7nqwduoi" class="crayons-icon"><title id="a8uwt3jma5fyg9fgx6ewfp7u7nqwduoi">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -324,7 +435,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/ldwit/aws-config-drift-detection-lab-beginner-friendly-guide-39c8#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🛡️ AWS Config Drift Detection Lab - Beginner-Friendly Guide">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1er3io9f6nkg9qztvw0u6gml7u5jn9v" class="crayons-icon"><title id="a1er3io9f6nkg9qztvw0u6gml7u5jn9v">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4m03r2l3nrbqonms9bwn1wx58zqkq3q" class="crayons-icon"><title id="a4m03r2l3nrbqonms9bwn1wx58zqkq3q">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -435,7 +546,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/yashvikothari/lego-city-how-to-build-anything-without-it-falling-over-4c01#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Lego City: How to Build Anything Without It Falling Over">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a69mrqwrha0n4fvyat9jwpgs48tg08f" class="crayons-icon"><title id="a69mrqwrha0n4fvyat9jwpgs48tg08f">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a6ps5xfuoew8ijunoq2oafc2qe3uqj1a" class="crayons-icon"><title id="a6ps5xfuoew8ijunoq2oafc2qe3uqj1a">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -562,7 +673,7 @@
             </div>
           </a>
             <a href="https://dev.to/aerabi/day-20-incident-response-the-ambush-6a5#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Day 20 — Incident Response (The Ambush)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ak5c1vrch0srrzngm7aef7s7kk08fq87" class="crayons-icon"><title id="ak5c1vrch0srrzngm7aef7s7kk08fq87">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3twpu9iu64oewdnhbahqlq2yqqya123" class="crayons-icon"><title id="a3twpu9iu64oewdnhbahqlq2yqqya123">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -572,470 +683,6 @@
             2 min read
           </small>
             <button type="button" id="article-save-button-3116633" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3116633" data-article-author-id="416596" aria-label="Save post Day 20 — Incident Response (The Ambush) to reading list" title="Save post Day 20 — Incident Response (The Ambush) to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 21 — Balancing Speed and Security (Confrontation with Jack)]]></title>
-        <id>https://dev.to/aerabi/day-21-balancing-speed-and-security-confrontation-with-jack-3kd6</id>
-        <link href="https://dev.to/aerabi/day-21-balancing-speed-and-security-confrontation-with-jack-3kd6"/>
-        <updated>2025-12-21T14:26:40.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/aerabi/day-21-balancing-speed-and-security-confrontation-with-jack-3kd6" aria-labelledby="article-link-3118903" class="crayons-story__hidden-navigation-link">Day 21 — Balancing Speed and Security (Confrontation with Jack)</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/aerabi" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F416596%2F502a9a4a-55f2-4d91-b32b-6250bd889f7c.jpeg" alt="aerabi profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/aerabi" class="crayons-story__secondary fw-medium m:hidden">
-              Mohammad-Ali A'RÂBI
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3118903" aria-controls="story-author-preview-content-3118903" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Mohammad-Ali A'RÂBI profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Mohammad-Ali A'RÂBI
-                
-              </button>
-              <div id="story-author-preview-content-3118903" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/aerabi" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F416596%2F502a9a4a-55f2-4d91-b32b-6250bd889f7c.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Mohammad-Ali A'RÂBI</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:416596,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Mohammad-Ali A'RÂBI&quot;}" data-fetched="fetched" aria-label="Follow user: Mohammad-Ali A'RÂBI" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="416596"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/aerabi/day-21-balancing-speed-and-security-confrontation-with-jack-3kd6" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-21T14:26:40Z" title="Sunday, December 21, 2025 at 2:26:40 PM">Dec 21</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766327200"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/aerabi/day-21-balancing-speed-and-security-confrontation-with-jack-3kd6" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3l9eao21hdpdduzl9aww.png" id="article-link-3118903">
-          Day 21 — Balancing Speed and Security (Confrontation with Jack)
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(29, 99, 237, 0.10);
-        --tag-prefix: #1D63ED;
-        --tag-bg-hover: rgba(29, 99, 237, 0.10);
-        --tag-prefix-hover: #1D63ED;
-      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(50, 109, 230, 0.10);
-        --tag-prefix: #326de6;
-        --tag-bg-hover: rgba(50, 109, 230, 0.10);
-        --tag-prefix-hover: #326de6;
-      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/aerabi/day-21-balancing-speed-and-security-confrontation-with-jack-3kd6" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3118903" aria-label="Add a comment to post - Day 21 — Balancing Speed and Security (Confrontation with Jack)">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">4<span class="hidden s:inline">&nbsp;reactions</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/aerabi/day-21-balancing-speed-and-security-confrontation-with-jack-3kd6#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Day 21 — Balancing Speed and Security (Confrontation with Jack)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqkdnbzg1frt9y2iuua23lh31vwvdb4b" class="crayons-icon"><title id="aqkdnbzg1frt9y2iuua23lh31vwvdb4b">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3118903" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3118903" data-article-author-id="416596" aria-label="Save post Day 21 — Balancing Speed and Security (Confrontation with Jack) to reading list" title="Save post Day 21 — Balancing Speed and Security (Confrontation with Jack) to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using AWS Outbound Identity Federation for Azure Resources]]></title>
-        <id>https://dev.to/aws-builders/using-aws-outbound-identity-federation-for-azure-resources-2d7c</id>
-        <link href="https://dev.to/aws-builders/using-aws-outbound-identity-federation-for-azure-resources-2d7c"/>
-        <updated>2025-12-19T17:30:20.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/aws-builders/using-aws-outbound-identity-federation-for-azure-resources-2d7c" aria-labelledby="article-link-3116082" class="crayons-story__hidden-navigation-link">Using AWS Outbound Identity Federation for Azure Resources</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-          <a class="crayons-logo crayons-logo--l" href="/aws-builders">
-            <img alt="AWS Community Builders  logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2794%2F88da75b6-aadd-4ea1-8083-ae2dfca8be94.png" class="crayons-logo__image" loading="lazy">
-          </a>
-
-          <a href="/ejohn20" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F836140%2F1ac3b4c8-7691-4b01-aa97-31f05a3c860d.jpeg" alt="ejohn20 profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/ejohn20" class="crayons-story__secondary fw-medium m:hidden">
-              Eric Johnson
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3116082" aria-controls="story-author-preview-content-3116082" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Eric Johnson profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Eric Johnson
-                
-              </button>
-              <div id="story-author-preview-content-3116082" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/ejohn20" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F836140%2F1ac3b4c8-7691-4b01-aa97-31f05a3c860d.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Eric Johnson</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:836140,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Eric Johnson&quot;}" data-fetched="fetched" aria-label="Follow user: Eric Johnson" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="836140"></div>
-                </div>
-              </div>
-            </div>
-
-            <span>
-              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/aws-builders" class="crayons-story__secondary fw-medium">AWS Community Builders </a>
-            </span>
-          </div>
-          <a href="https://dev.to/aws-builders/using-aws-outbound-identity-federation-for-azure-resources-2d7c" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-19T17:30:20Z" title="Friday, December 19, 2025 at 5:30:20 PM">Dec 19</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766165420"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/aws-builders/using-aws-outbound-identity-federation-for-azure-resources-2d7c" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbib6qib167gbtmwsdwz0.png" id="article-link-3116082">
-          Using AWS Outbound Identity Federation for Azure Resources
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/identity"><span class="crayons-tag__prefix">#</span>identity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/aws-builders/using-aws-outbound-identity-federation-for-azure-resources-2d7c" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3116082" aria-label="Add a comment to post - Using AWS Outbound Identity Federation for Azure Resources">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/aws-builders/using-aws-outbound-identity-federation-for-azure-resources-2d7c#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Using AWS Outbound Identity Federation for Azure Resources">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3xnnq5ydvqn5nyrhqnux7xouhrrr29r" class="crayons-icon"><title id="a3xnnq5ydvqn5nyrhqnux7xouhrrr29r">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            7 min read
-          </small>
-            <button type="button" id="article-save-button-3116082" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3116082" data-article-author-id="836140" aria-label="Save post Using AWS Outbound Identity Federation for Azure Resources to reading list" title="Save post Using AWS Outbound Identity Federation for Azure Resources to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Vault Integration]]></title>
-        <id>https://dev.to/aws-builders/aws-vault-integration-4jac</id>
-        <link href="https://dev.to/aws-builders/aws-vault-integration-4jac"/>
-        <updated>2025-12-19T15:05:56.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/aws-builders/aws-vault-integration-4jac" aria-labelledby="article-link-3115843" class="crayons-story__hidden-navigation-link">AWS Vault Integration</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-          <a class="crayons-logo crayons-logo--l" href="/aws-builders">
-            <img alt="AWS Community Builders  logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2794%2F88da75b6-aadd-4ea1-8083-ae2dfca8be94.png" class="crayons-logo__image" loading="lazy">
-          </a>
-
-          <a href="/ashutosh5786" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F723571%2F26743782-3d80-4383-98a3-e886e0cc97d2.jpeg" alt="ashutosh5786 profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/ashutosh5786" class="crayons-story__secondary fw-medium m:hidden">
-              Ashutosh Singh
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3115843" aria-controls="story-author-preview-content-3115843" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Ashutosh Singh profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Ashutosh Singh
-                
-              </button>
-              <div id="story-author-preview-content-3115843" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/ashutosh5786" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F723571%2F26743782-3d80-4383-98a3-e886e0cc97d2.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Ashutosh Singh</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:723571,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Ashutosh Singh&quot;}" data-fetched="fetched" aria-label="Follow user: Ashutosh Singh" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="723571"></div>
-                </div>
-              </div>
-            </div>
-
-            <span>
-              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/aws-builders" class="crayons-story__secondary fw-medium">AWS Community Builders </a>
-            </span>
-          </div>
-          <a href="https://dev.to/aws-builders/aws-vault-integration-4jac" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-19T15:05:56Z" title="Friday, December 19, 2025 at 3:05:56 PM">Dec 19</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766156756"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/aws-builders/aws-vault-integration-4jac" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9xibv40e2vc3wllbivr2.jpg" id="article-link-3115843">
-          AWS Vault Integration
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/aws-builders/aws-vault-integration-4jac#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS Vault Integration">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahhdnanerc8wrqg0sn4enh7o05x3h64i" class="crayons-icon"><title id="ahhdnanerc8wrqg0sn4enh7o05x3h64i">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3115843" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3115843" data-article-author-id="723571" aria-label="Save post AWS Vault Integration to reading list" title="Save post AWS Vault Integration to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🔐 Building an IAM Security Dashboard with Power BI (Beginner-Friendly Walkthrough)]]></title>
-        <id>https://dev.to/ldwit/building-an-iam-security-dashboard-with-power-bi-beginner-friendly-walkthrough-45hd</id>
-        <link href="https://dev.to/ldwit/building-an-iam-security-dashboard-with-power-bi-beginner-friendly-walkthrough-45hd"/>
-        <updated>2025-12-19T17:17:27.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/ldwit/building-an-iam-security-dashboard-with-power-bi-beginner-friendly-walkthrough-45hd" aria-labelledby="article-link-3115976" class="crayons-story__hidden-navigation-link">🔐 Building an IAM Security Dashboard with Power BI (Beginner-Friendly Walkthrough)</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/ldwit" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3053917%2Fe1143420-4be6-4382-b610-ea6fc4a3d21a.jpg" alt="ldwit profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/ldwit" class="crayons-story__secondary fw-medium m:hidden">
-              LaTerral Williams
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3115976" aria-controls="story-author-preview-content-3115976" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="LaTerral Williams profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                LaTerral Williams
-                
-              </button>
-              <div id="story-author-preview-content-3115976" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/ldwit" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3053917%2Fe1143420-4be6-4382-b610-ea6fc4a3d21a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">LaTerral Williams</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3053917,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;LaTerral Williams&quot;}" data-fetched="fetched" aria-label="Follow user: LaTerral Williams" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3053917"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/ldwit/building-an-iam-security-dashboard-with-power-bi-beginner-friendly-walkthrough-45hd" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-19T17:17:27Z" title="Friday, December 19, 2025 at 5:17:27 PM">Dec 19</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766164647"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/ldwit/building-an-iam-security-dashboard-with-power-bi-beginner-friendly-walkthrough-45hd" data-preload-image="" id="article-link-3115976">
-          🔐 Building an IAM Security Dashboard with Power BI (Beginner-Friendly Walkthrough)
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(255, 153, 0, 0.10);
-        --tag-prefix: #FF9900;
-        --tag-bg-hover: rgba(255, 153, 0, 0.10);
-        --tag-prefix-hover: #FF9900;
-      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(227, 255, 0, 0.10);
-        --tag-prefix: #e3ff00;
-        --tag-bg-hover: rgba(227, 255, 0, 0.10);
-        --tag-prefix-hover: #e3ff00;
-      " href="/t/cybersecurity"><span class="crayons-tag__prefix">#</span>cybersecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 229, 209, 0.10);
-        --tag-prefix: #06E5D1;
-        --tag-bg-hover: rgba(6, 229, 209, 0.10);
-        --tag-prefix-hover: #06E5D1;
-      " href="/t/powerfuldevs"><span class="crayons-tag__prefix">#</span>powerfuldevs</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/ldwit/building-an-iam-security-dashboard-with-power-bi-beginner-friendly-walkthrough-45hd#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🔐 Building an IAM Security Dashboard with Power BI (Beginner-Friendly Walkthrough)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="arxood8qxqav7t44gho2n854m93916js" class="crayons-icon"><title id="arxood8qxqav7t44gho2n854m93916js">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            7 min read
-          </small>
-            <button type="button" id="article-save-button-3115976" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3115976" data-article-author-id="3053917" aria-label="Save post 🔐 Building an IAM Security Dashboard with Power BI (Beginner-Friendly Walkthrough) to reading list" title="Save post 🔐 Building an IAM Security Dashboard with Power BI (Beginner-Friendly Walkthrough) to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
