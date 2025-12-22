@@ -588,3 +588,22 @@ titleSelector = ":where(.gh-article-title, .gh-card-title)"
 linkSelector = ".gh-card-link"
 dateSelector = "time"
 dateFormat = "MMM d, yyyy"
+
+[minimus]
+title = "minimus"
+url = "https://www.minimus.io/blog"
+entrySelector = ".w-dyn-list:nth-child(2) .w-dyn-item"
+titleSelector = "a:nth-child(3) > h3"
+linkSelector = "a:nth-child(3)"
+dateSelector = ".uui-text-size-small"
+dateFormat = "MMMM d, yyyy"
+filters = ["Patrick Maddox"]
+
+[wilgibbs]
+title = "wilgibbs"
+url = "https://wilgibbs.com/blog/"
+entrySelector = ".blog-list-item"
+titleSelector = "a"
+linkSelector = "a"
+dateSelector = ".blog-list-date"
+dateFormat = "~ MMM d, yyyy"
