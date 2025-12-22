@@ -731,3 +731,19 @@ titleSelector = "a > h2"
 linkSelector = "a"
 dateSelector = "time"
 dateFormat = "MMMM d, yyyy"
+
+[inferi]
+title = "inferi"
+url = "https://inferi.club/blog/"
+entrySelector = ".post-item"
+titleSelector = ".post-title a"
+linkSelector = ".post-title a"
+
+[pillar]
+title = "pillar"
+url = "https://www.pillar.security/blog"
+entrySelector = ".blog-card"
+titleSelector = "h3.post-grid-title"
+linkSelector = "a:nth-child(1)"
+dateSelector = "p.date"
+dateFormat = "MMMM d, yyyy"
