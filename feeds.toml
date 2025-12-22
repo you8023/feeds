@@ -659,3 +659,21 @@ titleSelector = "a"
 linkSelector = "a"
 dateSelector = ".post-date"
 dateFormat = "MMMM d, yyyy"
+
+[nac_l]
+title = "nac-l"
+url = "https://nac-l.github.io/"
+entrySelector = ".post-list li"
+titleSelector = "a"
+linkSelector = "a"
+dateSelector = "> span"
+dateFormat = "MMM d, yyyy"
+
+[visionspace]
+title = "visionspace"
+url = "https://visionspace.com/blog-standard/"
+entrySelector = "article.post_item"
+titleSelector = ".post_title > a"
+linkSelector = ".post_title > a"
+dateSelector = ".post_date > a"
+dateFormat = "MMMM d, yyyy"
