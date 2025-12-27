@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2025-12-27T09:44:13.539Z</updated>
+    <updated>2025-12-27T11:45:33.791Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[This CORS Mistake Exposes Your API (I See It Everywhere)]]></title>
+        <id>https://dev.to/aserrano/this-cors-mistake-exposes-your-api-i-see-it-everywhere-58cb</id>
+        <link href="https://dev.to/aserrano/this-cors-mistake-exposes-your-api-i-see-it-everywhere-58cb"/>
+        <updated>2025-12-27T09:40:57.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/aserrano/this-cors-mistake-exposes-your-api-i-see-it-everywhere-58cb" aria-labelledby="article-link-3129872" class="crayons-story__hidden-navigation-link">This CORS Mistake Exposes Your API (I See It Everywhere)</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/aserrano" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3678599%2F279e4266-e77b-4ffd-8147-29247cbee9b8.png" alt="aserrano profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/aserrano" class="crayons-story__secondary fw-medium m:hidden">
+              Alejandro
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3129872" aria-controls="story-author-preview-content-3129872" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Alejandro profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Alejandro
+                
+              </button>
+              <div id="story-author-preview-content-3129872" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/aserrano" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3678599%2F279e4266-e77b-4ffd-8147-29247cbee9b8.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Alejandro</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3678599,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Alejandro&quot;}" data-fetched="fetched" aria-label="Follow user: Alejandro" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3678599"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/aserrano/this-cors-mistake-exposes-your-api-i-see-it-everywhere-58cb" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-27T09:40:57Z" title="Saturday, December 27, 2025 at 9:40:57 AM">Dec 27</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766828457"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/aserrano/this-cors-mistake-exposes-your-api-i-see-it-everywhere-58cb" data-preload-image="" id="article-link-3129872">
+          This CORS Mistake Exposes Your API (I See It Everywhere)
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(244, 128, 31, 0.10);
+        --tag-prefix: #F4801F;
+        --tag-bg-hover: rgba(244, 128, 31, 0.10);
+        --tag-prefix-hover: #F4801F;
+      " href="/t/cloudflarechallenge"><span class="crayons-tag__prefix">#</span>cloudflarechallenge</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(86, 39, 101, 0.10);
+        --tag-prefix: #562765;
+        --tag-bg-hover: rgba(86, 39, 101, 0.10);
+        --tag-prefix-hover: #562765;
+      " href="/t/webdev"><span class="crayons-tag__prefix">#</span>webdev</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(247, 223, 30, 0.10);
+        --tag-prefix: #f7df1e;
+        --tag-bg-hover: rgba(247, 223, 30, 0.10);
+        --tag-prefix-hover: #f7df1e;
+      " href="/t/javascript"><span class="crayons-tag__prefix">#</span>javascript</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/aserrano/this-cors-mistake-exposes-your-api-i-see-it-everywhere-58cb#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - This CORS Mistake Exposes Your API (I See It Everywhere)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="acbn1vkd7r1lyzqczyavwhudyywyep0c" class="crayons-icon"><title id="acbn1vkd7r1lyzqczyavwhudyywyep0c">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            1 min read
+          </small>
+            <button type="button" id="article-save-button-3129872" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3129872" data-article-author-id="3678599" aria-label="Save post This CORS Mistake Exposes Your API (I See It Everywhere) to reading list" title="Save post This CORS Mistake Exposes Your API (I See It Everywhere) to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[👤 AWS 116: Who Goes There? - Creating Your First IAM User]]></title>
         <id>https://dev.to/hritikraj8804/aws-116-who-goes-there-creating-your-first-iam-user-52gg</id>
@@ -92,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/hritikraj8804/aws-116-who-goes-there-creating-your-first-iam-user-52gg#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 👤 AWS 116: Who Goes There? - Creating Your First IAM User">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a62ota656angjfn42502dfnpz4oax4j3" class="crayons-icon"><title id="a62ota656angjfn42502dfnpz4oax4j3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a87hzelz0z66zfo0ab7s5hs5y5e0oviy" class="crayons-icon"><title id="a87hzelz0z66zfo0ab7s5hs5y5e0oviy">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -203,7 +314,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/neo_rival67/automated-security-incident-response-system-1io1#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🔐Automated Security Incident Response System ⚠">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7qr5nfi4l2aiw1geajgp5o3swookqg7" class="crayons-icon"><title id="a7qr5nfi4l2aiw1geajgp5o3swookqg7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4iyfhv9y1engz2iu3poas1uo2tcejow" class="crayons-icon"><title id="a4iyfhv9y1engz2iu3poas1uo2tcejow">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -314,7 +425,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/jeeva_5c84a254e90842940dd/terraform-day-21-policy-governance-automation-on-aws-hom#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🚀 Terraform Day 21: Policy &amp; Governance Automation on AWS">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="asqkh9bwzbm23fxj2o4m2jcd1bmpkgf" class="crayons-icon"><title id="asqkh9bwzbm23fxj2o4m2jcd1bmpkgf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqx58o6hykrz5eeu0jtw2r8pmxwskalj" class="crayons-icon"><title id="aqx58o6hykrz5eeu0jtw2r8pmxwskalj">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -429,7 +540,7 @@
             </div>
           </a>
             <a href="https://dev.to/seaionl_inc/kubernetes-v135-raises-the-cost-of-bad-certificate-hygiene-1bm7#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Kubernetes v1.35 Raises the Cost of Bad Certificate Hygiene">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="adp6bkbn59og08zol8j7sdyentrdifhq" class="crayons-icon"><title id="adp6bkbn59og08zol8j7sdyentrdifhq">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="atn2wizh0xsh0ly0o8quhg2d2pp2d0c2" class="crayons-icon"><title id="atn2wizh0xsh0ly0o8quhg2d2pp2d0c2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -540,7 +651,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/soumi_c875ca4/understanding-aws-network-firewall-traffic-flow-rules-and-logging-4ko5#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Understanding AWS Network Firewall: Traffic Flow, Rules, and Logging">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alw5obsf1ud5815zv6epcmpywnpbklkq" class="crayons-icon"><title id="alw5obsf1ud5815zv6epcmpywnpbklkq">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2d5jdwbwlr0bi8877md4j7od3owqyxe" class="crayons-icon"><title id="a2d5jdwbwlr0bi8877md4j7od3owqyxe">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
