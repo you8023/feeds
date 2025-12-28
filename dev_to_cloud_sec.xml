@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2025-12-28T21:43:15.078Z</updated>
+    <updated>2025-12-28T22:47:07.818Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide]]></title>
+        <id>https://dev.to/nik26_/building-a-secure-bastion-host-architecture-in-aws-a-complete-step-by-step-guide-22p0</id>
+        <link href="https://dev.to/nik26_/building-a-secure-bastion-host-architecture-in-aws-a-complete-step-by-step-guide-22p0"/>
+        <updated>2025-12-28T20:18:52.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/nik26_/building-a-secure-bastion-host-architecture-in-aws-a-complete-step-by-step-guide-22p0" aria-labelledby="article-link-3132128" class="crayons-story__hidden-navigation-link">Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/nik26_" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2561409%2F34392c43-bd3b-46f7-8fe8-1b08ccd425d0.png" alt="nik26_ profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/nik26_" class="crayons-story__secondary fw-medium m:hidden">
+              Sagnik Ghosh
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3132128" aria-controls="story-author-preview-content-3132128" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Sagnik Ghosh profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Sagnik Ghosh
+                
+              </button>
+              <div id="story-author-preview-content-3132128" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/nik26_" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2561409%2F34392c43-bd3b-46f7-8fe8-1b08ccd425d0.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Sagnik Ghosh</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2561409,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Sagnik Ghosh&quot;}" data-fetched="fetched" aria-label="Follow user: Sagnik Ghosh" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="2561409"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/nik26_/building-a-secure-bastion-host-architecture-in-aws-a-complete-step-by-step-guide-22p0" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-28T20:18:52Z" title="Sunday, December 28, 2025 at 8:18:52 PM">Dec 28</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766953132"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/nik26_/building-a-secure-bastion-host-architecture-in-aws-a-complete-step-by-step-guide-22p0" data-preload-image="" id="article-link-3132128">
+          Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(235, 223, 55, 0.10);
+        --tag-prefix: #ebdf37;
+        --tag-bg-hover: rgba(235, 223, 55, 0.10);
+        --tag-prefix-hover: #ebdf37;
+      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/nik26_/building-a-secure-bastion-host-architecture-in-aws-a-complete-step-by-step-guide-22p0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aaxbydcyjmdqdcli7zghbzclupjkms4l" class="crayons-icon"><title id="aaxbydcyjmdqdcli7zghbzclupjkms4l">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            11 min read
+          </small>
+            <button type="button" id="article-save-button-3132128" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132128" data-article-author-id="2561409" aria-label="Save post Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide to reading list" title="Save post Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AWS SSO Account Credentials Extractor]]></title>
         <id>https://dev.to/prashantgupta123/aws-sso-account-credentials-extractor-18hf</id>
@@ -86,7 +197,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/prashantgupta123/aws-sso-account-credentials-extractor-18hf#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS SSO Account Credentials Extractor">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ae6m3amusx9ntq7yk7hne9crtdwcku2g" class="crayons-icon"><title id="ae6m3amusx9ntq7yk7hne9crtdwcku2g">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ad01gekm4bgd5ol723bi31ppuzq0jnv" class="crayons-icon"><title id="ad01gekm4bgd5ol723bi31ppuzq0jnv">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -197,7 +308,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/jeeva_5c84a254e90842940dd/terraform-day-22-secure-two-tier-architecture-on-aws-ec2-rds-105l#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🚀 Terraform Day 22: Secure Two-Tier Architecture on AWS (EC2 + RDS)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="amsgt0b48mea55mca7pxsqfilndka9zu" class="crayons-icon"><title id="amsgt0b48mea55mca7pxsqfilndka9zu">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akt3ddr4xnzharw85tnydtj6wel7f133" class="crayons-icon"><title id="akt3ddr4xnzharw85tnydtj6wel7f133">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -318,7 +429,7 @@
             </div>
           </a>
             <a href="https://dev.to/fenrirx22/the-developers-guide-to-actually-private-apps-no-cloud-no-analytics-no-tracking-8ia#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Developer's Guide to Actually Private Apps: No Cloud, No Analytics, No Tracking">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="arqgyn8va4ynjl3pv8sd4p155qq9gnvs" class="crayons-icon"><title id="arqgyn8va4ynjl3pv8sd4p155qq9gnvs">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a11ss4bgw8cusi9lqkrmivxk6ilzu4ab" class="crayons-icon"><title id="a11ss4bgw8cusi9lqkrmivxk6ilzu4ab">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -429,7 +540,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/lag_lagendary/how-to-turn-cloud-trash-into-a-golden-100gb-encrypted-vault-lvm-rclone-1lc5#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How to Turn Cloud &quot;Trash&quot; into a Golden 100GB Encrypted Vault (LVM + rclone)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2f08jgc1req2p2terw72810jev5k951" class="crayons-icon"><title id="a2f08jgc1req2p2terw72810jev5k951">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anz9c6r7vnbg0tfr25yxz19csfc78m0d" class="crayons-icon"><title id="anz9c6r7vnbg0tfr25yxz19csfc78m0d">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -540,7 +651,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/bala_audu_musa/multi-container-system-reverse-proxy-consolidation-1af6#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - MULTI-CONTAINER SYSTEM + REVERSE PROXY (CONSOLIDATION)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahrr3jdncjc73gxzp2fzhaaldjaxh56w" class="crayons-icon"><title id="ahrr3jdncjc73gxzp2fzhaaldjaxh56w">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="adx6un6jsabh6lbctbug5c741iwgd5g1" class="crayons-icon"><title id="adx6un6jsabh6lbctbug5c741iwgd5g1">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -651,7 +762,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/inboryn_99399f96579fcd705/top-10-iac-tools-for-devops-in-2026-which-one-wins-for-multi-cloud-terraform-pulumi-opentofu-hfb#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Top 10 IaC Tools for DevOps in 2026: Which One Wins for Multi-Cloud? (Terraform, Pulumi, OpenTofu Compared)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="adkh1o9y1d26jhaq12s8ij52rjpua7l3" class="crayons-icon"><title id="adkh1o9y1d26jhaq12s8ij52rjpua7l3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4jcra8gx6ahu3y1ocoh7r4v2iaevyag" class="crayons-icon"><title id="a4jcra8gx6ahu3y1ocoh7r4v2iaevyag">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -762,7 +873,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/hritikraj8804/aws-116-who-goes-there-creating-your-first-iam-user-52gg#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 👤 AWS 116: Who Goes There? - Creating Your First IAM User">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahy4n5fh360statxds2xrms1s4ffqtv0" class="crayons-icon"><title id="ahy4n5fh360statxds2xrms1s4ffqtv0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aexvmppkrn7d8noijmitfuzfbqrlnpr3" class="crayons-icon"><title id="aexvmppkrn7d8noijmitfuzfbqrlnpr3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
