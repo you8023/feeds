@@ -2,9 +2,124 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2025-12-29T10:52:17.845Z</updated>
+    <updated>2025-12-29T11:47:46.266Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Using IAM Users in 2026 Is a Life Choice]]></title>
+        <id>https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk</id>
+        <link href="https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk"/>
+        <updated>2025-12-29T10:43:51.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk" aria-labelledby="article-link-3133376" class="crayons-story__hidden-navigation-link">Using IAM Users in 2026 Is a Life Choice</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/ahmadkanj" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F831662%2Feb27849f-9238-4a8c-944e-e020e20b563a.jpeg" alt="ahmadkanj profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/ahmadkanj" class="crayons-story__secondary fw-medium m:hidden">
+              Ahmad Kanj
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3133376" aria-controls="story-author-preview-content-3133376" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Ahmad Kanj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Ahmad Kanj
+                
+              </button>
+              <div id="story-author-preview-content-3133376" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/ahmadkanj" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F831662%2Feb27849f-9238-4a8c-944e-e020e20b563a.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Ahmad Kanj</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:831662,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Ahmad Kanj&quot;}" data-fetched="fetched" aria-label="Follow user: Ahmad Kanj" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="831662"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-29T10:43:51Z" title="Monday, December 29, 2025 at 10:43:51 AM">Dec 29</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767005031"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftjwamgoiw2lf3l79azwi.png" id="article-link-3133376">
+          Using IAM Users in 2026 Is a Life Choice
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/iam"><span class="crayons-tag__prefix">#</span>iam</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3133376" aria-label="Add a comment to post - Using IAM Users in 2026 Is a Life Choice">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Using IAM Users in 2026 Is a Life Choice">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahbcymr29eeigrj87r3jdsu6ek4xrb0d" class="crayons-icon"><title id="ahbcymr29eeigrj87r3jdsu6ek4xrb0d">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            3 min read
+          </small>
+            <button type="button" id="article-save-button-3133376" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3133376" data-article-author-id="831662" aria-label="Save post Using IAM Users in 2026 Is a Life Choice to reading list" title="Save post Using IAM Users in 2026 Is a Life Choice to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Docker Just Made Hardened Images Free for Everyone – Let's Check Them Out!]]></title>
         <id>https://dev.to/docker/docker-just-made-hardened-images-free-for-everyone-lets-check-them-out-499h</id>
@@ -98,7 +213,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/docker/docker-just-made-hardened-images-free-for-everyone-lets-check-them-out-499h#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Docker Just Made Hardened Images Free for Everyone – Let's Check Them Out!">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5ah6ci152v95e6kgtna96hidxvgbhbt" class="crayons-icon"><title id="a5ah6ci152v95e6kgtna96hidxvgbhbt">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2ac81gak2mvbbnl2g8xw46n27ux4ezr" class="crayons-icon"><title id="a2ac81gak2mvbbnl2g8xw46n27ux4ezr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -107,7 +222,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3132441" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132441" data-article-author-id="2721636" aria-label="Save post Docker Just Made Hardened Images Free for Everyone – Let's Check Them Out! to reading list" title="Save post Docker Just Made Hardened Images Free for Everyone – Let's Check Them Out! to reading list">
+            <button type="button" id="article-save-button-3132441" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132441" data-article-author-id="2721636" aria-label="Save post Docker Just Made Hardened Images Free for Everyone – Let's Check Them Out! to reading list" title="Save post Docker Just Made Hardened Images Free for Everyone – Let's Check Them Out! to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -209,7 +324,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/bysontech_8dd1313811a8895/protecting-the-api-entry-point-with-cloudflare-workers-3gp7#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Protecting the API Entry Point with Cloudflare Workers">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a6svnlibov3bg736z836fmqbmfa3n6lh" class="crayons-icon"><title id="a6svnlibov3bg736z836fmqbmfa3n6lh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7fmkpt51n543mropnra0oo7onl2swjr" class="crayons-icon"><title id="a7fmkpt51n543mropnra0oo7onl2swjr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -218,7 +333,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3132440" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132440" data-article-author-id="3682239" aria-label="Save post Protecting the API Entry Point with Cloudflare Workers to reading list" title="Save post Protecting the API Entry Point with Cloudflare Workers to reading list">
+            <button type="button" id="article-save-button-3132440" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132440" data-article-author-id="3682239" aria-label="Save post Protecting the API Entry Point with Cloudflare Workers to reading list" title="Save post Protecting the API Entry Point with Cloudflare Workers to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -320,7 +435,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/nik26_/building-a-secure-bastion-host-architecture-in-aws-a-complete-step-by-step-guide-22p0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5ixf88afcg5ujzi185fl1y78hqu90m" class="crayons-icon"><title id="a5ixf88afcg5ujzi185fl1y78hqu90m">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="am758hdyqcace8e6pmfd6ufmiuwd1tw1" class="crayons-icon"><title id="am758hdyqcace8e6pmfd6ufmiuwd1tw1">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -329,7 +444,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             11 min read
           </small>
-            <button type="button" id="article-save-button-3132128" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132128" data-article-author-id="2561409" aria-label="Save post Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide to reading list" title="Save post Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide to reading list">
+            <button type="button" id="article-save-button-3132128" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132128" data-article-author-id="2561409" aria-label="Save post Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide to reading list" title="Save post Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -441,7 +556,7 @@
             </div>
           </a>
             <a href="https://dev.to/aishwarygathe/security-in-aws-understanding-aws-security-services-and-how-they-protect-your-cloud-like-a-2hbm#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Security in AWS: Understanding AWS Security Services and How They Protect Your Cloud, Like a 4th-Grade Kid.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ag1b20vaw63vqnyyelkhkj2aioz2mkhu" class="crayons-icon"><title id="ag1b20vaw63vqnyyelkhkj2aioz2mkhu">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aa7afitd44mzdqjuwst6ufqznb5hd59a" class="crayons-icon"><title id="aa7afitd44mzdqjuwst6ufqznb5hd59a">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -450,7 +565,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3132515" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132515" data-article-author-id="1112970" aria-label="Save post Security in AWS: Understanding AWS Security Services and How They Protect Your Cloud, Like a 4th-Grade Kid. to reading list" title="Save post Security in AWS: Understanding AWS Security Services and How They Protect Your Cloud, Like a 4th-Grade Kid. to reading list">
+            <button type="button" id="article-save-button-3132515" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132515" data-article-author-id="1112970" aria-label="Save post Security in AWS: Understanding AWS Security Services and How They Protect Your Cloud, Like a 4th-Grade Kid. to reading list" title="Save post Security in AWS: Understanding AWS Security Services and How They Protect Your Cloud, Like a 4th-Grade Kid. to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -552,7 +667,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/turalmu95150474/why-log-masking-matters-in-kubernetes-and-how-we-enforced-pci-safety-with-fluent-bit-460p#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Why Log Masking Matters in Kubernetes (and How We Enforced PCI Safety with Fluent Bit)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ajwzl9m82hzhvkvzpi11b6l11r89xkru" class="crayons-icon"><title id="ajwzl9m82hzhvkvzpi11b6l11r89xkru">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahagbaxa3b4v63m5vba5aziho7zk6d6f" class="crayons-icon"><title id="ahagbaxa3b4v63m5vba5aziho7zk6d6f">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -561,7 +676,118 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3132720" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132720" data-article-author-id="298174" aria-label="Save post Why Log Masking Matters in Kubernetes (and How We Enforced PCI Safety with Fluent Bit) to reading list" title="Save post Why Log Masking Matters in Kubernetes (and How We Enforced PCI Safety with Fluent Bit) to reading list">
+            <button type="button" id="article-save-button-3132720" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132720" data-article-author-id="298174" aria-label="Save post Why Log Masking Matters in Kubernetes (and How We Enforced PCI Safety with Fluent Bit) to reading list" title="Save post Why Log Masking Matters in Kubernetes (and How We Enforced PCI Safety with Fluent Bit) to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SSL Certificate Management for SaaS: Cert Lifecycle, Uptime, and Brand Protection]]></title>
+        <id>https://dev.to/seaionl_inc/ssl-certificate-management-for-saas-cert-lifecycle-uptime-and-brand-protection-2e5k</id>
+        <link href="https://dev.to/seaionl_inc/ssl-certificate-management-for-saas-cert-lifecycle-uptime-and-brand-protection-2e5k"/>
+        <updated>2025-12-29T10:07:15.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/seaionl_inc/ssl-certificate-management-for-saas-cert-lifecycle-uptime-and-brand-protection-2e5k" aria-labelledby="article-link-3133251" class="crayons-story__hidden-navigation-link">SSL Certificate Management for SaaS: Cert Lifecycle, Uptime, and Brand Protection</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/seaionl_inc" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3675279%2Fe5879fa7-743c-411f-9696-f0c0972a3a2d.png" alt="seaionl_inc profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/seaionl_inc" class="crayons-story__secondary fw-medium m:hidden">
+              Seaionl
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3133251" aria-controls="story-author-preview-content-3133251" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Seaionl profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Seaionl
+                
+              </button>
+              <div id="story-author-preview-content-3133251" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/seaionl_inc" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3675279%2Fe5879fa7-743c-411f-9696-f0c0972a3a2d.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Seaionl</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3675279,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Seaionl&quot;}" data-fetched="fetched" aria-label="Follow user: Seaionl" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3675279"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/seaionl_inc/ssl-certificate-management-for-saas-cert-lifecycle-uptime-and-brand-protection-2e5k" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-29T10:07:15Z" title="Monday, December 29, 2025 at 10:07:15 AM">Dec 29</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767002835"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/seaionl_inc/ssl-certificate-management-for-saas-cert-lifecycle-uptime-and-brand-protection-2e5k" data-preload-image="" id="article-link-3133251">
+          SSL Certificate Management for SaaS: Cert Lifecycle, Uptime, and Brand Protection
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/seaionl_inc/ssl-certificate-management-for-saas-cert-lifecycle-uptime-and-brand-protection-2e5k#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - SSL Certificate Management for SaaS: Cert Lifecycle, Uptime, and Brand Protection">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ae2j9wxpsh9ytrumizmbudo1t7eqkhhc" class="crayons-icon"><title id="ae2j9wxpsh9ytrumizmbudo1t7eqkhhc">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            3 min read
+          </small>
+            <button type="button" id="article-save-button-3133251" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3133251" data-article-author-id="3675279" aria-label="Save post SSL Certificate Management for SaaS: Cert Lifecycle, Uptime, and Brand Protection to reading list" title="Save post SSL Certificate Management for SaaS: Cert Lifecycle, Uptime, and Brand Protection to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -657,7 +883,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/prashantgupta123/aws-sso-account-credentials-extractor-18hf#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS SSO Account Credentials Extractor">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="at8ow93d4d63v14nqxxhg5pi2bdk4v76" class="crayons-icon"><title id="at8ow93d4d63v14nqxxhg5pi2bdk4v76">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="almcf79nevq1rbhfqnaaz4alocsvrhc" class="crayons-icon"><title id="almcf79nevq1rbhfqnaaz4alocsvrhc">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -666,7 +892,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             1 min read
           </small>
-            <button type="button" id="article-save-button-3131683" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3131683" data-article-author-id="3646641" aria-label="Save post AWS SSO Account Credentials Extractor to reading list" title="Save post AWS SSO Account Credentials Extractor to reading list">
+            <button type="button" id="article-save-button-3131683" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3131683" data-article-author-id="3646641" aria-label="Save post AWS SSO Account Credentials Extractor to reading list" title="Save post AWS SSO Account Credentials Extractor to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -768,7 +994,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/jeeva_5c84a254e90842940dd/terraform-day-22-secure-two-tier-architecture-on-aws-ec2-rds-105l#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🚀 Terraform Day 22: Secure Two-Tier Architecture on AWS (EC2 + RDS)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aq4qr8bvt16p5qd7u3h5qbqvo0fw7zgd" class="crayons-icon"><title id="aq4qr8bvt16p5qd7u3h5qbqvo0fw7zgd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7b3i6i0peqtke2gojndjl0p4ulkqtgb" class="crayons-icon"><title id="a7b3i6i0peqtke2gojndjl0p4ulkqtgb">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -778,127 +1004,6 @@
             2 min read
           </small>
             <button type="button" id="article-save-button-3131375" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3131375" data-article-author-id="3397840" aria-label="Save post 🚀 Terraform Day 22: Secure Two-Tier Architecture on AWS (EC2 + RDS) to reading list" title="Save post 🚀 Terraform Day 22: Secure Two-Tier Architecture on AWS (EC2 + RDS) to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Developer's Guide to Actually Private Apps: No Cloud, No Analytics, No Tracking]]></title>
-        <id>https://dev.to/fenrirx22/the-developers-guide-to-actually-private-apps-no-cloud-no-analytics-no-tracking-8ia</id>
-        <link href="https://dev.to/fenrirx22/the-developers-guide-to-actually-private-apps-no-cloud-no-analytics-no-tracking-8ia"/>
-        <updated>2025-12-28T12:16:47.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/fenrirx22/the-developers-guide-to-actually-private-apps-no-cloud-no-analytics-no-tracking-8ia" aria-labelledby="article-link-3131412" class="crayons-story__hidden-navigation-link">The Developer's Guide to Actually Private Apps: No Cloud, No Analytics, No Tracking</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/fenrirx22" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3657420%2Fa8583a5b-be05-41cc-8b71-15f466c3cfe9.png" alt="fenrirx22 profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/fenrirx22" class="crayons-story__secondary fw-medium m:hidden">
-              Karol Burdziński
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3131412" aria-controls="story-author-preview-content-3131412" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Karol Burdziński profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Karol Burdziński
-                
-              </button>
-              <div id="story-author-preview-content-3131412" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/fenrirx22" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3657420%2Fa8583a5b-be05-41cc-8b71-15f466c3cfe9.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Karol Burdziński</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3657420,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Karol Burdziński&quot;}" data-fetched="fetched" aria-label="Follow user: Karol Burdziński" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3657420"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/fenrirx22/the-developers-guide-to-actually-private-apps-no-cloud-no-analytics-no-tracking-8ia" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-28T12:16:47Z" title="Sunday, December 28, 2025 at 12:16:47 PM">Dec 28</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766924207"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/fenrirx22/the-developers-guide-to-actually-private-apps-no-cloud-no-analytics-no-tracking-8ia" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fty0hhj5wo0dy4lle0mle.png" id="article-link-3131412">
-          The Developer's Guide to Actually Private Apps: No Cloud, No Analytics, No Tracking
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/privacy"><span class="crayons-tag__prefix">#</span>privacy</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(163, 252, 85, 0.10);
-        --tag-prefix: #a3fc55;
-        --tag-bg-hover: rgba(163, 252, 85, 0.10);
-        --tag-prefix-hover: #a3fc55;
-      " href="/t/mobile"><span class="crayons-tag__prefix">#</span>mobile</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(86, 197, 246, 0.10);
-        --tag-prefix: #56C5F6;
-        --tag-bg-hover: rgba(86, 197, 246, 0.10);
-        --tag-prefix-hover: #56C5F6;
-      " href="/t/flutter"><span class="crayons-tag__prefix">#</span>flutter</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/fenrirx22/the-developers-guide-to-actually-private-apps-no-cloud-no-analytics-no-tracking-8ia" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3131412" aria-label="Add a comment to post - The Developer's Guide to Actually Private Apps: No Cloud, No Analytics, No Tracking">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/fenrirx22/the-developers-guide-to-actually-private-apps-no-cloud-no-analytics-no-tracking-8ia#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Developer's Guide to Actually Private Apps: No Cloud, No Analytics, No Tracking">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a60lax46fgmsdsez4c4uabpttnemac1b" class="crayons-icon"><title id="a60lax46fgmsdsez4c4uabpttnemac1b">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            19 min read
-          </small>
-            <button type="button" id="article-save-button-3131412" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3131412" data-article-author-id="3657420" aria-label="Save post The Developer's Guide to Actually Private Apps: No Cloud, No Analytics, No Tracking to reading list" title="Save post The Developer's Guide to Actually Private Apps: No Cloud, No Analytics, No Tracking to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
