@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2025-12-30T03:53:55.377Z</updated>
+    <updated>2025-12-30T05:52:51.892Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Why Do Rotating Proxies for Web Scraping Work Locally but Fail When Deployed on Hosted Servers?]]></title>
+        <id>https://dev.to/miller_proxy/why-do-rotating-proxies-for-web-scraping-work-locally-but-fail-when-deployed-on-hosted-servers-48ck</id>
+        <link href="https://dev.to/miller_proxy/why-do-rotating-proxies-for-web-scraping-work-locally-but-fail-when-deployed-on-hosted-servers-48ck"/>
+        <updated>2025-12-30T03:13:26.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/miller_proxy/why-do-rotating-proxies-for-web-scraping-work-locally-but-fail-when-deployed-on-hosted-servers-48ck" aria-labelledby="article-link-3134749" class="crayons-story__hidden-navigation-link">Why Do Rotating Proxies for Web Scraping Work Locally but Fail When Deployed on Hosted Servers?</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/miller_proxy" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3629795%2F0a06d020-5c62-45c4-aa24-fed9202af042.jpeg" alt="miller_proxy profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/miller_proxy" class="crayons-story__secondary fw-medium m:hidden">
+              Miller James
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3134749" aria-controls="story-author-preview-content-3134749" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Miller James profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Miller James
+                
+              </button>
+              <div id="story-author-preview-content-3134749" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/miller_proxy" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3629795%2F0a06d020-5c62-45c4-aa24-fed9202af042.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Miller James</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3629795,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Miller James&quot;}" data-fetched="fetched" aria-label="Follow user: Miller James" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3629795"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/miller_proxy/why-do-rotating-proxies-for-web-scraping-work-locally-but-fail-when-deployed-on-hosted-servers-48ck" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-30T03:13:26Z" title="Tuesday, December 30, 2025 at 3:13:26 AM">Dec 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767064406"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/miller_proxy/why-do-rotating-proxies-for-web-scraping-work-locally-but-fail-when-deployed-on-hosted-servers-48ck" data-preload-image="" id="article-link-3134749">
+          Why Do Rotating Proxies for Web Scraping Work Locally but Fail When Deployed on Hosted Servers?
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/cloudcomputing"><span class="crayons-tag__prefix">#</span>cloudcomputing</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(119, 194, 127, 0.10);
+        --tag-prefix: #77c27f;
+        --tag-bg-hover: rgba(119, 194, 127, 0.10);
+        --tag-prefix-hover: #77c27f;
+      " href="/t/networking"><span class="crayons-tag__prefix">#</span>networking</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/miller_proxy/why-do-rotating-proxies-for-web-scraping-work-locally-but-fail-when-deployed-on-hosted-servers-48ck#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Why Do Rotating Proxies for Web Scraping Work Locally but Fail When Deployed on Hosted Servers?">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="atdkprxzwl298kw4v3x56cgutw7vuehy" class="crayons-icon"><title id="atdkprxzwl298kw4v3x56cgutw7vuehy">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            12 min read
+          </small>
+            <button type="button" id="article-save-button-3134749" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3134749" data-article-author-id="3629795" aria-label="Save post Why Do Rotating Proxies for Web Scraping Work Locally but Fail When Deployed on Hosted Servers? to reading list" title="Save post Why Do Rotating Proxies for Web Scraping Work Locally but Fail When Deployed on Hosted Servers? to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How Rate Limiting Saved Me $500 in One Day (Real Story)]]></title>
         <id>https://dev.to/aserrano/how-rate-limiting-saved-me-500-in-one-day-real-story-ajp</id>
@@ -92,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/aserrano/how-rate-limiting-saved-me-500-in-one-day-real-story-ajp#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How Rate Limiting Saved Me $500 in One Day (Real Story)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5be00xv08bcdapxff59dfdos3x7afhn" class="crayons-icon"><title id="a5be00xv08bcdapxff59dfdos3x7afhn">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aalz8e34dbiycfi8g3ghtgnhxa868ttv" class="crayons-icon"><title id="aalz8e34dbiycfi8g3ghtgnhxa868ttv">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -101,122 +212,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
           </small>
-            <button type="button" id="article-save-button-3133253" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3133253" data-article-author-id="3678599" aria-label="Save post How Rate Limiting Saved Me $500 in One Day (Real Story) to reading list" title="Save post How Rate Limiting Saved Me $500 in One Day (Real Story) to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using IAM Users in 2026 Is a Life Choice]]></title>
-        <id>https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk</id>
-        <link href="https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk"/>
-        <updated>2025-12-29T10:43:51.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk" aria-labelledby="article-link-3133376" class="crayons-story__hidden-navigation-link">Using IAM Users in 2026 Is a Life Choice</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/ahmadkanj" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F831662%2Feb27849f-9238-4a8c-944e-e020e20b563a.jpeg" alt="ahmadkanj profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/ahmadkanj" class="crayons-story__secondary fw-medium m:hidden">
-              Ahmad Kanj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3133376" aria-controls="story-author-preview-content-3133376" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Ahmad Kanj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Ahmad Kanj
-                
-              </button>
-              <div id="story-author-preview-content-3133376" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/ahmadkanj" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F831662%2Feb27849f-9238-4a8c-944e-e020e20b563a.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Ahmad Kanj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:831662,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Ahmad Kanj&quot;}" data-fetched="fetched" aria-label="Follow user: Ahmad Kanj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="831662"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-29T10:43:51Z" title="Monday, December 29, 2025 at 10:43:51 AM">Dec 29</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767005031"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftjwamgoiw2lf3l79azwi.png" id="article-link-3133376">
-          Using IAM Users in 2026 Is a Life Choice
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/iam"><span class="crayons-tag__prefix">#</span>iam</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3133376" aria-label="Add a comment to post - Using IAM Users in 2026 Is a Life Choice">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/ahmadkanj/using-iam-users-in-2026-is-a-life-choice-3lbk#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Using IAM Users in 2026 Is a Life Choice">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="al7xuqldt42krig3gqj1nj6g1q4yg52o" class="crayons-icon"><title id="al7xuqldt42krig3gqj1nj6g1q4yg52o">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              1<span class="hidden s:inline">&nbsp;comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            3 min read
-          </small>
-            <button type="button" id="article-save-button-3133376" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3133376" data-article-author-id="831662" aria-label="Save post Using IAM Users in 2026 Is a Life Choice to reading list" title="Save post Using IAM Users in 2026 Is a Life Choice to reading list">
+            <button type="button" id="article-save-button-3133253" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3133253" data-article-author-id="3678599" aria-label="Save post How Rate Limiting Saved Me $500 in One Day (Real Story) to reading list" title="Save post How Rate Limiting Saved Me $500 in One Day (Real Story) to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -328,7 +324,7 @@
             </div>
           </a>
             <a href="https://dev.to/ldwit/building-a-secure-aws-environment-with-terraform-aws-cloudshell-54b0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🔒 Building a Secure AWS Environment with Terraform + AWS CloudShell">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afzjmbk10hfyevkf4p8z6c3rqcewj7rr" class="crayons-icon"><title id="afzjmbk10hfyevkf4p8z6c3rqcewj7rr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqsrjrni8pw7lhm4xb025gdx04p9mjia" class="crayons-icon"><title id="aqsrjrni8pw7lhm4xb025gdx04p9mjia">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -337,7 +333,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             6 min read
           </small>
-            <button type="button" id="article-save-button-3108746" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3108746" data-article-author-id="3053917" aria-label="Save post 🔒 Building a Secure AWS Environment with Terraform + AWS CloudShell to reading list" title="Save post 🔒 Building a Secure AWS Environment with Terraform + AWS CloudShell to reading list">
+            <button type="button" id="article-save-button-3108746" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3108746" data-article-author-id="3053917" aria-label="Save post 🔒 Building a Secure AWS Environment with Terraform + AWS CloudShell to reading list" title="Save post 🔒 Building a Secure AWS Environment with Terraform + AWS CloudShell to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -439,7 +435,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/ldwit/building-a-cloud-security-dashboard-with-aws-athena-quicksight-beginner-friendly-3pld#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🛡️ Building a Cloud Security Dashboard with AWS Athena + QuickSight (Beginner Friendly)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8boecsd77bj7azqs1egn7z77mxe7py6" class="crayons-icon"><title id="a8boecsd77bj7azqs1egn7z77mxe7py6">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alzlaypmb89hx5z7rtxsiqer4d4hdrym" class="crayons-icon"><title id="alzlaypmb89hx5z7rtxsiqer4d4hdrym">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -448,7 +444,118 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             8 min read
           </small>
-            <button type="button" id="article-save-button-3107460" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3107460" data-article-author-id="3053917" aria-label="Save post 🛡️ Building a Cloud Security Dashboard with AWS Athena + QuickSight (Beginner Friendly) to reading list" title="Save post 🛡️ Building a Cloud Security Dashboard with AWS Athena + QuickSight (Beginner Friendly) to reading list">
+            <button type="button" id="article-save-button-3107460" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3107460" data-article-author-id="3053917" aria-label="Save post 🛡️ Building a Cloud Security Dashboard with AWS Athena + QuickSight (Beginner Friendly) to reading list" title="Save post 🛡️ Building a Cloud Security Dashboard with AWS Athena + QuickSight (Beginner Friendly) to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Secure CI/CD Pipeline: Or How I Learned to Stop Worrying and Love DevSecOps]]></title>
+        <id>https://dev.to/manonaga2188/building-a-secure-cicd-pipeline-or-how-i-learned-to-stop-worrying-and-love-devsecops-552d</id>
+        <link href="https://dev.to/manonaga2188/building-a-secure-cicd-pipeline-or-how-i-learned-to-stop-worrying-and-love-devsecops-552d"/>
+        <updated>2025-12-30T04:25:25.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/manonaga2188/building-a-secure-cicd-pipeline-or-how-i-learned-to-stop-worrying-and-love-devsecops-552d" aria-labelledby="article-link-3134854" class="crayons-story__hidden-navigation-link">Building a Secure CI/CD Pipeline: Or How I Learned to Stop Worrying and Love DevSecOps</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/manonaga2188" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F492718%2Fb08725a9-808a-493e-b665-fd10b2a6ff62.png" alt="manonaga2188 profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/manonaga2188" class="crayons-story__secondary fw-medium m:hidden">
+              Mano Nagarajan
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3134854" aria-controls="story-author-preview-content-3134854" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Mano Nagarajan profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Mano Nagarajan
+                
+              </button>
+              <div id="story-author-preview-content-3134854" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/manonaga2188" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F492718%2Fb08725a9-808a-493e-b665-fd10b2a6ff62.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Mano Nagarajan</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:492718,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Mano Nagarajan&quot;}" data-fetched="fetched" aria-label="Follow user: Mano Nagarajan" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="492718"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/manonaga2188/building-a-secure-cicd-pipeline-or-how-i-learned-to-stop-worrying-and-love-devsecops-552d" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-30T04:25:25Z" title="Tuesday, December 30, 2025 at 4:25:25 AM">Dec 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767068725"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/manonaga2188/building-a-secure-cicd-pipeline-or-how-i-learned-to-stop-worrying-and-love-devsecops-552d" data-preload-image="" id="article-link-3134854">
+          Building a Secure CI/CD Pipeline: Or How I Learned to Stop Worrying and Love DevSecOps
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/devsecops"><span class="crayons-tag__prefix">#</span>devsecops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/manonaga2188/building-a-secure-cicd-pipeline-or-how-i-learned-to-stop-worrying-and-love-devsecops-552d#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building a Secure CI/CD Pipeline: Or How I Learned to Stop Worrying and Love DevSecOps">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akipth5wzrlw4nb3upc5jjeoj0joixex" class="crayons-icon"><title id="akipth5wzrlw4nb3upc5jjeoj0joixex">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            9 min read
+          </small>
+            <button type="button" id="article-save-button-3134854" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3134854" data-article-author-id="492718" aria-label="Save post Building a Secure CI/CD Pipeline: Or How I Learned to Stop Worrying and Love DevSecOps to reading list" title="Save post Building a Secure CI/CD Pipeline: Or How I Learned to Stop Worrying and Love DevSecOps to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -566,7 +673,7 @@
             </div>
           </a>
             <a href="https://dev.to/tech_croc_f32fbb6ea8ed4/the-virtual-private-clouds-vpcs-is-no-longer-a-castle-its-an-immune-system-57de#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Virtual Private Clouds (VPCs) is No Longer a Castle. It’s an Immune System.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4k5gn8m91bmlkhjed7jel0w1e9te74z" class="crayons-icon"><title id="a4k5gn8m91bmlkhjed7jel0w1e9te74z">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afk6t7cheteswjq3ymr7ur6yp58mcu2p" class="crayons-icon"><title id="afk6t7cheteswjq3ymr7ur6yp58mcu2p">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -575,7 +682,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3134074" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3134074" data-article-author-id="3628695" aria-label="Save post The Virtual Private Clouds (VPCs) is No Longer a Castle. It’s an Immune System. to reading list" title="Save post The Virtual Private Clouds (VPCs) is No Longer a Castle. It’s an Immune System. to reading list">
+            <button type="button" id="article-save-button-3134074" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3134074" data-article-author-id="3628695" aria-label="Save post The Virtual Private Clouds (VPCs) is No Longer a Castle. It’s an Immune System. to reading list" title="Save post The Virtual Private Clouds (VPCs) is No Longer a Castle. It’s an Immune System. to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -671,7 +778,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/morekiranp/strengthening-the-security-pillar-of-the-aws-well-architected-framework-introducing-ec2-instance-4mcb#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 🌐 Strengthening the Security Pillar of the AWS Well-Architected Framework: Introducing EC2 Instance Attestation">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aotc1q9n1zy3bpjtouyspg5uuw9l9t8k" class="crayons-icon"><title id="aotc1q9n1zy3bpjtouyspg5uuw9l9t8k">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ah27fzltinw9qk5lt552s506n3hjfd8v" class="crayons-icon"><title id="ah27fzltinw9qk5lt552s506n3hjfd8v">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -680,7 +787,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
           </small>
-            <button type="button" id="article-save-button-3133615" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3133615" data-article-author-id="3624777" aria-label="Save post 🌐 Strengthening the Security Pillar of the AWS Well-Architected Framework: Introducing EC2 Instance Attestation to reading list" title="Save post 🌐 Strengthening the Security Pillar of the AWS Well-Architected Framework: Introducing EC2 Instance Attestation to reading list">
+            <button type="button" id="article-save-button-3133615" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3133615" data-article-author-id="3624777" aria-label="Save post 🌐 Strengthening the Security Pillar of the AWS Well-Architected Framework: Introducing EC2 Instance Attestation to reading list" title="Save post 🌐 Strengthening the Security Pillar of the AWS Well-Architected Framework: Introducing EC2 Instance Attestation to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -788,7 +895,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/docker/docker-just-made-hardened-images-free-for-everyone-lets-check-them-out-499h#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Docker Just Made Hardened Images Free for Everyone – Let's Check Them Out!">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alxwvze1muwtmhfyjx10a34mkoocrqh8" class="crayons-icon"><title id="alxwvze1muwtmhfyjx10a34mkoocrqh8">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8khiq5077avlgflh9s16kpn129pnhby" class="crayons-icon"><title id="a8khiq5077avlgflh9s16kpn129pnhby">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -797,7 +904,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3132441" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132441" data-article-author-id="2721636" aria-label="Save post Docker Just Made Hardened Images Free for Everyone – Let's Check Them Out! to reading list" title="Save post Docker Just Made Hardened Images Free for Everyone – Let's Check Them Out! to reading list">
+            <button type="button" id="article-save-button-3132441" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132441" data-article-author-id="2721636" aria-label="Save post Docker Just Made Hardened Images Free for Everyone – Let's Check Them Out! to reading list" title="Save post Docker Just Made Hardened Images Free for Everyone – Let's Check Them Out! to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -899,7 +1006,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/hkj13/azure-managed-identities-complete-tutorial-3i84#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Azure - Managed Identities - Complete Tutorial">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahulkoyhts5v4yi8pjbmb3x9rtzbs0ya" class="crayons-icon"><title id="ahulkoyhts5v4yi8pjbmb3x9rtzbs0ya">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqckljcfh82df97qmpt80sbu0lsftnv1" class="crayons-icon"><title id="aqckljcfh82df97qmpt80sbu0lsftnv1">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -908,7 +1015,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
           </small>
-            <button type="button" id="article-save-button-3133771" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3133771" data-article-author-id="3627903" aria-label="Save post Azure - Managed Identities - Complete Tutorial to reading list" title="Save post Azure - Managed Identities - Complete Tutorial to reading list">
+            <button type="button" id="article-save-button-3133771" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3133771" data-article-author-id="3627903" aria-label="Save post Azure - Managed Identities - Complete Tutorial to reading list" title="Save post Azure - Managed Identities - Complete Tutorial to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -1010,7 +1117,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/nik26_/building-a-secure-bastion-host-architecture-in-aws-a-complete-step-by-step-guide-22p0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="appkzxbri9zg9zgqh8yrtnws9miqyoin" class="crayons-icon"><title id="appkzxbri9zg9zgqh8yrtnws9miqyoin">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="adyk1ks9udz6k54mrm5hzlwerk1gc3vu" class="crayons-icon"><title id="adyk1ks9udz6k54mrm5hzlwerk1gc3vu">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -1019,128 +1126,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             11 min read
           </small>
-            <button type="button" id="article-save-button-3132128" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132128" data-article-author-id="2561409" aria-label="Save post Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide to reading list" title="Save post Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security in AWS: Understanding AWS Security Services and How They Protect Your Cloud, Like a 4th-Grade Kid.]]></title>
-        <id>https://dev.to/aishwarygathe/security-in-aws-understanding-aws-security-services-and-how-they-protect-your-cloud-like-a-2hbm</id>
-        <link href="https://dev.to/aishwarygathe/security-in-aws-understanding-aws-security-services-and-how-they-protect-your-cloud-like-a-2hbm"/>
-        <updated>2025-12-29T03:02:29.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/aishwarygathe/security-in-aws-understanding-aws-security-services-and-how-they-protect-your-cloud-like-a-2hbm" aria-labelledby="article-link-3132515" class="crayons-story__hidden-navigation-link">Security in AWS: Understanding AWS Security Services and How They Protect Your Cloud, Like a 4th-Grade Kid.</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/aishwarygathe" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1112970%2F9efe37eb-96e7-4151-8763-081d5662ac90.jpg" alt="aishwarygathe profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/aishwarygathe" class="crayons-story__secondary fw-medium m:hidden">
-              Aishwary Gathe
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3132515" aria-controls="story-author-preview-content-3132515" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Aishwary Gathe profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Aishwary Gathe
-                
-              </button>
-              <div id="story-author-preview-content-3132515" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/aishwarygathe" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1112970%2F9efe37eb-96e7-4151-8763-081d5662ac90.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Aishwary Gathe</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1112970,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Aishwary Gathe&quot;}" data-fetched="fetched" aria-label="Follow user: Aishwary Gathe" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="1112970"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/aishwarygathe/security-in-aws-understanding-aws-security-services-and-how-they-protect-your-cloud-like-a-2hbm" class="crayons-story__tertiary fs-xs"><time datetime="2025-12-29T03:02:29Z" title="Monday, December 29, 2025 at 3:02:29 AM">Dec 29</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1766977349"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/aishwarygathe/security-in-aws-understanding-aws-security-services-and-how-they-protect-your-cloud-like-a-2hbm" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp929kqmcbvf91pzv4dsg.png" id="article-link-3132515">
-          Security in AWS: Understanding AWS Security Services and How They Protect Your Cloud, Like a 4th-Grade Kid.
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(255, 153, 0, 0.10);
-        --tag-prefix: #FF9900;
-        --tag-bg-hover: rgba(255, 153, 0, 0.10);
-        --tag-prefix-hover: #FF9900;
-      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(117, 81, 194, 0.10);
-        --tag-prefix: #7551c2;
-        --tag-bg-hover: rgba(117, 81, 194, 0.10);
-        --tag-prefix-hover: #7551c2;
-      " href="/t/awschallenge"><span class="crayons-tag__prefix">#</span>awschallenge</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/aishwarygathe/security-in-aws-understanding-aws-security-services-and-how-they-protect-your-cloud-like-a-2hbm" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3132515" aria-label="Add a comment to post - Security in AWS: Understanding AWS Security Services and How They Protect Your Cloud, Like a 4th-Grade Kid.">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">2<span class="hidden s:inline">&nbsp;reactions</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/aishwarygathe/security-in-aws-understanding-aws-security-services-and-how-they-protect-your-cloud-like-a-2hbm#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Security in AWS: Understanding AWS Security Services and How They Protect Your Cloud, Like a 4th-Grade Kid.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="avucl6bryt1l1le38dp5iza5wjmrlvj" class="crayons-icon"><title id="avucl6bryt1l1le38dp5iza5wjmrlvj">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            3 min read
-          </small>
-            <button type="button" id="article-save-button-3132515" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132515" data-article-author-id="1112970" aria-label="Save post Security in AWS: Understanding AWS Security Services and How They Protect Your Cloud, Like a 4th-Grade Kid. to reading list" title="Save post Security in AWS: Understanding AWS Security Services and How They Protect Your Cloud, Like a 4th-Grade Kid. to reading list">
+            <button type="button" id="article-save-button-3132128" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3132128" data-article-author-id="2561409" aria-label="Save post Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide to reading list" title="Save post Building a Secure Bastion Host Architecture in AWS: A Complete Step-by-Step Guide to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
