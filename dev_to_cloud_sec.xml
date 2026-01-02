@@ -2,62 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-02T15:46:59.265Z</updated>
+    <updated>2026-01-02T16:52:33.562Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
-        <title type="html"><![CDATA[5 Best Practices for Securing Amazon Bedrock Agents from Prompt Injections.]]></title>
-        <id>https://dev.to/aws-builders/5-best-practices-for-securing-amazon-bedrock-agents-from-prompt-injections-30eg</id>
-        <link href="https://dev.to/aws-builders/5-best-practices-for-securing-amazon-bedrock-agents-from-prompt-injections-30eg"/>
-        <updated>2026-01-02T00:33:57.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/aws-builders/5-best-practices-for-securing-amazon-bedrock-agents-from-prompt-injections-30eg" aria-labelledby="article-link-3141839" class="crayons-story__hidden-navigation-link">5 Best Practices for Securing Amazon Bedrock Agents from Prompt Injections.</a>
+        <title type="html"><![CDATA[Day 8: Never Hardcode Keys. Connecting Lambda to APIs using AWS Secrets Manager.]]></title>
+        <id>https://dev.to/ericrodriguez10/day-8-never-hardcode-keys-connecting-lambda-to-apis-using-aws-secrets-manager-daa</id>
+        <link href="https://dev.to/ericrodriguez10/day-8-never-hardcode-keys-connecting-lambda-to-apis-using-aws-secrets-manager-daa"/>
+        <updated>2026-01-02T15:23:08.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/ericrodriguez10/day-8-never-hardcode-keys-connecting-lambda-to-apis-using-aws-secrets-manager-daa" aria-labelledby="article-link-3143598" class="crayons-story__hidden-navigation-link">Day 8: Never Hardcode Keys. Connecting Lambda to APIs using AWS Secrets Manager.</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
     <div class="crayons-story__top">
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
-          <a class="crayons-logo crayons-logo--l" href="/aws-builders">
-            <img alt="AWS Community Builders  logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2794%2F88da75b6-aadd-4ea1-8083-ae2dfca8be94.png" class="crayons-logo__image" loading="lazy">
-          </a>
 
-          <a href="/pablosalas" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F635483%2Ff03a28a4-9d90-4832-8888-a7bd2d2c1fc7.jpg" alt="pablosalas profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/ericrodriguez10" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3677578%2Fcebf54ee-c6c0-436d-8570-7412b62d4321.jpeg" alt="ericrodriguez10 profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/pablosalas" class="crayons-story__secondary fw-medium m:hidden">
-              Pablo Salas
+            <a href="/ericrodriguez10" class="crayons-story__secondary fw-medium m:hidden">
+              Eric Rodríguez
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3141839" aria-controls="story-author-preview-content-3141839" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Pablo Salas profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Pablo Salas
+              <button id="story-author-preview-trigger-3143598" aria-controls="story-author-preview-content-3143598" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Eric Rodríguez profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Eric Rodríguez
                 
               </button>
-              <div id="story-author-preview-content-3141839" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-3143598" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/pablosalas" class="flex">
+                    <a href="/ericrodriguez10" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F635483%2Ff03a28a4-9d90-4832-8888-a7bd2d2c1fc7.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3677578%2Fcebf54ee-c6c0-436d-8570-7412b62d4321.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Pablo Salas</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Eric Rodríguez</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:635483,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Pablo Salas&quot;}" data-fetched="fetched" aria-label="Follow user: Pablo Salas" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3677578,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Eric Rodríguez&quot;}" data-fetched="fetched" aria-label="Follow user: Eric Rodríguez" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="635483"></div>
+                  <div class="author-preview-metadata-container" data-author-id="3677578"></div>
                 </div>
               </div>
             </div>
 
-            <span>
-              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/aws-builders" class="crayons-story__secondary fw-medium">AWS Community Builders </a>
-            </span>
           </div>
-          <a href="https://dev.to/aws-builders/5-best-practices-for-securing-amazon-bedrock-agents-from-prompt-injections-30eg" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-02T00:33:57Z" title="Friday, January 2, 2026 at 12:33:57 AM">Jan 2</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767314037"></span></a>
+          <a href="https://dev.to/ericrodriguez10/day-8-never-hardcode-keys-connecting-lambda-to-apis-using-aws-secrets-manager-daa" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-02T15:23:08Z" title="Friday, January 2, 2026 at 3:23:08 PM">Jan 2</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767367388"></span></a>
         </div>
       </div>
 
@@ -65,50 +59,49 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/aws-builders/5-best-practices-for-securing-amazon-bedrock-agents-from-prompt-injections-30eg" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqhxsa0q6vsve4bdw0bby.jpg" id="article-link-3141839">
-          5 Best Practices for Securing Amazon Bedrock Agents from Prompt Injections.
+        <a href="https://dev.to/ericrodriguez10/day-8-never-hardcode-keys-connecting-lambda-to-apis-using-aws-secrets-manager-daa" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8km5xprdls57hrh9vt6l.png" id="article-link-3143598">
+          Day 8: Never Hardcode Keys. Connecting Lambda to APIs using AWS Secrets Manager.
         </a>
       </h2>
         <div class="crayons-story__tags">
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/awscommunitybuilders"><span class="crayons-tag__prefix">#</span>awscommunitybuilders</a>
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(27, 172, 128, 0.10);
         --tag-prefix: #1bac80;
         --tag-bg-hover: rgba(27, 172, 128, 0.10);
         --tag-prefix-hover: #1bac80;
       " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(30, 56, 187, 0.10);
+        --tag-prefix: #1E38BB;
+        --tag-bg-hover: rgba(30, 56, 187, 0.10);
+        --tag-prefix-hover: #1E38BB;
+      " href="/t/python"><span class="crayons-tag__prefix">#</span>python</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 131, 53, 0.10);
+        --tag-prefix: #008335;
+        --tag-bg-hover: rgba(0, 131, 53, 0.10);
+        --tag-prefix-hover: #008335;
+      " href="/t/beginners"><span class="crayons-tag__prefix">#</span>beginners</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-          <a href="https://dev.to/aws-builders/5-best-practices-for-securing-amazon-bedrock-agents-from-prompt-injections-30eg" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3141839" aria-label="Add a comment to post - 5 Best Practices for Securing Amazon Bedrock Agents from Prompt Injections.">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">2<span class="hidden s:inline">&nbsp;reactions</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/aws-builders/5-best-practices-for-securing-amazon-bedrock-agents-from-prompt-injections-30eg#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 5 Best Practices for Securing Amazon Bedrock Agents from Prompt Injections.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aguutsfdm20766l93rwtlmfsskeikuy5" class="crayons-icon"><title id="aguutsfdm20766l93rwtlmfsskeikuy5">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/ericrodriguez10/day-8-never-hardcode-keys-connecting-lambda-to-apis-using-aws-secrets-manager-daa#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Day 8: Never Hardcode Keys. Connecting Lambda to APIs using AWS Secrets Manager.">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a66h5d41o1wbvtss8gquzjbqj3tu20g9" class="crayons-icon"><title id="a66h5d41o1wbvtss8gquzjbqj3tu20g9">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
+            1 min read
           </small>
-            <button type="button" id="article-save-button-3141839" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3141839" data-article-author-id="635483" aria-label="Save post 5 Best Practices for Securing Amazon Bedrock Agents from Prompt Injections. to reading list" title="Save post 5 Best Practices for Securing Amazon Bedrock Agents from Prompt Injections. to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3143598" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3143598" data-article-author-id="3677578" aria-label="Save post Day 8: Never Hardcode Keys. Connecting Lambda to APIs using AWS Secrets Manager. to reading list" title="Save post Day 8: Never Hardcode Keys. Connecting Lambda to APIs using AWS Secrets Manager. to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -210,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/crow004/how-a-crypto-miner-infiltrated-my-umami-analytics-and-how-i-defeated-it-5adh#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How a Crypto-Miner Infiltrated My Umami Analytics (and How I Defeated It)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aesuiztdiyk1mxqjtgzo5kbkl3qe5qx2" class="crayons-icon"><title id="aesuiztdiyk1mxqjtgzo5kbkl3qe5qx2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aoaij50ld84gyjxghsmxxkapvrqsync0" class="crayons-icon"><title id="aoaij50ld84gyjxghsmxxkapvrqsync0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -219,7 +212,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3140715" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3140715" data-article-author-id="3448700" aria-label="Save post How a Crypto-Miner Infiltrated My Umami Analytics (and How I Defeated It) to reading list" title="Save post How a Crypto-Miner Infiltrated My Umami Analytics (and How I Defeated It) to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3140715" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3140715" data-article-author-id="3448700" aria-label="Save post How a Crypto-Miner Infiltrated My Umami Analytics (and How I Defeated It) to reading list" title="Save post How a Crypto-Miner Infiltrated My Umami Analytics (and How I Defeated It) to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
