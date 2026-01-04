@@ -2,62 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-03T23:43:22.844Z</updated>
+    <updated>2026-01-04T02:48:36.683Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
-        <title type="html"><![CDATA[Secure Serverless with HashiCorp Vault and Lambda: Dynamic Database Credentials]]></title>
-        <id>https://dev.to/aws-builders/secure-serverless-with-hashicorp-vault-and-lambda-dynamic-database-credentials-1dhj</id>
-        <link href="https://dev.to/aws-builders/secure-serverless-with-hashicorp-vault-and-lambda-dynamic-database-credentials-1dhj"/>
-        <updated>2026-01-02T17:35:37.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/aws-builders/secure-serverless-with-hashicorp-vault-and-lambda-dynamic-database-credentials-1dhj" aria-labelledby="article-link-2941477" class="crayons-story__hidden-navigation-link">Secure Serverless with HashiCorp Vault and Lambda: Dynamic Database Credentials</a>
+        <title type="html"><![CDATA[How I Secured My Static Website at the Edge Using Amazon CloudFront]]></title>
+        <id>https://dev.to/naomi_ansah_d792faf7a1276/how-i-secured-my-static-website-at-the-edge-using-amazon-cloudfront-12ho</id>
+        <link href="https://dev.to/naomi_ansah_d792faf7a1276/how-i-secured-my-static-website-at-the-edge-using-amazon-cloudfront-12ho"/>
+        <updated>2026-01-03T18:18:40.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/naomi_ansah_d792faf7a1276/how-i-secured-my-static-website-at-the-edge-using-amazon-cloudfront-12ho" aria-labelledby="article-link-3146430" class="crayons-story__hidden-navigation-link">How I Secured My Static Website at the Edge Using Amazon CloudFront</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
     <div class="crayons-story__top">
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
-          <a class="crayons-logo crayons-logo--l" href="/aws-builders">
-            <img alt="AWS Community Builders  logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2794%2F88da75b6-aadd-4ea1-8083-ae2dfca8be94.png" class="crayons-logo__image" loading="lazy">
-          </a>
 
-          <a href="/kevin_k" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2126119%2F0abedb52-802a-492d-ae97-143b08225619.png" alt="kevin_k profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/naomi_ansah_d792faf7a1276" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3647832%2F9a53ad03-fb22-459e-895e-15629c9e3b3d.jpeg" alt="naomi_ansah_d792faf7a1276 profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/kevin_k" class="crayons-story__secondary fw-medium m:hidden">
-              Kevin Kiruri
+            <a href="/naomi_ansah_d792faf7a1276" class="crayons-story__secondary fw-medium m:hidden">
+              Naomi Ansah
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-2941477" aria-controls="story-author-preview-content-2941477" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Kevin Kiruri profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Kevin Kiruri
+              <button id="story-author-preview-trigger-3146430" aria-controls="story-author-preview-content-3146430" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Naomi Ansah profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Naomi Ansah
                 
               </button>
-              <div id="story-author-preview-content-2941477" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-3146430" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/kevin_k" class="flex">
+                    <a href="/naomi_ansah_d792faf7a1276" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2126119%2F0abedb52-802a-492d-ae97-143b08225619.png" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3647832%2F9a53ad03-fb22-459e-895e-15629c9e3b3d.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Kevin Kiruri</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Naomi Ansah</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2126119,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Kevin Kiruri&quot;}" data-fetched="fetched" aria-label="Follow user: Kevin Kiruri" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3647832,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Naomi Ansah&quot;}" data-fetched="fetched" aria-label="Follow user: Naomi Ansah" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="2126119"></div>
+                  <div class="author-preview-metadata-container" data-author-id="3647832"></div>
                 </div>
               </div>
             </div>
 
-            <span>
-              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/aws-builders" class="crayons-story__secondary fw-medium">AWS Community Builders </a>
-            </span>
           </div>
-          <a href="https://dev.to/aws-builders/secure-serverless-with-hashicorp-vault-and-lambda-dynamic-database-credentials-1dhj" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-02T17:35:37Z" title="Friday, January 2, 2026 at 5:35:37 PM">Jan 2</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767375337"></span></a>
+          <a href="https://dev.to/naomi_ansah_d792faf7a1276/how-i-secured-my-static-website-at-the-edge-using-amazon-cloudfront-12ho" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-03T18:18:40Z" title="Saturday, January 3, 2026 at 6:18:40 PM">Jan 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767464320"></span></a>
         </div>
       </div>
 
@@ -65,17 +59,23 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/aws-builders/secure-serverless-with-hashicorp-vault-and-lambda-dynamic-database-credentials-1dhj" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzj89a9gns8hrjix3x2cy.jpg" id="article-link-2941477">
-          Secure Serverless with HashiCorp Vault and Lambda: Dynamic Database Credentials
+        <a href="https://dev.to/naomi_ansah_d792faf7a1276/how-i-secured-my-static-website-at-the-edge-using-amazon-cloudfront-12ho" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi7nf8famkrgl8m9qwf6z.png" id="article-link-3146430">
+          How I Secured My Static Website at the Edge Using Amazon CloudFront
         </a>
       </h2>
         <div class="crayons-story__tags">
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(28, 28, 28, 0.10);
-        --tag-prefix: #1C1C1C;
-        --tag-bg-hover: rgba(28, 28, 28, 0.10);
-        --tag-prefix-hover: #1C1C1C;
-      " href="/t/serverless"><span class="crayons-tag__prefix">#</span>serverless</a>
+        --tag-bg: rgba(235, 223, 55, 0.10);
+        --tag-prefix: #ebdf37;
+        --tag-bg-hover: rgba(235, 223, 55, 0.10);
+        --tag-prefix-hover: #ebdf37;
+      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(27, 172, 128, 0.10);
         --tag-prefix: #1bac80;
@@ -83,41 +83,25 @@
         --tag-prefix-hover: #1bac80;
       " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+        --tag-bg: rgba(254, 255, 165, 0.10);
+        --tag-prefix: #FEFFA5;
+        --tag-bg-hover: rgba(254, 255, 165, 0.10);
+        --tag-prefix-hover: #FEFFA5;
+      " href="/t/tutorial"><span class="crayons-tag__prefix">#</span>tutorial</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-          <a href="https://dev.to/aws-builders/secure-serverless-with-hashicorp-vault-and-lambda-dynamic-database-credentials-1dhj" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="2941477" aria-label="Add a comment to post - Secure Serverless with HashiCorp Vault and Lambda: Dynamic Database Credentials">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/aws-builders/secure-serverless-with-hashicorp-vault-and-lambda-dynamic-database-credentials-1dhj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Secure Serverless with HashiCorp Vault and Lambda: Dynamic Database Credentials">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afn3vwplrzp82pfbfryum60uqo5wjmaj" class="crayons-icon"><title id="afn3vwplrzp82pfbfryum60uqo5wjmaj">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/naomi_ansah_d792faf7a1276/how-i-secured-my-static-website-at-the-edge-using-amazon-cloudfront-12ho#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How I Secured My Static Website at the Edge Using Amazon CloudFront">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="as0e8joklxybbizvpdxhumd2s5nh3xni" class="crayons-icon"><title id="as0e8joklxybbizvpdxhumd2s5nh3xni">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            5 min read
+            4 min read
           </small>
-            <button type="button" id="article-save-button-2941477" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="2941477" data-article-author-id="2126119" aria-label="Save post Secure Serverless with HashiCorp Vault and Lambda: Dynamic Database Credentials to reading list" title="Save post Secure Serverless with HashiCorp Vault and Lambda: Dynamic Database Credentials to reading list">
+            <button type="button" id="article-save-button-3146430" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3146430" data-article-author-id="3647832" aria-label="Save post How I Secured My Static Website at the Edge Using Amazon CloudFront to reading list" title="Save post How I Secured My Static Website at the Edge Using Amazon CloudFront to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -133,11 +117,11 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Day 8: Never Hardcode Keys. Connecting Lambda to APIs using AWS Secrets Manager.]]></title>
-        <id>https://dev.to/ericrodriguez10/day-8-never-hardcode-keys-connecting-lambda-to-apis-using-aws-secrets-manager-daa</id>
-        <link href="https://dev.to/ericrodriguez10/day-8-never-hardcode-keys-connecting-lambda-to-apis-using-aws-secrets-manager-daa"/>
-        <updated>2026-01-02T15:23:08.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/ericrodriguez10/day-8-never-hardcode-keys-connecting-lambda-to-apis-using-aws-secrets-manager-daa" aria-labelledby="article-link-3143598" class="crayons-story__hidden-navigation-link">Day 8: Never Hardcode Keys. Connecting Lambda to APIs using AWS Secrets Manager.</a>
+        <title type="html"><![CDATA[I built a Docker vulnerability scanner - Beta testers wanted!!!]]></title>
+        <id>https://dev.to/jake_e115018d1995da2050f6/i-built-a-docker-vulnerability-scanner-beta-testers-wanted-1lm0</id>
+        <link href="https://dev.to/jake_e115018d1995da2050f6/i-built-a-docker-vulnerability-scanner-beta-testers-wanted-1lm0"/>
+        <updated>2026-01-03T21:52:56.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/jake_e115018d1995da2050f6/i-built-a-docker-vulnerability-scanner-beta-testers-wanted-1lm0" aria-labelledby="article-link-3146674" class="crayons-story__hidden-navigation-link">I built a Docker vulnerability scanner - Beta testers wanted!!!</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
@@ -145,40 +129,40 @@
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
 
-          <a href="/ericrodriguez10" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3677578%2Fcebf54ee-c6c0-436d-8570-7412b62d4321.jpeg" alt="ericrodriguez10 profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/jake_e115018d1995da2050f6" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3691884%2F37f039fd-449f-4411-9f66-3d595f826bb4.png" alt="jake_e115018d1995da2050f6 profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/ericrodriguez10" class="crayons-story__secondary fw-medium m:hidden">
-              Eric Rodríguez
+            <a href="/jake_e115018d1995da2050f6" class="crayons-story__secondary fw-medium m:hidden">
+              Jake
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3143598" aria-controls="story-author-preview-content-3143598" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Eric Rodríguez profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Eric Rodríguez
+              <button id="story-author-preview-trigger-3146674" aria-controls="story-author-preview-content-3146674" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Jake profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Jake
                 
               </button>
-              <div id="story-author-preview-content-3143598" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-3146674" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/ericrodriguez10" class="flex">
+                    <a href="/jake_e115018d1995da2050f6" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3677578%2Fcebf54ee-c6c0-436d-8570-7412b62d4321.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3691884%2F37f039fd-449f-4411-9f66-3d595f826bb4.png" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Eric Rodríguez</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Jake</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3677578,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Eric Rodríguez&quot;}" data-fetched="fetched" aria-label="Follow user: Eric Rodríguez" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3691884,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Jake&quot;}" data-fetched="fetched" aria-label="Follow user: Jake" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="3677578"></div>
+                  <div class="author-preview-metadata-container" data-author-id="3691884"></div>
                 </div>
               </div>
             </div>
 
           </div>
-          <a href="https://dev.to/ericrodriguez10/day-8-never-hardcode-keys-connecting-lambda-to-apis-using-aws-secrets-manager-daa" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-02T15:23:08Z" title="Friday, January 2, 2026 at 3:23:08 PM">Jan 2</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767367388"></span></a>
+          <a href="https://dev.to/jake_e115018d1995da2050f6/i-built-a-docker-vulnerability-scanner-beta-testers-wanted-1lm0" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-03T21:52:56Z" title="Saturday, January 3, 2026 at 9:52:56 PM">Jan 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767477176"></span></a>
         </div>
       </div>
 
@@ -186,8 +170,119 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/ericrodriguez10/day-8-never-hardcode-keys-connecting-lambda-to-apis-using-aws-secrets-manager-daa" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8km5xprdls57hrh9vt6l.png" id="article-link-3143598">
-          Day 8: Never Hardcode Keys. Connecting Lambda to APIs using AWS Secrets Manager.
+        <a href="https://dev.to/jake_e115018d1995da2050f6/i-built-a-docker-vulnerability-scanner-beta-testers-wanted-1lm0" data-preload-image="" id="article-link-3146674">
+          I built a Docker vulnerability scanner - Beta testers wanted!!!
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag crayons-tag--filled  " style="
+        --tag-bg: rgba(9, 27, 71, 0.10);
+        --tag-prefix: #091b47;
+        --tag-bg-hover: rgba(9, 27, 71, 0.10);
+        --tag-prefix-hover: #091b47;
+      " href="/t/showdev"><span class="crayons-tag__prefix">#</span>showdev</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/jake_e115018d1995da2050f6/i-built-a-docker-vulnerability-scanner-beta-testers-wanted-1lm0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I built a Docker vulnerability scanner - Beta testers wanted!!!">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ag1skasxgjup4a2mvywdx5zofjtq0cbp" class="crayons-icon"><title id="ag1skasxgjup4a2mvywdx5zofjtq0cbp">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            1 min read
+          </small>
+            <button type="button" id="article-save-button-3146674" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3146674" data-article-author-id="3691884" aria-label="Save post I built a Docker vulnerability scanner - Beta testers wanted!!! to reading list" title="Save post I built a Docker vulnerability scanner - Beta testers wanted!!! to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Security Groups vs Network ACLs: The Two Firewalls You Didn’t Know You Were Using in AWS]]></title>
+        <id>https://dev.to/ciberconscientes/security-groups-vs-network-acls-the-two-firewalls-you-didnt-know-you-were-using-in-aws-4bjd</id>
+        <link href="https://dev.to/ciberconscientes/security-groups-vs-network-acls-the-two-firewalls-you-didnt-know-you-were-using-in-aws-4bjd"/>
+        <updated>2026-01-03T11:55:33.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/ciberconscientes/security-groups-vs-network-acls-the-two-firewalls-you-didnt-know-you-were-using-in-aws-4bjd" aria-labelledby="article-link-3145946" class="crayons-story__hidden-navigation-link">Security Groups vs Network ACLs: The Two Firewalls You Didn’t Know You Were Using in AWS</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/ciberconscientes" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3565127%2F19717cd4-f5f5-4939-bbc9-6ae307f662d1.png" alt="ciberconscientes profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/ciberconscientes" class="crayons-story__secondary fw-medium m:hidden">
+              Nicolás
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3145946" aria-controls="story-author-preview-content-3145946" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Nicolás profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Nicolás
+                
+              </button>
+              <div id="story-author-preview-content-3145946" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/ciberconscientes" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3565127%2F19717cd4-f5f5-4939-bbc9-6ae307f662d1.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Nicolás</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3565127,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Nicolás&quot;}" data-fetched="fetched" aria-label="Follow user: Nicolás" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3565127"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/ciberconscientes/security-groups-vs-network-acls-the-two-firewalls-you-didnt-know-you-were-using-in-aws-4bjd" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-03T11:55:33Z" title="Saturday, January 3, 2026 at 11:55:33 AM">Jan 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767441333"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/ciberconscientes/security-groups-vs-network-acls-the-two-firewalls-you-didnt-know-you-were-using-in-aws-4bjd" data-preload-image="" id="article-link-3145946">
+          Security Groups vs Network ACLs: The Two Firewalls You Didn’t Know You Were Using in AWS
         </a>
       </h2>
         <div class="crayons-story__tags">
@@ -204,22 +299,244 @@
         --tag-prefix-hover: #1bac80;
       " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(30, 56, 187, 0.10);
-        --tag-prefix: #1E38BB;
-        --tag-bg-hover: rgba(30, 56, 187, 0.10);
-        --tag-prefix-hover: #1E38BB;
-      " href="/t/python"><span class="crayons-tag__prefix">#</span>python</a>
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/firewall"><span class="crayons-tag__prefix">#</span>firewall</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 131, 53, 0.10);
-        --tag-prefix: #008335;
-        --tag-bg-hover: rgba(0, 131, 53, 0.10);
-        --tag-prefix-hover: #008335;
-      " href="/t/beginners"><span class="crayons-tag__prefix">#</span>beginners</a>
+        --tag-bg: rgba(50, 159, 159, 0.10);
+        --tag-prefix: #329f9f;
+        --tag-bg-hover: rgba(50, 159, 159, 0.10);
+        --tag-prefix-hover: #329f9f;
+      " href="/t/network"><span class="crayons-tag__prefix">#</span>network</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-            <a href="https://dev.to/ericrodriguez10/day-8-never-hardcode-keys-connecting-lambda-to-apis-using-aws-secrets-manager-daa#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Day 8: Never Hardcode Keys. Connecting Lambda to APIs using AWS Secrets Manager.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aeridbc0kwm6xfonqplrdiaxgxlmlf2b" class="crayons-icon"><title id="aeridbc0kwm6xfonqplrdiaxgxlmlf2b">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/ciberconscientes/security-groups-vs-network-acls-the-two-firewalls-you-didnt-know-you-were-using-in-aws-4bjd#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Security Groups vs Network ACLs: The Two Firewalls You Didn’t Know You Were Using in AWS">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a86hbil13o7epvjbx3tknglgga5w4v3l" class="crayons-icon"><title id="a86hbil13o7epvjbx3tknglgga5w4v3l">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+            <button type="button" id="article-save-button-3145946" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3145946" data-article-author-id="3565127" aria-label="Save post Security Groups vs Network ACLs: The Two Firewalls You Didn’t Know You Were Using in AWS to reading list" title="Save post Security Groups vs Network ACLs: The Two Firewalls You Didn’t Know You Were Using in AWS to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Most Security Teams Can’t Scale Access Management Beyond 50 Employees - Here’s how to fix it]]></title>
+        <id>https://dev.to/mfakbar127/most-security-teams-cant-scale-access-management-beyond-50-employees-heres-how-to-fix-it-132d</id>
+        <link href="https://dev.to/mfakbar127/most-security-teams-cant-scale-access-management-beyond-50-employees-heres-how-to-fix-it-132d"/>
+        <updated>2026-01-03T12:05:01.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/mfakbar127/most-security-teams-cant-scale-access-management-beyond-50-employees-heres-how-to-fix-it-132d" aria-labelledby="article-link-3145967" class="crayons-story__hidden-navigation-link">Most Security Teams Can’t Scale Access Management Beyond 50 Employees - Here’s how to fix it</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/mfakbar127" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3691264%2Fbd3e38e8-7263-4af3-bcaf-a2dbf8454837.jpg" alt="mfakbar127 profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/mfakbar127" class="crayons-story__secondary fw-medium m:hidden">
+              Muh. Fani "Rama" Akbar
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3145967" aria-controls="story-author-preview-content-3145967" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Muh. Fani &quot;Rama&quot; Akbar profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Muh. Fani "Rama" Akbar
+                
+              </button>
+              <div id="story-author-preview-content-3145967" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/mfakbar127" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3691264%2Fbd3e38e8-7263-4af3-bcaf-a2dbf8454837.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Muh. Fani "Rama" Akbar</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3691264,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Muh. Fani \&quot;Rama\&quot; Akbar&quot;}" data-fetched="fetched" aria-label="Follow user: Muh. Fani &quot;Rama&quot; Akbar" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3691264"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/mfakbar127/most-security-teams-cant-scale-access-management-beyond-50-employees-heres-how-to-fix-it-132d" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-03T12:05:01Z" title="Saturday, January 3, 2026 at 12:05:01 PM">Jan 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767441901"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/mfakbar127/most-security-teams-cant-scale-access-management-beyond-50-employees-heres-how-to-fix-it-132d" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Favt8whm8ndud5m8211lp.jpg" id="article-link-3145967">
+          Most Security Teams Can’t Scale Access Management Beyond 50 Employees - Here’s how to fix it
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/iam"><span class="crayons-tag__prefix">#</span>iam</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/automation"><span class="crayons-tag__prefix">#</span>automation</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/mfakbar127/most-security-teams-cant-scale-access-management-beyond-50-employees-heres-how-to-fix-it-132d#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Most Security Teams Can’t Scale Access Management Beyond 50 Employees - Here’s how to fix it">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a74pwdedw8a58i8b6gjrjlrlgyi56ene" class="crayons-icon"><title id="a74pwdedw8a58i8b6gjrjlrlgyi56ene">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            6 min read
+          </small>
+            <button type="button" id="article-save-button-3145967" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3145967" data-article-author-id="3691264" aria-label="Save post Most Security Teams Can’t Scale Access Management Beyond 50 Employees - Here’s how to fix it to reading list" title="Save post Most Security Teams Can’t Scale Access Management Beyond 50 Employees - Here’s how to fix it to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Did you know?]]></title>
+        <id>https://dev.to/cloudraptor/did-you-know-4h0k</id>
+        <link href="https://dev.to/cloudraptor/did-you-know-4h0k"/>
+        <updated>2026-01-03T19:48:43.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/cloudraptor/did-you-know-4h0k" aria-labelledby="article-link-3146561" class="crayons-story__hidden-navigation-link">Did you know?</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/cloudraptor" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3687787%2F56729313-5df3-48d3-b06d-34854291e193.jpeg" alt="cloudraptor profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/cloudraptor" class="crayons-story__secondary fw-medium m:hidden">
+              Raphael
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3146561" aria-controls="story-author-preview-content-3146561" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Raphael profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Raphael
+                
+              </button>
+              <div id="story-author-preview-content-3146561" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/cloudraptor" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3687787%2F56729313-5df3-48d3-b06d-34854291e193.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Raphael</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3687787,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Raphael&quot;}" data-fetched="fetched" aria-label="Follow user: Raphael" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3687787"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/cloudraptor/did-you-know-4h0k" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-03T19:48:43Z" title="Saturday, January 3, 2026 at 7:48:43 PM">Jan 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767469723"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/cloudraptor/did-you-know-4h0k" data-preload-image="" id="article-link-3146561">
+          Did you know?
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/cloudraptor/did-you-know-4h0k#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Did you know?">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ae5h536u0921rbz5trk3lphq6uxhti4r" class="crayons-icon"><title id="ae5h536u0921rbz5trk3lphq6uxhti4r">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -228,7 +545,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             1 min read
           </small>
-            <button type="button" id="article-save-button-3143598" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3143598" data-article-author-id="3677578" aria-label="Save post Day 8: Never Hardcode Keys. Connecting Lambda to APIs using AWS Secrets Manager. to reading list" title="Save post Day 8: Never Hardcode Keys. Connecting Lambda to APIs using AWS Secrets Manager. to reading list">
+            <button type="button" id="article-save-button-3146561" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3146561" data-article-author-id="3687787" aria-label="Save post Did you know? to reading list" title="Save post Did you know? to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
