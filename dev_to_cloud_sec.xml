@@ -2,136 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-04T17:44:48.234Z</updated>
+    <updated>2026-01-04T18:56:45.119Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
-    <entry>
-        <title type="html"><![CDATA[Designing a Secure AWS Landing Zone with Control Tower (What Most Blogs Don’t Tell You)]]></title>
-        <id>https://dev.to/amaan-igs/designing-a-secure-aws-landing-zone-with-control-tower-what-most-blogs-dont-tell-you-20oh</id>
-        <link href="https://dev.to/amaan-igs/designing-a-secure-aws-landing-zone-with-control-tower-what-most-blogs-dont-tell-you-20oh"/>
-        <updated>2026-01-04T10:50:10.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/amaan-igs/designing-a-secure-aws-landing-zone-with-control-tower-what-most-blogs-dont-tell-you-20oh" aria-labelledby="article-link-3125592" class="crayons-story__hidden-navigation-link">Designing a Secure AWS Landing Zone with Control Tower (What Most Blogs Don’t Tell You)</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/amaan-igs" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3440630%2Fe95bc793-ebf6-4193-b6d3-822ff6f20586.jpeg" alt="amaan-igs profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/amaan-igs" class="crayons-story__secondary fw-medium m:hidden">
-              Amaan Ul Haq Siddiqui
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3125592" aria-controls="story-author-preview-content-3125592" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Amaan Ul Haq Siddiqui profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Amaan Ul Haq Siddiqui
-                
-              </button>
-              <div id="story-author-preview-content-3125592" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/amaan-igs" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3440630%2Fe95bc793-ebf6-4193-b6d3-822ff6f20586.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Amaan Ul Haq Siddiqui</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3440630,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Amaan Ul Haq Siddiqui&quot;}" data-fetched="fetched" aria-label="Follow user: Amaan Ul Haq Siddiqui" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3440630"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/amaan-igs/designing-a-secure-aws-landing-zone-with-control-tower-what-most-blogs-dont-tell-you-20oh" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-04T10:50:10Z" title="Sunday, January 4, 2026 at 10:50:10 AM">Jan 4</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767523810"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/amaan-igs/designing-a-secure-aws-landing-zone-with-control-tower-what-most-blogs-dont-tell-you-20oh" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbe8whmc1ebivq7l5icu1.png" id="article-link-3125592">
-          Designing a Secure AWS Landing Zone with Control Tower (What Most Blogs Don’t Tell You)
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(235, 223, 55, 0.10);
-        --tag-prefix: #ebdf37;
-        --tag-bg-hover: rgba(235, 223, 55, 0.10);
-        --tag-prefix-hover: #ebdf37;
-      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/amaan-igs/designing-a-secure-aws-landing-zone-with-control-tower-what-most-blogs-dont-tell-you-20oh" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3125592" aria-label="Add a comment to post - Designing a Secure AWS Landing Zone with Control Tower (What Most Blogs Don’t Tell You)">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">3<span class="hidden s:inline">&nbsp;reactions</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/amaan-igs/designing-a-secure-aws-landing-zone-with-control-tower-what-most-blogs-dont-tell-you-20oh#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Designing a Secure AWS Landing Zone with Control Tower (What Most Blogs Don’t Tell You)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5s4g9hiwignoon3prtykpv2jf6j06a4" class="crayons-icon"><title id="a5s4g9hiwignoon3prtykpv2jf6j06a4">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              1<span class="hidden s:inline">&nbsp;comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
-          </small>
-            <button type="button" id="article-save-button-3125592" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3125592" data-article-author-id="3440630" aria-label="Save post Designing a Secure AWS Landing Zone with Control Tower (What Most Blogs Don’t Tell You) to reading list" title="Save post Designing a Secure AWS Landing Zone with Control Tower (What Most Blogs Don’t Tell You) to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Top 10 AWS Security Mistakes Beginners Must Avoid]]></title>
         <id>https://dev.to/ciberconscientes/avoid-these-top-10-aws-security-mistakes-beginners-make-46b1</id>
@@ -213,7 +86,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/ciberconscientes/avoid-these-top-10-aws-security-mistakes-beginners-make-46b1#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Top 10 AWS Security Mistakes Beginners Must Avoid">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aryceg1gy034plk507z9ea42uvcipd3p" class="crayons-icon"><title id="aryceg1gy034plk507z9ea42uvcipd3p">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abpihp6t1qhh8uq7n6r194ajk21ew64j" class="crayons-icon"><title id="abpihp6t1qhh8uq7n6r194ajk21ew64j">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -324,7 +197,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/zhangjintao/from-deprecated-npm-classic-tokens-to-oidc-trusted-publishing-a-cicd-troubleshooting-journey-4h8b#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - From Deprecated npm Classic Tokens to OIDC Trusted Publishing: A CI/CD Troubleshooting Journey">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a6iqlqbhuyg75lqtklpsfo7rpv9qqbmq" class="crayons-icon"><title id="a6iqlqbhuyg75lqtklpsfo7rpv9qqbmq">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ateg3n9l59yewc3k3tbr4c45wf9gth34" class="crayons-icon"><title id="ateg3n9l59yewc3k3tbr4c45wf9gth34">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -429,7 +302,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/miller_proxy/why-does-socks5-proxy-login-trigger-account-warnings-or-failures-when-switching-between-cloud-and-29c#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Why Does SOCKS5 Proxy Login Trigger Account Warnings or Failures When Switching Between Cloud and Local Access?">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="arda6yb63mwue71iqwcj0ybkay87d2wv" class="crayons-icon"><title id="arda6yb63mwue71iqwcj0ybkay87d2wv">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abfyukuxe47t3sudd32ho2dv6p7fpsc8" class="crayons-icon"><title id="abfyukuxe47t3sudd32ho2dv6p7fpsc8">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -438,7 +311,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             12 min read
           </small>
-            <button type="button" id="article-save-button-3147227" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3147227" data-article-author-id="3629795" aria-label="Save post Why Does SOCKS5 Proxy Login Trigger Account Warnings or Failures When Switching Between Cloud and Local Access? to reading list" title="Save post Why Does SOCKS5 Proxy Login Trigger Account Warnings or Failures When Switching Between Cloud and Local Access? to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3147227" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3147227" data-article-author-id="3629795" aria-label="Save post Why Does SOCKS5 Proxy Login Trigger Account Warnings or Failures When Switching Between Cloud and Local Access? to reading list" title="Save post Why Does SOCKS5 Proxy Login Trigger Account Warnings or Failures When Switching Between Cloud and Local Access? to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -540,7 +413,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/jake_e115018d1995da2050f6/i-built-a-docker-vulnerability-scanner-beta-testers-wanted-1lm0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I built a Docker vulnerability scanner - Beta testers wanted!!!">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqgisx7mxkoxt1ushtona1ukkoibv39r" class="crayons-icon"><title id="aqgisx7mxkoxt1ushtona1ukkoibv39r">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="agq5xsnfems42as0xv1acw081640ejsu" class="crayons-icon"><title id="agq5xsnfems42as0xv1acw081640ejsu">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -549,7 +422,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             1 min read
           </small>
-            <button type="button" id="article-save-button-3146674" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3146674" data-article-author-id="3691884" aria-label="Save post I built a Docker vulnerability scanner - Beta testers wanted!!! to reading list" title="Save post I built a Docker vulnerability scanner - Beta testers wanted!!! to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3146674" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3146674" data-article-author-id="3691884" aria-label="Save post I built a Docker vulnerability scanner - Beta testers wanted!!! to reading list" title="Save post I built a Docker vulnerability scanner - Beta testers wanted!!! to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -651,7 +524,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/ciberconscientes/security-groups-vs-network-acls-the-two-firewalls-you-didnt-know-you-were-using-in-aws-4bjd#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Security Groups vs Network ACLs: The Two Firewalls You Didn’t Know You Were Using in AWS">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="acqz97gu05loyxzn1nnq1hr7vcz1zav3" class="crayons-icon"><title id="acqz97gu05loyxzn1nnq1hr7vcz1zav3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aps2t1ikxzzc2oa04mr91ar06h2rtyd" class="crayons-icon"><title id="aps2t1ikxzzc2oa04mr91ar06h2rtyd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -660,7 +533,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             5 min read
           </small>
-            <button type="button" id="article-save-button-3145946" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3145946" data-article-author-id="3565127" aria-label="Save post Security Groups vs Network ACLs: The Two Firewalls You Didn’t Know You Were Using in AWS to reading list" title="Save post Security Groups vs Network ACLs: The Two Firewalls You Didn’t Know You Were Using in AWS to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3145946" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3145946" data-article-author-id="3565127" aria-label="Save post Security Groups vs Network ACLs: The Two Firewalls You Didn’t Know You Were Using in AWS to reading list" title="Save post Security Groups vs Network ACLs: The Two Firewalls You Didn’t Know You Were Using in AWS to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -762,7 +635,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/mfakbar127/most-security-teams-cant-scale-access-management-beyond-50-employees-heres-how-to-fix-it-132d#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Most Security Teams Can’t Scale Access Management Beyond 50 Employees - Here’s how to fix it">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ag67xexkkx43d681udfn2nd5er3m7km3" class="crayons-icon"><title id="ag67xexkkx43d681udfn2nd5er3m7km3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2wsqo3z09oktg747x6qnb8harrx500f" class="crayons-icon"><title id="a2wsqo3z09oktg747x6qnb8harrx500f">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -771,7 +644,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             6 min read
           </small>
-            <button type="button" id="article-save-button-3145967" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3145967" data-article-author-id="3691264" aria-label="Save post Most Security Teams Can’t Scale Access Management Beyond 50 Employees - Here’s how to fix it to reading list" title="Save post Most Security Teams Can’t Scale Access Management Beyond 50 Employees - Here’s how to fix it to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3145967" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3145967" data-article-author-id="3691264" aria-label="Save post Most Security Teams Can’t Scale Access Management Beyond 50 Employees - Here’s how to fix it to reading list" title="Save post Most Security Teams Can’t Scale Access Management Beyond 50 Employees - Here’s how to fix it to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -873,7 +746,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/cloudraptor/did-you-know-4h0k#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Did you know?">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abgr56pk4hus0fg1f8ssujcjzxbm14w9" class="crayons-icon"><title id="abgr56pk4hus0fg1f8ssujcjzxbm14w9">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ajw4cqok2846doigs1bi98s54kfd7ub2" class="crayons-icon"><title id="ajw4cqok2846doigs1bi98s54kfd7ub2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -882,7 +755,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             1 min read
           </small>
-            <button type="button" id="article-save-button-3146561" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3146561" data-article-author-id="3687787" aria-label="Save post Did you know? to reading list" title="Save post Did you know? to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3146561" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3146561" data-article-author-id="3687787" aria-label="Save post Did you know? to reading list" title="Save post Did you know? to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
