@@ -30,3 +30,12 @@ entrySelector = "#__next > div:nth-child(2) > div:nth-child(2) > div > div:nth-c
 titleSelector = "h3"
 linkSelector = "a"
 filters = ["Corporate News"]
+
+[mercari_security]
+title = "mercari_security"
+url = "https://engineering.mercari.com/en/blog/category/security/"
+entrySelector = ".left > ul > li"
+titleSelector = "h3"
+linkSelector = "a"
+dateSelector = "time"
+dateFormat = "yyyy/MM/dd"
