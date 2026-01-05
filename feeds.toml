@@ -799,3 +799,21 @@ titleSelector = "a.grid-post__link"
 linkSelector = "a.grid-post__link"
 dateSelector = ".grid-post__date"
 dateFormat = "MMM d, yyyy"
+
+[mercari]
+title = "mercari"
+url = "https://engineering.mercari.com/en/blog/category/security/"
+entrySelector = "div.left > ul > li"
+titleSelector = "h3"
+linkSelector = "a"
+dateSelector = "time"
+dateFormat = "yyyy/MM/dd"
+
+[cybersecnerds]
+title = "cybersecnerds"
+url = "https://cybersecnerds.com/cybersec/"
+entrySelector = "div.tg-row > .tg_module_block--list-small"
+titleSelector = "h3 > a"
+linkSelector = "h3 > a"
+dateSelector = "time.published"
+dateFormat = "MMMM d, yyyy"
