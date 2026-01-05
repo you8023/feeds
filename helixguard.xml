@@ -2,9 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://helixguard.ai/blog</id>
     <title>helixguard</title>
-    <updated>2026-01-05T10:56:06.910Z</updated>
+    <updated>2026-01-05T11:45:27.136Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://helixguard.ai/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Malicious Packages Impersonating aiohttp Appear on PyPI and Distribute Windows Malware]]></title>
+        <id>https://helixguard.ai/blog/Fake-aiohttp-package</id>
+        <link href="https://helixguard.ai/blog/Fake-aiohttp-package"/>
+        <updated>2026-01-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div data-v-0e1120e2="" class="post-header"><div data-v-0e1120e2="" class="post-meta"><span data-v-0e1120e2="" class="post-date">2026-01-05</span><span data-v-0e1120e2="" class="post-author">HelixGuard Team</span><span data-v-0e1120e2="" class="reading-time">3 min read</span></div></div><h2 data-v-0e1120e2="" class="post-title"><a data-v-0e1120e2="" href="/blog/Fake-aiohttp-package" class="">Malicious Packages Impersonating aiohttp Appear on PyPI and Distribute Windows Malware</a></h2><p data-v-0e1120e2="" class="post-excerpt">HelixGuard discovered a batch of malicious packages on PyPI that masquerade as the popular Python library ​**aiohttp**​. These packages have accumulated more than 1,000 total downloads.</p><div data-v-0e1120e2="" class="post-footer"><div data-v-0e1120e2="" class="post-tags"><button data-v-0e1120e2="" class="tag">Malware</button><button data-v-0e1120e2="" class="tag">openVSX</button></div><a data-v-0e1120e2="" href="/blog/Fake-aiohttp-package" class="read-more"> Read More → </a></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Uncovering the “Dead Drop” Backdoor in the OpenVSX Extension Benachile-studio.protobuf-pro]]></title>
         <id>https://helixguard.ai/blog/extension-benachile-studio-protobuf-pro</id>
@@ -39,12 +46,5 @@
         <link href="https://helixguard.ai/blog/malicious-sha1hulud-2025-11-24"/>
         <updated>2025-11-24T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<div data-v-0e1120e2="" class="post-header"><div data-v-0e1120e2="" class="post-meta"><span data-v-0e1120e2="" class="post-date">2025-11-24</span><span data-v-0e1120e2="" class="post-author">HelixGuard Team</span><span data-v-0e1120e2="" class="reading-time">24 min read</span></div></div><h2 data-v-0e1120e2="" class="post-title"><a data-v-0e1120e2="" href="/blog/malicious-sha1hulud-2025-11-24" class="">Shai-Hulud Returns: Over 1K NPM Packages and 27K+ Github Repos infected via Fake Bun Runtime Within Hours</a></h2><p data-v-0e1120e2="" class="post-excerpt">Over 1,000 NPM packages were infected using the same method as the previous attack, infecting with a fake Bun runtime. The attacker leveraged the `preinstall` script to download and execute a malicious payload, stealing sensitive information from the compromised machines.</p><div data-v-0e1120e2="" class="post-footer"><div data-v-0e1120e2="" class="post-tags"><button data-v-0e1120e2="" class="tag">Malware</button><button data-v-0e1120e2="" class="tag">NPM</button><button data-v-0e1120e2="" class="tag">shai-hulud</button></div><a data-v-0e1120e2="" href="/blog/malicious-sha1hulud-2025-11-24" class="read-more"> Read More → </a></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Malicious PyPI Package Embeds Multi-Layer Encrypted Backdoor to Steal Users’ Cryptocurrency Information]]></title>
-        <id>https://helixguard.ai/blog/malicious-spellcheckers-2025-11-19</id>
-        <link href="https://helixguard.ai/blog/malicious-spellcheckers-2025-11-19"/>
-        <updated>2025-11-19T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div data-v-0e1120e2="" class="post-header"><div data-v-0e1120e2="" class="post-meta"><span data-v-0e1120e2="" class="post-date">2025-11-19</span><span data-v-0e1120e2="" class="post-author">HelixGuard Team</span><span data-v-0e1120e2="" class="reading-time">5 min read</span></div></div><h2 data-v-0e1120e2="" class="post-title"><a data-v-0e1120e2="" href="/blog/malicious-spellcheckers-2025-11-19" class="">Malicious PyPI Package Embeds Multi-Layer Encrypted Backdoor to Steal Users’ Cryptocurrency Information</a></h2><p data-v-0e1120e2="" class="post-excerpt">A malicious Python package named spellcheckers has been detected on PyPI, embedding a multi-layer encrypted backdoor that steals users’ cryptocurrency information.</p><div data-v-0e1120e2="" class="post-footer"><div data-v-0e1120e2="" class="post-tags"><button data-v-0e1120e2="" class="tag">Malware</button><button data-v-0e1120e2="" class="tag">PyPI</button></div><a data-v-0e1120e2="" href="/blog/malicious-spellcheckers-2025-11-19" class="read-more"> Read More → </a></div>]]></content>
     </entry>
 </feed>
