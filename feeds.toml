@@ -781,3 +781,21 @@ titleSelector = "h2 > a"
 linkSelector = "h2 > a"
 dateSelector = "time"
 dateFormat = "MMMM d, yyyy"
+
+[cybrary]
+title = "cybrary"
+url = "https://www.cybrary.it/blog"
+entrySelector = ".blog-listings_list > .blog-listings_item"
+titleSelector = ".blog-listings_text-content > h3"
+linkSelector = "> a"
+dateSelector = ".blog-listing_date-wrapper > .text-style-label"
+dateFormat = "MMMM d, yyyy"
+
+[linkedin_security]
+title = "linkedin_security"
+url = "https://www.linkedin.com/blog/engineering/security"
+entrySelector = "li.post-list__item"
+titleSelector = "a.grid-post__link"
+linkSelector = "a.grid-post__link"
+dateSelector = ".grid-post__date"
+dateFormat = "MMM d, yyyy"
