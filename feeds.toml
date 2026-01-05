@@ -765,3 +765,19 @@ titleSelector = ".white-card-hubs-inner > h4"
 linkSelector = "a.case_study-card-link"
 dateSelector = ".white-card-hubs-inner > div:nth-child(1)"
 dateFormat = "MMMM d, yyyy"
+
+[sicks3c_research]
+title = "sicks3c_research"
+url = "https://sicks3c.github.io/research/"
+entrySelector = "article.research-item"
+titleSelector = "h2 > a"
+linkSelector = "h2 > a"
+
+[sicks3c_blog]
+title = "sicks3c_blog"
+url = "https://sicks3c.github.io/posts/"
+entrySelector = "article.post"
+titleSelector = "h2 > a"
+linkSelector = "h2 > a"
+dateSelector = "time"
+dateFormat = "MMMM d, yyyy"
