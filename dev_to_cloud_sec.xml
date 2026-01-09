@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-08T22:49:41.945Z</updated>
+    <updated>2026-01-09T02:39:56.426Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Azure OpenAI's Content Filter: When Safety Theater Blocks Real Work]]></title>
+        <id>https://dev.to/javimaligno/azure-openais-content-filter-when-safety-theater-blocks-real-work-4kf6</id>
+        <link href="https://dev.to/javimaligno/azure-openais-content-filter-when-safety-theater-blocks-real-work-4kf6"/>
+        <updated>2026-01-08T20:03:35.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/javimaligno/azure-openais-content-filter-when-safety-theater-blocks-real-work-4kf6" aria-labelledby="article-link-3158892" class="crayons-story__hidden-navigation-link">Azure OpenAI's Content Filter: When Safety Theater Blocks Real Work</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/javimaligno" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3701121%2F3d85b744-a4d6-4104-a1ae-db83b08dcc88.png" alt="javimaligno profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/javimaligno" class="crayons-story__secondary fw-medium m:hidden">
+              JaviMaligno
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3158892" aria-controls="story-author-preview-content-3158892" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="JaviMaligno profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                JaviMaligno
+                
+              </button>
+              <div id="story-author-preview-content-3158892" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/javimaligno" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3701121%2F3d85b744-a4d6-4104-a1ae-db83b08dcc88.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">JaviMaligno</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3701121,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;JaviMaligno&quot;}" data-fetched="fetched" aria-label="Follow user: JaviMaligno" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3701121"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/javimaligno/azure-openais-content-filter-when-safety-theater-blocks-real-work-4kf6" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-08T20:03:35Z" title="Thursday, January 8, 2026 at 8:03:35 PM">Jan 8</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767902615"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/javimaligno/azure-openais-content-filter-when-safety-theater-blocks-real-work-4kf6" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.javieraguilar.ai%2Fog-image.png" id="article-link-3158892">
+          Azure OpenAI's Content Filter: When Safety Theater Blocks Real Work
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 127, 255, 0.10);
+        --tag-prefix: #007fff;
+        --tag-bg-hover: rgba(0, 127, 255, 0.10);
+        --tag-prefix-hover: #007fff;
+      " href="/t/azure"><span class="crayons-tag__prefix">#</span>azure</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(31, 109, 245, 0.10);
+        --tag-prefix: #1F6DF5;
+        --tag-bg-hover: rgba(31, 109, 245, 0.10);
+        --tag-prefix-hover: #1F6DF5;
+      " href="/t/openai"><span class="crayons-tag__prefix">#</span>openai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/javimaligno/azure-openais-content-filter-when-safety-theater-blocks-real-work-4kf6#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Azure OpenAI's Content Filter: When Safety Theater Blocks Real Work">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a32oibbtantyytmresotcy0nx38dr71s" class="crayons-icon"><title id="a32oibbtantyytmresotcy0nx38dr71s">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            3 min read
+          </small>
+            <button type="button" id="article-save-button-3158892" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3158892" data-article-author-id="3701121" aria-label="Save post Azure OpenAI's Content Filter: When Safety Theater Blocks Real Work to reading list" title="Save post Azure OpenAI's Content Filter: When Safety Theater Blocks Real Work to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Implementing Security Lake in AWS GovCloud for FedRAMP High Compliance]]></title>
         <id>https://dev.to/aws-builders/implementing-security-lake-in-aws-govcloud-for-fedramp-high-compliance-38n0</id>
@@ -108,7 +219,7 @@
             </div>
           </a>
             <a href="https://dev.to/aws-builders/implementing-security-lake-in-aws-govcloud-for-fedramp-high-compliance-38n0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Implementing Security Lake in AWS GovCloud for FedRAMP High Compliance">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7p21a1s01yw3gty37zcasip93ad8y54" class="crayons-icon"><title id="a7p21a1s01yw3gty37zcasip93ad8y54">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afqb32da1oi9rytzc76izluucq2j32s7" class="crayons-icon"><title id="afqb32da1oi9rytzc76izluucq2j32s7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -117,7 +228,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             11 min read
           </small>
-            <button type="button" id="article-save-button-3158622" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3158622" data-article-author-id="3696886" aria-label="Save post Implementing Security Lake in AWS GovCloud for FedRAMP High Compliance to reading list" title="Save post Implementing Security Lake in AWS GovCloud for FedRAMP High Compliance to reading list">
+            <button type="button" id="article-save-button-3158622" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3158622" data-article-author-id="3696886" aria-label="Save post Implementing Security Lake in AWS GovCloud for FedRAMP High Compliance to reading list" title="Save post Implementing Security Lake in AWS GovCloud for FedRAMP High Compliance to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -219,7 +330,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/robert_r_7c237256b7614328/browser-based-kubectl-access-managing-kubernetes-without-bastion-hosts-1b4a#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Browser-Based kubectl Access: Managing Kubernetes Without Bastion Hosts">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ad97x9eq2m61gpior8gbp16k6a6oc8ej" class="crayons-icon"><title id="ad97x9eq2m61gpior8gbp16k6a6oc8ej">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqjwc0lh5qgwhronytop5qy57e0o051t" class="crayons-icon"><title id="aqjwc0lh5qgwhronytop5qy57e0o051t">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -228,7 +339,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3147815" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3147815" data-article-author-id="2090137" aria-label="Save post Browser-Based kubectl Access: Managing Kubernetes Without Bastion Hosts to reading list" title="Save post Browser-Based kubectl Access: Managing Kubernetes Without Bastion Hosts to reading list">
+            <button type="button" id="article-save-button-3147815" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3147815" data-article-author-id="2090137" aria-label="Save post Browser-Based kubectl Access: Managing Kubernetes Without Bastion Hosts to reading list" title="Save post Browser-Based kubectl Access: Managing Kubernetes Without Bastion Hosts to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -244,11 +355,11 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Protecting an EC2 hosted web application with AWS WAF in practice]]></title>
-        <id>https://dev.to/geovane_oliveira/protecting-an-ec2-hosted-web-application-with-aws-waf-in-practice-3mb</id>
-        <link href="https://dev.to/geovane_oliveira/protecting-an-ec2-hosted-web-application-with-aws-waf-in-practice-3mb"/>
-        <updated>2026-01-08T00:29:40.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/geovane_oliveira/protecting-an-ec2-hosted-web-application-with-aws-waf-in-practice-3mb" aria-labelledby="article-link-3127416" class="crayons-story__hidden-navigation-link">Protecting an EC2 hosted web application with AWS WAF in practice</a>
+        <title type="html"><![CDATA[Basic protections for your S3 buckets]]></title>
+        <id>https://dev.to/ciberconscientes/basic-protections-for-your-s3-buckets-388n</id>
+        <link href="https://dev.to/ciberconscientes/basic-protections-for-your-s3-buckets-388n"/>
+        <updated>2026-01-08T20:12:10.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/ciberconscientes/basic-protections-for-your-s3-buckets-388n" aria-labelledby="article-link-3158906" class="crayons-story__hidden-navigation-link">Basic protections for your S3 buckets</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
@@ -256,40 +367,40 @@
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
 
-          <a href="/geovane_oliveira" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3664142%2Fc04c0578-8cd5-4fb0-bb23-051242fcc2a7.png" alt="geovane_oliveira profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/ciberconscientes" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3565127%2F19717cd4-f5f5-4939-bbc9-6ae307f662d1.png" alt="ciberconscientes profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/geovane_oliveira" class="crayons-story__secondary fw-medium m:hidden">
-              Geovane Oliveira
+            <a href="/ciberconscientes" class="crayons-story__secondary fw-medium m:hidden">
+              Nicolás
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3127416" aria-controls="story-author-preview-content-3127416" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Geovane Oliveira profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Geovane Oliveira
+              <button id="story-author-preview-trigger-3158906" aria-controls="story-author-preview-content-3158906" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Nicolás profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Nicolás
                 
               </button>
-              <div id="story-author-preview-content-3127416" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-3158906" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/geovane_oliveira" class="flex">
+                    <a href="/ciberconscientes" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3664142%2Fc04c0578-8cd5-4fb0-bb23-051242fcc2a7.png" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3565127%2F19717cd4-f5f5-4939-bbc9-6ae307f662d1.png" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Geovane Oliveira</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Nicolás</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3664142,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Geovane Oliveira&quot;}" data-fetched="fetched" aria-label="Follow user: Geovane Oliveira" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3565127,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Nicolás&quot;}" data-fetched="fetched" aria-label="Follow user: Nicolás" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="3664142"></div>
+                  <div class="author-preview-metadata-container" data-author-id="3565127"></div>
                 </div>
               </div>
             </div>
 
           </div>
-          <a href="https://dev.to/geovane_oliveira/protecting-an-ec2-hosted-web-application-with-aws-waf-in-practice-3mb" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-08T00:29:40Z" title="Thursday, January 8, 2026 at 12:29:40 AM">Jan 8</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767832180"></span></a>
+          <a href="https://dev.to/ciberconscientes/basic-protections-for-your-s3-buckets-388n" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-08T20:12:10Z" title="Thursday, January 8, 2026 at 8:12:10 PM">Jan 8</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1767903130"></span></a>
         </div>
       </div>
 
@@ -297,17 +408,11 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/geovane_oliveira/protecting-an-ec2-hosted-web-application-with-aws-waf-in-practice-3mb" data-preload-image="" id="article-link-3127416">
-          Protecting an EC2 hosted web application with AWS WAF in practice
+        <a href="https://dev.to/ciberconscientes/basic-protections-for-your-s3-buckets-388n" data-preload-image="" id="article-link-3158906">
+          Basic protections for your S3 buckets
         </a>
       </h2>
         <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(235, 223, 55, 0.10);
-        --tag-prefix: #ebdf37;
-        --tag-bg-hover: rgba(235, 223, 55, 0.10);
-        --tag-prefix-hover: #ebdf37;
-      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(33, 43, 58, 0.10);
         --tag-prefix: #212b3a;
@@ -315,11 +420,11 @@
         --tag-prefix-hover: #212b3a;
       " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(27, 172, 128, 0.10);
         --tag-prefix: #1bac80;
@@ -329,17 +434,17 @@
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-            <a href="https://dev.to/geovane_oliveira/protecting-an-ec2-hosted-web-application-with-aws-waf-in-practice-3mb#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Protecting an EC2 hosted web application with AWS WAF in practice">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ak43j3ooghzjm2zzvuf2yr74hguoald8" class="crayons-icon"><title id="ak43j3ooghzjm2zzvuf2yr74hguoald8">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/ciberconscientes/basic-protections-for-your-s3-buckets-388n#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Basic protections for your S3 buckets">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqra8gwp0w3jw7rzedhjyk2zgms5hery" class="crayons-icon"><title id="aqra8gwp0w3jw7rzedhjyk2zgms5hery">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            12 min read
+            5 min read
           </small>
-            <button type="button" id="article-save-button-3127416" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3127416" data-article-author-id="3664142" aria-label="Save post Protecting an EC2 hosted web application with AWS WAF in practice to reading list" title="Save post Protecting an EC2 hosted web application with AWS WAF in practice to reading list">
+            <button type="button" id="article-save-button-3158906" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3158906" data-article-author-id="3565127" aria-label="Save post Basic protections for your S3 buckets to reading list" title="Save post Basic protections for your S3 buckets to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -441,7 +546,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/alexendrascott01/the-future-of-iac-security-scanning-drift-detection-and-autoremediation-4d6c#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Future of IaC Security: Scanning, Drift Detection and Autoremediation">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apogof479k83k70bhqh3ki65wqonzf7v" class="crayons-icon"><title id="apogof479k83k70bhqh3ki65wqonzf7v">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ak6tbtgtb44vcoe0g30qxiakn83y9fbx" class="crayons-icon"><title id="ak6tbtgtb44vcoe0g30qxiakn83y9fbx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -450,7 +555,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             6 min read
           </small>
-            <button type="button" id="article-save-button-3158140" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3158140" data-article-author-id="3393839" aria-label="Save post The Future of IaC Security: Scanning, Drift Detection and Autoremediation to reading list" title="Save post The Future of IaC Security: Scanning, Drift Detection and Autoremediation to reading list">
+            <button type="button" id="article-save-button-3158140" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3158140" data-article-author-id="3393839" aria-label="Save post The Future of IaC Security: Scanning, Drift Detection and Autoremediation to reading list" title="Save post The Future of IaC Security: Scanning, Drift Detection and Autoremediation to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -552,7 +657,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/brayanarrieta/aws-bedrock-security-best-practices-building-secure-generative-ai-applications-g2j#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS Bedrock Security Best Practices: Building Secure Generative AI Applications">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aomoejsze73cuqz3qdfok99e6dwah8uf" class="crayons-icon"><title id="aomoejsze73cuqz3qdfok99e6dwah8uf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ac7eyv4m70de2bodaji8lxabkhyo3wz1" class="crayons-icon"><title id="ac7eyv4m70de2bodaji8lxabkhyo3wz1">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -561,7 +666,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3127177" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3127177" data-article-author-id="408273" aria-label="Save post AWS Bedrock Security Best Practices: Building Secure Generative AI Applications to reading list" title="Save post AWS Bedrock Security Best Practices: Building Secure Generative AI Applications to reading list">
+            <button type="button" id="article-save-button-3127177" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3127177" data-article-author-id="408273" aria-label="Save post AWS Bedrock Security Best Practices: Building Secure Generative AI Applications to reading list" title="Save post AWS Bedrock Security Best Practices: Building Secure Generative AI Applications to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
