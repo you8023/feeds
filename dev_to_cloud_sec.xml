@@ -2,120 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-10T05:47:56.410Z</updated>
+    <updated>2026-01-10T06:56:15.634Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
-    <entry>
-        <title type="html"><![CDATA[Why Your AI Agents Need a Secure Sandbox]]></title>
-        <id>https://dev.to/runctl/why-your-ai-agents-need-a-secure-sandbox-1ebn</id>
-        <link href="https://dev.to/runctl/why-your-ai-agents-need-a-secure-sandbox-1ebn"/>
-        <updated>2026-01-10T04:39:16.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/runctl/why-your-ai-agents-need-a-secure-sandbox-1ebn" aria-labelledby="article-link-3161832" class="crayons-story__hidden-navigation-link">Why Your AI Agents Need a Secure Sandbox</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/runctl" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3703468%2F1b8381f6-b18d-41ad-a8e7-f71938decf0c.png" alt="runctl profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/runctl" class="crayons-story__secondary fw-medium m:hidden">
-              runctl
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3161832" aria-controls="story-author-preview-content-3161832" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="runctl profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                runctl
-                
-              </button>
-              <div id="story-author-preview-content-3161832" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/runctl" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3703468%2F1b8381f6-b18d-41ad-a8e7-f71938decf0c.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">runctl</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3703468,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;runctl&quot;}" data-fetched="fetched" aria-label="Follow user: runctl" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3703468"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/runctl/why-your-ai-agents-need-a-secure-sandbox-1ebn" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-10T04:39:16Z" title="Saturday, January 10, 2026 at 4:39:16 AM">Jan 10</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768019956"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/runctl/why-your-ai-agents-need-a-secure-sandbox-1ebn" data-preload-image="" id="article-link-3161832">
-          Why Your AI Agents Need a Secure Sandbox
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(50, 109, 230, 0.10);
-        --tag-prefix: #326de6;
-        --tag-bg-hover: rgba(50, 109, 230, 0.10);
-        --tag-prefix-hover: #326de6;
-      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/runctl/why-your-ai-agents-need-a-secure-sandbox-1ebn#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Why Your AI Agents Need a Secure Sandbox">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5kvib5nxqkpl6924g97536adn8g5v52" class="crayons-icon"><title id="a5kvib5nxqkpl6924g97536adn8g5v52">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3161832" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3161832" data-article-author-id="3703468" aria-label="Save post Why Your AI Agents Need a Secure Sandbox to reading list" title="Save post Why Your AI Agents Need a Secure Sandbox to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Building the World's First Edge-Deployed Cryptographic Audit Trail for Algorithmic Trading]]></title>
         <id>https://dev.to/veritaschain/building-the-worlds-first-edge-deployed-cryptographic-audit-trail-for-algorithmic-trading-5ccn</id>
@@ -203,7 +92,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/veritaschain/building-the-worlds-first-edge-deployed-cryptographic-audit-trail-for-algorithmic-trading-5ccn#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building the World's First Edge-Deployed Cryptographic Audit Trail for Algorithmic Trading">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5izjj3cuy2bpy1xoa6uynzxguq5b7si" class="crayons-icon"><title id="a5izjj3cuy2bpy1xoa6uynzxguq5b7si">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="athkc8hvl4lh9a8lj2ptpds1qwrcbvti" class="crayons-icon"><title id="athkc8hvl4lh9a8lj2ptpds1qwrcbvti">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -212,7 +101,223 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             5 min read
           </small>
-            <button type="button" id="article-save-button-3161736" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3161736" data-article-author-id="3650805" aria-label="Save post Building the World's First Edge-Deployed Cryptographic Audit Trail for Algorithmic Trading to reading list" title="Save post Building the World's First Edge-Deployed Cryptographic Audit Trail for Algorithmic Trading to reading list">
+            <button type="button" id="article-save-button-3161736" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3161736" data-article-author-id="3650805" aria-label="Save post Building the World's First Edge-Deployed Cryptographic Audit Trail for Algorithmic Trading to reading list" title="Save post Building the World's First Edge-Deployed Cryptographic Audit Trail for Algorithmic Trading to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Your AI Agents Need a Secure Sandbox]]></title>
+        <id>https://dev.to/runctl/why-your-ai-agents-need-a-secure-sandbox-1ebn</id>
+        <link href="https://dev.to/runctl/why-your-ai-agents-need-a-secure-sandbox-1ebn"/>
+        <updated>2026-01-10T04:39:16.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/runctl/why-your-ai-agents-need-a-secure-sandbox-1ebn" aria-labelledby="article-link-3161832" class="crayons-story__hidden-navigation-link">Why Your AI Agents Need a Secure Sandbox</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/runctl" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3703468%2F1b8381f6-b18d-41ad-a8e7-f71938decf0c.png" alt="runctl profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/runctl" class="crayons-story__secondary fw-medium m:hidden">
+              runctl
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3161832" aria-controls="story-author-preview-content-3161832" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="runctl profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                runctl
+                
+              </button>
+              <div id="story-author-preview-content-3161832" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/runctl" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3703468%2F1b8381f6-b18d-41ad-a8e7-f71938decf0c.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">runctl</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3703468,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;runctl&quot;}" data-fetched="fetched" aria-label="Follow user: runctl" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3703468"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/runctl/why-your-ai-agents-need-a-secure-sandbox-1ebn" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-10T04:39:16Z" title="Saturday, January 10, 2026 at 4:39:16 AM">Jan 10</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768019956"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/runctl/why-your-ai-agents-need-a-secure-sandbox-1ebn" data-preload-image="" id="article-link-3161832">
+          Why Your AI Agents Need a Secure Sandbox
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/runctl/why-your-ai-agents-need-a-secure-sandbox-1ebn#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Why Your AI Agents Need a Secure Sandbox">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aos16obk9yqj15nnc168smh4wufnyz82" class="crayons-icon"><title id="aos16obk9yqj15nnc168smh4wufnyz82">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            2 min read
+          </small>
+            <button type="button" id="article-save-button-3161832" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3161832" data-article-author-id="3703468" aria-label="Save post Why Your AI Agents Need a Secure Sandbox to reading list" title="Save post Why Your AI Agents Need a Secure Sandbox to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing Secure-by-Design Cloud Platforms for Regulated Industries]]></title>
+        <id>https://dev.to/cygnetone/designing-secure-by-design-cloud-platforms-for-regulated-industries-421a</id>
+        <link href="https://dev.to/cygnetone/designing-secure-by-design-cloud-platforms-for-regulated-industries-421a"/>
+        <updated>2026-01-10T04:30:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/cygnetone/designing-secure-by-design-cloud-platforms-for-regulated-industries-421a" aria-labelledby="article-link-3161177" class="crayons-story__hidden-navigation-link">Designing Secure-by-Design Cloud Platforms for Regulated Industries</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/cygnetone" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3674433%2F45d553a8-30b4-44b4-bd0c-536601727e29.png" alt="cygnetone profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/cygnetone" class="crayons-story__secondary fw-medium m:hidden">
+              Cygnet.One
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3161177" aria-controls="story-author-preview-content-3161177" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Cygnet.One profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Cygnet.One
+                
+              </button>
+              <div id="story-author-preview-content-3161177" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/cygnetone" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3674433%2F45d553a8-30b4-44b4-bd0c-536601727e29.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Cygnet.One</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3674433,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Cygnet.One&quot;}" data-fetched="fetched" aria-label="Follow user: Cygnet.One" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3674433"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/cygnetone/designing-secure-by-design-cloud-platforms-for-regulated-industries-421a" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-10T04:30:00Z" title="Saturday, January 10, 2026 at 4:30:00 AM">Jan 10</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768019400"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/cygnetone/designing-secure-by-design-cloud-platforms-for-regulated-industries-421a" data-preload-image="" id="article-link-3161177">
+          Designing Secure-by-Design Cloud Platforms for Regulated Industries
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(235, 223, 55, 0.10);
+        --tag-prefix: #ebdf37;
+        --tag-bg-hover: rgba(235, 223, 55, 0.10);
+        --tag-prefix-hover: #ebdf37;
+      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/cygnetone/designing-secure-by-design-cloud-platforms-for-regulated-industries-421a#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Designing Secure-by-Design Cloud Platforms for Regulated Industries">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ak53tylsc1hvsgqm2en9ehhqxyf3tssp" class="crayons-icon"><title id="ak53tylsc1hvsgqm2en9ehhqxyf3tssp">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            8 min read
+          </small>
+            <button type="button" id="article-save-button-3161177" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3161177" data-article-author-id="3674433" aria-label="Save post Designing Secure-by-Design Cloud Platforms for Regulated Industries to reading list" title="Save post Designing Secure-by-Design Cloud Platforms for Regulated Industries to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -314,7 +419,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/jumptotech/production-grade-guide-to-configuration-secrets-in-kubernetes-1ogk#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - production-grade guide to Configuration &amp; Secrets in Kubernetes">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alb44sdvydvpgdwr84rl1nrs4jif9qrs" class="crayons-icon"><title id="alb44sdvydvpgdwr84rl1nrs4jif9qrs">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="agr38qerwn2b7vh5cm4vflz33xnxlovs" class="crayons-icon"><title id="agr38qerwn2b7vh5cm4vflz33xnxlovs">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -323,7 +428,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3161597" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3161597" data-article-author-id="3549986" aria-label="Save post production-grade guide to Configuration &amp; Secrets in Kubernetes to reading list" title="Save post production-grade guide to Configuration &amp; Secrets in Kubernetes to reading list">
+            <button type="button" id="article-save-button-3161597" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3161597" data-article-author-id="3549986" aria-label="Save post production-grade guide to Configuration &amp; Secrets in Kubernetes to reading list" title="Save post production-grade guide to Configuration &amp; Secrets in Kubernetes to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -441,7 +546,7 @@
             </div>
           </a>
             <a href="https://dev.to/aws-builders/shift-left-with-github-amazon-q-developer-project-rules-3dn8#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Shift-left with GitHub Amazon Q Developer Project Rules">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="agr7xw9l4tcue2s4z801r3w85bfybhvf" class="crayons-icon"><title id="agr7xw9l4tcue2s4z801r3w85bfybhvf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a6sqfjz8p9tcuk23nwq0yf4a1eauiiy9" class="crayons-icon"><title id="a6sqfjz8p9tcuk23nwq0yf4a1eauiiy9">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -450,7 +555,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             6 min read
           </small>
-            <button type="button" id="article-save-button-3160827" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3160827" data-article-author-id="504071" aria-label="Save post Shift-left with GitHub Amazon Q Developer Project Rules to reading list" title="Save post Shift-left with GitHub Amazon Q Developer Project Rules to reading list">
+            <button type="button" id="article-save-button-3160827" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3160827" data-article-author-id="504071" aria-label="Save post Shift-left with GitHub Amazon Q Developer Project Rules to reading list" title="Save post Shift-left with GitHub Amazon Q Developer Project Rules to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -552,7 +657,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/bemals_dvanitha_5b14b68f9/protecting-your-website-with-cloudflare-security-performance-and-reliability-part-1-24jk#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Protecting Your Website with Cloudflare: Security, Performance, and Reliability [Part 1]">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5ol9kol14b7sxs7ynf1znih5hl0r3nc" class="crayons-icon"><title id="a5ol9kol14b7sxs7ynf1znih5hl0r3nc">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a399qp2xxcvcd1nc2gq0mlkng2clny5j" class="crayons-icon"><title id="a399qp2xxcvcd1nc2gq0mlkng2clny5j">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -561,7 +666,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             5 min read
           </small>
-            <button type="button" id="article-save-button-3145950" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3145950" data-article-author-id="3680996" aria-label="Save post Protecting Your Website with Cloudflare: Security, Performance, and Reliability [Part 1] to reading list" title="Save post Protecting Your Website with Cloudflare: Security, Performance, and Reliability [Part 1] to reading list">
+            <button type="button" id="article-save-button-3145950" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3145950" data-article-author-id="3680996" aria-label="Save post Protecting Your Website with Cloudflare: Security, Performance, and Reliability [Part 1] to reading list" title="Save post Protecting Your Website with Cloudflare: Security, Performance, and Reliability [Part 1] to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -679,7 +784,7 @@
             </div>
           </a>
             <a href="https://dev.to/aws-builders/implementing-security-lake-in-aws-govcloud-for-fedramp-high-compliance-38n0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Implementing Security Lake in AWS GovCloud for FedRAMP High Compliance">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akbpb6yx9p8oaizdb4ioyxcfxnnjj7x4" class="crayons-icon"><title id="akbpb6yx9p8oaizdb4ioyxcfxnnjj7x4">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="as0ni252ijf4bfju8u10jx4z6w8b20g" class="crayons-icon"><title id="as0ni252ijf4bfju8u10jx4z6w8b20g">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -688,7 +793,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             11 min read
           </small>
-            <button type="button" id="article-save-button-3158622" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3158622" data-article-author-id="3696886" aria-label="Save post Implementing Security Lake in AWS GovCloud for FedRAMP High Compliance to reading list" title="Save post Implementing Security Lake in AWS GovCloud for FedRAMP High Compliance to reading list">
+            <button type="button" id="article-save-button-3158622" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3158622" data-article-author-id="3696886" aria-label="Save post Implementing Security Lake in AWS GovCloud for FedRAMP High Compliance to reading list" title="Save post Implementing Security Lake in AWS GovCloud for FedRAMP High Compliance to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -790,7 +895,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/robert_r_7c237256b7614328/browser-based-kubectl-access-managing-kubernetes-without-bastion-hosts-1b4a#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Browser-Based kubectl Access: Managing Kubernetes Without Bastion Hosts">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ab3xqorcqihr9plsvfymjt558qimxlyf" class="crayons-icon"><title id="ab3xqorcqihr9plsvfymjt558qimxlyf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aejyskvvmgizgqyn6hzmx7xzf3mo1dbd" class="crayons-icon"><title id="aejyskvvmgizgqyn6hzmx7xzf3mo1dbd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -799,7 +904,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3147815" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3147815" data-article-author-id="2090137" aria-label="Save post Browser-Based kubectl Access: Managing Kubernetes Without Bastion Hosts to reading list" title="Save post Browser-Based kubectl Access: Managing Kubernetes Without Bastion Hosts to reading list">
+            <button type="button" id="article-save-button-3147815" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3147815" data-article-author-id="2090137" aria-label="Save post Browser-Based kubectl Access: Managing Kubernetes Without Bastion Hosts to reading list" title="Save post Browser-Based kubectl Access: Managing Kubernetes Without Bastion Hosts to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
