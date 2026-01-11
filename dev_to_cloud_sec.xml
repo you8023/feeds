@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-11T15:44:37.953Z</updated>
+    <updated>2026-01-11T16:51:45.089Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes: About Kubernetes]]></title>
+        <id>https://dev.to/evanlin/kubernetes-about-kubernetes-5h2g</id>
+        <link href="https://dev.to/evanlin/kubernetes-about-kubernetes-5h2g"/>
+        <updated>2026-01-11T15:30:37.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/evanlin/kubernetes-about-kubernetes-5h2g" aria-labelledby="article-link-1686733" class="crayons-story__hidden-navigation-link">Kubernetes: About Kubernetes</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/evanlin" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F409957%2Fc150d4a7-cb20-469d-a230-bac27232c577.jpeg" alt="evanlin profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/evanlin" class="crayons-story__secondary fw-medium m:hidden">
+              Evan Lin
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-1686733" aria-controls="story-author-preview-content-1686733" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Evan Lin profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Evan Lin
+                
+              </button>
+              <div id="story-author-preview-content-1686733" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/evanlin" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F409957%2Fc150d4a7-cb20-469d-a230-bac27232c577.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Evan Lin</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:409957,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Evan Lin&quot;}" data-fetched="fetched" aria-label="Follow user: Evan Lin" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="409957"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/evanlin/kubernetes-about-kubernetes-5h2g" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-11T15:30:37Z" title="Sunday, January 11, 2026 at 3:30:37 PM">Jan 11</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768145437"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/evanlin/kubernetes-about-kubernetes-5h2g" data-preload-image="" id="article-link-1686733">
+          Kubernetes: About Kubernetes
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/containers"><span class="crayons-tag__prefix">#</span>containers</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/evanlin/kubernetes-about-kubernetes-5h2g#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Kubernetes: About Kubernetes">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9idjhpg2zdynrbd2b9l82hzq3zmv4l8" class="crayons-icon"><title id="a9idjhpg2zdynrbd2b9l82hzq3zmv4l8">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            3 min read
+          </small>
+            <button type="button" id="article-save-button-1686733" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="1686733" data-article-author-id="409957" aria-label="Save post Kubernetes: About Kubernetes to reading list" title="Save post Kubernetes: About Kubernetes to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Supply Chain Security: A Deep Dive into SBOM and Code Signing]]></title>
         <id>https://dev.to/kanywst/supply-chain-security-a-deep-dive-into-sbom-and-code-signing-2n1l</id>
@@ -92,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/kanywst/supply-chain-security-a-deep-dive-into-sbom-and-code-signing-2n1l#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Supply Chain Security: A Deep Dive into SBOM and Code Signing">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ame5q58l35nq91oly0csb9iu5tjaku3s" class="crayons-icon"><title id="ame5q58l35nq91oly0csb9iu5tjaku3s">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aol6pxppda0wqleqc0jz2t2u0xdbmrgf" class="crayons-icon"><title id="aol6pxppda0wqleqc0jz2t2u0xdbmrgf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -102,6 +213,117 @@
             11 min read
           </small>
             <button type="button" id="article-save-button-3164168" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3164168" data-article-author-id="3700180" aria-label="Save post Supply Chain Security: A Deep Dive into SBOM and Code Signing to reading list" title="Save post Supply Chain Security: A Deep Dive into SBOM and Code Signing to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using Google Cloud Services on Heroku with Golang]]></title>
+        <id>https://dev.to/evanlin/using-google-cloud-services-on-heroku-with-golang-395h</id>
+        <link href="https://dev.to/evanlin/using-google-cloud-services-on-heroku-with-golang-395h"/>
+        <updated>2026-01-11T15:47:05.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/evanlin/using-google-cloud-services-on-heroku-with-golang-395h" aria-labelledby="article-link-1029989" class="crayons-story__hidden-navigation-link">Using Google Cloud Services on Heroku with Golang</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/evanlin" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F409957%2Fc150d4a7-cb20-469d-a230-bac27232c577.jpeg" alt="evanlin profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/evanlin" class="crayons-story__secondary fw-medium m:hidden">
+              Evan Lin
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-1029989" aria-controls="story-author-preview-content-1029989" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Evan Lin profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Evan Lin
+                
+              </button>
+              <div id="story-author-preview-content-1029989" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/evanlin" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F409957%2Fc150d4a7-cb20-469d-a230-bac27232c577.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Evan Lin</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:409957,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Evan Lin&quot;}" data-fetched="fetched" aria-label="Follow user: Evan Lin" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="409957"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/evanlin/using-google-cloud-services-on-heroku-with-golang-395h" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-11T15:47:05Z" title="Sunday, January 11, 2026 at 3:47:05 PM">Jan 11</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768146425"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/evanlin/using-google-cloud-services-on-heroku-with-golang-395h" data-preload-image="" id="article-link-1029989">
+          Using Google Cloud Services on Heroku with Golang
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(41, 190, 176, 0.10);
+        --tag-prefix: #29BEB0;
+        --tag-bg-hover: rgba(41, 190, 176, 0.10);
+        --tag-prefix-hover: #29BEB0;
+      " href="/t/go"><span class="crayons-tag__prefix">#</span>go</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/evanlin/using-google-cloud-services-on-heroku-with-golang-395h#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Using Google Cloud Services on Heroku with Golang">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="amsdcrf9z1q7ypqfi4pev6f5cd7lyezh" class="crayons-icon"><title id="amsdcrf9z1q7ypqfi4pev6f5cd7lyezh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            2 min read
+          </small>
+            <button type="button" id="article-save-button-1029989" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="1029989" data-article-author-id="409957" aria-label="Save post Using Google Cloud Services on Heroku with Golang to reading list" title="Save post Using Google Cloud Services on Heroku with Golang to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -197,7 +419,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/sahinur/aws-iam-basics-explained-with-real-examples-1gnl#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS IAM basics explained with real examples">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afy1zqjvt5c6weycour8ggiibbewkp1a" class="crayons-icon"><title id="afy1zqjvt5c6weycour8ggiibbewkp1a">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aje0sm9htmamd39rd9yx1x0y2rd4my0b" class="crayons-icon"><title id="aje0sm9htmamd39rd9yx1x0y2rd4my0b">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -324,7 +546,7 @@
             </div>
           </a>
             <a href="https://dev.to/realnamehidden1_61/your-proxy-should-only-allow-requests-with-a-custom-header-how-do-you-do-it-in-apigee-x-58b2#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your Proxy Should Only Allow Requests with a Custom Header — How Do You Do It in Apigee X?">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="arfklhgro5wtlb0r2ho1wm9do5fcaxxx" class="crayons-icon"><title id="arfklhgro5wtlb0r2ho1wm9do5fcaxxx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9hitil925q3x5pmw07kezrqcmukxana" class="crayons-icon"><title id="a9hitil925q3x5pmw07kezrqcmukxana">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -349,11 +571,11 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AWS Development Environment]]></title>
-        <id>https://dev.to/dipalikulshrestha/aws-development-environment-32j9</id>
-        <link href="https://dev.to/dipalikulshrestha/aws-development-environment-32j9"/>
-        <updated>2026-01-10T11:22:07.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/dipalikulshrestha/aws-development-environment-32j9" aria-labelledby="article-link-3111173" class="crayons-story__hidden-navigation-link">AWS Development Environment</a>
+        <title type="html"><![CDATA[TIL: Using PTT and Cloudflare to Block Web Crawlers?]]></title>
+        <id>https://dev.to/evanlin/til-using-ptt-and-cloudflare-to-block-web-crawlers-20dc</id>
+        <link href="https://dev.to/evanlin/til-using-ptt-and-cloudflare-to-block-web-crawlers-20dc"/>
+        <updated>2026-01-11T15:45:40.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/evanlin/til-using-ptt-and-cloudflare-to-block-web-crawlers-20dc" aria-labelledby="article-link-1095467" class="crayons-story__hidden-navigation-link">TIL: Using PTT and Cloudflare to Block Web Crawlers?</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
@@ -361,40 +583,40 @@
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
 
-          <a href="/dipalikulshrestha" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F565744%2Fcf27d08f-3dc7-4d27-97c6-a1f59f6e9c6c.jpg" alt="dipalikulshrestha profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/evanlin" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F409957%2Fc150d4a7-cb20-469d-a230-bac27232c577.jpeg" alt="evanlin profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/dipalikulshrestha" class="crayons-story__secondary fw-medium m:hidden">
-              Dipali Kulshrestha
+            <a href="/evanlin" class="crayons-story__secondary fw-medium m:hidden">
+              Evan Lin
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3111173" aria-controls="story-author-preview-content-3111173" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Dipali Kulshrestha profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Dipali Kulshrestha
+              <button id="story-author-preview-trigger-1095467" aria-controls="story-author-preview-content-1095467" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Evan Lin profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Evan Lin
                 
               </button>
-              <div id="story-author-preview-content-3111173" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-1095467" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/dipalikulshrestha" class="flex">
+                    <a href="/evanlin" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F565744%2Fcf27d08f-3dc7-4d27-97c6-a1f59f6e9c6c.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F409957%2Fc150d4a7-cb20-469d-a230-bac27232c577.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Dipali Kulshrestha</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Evan Lin</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:565744,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Dipali Kulshrestha&quot;}" data-fetched="fetched" aria-label="Follow user: Dipali Kulshrestha" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:409957,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Evan Lin&quot;}" data-fetched="fetched" aria-label="Follow user: Evan Lin" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="565744"></div>
+                  <div class="author-preview-metadata-container" data-author-id="409957"></div>
                 </div>
               </div>
             </div>
 
           </div>
-          <a href="https://dev.to/dipalikulshrestha/aws-development-environment-32j9" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-10T11:22:07Z" title="Saturday, January 10, 2026 at 11:22:07 AM">Jan 10</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768044127"></span></a>
+          <a href="https://dev.to/evanlin/til-using-ptt-and-cloudflare-to-block-web-crawlers-20dc" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-11T15:45:40Z" title="Sunday, January 11, 2026 at 3:45:40 PM">Jan 11</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768146340"></span></a>
         </div>
       </div>
 
@@ -402,154 +624,43 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/dipalikulshrestha/aws-development-environment-32j9" data-preload-image="" id="article-link-3111173">
-          AWS Development Environment
+        <a href="https://dev.to/evanlin/til-using-ptt-and-cloudflare-to-block-web-crawlers-20dc" data-preload-image="" id="article-link-1095467">
+          TIL: Using PTT and Cloudflare to Block Web Crawlers?
         </a>
       </h2>
         <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(235, 223, 55, 0.10);
-        --tag-prefix: #ebdf37;
-        --tag-bg-hover: rgba(235, 223, 55, 0.10);
-        --tag-prefix-hover: #ebdf37;
-      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/dipalikulshrestha/aws-development-environment-32j9#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS Development Environment">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="at2czghhvpjuix3n4j4ve3b03cpsqtpl" class="crayons-icon"><title id="at2czghhvpjuix3n4j4ve3b03cpsqtpl">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            3 min read
-          </small>
-            <button type="button" id="article-save-button-3111173" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3111173" data-article-author-id="565744" aria-label="Save post AWS Development Environment to reading list" title="Save post AWS Development Environment to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building the World's First Edge-Deployed Cryptographic Audit Trail for Algorithmic Trading]]></title>
-        <id>https://dev.to/veritaschain/building-the-worlds-first-edge-deployed-cryptographic-audit-trail-for-algorithmic-trading-5ccn</id>
-        <link href="https://dev.to/veritaschain/building-the-worlds-first-edge-deployed-cryptographic-audit-trail-for-algorithmic-trading-5ccn"/>
-        <updated>2026-01-10T01:52:02.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/veritaschain/building-the-worlds-first-edge-deployed-cryptographic-audit-trail-for-algorithmic-trading-5ccn" aria-labelledby="article-link-3161736" class="crayons-story__hidden-navigation-link">Building the World's First Edge-Deployed Cryptographic Audit Trail for Algorithmic Trading</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/veritaschain" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3650805%2F348d1100-20af-4236-a0a2-1ce9a1a3a6e0.png" alt="veritaschain profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/veritaschain" class="crayons-story__secondary fw-medium m:hidden">
-              VeritasChain Standards Organization (VSO)
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3161736" aria-controls="story-author-preview-content-3161736" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="VeritasChain Standards Organization (VSO) profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                VeritasChain Standards Organization (VSO)
-                
-              </button>
-              <div id="story-author-preview-content-3161736" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/veritaschain" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3650805%2F348d1100-20af-4236-a0a2-1ce9a1a3a6e0.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">VeritasChain Standards Organization (VSO)</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3650805,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;VeritasChain Standards Organization (VSO)&quot;}" data-fetched="fetched" aria-label="Follow user: VeritasChain Standards Organization (VSO)" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3650805"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/veritaschain/building-the-worlds-first-edge-deployed-cryptographic-audit-trail-for-algorithmic-trading-5ccn" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-10T01:52:02Z" title="Saturday, January 10, 2026 at 1:52:02 AM">Jan 10</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768009922"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/veritaschain/building-the-worlds-first-edge-deployed-cryptographic-audit-trail-for-algorithmic-trading-5ccn" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fntuts94n1eqwwr60ackn.png" id="article-link-3161736">
-          Building the World's First Edge-Deployed Cryptographic Audit Trail for Algorithmic Trading
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(244, 128, 31, 0.10);
-        --tag-prefix: #F4801F;
-        --tag-bg-hover: rgba(244, 128, 31, 0.10);
-        --tag-prefix-hover: #F4801F;
-      " href="/t/cloudflarechallenge"><span class="crayons-tag__prefix">#</span>cloudflarechallenge</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(59, 73, 223, 0.10);
         --tag-prefix: #3b49df;
         --tag-bg-hover: rgba(59, 73, 223, 0.10);
         --tag-prefix-hover: #3b49df;
-      " href="/t/fintech"><span class="crayons-tag__prefix">#</span>fintech</a>
+      " href="/t/automation"><span class="crayons-tag__prefix">#</span>automation</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(38, 190, 0, 0.10);
-        --tag-prefix: #26BE00;
-        --tag-bg-hover: rgba(38, 190, 0, 0.10);
-        --tag-prefix-hover: #26BE00;
-      " href="/t/opensource"><span class="crayons-tag__prefix">#</span>opensource</a>
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-            <a href="https://dev.to/veritaschain/building-the-worlds-first-edge-deployed-cryptographic-audit-trail-for-algorithmic-trading-5ccn#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building the World's First Edge-Deployed Cryptographic Audit Trail for Algorithmic Trading">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alz0tc2u27370arjowz0j86m7akb66ch" class="crayons-icon"><title id="alz0tc2u27370arjowz0j86m7akb66ch">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/evanlin/til-using-ptt-and-cloudflare-to-block-web-crawlers-20dc#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - TIL: Using PTT and Cloudflare to Block Web Crawlers?">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ans81ntpp6uewmybf70ht8n1xu8hfo9o" class="crayons-icon"><title id="ans81ntpp6uewmybf70ht8n1xu8hfo9o">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            5 min read
+            1 min read
           </small>
-            <button type="button" id="article-save-button-3161736" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3161736" data-article-author-id="3650805" aria-label="Save post Building the World's First Edge-Deployed Cryptographic Audit Trail for Algorithmic Trading to reading list" title="Save post Building the World's First Edge-Deployed Cryptographic Audit Trail for Algorithmic Trading to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-1095467" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="1095467" data-article-author-id="409957" aria-label="Save post TIL: Using PTT and Cloudflare to Block Web Crawlers? to reading list" title="Save post TIL: Using PTT and Cloudflare to Block Web Crawlers? to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
