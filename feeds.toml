@@ -800,3 +800,19 @@ titleSelector = "h3 > a"
 linkSelector = "h3 > a"
 dateSelector = "time.published"
 dateFormat = "MMMM d, yyyy"
+
+[retr0]
+title = "retr0"
+url = "https://retr0.zip/blog"
+entrySelector = "pre > a"
+titleSelector = "*"
+linkSelector = "*"
+
+[descope]
+title = "descope"
+url = "https://www.descope.com/blog"
+entrySelector = "#main-content section > div > div:nth-child(1) > div > a"
+titleSelector = "h3"
+linkSelector = "*"
+dateSelector = "time"
+dateFormat = "MMM d, yyyy"
