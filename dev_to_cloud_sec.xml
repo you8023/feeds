@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-15T19:06:15.324Z</updated>
+    <updated>2026-01-15T19:54:41.024Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[The Hidden Backbone of the Internet: Why S3 Security Should Keep You Up at Night]]></title>
+        <id>https://dev.to/tarekcheikh/the-hidden-backbone-of-the-internet-why-s3-security-should-keep-you-up-at-night-lpm</id>
+        <link href="https://dev.to/tarekcheikh/the-hidden-backbone-of-the-internet-why-s3-security-should-keep-you-up-at-night-lpm"/>
+        <updated>2026-01-15T18:47:45.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/tarekcheikh/the-hidden-backbone-of-the-internet-why-s3-security-should-keep-you-up-at-night-lpm" aria-labelledby="article-link-3174929" class="crayons-story__hidden-navigation-link">The Hidden Backbone of the Internet: Why S3 Security Should Keep You Up at Night</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/tarekcheikh" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3320159%2F8c21792a-333c-4cfe-bf51-47912a483b48.png" alt="tarekcheikh profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/tarekcheikh" class="crayons-story__secondary fw-medium m:hidden">
+              Tarek CHEIKH
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3174929" aria-controls="story-author-preview-content-3174929" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Tarek CHEIKH profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Tarek CHEIKH
+                
+              </button>
+              <div id="story-author-preview-content-3174929" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/tarekcheikh" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3320159%2F8c21792a-333c-4cfe-bf51-47912a483b48.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Tarek CHEIKH</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3320159,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Tarek CHEIKH&quot;}" data-fetched="fetched" aria-label="Follow user: Tarek CHEIKH" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3320159"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/tarekcheikh/the-hidden-backbone-of-the-internet-why-s3-security-should-keep-you-up-at-night-lpm" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-15T18:47:45Z" title="Thursday, January 15, 2026 at 6:47:45 PM">Jan 15</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768502688"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/tarekcheikh/the-hidden-backbone-of-the-internet-why-s3-security-should-keep-you-up-at-night-lpm" data-preload-image="" id="article-link-3174929">
+          The Hidden Backbone of the Internet: Why S3 Security Should Keep You Up at Night
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/awss3"><span class="crayons-tag__prefix">#</span>awss3</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/infosec"><span class="crayons-tag__prefix">#</span>infosec</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/tarekcheikh/the-hidden-backbone-of-the-internet-why-s3-security-should-keep-you-up-at-night-lpm#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Hidden Backbone of the Internet: Why S3 Security Should Keep You Up at Night">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aakugp9zao48w09p1m9ckhrtc6g800oi" class="crayons-icon"><title id="aakugp9zao48w09p1m9ckhrtc6g800oi">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            13 min read
+          </small>
+            <button type="button" id="article-save-button-3174929" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3174929" data-article-author-id="3320159" aria-label="Save post The Hidden Backbone of the Internet: Why S3 Security Should Keep You Up at Night to reading list" title="Save post The Hidden Backbone of the Internet: Why S3 Security Should Keep You Up at Night to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Agent Factory Recap: Securing AI Agents in Production]]></title>
         <id>https://dev.to/googleai/agent-factory-recap-securing-ai-agents-in-production-60o</id>
@@ -117,7 +228,7 @@
             </div>
           </a>
             <a href="https://dev.to/googleai/agent-factory-recap-securing-ai-agents-in-production-60o#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Agent Factory Recap: Securing AI Agents in Production">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2zs9lz0071jh0vgcujqqylmosoqqp4p" class="crayons-icon"><title id="a2zs9lz0071jh0vgcujqqylmosoqqp4p">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akua7an06g5kwlmormy42550rpw4f86y" class="crayons-icon"><title id="akua7an06g5kwlmormy42550rpw4f86y">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -238,7 +349,7 @@
             </div>
           </a>
             <a href="https://dev.to/mayurbhatti/importing-a-custom-ec2-key-pair-in-aws-a-step-by-step-guide-5h3n#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Importing a Custom EC2 Key Pair in AWS: A Step-by-Step Guide">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ar1j1gymt3g92dev6y63mbi3cud7iaky" class="crayons-icon"><title id="ar1j1gymt3g92dev6y63mbi3cud7iaky">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="as4fz8ytygrhnpq3hir537mwev1bmett" class="crayons-icon"><title id="as4fz8ytygrhnpq3hir537mwev1bmett">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
