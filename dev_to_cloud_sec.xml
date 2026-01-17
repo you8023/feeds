@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-17T16:49:26.617Z</updated>
+    <updated>2026-01-17T17:44:22.222Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[How We Monitor Internal Services Without Opening Firewall Ports]]></title>
+        <id>https://dev.to/boop_one/how-we-monitor-internal-services-without-opening-firewall-ports-362j</id>
+        <link href="https://dev.to/boop_one/how-we-monitor-internal-services-without-opening-firewall-ports-362j"/>
+        <updated>2026-01-17T11:31:43.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/boop_one/how-we-monitor-internal-services-without-opening-firewall-ports-362j" aria-labelledby="article-link-3174708" class="crayons-story__hidden-navigation-link">How We Monitor Internal Services Without Opening Firewall Ports</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/boop_one" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3712963%2F0e029887-a274-49fc-8d93-4f1a28f19b28.png" alt="boop_one profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/boop_one" class="crayons-story__secondary fw-medium m:hidden">
+              boop dev
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3174708" aria-controls="story-author-preview-content-3174708" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="boop dev profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                boop dev
+                
+              </button>
+              <div id="story-author-preview-content-3174708" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/boop_one" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3712963%2F0e029887-a274-49fc-8d93-4f1a28f19b28.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">boop dev</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3712963,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;boop dev&quot;}" data-fetched="fetched" aria-label="Follow user: boop dev" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3712963"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/boop_one/how-we-monitor-internal-services-without-opening-firewall-ports-362j" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-17T11:31:43Z" title="Saturday, January 17, 2026 at 11:31:43 AM">Jan 17</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768649503"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/boop_one/how-we-monitor-internal-services-without-opening-firewall-ports-362j" data-preload-image="" id="article-link-3174708">
+          How We Monitor Internal Services Without Opening Firewall Ports
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 163, 100, 0.10);
+        --tag-prefix: #ffa364;
+        --tag-bg-hover: rgba(255, 163, 100, 0.10);
+        --tag-prefix-hover: #ffa364;
+      " href="/t/monitoring"><span class="crayons-tag__prefix">#</span>monitoring</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/boop_one/how-we-monitor-internal-services-without-opening-firewall-ports-362j#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How We Monitor Internal Services Without Opening Firewall Ports">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="at6brgi0pa95bhn2ot5nv80lsyg60lpd" class="crayons-icon"><title id="at6brgi0pa95bhn2ot5nv80lsyg60lpd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            3 min read
+          </small>
+            <button type="button" id="article-save-button-3174708" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3174708" data-article-author-id="3712963" aria-label="Save post How We Monitor Internal Services Without Opening Firewall Ports to reading list" title="Save post How We Monitor Internal Services Without Opening Firewall Ports to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA['Chainguard' image for secure service]]></title>
         <id>https://dev.to/kination/chainguard-image-for-secure-service-2jio</id>
@@ -92,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/kination/chainguard-image-for-secure-service-2jio#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 'Chainguard' image for secure service">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a55cupvmm8fjdybbej6jjtrvb5imyuqa" class="crayons-icon"><title id="a55cupvmm8fjdybbej6jjtrvb5imyuqa">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abvz1clzbfh3967j8nu1v3eqe21acl02" class="crayons-icon"><title id="abvz1clzbfh3967j8nu1v3eqe21acl02">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -101,7 +212,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             5 min read
           </small>
-            <button type="button" id="article-save-button-3131129" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3131129" data-article-author-id="1495973" aria-label="Save post 'Chainguard' image for secure service to reading list" title="Save post 'Chainguard' image for secure service to reading list">
+            <button type="button" id="article-save-button-3131129" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3131129" data-article-author-id="1495973" aria-label="Save post 'Chainguard' image for secure service to reading list" title="Save post 'Chainguard' image for secure service to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -203,7 +314,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/inboryn_99399f96579fcd705/wazuh-the-open-source-siem-that-beats-splunk-and-its-completely-free-29po#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Wazuh: The Open-Source SIEM That Beats Splunk (And It's Completely Free)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ardwazbz68qg05e5s600lrdm311omwbg" class="crayons-icon"><title id="ardwazbz68qg05e5s600lrdm311omwbg">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ak441an1my9dsdn9ridzediedbb976pu" class="crayons-icon"><title id="ak441an1my9dsdn9ridzediedbb976pu">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -212,7 +323,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3178106" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3178106" data-article-author-id="3636968" aria-label="Save post Wazuh: The Open-Source SIEM That Beats Splunk (And It's Completely Free) to reading list" title="Save post Wazuh: The Open-Source SIEM That Beats Splunk (And It's Completely Free) to reading list">
+            <button type="button" id="article-save-button-3178106" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3178106" data-article-author-id="3636968" aria-label="Save post Wazuh: The Open-Source SIEM That Beats Splunk (And It's Completely Free) to reading list" title="Save post Wazuh: The Open-Source SIEM That Beats Splunk (And It's Completely Free) to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -314,7 +425,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/cverports/ghsa-5882-5rx9-xgxp-crawl4ai-rce-hook-line-and-sinker-into-your-docker-container-3l1l#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - GHSA-5882-5RX9-XGXP: Crawl4AI RCE: Hook, Line, and Sinker into Your Docker Container">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahiv5f0ulyjdddn81jkoe2g02y9hgns4" class="crayons-icon"><title id="ahiv5f0ulyjdddn81jkoe2g02y9hgns4">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="an44gqo8mr8ogi7f8kr980o4thljnuis" class="crayons-icon"><title id="an44gqo8mr8ogi7f8kr980o4thljnuis">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -323,7 +434,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
           </small>
-            <button type="button" id="article-save-button-3177911" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3177911" data-article-author-id="1959489" aria-label="Save post GHSA-5882-5RX9-XGXP: Crawl4AI RCE: Hook, Line, and Sinker into Your Docker Container to reading list" title="Save post GHSA-5882-5RX9-XGXP: Crawl4AI RCE: Hook, Line, and Sinker into Your Docker Container to reading list">
+            <button type="button" id="article-save-button-3177911" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3177911" data-article-author-id="1959489" aria-label="Save post GHSA-5882-5RX9-XGXP: Crawl4AI RCE: Hook, Line, and Sinker into Your Docker Container to reading list" title="Save post GHSA-5882-5RX9-XGXP: Crawl4AI RCE: Hook, Line, and Sinker into Your Docker Container to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -425,7 +536,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/bernymack90/sharing-my-hands-on-enterprise-cloud-platform-project-45i1#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Sharing my hands-on Enterprise Cloud Platform project">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4zch72w66igts0b4rb9e6k4qyro1qad" class="crayons-icon"><title id="a4zch72w66igts0b4rb9e6k4qyro1qad">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aou5cxqop522wv4k80lmk3plgnwhmzel" class="crayons-icon"><title id="aou5cxqop522wv4k80lmk3plgnwhmzel">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -434,7 +545,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
           </small>
-            <button type="button" id="article-save-button-3177298" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3177298" data-article-author-id="3672308" aria-label="Save post Sharing my hands-on Enterprise Cloud Platform project to reading list" title="Save post Sharing my hands-on Enterprise Cloud Platform project to reading list">
+            <button type="button" id="article-save-button-3177298" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3177298" data-article-author-id="3672308" aria-label="Save post Sharing my hands-on Enterprise Cloud Platform project to reading list" title="Save post Sharing my hands-on Enterprise Cloud Platform project to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -536,7 +647,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/georgebsys/how-to-find-your-real-origin-ip-behind-cloudflare-safely-and-how-to-fix-leaks-2bg2#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How to Find Your Real Origin IP Behind Cloudflare, Safely (and How to Fix Leaks)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a897l3zguyjhlduv9vtd47oi7l0g020m" class="crayons-icon"><title id="a897l3zguyjhlduv9vtd47oi7l0g020m">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alxxphjjqgd7heqf5z6ze15n44od5jbk" class="crayons-icon"><title id="alxxphjjqgd7heqf5z6ze15n44od5jbk">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -546,115 +657,6 @@
             5 min read
           </small>
             <button type="button" id="article-save-button-3177830" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3177830" data-article-author-id="3715658" aria-label="Save post How to Find Your Real Origin IP Behind Cloudflare, Safely (and How to Fix Leaks) to reading list" title="Save post How to Find Your Real Origin IP Behind Cloudflare, Safely (and How to Fix Leaks) to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Security Chores You Should Offload to Cloud Agents (Before They Burn You Out)]]></title>
-        <id>https://dev.to/bekahhw/5-security-chores-you-should-offload-to-cloud-agents-before-they-burn-you-out-566j</id>
-        <link href="https://dev.to/bekahhw/5-security-chores-you-should-offload-to-cloud-agents-before-they-burn-you-out-566j"/>
-        <updated>2026-01-15T21:31:59.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bekahhw/5-security-chores-you-should-offload-to-cloud-agents-before-they-burn-you-out-566j" aria-labelledby="article-link-3175136" class="crayons-story__hidden-navigation-link">5 Security Chores You Should Offload to Cloud Agents (Before They Burn You Out)</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/bekahhw" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F345658%2Fa72b6b8b-b954-47fb-8919-ab380905f26b.jpg" alt="bekahhw profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bekahhw" class="crayons-story__secondary fw-medium m:hidden">
-              BekahHW
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3175136" aria-controls="story-author-preview-content-3175136" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="BekahHW profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                BekahHW
-                
-              </button>
-              <div id="story-author-preview-content-3175136" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bekahhw" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F345658%2Fa72b6b8b-b954-47fb-8919-ab380905f26b.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">BekahHW</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:345658,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;BekahHW&quot;}" data-fetched="fetched" aria-label="Follow user: BekahHW" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="345658"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/bekahhw/5-security-chores-you-should-offload-to-cloud-agents-before-they-burn-you-out-566j" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-15T21:31:59Z" title="Thursday, January 15, 2026 at 9:31:59 PM">Jan 15</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768512719"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bekahhw/5-security-chores-you-should-offload-to-cloud-agents-before-they-burn-you-out-566j" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fblog.continue.dev%2Fcontent%2Fimages%2Fsize%2Fw2000%2F2026%2F01%2F5securitychores.png" id="article-link-3175136">
-          5 Security Chores You Should Offload to Cloud Agents (Before They Burn You Out)
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/bekahhw/5-security-chores-you-should-offload-to-cloud-agents-before-they-burn-you-out-566j" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3175136" aria-label="Add a comment to post - 5 Security Chores You Should Offload to Cloud Agents (Before They Burn You Out)">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/bekahhw/5-security-chores-you-should-offload-to-cloud-agents-before-they-burn-you-out-566j#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 5 Security Chores You Should Offload to Cloud Agents (Before They Burn You Out)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9is3hmdz6r4495ahx8uzb1gfe44vef7" class="crayons-icon"><title id="a9is3hmdz6r4495ahx8uzb1gfe44vef7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
-          </small>
-            <button type="button" id="article-save-button-3175136" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3175136" data-article-author-id="345658" aria-label="Save post 5 Security Chores You Should Offload to Cloud Agents (Before They Burn You Out) to reading list" title="Save post 5 Security Chores You Should Offload to Cloud Agents (Before They Burn You Out) to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
