@@ -868,3 +868,36 @@ url = "https://radar.securityalliance.org/"
 entrySelector = ".latest-stories custom-card"
 titleSelector = "a.card-title-link > h3"
 linkSelector = "a.card-title-link"
+
+[originhq]
+title = "originhq"
+url = "https://www.originhq.com/"
+entrySelector = "a.items-stretch"
+titleSelector = "span:nth-child(1)"
+linkSelector = "*"
+
+[cleardata]
+title = "cleardata"
+url = "https://www.cleardata.com/blog/"
+entrySelector = "article.post"
+titleSelector = ".tile-details > h3"
+linkSelector = "a.page-link"
+filters = [" ClearDATA", "ClearDATA "]
+
+[zero_defense]
+title = "zero_defense"
+url = "https://zero-defense.com/blog"
+entrySelector = "article"
+titleSelector = "h2"
+linkSelector = "> a"
+dateSelector = "time"
+dateFormat = "MMM d, yyyy"
+
+[tidalcyber]
+title = "tidalcyber"
+url = "https://app.tidalcyber.com/"
+entrySelector = ".MuiBox-root:nth-child(3) .MuiCardContent-root"
+titleSelector = "h2 > a"
+linkSelector = "h2 > a"
+dateSelector = "time"
+dateFormat = "d/MM/yyyy"
