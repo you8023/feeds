@@ -842,7 +842,7 @@ entrySelector = ".article-item"
 titleSelector = "h3.article-title > a"
 linkSelector = "h3.article-title > a"
 dateSelector = ".article-date"
-dateFormat = "MMM d, yyyy"
+dateFormat = "MMMM d, yyyy"
 
 [stdnoerr]
 title = "stdnoerr"
@@ -901,3 +901,12 @@ titleSelector = "h2 > a"
 linkSelector = "h2 > a"
 dateSelector = "time"
 dateFormat = "d/MM/yyyy"
+
+[redops]
+title = "redops"
+url = "https://redops.at/en/"
+entrySelector = ".content > a"
+titleSelector = ".blog-title"
+linkSelector = "*"
+dateSelector = ".post-date"
+dateFormat = "yyyy-MM-dd"
