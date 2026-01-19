@@ -816,3 +816,21 @@ titleSelector = "h3"
 linkSelector = "*"
 dateSelector = "time"
 dateFormat = "MMM d, yyyy"
+
+[axelarator]
+title = "axelarator"
+url = "https://blog.axelarator.net/"
+entrySelector = "article.post-card"
+titleSelector = "h2.post-card-title"
+linkSelector = "a.post-card-content-link"
+dateSelector = "time.post-card-meta-date"
+dateFormat = "dd MMM yyyy"
+
+[ctbb_research]
+title = "ctbb_research"
+url = "https://lab.ctbb.show/research/all/"
+entrySelector = ".article-item"
+titleSelector = "h3.article-title > a"
+linkSelector = "h3.article-title > a"
+dateSelector = ".article-date"
+dateFormat = "MMM d, yyyy"
