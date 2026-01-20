@@ -2,9 +2,133 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-19T22:53:50.738Z</updated>
+    <updated>2026-01-20T06:00:01.541Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Integrating Salesforce with AWS Using AWS IAM Roles Anywhere and Private CA]]></title>
+        <id>https://dev.to/mayurbhatti/integrating-salesforce-with-aws-using-aws-iam-roles-anywhere-and-private-ca-1chl</id>
+        <link href="https://dev.to/mayurbhatti/integrating-salesforce-with-aws-using-aws-iam-roles-anywhere-and-private-ca-1chl"/>
+        <updated>2026-01-19T20:07:29.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/mayurbhatti/integrating-salesforce-with-aws-using-aws-iam-roles-anywhere-and-private-ca-1chl" aria-labelledby="article-link-3176491" class="crayons-story__hidden-navigation-link">Integrating Salesforce with AWS Using AWS IAM Roles Anywhere and Private CA</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/mayurbhatti" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2416220%2F3577222d-e352-4aa5-9b68-9d45c40c1065.png" alt="mayurbhatti profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/mayurbhatti" class="crayons-story__secondary fw-medium m:hidden">
+              Mayur Bhatti
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3176491" aria-controls="story-author-preview-content-3176491" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Mayur Bhatti profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Mayur Bhatti
+                
+              </button>
+              <div id="story-author-preview-content-3176491" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/mayurbhatti" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2416220%2F3577222d-e352-4aa5-9b68-9d45c40c1065.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Mayur Bhatti</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2416220,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Mayur Bhatti&quot;}" data-fetched="fetched" aria-label="Follow user: Mayur Bhatti" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="2416220"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/mayurbhatti/integrating-salesforce-with-aws-using-aws-iam-roles-anywhere-and-private-ca-1chl" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-19T20:07:29Z" title="Monday, January 19, 2026 at 8:07:29 PM">Jan 19</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768853249"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/mayurbhatti/integrating-salesforce-with-aws-using-aws-iam-roles-anywhere-and-private-ca-1chl" data-preload-image="" id="article-link-3176491">
+          Integrating Salesforce with AWS Using AWS IAM Roles Anywhere and Private CA
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(235, 223, 55, 0.10);
+        --tag-prefix: #ebdf37;
+        --tag-bg-hover: rgba(235, 223, 55, 0.10);
+        --tag-prefix-hover: #ebdf37;
+      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(254, 255, 165, 0.10);
+        --tag-prefix: #FEFFA5;
+        --tag-bg-hover: rgba(254, 255, 165, 0.10);
+        --tag-prefix-hover: #FEFFA5;
+      " href="/t/tutorial"><span class="crayons-tag__prefix">#</span>tutorial</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/mayurbhatti/integrating-salesforce-with-aws-using-aws-iam-roles-anywhere-and-private-ca-1chl" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3176491" aria-label="Add a comment to post - Integrating Salesforce with AWS Using AWS IAM Roles Anywhere and Private CA">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18">
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">2<span class="hidden s:inline">&nbsp;reactions</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/mayurbhatti/integrating-salesforce-with-aws-using-aws-iam-roles-anywhere-and-private-ca-1chl#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Integrating Salesforce with AWS Using AWS IAM Roles Anywhere and Private CA">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2657i0kwl5uptjbtzj45iwik55acwqs" class="crayons-icon"><title id="a2657i0kwl5uptjbtzj45iwik55acwqs">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+            <button type="button" id="article-save-button-3176491" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3176491" data-article-author-id="2416220" aria-label="Save post Integrating Salesforce with AWS Using AWS IAM Roles Anywhere and Private CA to reading list" title="Save post Integrating Salesforce with AWS Using AWS IAM Roles Anywhere and Private CA to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ditching the Access Key: Implementing IAM Roles Anywhere for Secure Edge and On-Prem Workloads]]></title>
         <id>https://dev.to/aws-builders/ditching-the-access-key-implementing-iam-roles-anywhere-for-secure-edge-and-on-prem-workloads-doi</id>
@@ -86,7 +210,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/aws-builders/ditching-the-access-key-implementing-iam-roles-anywhere-for-secure-edge-and-on-prem-workloads-doi#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Ditching the Access Key: Implementing IAM Roles Anywhere for Secure Edge and On-Prem Workloads">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3fj48wnl33xwbvl9r4ihdoathxzclb0" class="crayons-icon"><title id="a3fj48wnl33xwbvl9r4ihdoathxzclb0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5b4fl1hljus1grshdcssr71jzwgz5s2" class="crayons-icon"><title id="a5b4fl1hljus1grshdcssr71jzwgz5s2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -95,7 +219,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3179881" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3179881" data-article-author-id="1059966" aria-label="Save post Ditching the Access Key: Implementing IAM Roles Anywhere for Secure Edge and On-Prem Workloads to reading list" title="Save post Ditching the Access Key: Implementing IAM Roles Anywhere for Secure Edge and On-Prem Workloads to reading list">
+            <button type="button" id="article-save-button-3179881" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3179881" data-article-author-id="1059966" aria-label="Save post Ditching the Access Key: Implementing IAM Roles Anywhere for Secure Edge and On-Prem Workloads to reading list" title="Save post Ditching the Access Key: Implementing IAM Roles Anywhere for Secure Edge and On-Prem Workloads to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -197,7 +321,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/joshuamichaelhall/security-architecture-decisions-in-my-cloud-resume-challenge-5d14#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Security Architecture Decisions in My Cloud Resume Challenge">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1v9mvo4o8kjg95rws67m8kswp6qqdxi" class="crayons-icon"><title id="a1v9mvo4o8kjg95rws67m8kswp6qqdxi">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afbb78vqdcut6q77h2og2fqv79i1avxh" class="crayons-icon"><title id="afbb78vqdcut6q77h2og2fqv79i1avxh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -206,7 +330,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3181482" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3181482" data-article-author-id="2964623" aria-label="Save post Security Architecture Decisions in My Cloud Resume Challenge to reading list" title="Save post Security Architecture Decisions in My Cloud Resume Challenge to reading list">
+            <button type="button" id="article-save-button-3181482" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3181482" data-article-author-id="2964623" aria-label="Save post Security Architecture Decisions in My Cloud Resume Challenge to reading list" title="Save post Security Architecture Decisions in My Cloud Resume Challenge to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -308,7 +432,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/iraycd/aws-oidc-setup-for-circleci-20c5#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS OIDC Setup for CircleCI">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a49hm41vlf5rhjjljq1h3vynp930n544" class="crayons-icon"><title id="a49hm41vlf5rhjjljq1h3vynp930n544">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aavcxajw5klnzdzv4lw80fluemhg2nma" class="crayons-icon"><title id="aavcxajw5klnzdzv4lw80fluemhg2nma">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -317,7 +441,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3182060" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3182060" data-article-author-id="918451" aria-label="Save post AWS OIDC Setup for CircleCI to reading list" title="Save post AWS OIDC Setup for CircleCI to reading list">
+            <button type="button" id="article-save-button-3182060" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3182060" data-article-author-id="918451" aria-label="Save post AWS OIDC Setup for CircleCI to reading list" title="Save post AWS OIDC Setup for CircleCI to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -413,7 +537,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/inboryn_99399f96579fcd705/aws-european-sovereign-cloud-goes-live-what-it-means-for-your-compliance-strategy-6mj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS European Sovereign Cloud Goes Live — What It Means for Your Compliance Strategy">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aifmk92rrqq6b9rmxul82052vq1mg4xg" class="crayons-icon"><title id="aifmk92rrqq6b9rmxul82052vq1mg4xg">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aagahcsm802c91b3dzzxfweh7x67cv80" class="crayons-icon"><title id="aagahcsm802c91b3dzzxfweh7x67cv80">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -422,7 +546,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             5 min read
           </small>
-            <button type="button" id="article-save-button-3182959" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3182959" data-article-author-id="3636968" aria-label="Save post AWS European Sovereign Cloud Goes Live — What It Means for Your Compliance Strategy to reading list" title="Save post AWS European Sovereign Cloud Goes Live — What It Means for Your Compliance Strategy to reading list">
+            <button type="button" id="article-save-button-3182959" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3182959" data-article-author-id="3636968" aria-label="Save post AWS European Sovereign Cloud Goes Live — What It Means for Your Compliance Strategy to reading list" title="Save post AWS European Sovereign Cloud Goes Live — What It Means for Your Compliance Strategy to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -524,7 +648,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/thej_deep_457/aws-security-issues-you-can-actually-fix-with-settings-f57#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS Security Issues You Can Actually Fix With Settings">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="as6inb5dtee7nkx3wv1bra9zxyi7zvr7" class="crayons-icon"><title id="as6inb5dtee7nkx3wv1bra9zxyi7zvr7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="adhypwwsfctw0uycrf4t0bsx1kde0u1s" class="crayons-icon"><title id="adhypwwsfctw0uycrf4t0bsx1kde0u1s">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -533,7 +657,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3181375" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3181375" data-article-author-id="3708043" aria-label="Save post AWS Security Issues You Can Actually Fix With Settings to reading list" title="Save post AWS Security Issues You Can Actually Fix With Settings to reading list">
+            <button type="button" id="article-save-button-3181375" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3181375" data-article-author-id="3708043" aria-label="Save post AWS Security Issues You Can Actually Fix With Settings to reading list" title="Save post AWS Security Issues You Can Actually Fix With Settings to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -635,7 +759,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/hiltonj/oci-iam-policies-explained-how-authorization-actually-works-502i#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - OCI IAM Policies Explained: How Authorization Actually Works">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a49ab0wixot74ltqjbwgl5u0z9jm8o33" class="crayons-icon"><title id="a49ab0wixot74ltqjbwgl5u0z9jm8o33">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2hnahqhco0aq7af4z1e40tr2a2bl9v8" class="crayons-icon"><title id="a2hnahqhco0aq7af4z1e40tr2a2bl9v8">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -644,217 +768,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3182278" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3182278" data-article-author-id="1922098" aria-label="Save post OCI IAM Policies Explained: How Authorization Actually Works to reading list" title="Save post OCI IAM Policies Explained: How Authorization Actually Works to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IAM Fundamentals]]></title>
-        <id>https://dev.to/dipalikulshrestha/iam-fundamentals-32pa</id>
-        <link href="https://dev.to/dipalikulshrestha/iam-fundamentals-32pa"/>
-        <updated>2026-01-19T05:23:56.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/dipalikulshrestha/iam-fundamentals-32pa" aria-labelledby="article-link-3181417" class="crayons-story__hidden-navigation-link">IAM Fundamentals</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/dipalikulshrestha" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F565744%2Fcf27d08f-3dc7-4d27-97c6-a1f59f6e9c6c.jpg" alt="dipalikulshrestha profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/dipalikulshrestha" class="crayons-story__secondary fw-medium m:hidden">
-              Dipali Kulshrestha
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3181417" aria-controls="story-author-preview-content-3181417" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Dipali Kulshrestha profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Dipali Kulshrestha
-                
-              </button>
-              <div id="story-author-preview-content-3181417" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/dipalikulshrestha" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F565744%2Fcf27d08f-3dc7-4d27-97c6-a1f59f6e9c6c.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Dipali Kulshrestha</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:565744,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Dipali Kulshrestha&quot;}" data-fetched="fetched" aria-label="Follow user: Dipali Kulshrestha" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="565744"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/dipalikulshrestha/iam-fundamentals-32pa" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-19T05:23:56Z" title="Monday, January 19, 2026 at 5:23:56 AM">Jan 19</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768800236"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/dipalikulshrestha/iam-fundamentals-32pa" data-preload-image="" id="article-link-3181417">
-          IAM Fundamentals
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 131, 53, 0.10);
-        --tag-prefix: #008335;
-        --tag-bg-hover: rgba(0, 131, 53, 0.10);
-        --tag-prefix-hover: #008335;
-      " href="/t/beginners"><span class="crayons-tag__prefix">#</span>beginners</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(254, 255, 165, 0.10);
-        --tag-prefix: #FEFFA5;
-        --tag-bg-hover: rgba(254, 255, 165, 0.10);
-        --tag-prefix-hover: #FEFFA5;
-      " href="/t/tutorial"><span class="crayons-tag__prefix">#</span>tutorial</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/dipalikulshrestha/iam-fundamentals-32pa#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - IAM Fundamentals">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ad04hrne8kyyqh3br7ld2lmzm1zfiep3" class="crayons-icon"><title id="ad04hrne8kyyqh3br7ld2lmzm1zfiep3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3181417" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3181417" data-article-author-id="565744" aria-label="Save post IAM Fundamentals to reading list" title="Save post IAM Fundamentals to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Security Teammate:AWS Security Agent]]></title>
-        <id>https://dev.to/zek/new-security-teammateaws-security-agent-3493</id>
-        <link href="https://dev.to/zek/new-security-teammateaws-security-agent-3493"/>
-        <updated>2026-01-18T17:38:55.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/zek/new-security-teammateaws-security-agent-3493" aria-labelledby="article-link-3180235" class="crayons-story__hidden-navigation-link">New Security Teammate:AWS Security Agent</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/zek" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2106974%2F73850535-514e-4243-beb6-11e1d1b69aba.jpeg" alt="zek profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/zek" class="crayons-story__secondary fw-medium m:hidden">
-              ZEKERİYA AKGÜN
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3180235" aria-controls="story-author-preview-content-3180235" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="ZEKERİYA AKGÜN profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                ZEKERİYA AKGÜN
-                
-              </button>
-              <div id="story-author-preview-content-3180235" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/zek" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2106974%2F73850535-514e-4243-beb6-11e1d1b69aba.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">ZEKERİYA AKGÜN</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2106974,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;ZEKERİYA AKGÜN&quot;}" data-fetched="fetched" aria-label="Follow user: ZEKERİYA AKGÜN" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="2106974"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/zek/new-security-teammateaws-security-agent-3493" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-18T17:38:55Z" title="Sunday, January 18, 2026 at 5:38:55 PM">Jan 18</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768757935"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/zek/new-security-teammateaws-security-agent-3493" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fn9m6pbjkvvxnr7yakkn4.png" id="article-link-3180235">
-          New Security Teammate:AWS Security Agent
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/zek/new-security-teammateaws-security-agent-3493#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - New Security Teammate:AWS Security Agent">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akyl9m0w7qgoi3kcw74txadqkq9upuhx" class="crayons-icon"><title id="akyl9m0w7qgoi3kcw74txadqkq9upuhx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            6 min read
-          </small>
-            <button type="button" id="article-save-button-3180235" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3180235" data-article-author-id="2106974" aria-label="Save post New Security Teammate:AWS Security Agent to reading list" title="Save post New Security Teammate:AWS Security Agent to reading list">
+            <button type="button" id="article-save-button-3182278" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3182278" data-article-author-id="1922098" aria-label="Save post OCI IAM Policies Explained: How Authorization Actually Works to reading list" title="Save post OCI IAM Policies Explained: How Authorization Actually Works to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
