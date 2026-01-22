@@ -2,9 +2,237 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-22T07:05:11.598Z</updated>
+    <updated>2026-01-22T07:56:19.119Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Lambda Durable Functions - Keeping your Payloads Secure]]></title>
+        <id>https://dev.to/aws-heroes/lambda-durable-functions-keeping-your-payloads-secure-2bnm</id>
+        <link href="https://dev.to/aws-heroes/lambda-durable-functions-keeping-your-payloads-secure-2bnm"/>
+        <updated>2026-01-22T02:12:48.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/aws-heroes/lambda-durable-functions-keeping-your-payloads-secure-2bnm" aria-labelledby="article-link-3189410" class="crayons-story__hidden-navigation-link">Lambda Durable Functions - Keeping your Payloads Secure</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/aws-heroes">
+            <img alt="AWS Heroes logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2491%2Ff0c1a659-c959-42cd-bb12-cd25909dd9db.png" class="crayons-logo__image" loading="lazy">
+          </a>
+
+          <a href="/walmsles" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F720235%2F297f4637-f800-4669-ac9c-4ab63edd2f1e.jpg" alt="walmsles profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/walmsles" class="crayons-story__secondary fw-medium m:hidden">
+              Michael Walmsley
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3189410" aria-controls="story-author-preview-content-3189410" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Michael Walmsley profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Michael Walmsley
+                
+              </button>
+              <div id="story-author-preview-content-3189410" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/walmsles" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F720235%2F297f4637-f800-4669-ac9c-4ab63edd2f1e.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Michael Walmsley</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:720235,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Michael Walmsley&quot;}" data-fetched="fetched" aria-label="Follow user: Michael Walmsley" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="720235"></div>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/aws-heroes" class="crayons-story__secondary fw-medium">AWS Heroes</a>
+            </span>
+          </div>
+          <a href="https://dev.to/aws-heroes/lambda-durable-functions-keeping-your-payloads-secure-2bnm" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-22T02:12:48Z" title="Thursday, January 22, 2026 at 2:12:48 AM">Jan 22</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769047968"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/aws-heroes/lambda-durable-functions-keeping-your-payloads-secure-2bnm" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fik6mcs6vpax51zi09uuf.png" id="article-link-3189410">
+          Lambda Durable Functions - Keeping your Payloads Secure
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(28, 28, 28, 0.10);
+        --tag-prefix: #1C1C1C;
+        --tag-bg-hover: rgba(28, 28, 28, 0.10);
+        --tag-prefix-hover: #1C1C1C;
+      " href="/t/serverless"><span class="crayons-tag__prefix">#</span>serverless</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/aws-heroes/lambda-durable-functions-keeping-your-payloads-secure-2bnm#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Lambda Durable Functions - Keeping your Payloads Secure">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ae5odm2iahy6z6va55gqt0csdnocs7tj" class="crayons-icon"><title id="ae5odm2iahy6z6va55gqt0csdnocs7tj">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            11 min read
+          </small>
+            <button type="button" id="article-save-button-3189410" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3189410" data-article-author-id="720235" aria-label="Save post Lambda Durable Functions - Keeping your Payloads Secure to reading list" title="Save post Lambda Durable Functions - Keeping your Payloads Secure to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Secure Enterprise Developer Workspace on AWS]]></title>
+        <id>https://dev.to/aws-builders/building-a-secure-enterprise-developer-workspace-on-aws-578b</id>
+        <link href="https://dev.to/aws-builders/building-a-secure-enterprise-developer-workspace-on-aws-578b"/>
+        <updated>2026-01-22T05:39:37.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/aws-builders/building-a-secure-enterprise-developer-workspace-on-aws-578b" aria-labelledby="article-link-3189659" class="crayons-story__hidden-navigation-link">Building a Secure Enterprise Developer Workspace on AWS</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/aws-builders">
+            <img alt="AWS Community Builders  logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2794%2F88da75b6-aadd-4ea1-8083-ae2dfca8be94.png" class="crayons-logo__image" loading="lazy">
+          </a>
+
+          <a href="/its_tapas_ig" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1178687%2F90d7ccf2-1233-49a0-a5a8-884473b23b28.png" alt="its_tapas_ig profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/its_tapas_ig" class="crayons-story__secondary fw-medium m:hidden">
+              Tapas SInghal
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3189659" aria-controls="story-author-preview-content-3189659" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Tapas SInghal profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Tapas SInghal
+                
+              </button>
+              <div id="story-author-preview-content-3189659" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/its_tapas_ig" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1178687%2F90d7ccf2-1233-49a0-a5a8-884473b23b28.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Tapas SInghal</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1178687,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Tapas SInghal&quot;}" data-fetched="fetched" aria-label="Follow user: Tapas SInghal" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="1178687"></div>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/aws-builders" class="crayons-story__secondary fw-medium">AWS Community Builders </a>
+            </span>
+          </div>
+          <a href="https://dev.to/aws-builders/building-a-secure-enterprise-developer-workspace-on-aws-578b" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-22T05:39:37Z" title="Thursday, January 22, 2026 at 5:39:37 AM">Jan 22</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769060377"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/aws-builders/building-a-secure-enterprise-developer-workspace-on-aws-578b" data-preload-image="" id="article-link-3189659">
+          Building a Secure Enterprise Developer Workspace on AWS
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/workspace"><span class="crayons-tag__prefix">#</span>workspace</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/aws-builders/building-a-secure-enterprise-developer-workspace-on-aws-578b#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building a Secure Enterprise Developer Workspace on AWS">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8ait54jhrwkyyinzozi0b86q5xxyh5u" class="crayons-icon"><title id="a8ait54jhrwkyyinzozi0b86q5xxyh5u">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            9 min read
+          </small>
+            <button type="button" id="article-save-button-3189659" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3189659" data-article-author-id="1178687" aria-label="Save post Building a Secure Enterprise Developer Workspace on AWS to reading list" title="Save post Building a Secure Enterprise Developer Workspace on AWS to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GuardDuty: Your AWS Watchdog]]></title>
         <id>https://dev.to/sakshampaliwal/guardduty-your-aws-watchdog-3nfj</id>
@@ -92,7 +320,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/sakshampaliwal/guardduty-your-aws-watchdog-3nfj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - GuardDuty: Your AWS Watchdog">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ae76m0hhx3brd2kgqvxopw6g9yijt2xv" class="crayons-icon"><title id="ae76m0hhx3brd2kgqvxopw6g9yijt2xv">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ajrax1mx377z7s8us11vkrhgyq4dk6h9" class="crayons-icon"><title id="ajrax1mx377z7s8us11vkrhgyq4dk6h9">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -203,7 +431,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/juan_gonzalez_6bc63085f7a/aws-sftp-con-aws-transfer-family-y-amazon-cognito-31o6#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS SFTP con AWS Transfer Family y Amazon Cognito">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aswq45pbvzf68grgmhh2ica4vjhpo483" class="crayons-icon"><title id="aswq45pbvzf68grgmhh2ica4vjhpo483">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9w3xnppu6yoiakzdhj88hsd07gv501s" class="crayons-icon"><title id="a9w3xnppu6yoiakzdhj88hsd07gv501s">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -213,355 +441,6 @@
             4 min read
           </small>
             <button type="button" id="article-save-button-3188747" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3188747" data-article-author-id="3724218" aria-label="Save post AWS SFTP con AWS Transfer Family y Amazon Cognito to reading list" title="Save post AWS SFTP con AWS Transfer Family y Amazon Cognito to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GHSA-PCHF-49FH-W34R: Soft Serve, Hard Fail: The Context Pollution Authentication Bypass]]></title>
-        <id>https://dev.to/cverports/ghsa-pchf-49fh-w34r-soft-serve-hard-fail-the-context-pollution-authentication-bypass-4p7l</id>
-        <link href="https://dev.to/cverports/ghsa-pchf-49fh-w34r-soft-serve-hard-fail-the-context-pollution-authentication-bypass-4p7l"/>
-        <updated>2026-01-21T23:34:26.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/cverports/ghsa-pchf-49fh-w34r-soft-serve-hard-fail-the-context-pollution-authentication-bypass-4p7l" aria-labelledby="article-link-3189231" class="crayons-story__hidden-navigation-link">GHSA-PCHF-49FH-W34R: Soft Serve, Hard Fail: The Context Pollution Authentication Bypass</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/cverports" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1959489%2F6e9f36b9-96a5-441a-a9b5-6993444f71d8.png" alt="cverports profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/cverports" class="crayons-story__secondary fw-medium m:hidden">
-              CVE Reports
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3189231" aria-controls="story-author-preview-content-3189231" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="CVE Reports profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                CVE Reports
-                
-              </button>
-              <div id="story-author-preview-content-3189231" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/cverports" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1959489%2F6e9f36b9-96a5-441a-a9b5-6993444f71d8.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">CVE Reports</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1959489,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;CVE Reports&quot;}" data-fetched="fetched" aria-label="Follow user: CVE Reports" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="1959489"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/cverports/ghsa-pchf-49fh-w34r-soft-serve-hard-fail-the-context-pollution-authentication-bypass-4p7l" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-21T23:34:26Z" title="Wednesday, January 21, 2026 at 11:34:26 PM">Jan 21</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769038466"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/cverports/ghsa-pchf-49fh-w34r-soft-serve-hard-fail-the-context-pollution-authentication-bypass-4p7l" data-preload-image="" id="article-link-3189231">
-          GHSA-PCHF-49FH-W34R: Soft Serve, Hard Fail: The Context Pollution Authentication Bypass
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/cve"><span class="crayons-tag__prefix">#</span>cve</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(227, 255, 0, 0.10);
-        --tag-prefix: #e3ff00;
-        --tag-bg-hover: rgba(227, 255, 0, 0.10);
-        --tag-prefix-hover: #e3ff00;
-      " href="/t/cybersecurity"><span class="crayons-tag__prefix">#</span>cybersecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/ghsa"><span class="crayons-tag__prefix">#</span>ghsa</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/cverports/ghsa-pchf-49fh-w34r-soft-serve-hard-fail-the-context-pollution-authentication-bypass-4p7l#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - GHSA-PCHF-49FH-W34R: Soft Serve, Hard Fail: The Context Pollution Authentication Bypass">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8of1o0j5ogcpkohdxrfa46jme39l5pn" class="crayons-icon"><title id="a8of1o0j5ogcpkohdxrfa46jme39l5pn">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3189231" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3189231" data-article-author-id="1959489" aria-label="Save post GHSA-PCHF-49FH-W34R: Soft Serve, Hard Fail: The Context Pollution Authentication Bypass to reading list" title="Save post GHSA-PCHF-49FH-W34R: Soft Serve, Hard Fail: The Context Pollution Authentication Bypass to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Skyward Shield: Harnessing Cloud Computing for Next-Gen Disaster Recovery]]></title>
-        <id>https://dev.to/vjnvisakh/skyward-shield-harnessing-cloud-computing-for-next-gen-disaster-recovery-3ja6</id>
-        <link href="https://dev.to/vjnvisakh/skyward-shield-harnessing-cloud-computing-for-next-gen-disaster-recovery-3ja6"/>
-        <updated>2026-01-21T10:00:01.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/vjnvisakh/skyward-shield-harnessing-cloud-computing-for-next-gen-disaster-recovery-3ja6" aria-labelledby="article-link-3187433" class="crayons-story__hidden-navigation-link">Skyward Shield: Harnessing Cloud Computing for Next-Gen Disaster Recovery</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/vjnvisakh" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F97730%2Fc245224f-dcb1-4a4f-aa99-a07fea8b4bde.jpg" alt="vjnvisakh profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/vjnvisakh" class="crayons-story__secondary fw-medium m:hidden">
-              Visakh Vijayan
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3187433" aria-controls="story-author-preview-content-3187433" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Visakh Vijayan profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Visakh Vijayan
-                
-              </button>
-              <div id="story-author-preview-content-3187433" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/vjnvisakh" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F97730%2Fc245224f-dcb1-4a4f-aa99-a07fea8b4bde.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Visakh Vijayan</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:97730,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Visakh Vijayan&quot;}" data-fetched="fetched" aria-label="Follow user: Visakh Vijayan" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="97730"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/vjnvisakh/skyward-shield-harnessing-cloud-computing-for-next-gen-disaster-recovery-3ja6" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-21T10:00:01Z" title="Wednesday, January 21, 2026 at 10:00:01 AM">Jan 21</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1768989601"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/vjnvisakh/skyward-shield-harnessing-cloud-computing-for-next-gen-disaster-recovery-3ja6" data-preload-image="" id="article-link-3187433">
-          Skyward Shield: Harnessing Cloud Computing for Next-Gen Disaster Recovery
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/automation"><span class="crayons-tag__prefix">#</span>automation</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(255, 153, 0, 0.10);
-        --tag-prefix: #FF9900;
-        --tag-bg-hover: rgba(255, 153, 0, 0.10);
-        --tag-prefix-hover: #FF9900;
-      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/cloudcomputing"><span class="crayons-tag__prefix">#</span>cloudcomputing</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/vjnvisakh/skyward-shield-harnessing-cloud-computing-for-next-gen-disaster-recovery-3ja6#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Skyward Shield: Harnessing Cloud Computing for Next-Gen Disaster Recovery">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqgvksnodoeicl425051f801nmcu9wql" class="crayons-icon"><title id="aqgvksnodoeicl425051f801nmcu9wql">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3187433" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3187433" data-article-author-id="97730" aria-label="Save post Skyward Shield: Harnessing Cloud Computing for Next-Gen Disaster Recovery to reading list" title="Save post Skyward Shield: Harnessing Cloud Computing for Next-Gen Disaster Recovery to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS AWS Security Groups vs NACLs: (Stateful vs Stateless explicado fácil para proteger tus cargas de trabajo)]]></title>
-        <id>https://dev.to/oscar_gaviria_2b862594738/aws-aws-security-groups-vs-nacls-stateful-vs-stateless-explicado-facil-para-proteger-tus-cargas-2jhf</id>
-        <link href="https://dev.to/oscar_gaviria_2b862594738/aws-aws-security-groups-vs-nacls-stateful-vs-stateless-explicado-facil-para-proteger-tus-cargas-2jhf"/>
-        <updated>2026-01-21T13:33:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/oscar_gaviria_2b862594738/aws-aws-security-groups-vs-nacls-stateful-vs-stateless-explicado-facil-para-proteger-tus-cargas-2jhf" aria-labelledby="article-link-3188068" class="crayons-story__hidden-navigation-link">AWS AWS Security Groups vs NACLs: (Stateful vs Stateless explicado fácil para proteger tus cargas de trabajo)</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/oscar_gaviria_2b862594738" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2606872%2Ff220c6a8-1254-40a0-a103-dbc9541ee09f.PNG" alt="oscar_gaviria_2b862594738 profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/oscar_gaviria_2b862594738" class="crayons-story__secondary fw-medium m:hidden">
-              Oscar Gaviria
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3188068" aria-controls="story-author-preview-content-3188068" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Oscar Gaviria profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Oscar Gaviria
-                
-              </button>
-              <div id="story-author-preview-content-3188068" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/oscar_gaviria_2b862594738" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2606872%2Ff220c6a8-1254-40a0-a103-dbc9541ee09f.PNG" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Oscar Gaviria</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2606872,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Oscar Gaviria&quot;}" data-fetched="fetched" aria-label="Follow user: Oscar Gaviria" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="2606872"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/oscar_gaviria_2b862594738/aws-aws-security-groups-vs-nacls-stateful-vs-stateless-explicado-facil-para-proteger-tus-cargas-2jhf" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-21T13:33:00Z" title="Wednesday, January 21, 2026 at 1:33:00 PM">Jan 21</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769002380"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/oscar_gaviria_2b862594738/aws-aws-security-groups-vs-nacls-stateful-vs-stateless-explicado-facil-para-proteger-tus-cargas-2jhf" data-preload-image="" id="article-link-3188068">
-          AWS AWS Security Groups vs NACLs: (Stateful vs Stateless explicado fácil para proteger tus cargas de trabajo)
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(119, 194, 127, 0.10);
-        --tag-prefix: #77c27f;
-        --tag-bg-hover: rgba(119, 194, 127, 0.10);
-        --tag-prefix-hover: #77c27f;
-      " href="/t/networking"><span class="crayons-tag__prefix">#</span>networking</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/intermediate"><span class="crayons-tag__prefix">#</span>intermediate</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/oscar_gaviria_2b862594738/aws-aws-security-groups-vs-nacls-stateful-vs-stateless-explicado-facil-para-proteger-tus-cargas-2jhf" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3188068" aria-label="Add a comment to post - AWS AWS Security Groups vs NACLs: (Stateful vs Stateless explicado fácil para proteger tus cargas de trabajo)">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">5<span class="hidden s:inline">&nbsp;reactions</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/oscar_gaviria_2b862594738/aws-aws-security-groups-vs-nacls-stateful-vs-stateless-explicado-facil-para-proteger-tus-cargas-2jhf#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS AWS Security Groups vs NACLs: (Stateful vs Stateless explicado fácil para proteger tus cargas de trabajo)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1ilkfwpw5168i308hrjfyb565rpkqno" class="crayons-icon"><title id="a1ilkfwpw5168i308hrjfyb565rpkqno">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              4<span class="hidden s:inline">&nbsp;comments</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            6 min read
-          </small>
-            <button type="button" id="article-save-button-3188068" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3188068" data-article-author-id="2606872" aria-label="Save post AWS AWS Security Groups vs NACLs: (Stateful vs Stateless explicado fácil para proteger tus cargas de trabajo) to reading list" title="Save post AWS AWS Security Groups vs NACLs: (Stateful vs Stateless explicado fácil para proteger tus cargas de trabajo) to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
