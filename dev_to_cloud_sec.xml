@@ -2,9 +2,133 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-22T19:03:52.978Z</updated>
+    <updated>2026-01-22T20:59:22.584Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Today, I broke production]]></title>
+        <id>https://dev.to/bhoyee/today-i-broke-production-1k8c</id>
+        <link href="https://dev.to/bhoyee/today-i-broke-production-1k8c"/>
+        <updated>2026-01-22T13:21:37.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/bhoyee/today-i-broke-production-1k8c" aria-labelledby="article-link-3190976" class="crayons-story__hidden-navigation-link">Today, I broke production</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/bhoyee" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F777205%2F5f44777c-37e5-4f1c-a1c0-a2f4e160ce32.png" alt="bhoyee profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/bhoyee" class="crayons-story__secondary fw-medium m:hidden">
+              Salisu Adeboye
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3190976" aria-controls="story-author-preview-content-3190976" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Salisu Adeboye profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Salisu Adeboye
+                
+              </button>
+              <div id="story-author-preview-content-3190976" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/bhoyee" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F777205%2F5f44777c-37e5-4f1c-a1c0-a2f4e160ce32.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Salisu Adeboye</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:777205,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Salisu Adeboye&quot;}" data-fetched="fetched" aria-label="Follow user: Salisu Adeboye" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="777205"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/bhoyee/today-i-broke-production-1k8c" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-22T13:21:37Z" title="Thursday, January 22, 2026 at 1:21:37 PM">Jan 22</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769088097"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/bhoyee/today-i-broke-production-1k8c" data-preload-image="" id="article-link-3190976">
+          Today, I broke production
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(130, 0, 0, 0.10);
+        --tag-prefix: #820000;
+        --tag-bg-hover: rgba(130, 0, 0, 0.10);
+        --tag-prefix-hover: #820000;
+      " href="/t/devjournal"><span class="crayons-tag__prefix">#</span>devjournal</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/bhoyee/today-i-broke-production-1k8c" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3190976" aria-label="Add a comment to post - Today, I broke production">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18">
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg" width="18" height="18">
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">2<span class="hidden s:inline">&nbsp;reactions</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/bhoyee/today-i-broke-production-1k8c#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Today, I broke production">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="amdlghy4377jts0bsr2jt9ly62gp18ik" class="crayons-icon"><title id="amdlghy4377jts0bsr2jt9ly62gp18ik">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              2<span class="hidden s:inline">&nbsp;comments</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            1 min read
+          </small>
+            <button type="button" id="article-save-button-3190976" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3190976" data-article-author-id="777205" aria-label="Save post Today, I broke production to reading list" title="Save post Today, I broke production to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Multi-Instance n8n Self-Hosting Guide]]></title>
         <id>https://dev.to/bunty9/multi-instance-n8n-self-hosting-guide-4hfj</id>
@@ -92,7 +216,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/bunty9/multi-instance-n8n-self-hosting-guide-4hfj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Multi-Instance n8n Self-Hosting Guide">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="agbkm2a6nmf9a0uf90a36srvaztcdyuh" class="crayons-icon"><title id="agbkm2a6nmf9a0uf90a36srvaztcdyuh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aktosf2gk9isoz4ra733a7d2w6j74h8c" class="crayons-icon"><title id="aktosf2gk9isoz4ra733a7d2w6j74h8c">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -203,7 +327,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/bunty9/cloudflare-tunnel-ssh-setup-guide-1omo#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Cloudflare Tunnel SSH Setup Guide">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="at2yobjd878yqfy13beoy7qffhbxzuf2" class="crayons-icon"><title id="at2yobjd878yqfy13beoy7qffhbxzuf2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aor057j8vl565qu8s5eggh9n2ds9yl7i" class="crayons-icon"><title id="aor057j8vl565qu8s5eggh9n2ds9yl7i">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -314,7 +438,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/sujiths/are-ai-meeting-assistants-safe-privacy-risks-with-cloud-transcription-4a23#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Are AI Meeting Assistants Safe? Privacy Risks with Cloud Transcription">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="at21crm2jq7r6u5t3x7bcgs2xec9hqjr" class="crayons-icon"><title id="at21crm2jq7r6u5t3x7bcgs2xec9hqjr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ap32xwgbtie9r95j2okcu7ney7qa3hxc" class="crayons-icon"><title id="ap32xwgbtie9r95j2okcu7ney7qa3hxc">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -324,117 +448,6 @@
             11 min read
           </small>
             <button type="button" id="article-save-button-3189256" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3189256" data-article-author-id="802691" aria-label="Save post Are AI Meeting Assistants Safe? Privacy Risks with Cloud Transcription to reading list" title="Save post Are AI Meeting Assistants Safe? Privacy Risks with Cloud Transcription to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lambda Durable Functions - Keeping your Payloads Secure]]></title>
-        <id>https://dev.to/aws-heroes/lambda-durable-functions-keeping-your-payloads-secure-2bnm</id>
-        <link href="https://dev.to/aws-heroes/lambda-durable-functions-keeping-your-payloads-secure-2bnm"/>
-        <updated>2026-01-22T02:12:48.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/aws-heroes/lambda-durable-functions-keeping-your-payloads-secure-2bnm" aria-labelledby="article-link-3189410" class="crayons-story__hidden-navigation-link">Lambda Durable Functions - Keeping your Payloads Secure</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-          <a class="crayons-logo crayons-logo--l" href="/aws-heroes">
-            <img alt="AWS Heroes logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2491%2Ff0c1a659-c959-42cd-bb12-cd25909dd9db.png" class="crayons-logo__image" loading="lazy">
-          </a>
-
-          <a href="/walmsles" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F720235%2F297f4637-f800-4669-ac9c-4ab63edd2f1e.jpg" alt="walmsles profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/walmsles" class="crayons-story__secondary fw-medium m:hidden">
-              Michael Walmsley
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3189410" aria-controls="story-author-preview-content-3189410" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Michael Walmsley profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Michael Walmsley
-                
-              </button>
-              <div id="story-author-preview-content-3189410" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/walmsles" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F720235%2F297f4637-f800-4669-ac9c-4ab63edd2f1e.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Michael Walmsley</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:720235,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Michael Walmsley&quot;}" data-fetched="fetched" aria-label="Follow user: Michael Walmsley" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="720235"></div>
-                </div>
-              </div>
-            </div>
-
-            <span>
-              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/aws-heroes" class="crayons-story__secondary fw-medium">AWS Heroes</a>
-            </span>
-          </div>
-          <a href="https://dev.to/aws-heroes/lambda-durable-functions-keeping-your-payloads-secure-2bnm" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-22T02:12:48Z" title="Thursday, January 22, 2026 at 2:12:48 AM">Jan 22</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769047968"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/aws-heroes/lambda-durable-functions-keeping-your-payloads-secure-2bnm" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fik6mcs6vpax51zi09uuf.png" id="article-link-3189410">
-          Lambda Durable Functions - Keeping your Payloads Secure
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(28, 28, 28, 0.10);
-        --tag-prefix: #1C1C1C;
-        --tag-bg-hover: rgba(28, 28, 28, 0.10);
-        --tag-prefix-hover: #1C1C1C;
-      " href="/t/serverless"><span class="crayons-tag__prefix">#</span>serverless</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/aws-heroes/lambda-durable-functions-keeping-your-payloads-secure-2bnm#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Lambda Durable Functions - Keeping your Payloads Secure">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7ls492d2b0bx1olg8n8zdqb17otme4e" class="crayons-icon"><title id="a7ls492d2b0bx1olg8n8zdqb17otme4e">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            11 min read
-          </small>
-            <button type="button" id="article-save-button-3189410" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3189410" data-article-author-id="720235" aria-label="Save post Lambda Durable Functions - Keeping your Payloads Secure to reading list" title="Save post Lambda Durable Functions - Keeping your Payloads Secure to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -542,7 +555,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/aws-builders/building-a-secure-enterprise-developer-workspace-on-aws-578b#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building a Secure Enterprise Developer Workspace on AWS">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a93ws1sp7s144zkhyfcywxtgnlazq48c" class="crayons-icon"><title id="a93ws1sp7s144zkhyfcywxtgnlazq48c">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aq7cnutn96cpprzhzt22y9ic24uot2rk" class="crayons-icon"><title id="aq7cnutn96cpprzhzt22y9ic24uot2rk">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -552,127 +565,6 @@
             9 min read
           </small>
             <button type="button" id="article-save-button-3189659" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3189659" data-article-author-id="1178687" aria-label="Save post Building a Secure Enterprise Developer Workspace on AWS to reading list" title="Save post Building a Secure Enterprise Developer Workspace on AWS to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PassForgePro: Learning-focused Local-Only Password Manager]]></title>
-        <id>https://dev.to/can-deliktas/passforgepro-learning-focused-local-only-password-manager-1lnb</id>
-        <link href="https://dev.to/can-deliktas/passforgepro-learning-focused-local-only-password-manager-1lnb"/>
-        <updated>2026-01-21T19:44:47.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/can-deliktas/passforgepro-learning-focused-local-only-password-manager-1lnb" aria-labelledby="article-link-3188928" class="crayons-story__hidden-navigation-link">PassForgePro: Learning-focused Local-Only Password Manager</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/can-deliktas" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3724604%2F9b8c596a-1986-43c2-a6c5-15a1853296f0.jpeg" alt="can-deliktas profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/can-deliktas" class="crayons-story__secondary fw-medium m:hidden">
-              Can Arkadaş Deliktaş
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3188928" aria-controls="story-author-preview-content-3188928" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Can Arkadaş Deliktaş profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Can Arkadaş Deliktaş
-                
-              </button>
-              <div id="story-author-preview-content-3188928" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/can-deliktas" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3724604%2F9b8c596a-1986-43c2-a6c5-15a1853296f0.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Can Arkadaş Deliktaş</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3724604,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Can Arkadaş Deliktaş&quot;}" data-fetched="fetched" aria-label="Follow user: Can Arkadaş Deliktaş" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3724604"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/can-deliktas/passforgepro-learning-focused-local-only-password-manager-1lnb" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-21T19:44:47Z" title="Wednesday, January 21, 2026 at 7:44:47 PM">Jan 21</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769024687"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/can-deliktas/passforgepro-learning-focused-local-only-password-manager-1lnb" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1a344iwmcp2iix1pzxmw.png" id="article-link-3188928">
-          PassForgePro: Learning-focused Local-Only Password Manager
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 131, 53, 0.10);
-        --tag-prefix: #008335;
-        --tag-bg-hover: rgba(0, 131, 53, 0.10);
-        --tag-prefix-hover: #008335;
-      " href="/t/beginners"><span class="crayons-tag__prefix">#</span>beginners</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(30, 56, 187, 0.10);
-        --tag-prefix: #1E38BB;
-        --tag-bg-hover: rgba(30, 56, 187, 0.10);
-        --tag-prefix-hover: #1E38BB;
-      " href="/t/python"><span class="crayons-tag__prefix">#</span>python</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(38, 190, 0, 0.10);
-        --tag-prefix: #26BE00;
-        --tag-bg-hover: rgba(38, 190, 0, 0.10);
-        --tag-prefix-hover: #26BE00;
-      " href="/t/opensource"><span class="crayons-tag__prefix">#</span>opensource</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/can-deliktas/passforgepro-learning-focused-local-only-password-manager-1lnb" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3188928" aria-label="Add a comment to post - PassForgePro: Learning-focused Local-Only Password Manager">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/can-deliktas/passforgepro-learning-focused-local-only-password-manager-1lnb#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - PassForgePro: Learning-focused Local-Only Password Manager">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ar1sijbe2346sl4wk8scoyubi7bacy5w" class="crayons-icon"><title id="ar1sijbe2346sl4wk8scoyubi7bacy5w">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3188928" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3188928" data-article-author-id="3724604" aria-label="Save post PassForgePro: Learning-focused Local-Only Password Manager to reading list" title="Save post PassForgePro: Learning-focused Local-Only Password Manager to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
