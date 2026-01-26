@@ -910,3 +910,21 @@ titleSelector = ".blog-title"
 linkSelector = "*"
 dateSelector = ".post-date"
 dateFormat = "yyyy-MM-dd"
+
+[heilancoos]
+title = "heilancoos"
+url = "https://heilancoos.github.io/posts/"
+entrySelector = "article.post-preview"
+titleSelector = "h2"
+linkSelector = "a"
+dateSelector = "p.post-meta"
+dateFormat = "MMMM dd, yyyy"
+
+[cyberxsociety]
+title = "cyberxsociety"
+url = "https://cyberxsociety.com/blog/"
+entrySelector = "article.elementor-post"
+titleSelector = "h3 > a"
+linkSelector = "h3 > a"
+dateSelector = ".elementor-post-date"
+dateFormat = "dd/MM/yyyy"
