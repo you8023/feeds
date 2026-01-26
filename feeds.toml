@@ -928,3 +928,73 @@ titleSelector = "h3 > a"
 linkSelector = "h3 > a"
 dateSelector = ".elementor-post-date"
 dateFormat = "dd/MM/yyyy"
+
+[disclosing_observer]
+title = "Disclosing.Observer"
+url = "https://disclosing.observer/blog.html"
+entrySelector = "li.item"
+titleSelector = ".item__header"
+linkSelector = ".item__header"
+dateSelector = ".item__meta"
+dateFormat = "MMM dd"
+
+[interrupt_labs]
+title = "Interrupt Labs"
+url = "https://www.interruptlabs.co.uk/labs"
+entrySelector = ".w-dyn-item"
+titleSelector = "h3.heading"
+linkSelector = "a.heading-link"
+dateSelector = ".article-date"
+dateFormat = "MMMMyyyy"
+
+[magicsword]
+title = "MagicSword"
+url = "https://www.magicsword.io/blog"
+entrySelector = ".grid > div"
+titleSelector = "h3"
+linkSelector = "a"
+dateSelector = ".p-5 span"
+dateFormat = "MMMM d, yyyy"
+
+[orchid_security]
+title = "Orchid Security"
+url = "https://www.orchid.security/resources/blog"
+entrySelector = ".collection-item-4, .blog-item"
+titleSelector = "h1.heading-69, h2.paragraph-41"
+linkSelector = "a.link-block-17, a.link-arrow"
+dateSelector = ".paragraph-61, .paragraph-66"
+dateFormat = "MMM d, yyyy"
+
+[zafran]
+title = "Zafran"
+url = "https://www.zafran.io/blog"
+entrySelector = ".cms_resources_item"
+titleSelector = "h3.top-stories_heading"
+linkSelector = "a.g_clickable_link"
+dateSelector = ".top-stories_item_date"
+dateFormat = "MMMM d, yyyy"
+
+[watchful_ip]
+title = "Watchful IP"
+url = "https://watchfulip.github.io/"
+entrySelector = "section > h3"
+titleSelector = "a"
+linkSelector = "a"
+dateSelector = "a"
+dateFormat = "d MMM yyyy"
+
+[security_com]
+title = "Security.com Threat Intelligence"
+url = "https://www.security.com/threat-intelligence"
+entrySelector = "article.blog-post-teaser"
+titleSelector = "h2.blog-post-teaser__title"
+linkSelector = "a.blog-post-teaser__link-wrapper"
+dateSelector = "li.blog-post-teaser__details--item:first-child"
+dateFormat = "d MMM yyyy"
+
+[fidelis_security]
+title = "Fidelis Security Threat Reports"
+url = "https://fidelissecurity.com/resources/threat-reports/"
+entrySelector = ".e-loop-item"
+titleSelector = ".elementor-heading-title a"
+linkSelector = ".elementor-heading-title a"
