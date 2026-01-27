@@ -2,34 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://trainsec.net/library/</id>
     <title>trainsec</title>
-    <updated>2026-01-27T13:33:38.021Z</updated>
+    <updated>2026-01-27T15:59:19.989Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://trainsec.net/wp-content/uploads/2024/05/Icon-no-space@2x-150x150.png</icon>
     <entry>
-        <title type="html"><![CDATA[How Malware Really Works (What Most People Miss)]]></title>
-        <id>https://trainsec.net/library/malware-analysis/how-malware-really-works-what-most-people-miss/</id>
-        <link href="https://trainsec.net/library/malware-analysis/how-malware-really-works-what-most-people-miss/"/>
-        <updated>2025-12-28T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/how-malware-really-works-what-most-people-miss/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="2553" height="1435" src="https://trainsec.net/wp-content/uploads/2025/12/coover.png" class="attachment-full size-full wp-image-9652" alt="coover" srcset="https://trainsec.net/wp-content/uploads/2025/12/coover.png 2553w, https://trainsec.net/wp-content/uploads/2025/12/coover-300x169.png 300w, https://trainsec.net/wp-content/uploads/2025/12/coover-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2025/12/coover-768x432.png 768w, https://trainsec.net/wp-content/uploads/2025/12/coover-1536x863.png 1536w, https://trainsec.net/wp-content/uploads/2025/12/coover-2048x1151.png 2048w" sizes="(max-width: 2553px) 100vw, 2553px"></div>
+        <title type="html"><![CDATA[Process Hollowing, Or Something Close Enough to Be Interesting]]></title>
+        <id>https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/</id>
+        <link href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/"/>
+        <updated>2026-01-27T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="2560" height="1301" src="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png" class="attachment-full size-full wp-image-9944" alt="Process Hollowing scaled" srcset="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png 2560w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-300x152.png 300w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1024x520.png 1024w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-768x390.png 768w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1536x780.png 1536w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-2048x1040.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/malware-analysis/how-malware-really-works-what-most-people-miss/">
-				How Malware Really Works (What Most People Miss)			</a>
+			<a href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/">
+				Process Hollowing, Or Something Close Enough to Be Interesting			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
-			Uriel Kosayev		</span>
+			Pavel Yosifovich		</span>
 				<span class="elementor-post-date">
-			December 28, 2025		</span>
+			January 27, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>An in depth discussion with Uriel Kosayev on malware analysis, attacker mindset, EDR bypass techniques, and why thinking offensively is essential for modern defenders and TrainSec students.</p>
+			<p>Process hollowing is usually described as creating a process in a suspended state, removing its original executable image, and replacing it with a different one. From the outside, the process appears normal, but the code running inside is not what you expect. In this article, I explore a slightly different idea.</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/how-malware-really-works-what-most-people-miss/" aria-label="Read more about How Malware Really Works (What Most People Miss)" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/" aria-label="Read more about Process Hollowing, Or Something Close Enough to Be Interesting" tabindex="-1">
 			Dive in		</a>
+
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Process Hollowing, Or Something Close Enough to Be Interesting]]></title>
+        <id>https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/</id>
+        <link href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/"/>
+        <updated>2026-01-27T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="2560" height="1301" src="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png" class="attachment-full size-full wp-image-9944" alt="Process Hollowing scaled" srcset="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png 2560w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-300x152.png 300w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1024x520.png 1024w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-768x390.png 768w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1536x780.png 1536w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-2048x1040.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/">
+				Process Hollowing, Or Something Close Enough to Be Interesting			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			January 27, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Process hollowing is usually described as creating a process in a suspended state, removing its original executable image, and replacing it with a different one.		</p></div>
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/" aria-label="Read more about Process Hollowing, Or Something Close Enough to Be Interesting" tabindex="-1">
+			Read More 		</a>
 
 				</div>]]></content>
     </entry>
@@ -39,7 +66,7 @@
         <link href="https://trainsec.net/library/malware-analysis/how-malware-really-works-what-most-people-miss/"/>
         <updated>2025-12-28T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/how-malware-really-works-what-most-people-miss/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="2553" height="1435" src="https://trainsec.net/wp-content/uploads/2025/12/coover.png" class="attachment-full size-full wp-image-9652" alt="coover" srcset="https://trainsec.net/wp-content/uploads/2025/12/coover.png 2553w, https://trainsec.net/wp-content/uploads/2025/12/coover-300x169.png 300w, https://trainsec.net/wp-content/uploads/2025/12/coover-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2025/12/coover-768x432.png 768w, https://trainsec.net/wp-content/uploads/2025/12/coover-1536x863.png 1536w, https://trainsec.net/wp-content/uploads/2025/12/coover-2048x1151.png 2048w" sizes="(max-width: 2553px) 100vw, 2553px"></div>
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="2553" height="1435" src="https://trainsec.net/wp-content/uploads/2025/12/coover.png" class="attachment-full size-full wp-image-9652" alt="coover" srcset="https://trainsec.net/wp-content/uploads/2025/12/coover.png 2553w, https://trainsec.net/wp-content/uploads/2025/12/coover-300x169.png 300w, https://trainsec.net/wp-content/uploads/2025/12/coover-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2025/12/coover-768x432.png 768w, https://trainsec.net/wp-content/uploads/2025/12/coover-1536x863.png 1536w, https://trainsec.net/wp-content/uploads/2025/12/coover-2048x1151.png 2048w" sizes="(max-width: 2553px) 100vw, 2553px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
@@ -53,11 +80,13 @@
 			December 28, 2025		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>An in depth discussion with Uriel Kosayev on malware analysis, attacker mindset, EDR bypass techniques, and why thinking offensively is essential for modern defenders and		</p></div>
+			<p>An in depth discussion with Uriel Kosayev on malware analysis, attacker mindset, EDR bypass techniques,		</p></div>
+					<div class="elementor-post__read-more-wrapper">
 		
 		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/how-malware-really-works-what-most-people-miss/" aria-label="Read more about How Malware Really Works (What Most People Miss)" tabindex="-1">
 			Read More 		</a>
 
+					</div>
 				</div>]]></content>
     </entry>
     <entry>
