@@ -2,56 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-26T11:48:03.202Z</updated>
+    <updated>2026-01-27T02:45:45.337Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
-        <title type="html"><![CDATA[How I eliminated access keys from my deployment pipeline with OIDC, Terraform, and GitHub Actions]]></title>
-        <id>https://dev.to/escanut/how-i-eliminated-access-keys-from-my-deployment-pipeline-with-oidc-terraform-and-github-actions-jek</id>
-        <link href="https://dev.to/escanut/how-i-eliminated-access-keys-from-my-deployment-pipeline-with-oidc-terraform-and-github-actions-jek"/>
-        <updated>2026-01-23T21:45:10.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/escanut/how-i-eliminated-access-keys-from-my-deployment-pipeline-with-oidc-terraform-and-github-actions-jek" aria-labelledby="article-link-3194453" class="crayons-story__hidden-navigation-link">How I eliminated access keys from my deployment pipeline with OIDC, Terraform, and GitHub Actions</a>
+        <title type="html"><![CDATA[Securing AI Skills]]></title>
+        <id>https://dev.to/aws-builders/securing-ai-skills-52jg</id>
+        <link href="https://dev.to/aws-builders/securing-ai-skills-52jg"/>
+        <updated>2026-01-26T15:10:55.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/aws-builders/securing-ai-skills-52jg" aria-labelledby="article-link-3199193" class="crayons-story__hidden-navigation-link">Securing AI Skills</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
     <div class="crayons-story__top">
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/aws-builders">
+            <img alt="AWS Community Builders  logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2794%2F88da75b6-aadd-4ea1-8083-ae2dfca8be94.png" class="crayons-logo__image" loading="lazy">
+          </a>
 
-          <a href="/escanut" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3717092%2Feb83272c-b400-4201-93bc-c3d414522d38.jpeg" alt="escanut profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/eyalestrin" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F497814%2Fae6c76f5-f428-4381-a86f-01cbfe0580d7.png" alt="eyalestrin profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/escanut" class="crayons-story__secondary fw-medium m:hidden">
-              Victor Ojeje
+            <a href="/eyalestrin" class="crayons-story__secondary fw-medium m:hidden">
+              Eyal Estrin
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3194453" aria-controls="story-author-preview-content-3194453" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Victor Ojeje profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Victor Ojeje
+              <button id="story-author-preview-trigger-3199193" aria-controls="story-author-preview-content-3199193" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Eyal Estrin profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Eyal Estrin
                 
               </button>
-              <div id="story-author-preview-content-3194453" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-3199193" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/escanut" class="flex">
+                    <a href="/eyalestrin" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3717092%2Feb83272c-b400-4201-93bc-c3d414522d38.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F497814%2Fae6c76f5-f428-4381-a86f-01cbfe0580d7.png" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Victor Ojeje</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Eyal Estrin</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3717092,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Victor Ojeje&quot;}" data-fetched="fetched" aria-label="Follow user: Victor Ojeje" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:497814,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Eyal Estrin&quot;}" data-fetched="fetched" aria-label="Follow user: Eyal Estrin" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="3717092"></div>
+                  <div class="author-preview-metadata-container" data-author-id="497814"></div>
                 </div>
               </div>
             </div>
 
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/aws-builders" class="crayons-story__secondary fw-medium">AWS Community Builders </a>
+            </span>
           </div>
-          <a href="https://dev.to/escanut/how-i-eliminated-access-keys-from-my-deployment-pipeline-with-oidc-terraform-and-github-actions-jek" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-23T21:45:10Z" title="">Jan 23</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769204710"></span></a>
+          <a href="https://dev.to/aws-builders/securing-ai-skills-52jg" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-26T15:10:55Z" title="">Jan 26</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769440255"></span></a>
         </div>
       </div>
 
@@ -59,8 +65,8 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/escanut/how-i-eliminated-access-keys-from-my-deployment-pipeline-with-oidc-terraform-and-github-actions-jek" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnlmu4c7oco2lyzisaxd5.png" id="article-link-3194453">
-          How I eliminated access keys from my deployment pipeline with OIDC, Terraform, and GitHub Actions
+        <a href="https://dev.to/aws-builders/securing-ai-skills-52jg" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fo9iocadnmoy1u89k09p6.png" id="article-link-3199193">
+          Securing AI Skills
         </a>
       </h2>
         <div class="crayons-story__tags">
@@ -71,11 +77,126 @@
         --tag-prefix-hover: #212b3a;
       " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/terraform"><span class="crayons-tag__prefix">#</span>terraform</a>
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(229, 255, 227, 0.10);
+        --tag-prefix: #E5FFE3;
+        --tag-bg-hover: rgba(229, 255, 227, 0.10);
+        --tag-prefix-hover: #E5FFE3;
+      " href="/t/machinelearning"><span class="crayons-tag__prefix">#</span>machinelearning</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/aws-builders/securing-ai-skills-52jg" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3199193" aria-label="Add a comment to post - Securing AI Skills">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg" width="18" height="18">
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" width="18" height="18">
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">9<span class="hidden s:inline">&nbsp;reactions</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/aws-builders/securing-ai-skills-52jg#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Securing AI Skills">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ae2wg3xxk5chnvbk19n6vyuxkwxtxja0" class="crayons-icon"><title id="ae2wg3xxk5chnvbk19n6vyuxkwxtxja0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+            <button type="button" id="article-save-button-3199193" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3199193" data-article-author-id="497814" aria-label="Save post Securing AI Skills to reading list" title="Save post Securing AI Skills to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Configuring Microsoft Defender for Cloud for Enhanced Protection]]></title>
+        <id>https://dev.to/daniel_shaibu/configuring-microsoft-defender-for-cloud-for-enhanced-protection-2ip5</id>
+        <link href="https://dev.to/daniel_shaibu/configuring-microsoft-defender-for-cloud-for-enhanced-protection-2ip5"/>
+        <updated>2026-01-26T11:46:15.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/daniel_shaibu/configuring-microsoft-defender-for-cloud-for-enhanced-protection-2ip5" aria-labelledby="article-link-3199076" class="crayons-story__hidden-navigation-link">Configuring Microsoft Defender for Cloud for Enhanced Protection</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/daniel_shaibu" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3395301%2Ffaa2c2cc-1381-47d9-b2be-bcd87df65315.png" alt="daniel_shaibu profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/daniel_shaibu" class="crayons-story__secondary fw-medium m:hidden">
+              daniel shaibu
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3199076" aria-controls="story-author-preview-content-3199076" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="daniel shaibu profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                daniel shaibu
+                
+              </button>
+              <div id="story-author-preview-content-3199076" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/daniel_shaibu" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3395301%2Ffaa2c2cc-1381-47d9-b2be-bcd87df65315.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">daniel shaibu</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3395301,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;daniel shaibu&quot;}" data-fetched="fetched" aria-label="Follow user: daniel shaibu" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3395301"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/daniel_shaibu/configuring-microsoft-defender-for-cloud-for-enhanced-protection-2ip5" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-26T11:46:15Z" title="">Jan 26</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769427975"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/daniel_shaibu/configuring-microsoft-defender-for-cloud-for-enhanced-protection-2ip5" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ft1rd2d3pilnw2h0jdu2f.png" id="article-link-3199076">
+          Configuring Microsoft Defender for Cloud for Enhanced Protection
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(6, 181, 0, 0.10);
         --tag-prefix: #06B500;
@@ -88,478 +209,32 @@
         --tag-bg-hover: rgba(27, 172, 128, 0.10);
         --tag-prefix-hover: #1bac80;
       " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/escanut/how-i-eliminated-access-keys-from-my-deployment-pipeline-with-oidc-terraform-and-github-actions-jek#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How I eliminated access keys from my deployment pipeline with OIDC, Terraform, and GitHub Actions">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a194j6ngb3gskzwkxyaddufbhb4di9qt" class="crayons-icon"><title id="a194j6ngb3gskzwkxyaddufbhb4di9qt">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
-          </small>
-            <button type="button" id="article-save-button-3194453" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3194453" data-article-author-id="3717092" aria-label="Save post How I eliminated access keys from my deployment pipeline with OIDC, Terraform, and GitHub Actions to reading list" title="Save post How I eliminated access keys from my deployment pipeline with OIDC, Terraform, and GitHub Actions to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a Simple Cloud Security Automation Tool in Rust]]></title>
-        <id>https://dev.to/copubah/building-a-simple-cloud-security-automation-tool-in-rust-316b</id>
-        <link href="https://dev.to/copubah/building-a-simple-cloud-security-automation-tool-in-rust-316b"/>
-        <updated>2026-01-25T19:44:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/copubah/building-a-simple-cloud-security-automation-tool-in-rust-316b" aria-labelledby="article-link-3197820" class="crayons-story__hidden-navigation-link">Building a Simple Cloud Security Automation Tool in Rust</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/copubah" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2950687%2Fd93a0c8d-a947-4a77-89cb-76a4a5a08573.jpeg" alt="copubah profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/copubah" class="crayons-story__secondary fw-medium m:hidden">
-              Cloudev
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3197820" aria-controls="story-author-preview-content-3197820" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Cloudev profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Cloudev
-                
-              </button>
-              <div id="story-author-preview-content-3197820" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/copubah" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2950687%2Fd93a0c8d-a947-4a77-89cb-76a4a5a08573.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Cloudev</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2950687,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Cloudev&quot;}" data-fetched="fetched" aria-label="Follow user: Cloudev" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="2950687"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/copubah/building-a-simple-cloud-security-automation-tool-in-rust-316b" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-25T19:44:00Z" title="">Jan 25</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769370240"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/copubah/building-a-simple-cloud-security-automation-tool-in-rust-316b" data-preload-image="" id="article-link-3197820">
-          Building a Simple Cloud Security Automation Tool in Rust
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(212, 161, 116, 0.10);
-        --tag-prefix: #d4a174;
-        --tag-bg-hover: rgba(212, 161, 116, 0.10);
-        --tag-prefix-hover: #d4a174;
-      " href="/t/rust"><span class="crayons-tag__prefix">#</span>rust</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(33, 43, 58, 0.10);
         --tag-prefix: #212b3a;
         --tag-bg-hover: rgba(33, 43, 58, 0.10);
         --tag-prefix-hover: #212b3a;
       " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/copubah/building-a-simple-cloud-security-automation-tool-in-rust-316b#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building a Simple Cloud Security Automation Tool in Rust">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aecibn5jekz29o5lvh8wip3kg0u1yw5n" class="crayons-icon"><title id="aecibn5jekz29o5lvh8wip3kg0u1yw5n">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3197820" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3197820" data-article-author-id="2950687" aria-label="Save post Building a Simple Cloud Security Automation Tool in Rust to reading list" title="Save post Building a Simple Cloud Security Automation Tool in Rust to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top 15 Container Security Best Practices]]></title>
-        <id>https://dev.to/prithiviraj_rengarajan/top-15-container-security-best-practices-75o</id>
-        <link href="https://dev.to/prithiviraj_rengarajan/top-15-container-security-best-practices-75o"/>
-        <updated>2026-01-25T19:40:33.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/prithiviraj_rengarajan/top-15-container-security-best-practices-75o" aria-labelledby="article-link-3197814" class="crayons-story__hidden-navigation-link">Top 15 Container Security Best Practices</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/prithiviraj_rengarajan" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2615547%2F59c7b82d-71af-44c5-82c5-57460a9ceb5b.jpg" alt="prithiviraj_rengarajan profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/prithiviraj_rengarajan" class="crayons-story__secondary fw-medium m:hidden">
-              Prithiviraj R
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3197814" aria-controls="story-author-preview-content-3197814" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Prithiviraj R profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Prithiviraj R
-                
-              </button>
-              <div id="story-author-preview-content-3197814" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/prithiviraj_rengarajan" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2615547%2F59c7b82d-71af-44c5-82c5-57460a9ceb5b.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Prithiviraj R</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2615547,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Prithiviraj R&quot;}" data-fetched="fetched" aria-label="Follow user: Prithiviraj R" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="2615547"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/prithiviraj_rengarajan/top-15-container-security-best-practices-75o" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-25T19:40:33Z" title="">Jan 25</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769370033"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/prithiviraj_rengarajan/top-15-container-security-best-practices-75o" data-preload-image="" id="article-link-3197814">
-          Top 15 Container Security Best Practices
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(29, 99, 237, 0.10);
-        --tag-prefix: #1D63ED;
-        --tag-bg-hover: rgba(29, 99, 237, 0.10);
-        --tag-prefix-hover: #1D63ED;
-      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(50, 109, 230, 0.10);
-        --tag-prefix: #326de6;
-        --tag-bg-hover: rgba(50, 109, 230, 0.10);
-        --tag-prefix-hover: #326de6;
-      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/prithiviraj_rengarajan/top-15-container-security-best-practices-75o#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Top 15 Container Security Best Practices">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aelbyluef4fulo926ukl9kl0ysa5zw5p" class="crayons-icon"><title id="aelbyluef4fulo926ukl9kl0ysa5zw5p">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            3 min read
-          </small>
-            <button type="button" id="article-save-button-3197814" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3197814" data-article-author-id="2615547" aria-label="Save post Top 15 Container Security Best Practices to reading list" title="Save post Top 15 Container Security Best Practices to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Converting an Unencrypted EBS Volume to an Encrypted One in AWS: A Step-by-Step Guide]]></title>
-        <id>https://dev.to/shashank-2310/converting-an-unencrypted-ebs-volume-to-an-encrypted-one-in-aws-a-step-by-step-guide-4b1h</id>
-        <link href="https://dev.to/shashank-2310/converting-an-unencrypted-ebs-volume-to-an-encrypted-one-in-aws-a-step-by-step-guide-4b1h"/>
-        <updated>2026-01-24T09:19:59.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/shashank-2310/converting-an-unencrypted-ebs-volume-to-an-encrypted-one-in-aws-a-step-by-step-guide-4b1h" aria-labelledby="article-link-3195276" class="crayons-story__hidden-navigation-link">Converting an Unencrypted EBS Volume to an Encrypted One in AWS: A Step-by-Step Guide</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/shashank-2310" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3729846%2F302febf8-6b39-4de8-a535-80008704684a.jpg" alt="shashank-2310 profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/shashank-2310" class="crayons-story__secondary fw-medium m:hidden">
-              Shashank Gupta
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3195276" aria-controls="story-author-preview-content-3195276" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Shashank Gupta profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Shashank Gupta
-                
-              </button>
-              <div id="story-author-preview-content-3195276" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/shashank-2310" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3729846%2F302febf8-6b39-4de8-a535-80008704684a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Shashank Gupta</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3729846,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Shashank Gupta&quot;}" data-fetched="fetched" aria-label="Follow user: Shashank Gupta" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3729846"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/shashank-2310/converting-an-unencrypted-ebs-volume-to-an-encrypted-one-in-aws-a-step-by-step-guide-4b1h" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-24T09:19:59Z" title="">Jan 24</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769246399"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/shashank-2310/converting-an-unencrypted-ebs-volume-to-an-encrypted-one-in-aws-a-step-by-step-guide-4b1h" data-preload-image="" id="article-link-3195276">
-          Converting an Unencrypted EBS Volume to an Encrypted One in AWS: A Step-by-Step Guide
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(255, 153, 0, 0.10);
         --tag-prefix: #FF9900;
         --tag-bg-hover: rgba(255, 153, 0, 0.10);
         --tag-prefix-hover: #FF9900;
       " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-          <a href="https://dev.to/shashank-2310/converting-an-unencrypted-ebs-volume-to-an-encrypted-one-in-aws-a-step-by-step-guide-4b1h" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3195276" aria-label="Add a comment to post - Converting an Unencrypted EBS Volume to an Encrypted One in AWS: A Step-by-Step Guide">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/shashank-2310/converting-an-unencrypted-ebs-volume-to-an-encrypted-one-in-aws-a-step-by-step-guide-4b1h#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Converting an Unencrypted EBS Volume to an Encrypted One in AWS: A Step-by-Step Guide">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ai5z1lj6081ngyl4e94hc9okpnclb5cx" class="crayons-icon"><title id="ai5z1lj6081ngyl4e94hc9okpnclb5cx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/daniel_shaibu/configuring-microsoft-defender-for-cloud-for-enhanced-protection-2ip5#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Configuring Microsoft Defender for Cloud for Enhanced Protection">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a864f97xav1yxzdova9nohursrgkdsqk" class="crayons-icon"><title id="a864f97xav1yxzdova9nohursrgkdsqk">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            3 min read
+            1 min read
           </small>
-            <button type="button" id="article-save-button-3195276" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3195276" data-article-author-id="3729846" aria-label="Save post Converting an Unencrypted EBS Volume to an Encrypted One in AWS: A Step-by-Step Guide to reading list" title="Save post Converting an Unencrypted EBS Volume to an Encrypted One in AWS: A Step-by-Step Guide to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Docker Compose - SFTP: Managing files securely]]></title>
-        <id>https://dev.to/xandecodes/docker-compose-sftp-managing-files-securely-48b0</id>
-        <link href="https://dev.to/xandecodes/docker-compose-sftp-managing-files-securely-48b0"/>
-        <updated>2026-01-25T21:29:40.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/xandecodes/docker-compose-sftp-managing-files-securely-48b0" aria-labelledby="article-link-3197922" class="crayons-story__hidden-navigation-link">Docker Compose - SFTP: Managing files securely</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/xandecodes" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F354814%2F8a20727e-b070-4b04-834b-53a7e8e85ed5.jpeg" alt="xandecodes profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/xandecodes" class="crayons-story__secondary fw-medium m:hidden">
-              Alexandre Fernandes dos Santos
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3197922" aria-controls="story-author-preview-content-3197922" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Alexandre Fernandes dos Santos profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Alexandre Fernandes dos Santos
-                
-              </button>
-              <div id="story-author-preview-content-3197922" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/xandecodes" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F354814%2F8a20727e-b070-4b04-834b-53a7e8e85ed5.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Alexandre Fernandes dos Santos</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:354814,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Alexandre Fernandes dos Santos&quot;}" data-fetched="fetched" aria-label="Follow user: Alexandre Fernandes dos Santos" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="354814"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/xandecodes/docker-compose-sftp-managing-files-securely-48b0" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-25T21:29:40Z" title="">Jan 25</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769376580"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/xandecodes/docker-compose-sftp-managing-files-securely-48b0" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz8k6hya5kd3z1pgn00u0.png" id="article-link-3197922">
-          Docker Compose - SFTP: Managing files securely
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(29, 99, 237, 0.10);
-        --tag-prefix: #1D63ED;
-        --tag-bg-hover: rgba(29, 99, 237, 0.10);
-        --tag-prefix-hover: #1D63ED;
-      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 131, 53, 0.10);
-        --tag-prefix: #008335;
-        --tag-bg-hover: rgba(0, 131, 53, 0.10);
-        --tag-prefix-hover: #008335;
-      " href="/t/beginners"><span class="crayons-tag__prefix">#</span>beginners</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(193, 216, 47, 0.10);
-        --tag-prefix: #c1d82f;
-        --tag-bg-hover: rgba(193, 216, 47, 0.10);
-        --tag-prefix-hover: #c1d82f;
-      " href="/t/tooling"><span class="crayons-tag__prefix">#</span>tooling</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/xandecodes/docker-compose-sftp-managing-files-securely-48b0" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3197922" aria-label="Add a comment to post - Docker Compose - SFTP: Managing files securely">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/xandecodes/docker-compose-sftp-managing-files-securely-48b0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Docker Compose - SFTP: Managing files securely">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2puoefjmqtibw3097erd6bpkg2u0iwj" class="crayons-icon"><title id="a2puoefjmqtibw3097erd6bpkg2u0iwj">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
-          </small>
-            <button type="button" id="article-save-button-3197922" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3197922" data-article-author-id="354814" aria-label="Save post Docker Compose - SFTP: Managing files securely to reading list" title="Save post Docker Compose - SFTP: Managing files securely to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3199076" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3199076" data-article-author-id="3395301" aria-label="Save post Configuring Microsoft Defender for Cloud for Enhanced Protection to reading list" title="Save post Configuring Microsoft Defender for Cloud for Enhanced Protection to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
