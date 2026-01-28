@@ -2,21 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://trainsec.net/library/</id>
     <title>trainsec</title>
-    <updated>2026-01-28T14:11:00.833Z</updated>
+    <updated>2026-01-28T17:12:20.816Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://trainsec.net/wp-content/uploads/2024/05/Icon-no-space@2x-150x150.png</icon>
     <entry>
-        <title type="html"><![CDATA[Process Hollowing, Or Something Close Enough to Be Interesting]]></title>
-        <id>https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/</id>
-        <link href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/"/>
+        <title type="html"><![CDATA[When Process Hollowing Isn’t Process Hollowing]]></title>
+        <id>https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/</id>
+        <link href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/"/>
         <updated>2026-01-27T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/" tabindex="-1">
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/" tabindex="-1">
 			<div class="elementor-post__thumbnail"><img decoding="async" width="2560" height="1301" src="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png" class="attachment-full size-full wp-image-9944" alt="Process Hollowing scaled" srcset="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png 2560w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-300x152.png 300w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1024x520.png 1024w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-768x390.png 768w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1536x780.png 1536w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-2048x1040.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/">
-				Process Hollowing, Or Something Close Enough to Be Interesting			</a>
+			<a href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/">
+				When Process Hollowing Isn’t Process Hollowing			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
@@ -28,23 +28,23 @@
 			<p>Process hollowing is usually described as creating a process in a suspended state, removing its original executable image, and replacing it with a different one. From the outside, the process appears normal, but the code running inside is not what you expect. In this article, I explore a slightly different idea.</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/" aria-label="Read more about Process Hollowing, Or Something Close Enough to Be Interesting" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/" aria-label="Read more about When Process Hollowing Isn’t Process Hollowing" tabindex="-1">
 			Dive in		</a>
 
 				</div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Process Hollowing, Or Something Close Enough to Be Interesting]]></title>
-        <id>https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/</id>
-        <link href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/"/>
+        <title type="html"><![CDATA[When Process Hollowing Isn’t Process Hollowing]]></title>
+        <id>https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/</id>
+        <link href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/"/>
         <updated>2026-01-27T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/" tabindex="-1">
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/" tabindex="-1">
 			<div class="elementor-post__thumbnail"><img decoding="async" width="2560" height="1301" src="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png" class="attachment-full size-full wp-image-9944" alt="Process Hollowing scaled" srcset="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png 2560w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-300x152.png 300w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1024x520.png 1024w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-768x390.png 768w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1536x780.png 1536w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-2048x1040.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/">
-				Process Hollowing, Or Something Close Enough to Be Interesting			</a>
+			<a href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/">
+				When Process Hollowing Isn’t Process Hollowing			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
@@ -55,7 +55,7 @@
 				<div class="elementor-post__excerpt">
 			<p>Process hollowing is usually described as creating a process in a suspended state, removing its original executable image, and replacing it with a different one.		</p></div>
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-hollowing-or-something-close-enough-to-be-interesting/" aria-label="Read more about Process Hollowing, Or Something Close Enough to Be Interesting" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/" aria-label="Read more about When Process Hollowing Isn’t Process Hollowing" tabindex="-1">
 			Read More 		</a>
 
 				</div>]]></content>
