@@ -2,9 +2,114 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-28T04:39:14.657Z</updated>
+    <updated>2026-01-28T05:11:01.631Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Tu Nube como una Base de Datos: Guía Práctica de Steampipe para AWS]]></title>
+        <id>https://dev.to/kevinl/tu-nube-como-una-base-de-datos-guia-practica-de-steampipe-para-aws-52j0</id>
+        <link href="https://dev.to/kevinl/tu-nube-como-una-base-de-datos-guia-practica-de-steampipe-para-aws-52j0"/>
+        <updated>2026-01-28T03:27:37.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/kevinl/tu-nube-como-una-base-de-datos-guia-practica-de-steampipe-para-aws-52j0" aria-labelledby="article-link-3197957" class="crayons-story__hidden-navigation-link">Tu Nube como una Base de Datos: Guía Práctica de Steampipe para AWS</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/kevinl" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F980718%2Fc3d3569e-f65f-4afa-b79b-eee85b352723.jpeg" alt="kevinl profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/kevinl" class="crayons-story__secondary fw-medium m:hidden">
+              Kevin Lupera
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3197957" aria-controls="story-author-preview-content-3197957" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Kevin Lupera profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Kevin Lupera
+                
+              </button>
+              <div id="story-author-preview-content-3197957" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/kevinl" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F980718%2Fc3d3569e-f65f-4afa-b79b-eee85b352723.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Kevin Lupera</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:980718,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Kevin Lupera&quot;}" data-fetched="fetched" aria-label="Follow user: Kevin Lupera" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="980718"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/kevinl/tu-nube-como-una-base-de-datos-guia-practica-de-steampipe-para-aws-52j0" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-28T03:27:37Z" title="">Jan 28</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769570857"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/kevinl/tu-nube-como-una-base-de-datos-guia-practica-de-steampipe-para-aws-52j0" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftdrwlfj3z877lee0doa4.png" id="article-link-3197957">
+          Tu Nube como una Base de Datos: Guía Práctica de Steampipe para AWS
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(237, 21, 86, 0.10);
+        --tag-prefix: #ED1556;
+        --tag-bg-hover: rgba(237, 21, 86, 0.10);
+        --tag-prefix-hover: #ED1556;
+      " href="/t/sql"><span class="crayons-tag__prefix">#</span>sql</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/kevinl/tu-nube-como-una-base-de-datos-guia-practica-de-steampipe-para-aws-52j0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Tu Nube como una Base de Datos: Guía Práctica de Steampipe para AWS">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aegs6p1lm6lf7sbb5y9xsnsm1iinkioh" class="crayons-icon"><title id="aegs6p1lm6lf7sbb5y9xsnsm1iinkioh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3197957" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3197957" data-article-author-id="980718" aria-label="Save post Tu Nube como una Base de Datos: Guía Práctica de Steampipe para AWS to reading list" title="Save post Tu Nube como una Base de Datos: Guía Práctica de Steampipe para AWS to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Build a Military-Grade SOC for $0 (Wazuh + Docker + Python)]]></title>
         <id>https://dev.to/it_solutions_pro/build-a-military-grade-soc-for-0-wazuh-docker-python-3kam</id>
@@ -92,7 +197,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/it_solutions_pro/build-a-military-grade-soc-for-0-wazuh-docker-python-3kam#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Build a Military-Grade SOC for $0 (Wazuh + Docker + Python)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aij1w3mia9xygpu0x6zqjhtjlr23blxl" class="crayons-icon"><title id="aij1w3mia9xygpu0x6zqjhtjlr23blxl">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="acn5j1os6nmkaxzc1bc08ldbb288paze" class="crayons-icon"><title id="acn5j1os6nmkaxzc1bc08ldbb288paze">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -197,7 +302,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/cverports/cve-2026-24765-the-cicd-trojan-horse-inside-phpunits-unsafe-deserialization-pl0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - CVE-2026-24765: The CI/CD Trojan Horse: Inside PHPUnit's Unsafe Deserialization">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a65jupcbtrykutklmdsjqt19hvsa4c4t" class="crayons-icon"><title id="a65jupcbtrykutklmdsjqt19hvsa4c4t">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqyzjhsndpvbs3c3mwdplu4vrzpdx271" class="crayons-icon"><title id="aqyzjhsndpvbs3c3mwdplu4vrzpdx271">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -308,7 +413,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/srinivasamcjf/how-to-secure-your-cicd-pipeline-end-to-end-with-real-tools-plj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How to Secure Your CI/CD Pipeline End-to-End (With Real Tools)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="agkyxw92cu6zumc7bkix0mxc9toyxojo" class="crayons-icon"><title id="agkyxw92cu6zumc7bkix0mxc9toyxojo">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aa9iscjwa6er98pzxmz66ef7so17ythm" class="crayons-icon"><title id="aa9iscjwa6er98pzxmz66ef7so17ythm">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -413,7 +518,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/cverports/cve-2026-24473-the-infinite-fallback-how-hono-leaked-your-cloudflare-kv-keys-284b#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - CVE-2026-24473: The Infinite Fallback: How Hono Leaked Your Cloudflare KV Keys">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aocurdwq1tzbg1qp9u81cfdk4hcpgwny" class="crayons-icon"><title id="aocurdwq1tzbg1qp9u81cfdk4hcpgwny">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akcckajjks47dnw68guueg1nwezcl92r" class="crayons-icon"><title id="akcckajjks47dnw68guueg1nwezcl92r">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -524,7 +629,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/ashish_krishna_pavan_gade/cloudflare-outages-causes-impact-and-systemic-risk-to-the-internet-2i1a#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Cloudflare Outages: Causes, Impact, and Systemic Risk to the Internet">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apmw0rfzrnx0nt7qlwmiu2i77wvgdmgl" class="crayons-icon"><title id="apmw0rfzrnx0nt7qlwmiu2i77wvgdmgl">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aiobu95lyr3600mvrg396vg4w5r4l0di" class="crayons-icon"><title id="aiobu95lyr3600mvrg396vg4w5r4l0di">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -657,7 +762,7 @@
             </div>
           </a>
             <a href="https://dev.to/aws-builders/securing-ai-skills-52jg#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Securing AI Skills">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ah2czfnf3rufwx2k69rp1jmn10gp3m7q" class="crayons-icon"><title id="ah2czfnf3rufwx2k69rp1jmn10gp3m7q">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="amznpy7oehcne5fnp42utxql7sghbr6u" class="crayons-icon"><title id="amznpy7oehcne5fnp42utxql7sghbr6u">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
