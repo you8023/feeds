@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-29T19:56:34.409Z</updated>
+    <updated>2026-01-29T21:56:24.923Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Zero Trust 2026: Has the Trust Boundary 'Vanished'? AI, ID-JAG, and Confidential Computing]]></title>
+        <id>https://dev.to/kanywst/zero-trust-2026-has-the-trust-boundary-vanished-ai-id-jag-and-confidential-computing-5d13</id>
+        <link href="https://dev.to/kanywst/zero-trust-2026-has-the-trust-boundary-vanished-ai-id-jag-and-confidential-computing-5d13"/>
+        <updated>2026-01-29T19:46:01.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/kanywst/zero-trust-2026-has-the-trust-boundary-vanished-ai-id-jag-and-confidential-computing-5d13" aria-labelledby="article-link-3208612" class="crayons-story__hidden-navigation-link">Zero Trust 2026: Has the Trust Boundary 'Vanished'? AI, ID-JAG, and Confidential Computing</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/kanywst" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3700180%2F04651b63-c6a1-4069-b356-a0f85c17e0bb.png" alt="kanywst profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/kanywst" class="crayons-story__secondary fw-medium m:hidden">
+              kt
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3208612" aria-controls="story-author-preview-content-3208612" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="kt profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                kt
+                
+              </button>
+              <div id="story-author-preview-content-3208612" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/kanywst" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3700180%2F04651b63-c6a1-4069-b356-a0f85c17e0bb.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">kt</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3700180,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;kt&quot;}" data-fetched="fetched" aria-label="Follow user: kt" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3700180"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/kanywst/zero-trust-2026-has-the-trust-boundary-vanished-ai-id-jag-and-confidential-computing-5d13" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-29T19:46:01Z" title="">Jan 29</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769715961"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/kanywst/zero-trust-2026-has-the-trust-boundary-vanished-ai-id-jag-and-confidential-computing-5d13" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fkanywst%2Fdev.to.kanywst%2Frefs%2Fheads%2Fmain%2Farticles%2Fassets%2Fzerotrust%2Fzerotrust.png" id="article-link-3208612">
+          Zero Trust 2026: Has the Trust Boundary 'Vanished'? AI, ID-JAG, and Confidential Computing
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/zerotrust"><span class="crayons-tag__prefix">#</span>zerotrust</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/cloudnative"><span class="crayons-tag__prefix">#</span>cloudnative</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/kanywst/zero-trust-2026-has-the-trust-boundary-vanished-ai-id-jag-and-confidential-computing-5d13#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Zero Trust 2026: Has the Trust Boundary 'Vanished'? AI, ID-JAG, and Confidential Computing">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a63794ri2lajc7ob3ya3k1pg61c7aokh" class="crayons-icon"><title id="a63794ri2lajc7ob3ya3k1pg61c7aokh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            6 min read
+          </small>
+            <button type="button" id="article-save-button-3208612" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3208612" data-article-author-id="3700180" aria-label="Save post Zero Trust 2026: Has the Trust Boundary 'Vanished'? AI, ID-JAG, and Confidential Computing to reading list" title="Save post Zero Trust 2026: Has the Trust Boundary 'Vanished'? AI, ID-JAG, and Confidential Computing to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Why Modern Architectures Keep Failing Security Reviews (And It’s Not a Tools Problem)]]></title>
         <id>https://dev.to/iyanu_david/why-modern-architectures-keep-failing-security-reviews-and-its-not-a-tools-problem-lfc</id>
@@ -92,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/iyanu_david/why-modern-architectures-keep-failing-security-reviews-and-its-not-a-tools-problem-lfc#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Why Modern Architectures Keep Failing Security Reviews (And It’s Not a Tools Problem)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alpztw1okumehi2x75v43vwndyrr1cdi" class="crayons-icon"><title id="alpztw1okumehi2x75v43vwndyrr1cdi">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aohqngjt4fxugd8z838r4sivroyoubw" class="crayons-icon"><title id="aohqngjt4fxugd8z838r4sivroyoubw">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -101,7 +212,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3207144" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3207144" data-article-author-id="3739117" aria-label="Save post Why Modern Architectures Keep Failing Security Reviews (And It’s Not a Tools Problem) to reading list" title="Save post Why Modern Architectures Keep Failing Security Reviews (And It’s Not a Tools Problem) to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3207144" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3207144" data-article-author-id="3739117" aria-label="Save post Why Modern Architectures Keep Failing Security Reviews (And It’s Not a Tools Problem) to reading list" title="Save post Why Modern Architectures Keep Failing Security Reviews (And It’s Not a Tools Problem) to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -207,7 +318,7 @@
             </div>
           </a>
             <a href="https://dev.to/aws-builders/5-best-practices-for-securing-amazon-sagemaker-408h#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 5 Best Practices for Securing Amazon SageMaker.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="al91yfdvivar5vmp4yppteh8ehkwua3u" class="crayons-icon"><title id="al91yfdvivar5vmp4yppteh8ehkwua3u">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akyzk2zgt3uv9d3432k1rwmvvhvfc9wx" class="crayons-icon"><title id="akyzk2zgt3uv9d3432k1rwmvvhvfc9wx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -216,7 +327,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3207214" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3207214" data-article-author-id="635483" aria-label="Save post 5 Best Practices for Securing Amazon SageMaker. to reading list" title="Save post 5 Best Practices for Securing Amazon SageMaker. to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3207214" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3207214" data-article-author-id="635483" aria-label="Save post 5 Best Practices for Securing Amazon SageMaker. to reading list" title="Save post 5 Best Practices for Securing Amazon SageMaker. to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -334,7 +445,7 @@
             </div>
           </a>
             <a href="https://dev.to/migrosonline/how-migros-online-protects-its-assets-with-cloudflare-a-ddos-story-2n8j#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How Migros Online protects its assets with Cloudflare - a DDoS Story">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aj68jnrmrllar9pq8lwtwsg3awxj635p" class="crayons-icon"><title id="aj68jnrmrllar9pq8lwtwsg3awxj635p">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aimuk69w5ccqmv94wz77kxs5xjn6yc60" class="crayons-icon"><title id="aimuk69w5ccqmv94wz77kxs5xjn6yc60">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -343,7 +454,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3176918" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3176918" data-article-author-id="3712771" aria-label="Save post How Migros Online protects its assets with Cloudflare - a DDoS Story to reading list" title="Save post How Migros Online protects its assets with Cloudflare - a DDoS Story to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3176918" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3176918" data-article-author-id="3712771" aria-label="Save post How Migros Online protects its assets with Cloudflare - a DDoS Story to reading list" title="Save post How Migros Online protects its assets with Cloudflare - a DDoS Story to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -445,7 +556,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/dguisinger/calling-a-public-api-gateway-custom-domain-from-a-private-vpc-without-reconfiguring-your-clients-2n35#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Calling a Public API Gateway Custom Domain from a Private VPC (Without Reconfiguring Your Clients)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ai4ylmvzw2z61h0m4ekznh9rsa4byxnn" class="crayons-icon"><title id="ai4ylmvzw2z61h0m4ekznh9rsa4byxnn">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alc39llmpvkghnlgmhwrk572bl19u9j7" class="crayons-icon"><title id="alc39llmpvkghnlgmhwrk572bl19u9j7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -454,7 +565,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3206000" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3206000" data-article-author-id="1366515" aria-label="Save post Calling a Public API Gateway Custom Domain from a Private VPC (Without Reconfiguring Your Clients) to reading list" title="Save post Calling a Public API Gateway Custom Domain from a Private VPC (Without Reconfiguring Your Clients) to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3206000" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3206000" data-article-author-id="1366515" aria-label="Save post Calling a Public API Gateway Custom Domain from a Private VPC (Without Reconfiguring Your Clients) to reading list" title="Save post Calling a Public API Gateway Custom Domain from a Private VPC (Without Reconfiguring Your Clients) to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -556,7 +667,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/cverports/ghsa-gpx9-96j6-pp87-the-call-is-coming-from-inside-the-container-taskweavers-docker-escape-1l3e#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - GHSA-GPX9-96J6-PP87: The Call Is Coming From Inside The Container: TaskWeaver's Docker Escape">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9m82zlmtwwps88prnzzrib9n2cn644b" class="crayons-icon"><title id="a9m82zlmtwwps88prnzzrib9n2cn644b">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ajko35jgst5zeni91jc0v0o4do443300" class="crayons-icon"><title id="ajko35jgst5zeni91jc0v0o4do443300">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -565,7 +676,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
           </small>
-            <button type="button" id="article-save-button-3205549" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3205549" data-article-author-id="1959489" aria-label="Save post GHSA-GPX9-96J6-PP87: The Call Is Coming From Inside The Container: TaskWeaver's Docker Escape to reading list" title="Save post GHSA-GPX9-96J6-PP87: The Call Is Coming From Inside The Container: TaskWeaver's Docker Escape to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3205549" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3205549" data-article-author-id="1959489" aria-label="Save post GHSA-GPX9-96J6-PP87: The Call Is Coming From Inside The Container: TaskWeaver's Docker Escape to reading list" title="Save post GHSA-GPX9-96J6-PP87: The Call Is Coming From Inside The Container: TaskWeaver's Docker Escape to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
