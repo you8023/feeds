@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lab.ctbb.show/research/all/</id>
     <title>ctbb_research</title>
-    <updated>2026-01-30T05:00:59.924Z</updated>
+    <updated>2026-01-30T08:05:13.279Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://lab.ctbb.show/research/all/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Parse and Parse: MIME Validation Bypass to XSS via Parser DifferentialNEW]]></title>
+        <id>https://lab.ctbb.show/research/parse-and-parse-mime-validation-bypass-to-xss-via-parser-differential</id>
+        <link href="https://lab.ctbb.show/research/parse-and-parse-mime-validation-bypass-to-xss-via-parser-differential"/>
+        <updated>2026-01-30T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/research/parse-and-parse-mime-validation-bypass-to-xss-via-parser-differential">Parse and Parse: MIME Validation Bypass to XSS via Parser Differential<span class="new-badge">NEW</span></a>
+                </h3>
+                <div class="article-subtitle">This research is an extension of Content-Type research from BlackFan. More specifically, the response Content-Type tricks. Unfortunately, the multiple Content-Type trick is not clearly explained by BlackFan. Therefore, I'll explain and demonstrate how a single comma character can cause a parsing difference between the browser and different MIME type parser libraries.</div>
+                <div class="article-meta">
+                    <span class="article-date">Jan 30, 2026</span> • <span class="article-author"><span>Tang Cheuk Hei</span><img src="/assets/images/siunam.png" alt="Tang Cheuk Hei" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt"># Parse and Parse: MIME Validation Bypass to XSS via Parser Differential This research is an extensi...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="parser-differential">parser-differential</span><span class="article-tag" data-tag="client-side">client-side</span><span class="article-tag" data-tag="mime">mime</span><span class="article-tag" data-tag="xss">xss</span></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Achieving remote code execution in LangSmith Playground using unsafe template formatting]]></title>
         <id>https://lab.ctbb.show/research/langsmith-unsafe-formatting-to-rce</id>
@@ -139,20 +154,5 @@
                 </div>
                 <div class="article-excerpt">If you can do CRLF injection in the response header, most likely you can also inject 2 CRLF (Carriag...</div>
                 <div class="article-tags"><span class="article-tag" data-tag="client-side">client-side</span><span class="article-tag" data-tag="crlf-injection">crlf-injection</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="csp">csp</span></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Abusing libmagic﹕ Inconsistencies That Lead to Type Confusion]]></title>
-        <id>https://lab.ctbb.show/research/libmagic-inconsistencies-that-lead-to-type-confusion</id>
-        <link href="https://lab.ctbb.show/research/libmagic-inconsistencies-that-lead-to-type-confusion"/>
-        <updated>2025-10-06T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/libmagic-inconsistencies-that-lead-to-type-confusion">Abusing libmagic﹕ Inconsistencies That Lead to Type Confusion</a>
-                </h3>
-                <div class="article-subtitle">Exploring libmagic’s inconsistencies in JSON detection and type confusion. A research note on file uploads, misclassification, and security risks.</div>
-                <div class="article-meta">
-                    <span class="article-date">Oct 6, 2025</span> • <span class="article-author"><span>Hamid Sj</span><img src="/assets/images/hamidsj.jpg" alt="Hamid Sj" class="author-avatar"></span>
-                </div>
-                <div class="article-excerpt">I was re-checking Doyensec’s CSPT → file-upload writeup and noticed their example payloads weren’t b...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="cspt">cspt</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="file-upload">file-upload</span><span class="article-tag" data-tag="chain">chain</span><span class="article-tag" data-tag="confusion">confusion</span></div>]]></content>
     </entry>
 </feed>
