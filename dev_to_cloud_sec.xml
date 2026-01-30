@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-01-30T17:11:45.098Z</updated>
+    <updated>2026-01-30T23:53:18.205Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[How to Configure Asymmetric JWTs on Self-Hosted Supabase]]></title>
+        <id>https://dev.to/vpcano/how-to-configure-asymmetric-jwts-on-self-hosted-supabase-53ed</id>
+        <link href="https://dev.to/vpcano/how-to-configure-asymmetric-jwts-on-self-hosted-supabase-53ed"/>
+        <updated>2026-01-30T19:19:41.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/vpcano/how-to-configure-asymmetric-jwts-on-self-hosted-supabase-53ed" aria-labelledby="article-link-3211434" class="crayons-story__hidden-navigation-link">How to Configure Asymmetric JWTs on Self-Hosted Supabase</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/vpcano" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3741369%2F7e7f52b6-e356-4c71-80d1-e7bdf44855aa.jpeg" alt="vpcano profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/vpcano" class="crayons-story__secondary fw-medium m:hidden">
+              Víctor Pérez Cano
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3211434" aria-controls="story-author-preview-content-3211434" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Víctor Pérez Cano profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Víctor Pérez Cano
+                
+              </button>
+              <div id="story-author-preview-content-3211434" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/vpcano" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3741369%2F7e7f52b6-e356-4c71-80d1-e7bdf44855aa.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Víctor Pérez Cano</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3741369,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Víctor Pérez Cano&quot;}" data-fetched="fetched" aria-label="Follow user: Víctor Pérez Cano" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3741369"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/vpcano/how-to-configure-asymmetric-jwts-on-self-hosted-supabase-53ed" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-30T19:19:41Z" title="">Jan 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769800781"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/vpcano/how-to-configure-asymmetric-jwts-on-self-hosted-supabase-53ed" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3t7ac18rzd1anjo2xy75.png" id="article-link-3211434">
+          How to Configure Asymmetric JWTs on Self-Hosted Supabase
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/supabase"><span class="crayons-tag__prefix">#</span>supabase</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(86, 39, 101, 0.10);
+        --tag-prefix: #562765;
+        --tag-bg-hover: rgba(86, 39, 101, 0.10);
+        --tag-prefix-hover: #562765;
+      " href="/t/webdev"><span class="crayons-tag__prefix">#</span>webdev</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/vpcano/how-to-configure-asymmetric-jwts-on-self-hosted-supabase-53ed#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How to Configure Asymmetric JWTs on Self-Hosted Supabase">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akct50134b6r0w2872ubhq4vyu124ex" class="crayons-icon"><title id="akct50134b6r0w2872ubhq4vyu124ex">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            3 min read
+          </small>
+            <button type="button" id="article-save-button-3211434" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3211434" data-article-author-id="3741369" aria-label="Save post How to Configure Asymmetric JWTs on Self-Hosted Supabase to reading list" title="Save post How to Configure Asymmetric JWTs on Self-Hosted Supabase to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Kubernetes Pentest Methodology: Cluster Security from an Attacker's Perspective]]></title>
         <id>https://dev.to/kanywst/kubernetes-pentest-methodology-cluster-security-from-an-attackers-perspective-1fek</id>
@@ -92,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/kanywst/kubernetes-pentest-methodology-cluster-security-from-an-attackers-perspective-1fek#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Kubernetes Pentest Methodology: Cluster Security from an Attacker's Perspective">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="am7vcq0j953yebhd6xv7h8qn2vu16ju7" class="crayons-icon"><title id="am7vcq0j953yebhd6xv7h8qn2vu16ju7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a13xpj87491prd738qehshyiid279skp" class="crayons-icon"><title id="a13xpj87491prd738qehshyiid279skp">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -101,7 +212,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3211009" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3211009" data-article-author-id="3700180" aria-label="Save post Kubernetes Pentest Methodology: Cluster Security from an Attacker's Perspective to reading list" title="Save post Kubernetes Pentest Methodology: Cluster Security from an Attacker's Perspective to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3211009" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3211009" data-article-author-id="3700180" aria-label="Save post Kubernetes Pentest Methodology: Cluster Security from an Attacker's Perspective to reading list" title="Save post Kubernetes Pentest Methodology: Cluster Security from an Attacker's Perspective to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -203,7 +314,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/ivanovpavel/exploring-ai-infrastructure-vibe-codings-promise-and-risks-343#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Exploring AI Infrastructure: Vibe Coding's Promise and Risks">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2srca8vpmvnrc7kx8blo6a1gqv10jun" class="crayons-icon"><title id="a2srca8vpmvnrc7kx8blo6a1gqv10jun">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akfhb9wlq70f4h9cn9sfddpf6d2d04rh" class="crayons-icon"><title id="akfhb9wlq70f4h9cn9sfddpf6d2d04rh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -212,7 +323,235 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             9 min read
           </small>
-            <button type="button" id="article-save-button-3210646" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3210646" data-article-author-id="2378305" aria-label="Save post Exploring AI Infrastructure: Vibe Coding's Promise and Risks to reading list" title="Save post Exploring AI Infrastructure: Vibe Coding's Promise and Risks to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3210646" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3210646" data-article-author-id="2378305" aria-label="Save post Exploring AI Infrastructure: Vibe Coding's Promise and Risks to reading list" title="Save post Exploring AI Infrastructure: Vibe Coding's Promise and Risks to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Raft Fails in Production and How Taubyte Raft Fixes It]]></title>
+        <id>https://dev.to/taubyte/why-raft-fails-in-production-and-how-taubyte-raft-fixes-it-2fnd</id>
+        <link href="https://dev.to/taubyte/why-raft-fails-in-production-and-how-taubyte-raft-fixes-it-2fnd"/>
+        <updated>2026-01-30T17:00:30.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/taubyte/why-raft-fails-in-production-and-how-taubyte-raft-fixes-it-2fnd" aria-labelledby="article-link-3211132" class="crayons-story__hidden-navigation-link">Why Raft Fails in Production and How Taubyte Raft Fixes It</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/taubyte">
+            <img alt="Taubyte logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F11678%2Fff10b2a8-1a7f-4bca-a6ee-e60dfbe5d65e.png" class="crayons-logo__image" loading="lazy">
+          </a>
+
+          <a href="/zaoui_amine" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3382992%2Fd48ebd6a-f81b-4b49-a88b-4fd5c6f88eaa.png" alt="zaoui_amine profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/zaoui_amine" class="crayons-story__secondary fw-medium m:hidden">
+              Zaoui Amine
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3211132" aria-controls="story-author-preview-content-3211132" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Zaoui Amine profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Zaoui Amine
+                
+              </button>
+              <div id="story-author-preview-content-3211132" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/zaoui_amine" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3382992%2Fd48ebd6a-f81b-4b49-a88b-4fd5c6f88eaa.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Zaoui Amine</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3382992,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Zaoui Amine&quot;}" data-fetched="fetched" aria-label="Follow user: Zaoui Amine" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3382992"></div>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/taubyte" class="crayons-story__secondary fw-medium">Taubyte</a>
+            </span>
+          </div>
+          <a href="https://dev.to/taubyte/why-raft-fails-in-production-and-how-taubyte-raft-fixes-it-2fnd" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-30T17:00:30Z" title="">Jan 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769792430"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/taubyte/why-raft-fails-in-production-and-how-taubyte-raft-fixes-it-2fnd" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjwpaph8qmpu4osr9shb2.jpg" id="article-link-3211132">
+          Why Raft Fails in Production and How Taubyte Raft Fixes It
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 102, 102, 0.10);
+        --tag-prefix: #006666;
+        --tag-bg-hover: rgba(0, 102, 102, 0.10);
+        --tag-prefix-hover: #006666;
+      " href="/t/distributedsystems"><span class="crayons-tag__prefix">#</span>distributedsystems</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/taubyte/why-raft-fails-in-production-and-how-taubyte-raft-fixes-it-2fnd#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Why Raft Fails in Production and How Taubyte Raft Fixes It">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5io7zi8wpimxwiexa21ttxc17t19cqk" class="crayons-icon"><title id="a5io7zi8wpimxwiexa21ttxc17t19cqk">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3211132" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3211132" data-article-author-id="3382992" aria-label="Save post Why Raft Fails in Production and How Taubyte Raft Fixes It to reading list" title="Save post Why Raft Fails in Production and How Taubyte Raft Fixes It to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I Replaced 500 Lines of cert-manager Config With a 150-Line Blueprint]]></title>
+        <id>https://dev.to/tom_mcnamara_ea54e17b4fa1/i-replaced-500-lines-of-cert-manager-config-with-a-50-line-blueprint-2325</id>
+        <link href="https://dev.to/tom_mcnamara_ea54e17b4fa1/i-replaced-500-lines-of-cert-manager-config-with-a-50-line-blueprint-2325"/>
+        <updated>2026-01-30T16:34:49.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/tom_mcnamara_ea54e17b4fa1/i-replaced-500-lines-of-cert-manager-config-with-a-50-line-blueprint-2325" aria-labelledby="article-link-3211030" class="crayons-story__hidden-navigation-link">I Replaced 500 Lines of cert-manager Config With a 150-Line Blueprint</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/tom_mcnamara_ea54e17b4fa1" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2857285%2F62ef7173-3881-4b48-903d-bf27bf268e0e.png" alt="tom_mcnamara_ea54e17b4fa1 profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/tom_mcnamara_ea54e17b4fa1" class="crayons-story__secondary fw-medium m:hidden">
+              Tom McNamara
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3211030" aria-controls="story-author-preview-content-3211030" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Tom McNamara profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Tom McNamara
+                
+              </button>
+              <div id="story-author-preview-content-3211030" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/tom_mcnamara_ea54e17b4fa1" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2857285%2F62ef7173-3881-4b48-903d-bf27bf268e0e.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Tom McNamara</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2857285,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Tom McNamara&quot;}" data-fetched="fetched" aria-label="Follow user: Tom McNamara" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="2857285"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/tom_mcnamara_ea54e17b4fa1/i-replaced-500-lines-of-cert-manager-config-with-a-50-line-blueprint-2325" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-30T16:34:49Z" title="">Jan 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769790889"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/tom_mcnamara_ea54e17b4fa1/i-replaced-500-lines-of-cert-manager-config-with-a-50-line-blueprint-2325" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fla8y5uvicswfhvingjdf.png" id="article-link-3211030">
+          I Replaced 500 Lines of cert-manager Config With a 150-Line Blueprint
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/zerotrust"><span class="crayons-tag__prefix">#</span>zerotrust</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/tom_mcnamara_ea54e17b4fa1/i-replaced-500-lines-of-cert-manager-config-with-a-50-line-blueprint-2325#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I Replaced 500 Lines of cert-manager Config With a 150-Line Blueprint">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="agjz8j1myo6xebe15ljsu9f67ahqpibw" class="crayons-icon"><title id="agjz8j1myo6xebe15ljsu9f67ahqpibw">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            9 min read
+          </small>
+            <button type="button" id="article-save-button-3211030" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3211030" data-article-author-id="2857285" aria-label="Save post I Replaced 500 Lines of cert-manager Config With a 150-Line Blueprint to reading list" title="Save post I Replaced 500 Lines of cert-manager Config With a 150-Line Blueprint to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -314,7 +653,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/iyanu_david/cicd-isnt-just-devops-its-your-largest-attack-surface-4j80#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - CI/CD Isn’t Just DevOps—It’s Your Largest Attack Surface">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afhaeoekf8n9x1qt0dfv052pkbdw79lj" class="crayons-icon"><title id="afhaeoekf8n9x1qt0dfv052pkbdw79lj">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8ut1n9gd9q1pgfmoc11h0ys6uyqcilu" class="crayons-icon"><title id="a8ut1n9gd9q1pgfmoc11h0ys6uyqcilu">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               1<span class="hidden s:inline">&nbsp;comment</span>
             </a>
@@ -323,7 +662,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3209603" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3209603" data-article-author-id="3739117" aria-label="Save post CI/CD Isn’t Just DevOps—It’s Your Largest Attack Surface to reading list" title="Save post CI/CD Isn’t Just DevOps—It’s Your Largest Attack Surface to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3209603" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3209603" data-article-author-id="3739117" aria-label="Save post CI/CD Isn’t Just DevOps—It’s Your Largest Attack Surface to reading list" title="Save post CI/CD Isn’t Just DevOps—It’s Your Largest Attack Surface to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -425,7 +764,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/iyanu_david/zero-trust-isnt-about-firewalls-its-about-identity-aaa#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Zero Trust Isn’t About Firewalls — It’s About Identity">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aip7yh5o4y0c1n5rd3d4w7y0b5fhs8jx" class="crayons-icon"><title id="aip7yh5o4y0c1n5rd3d4w7y0b5fhs8jx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aagfyge0jthor54iq2yuez7p7ypp4w3r" class="crayons-icon"><title id="aagfyge0jthor54iq2yuez7p7ypp4w3r">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -434,233 +773,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             3 min read
           </small>
-            <button type="button" id="article-save-button-3209782" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3209782" data-article-author-id="3739117" aria-label="Save post Zero Trust Isn’t About Firewalls — It’s About Identity to reading list" title="Save post Zero Trust Isn’t About Firewalls — It’s About Identity to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero Trust 2026: Has the Trust Boundary 'Vanished'? AI, ID-JAG, and Confidential Computing]]></title>
-        <id>https://dev.to/kanywst/zero-trust-2026-has-the-trust-boundary-vanished-ai-id-jag-and-confidential-computing-5d13</id>
-        <link href="https://dev.to/kanywst/zero-trust-2026-has-the-trust-boundary-vanished-ai-id-jag-and-confidential-computing-5d13"/>
-        <updated>2026-01-29T19:46:01.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/kanywst/zero-trust-2026-has-the-trust-boundary-vanished-ai-id-jag-and-confidential-computing-5d13" aria-labelledby="article-link-3208612" class="crayons-story__hidden-navigation-link">Zero Trust 2026: Has the Trust Boundary 'Vanished'? AI, ID-JAG, and Confidential Computing</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/kanywst" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3700180%2F04651b63-c6a1-4069-b356-a0f85c17e0bb.png" alt="kanywst profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/kanywst" class="crayons-story__secondary fw-medium m:hidden">
-              kt
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3208612" aria-controls="story-author-preview-content-3208612" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="kt profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                kt
-                
-              </button>
-              <div id="story-author-preview-content-3208612" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/kanywst" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3700180%2F04651b63-c6a1-4069-b356-a0f85c17e0bb.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">kt</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3700180,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;kt&quot;}" data-fetched="fetched" aria-label="Follow user: kt" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3700180"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/kanywst/zero-trust-2026-has-the-trust-boundary-vanished-ai-id-jag-and-confidential-computing-5d13" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-29T19:46:01Z" title="">Jan 29</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769715961"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/kanywst/zero-trust-2026-has-the-trust-boundary-vanished-ai-id-jag-and-confidential-computing-5d13" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fkanywst%2Fdev.to.kanywst%2Frefs%2Fheads%2Fmain%2Farticles%2Fassets%2Fzerotrust%2Fzerotrust.png" id="article-link-3208612">
-          Zero Trust 2026: Has the Trust Boundary 'Vanished'? AI, ID-JAG, and Confidential Computing
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/zerotrust"><span class="crayons-tag__prefix">#</span>zerotrust</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/cloudnative"><span class="crayons-tag__prefix">#</span>cloudnative</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/kanywst/zero-trust-2026-has-the-trust-boundary-vanished-ai-id-jag-and-confidential-computing-5d13#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Zero Trust 2026: Has the Trust Boundary 'Vanished'? AI, ID-JAG, and Confidential Computing">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aq8ui0qqmjysrsf6uh7wxlsq8umkobn9" class="crayons-icon"><title id="aq8ui0qqmjysrsf6uh7wxlsq8umkobn9">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            6 min read
-          </small>
-            <button type="button" id="article-save-button-3208612" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3208612" data-article-author-id="3700180" aria-label="Save post Zero Trust 2026: Has the Trust Boundary 'Vanished'? AI, ID-JAG, and Confidential Computing to reading list" title="Save post Zero Trust 2026: Has the Trust Boundary 'Vanished'? AI, ID-JAG, and Confidential Computing to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Best Practices for Securing Amazon SageMaker.]]></title>
-        <id>https://dev.to/aws-builders/5-best-practices-for-securing-amazon-sagemaker-408h</id>
-        <link href="https://dev.to/aws-builders/5-best-practices-for-securing-amazon-sagemaker-408h"/>
-        <updated>2026-01-29T09:21:06.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/aws-builders/5-best-practices-for-securing-amazon-sagemaker-408h" aria-labelledby="article-link-3207214" class="crayons-story__hidden-navigation-link">5 Best Practices for Securing Amazon SageMaker.</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-          <a class="crayons-logo crayons-logo--l" href="/aws-builders">
-            <img alt="AWS Community Builders  logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2794%2F88da75b6-aadd-4ea1-8083-ae2dfca8be94.png" class="crayons-logo__image" loading="lazy">
-          </a>
-
-          <a href="/pablosalas" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F635483%2Ff03a28a4-9d90-4832-8888-a7bd2d2c1fc7.jpg" alt="pablosalas profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/pablosalas" class="crayons-story__secondary fw-medium m:hidden">
-              Pablo Salas
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3207214" aria-controls="story-author-preview-content-3207214" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Pablo Salas profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Pablo Salas
-                
-              </button>
-              <div id="story-author-preview-content-3207214" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/pablosalas" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F635483%2Ff03a28a4-9d90-4832-8888-a7bd2d2c1fc7.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Pablo Salas</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:635483,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Pablo Salas&quot;}" data-fetched="fetched" aria-label="Follow user: Pablo Salas" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="635483"></div>
-                </div>
-              </div>
-            </div>
-
-            <span>
-              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/aws-builders" class="crayons-story__secondary fw-medium">AWS Community Builders </a>
-            </span>
-          </div>
-          <a href="https://dev.to/aws-builders/5-best-practices-for-securing-amazon-sagemaker-408h" class="crayons-story__tertiary fs-xs"><time datetime="2026-01-29T09:21:06Z" title="">Jan 29</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1769678466"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/aws-builders/5-best-practices-for-securing-amazon-sagemaker-408h" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbbi4d3w9f41xqq14frk3.webp" id="article-link-3207214">
-          5 Best Practices for Securing Amazon SageMaker.
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/awscommunitybuilders"><span class="crayons-tag__prefix">#</span>awscommunitybuilders</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/aws-builders/5-best-practices-for-securing-amazon-sagemaker-408h" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3207214" aria-label="Add a comment to post - 5 Best Practices for Securing Amazon SageMaker.">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/aws-builders/5-best-practices-for-securing-amazon-sagemaker-408h#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 5 Best Practices for Securing Amazon SageMaker.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7dz4m6f4j88qtme9ff23xeyh47nlusy" class="crayons-icon"><title id="a7dz4m6f4j88qtme9ff23xeyh47nlusy">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            3 min read
-          </small>
-            <button type="button" id="article-save-button-3207214" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3207214" data-article-author-id="635483" aria-label="Save post 5 Best Practices for Securing Amazon SageMaker. to reading list" title="Save post 5 Best Practices for Securing Amazon SageMaker. to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3209782" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3209782" data-article-author-id="3739117" aria-label="Save post Zero Trust Isn’t About Firewalls — It’s About Identity to reading list" title="Save post Zero Trust Isn’t About Firewalls — It’s About Identity to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
