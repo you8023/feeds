@@ -998,3 +998,49 @@ url = "https://fidelissecurity.com/resources/threat-reports/"
 entrySelector = ".e-loop-item"
 titleSelector = ".elementor-heading-title a"
 linkSelector = ".elementor-heading-title a"
+
+[grahamhelton]
+title = "Graham Helton"
+url = "https://grahamhelton.com/blog"
+entrySelector = "li.blog-entry"
+titleSelector = ".blog-title a"
+linkSelector = ".blog-title a"
+dateSelector = ".blog-date"
+dateFormat = "yyyy-MM-dd"
+
+[amberwolf]
+title = "AmberWolf"
+url = "https://blog.amberwolf.com/blog/"
+entrySelector = "article.post-card"
+titleSelector = ".post-title"
+linkSelector = ".post-title"
+dateSelector = "ul.card-meta > li:nth-child(2) > span"
+dateFormat = "dd MMM, yyyy"
+
+[armur]
+title = "Armur"
+url = "https://armur.ai/blogs"
+entrySelector = ".article"
+titleSelector = ".article__title"
+linkSelector = ".article__image"
+dateSelector = ".article__date"
+dateFormat = "MMM d, yyyy"
+
+[ericesquivel]
+title = "Eric Esquivel"
+url = "https://ericesquivel.github.io/"
+entrySelector = ".post-preview"
+titleSelector = ".post-title"
+linkSelector = "a"
+dateSelector = ".post-meta"
+dateFormat = "'Posted on 'MMMM d, yyyy"
+
+[safebreach]
+title = "SafeBreach"
+url = "https://www.safebreach.com/blog/"
+entrySelector = ".bs-post"
+titleSelector = ".bs-post__title :where(h3, h5)"
+linkSelector = ".bs-post__trigger"
+dateSelector = ".bs-post__date span"
+dateFormat = "MMM d , yyyy"
+
