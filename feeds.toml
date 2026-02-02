@@ -1080,3 +1080,28 @@ linkSelector = "a.cmp-related-pages-card__link"
 dateSelector = ".cmp-card__bottom-date"
 dateFormat = "dd MMM yyyy"
 
+[r0rt1z2]
+title = "R0rt1z2's Blog"
+url = "https://blog.r0rt1z2.com/"
+entrySelector = "#content-wrapper .card-base"
+titleSelector = "a.text-3xl"
+linkSelector = "a.text-3xl"
+dateSelector = "span.text-50"
+dateFormat = "yyyy-MM-dd"
+
+[castilho]
+title = "castilho blog"
+url = "https://castilho.sh/"
+entrySelector = "a.block.w-full"
+titleSelector = ".font-semibold"
+linkSelector = ":scope"
+
+[trellix_research]
+title = "trellix research"
+url = "https://www.trellix.com/blogs/research/"
+entrySelector = "#mresults > div.row"
+titleSelector = "p.mb-0 > a"
+linkSelector = "p.mb-0 > a"
+dateSelector = "p > b"
+dateFormat = "MMM dd, yyyy"
+
