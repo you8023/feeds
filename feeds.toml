@@ -1014,7 +1014,7 @@ url = "https://blog.amberwolf.com/blog/"
 entrySelector = "article.post-card"
 titleSelector = ".post-title"
 linkSelector = ".post-title"
-dateSelector = "ul.card-meta > li:nth-child(2) > span"
+dateSelector = "ul.card-meta > li > span"
 dateFormat = "dd MMM, yyyy"
 
 [armur]
@@ -1043,4 +1043,40 @@ titleSelector = ".bs-post__title :where(h3, h5)"
 linkSelector = ".bs-post__trigger"
 dateSelector = ".bs-post__date span"
 dateFormat = "MMM d , yyyy"
+
+[deepinstinct]
+title = "Deep Instinct Blog"
+url = "https://www.deepinstinct.com/blog"
+entrySelector = "div[class*='BlogCard_blog-card']"
+titleSelector = "h3[class*='blog-card__title'] > a"
+linkSelector = "h3[class*='blog-card__title'] > a"
+dateSelector = "div[class*='blog-card__content'] > div.uppercase"
+dateFormat = "MMMM d, yyyy"
+
+[dfir_ch]
+title = "dfir.ch"
+url = "https://dfir.ch/posts/"
+entrySelector = "article.post-item"
+titleSelector = "h4.post-item-title > a"
+linkSelector = "h4.post-item-title > a"
+dateSelector = "time.post-item-meta"
+dateFormat = "d MMM yyyy"
+
+[kudelskisecurity]
+title = "Kudelski Security Threat Alert Center"
+url = "https://kudelskisecurity.com/threat-alert-center"
+entrySelector = ".research-element"
+titleSelector = ".threat-copy:not(.date)"
+linkSelector = "a.link-block-9"
+dateSelector = ".threat-copy.date"
+dateFormat = "MMMM d, yyyy"
+
+[okta_threat_intelligence]
+title = "Okta Threat Intelligence"
+url = "https://www.okta.com/blog/threat-intelligence/"
+entrySelector = ".cmp-article-page-card"
+titleSelector = ".cmp-related-pages-card__title"
+linkSelector = "a.cmp-related-pages-card__link"
+dateSelector = ".cmp-card__bottom-date"
+dateFormat = "dd MMM yyyy"
 
