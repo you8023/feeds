@@ -2,9 +2,225 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-02-03T13:49:13.837Z</updated>
+    <updated>2026-02-03T17:34:35.653Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Testing Geo-Blocked Features with Docker on a Zero-Budget Setup]]></title>
+        <id>https://dev.to/mohammad_waseem_c31f3a26f/testing-geo-blocked-features-with-docker-on-a-zero-budget-setup-4og3</id>
+        <link href="https://dev.to/mohammad_waseem_c31f3a26f/testing-geo-blocked-features-with-docker-on-a-zero-budget-setup-4og3"/>
+        <updated>2026-02-03T14:30:10.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/mohammad_waseem_c31f3a26f/testing-geo-blocked-features-with-docker-on-a-zero-budget-setup-4og3" aria-labelledby="article-link-3226442" class="crayons-story__hidden-navigation-link">Testing Geo-Blocked Features with Docker on a Zero-Budget Setup</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/mohammad_waseem_c31f3a26f" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3669450%2Fd3cfc548-b8c2-44aa-a4e9-3d020f9b8d7c.jpg" alt="mohammad_waseem_c31f3a26f profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/mohammad_waseem_c31f3a26f" class="crayons-story__secondary fw-medium m:hidden">
+              Mohammad Waseem
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3226442" aria-controls="story-author-preview-content-3226442" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Mohammad Waseem profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Mohammad Waseem
+                
+              </button>
+              <div id="story-author-preview-content-3226442" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/mohammad_waseem_c31f3a26f" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3669450%2Fd3cfc548-b8c2-44aa-a4e9-3d020f9b8d7c.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Mohammad Waseem</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3669450,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Mohammad Waseem&quot;}" data-fetched="fetched" aria-label="Follow user: Mohammad Waseem" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3669450"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/mohammad_waseem_c31f3a26f/testing-geo-blocked-features-with-docker-on-a-zero-budget-setup-4og3" class="crayons-story__tertiary fs-xs"><time datetime="2026-02-03T14:30:10Z" title="">Feb 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1770129010"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/mohammad_waseem_c31f3a26f/testing-geo-blocked-features-with-docker-on-a-zero-budget-setup-4og3" data-preload-image="" id="article-link-3226442">
+          Testing Geo-Blocked Features with Docker on a Zero-Budget Setup
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/geolocation"><span class="crayons-tag__prefix">#</span>geolocation</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/mohammad_waseem_c31f3a26f/testing-geo-blocked-features-with-docker-on-a-zero-budget-setup-4og3#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Testing Geo-Blocked Features with Docker on a Zero-Budget Setup">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afble2ilr316ncq7ro0jsk608p8feouo" class="crayons-icon"><title id="afble2ilr316ncq7ro0jsk608p8feouo">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            2 min read
+          </small>
+            <button type="button" id="article-save-button-3226442" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3226442" data-article-author-id="3669450" aria-label="Save post Testing Geo-Blocked Features with Docker on a Zero-Budget Setup to reading list" title="Save post Testing Geo-Blocked Features with Docker on a Zero-Budget Setup to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your AI Assistant Can See Your Secrets — Here's How I Fixed It]]></title>
+        <id>https://dev.to/yujisuzuki/your-ai-assistant-can-see-your-secrets-heres-how-i-fixed-it-19lj</id>
+        <link href="https://dev.to/yujisuzuki/your-ai-assistant-can-see-your-secrets-heres-how-i-fixed-it-19lj"/>
+        <updated>2026-02-03T14:58:07.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/yujisuzuki/your-ai-assistant-can-see-your-secrets-heres-how-i-fixed-it-19lj" aria-labelledby="article-link-3226467" class="crayons-story__hidden-navigation-link">Your AI Assistant Can See Your Secrets — Here's How I Fixed It</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/yujisuzuki" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3750795%2Ffe20b244-e324-49ef-9aa9-f46ab03c0718.png" alt="yujisuzuki profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/yujisuzuki" class="crayons-story__secondary fw-medium m:hidden">
+              Yuji Suzuki
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3226467" aria-controls="story-author-preview-content-3226467" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Yuji Suzuki profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Yuji Suzuki
+                
+              </button>
+              <div id="story-author-preview-content-3226467" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/yujisuzuki" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3750795%2Ffe20b244-e324-49ef-9aa9-f46ab03c0718.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Yuji Suzuki</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3750795,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Yuji Suzuki&quot;}" data-fetched="fetched" aria-label="Follow user: Yuji Suzuki" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3750795"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/yujisuzuki/your-ai-assistant-can-see-your-secrets-heres-how-i-fixed-it-19lj" class="crayons-story__tertiary fs-xs"><time datetime="2026-02-03T14:58:07Z" title="">Feb 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1770130687"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/yujisuzuki/your-ai-assistant-can-see-your-secrets-heres-how-i-fixed-it-19lj" data-preload-image="" id="article-link-3226467">
+          Your AI Assistant Can See Your Secrets — Here's How I Fixed It
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/yujisuzuki/your-ai-assistant-can-see-your-secrets-heres-how-i-fixed-it-19lj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your AI Assistant Can See Your Secrets — Here's How I Fixed It">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="amtt1ftv6ex63pakl1l77earstbzks5u" class="crayons-icon"><title id="amtt1ftv6ex63pakl1l77earstbzks5u">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            8 min read
+          </small>
+            <button type="button" id="article-save-button-3226467" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3226467" data-article-author-id="3750795" aria-label="Save post Your AI Assistant Can See Your Secrets — Here's How I Fixed It to reading list" title="Save post Your AI Assistant Can See Your Secrets — Here's How I Fixed It to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How I Built a Physical Kill-Switch for CI/CD Pipelines to Stop SolarWinds-Style Attacks]]></title>
         <id>https://dev.to/ktamarapalli/how-i-built-a-physical-kill-switch-for-cicd-pipelines-to-stop-solarwinds-style-attacks-e9p</id>
@@ -92,7 +308,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/ktamarapalli/how-i-built-a-physical-kill-switch-for-cicd-pipelines-to-stop-solarwinds-style-attacks-e9p#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How I Built a Physical Kill-Switch for CI/CD Pipelines to Stop SolarWinds-Style Attacks">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="arw8x4ag5e3x47cimw4rv6l3y8ytw1pv" class="crayons-icon"><title id="arw8x4ag5e3x47cimw4rv6l3y8ytw1pv">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="al9je8z5i50hmivbmecrg7sepdq4jj5h" class="crayons-icon"><title id="al9je8z5i50hmivbmecrg7sepdq4jj5h">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -102,111 +318,6 @@
             13 min read
           </small>
             <button type="button" id="article-save-button-3224703" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3224703" data-article-author-id="3749982" aria-label="Save post How I Built a Physical Kill-Switch for CI/CD Pipelines to Stop SolarWinds-Style Attacks to reading list" title="Save post How I Built a Physical Kill-Switch for CI/CD Pipelines to Stop SolarWinds-Style Attacks to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scaling Massive Load Testing with Kubernetes: A Security Researcher’s Unconventional Approach]]></title>
-        <id>https://dev.to/mohammad_waseem_c31f3a26f/scaling-massive-load-testing-with-kubernetes-a-security-researchers-unconventional-approach-4o72</id>
-        <link href="https://dev.to/mohammad_waseem_c31f3a26f/scaling-massive-load-testing-with-kubernetes-a-security-researchers-unconventional-approach-4o72"/>
-        <updated>2026-02-03T10:39:58.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/mohammad_waseem_c31f3a26f/scaling-massive-load-testing-with-kubernetes-a-security-researchers-unconventional-approach-4o72" aria-labelledby="article-link-3225326" class="crayons-story__hidden-navigation-link">Scaling Massive Load Testing with Kubernetes: A Security Researcher’s Unconventional Approach</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/mohammad_waseem_c31f3a26f" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3669450%2Fd3cfc548-b8c2-44aa-a4e9-3d020f9b8d7c.jpg" alt="mohammad_waseem_c31f3a26f profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/mohammad_waseem_c31f3a26f" class="crayons-story__secondary fw-medium m:hidden">
-              Mohammad Waseem
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3225326" aria-controls="story-author-preview-content-3225326" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Mohammad Waseem profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Mohammad Waseem
-                
-              </button>
-              <div id="story-author-preview-content-3225326" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/mohammad_waseem_c31f3a26f" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3669450%2Fd3cfc548-b8c2-44aa-a4e9-3d020f9b8d7c.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Mohammad Waseem</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3669450,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Mohammad Waseem&quot;}" data-fetched="fetched" aria-label="Follow user: Mohammad Waseem" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3669450"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/mohammad_waseem_c31f3a26f/scaling-massive-load-testing-with-kubernetes-a-security-researchers-unconventional-approach-4o72" class="crayons-story__tertiary fs-xs"><time datetime="2026-02-03T10:39:58Z" title="">Feb 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1770115198"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/mohammad_waseem_c31f3a26f/scaling-massive-load-testing-with-kubernetes-a-security-researchers-unconventional-approach-4o72" data-preload-image="" id="article-link-3225326">
-          Scaling Massive Load Testing with Kubernetes: A Security Researcher’s Unconventional Approach
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(50, 109, 230, 0.10);
-        --tag-prefix: #326de6;
-        --tag-bg-hover: rgba(50, 109, 230, 0.10);
-        --tag-prefix-hover: #326de6;
-      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(59, 73, 223, 0.10);
-        --tag-prefix: #3b49df;
-        --tag-bg-hover: rgba(59, 73, 223, 0.10);
-        --tag-prefix-hover: #3b49df;
-      " href="/t/loadtesting"><span class="crayons-tag__prefix">#</span>loadtesting</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/mohammad_waseem_c31f3a26f/scaling-massive-load-testing-with-kubernetes-a-security-researchers-unconventional-approach-4o72#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Scaling Massive Load Testing with Kubernetes: A Security Researcher’s Unconventional Approach">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9z3i5hhkegt0yjsh6l8u2210smlg7wg" class="crayons-icon"><title id="a9z3i5hhkegt0yjsh6l8u2210smlg7wg">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            3 min read
-          </small>
-            <button type="button" id="article-save-button-3225326" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3225326" data-article-author-id="3669450" aria-label="Save post Scaling Massive Load Testing with Kubernetes: A Security Researcher’s Unconventional Approach to reading list" title="Save post Scaling Massive Load Testing with Kubernetes: A Security Researcher’s Unconventional Approach to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -308,7 +419,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/eesa14/security-groups-en-aws-pequenos-cambios-gran-impacto-en-la-seguridad-4kdo#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Security Groups en AWS: pequeños cambios, gran impacto en la seguridad">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apuz6w3tmm000c5lglbrdqqmdh36rkzd" class="crayons-icon"><title id="apuz6w3tmm000c5lglbrdqqmdh36rkzd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ado6bpuluuwgridz96miqdeeoqt46dtd" class="crayons-icon"><title id="ado6bpuluuwgridz96miqdeeoqt46dtd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
