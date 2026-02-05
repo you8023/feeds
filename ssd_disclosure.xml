@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ssd-disclosure.com/advisories/</id>
     <title>ssd_disclosure</title>
-    <updated>2026-02-05T07:38:24.916Z</updated>
+    <updated>2026-02-05T09:14:58.676Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://ssd-disclosure.com/wp-content/uploads/2022/08/Group-36.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Linux Kernel net/sched CAKE Qdisc Use-After-Free LPE]]></title>
+        <id>https://ssd-disclosure.com/linux-kernel-net-sched-cake-qdisc-use-after-free-lpe/</id>
+        <link href="https://ssd-disclosure.com/linux-kernel-net-sched-cake-qdisc-use-after-free-lpe/"/>
+        <updated>2026-02-05T09:08:48.459Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/linux-kernel-net-sched-cake-qdisc-use-after-free-lpe/">
+				Linux Kernel net/sched CAKE Qdisc Use-After-Free LPE			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary A local user under the CentOS 9 operating system can trigger an use-after-free, which in turn can be used to elevate to root privileges. Vendor Response The vendor has been notified more than 90</p>
+		</div>
+				</div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ISPConfig Multiple Post Auth Privilege Escalation Vulnerabilities]]></title>
         <id>https://ssd-disclosure.com/ispconfig-multiple-post-auth-privilege-escalation-vulnerabilities/</id>
@@ -167,21 +182,6 @@
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>Summary An analysis primarily of Kerio Control revealed a design flaw in the implementation of the communication with GFI AppManager, leading to an authentication bypass vulnerability in the product under audit. Once the authentication bypass</p>
-		</div>
-				</div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SSD Advisory – ISPConfig Authenticated Remote Code Execution]]></title>
-        <id>https://ssd-disclosure.com/ssd-advisory-ispconfig-authenticated-remote-code-execution/</id>
-        <link href="https://ssd-disclosure.com/ssd-advisory-ispconfig-authenticated-remote-code-execution/"/>
-        <updated>2025-12-09T20:45:40.821Z</updated>
-        <content type="html"><![CDATA[<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="https://ssd-disclosure.com/ssd-advisory-ispconfig-authenticated-remote-code-execution/">
-				SSD Advisory – ISPConfig Authenticated Remote Code Execution			</a>
-		</h3>
-				<div class="elementor-post__excerpt">
-			<p>Summary The analysis conducted on the product: ISPConfig version: 3.2 build: 12p1 was carried out using the official installation package. The analysis identified primarily design flaws in the user creation/edit functionality, which allow a client</p>
 		</div>
 				</div>]]></content>
     </entry>
