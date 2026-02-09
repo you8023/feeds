@@ -1087,3 +1087,47 @@ entrySelector = "a.block.w-full"
 titleSelector = ".font-semibold"
 linkSelector = ":scope"
 
+[circleci]
+title = "CircleCI Security Blog"
+url = "https://circleci.com/blog/tag/security/"
+entrySelector = "div.grid.grid-cols-1 > a"
+titleSelector = "h3"
+linkSelector = ":scope"
+dateSelector = ".post-metadata > span"
+dateFormat = "MMM d, yyyy"
+
+[comsec_ethz]
+title = "ETH Zurich Computer Security Group Publications"
+url = "https://comsec.ethz.ch/publications/"
+entrySelector = ".bibbase_paper"
+titleSelector = ".bibbase_paper_title"
+linkSelector = ".bibbase_paper_title a"
+dateSelector = ".bibbase_paper_year"
+dateFormat = "yyyy"
+
+[francozappa]
+title = "Daniele Antonioli Blog"
+url = "https://francozappa.github.io/"
+entrySelector = "#posts .media.stream-item"
+titleSelector = ".article-title > a"
+linkSelector = ".article-title > a"
+dateSelector = ".article-date"
+dateFormat = "MMM d, yyyy"
+
+[salt_security]
+title = "Salt Labs API Security Research"
+url = "https://salt.security/salt-labs"
+entrySelector = "a.grid-card.post-card"
+titleSelector = ".heading-small"
+linkSelector = ":scope"
+dateSelector = "[fs-cmsfilter-field='date']"
+dateFormat = "MMMM d, yyyy"
+
+[omeramiad]
+title = "Omer Amiad's Blog"
+url = "https://omeramiad.com/posts/"
+entrySelector = "main ul li"
+titleSelector = "h2"
+linkSelector = "a"
+dateSelector = "time"
+dateFormat = "d MMM, yyyy"
