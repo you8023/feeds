@@ -2,34 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://trainsec.net/library/</id>
     <title>trainsec</title>
-    <updated>2026-02-11T10:23:59.724Z</updated>
+    <updated>2026-02-11T12:12:23.541Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://trainsec.net/wp-content/uploads/2024/05/Icon-no-space@2x-150x150.png</icon>
     <entry>
-        <title type="html"><![CDATA[When Process Hollowing Isn’t Process Hollowing]]></title>
-        <id>https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/</id>
-        <link href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/"/>
-        <updated>2026-01-27T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="2560" height="1301" src="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png" class="attachment-full size-full wp-image-9944" alt="Process Hollowing scaled" srcset="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png 2560w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-300x152.png 300w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1024x520.png 1024w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-768x390.png 768w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1536x780.png 1536w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-2048x1040.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
+        <title type="html"><![CDATA[How to Delete a File in Windows (and What “Delete” Really Means)]]></title>
+        <id>https://trainsec.net/library/windows-internals/delete-a-file-in-windows/</id>
+        <link href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/"/>
+        <updated>2026-02-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1365" height="705" src="https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile.png" class="attachment-full size-full wp-image-10150" alt="how to delete a file" srcset="https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile.png 1365w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-300x155.png 300w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-1024x529.png 1024w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-768x397.png 768w" sizes="(max-width: 1365px) 100vw, 1365px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/">
-				When Process Hollowing Isn’t Process Hollowing			</a>
+			<a href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/">
+				How to Delete a File in Windows (and What “Delete” Really Means)			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
 			Pavel Yosifovich		</span>
 				<span class="elementor-post-date">
-			January 27, 2026		</span>
+			February 8, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>Process hollowing is usually described as creating a process in a suspended state, removing its original executable image, and replacing it with a different one. From the outside, the process appears normal, but the code running inside is not what you expect. In this article, I explore a slightly different idea.</p>
+					</div>
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/" aria-label="Read more about How to Delete a File in Windows (and What “Delete” Really Means)" tabindex="-1">
+			Dive in		</a>
+
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Delete a File in Windows (and What “Delete” Really Means)]]></title>
+        <id>https://trainsec.net/library/windows-internals/delete-a-file-in-windows/</id>
+        <link href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/"/>
+        <updated>2026-02-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1365" height="705" src="https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile.png" class="attachment-full size-full wp-image-10150" alt="how to delete a file" srcset="https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile.png 1365w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-300x155.png 300w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-1024x529.png 1024w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-768x397.png 768w" sizes="(max-width: 1365px) 100vw, 1365px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/">
+				How to Delete a File in Windows (and What “Delete” Really Means)			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			February 8, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Insights from Pavel Yosifovich How do you delete a file in Windows? looks like a beginner question, but it’s a great excuse to peel back</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/" aria-label="Read more about When Process Hollowing Isn’t Process Hollowing" tabindex="-1">
-			Dive in		</a>
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/" aria-label="Read more about How to Delete a File in Windows (and What “Delete” Really Means)" tabindex="-1">
+			Read More 		</a>
 
 				</div>]]></content>
     </entry>
@@ -39,7 +66,7 @@
         <link href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/"/>
         <updated>2026-01-27T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="2560" height="1301" src="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png" class="attachment-full size-full wp-image-9944" alt="Process Hollowing scaled" srcset="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png 2560w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-300x152.png 300w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1024x520.png 1024w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-768x390.png 768w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1536x780.png 1536w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-2048x1040.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="2560" height="1301" src="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png" class="attachment-full size-full wp-image-9944" alt="Process Hollowing scaled" srcset="https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-scaled.png 2560w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-300x152.png 300w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1024x520.png 1024w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-768x390.png 768w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-1536x780.png 1536w, https://trainsec.net/wp-content/uploads/2026/01/Process-Hollowing-2048x1040.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
@@ -53,11 +80,13 @@
 			January 27, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>Process hollowing is usually described as creating a process in a suspended state, removing its original executable image, and replacing it with a different one.		</p></div>
+			<p>Process hollowing is usually described as creating a process in a suspended state, removing its		</p></div>
+					<div class="elementor-post__read-more-wrapper">
 		
 		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/when-process-hollowing-isnt-process-hollowing/" aria-label="Read more about When Process Hollowing Isn’t Process Hollowing" tabindex="-1">
 			Read More 		</a>
 
+					</div>
 				</div>]]></content>
     </entry>
     <entry>
