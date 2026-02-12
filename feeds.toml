@@ -583,7 +583,7 @@ dateFormat = "MMM d, yyyy"
 [minimus]
 title = "minimus"
 url = "https://www.minimus.io/blog"
-entrySelector = ".w-dyn-list:nth-child(2) .w-dyn-item"
+entrySelector = ".w-dyn-list .w-dyn-item"
 titleSelector = "a:nth-child(3) > h3"
 linkSelector = "a:nth-child(3)"
 dateSelector = ".uui-text-size-small"
@@ -1131,3 +1131,55 @@ titleSelector = "h2"
 linkSelector = "a"
 dateSelector = "time"
 dateFormat = "d MMM, yyyy"
+
+[back_engineering]
+title = "Back Engineering"
+url = "https://back.engineering/blog/"
+entrySelector = "div.md\\:col-6.mb-14"
+titleSelector = "h4 > a"
+linkSelector = "h4 > a"
+descriptionSelector = "p.mb-6"
+
+[focal_security]
+title = "Focal Security"
+url = "https://focalsecurity.io/blog/"
+entrySelector = "main ul > li"
+titleSelector = "h2"
+linkSelector = "a"
+dateSelector = "time"
+dateFormat = "EEE MMM dd yyyy"
+
+[runzero]
+title = "runZero Research"
+url = "https://www.runzero.com/research/"
+entrySelector = "div[data-card]"
+titleSelector = "a.heading-h6"
+linkSelector = "a.heading-h6"
+descriptionSelector = ".text-base.text-silver"
+
+[ontinue]
+title = "Ontinue"
+url = "https://www.ontinue.com/resources/?resource_type%5B%5D=blog"
+entrySelector = ".resource-card"
+titleSelector = "strong"
+linkSelector = "a"
+
+[zayl_security]
+title = "Zayl Security"
+url = "https://zayl.dk/blog/"
+entrySelector = "article.blog-entry-card"
+titleSelector = "h2"
+linkSelector = "a.blog-entry"
+dateSelector = "time"
+dateFormat = "dd MMM yyyy"
+descriptionSelector = "p"
+
+[noma_security]
+title = "Noma Security"
+url = "https://noma.security/blog/"
+entrySelector = ".postContainerData > a"
+titleSelector = "h4"
+linkSelector = ":scope"
+dateSelector = "div.font-bold + div"
+dateFormat = "MMM dd, yyyy"
+descriptionSelector = "p.line-clamp-3"
