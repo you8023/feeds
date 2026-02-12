@@ -1180,4 +1180,10 @@ titleSelector = ":where(h3, h4)"
 linkSelector = "*"
 dateSelector = "div.font-bold + div"
 dateFormat = "MMM dd, yyyy"
-descriptionSelector = "p.line-clamp-3"
+
+[magnetforensics]
+title = "Magnet Forensics Resource Center"
+url = "https://www.magnetforensics.com/resource-center/?query-3-content-category=blogs%2Ccase-studies%2Cwhite-papers%2Cwebinars%2Cfree-tools%2Creports-guides"
+entrySelector = "li.wp-block-post"
+titleSelector = ".wp-block-post-title > a"
+linkSelector = ".wp-block-post-title > a"
