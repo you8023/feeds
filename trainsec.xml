@@ -2,34 +2,91 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://trainsec.net/library/</id>
     <title>trainsec</title>
-    <updated>2026-02-14T10:03:42.897Z</updated>
+    <updated>2026-02-14T14:59:57.101Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://trainsec.net/wp-content/uploads/2024/05/Icon-no-space@2x-150x150.png</icon>
     <entry>
-        <title type="html"><![CDATA[How to Delete a File in Windows (and What “Delete” Really Means)]]></title>
-        <id>https://trainsec.net/library/windows-internals/delete-a-file-in-windows/</id>
-        <link href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/"/>
-        <updated>2026-02-08T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1365" height="705" src="https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile.png" class="attachment-full size-full wp-image-10150" alt="how to delete a file" srcset="https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile.png 1365w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-300x155.png 300w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-1024x529.png 1024w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-768x397.png 768w" sizes="(max-width: 1365px) 100vw, 1365px"></div>
+        <title type="html"><![CDATA[Windows TLS (Thread-Local Storage) Explained]]></title>
+        <id>https://trainsec.net/library/windows-internals/windows-tls-thread-local-storage-explained/</id>
+        <link href="https://trainsec.net/library/windows-internals/windows-tls-thread-local-storage-explained/"/>
+        <updated>2026-02-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/windows-tls-thread-local-storage-explained/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1369" height="759" src="https://trainsec.net/wp-content/uploads/2026/02/TLS.png" class="attachment-full size-full wp-image-10216" alt="Thread-Local Storage" srcset="https://trainsec.net/wp-content/uploads/2026/02/TLS.png 1369w, https://trainsec.net/wp-content/uploads/2026/02/TLS-300x166.png 300w, https://trainsec.net/wp-content/uploads/2026/02/TLS-1024x568.png 1024w, https://trainsec.net/wp-content/uploads/2026/02/TLS-768x426.png 768w" sizes="(max-width: 1369px) 100vw, 1369px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/">
-				How to Delete a File in Windows (and What “Delete” Really Means)			</a>
+			<a href="https://trainsec.net/library/windows-internals/windows-tls-thread-local-storage-explained/">
+				Windows TLS (Thread-Local Storage) Explained			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
 			Pavel Yosifovich		</span>
 				<span class="elementor-post-date">
-			February 8, 2026		</span>
+			February 13, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-					</div>
+			<p>Thread-Local Storage (TLS) lets each thread keep its own data without sharing state across the process. In this post, Pavel shows what TLS is on Windows and how to use TLS slots to prevent recursion when logging inside a hooked allocation call.</p>
+		</div>
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/" aria-label="Read more about How to Delete a File in Windows (and What “Delete” Really Means)" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/windows-tls-thread-local-storage-explained/" aria-label="Read more about Windows TLS (Thread-Local Storage) Explained" tabindex="-1">
 			Dive in		</a>
 
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows TLS (Thread-Local Storage) Explained]]></title>
+        <id>https://trainsec.net/library/windows-internals/windows-tls-thread-local-storage-explained/</id>
+        <link href="https://trainsec.net/library/windows-internals/windows-tls-thread-local-storage-explained/"/>
+        <updated>2026-02-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/windows-tls-thread-local-storage-explained/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1369" height="759" src="https://trainsec.net/wp-content/uploads/2026/02/TLS.png" class="attachment-full size-full wp-image-10216" alt="Thread-Local Storage" srcset="https://trainsec.net/wp-content/uploads/2026/02/TLS.png 1369w, https://trainsec.net/wp-content/uploads/2026/02/TLS-300x166.png 300w, https://trainsec.net/wp-content/uploads/2026/02/TLS-1024x568.png 1024w, https://trainsec.net/wp-content/uploads/2026/02/TLS-768x426.png 768w" sizes="(max-width: 1369px) 100vw, 1369px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/windows-tls-thread-local-storage-explained/">
+				Windows TLS (Thread-Local Storage) Explained			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			February 13, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Thread-Local Storage (TLS) lets each thread keep its own data without sharing state across the process. In this post, Pavel shows what TLS is on		</p></div>
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/windows-tls-thread-local-storage-explained/" aria-label="Read more about Windows TLS (Thread-Local Storage) Explained" tabindex="-1">
+			Read More 		</a>
+
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Looking into Windows Access Masks]]></title>
+        <id>https://trainsec.net/library/windows-internals/looking-into-windows-access-masks/</id>
+        <link href="https://trainsec.net/library/windows-internals/looking-into-windows-access-masks/"/>
+        <updated>2026-02-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/looking-into-windows-access-masks/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1376" height="766" src="https://trainsec.net/wp-content/uploads/2026/02/Access_Masks-1.png" class="attachment-full size-full wp-image-10210" alt="looking into access masks" srcset="https://trainsec.net/wp-content/uploads/2026/02/Access_Masks-1.png 1376w, https://trainsec.net/wp-content/uploads/2026/02/Access_Masks-1-300x167.png 300w, https://trainsec.net/wp-content/uploads/2026/02/Access_Masks-1-1024x570.png 1024w, https://trainsec.net/wp-content/uploads/2026/02/Access_Masks-1-768x428.png 768w" sizes="(max-width: 1376px) 100vw, 1376px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/looking-into-windows-access-masks/">
+				Looking into Windows Access Masks			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			February 13, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Access masks are the 32-bit “what you can do” values stored in handles and ACE		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/looking-into-windows-access-masks/" aria-label="Read more about Looking into Windows Access Masks" tabindex="-1">
+			Read More 		</a>
+
+					</div>
 				</div>]]></content>
     </entry>
     <entry>
@@ -38,7 +95,7 @@
         <link href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/"/>
         <updated>2026-02-08T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1365" height="705" src="https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile.png" class="attachment-full size-full wp-image-10150" alt="how to delete a file" srcset="https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile.png 1365w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-300x155.png 300w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-1024x529.png 1024w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-768x397.png 768w" sizes="(max-width: 1365px) 100vw, 1365px"></div>
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1365" height="705" src="https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile.png" class="attachment-full size-full wp-image-10150" alt="how to delete a file" srcset="https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile.png 1365w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-300x155.png 300w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-1024x529.png 1024w, https://trainsec.net/wp-content/uploads/2026/02/howtodeleteafile-768x397.png 768w" sizes="(max-width: 1365px) 100vw, 1365px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
@@ -52,12 +109,14 @@
 			February 8, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>Insights from Pavel Yosifovich How do you delete a file in Windows? looks like a beginner question, but it’s a great excuse to peel back</p>
+			<p>Insights from Pavel Yosifovich How do you delete a file in Windows? looks like a</p>
 		</div>
+					<div class="elementor-post__read-more-wrapper">
 		
 		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/delete-a-file-in-windows/" aria-label="Read more about How to Delete a File in Windows (and What “Delete” Really Means)" tabindex="-1">
 			Read More 		</a>
 
+					</div>
 				</div>]]></content>
     </entry>
     <entry>
