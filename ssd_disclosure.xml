@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ssd-disclosure.com/advisories/</id>
     <title>ssd_disclosure</title>
-    <updated>2026-02-16T08:17:50.219Z</updated>
+    <updated>2026-02-16T09:19:14.821Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://ssd-disclosure.com/wp-content/uploads/2022/08/Group-36.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Joomla! Novarain/Tassos Framework Vulnerabilities]]></title>
+        <id>https://ssd-disclosure.com/joomla-novarain-tassos-framework-vulnerabilities/</id>
+        <link href="https://ssd-disclosure.com/joomla-novarain-tassos-framework-vulnerabilities/"/>
+        <updated>2026-02-16T09:12:18.305Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/joomla-novarain-tassos-framework-vulnerabilities/">
+				Joomla! Novarain/Tassos Framework Vulnerabilities			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary Source code review of the Novarain/Tassos Framework revealed three critical primitives – unauthenticated file read, unauthenticated file deletion, and SQL injection leading to arbitrary database read – across five widely deployed Joomla! extensions (Convert</p>
+		</div>
+				</div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux Kernel net/sched CAKE Qdisc Use-After-Free LPE]]></title>
         <id>https://ssd-disclosure.com/linux-kernel-net-sched-cake-qdisc-use-after-free-lpe/</id>
@@ -167,21 +182,6 @@
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>Summary A critical double free vulnerability in the pipapo set module of the Linux kernel’s NFT subsystem has been discovered. An unprivileged attacker can exploit this vulnerability by sending a specially crafted netlink message, triggering</p>
-		</div>
-				</div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SSD Advisory – Kerio Control Authentication Bypass and RCE]]></title>
-        <id>https://ssd-disclosure.com/ssd-advisory-kerio-control-authentication-bypass-and-rce/</id>
-        <link href="https://ssd-disclosure.com/ssd-advisory-kerio-control-authentication-bypass-and-rce/"/>
-        <updated>2025-12-09T20:45:40.819Z</updated>
-        <content type="html"><![CDATA[<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="https://ssd-disclosure.com/ssd-advisory-kerio-control-authentication-bypass-and-rce/">
-				SSD Advisory – Kerio Control Authentication Bypass and RCE			</a>
-		</h3>
-				<div class="elementor-post__excerpt">
-			<p>Summary An analysis primarily of Kerio Control revealed a design flaw in the implementation of the communication with GFI AppManager, leading to an authentication bypass vulnerability in the product under audit. Once the authentication bypass</p>
 		</div>
 				</div>]]></content>
     </entry>
