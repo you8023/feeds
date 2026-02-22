@@ -2,7 +2,140 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-02-22T10:05:10.306Z</updated>
+    <updated>2026-02-22T11:56:11.997Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Hud.io Doesn’t Replace Observability It Replaces Guessing]]></title>
+        <id>https://dev.to/aws-builders/hudio-doesnt-replace-observability-it-replaces-guessing-13m2</id>
+        <link href="https://dev.to/aws-builders/hudio-doesnt-replace-observability-it-replaces-guessing-13m2"/>
+        <updated>2026-02-22T08:25:10.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/aws-builders/hudio-doesnt-replace-observability-it-replaces-guessing-13m2" aria-labelledby="article-link-3232393" class="crayons-story__hidden-navigation-link">Hud.io Doesn’t Replace Observability It Replaces Guessing</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/aws-builders">
+            <img alt="AWS Community Builders  logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2794%2F88da75b6-aadd-4ea1-8083-ae2dfca8be94.png" class="crayons-logo__image" loading="lazy">
+          </a>
+
+          <a href="/sarvar_04" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1163149%2F5afa2902-591e-4944-b6fa-9bbba80c6e95.png" alt="sarvar_04 profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/sarvar_04" class="crayons-story__secondary fw-medium m:hidden">
+              Sarvar Nadaf
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3232393" aria-controls="story-author-preview-content-3232393" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Sarvar Nadaf profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Sarvar Nadaf
+                
+              </button>
+              <div id="story-author-preview-content-3232393" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/sarvar_04" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1163149%2F5afa2902-591e-4944-b6fa-9bbba80c6e95.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Sarvar Nadaf</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1163149,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Sarvar Nadaf&quot;}" data-fetched="fetched" aria-label="Follow user: Sarvar Nadaf" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="1163149"></div>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/aws-builders" class="crayons-story__secondary fw-medium">AWS Community Builders </a>
+            </span>
+          </div>
+          <a href="https://dev.to/aws-builders/hudio-doesnt-replace-observability-it-replaces-guessing-13m2" class="crayons-story__tertiary fs-xs"><time datetime="2026-02-22T08:25:10Z" title="">Feb 22</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1771748710"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/aws-builders/hudio-doesnt-replace-observability-it-replaces-guessing-13m2" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fomtwaxxy0tbnpr8kv3oy.png" id="article-link-3232393">
+          Hud.io Doesn’t Replace Observability It Replaces Guessing
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/hud"><span class="crayons-tag__prefix">#</span>hud</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/aws-builders/hudio-doesnt-replace-observability-it-replaces-guessing-13m2" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3232393" aria-label="Add a comment to post - Hud.io Doesn’t Replace Observability It Replaces Guessing">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18">
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg" width="18" height="18">
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">9<span class="hidden s:inline">&nbsp;reactions</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/aws-builders/hudio-doesnt-replace-observability-it-replaces-guessing-13m2#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Hud.io Doesn’t Replace Observability It Replaces Guessing">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aoxb2agja2yiazeivg7pmsgo8q61dtkw" class="crayons-icon"><title id="aoxb2agja2yiazeivg7pmsgo8q61dtkw">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              1<span class="hidden s:inline">&nbsp;comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            10 min read
+          </small>
+            <button type="button" id="article-save-button-3232393" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3232393" data-article-author-id="1163149" aria-label="Save post Hud.io Doesn’t Replace Observability It Replaces Guessing to reading list" title="Save post Hud.io Doesn’t Replace Observability It Replaces Guessing to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
 </feed>
