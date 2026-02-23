@@ -2,9 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lab.ctbb.show/research/all/</id>
     <title>ctbb_research</title>
-    <updated>2026-02-23T03:37:12.857Z</updated>
+    <updated>2026-02-23T09:19:31.541Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://lab.ctbb.show/research/all/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Total.js RCE gadgets all aroundNEW]]></title>
+        <id>https://lab.ctbb.show/research/totaljs-rce-gadgets</id>
+        <link href="https://lab.ctbb.show/research/totaljs-rce-gadgets"/>
+        <updated>2026-02-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/research/totaljs-rce-gadgets">Total.js RCE gadgets all around<span class="new-badge">NEW</span></a>
+                </h3>
+                <div class="article-subtitle">RCEs, RCEs...they are all around and Total.js framework will be in our scope this time</div>
+                <div class="article-meta">
+                    <span class="article-date">Feb 23, 2026</span> • <span class="article-author"><span>Diyan Apostolov</span><img src="/assets/images/fsi.jpg" alt="Diyan Apostolov" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt"># Overview In this article, I'll walk you through some security vulnerabilities recently found i...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="TotalJS">TotalJS</span><span class="article-tag" data-tag="RCE">RCE</span><span class="article-tag" data-tag="RCEGadgets">RCEGadgets</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Azure DevOps Agent InterceptionNEW]]></title>
+        <id>https://lab.ctbb.show/research/azure-devops-agent-interception</id>
+        <link href="https://lab.ctbb.show/research/azure-devops-agent-interception"/>
+        <updated>2026-02-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/research/azure-devops-agent-interception">Azure DevOps Agent Interception<span class="new-badge">NEW</span></a>
+                </h3>
+                <div class="article-subtitle">Pivoting from a compromised Windows VM to the cloud by intercepting Azure DevOps Agent traffic</div>
+                <div class="article-meta">
+                    <span class="article-date">Feb 10, 2026</span> • <span class="article-author"><span>Diyan Apostolov</span><img src="/assets/images/fsi.jpg" alt="Diyan Apostolov" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">Imagine the scenario: you just ended up on a Windows Azure VM with RCE in your hands and start wonde...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="AzureDevOpsAgent">AzureDevOpsAgent</span><span class="article-tag" data-tag="CloudPE">CloudPE</span><span class="article-tag" data-tag="PE">PE</span></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Parse and Parse: MIME Validation Bypass to XSS via Parser Differential]]></title>
         <id>https://lab.ctbb.show/research/parse-and-parse-mime-validation-bypass-to-xss-via-parser-differential</id>
@@ -124,35 +154,5 @@
                 </div>
                 <div class="article-excerpt">RCE thoughts by Diyan Apostolov Imagine this: you’ve gained path traversal with file-write access di...</div>
                 <div class="article-tags"><span class="article-tag" data-tag="ASP.NET">ASP.NET</span><span class="article-tag" data-tag="PathTraversal">PathTraversal</span><span class="article-tag" data-tag="RCE">RCE</span></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unicode surrogates conversion to (simplified) replacement characters]]></title>
-        <id>https://lab.ctbb.show/research/unicode-surrogates-to-replacement-characters</id>
-        <link href="https://lab.ctbb.show/research/unicode-surrogates-to-replacement-characters"/>
-        <updated>2025-11-10T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/unicode-surrogates-to-replacement-characters">Unicode surrogates conversion to (simplified) replacement characters</a>
-                </h3>
-                <div class="article-subtitle">A case for question-mark smuggle: using Unicode surrogates to bypass input validation with replacement character fallback.</div>
-                <div class="article-meta">
-                    <span class="article-date">Nov 10, 2025</span> • <span class="article-author"><span>Krzysztof Balas</span><img src="/assets/images/zerodaykb.jpg" alt="Krzysztof Balas" class="author-avatar"></span>
-                </div>
-                <div class="article-excerpt">Hello hackers. 👋 **TLDR** I was able to bypass strong validation with unicode surrogates that some ...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="unicode">unicode</span><span class="article-tag" data-tag="utf">utf</span><span class="article-tag" data-tag="normalization">normalization</span></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CRLF Injection Nested Response Splitting CSP Gadget]]></title>
-        <id>https://lab.ctbb.show/research/crlf-injection-nested-response-splitting-csp-gadget</id>
-        <link href="https://lab.ctbb.show/research/crlf-injection-nested-response-splitting-csp-gadget"/>
-        <updated>2025-10-15T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/crlf-injection-nested-response-splitting-csp-gadget">CRLF Injection Nested Response Splitting CSP Gadget</a>
-                </h3>
-                <div class="article-subtitle">If you can do CRLF injection in the response header, most likely you can also do response resplitting to achieve reflected XSS. Even if a strict CSP is in place, you could bypass it by using response splitting as a CSP gadget. I coined this trick as "Nested Response Splitting"!</div>
-                <div class="article-meta">
-                    <span class="article-date">Oct 15, 2025</span> • <span class="article-author"><span>Tang Cheuk Hei</span><img src="/assets/images/siunam.png" alt="Tang Cheuk Hei" class="author-avatar"></span>
-                </div>
-                <div class="article-excerpt">If you can do CRLF injection in the response header, most likely you can also inject 2 CRLF (Carriag...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="client-side">client-side</span><span class="article-tag" data-tag="crlf-injection">crlf-injection</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="csp">csp</span></div>]]></content>
     </entry>
 </feed>
