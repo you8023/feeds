@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lab.ctbb.show/research/all/</id>
     <title>ctbb_research</title>
-    <updated>2026-02-25T05:17:20.993Z</updated>
+    <updated>2026-02-25T08:21:39.066Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://lab.ctbb.show/research/all/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Can a Predicted window.open Target Really Be That Impactful?NEW]]></title>
+        <id>https://lab.ctbb.show/research/can-a-predicted-window-open-target-really-be-that-impactful</id>
+        <link href="https://lab.ctbb.show/research/can-a-predicted-window-open-target-really-be-that-impactful"/>
+        <updated>2026-02-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/research/can-a-predicted-window-open-target-really-be-that-impactful">Can a Predicted <code>window.open</code> Target Really Be That Impactful?<span class="new-badge">NEW</span></a>
+                </h3>
+                <div class="article-subtitle">This post walks through a real-world OAuth popup hijacking attack. The target had solid defenses origin validation, source checking, CSP but a single predictable window.open() target name created an exploitable gap. It also serves as a real-world case use of iframe hijacking, showing how I managed to squeeze a vulnerability with a useless behavior.</div>
+                <div class="article-meta">
+                    <span class="article-date">Feb 25, 2026</span> • <span class="article-author"><span>Achbani Ismail</span><img src="/assets/images/alien.jpg" alt="Achbani Ismail" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">&gt; **TL;DR:** A predictable `window.open()` target name in [REDACTED]'s OAuth flow allowed att...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="trick">trick</span><span class="article-tag" data-tag="client-side">client-side</span><span class="article-tag" data-tag="bypass">bypass</span></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Total.js RCE gadgets all aroundNEW]]></title>
         <id>https://lab.ctbb.show/research/totaljs-rce-gadgets</id>
@@ -139,20 +154,5 @@
                 </div>
                 <div class="article-excerpt">The following challenge page frames an inner.html page that is vulnerable to XSS. Frame the inner.ht...</div>
                 <div class="article-tags"><span class="article-tag" data-tag="challenge">challenge</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="client-side">client-side</span></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ASP.NET MVC View Engine Search Patterns]]></title>
-        <id>https://lab.ctbb.show/research/asp-net-mvc-view-engine-search-patterns</id>
-        <link href="https://lab.ctbb.show/research/asp-net-mvc-view-engine-search-patterns"/>
-        <updated>2025-11-17T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/asp-net-mvc-view-engine-search-patterns">ASP.NET MVC View Engine Search Patterns</a>
-                </h3>
-                <div class="article-subtitle">In this post, we’re exploring the ASP.NET MVC View Engine search pattern: the unsung hero that silently controls where your views live and how they show up.</div>
-                <div class="article-meta">
-                    <span class="article-date">Nov 17, 2025</span> • <span class="article-author"><span>Diyan Apostolov</span><img src="/assets/images/fsi.jpg" alt="Diyan Apostolov" class="author-avatar"></span>
-                </div>
-                <div class="article-excerpt">RCE thoughts by Diyan Apostolov Imagine this: you’ve gained path traversal with file-write access di...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="ASP.NET">ASP.NET</span><span class="article-tag" data-tag="PathTraversal">PathTraversal</span><span class="article-tag" data-tag="RCE">RCE</span></div>]]></content>
     </entry>
 </feed>
