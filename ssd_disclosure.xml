@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ssd-disclosure.com/advisories/</id>
     <title>ssd_disclosure</title>
-    <updated>2026-02-26T08:11:43.358Z</updated>
+    <updated>2026-02-26T11:19:14.991Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://ssd-disclosure.com/wp-content/uploads/2022/08/Group-36.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Chrome GPU Sandbox Escape via Qualcomm Adreno and ARM Mali GPU Drivers]]></title>
+        <id>https://ssd-disclosure.com/chrome-gpu-sandbox-escape-via-qualcomm-adreno-and-arm-mali-gpu-drivers/</id>
+        <link href="https://ssd-disclosure.com/chrome-gpu-sandbox-escape-via-qualcomm-adreno-and-arm-mali-gpu-drivers/"/>
+        <updated>2026-02-26T11:11:52.808Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/chrome-gpu-sandbox-escape-via-qualcomm-adreno-and-arm-mali-gpu-drivers/">
+				Chrome GPU Sandbox Escape via Qualcomm Adreno and ARM Mali GPU Drivers			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary Google’s Threat Analysis Group (TAG) recently discovered two critical vulnerabilities in Android GPU drivers being actively exploited in the wild. Both bugs enable Chrome sandbox escape when exploited from a compromised renderer. Clément Lecigne</p>
+		</div>
+				</div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Joomla! Novarain/Tassos Framework Vulnerabilities]]></title>
         <id>https://ssd-disclosure.com/joomla-novarain-tassos-framework-vulnerabilities/</id>
@@ -167,21 +182,6 @@
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>Introduction WebAssembly extends the native code surface of Chrome in ways that are both powerful and risky. Unlike JavaScript, WASM modules are compiled directly into machine code via a streamlined pipeline, bypassing many of the</p>
-		</div>
-				</div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SSD Advisory – Linux Kernel Pipapo Set Double Free LPE]]></title>
-        <id>https://ssd-disclosure.com/ssd-advisory-linux-kernel-pipapo-set-double-free-lpe/</id>
-        <link href="https://ssd-disclosure.com/ssd-advisory-linux-kernel-pipapo-set-double-free-lpe/"/>
-        <updated>2025-12-09T20:45:40.812Z</updated>
-        <content type="html"><![CDATA[<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="https://ssd-disclosure.com/ssd-advisory-linux-kernel-pipapo-set-double-free-lpe/">
-				SSD Advisory – Linux Kernel Pipapo Set Double Free LPE			</a>
-		</h3>
-				<div class="elementor-post__excerpt">
-			<p>Summary A critical double free vulnerability in the pipapo set module of the Linux kernel’s NFT subsystem has been discovered. An unprivileged attacker can exploit this vulnerability by sending a specially crafted netlink message, triggering</p>
 		</div>
 				</div>]]></content>
     </entry>
