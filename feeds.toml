@@ -137,9 +137,9 @@ dateFormat = "dd MMM yyyy"
 [pvotal]
 title = "pvotal"
 url = "https://pvotal.tech/blog/"
-entrySelector = ".wpr-grid-item"
-titleSelector = ".wpr-grid-item-title a"
-linkSelector = ".wpr-grid-item-title a"
+entrySelector = "article"
+titleSelector = "h2"
+linkSelector = "a"
 dateSelector = ".wpr-grid-item-date > div > span"
 dateFormat = "MMMM d, yyyy"
 
