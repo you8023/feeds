@@ -1187,3 +1187,55 @@ url = "https://www.magnetforensics.com/resource-center/?query-3-content-category
 entrySelector = "li.wp-block-post"
 titleSelector = ".wp-block-post-title > a"
 linkSelector = ".wp-block-post-title > a"
+
+[reversec_labs]
+title = "Reversec Security Advisories"
+url = "https://labs.reversec.com/advisories"
+entrySelector = ".card"
+titleSelector = "h3 a"
+linkSelector = "h3 a"
+dateSelector = "ul li:nth-child(2) span"
+dateFormat = "dd MMM yyyy"
+
+[sebsrt_blog]
+title = "sebsrt - Sebastiano Sartor"
+url = "https://www.sebsrt.xyz/blog/"
+entrySelector = ".blog-item"
+titleSelector = ".blog-post-title"
+linkSelector = "*"
+
+[kiddo_pwn_blog]
+title = "kiddo-pwn blog"
+url = "https://kiddo-pwn.github.io/blog/"
+entrySelector = ".catalogue-item"
+titleSelector = ".catalogue-title"
+linkSelector = "*"
+dateSelector = ".catalogue-time"
+dateFormat = "MMMM d, yyyy"
+
+[alphaf0x_blog]
+title = "alphaf0x's den"
+url = "https://www.alphaf0x.com/posts/"
+entrySelector = "a.article"
+titleSelector = ".font-bold"
+linkSelector = "a"
+dateSelector = "time"
+dateFormat = "yyyy"
+
+[oasis_security_blog]
+title = "Oasis Security Blog"
+url = "https://www.oasis.security/blog"
+entrySelector = ".blog-post, article, .post, [class*='post'], .w-dyn-item"
+titleSelector = "h2, h3, .post-title, [class*='title']"
+linkSelector = ".blog-post a, article a, .w-dyn-item a"
+dateSelector = ".blog-date, time, .date, [class*='date']"
+dateFormat = "yyyy"
+
+[commoncrawl_research]
+title = "Common Crawl Research Papers"
+url = "https://commoncrawl.org/research-papers"
+entrySelector = ".collection-item-3"
+titleSelector = ".heading-m"
+linkSelector = ".research-paper-link-block"
+dateSelector = ".heading-ss---bleached"
+dateFormat = "yyyy"
