@@ -1225,11 +1225,11 @@ dateFormat = "yyyy"
 [oasis_security_blog]
 title = "Oasis Security Blog"
 url = "https://www.oasis.security/blog"
-entrySelector = ".blog-post, article, .post, [class*='post'], .w-dyn-item"
-titleSelector = "h2, h3, .post-title, [class*='title']"
-linkSelector = ".blog-post a, article a, .w-dyn-item a"
-dateSelector = ".blog-date, time, .date, [class*='date']"
-dateFormat = "yyyy"
+entrySelector = ".w-dyn-item"
+titleSelector = "h3"
+linkSelector = "a"
+dateSelector = ":where(.blog_small-meta-wrapper> .text-size-small:nth-child(3), .posts_small-meta-wrapper> .text-size-small:nth-child(3), .blog_meta:nth-child(3) > .text-size-small:nth-child(2))"
+dateFormat = "MMMM d, yyyy"
 
 [commoncrawl_research]
 title = "Common Crawl Research Papers"
