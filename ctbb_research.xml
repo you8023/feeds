@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lab.ctbb.show/research/all/</id>
     <title>ctbb_research</title>
-    <updated>2026-03-13T05:07:47.822Z</updated>
+    <updated>2026-03-13T11:59:53.461Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://lab.ctbb.show/research/all/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Slacker Slash: Bypassing Bun Security Middleware via Normalization DesyncNEW]]></title>
+        <id>https://lab.ctbb.show/research/bun-slacker-slash</id>
+        <link href="https://lab.ctbb.show/research/bun-slacker-slash"/>
+        <updated>2026-03-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/research/bun-slacker-slash">Slacker Slash: Bypassing Bun Security Middleware via Normalization Desync<span class="new-badge">NEW</span></a>
+                </h3>
+                <div class="article-subtitle">How WHATWG URL compliance in Bun creates a normalization desync with POSIX utilities, enabling double-slash and partial-path middleware bypasses.</div>
+                <div class="article-meta">
+                    <span class="article-date">Mar 13, 2026</span> • <span class="article-author"><span>Mohamed Salem Eddah</span><img src="/assets/images/ze3ter.jpg" alt="Mohamed Salem Eddah" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">Modern JavaScript runtimes like Bun advertise strict WHATWG URL compliance, but this creates a silen...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="bun">bun</span><span class="article-tag" data-tag="path-traversal">path-traversal</span><span class="article-tag" data-tag="middleware-bypass">middleware-bypass</span><span class="article-tag" data-tag="javascript">javascript</span></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Can a Predicted window.open Target Really Be That Impactful?]]></title>
         <id>https://lab.ctbb.show/research/can-a-predicted-window-open-target-really-be-that-impactful</id>
@@ -136,21 +151,6 @@
                 <div class="article-subtitle">The second challenge of an XSS miniseries leading up to a writeup on a bug in an open source library.</div>
                 <div class="article-meta">
                     <span class="article-date">Nov 24, 2025</span> • <span class="article-author"><span>Nick Copi</span><img src="/assets/images/7urb0pfp.png" alt="Nick Copi" class="author-avatar"></span>
-                </div>
-                <div class="article-excerpt">The following challenge page frames an inner.html page that is vulnerable to XSS. Frame the inner.ht...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="challenge">challenge</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="client-side">client-side</span></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Challenge One - Strange XSS]]></title>
-        <id>https://lab.ctbb.show/research/challenge-one-strange-xss</id>
-        <link href="https://lab.ctbb.show/research/challenge-one-strange-xss"/>
-        <updated>2025-11-18T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/challenge-one-strange-xss">Challenge One - Strange XSS</a>
-                </h3>
-                <div class="article-subtitle">A cool challenge introducing an XSS miniseries leading up to a writeup on a bug in an open source library.</div>
-                <div class="article-meta">
-                    <span class="article-date">Nov 18, 2025</span> • <span class="article-author"><span>Nick Copi</span><img src="/assets/images/7urb0pfp.png" alt="Nick Copi" class="author-avatar"></span>
                 </div>
                 <div class="article-excerpt">The following challenge page frames an inner.html page that is vulnerable to XSS. Frame the inner.ht...</div>
                 <div class="article-tags"><span class="article-tag" data-tag="challenge">challenge</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="client-side">client-side</span></div>]]></content>
