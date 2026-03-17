@@ -2,34 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://trainsec.net/library/</id>
     <title>trainsec</title>
-    <updated>2026-03-16T11:34:31.191Z</updated>
+    <updated>2026-03-17T06:46:06.717Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://trainsec.net/wp-content/uploads/2024/05/Icon-no-space@2x-150x150.png</icon>
     <entry>
-        <title type="html"><![CDATA[Hiding A Windows Service From Enumeration]]></title>
-        <id>https://trainsec.net/library/windows-internals/hiding-a-windows-service/</id>
-        <link href="https://trainsec.net/library/windows-internals/hiding-a-windows-service/"/>
-        <updated>2026-03-12T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/hiding-a-windows-service/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1919" height="1079" src="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service.png" class="attachment-full size-full wp-image-10569" alt="hiding a service" srcset="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service.png 1919w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-300x169.png 300w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-768x432.png 768w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1536x864.png 1536w" sizes="(max-width: 1919px) 100vw, 1919px"></div>
+        <title type="html"><![CDATA[Hiding a Service with C++]]></title>
+        <id>https://trainsec.net/library/windows-internals/hiding-a-service-with-c/</id>
+        <link href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/"/>
+        <updated>2026-03-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1919" height="1079" src="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1.png" class="attachment-full size-full wp-image-10736" alt="hiding a service 1" srcset="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1.png 1919w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-300x169.png 300w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-768x432.png 768w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-1536x864.png 1536w" sizes="(max-width: 1919px) 100vw, 1919px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/windows-internals/hiding-a-windows-service/">
-				Hiding A Windows Service From Enumeration			</a>
+			<a href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/">
+				Hiding a Service with C++			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
 			Pavel Yosifovich		</span>
 				<span class="elementor-post-date">
-			March 12, 2026		</span>
+			March 16, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>A Windows service can be running normally and still disappear from Services.msc and sc query. This post explains how service permissions affect enumeration, why registry-based tools may still see it, and what to check as a defender.</p>
+			<p>In a previous post we hid a Windows service using a UI tool. This post shows the programmatic approach in C++: query the service DACL, add a deny ACE, handle self-relative vs absolute security descriptors, and apply the change through SCM APIs.</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/hiding-a-windows-service/" aria-label="Read more about Hiding A Windows Service From Enumeration" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/" aria-label="Read more about Hiding a Service with C++" tabindex="-1">
 			Dive in		</a>
+
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hiding a Service with C++]]></title>
+        <id>https://trainsec.net/library/windows-internals/hiding-a-service-with-c/</id>
+        <link href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/"/>
+        <updated>2026-03-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1919" height="1079" src="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1.png" class="attachment-full size-full wp-image-10736" alt="hiding a service 1" srcset="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1.png 1919w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-300x169.png 300w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-768x432.png 768w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-1536x864.png 1536w" sizes="(max-width: 1919px) 100vw, 1919px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/">
+				Hiding a Service with C++			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			March 16, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>In a previous post we hid a Windows service using a UI tool. This post shows the programmatic approach in C++: query the service DACL,		</p></div>
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/" aria-label="Read more about Hiding a Service with C++" tabindex="-1">
+			Read More 		</a>
 
 				</div>]]></content>
     </entry>
@@ -39,7 +66,7 @@
         <link href="https://trainsec.net/library/windows-internals/hiding-a-windows-service/"/>
         <updated>2026-03-12T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/hiding-a-windows-service/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1919" height="1079" src="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service.png" class="attachment-full size-full wp-image-10569" alt="hiding a service" srcset="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service.png 1919w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-300x169.png 300w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-768x432.png 768w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1536x864.png 1536w" sizes="(max-width: 1919px) 100vw, 1919px"></div>
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1919" height="1079" src="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service.png" class="attachment-full size-full wp-image-10569" alt="hiding a service" srcset="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service.png 1919w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-300x169.png 300w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-768x432.png 768w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1536x864.png 1536w" sizes="(max-width: 1919px) 100vw, 1919px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
@@ -53,11 +80,13 @@
 			March 12, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>A Windows service can be running normally and still disappear from Services.msc and sc query. This post explains how service permissions affect enumeration, why registry-based		</p></div>
+			<p>A Windows service can be running normally and still disappear from Services.msc and sc query.		</p></div>
+					<div class="elementor-post__read-more-wrapper">
 		
 		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/hiding-a-windows-service/" aria-label="Read more about Hiding A Windows Service From Enumeration" tabindex="-1">
 			Read More 		</a>
 
+					</div>
 				</div>]]></content>
     </entry>
     <entry>
