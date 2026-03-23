@@ -2,34 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://trainsec.net/library/</id>
     <title>trainsec</title>
-    <updated>2026-03-23T12:09:39.840Z</updated>
+    <updated>2026-03-23T14:03:58.621Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://trainsec.net/wp-content/uploads/2024/05/Icon-no-space@2x-100x100.png</icon>
     <entry>
-        <title type="html"><![CDATA[Hiding a Service with C++]]></title>
-        <id>https://trainsec.net/library/windows-internals/hiding-a-service-with-c/</id>
-        <link href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/"/>
-        <updated>2026-03-16T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1919" height="1079" src="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1.png" class="attachment-full size-full wp-image-10736" alt="hiding a service 1" srcset="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1.png 1919w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-600x337.png 600w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-300x169.png 300w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-768x432.png 768w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-1536x864.png 1536w" sizes="(max-width: 1919px) 100vw, 1919px"></div>
+        <title type="html"><![CDATA[Writing Control Panel Applications]]></title>
+        <id>https://trainsec.net/library/windows-internals/writing-control-panel-applications/</id>
+        <link href="https://trainsec.net/library/windows-internals/writing-control-panel-applications/"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/writing-control-panel-applications/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1919" height="1079" src="https://trainsec.net/wp-content/uploads/2026/03/Control-Panel-.png" class="attachment-full size-full wp-image-10746" alt="Control Panel" srcset="https://trainsec.net/wp-content/uploads/2026/03/Control-Panel-.png 1919w, https://trainsec.net/wp-content/uploads/2026/03/Control-Panel--600x337.png 600w, https://trainsec.net/wp-content/uploads/2026/03/Control-Panel--300x169.png 300w, https://trainsec.net/wp-content/uploads/2026/03/Control-Panel--1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2026/03/Control-Panel--768x432.png 768w, https://trainsec.net/wp-content/uploads/2026/03/Control-Panel--1536x864.png 1536w" sizes="(max-width: 1919px) 100vw, 1919px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/">
-				Hiding a Service with C++			</a>
+			<a href="https://trainsec.net/library/windows-internals/writing-control-panel-applications/">
+				Writing Control Panel Applications			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
 			Pavel Yosifovich		</span>
 				<span class="elementor-post-date">
-			March 16, 2026		</span>
+			March 23, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>In a previous post we hid a Windows service using a UI tool. This post shows the programmatic approach in C++: query the service DACL, add a deny ACE, handle self-relative vs absolute security descriptors, and apply the change through SCM APIs.</p>
+			<p>Control Panel is still supported, which means you can still build your own applets. This post shows how to write a .cpl DLL in C++, implement CPlApplet, add icon/string resources, register it, and debug it properly.</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/" aria-label="Read more about Hiding a Service with C++" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/writing-control-panel-applications/" aria-label="Read more about Writing Control Panel Applications" tabindex="-1">
 			Dive in		</a>
+
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Writing Control Panel Applications]]></title>
+        <id>https://trainsec.net/library/windows-internals/writing-control-panel-applications/</id>
+        <link href="https://trainsec.net/library/windows-internals/writing-control-panel-applications/"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/writing-control-panel-applications/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1919" height="1079" src="https://trainsec.net/wp-content/uploads/2026/03/Control-Panel-.png" class="attachment-full size-full wp-image-10746" alt="Control Panel" srcset="https://trainsec.net/wp-content/uploads/2026/03/Control-Panel-.png 1919w, https://trainsec.net/wp-content/uploads/2026/03/Control-Panel--600x337.png 600w, https://trainsec.net/wp-content/uploads/2026/03/Control-Panel--300x169.png 300w, https://trainsec.net/wp-content/uploads/2026/03/Control-Panel--1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2026/03/Control-Panel--768x432.png 768w, https://trainsec.net/wp-content/uploads/2026/03/Control-Panel--1536x864.png 1536w" sizes="(max-width: 1919px) 100vw, 1919px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/writing-control-panel-applications/">
+				Writing Control Panel Applications			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			March 23, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Control Panel is still supported, which means you can still build your own applets. This post shows how to write a .cpl DLL in C++,		</p></div>
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/writing-control-panel-applications/" aria-label="Read more about Writing Control Panel Applications" tabindex="-1">
+			Read More 		</a>
 
 				</div>]]></content>
     </entry>
@@ -39,7 +66,7 @@
         <link href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/"/>
         <updated>2026-03-16T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1919" height="1079" src="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1.png" class="attachment-full size-full wp-image-10736" alt="hiding a service 1" srcset="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1.png 1919w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-600x337.png 600w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-300x169.png 300w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-768x432.png 768w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-1536x864.png 1536w" sizes="(max-width: 1919px) 100vw, 1919px"></div>
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1919" height="1079" src="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1.png" class="attachment-full size-full wp-image-10736" alt="hiding a service 1" srcset="https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1.png 1919w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-600x337.png 600w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-300x169.png 300w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-768x432.png 768w, https://trainsec.net/wp-content/uploads/2026/03/hiding-a-service-1-1536x864.png 1536w" sizes="(max-width: 1919px) 100vw, 1919px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
@@ -53,11 +80,13 @@
 			March 16, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>In a previous post we hid a Windows service using a UI tool. This post shows the programmatic approach in C++: query the service DACL,		</p></div>
+			<p>In a previous post we hid a Windows service using a UI tool. This post		</p></div>
+					<div class="elementor-post__read-more-wrapper">
 		
 		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/hiding-a-service-with-c/" aria-label="Read more about Hiding a Service with C++" tabindex="-1">
 			Read More 		</a>
 
+					</div>
 				</div>]]></content>
     </entry>
     <entry>
@@ -119,7 +148,7 @@
 				</div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Windows Research with WinDBG – Live 4 hour masterclass with Pavel]]></title>
+        <title type="html"><![CDATA[Windows Research with WinDBG – 4H Live (4th April) masterclass with Pavel]]></title>
         <id>https://trainsec.net/library/windows-internals/live-windows-research-using-windbg/</id>
         <link href="https://trainsec.net/library/windows-internals/live-windows-research-using-windbg/"/>
         <updated>2026-03-09T00:00:00.000Z</updated>
@@ -129,7 +158,7 @@
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
 			<a href="https://trainsec.net/library/windows-internals/live-windows-research-using-windbg/">
-				Windows Research with WinDBG – Live 4 hour masterclass with Pavel			</a>
+				Windows Research with WinDBG – 4H Live (4th April) masterclass with Pavel			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
@@ -141,7 +170,7 @@
 			<p>Join Pavel Yosifovich for a live 4 hour masterclass on researching Windows using WinDbg. Learn		</p></div>
 					<div class="elementor-post__read-more-wrapper">
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/live-windows-research-using-windbg/" aria-label="Read more about Windows Research with WinDBG – Live 4 hour masterclass with Pavel" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/live-windows-research-using-windbg/" aria-label="Read more about Windows Research with WinDBG – 4H Live (4th April) masterclass with Pavel" tabindex="-1">
 			Read More 		</a>
 
 					</div>
