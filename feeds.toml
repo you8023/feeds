@@ -478,8 +478,8 @@ dateFormat = "MMMM d, yyyy"
 title = "offensai"
 url = "https://www.offensai.com/blog"
 entrySelector = "article"
-titleSelector = "h3 > a"
-linkSelector = "h3 > a"
+titleSelector = ":where(h3 > a, h2)"
+linkSelector = "> a"
 
 [abnormal_ai]
 title = "abnormal_ai"
