@@ -1315,3 +1315,54 @@ titleSelector = "h3"
 linkSelector = "*"
 dateSelector = ".bg-black.border-2.border-white span"
 dateFormat = "MMMM yyyy"
+
+[kerbit]
+title = "kerbit"
+url = "https://kerbit.io/#research"
+entrySelector = "#blogCardContainer .research-card"
+titleSelector = ".research-card-title"
+linkSelector = "a"
+
+[openai_safety]
+title = "openai_safety"
+url = "https://openai.com/news/safety-alignment/"
+entrySelector = ".max-w-container .grid > .group"
+titleSelector = "a > div > div"
+linkSelector = "a"
+dateSelector = "a > div > p time"
+dateFormat = "MMM d, yyyy"
+
+[kroll]
+title = "kroll"
+url = "https://www.kroll.com/en/publications?page=1&by_industryormarket=Technology+Media+and+Telecom"
+entrySelector = ".grid-col-1 > div"
+titleSelector = ".text-DarkestBlue"
+linkSelector = "> a"
+dateSelector = ".text-darkGray"
+dateFormat = "MMMM d, yyyy"
+
+[eshard]
+title = "eshard"
+url = "https://eshard.com/posts"
+entrySelector = "#__next > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(1) > div"
+titleSelector = "h3"
+linkSelector = "a"
+filters = ["Corporate News"]
+
+[mercari_security]
+title = "mercari_security"
+url = "https://engineering.mercari.com/en/blog/category/security/"
+entrySelector = ".left > ul > li"
+titleSelector = "h3"
+linkSelector = "a"
+dateSelector = "time"
+dateFormat = "yyyy/MM/dd"
+
+[trellix_research]
+title = "trellix research"
+url = "https://www.trellix.com/blogs/research/"
+entrySelector = "#mresults > div.row"
+titleSelector = "p.mb-0 > a"
+linkSelector = "p.mb-0 > a"
+dateSelector = "p > b"
+dateFormat = "MMM dd, yyyy"
