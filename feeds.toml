@@ -1239,3 +1239,76 @@ titleSelector = ".heading-m"
 linkSelector = ".research-paper-link-block"
 dateSelector = ".heading-ss---bleached"
 dateFormat = "yyyy"
+
+[devansh]
+title = "devansh"
+url = "https://devansh.bearblog.dev/writings/"
+entrySelector = "ul li"
+titleSelector = "a"
+linkSelector = "a"
+dateSelector = "li"
+dateFormat = "yyyy-MM-dd"
+
+[oobs]
+title = "Out of Bounds"
+url = "https://oobs.io/posts"
+entrySelector = "article.post.on-list"
+titleSelector = "h2.post-title a"
+linkSelector = "h2.post-title a"
+dateSelector = "time.post-date"
+dateFormat = "yyyy-MM-dd"
+
+[hissenit]
+title = "HissenIT"
+url = "https://www.hissenit.com/en/blog/"
+entrySelector = ".blog-list-right"
+titleSelector = "h2.blogtitle a"
+linkSelector = "h2.blogtitle a"
+dateSelector = ".blogmeta"
+dateFormat = "MM/dd/yyyy"
+
+[onecloudplease]
+title = "One Cloud Please"
+url = "https://onecloudplease.com/blog/"
+entrySelector = "article.blog-post"
+titleSelector = "h2.blog-post__title"
+linkSelector = "a.blog-post__link"
+dateSelector = "p.blog-post__subtitle"
+dateFormat = "dd MMMM yyyy"
+
+[tianwen]
+title = "星图实验室"
+url = "https://tianwen.qianxin.com/blog"
+entrySelector = "article.recent-post-item"
+titleSelector = "h2"
+linkSelector = "a.title"
+dateSelector = "time.time"
+dateFormat = "yyyy-MM-dd"
+
+[nasm]
+title = "nasm.re"
+url = "https://nasm.re/"
+entrySelector = "article.article-type-post"
+titleSelector = "h1 > .article-title"
+linkSelector = "h1 > .article-title"
+dateSelector = "time.dt-published"
+dateFormat = "yyyy-MM-dd"
+
+[periphery]
+title = "Periphery"
+url = "https://www.periphery.security/newsandblog"
+entrySelector = ".post-list-item"
+titleSelector = ".header"
+linkSelector = "a"
+dateSelector = ".post-date"
+dateFormat = "MMMM dd, yyyy"
+matchOneOf = ["Periphery Labs"]
+
+[xclow3n]
+title = "xclow3n"
+url = "https://xclow3n.github.io/"
+entrySelector = "a[href^='/post/']"
+titleSelector = "h3"
+linkSelector = "*"
+dateSelector = ".bg-black.border-2.border-white span"
+dateFormat = "MMMM yyyy"
