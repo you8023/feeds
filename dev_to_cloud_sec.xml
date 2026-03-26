@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-03-26T15:58:42.402Z</updated>
+    <updated>2026-03-26T17:42:47.257Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
@@ -102,7 +102,7 @@
             </div>
           </a>
             <a href="https://dev.to/ohmygod/the-trivy-supply-chain-attack-how-a-compromised-security-scanner-stole-crypto-keys-and-the-cicd-3bp3#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Trivy Supply Chain Attack: How a Compromised Security Scanner Stole Crypto Keys — And the CI/CD Hardening Playbook for DeFi Teams">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aiw74e2d75pab5f6vdegy7i7p57ue47m" class="crayons-icon"><title id="aiw74e2d75pab5f6vdegy7i7p57ue47m">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5yufyilm9g3fppr5uozuwpru9edizzi" class="crayons-icon"><title id="a5yufyilm9g3fppr5uozuwpru9edizzi">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -111,7 +111,118 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             8 min read
           </small>
-            <button type="button" id="article-save-button-3405426" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3405426" data-article-author-id="3750445" aria-label="Save post The Trivy Supply Chain Attack: How a Compromised Security Scanner Stole Crypto Keys — And the CI/CD Hardening Playbook for DeFi Teams to reading list" title="Save post The Trivy Supply Chain Attack: How a Compromised Security Scanner Stole Crypto Keys — And the CI/CD Hardening Playbook for DeFi Teams to reading list">
+            <button type="button" id="article-save-button-3405426" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3405426" data-article-author-id="3750445" aria-label="Save post The Trivy Supply Chain Attack: How a Compromised Security Scanner Stole Crypto Keys — And the CI/CD Hardening Playbook for DeFi Teams to reading list" title="Save post The Trivy Supply Chain Attack: How a Compromised Security Scanner Stole Crypto Keys — And the CI/CD Hardening Playbook for DeFi Teams to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Trivy Attack: Why SHA Pinning Fails GitHub Actions]]></title>
+        <id>https://dev.to/ameer-pk/the-trivy-attack-why-sha-pinning-fails-github-actions-14if</id>
+        <link href="https://dev.to/ameer-pk/the-trivy-attack-why-sha-pinning-fails-github-actions-14if"/>
+        <updated>2026-03-26T16:02:47.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/ameer-pk/the-trivy-attack-why-sha-pinning-fails-github-actions-14if" aria-labelledby="article-link-3410032" class="crayons-story__hidden-navigation-link">The Trivy Attack: Why SHA Pinning Fails GitHub Actions</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/ameer-pk" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1630997%2F193a65ce-f815-45bb-998c-3f2dd4a8a3ee.jpeg" alt="ameer-pk profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/ameer-pk" class="crayons-story__secondary fw-medium m:hidden">
+              Ameer Hamza
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3410032" aria-controls="story-author-preview-content-3410032" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Ameer Hamza profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Ameer Hamza
+                
+              </button>
+              <div id="story-author-preview-content-3410032" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/ameer-pk" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1630997%2F193a65ce-f815-45bb-998c-3f2dd4a8a3ee.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Ameer Hamza</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1630997,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Ameer Hamza&quot;}" data-fetched="fetched" aria-label="Follow user: Ameer Hamza" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="1630997"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/ameer-pk/the-trivy-attack-why-sha-pinning-fails-github-actions-14if" class="crayons-story__tertiary fs-xs"><time datetime="2026-03-26T16:02:47Z" title="">Mar 26</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1774540967"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/ameer-pk/the-trivy-attack-why-sha-pinning-fails-github-actions-14if" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1614064641938-3bbee52942c7%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D1000%26h%3D420" id="article-link-3410032">
+          The Trivy Attack: Why SHA Pinning Fails GitHub Actions
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/github"><span class="crayons-tag__prefix">#</span>github</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(59, 73, 223, 0.10);
+        --tag-prefix: #3b49df;
+        --tag-bg-hover: rgba(59, 73, 223, 0.10);
+        --tag-prefix-hover: #3b49df;
+      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/ameer-pk/the-trivy-attack-why-sha-pinning-fails-github-actions-14if#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Trivy Attack: Why SHA Pinning Fails GitHub Actions">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apfoqztskvi6a2fsx3y5thevy9mtrv6a" class="crayons-icon"><title id="apfoqztskvi6a2fsx3y5thevy9mtrv6a">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3410032" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3410032" data-article-author-id="1630997" aria-label="Save post The Trivy Attack: Why SHA Pinning Fails GitHub Actions to reading list" title="Save post The Trivy Attack: Why SHA Pinning Fails GitHub Actions to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
