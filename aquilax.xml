@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aquilax.ai/blog</id>
     <title>AquilaX Security Blog</title>
-    <updated>2026-04-04T17:10:14.205Z</updated>
+    <updated>2026-04-04T18:04:02.712Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://aquilax.ai/assets/favicon.ico</icon>
     <entry>
@@ -1914,6 +1914,244 @@
           <p>The telltale patterns of unreviewed AI-generated code, how it affects false positive rates in security scanning, and an honest look at the pros and cons of vibe coding in production software.</p>
           <div class="blog-card-footer">
             <div class="blog-card-meta">Mar 2026 &nbsp;·&nbsp; 14 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Model Supply Chain Poisoning: When Your Model Loads, It Executes]]></title>
+        <id>https://aquilax.ai/blog/ai-model-supply-chain-poisoning</id>
+        <link href="https://aquilax.ai/blog/ai-model-supply-chain-poisoning"/>
+        <updated>2026-04-04T18:03:58.710Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">Supply Chain</span>
+            <span class="b-tag">ML Security</span>
+          </div>
+          <h3>AI Model Supply Chain Poisoning: When Your Model Loads, It Executes</h3>
+          <p>A malicious model on Hugging Face executes arbitrary code the moment you call <code style="font-family:var(--mono);font-size:12px">torch.load()</code>. Pickle exploits, backdoored weights, and how to actually protect your ML pipelines.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 12 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Memory Safety Vulnerabilities in C/C++: Why Rust Is Not Hype]]></title>
+        <id>https://aquilax.ai/blog/memory-safety-vulnerabilities-cpp-rust</id>
+        <link href="https://aquilax.ai/blog/memory-safety-vulnerabilities-cpp-rust"/>
+        <updated>2026-04-04T18:03:58.711Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Memory Safety</span>
+            <span class="b-tag purple">C/C++</span>
+            <span class="b-tag">Rust</span>
+          </div>
+          <h3>Memory Safety Vulnerabilities in C/C++: Why Rust Is Not Hype</h3>
+          <p>70% of Microsoft and Google CVEs are memory safety bugs. Buffer overflows, use-after-free, and heap corruption — why they persist in C/C++ and what a Rust migration actually involves.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 13 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Indirect Prompt Injection in RAG Systems and AI Agents: The Attack Nobody Sees Coming]]></title>
+        <id>https://aquilax.ai/blog/indirect-prompt-injection-rag-agents</id>
+        <link href="https://aquilax.ai/blog/indirect-prompt-injection-rag-agents"/>
+        <updated>2026-04-04T18:03:58.712Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">RAG</span>
+            <span class="b-tag">LLM Security</span>
+          </div>
+          <h3>Indirect Prompt Injection in RAG Systems and AI Agents: The Attack Nobody Sees Coming</h3>
+          <p>Malicious instructions hidden in documents, emails, and web pages hijack AI agents without the user ever typing the attack payload. How it works and what actually stops it.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 12 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Passkeys and WebAuthn: A Security Deep Dive for Developers]]></title>
+        <id>https://aquilax.ai/blog/passkeys-webauthn-security-deep-dive</id>
+        <link href="https://aquilax.ai/blog/passkeys-webauthn-security-deep-dive"/>
+        <updated>2026-04-04T18:03:58.714Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Authentication</span>
+            <span class="b-tag purple">WebAuthn</span>
+            <span class="b-tag">FIDO2</span>
+          </div>
+          <h3>Passkeys and WebAuthn: A Security Deep Dive for Developers</h3>
+          <p>Passkeys eliminate phishing via origin-bound public-key cryptography. But account recovery flows, algorithm confusion bugs, and missing signature counter checks silently undo those guarantees.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Helm Chart Security Misconfigurations: What Your Chart Scans Miss]]></title>
+        <id>https://aquilax.ai/blog/helm-chart-security-misconfigurations</id>
+        <link href="https://aquilax.ai/blog/helm-chart-security-misconfigurations"/>
+        <updated>2026-04-04T18:03:58.715Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">IaC Security</span>
+            <span class="b-tag purple">Kubernetes</span>
+            <span class="b-tag">Helm</span>
+          </div>
+          <h3>Helm Chart Security Misconfigurations: What Your Chart Scans Miss</h3>
+          <p>Privileged containers, secrets in values.yaml, missing NetworkPolicy, and OCI registry supply chain risks baked into community chart defaults — and how to find them correctly.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Race Conditions and Parallel Request Attacks: The Bugs Code Review Never Catches]]></title>
+        <id>https://aquilax.ai/blog/race-condition-parallel-request-attacks</id>
+        <link href="https://aquilax.ai/blog/race-condition-parallel-request-attacks"/>
+        <updated>2026-04-04T18:03:58.716Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AppSec</span>
+            <span class="b-tag purple">Concurrency</span>
+            <span class="b-tag">Business Logic</span>
+          </div>
+          <h3>Race Conditions and Parallel Request Attacks: The Bugs Code Review Never Catches</h3>
+          <p>Redeem a coupon twice, exceed a limit, withdraw more than your balance — TOCTOU bugs are exploitable by anyone with a concurrent HTTP script. HTTP/2 single-packet attack makes them trivially reliable.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI-Powered Phishing and Deepfake Social Engineering: The Attack Surface Nobody Prepared For]]></title>
+        <id>https://aquilax.ai/blog/ai-phishing-deepfake-social-engineering</id>
+        <link href="https://aquilax.ai/blog/ai-phishing-deepfake-social-engineering"/>
+        <updated>2026-04-04T18:03:58.717Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">Social Engineering</span>
+            <span class="b-tag">Deepfake</span>
+          </div>
+          <h3>AI-Powered Phishing and Deepfake Social Engineering: The Attack Surface Nobody Prepared For</h3>
+          <p>Voice cloning in 3 seconds. Personalised spear phishing at scale. Deepfake CFO video calls authorising $25M wire transfers. The cost of convincing social engineering has collapsed.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 12 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebAssembly Security: The Sandbox That Is Not What You Think]]></title>
+        <id>https://aquilax.ai/blog/webassembly-wasm-security-risks</id>
+        <link href="https://aquilax.ai/blog/webassembly-wasm-security-risks"/>
+        <updated>2026-04-04T18:03:58.719Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AppSec</span>
+            <span class="b-tag purple">WebAssembly</span>
+            <span class="b-tag">Browser Security</span>
+          </div>
+          <h3>WebAssembly Security: The Sandbox That Is Not What You Think</h3>
+          <p>Linear memory without ASLR, Spectre timing channels, cryptomining modules that pass review, and WASM as a malware loader. The security model is real — so are the gaps.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web Cache Poisoning and Cache Deception: The CDN Attacks in Your Blind Spot]]></title>
+        <id>https://aquilax.ai/blog/web-cache-poisoning-deception</id>
+        <link href="https://aquilax.ai/blog/web-cache-poisoning-deception"/>
+        <updated>2026-04-04T18:03:58.723Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AppSec</span>
+            <span class="b-tag purple">Web Security</span>
+            <span class="b-tag">CDN</span>
+          </div>
+          <h3>Web Cache Poisoning and Cache Deception: The CDN Attacks in Your Blind Spot</h3>
+          <p>Cache poisoning serves malicious content to every visitor. Cache deception stores private user data on the CDN for anyone to read. Both exploit unkeyed request components.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TLS Misconfiguration and Certificate Security: What Actually Breaks Real Encryption]]></title>
+        <id>https://aquilax.ai/blog/tls-misconfiguration-certificate-security</id>
+        <link href="https://aquilax.ai/blog/tls-misconfiguration-certificate-security"/>
+        <updated>2026-04-04T18:03:58.724Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag purple">Cryptography</span>
+            <span class="b-tag red">TLS</span>
+            <span class="b-tag">AppSec</span>
+          </div>
+          <h3>TLS Misconfiguration and Certificate Security: What Actually Breaks Real Encryption</h3>
+          <p>Weak cipher suites, disabled certificate validation, broken pinning implementations, mTLS bypass, and TLS inspection risks. The padlock icon does not mean encryption is correct.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Browser Extension Security: The Insider Threat You Installed Yourself]]></title>
+        <id>https://aquilax.ai/blog/browser-extension-security-risks</id>
+        <link href="https://aquilax.ai/blog/browser-extension-security-risks"/>
+        <updated>2026-04-04T18:03:58.725Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AppSec</span>
+            <span class="b-tag purple">Supply Chain</span>
+            <span class="b-tag">Browser Security</span>
+          </div>
+          <h3>Browser Extension Security: The Insider Threat You Installed Yourself</h3>
+          <p>Extensions with all-sites access read every form, cookie, and page you visit. Supply chain acquisitions push malicious updates to millions. Enterprise controls that actually work.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Red Teaming: How to Security Test LLMs Before Attackers Do]]></title>
+        <id>https://aquilax.ai/blog/ai-red-teaming-llm-security-testing</id>
+        <link href="https://aquilax.ai/blog/ai-red-teaming-llm-security-testing"/>
+        <updated>2026-04-04T18:03:58.726Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">Red Teaming</span>
+            <span class="b-tag">LLM Security</span>
+          </div>
+          <h3>AI Red Teaming: How to Security Test LLMs Before Attackers Do</h3>
+          <p>Structured methodology for AI red teaming — direct jailbreaks, system prompt extraction, indirect injection scenarios, tool abuse, and data exfiltration paths. How to score and report findings.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 12 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLM Model Extraction and Stealing: Your Proprietary Model Is Leaking]]></title>
+        <id>https://aquilax.ai/blog/llm-model-extraction-stealing-attacks</id>
+        <link href="https://aquilax.ai/blog/llm-model-extraction-stealing-attacks"/>
+        <updated>2026-04-04T18:03:58.728Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">Model Security</span>
+            <span class="b-tag">ML Security</span>
+          </div>
+          <h3>LLM Model Extraction and Stealing: Your Proprietary Model Is Leaking</h3>
+          <p>Systematic API queries reconstruct functional copies of proprietary fine-tuned LLMs. Membership inference reveals training data. Verbatim extraction recovers private content from model memory.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Container Runtime Security with eBPF: Beyond Image Scanning]]></title>
+        <id>https://aquilax.ai/blog/container-runtime-security-ebpf</id>
+        <link href="https://aquilax.ai/blog/container-runtime-security-ebpf"/>
+        <updated>2026-04-04T18:03:58.729Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Container Security</span>
+            <span class="b-tag purple">eBPF</span>
+            <span class="b-tag">Kubernetes</span>
+          </div>
+          <h3>Container Runtime Security with eBPF: Beyond Image Scanning</h3>
+          <p>Image scanning finds vulnerabilities. eBPF finds active exploitation — at the kernel level, in real time, from a vantage point malware cannot evade. Falco, Tetragon, seccomp, and how to deploy them.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 12 min read</div>
             <span class="blog-card-read">Read <span class="arrow">→</span></span>
           </div>]]></content>
     </entry>
