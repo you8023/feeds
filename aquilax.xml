@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aquilax.ai/blog</id>
     <title>AquilaX Security Blog</title>
-    <updated>2026-04-04T20:00:34.717Z</updated>
+    <updated>2026-04-04T21:03:25.699Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://aquilax.ai/assets/favicon.ico</icon>
     <entry>
@@ -2152,6 +2152,74 @@
           <p>Image scanning finds vulnerabilities. eBPF finds active exploitation — at the kernel level, in real time, from a vantage point malware cannot evade. Falco, Tetragon, seccomp, and how to deploy them.</p>
           <div class="blog-card-footer">
             <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 12 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cryptographic Implementation Vulnerabilities: Nonce Reuse, Timing Attacks, and Padding Oracles]]></title>
+        <id>https://aquilax.ai/blog/cryptographic-implementation-vulnerabilities</id>
+        <link href="https://aquilax.ai/blog/cryptographic-implementation-vulnerabilities"/>
+        <updated>2026-04-04T21:03:21.503Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Cryptography</span>
+            <span class="b-tag purple">AppSec</span>
+            <span class="b-tag">Implementation</span>
+          </div>
+          <h3>Cryptographic Implementation Vulnerabilities: Nonce Reuse, Timing Attacks, and Padding Oracles</h3>
+          <p>Correct algorithm, wrong implementation. AES-GCM nonce reuse collapses keystream security. Timing-variable comparisons leak HMAC bytes. Padding oracles decrypt arbitrary ciphertext without the key.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 13 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Coding Assistant Data Leakage: What Copilot, Cursor, and Windsurf Send to the Cloud]]></title>
+        <id>https://aquilax.ai/blog/ai-coding-assistant-data-leakage</id>
+        <link href="https://aquilax.ai/blog/ai-coding-assistant-data-leakage"/>
+        <updated>2026-04-04T21:03:21.504Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">Privacy</span>
+            <span class="b-tag">Enterprise</span>
+          </div>
+          <h3>AI Coding Assistant Data Leakage: What Copilot, Cursor, and Windsurf Send to the Cloud</h3>
+          <p>AI coding assistants transmit code context — neighboring files, open tabs, codebase indexes — to remote inference servers. Proprietary logic and credentials in comments go with it.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 12 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DNS Rebinding and Hijacking Attacks: SSRF via Browser and Cloud Compromise]]></title>
+        <id>https://aquilax.ai/blog/dns-rebinding-hijacking-attacks</id>
+        <link href="https://aquilax.ai/blog/dns-rebinding-hijacking-attacks"/>
+        <updated>2026-04-04T21:03:21.506Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Network Security</span>
+            <span class="b-tag purple">DNS</span>
+            <span class="b-tag">Cloud</span>
+          </div>
+          <h3>DNS Rebinding and Hijacking Attacks: SSRF via Browser and Cloud Compromise</h3>
+          <p>DNS rebinding converts a victim's browser into a proxy reaching internal services. Cloud DNS hijacking compromises infrastructure at the resolution layer — permanently until detected.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 13 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[API Rate Limiting Bypass Techniques: IP Rotation, Header Manipulation, Distributed Abuse]]></title>
+        <id>https://aquilax.ai/blog/api-rate-limiting-bypass-techniques</id>
+        <link href="https://aquilax.ai/blog/api-rate-limiting-bypass-techniques"/>
+        <updated>2026-04-04T21:03:21.507Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">API Security</span>
+            <span class="b-tag purple">Abuse Prevention</span>
+            <span class="b-tag">Infrastructure</span>
+          </div>
+          <h3>API Rate Limiting Bypass Techniques: IP Rotation, Header Manipulation, Distributed Abuse</h3>
+          <p>IP-based rate limits collapse against proxy pools. Header spoofing fools proxy-aware implementations. Sliding window flaws allow burst attacks. Here is how to build limits that hold.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 14 min read</div>
             <span class="blog-card-read">Read <span class="arrow">→</span></span>
           </div>]]></content>
     </entry>
