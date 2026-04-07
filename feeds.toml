@@ -69,11 +69,11 @@ linkSelector = ".blog-card-wrapper"
 
 [cogent]
 title = "cogent"
-url = "https://www.cogent.security/resources"
-entrySelector = ".ssr-variant > div > div > div:nth-child(3) a"
-titleSelector = "> div:nth-child(2) > div:nth-child(2) > h4"
-linkSelector = "*"
-dateSelector = "> div:nth-child(2) > div:nth-child(1) > h4"
+url = "https://www.cogent.com/blog"
+entrySelector = "#banner-leave > div > div:nth-child(3) > div"
+titleSelector = "> a > div:nth-child(2) > div:nth-child(2) > h3"
+linkSelector = "> a"
+dateSelector = "> a > div:nth-child(2) > div:nth-child(1) > p"
 dateFormat = "MMM d, yyyy"
 
 [maze]
@@ -1402,3 +1402,19 @@ titleSelector = "h2"
 linkSelector = "*"
 dateSelector = "time"
 dateFormat = "yyyy-MM-dd"
+
+[x6vrn]
+title = "x6vrn"
+url = "https://x6vrn.github.io/"
+entrySelector = ".post-item"
+titleSelector = ".post-title"
+linkSelector = ".post-title a"
+
+[varonis]
+title = "Varonis Cloud Security"
+url = "https://www.varonis.com/blog/tag/cloud-security"
+entrySelector = ".bls-card-container"
+titleSelector = ".blc-title"
+linkSelector = ".blog-listing-card"
+dateSelector = "p.blc-date"
+dateFormat = " MMM dd, yyyy"
