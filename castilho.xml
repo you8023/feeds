@@ -1,50 +1,1028 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://castilho.sh/</id>
-    <title>castilho blog</title>
-    <updated>2026-04-11T22:04:37.498Z</updated>
+    <id>https://circleci.com/blog/tag/security/</id>
+    <title>CircleCI Security Blog</title>
+    <updated>2026-04-11T23:08:02.617Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://castilho.sh/favicon.ico</icon>
+    <icon>https://d2qm0z2kzhiwa.cloudfront.net/blog/assets/blog/meta/android-chrome-512x512-b0a3962c7ec90ae60cb31f99a3fc37b5.png</icon>
     <entry>
-        <title type="html"><![CDATA[Stealing Salesforce OAuth Tokens using the WAF]]></title>
-        <id>https://castilho.sh/salesforce-oauth-ato</id>
-        <link href="https://castilho.sh/salesforce-oauth-ato"/>
-        <updated>2026-02-02T05:40:48.725Z</updated>
-        <content type="html"><![CDATA[<div class="border bg-card text-card-foreground relative flex flex-col md:flex-row overflow-hidden z-10 rounded-[5px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] w-full"><div class="relative w-full md:w-1/2 aspect-[2/1] md:aspect-auto md:order-last"><img alt="Stealing Salesforce OAuth Tokens using the WAF screenshot" style="position: absolute; inset: 0px; width: 100%; height: 100%; max-width: 100%;" class="object-cover" src="/banner.jpg"></div><div class="flex-1 p-0 w-full"><div class="flex flex-col space-y-1.5 p-6"><div class="flex items-center border-l-4 border-red-500 pl-[10px]"><div class="font-semibold leading-none tracking-tight">Stealing Salesforce OAuth Tokens using the WAF</div></div><div class="text-sm text-muted-foreground">Recently I was conducting a pentest on a Salesforce instance when I stumbled upon an XSS vulnerability. This writeup details that vulnerability and how  ...</div></div><div class="items-center p-6 pt-0 hidden md:flex gap-3 text-xs"><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">XSS</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">WAF</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">OAuth</button></div></div></div>]]></content>
+        <title type="html"><![CDATA[Sign OCI containers & other artifacts using Sigstore Cosign & CircleCI OIDC tokens]]></title>
+        <id>https://circleci.com/blog/sign-oci-containers-and-other-artifacts-using-sigstore-cosign/</id>
+        <link href="https://circleci.com/blog/sign-oci-containers-and-other-artifacts-using-sigstore-cosign/"/>
+        <updated>2025-12-21T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="grow-0 w-full overflow-hidden h-0 bg-morph-vapor pt-[57%] relative">
+      
+
+
+
+
+
+
+<picture>
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  <img src="https://images.ctfassets.net/il1yandlcjgk/24LPuMPbcY2saXHIhDTeXK/c3124646bc0d325f82b93d47a3f0dfdf/illustration_guardrails_receipt.svg" alt="illustration guardrails receipt" class="object-cover w-full h-full absolute inset-0 group-hover:scale-105 duration-300 transition-transform">
+</picture>
+    </div>
+  
+
+  
+  <div class="p-8 grow">
+    <h3 class="type-h4 mb-2 text-morph-terminal group-hover:text-slime-650 transition-colors duration-300">
+      Sign OCI containers &amp; other artifacts using Sigstore Cosign &amp; CircleCI OIDC tokens
+    </h3>
+    <div class="post-metadata text-small uppercase group-hover:text-slime-650 transition-colors duration-300 overflow-hidden">
+      
+        <span class="text-nowrap mr-8">Dec 21, 2025</span><span class="text-nowrap relative before:absolute before:h-4 before:bg-current before:w-px before:-left-4 before:block before:top-0">2 min read</span>
+      
+    </div>
+  </div>
+  
+
+  
+    
+
+
+
+
+
+
+
+<div class="flex gap-4 min-h-20 px-8 pb-5 grow-0 items-center">
+  <div class="rounded-full overflow-hidden w-10 h-10 shrink-0">
+    
+    
+
+
+
+
+
+
+<picture>
+  
+  
+  
+  
+  
+  
+    
+    
+      <source srcset="//images.ctfassets.net/il1yandlcjgk/3T5ubhssqEKES3Sa0zKr1y/a3b2b84dea4158b6b38b3d395dae3877/mitchell-amihod.png?w=50&amp;fm=webp&amp;q=75 1x, //images.ctfassets.net/il1yandlcjgk/3T5ubhssqEKES3Sa0zKr1y/a3b2b84dea4158b6b38b3d395dae3877/mitchell-amihod.png?w=100&amp;fm=webp&amp;q=60 2x, //images.ctfassets.net/il1yandlcjgk/3T5ubhssqEKES3Sa0zKr1y/a3b2b84dea4158b6b38b3d395dae3877/mitchell-amihod.png?w=150&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="//images.ctfassets.net/il1yandlcjgk/3T5ubhssqEKES3Sa0zKr1y/a3b2b84dea4158b6b38b3d395dae3877/mitchell-amihod.png?w=50&amp;fm=webp&amp;q=60" alt="Mitchell Amihod" class="">
+</picture>
+  </div>
+  <div class="media-body media-middle">
+    <p class="post-author-name">
+      
+        Mitchell Amihod
+      
+    </p>
+    
+      <p class="text-small leading-tight">
+        Senior Staff Software Engineer
+      </p>
+    
+  </div>
+</div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Scream at it until it Escalates - XSS to ATO via Server Size Errors Gadgets]]></title>
-        <id>https://castilho.sh/scream-until-escalates</id>
-        <link href="https://castilho.sh/scream-until-escalates"/>
-        <updated>2026-02-02T05:40:48.727Z</updated>
-        <content type="html"><![CDATA[<div class="border bg-card text-card-foreground relative flex flex-col md:flex-row overflow-hidden z-10 rounded-[5px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] w-full"><div class="relative w-full md:w-1/2 aspect-[2/1] md:aspect-auto "><img alt="Scream at it until it Escalates - XSS to ATO via Server Size Errors Gadgets screenshot" style="position: absolute; inset: 0px; width: 100%; height: 100%; max-width: 100%;" class="object-cover" src="/research_size.png"></div><div class="flex-1 p-0 w-full"><div class="flex flex-col space-y-1.5 p-6"><div class="flex items-center border-l-4 border-red-500 pl-[10px]"><div class="font-semibold leading-none tracking-tight">Scream at it until it Escalates - XSS to ATO via Server Size Errors Gadgets</div></div><div class="text-sm text-muted-foreground">Servers and Frameworks, just like us humans, have their own limitations in terms of how much data they can handle at once. Maybe you're are familiar with ...</div></div><div class="items-center p-6 pt-0 hidden md:flex gap-3 text-xs"><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">XSS</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Server Errors</button></div></div></div>]]></content>
+        <title type="html"><![CDATA[Benchmarking password hashing algorithms using CircleCI build matrix]]></title>
+        <id>https://circleci.com/blog/benchmarking-password-hashing-algorithms-using-circleci-build-matrix/</id>
+        <link href="https://circleci.com/blog/benchmarking-password-hashing-algorithms-using-circleci-build-matrix/"/>
+        <updated>2025-09-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="grow-0 w-full overflow-hidden h-0 bg-morph-vapor pt-[57%] relative">
+      
+
+
+
+
+
+
+<picture>
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=437&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=874&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=1311&amp;fm=webp&amp;q=45 3x" media="(min-width: 1440px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=431&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=862&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=1293&amp;fm=webp&amp;q=45 3x" media="(min-width: 1280px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=375&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=750&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=1125&amp;fm=webp&amp;q=45 3x" media="(min-width: 1024px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=487&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=974&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=1461&amp;fm=webp&amp;q=45 3x" media="(min-width: 768px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=353&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=706&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=1059&amp;fm=webp&amp;q=45 3x" media="(min-width: 640px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=604&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=1208&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=1812&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="https://images.ctfassets.net/il1yandlcjgk/3BCGQWZ82HqX3Fb80MICvr/343c5ce6f8fd52d7fa68474505983a37/Tutorial-Intermediate-B.jpg?w=604&amp;fm=webp&amp;q=60" alt="Developer B sits at a desk working on an intermediate-level project." class="object-cover w-full h-full absolute inset-0 group-hover:scale-105 duration-300 transition-transform">
+</picture>
+    </div>
+  
+
+  
+  <div class="p-8 grow">
+    <h3 class="type-h4 mb-2 text-morph-terminal group-hover:text-slime-650 transition-colors duration-300">
+      Benchmarking password hashing algorithms using CircleCI build matrix
+    </h3>
+    <div class="post-metadata text-small uppercase group-hover:text-slime-650 transition-colors duration-300 overflow-hidden">
+      
+        <span class="text-nowrap mr-8">Sep 19, 2025</span><span class="text-nowrap relative before:absolute before:h-4 before:bg-current before:w-px before:-left-4 before:block before:top-0">20 min read</span>
+      
+    </div>
+  </div>
+  
+
+  
+    
+
+
+
+
+
+
+
+<div class="flex gap-4 min-h-20 px-8 pb-5 grow-0 items-center">
+  <div class="rounded-full overflow-hidden w-10 h-10 shrink-0">
+    
+    
+
+
+
+
+
+
+<picture>
+  
+  
+  
+  
+  
+  
+    
+    
+      <source srcset="//images.ctfassets.net/il1yandlcjgk/3vqrijE0pbwWQ4wEev99V8/33564bef5f9c80f480096bfd2b5fca8a/square-avatar-blur.jpg?w=50&amp;fm=webp&amp;q=75 1x, //images.ctfassets.net/il1yandlcjgk/3vqrijE0pbwWQ4wEev99V8/33564bef5f9c80f480096bfd2b5fca8a/square-avatar-blur.jpg?w=100&amp;fm=webp&amp;q=60 2x, //images.ctfassets.net/il1yandlcjgk/3vqrijE0pbwWQ4wEev99V8/33564bef5f9c80f480096bfd2b5fca8a/square-avatar-blur.jpg?w=150&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="//images.ctfassets.net/il1yandlcjgk/3vqrijE0pbwWQ4wEev99V8/33564bef5f9c80f480096bfd2b5fca8a/square-avatar-blur.jpg?w=50&amp;fm=webp&amp;q=60" alt="Hangga Aji Sayekti" class="">
+</picture>
+  </div>
+  <div class="media-body media-middle">
+    <p class="post-author-name">
+      
+        Hangga Aji Sayekti
+      
+    </p>
+    
+      <p class="text-small leading-tight">
+        Software Engineer
+      </p>
+    
+  </div>
+</div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Bypass trustedOrigins Protection leads to ATO]]></title>
-        <id>https://castilho.sh/better-auth</id>
-        <link href="https://castilho.sh/better-auth"/>
-        <updated>2026-02-02T05:40:48.732Z</updated>
-        <content type="html"><![CDATA[<div class="border bg-card text-card-foreground relative flex flex-col md:flex-row overflow-hidden z-10 rounded-[5px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] w-full"><div class="relative w-full md:w-1/2 aspect-[2/1] md:aspect-auto md:order-last"><img alt="Bypass trustedOrigins Protection leads to ATO screenshot" style="position: absolute; inset: 0px; width: 100%; height: 100%; max-width: 100%;" class="object-cover" src="/better-auth.png"></div><div class="flex-1 p-0 w-full"><div class="flex flex-col space-y-1.5 p-6"><div class="flex items-center border-l-4 border-red-500 pl-[10px]"><div class="font-semibold leading-none tracking-tight">Bypass trustedOrigins Protection leads to ATO</div></div><div class="text-sm text-muted-foreground">Like starting recon scripts from scratch from time to time just because we feel like it, I decided to do that for my blog and it's design in general ...</div></div><div class="items-center p-6 pt-0 hidden md:flex gap-3 text-xs"><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Open Redirect</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Business Logic</button></div></div></div>]]></content>
+        <title type="html"><![CDATA[A comprehensive guide to container security]]></title>
+        <id>https://circleci.com/blog/a-comprehensive-guide-to-container-security/</id>
+        <link href="https://circleci.com/blog/a-comprehensive-guide-to-container-security/"/>
+        <updated>2025-02-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="grow-0 w-full overflow-hidden h-0 bg-morph-vapor pt-[57%] relative">
+      
+
+
+
+
+
+
+<picture>
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  <img src="https://images.ctfassets.net/il1yandlcjgk/3RRbx2D91rboHU1nGtW1TX/6eed477649910d6ae484497b13cd1ff2/illustration_security_diamonds.svg" alt="illustration security diamonds" class="object-cover w-full h-full absolute inset-0 group-hover:scale-105 duration-300 transition-transform">
+</picture>
+    </div>
+  
+
+  
+  <div class="p-8 grow">
+    <h3 class="type-h4 mb-2 text-morph-terminal group-hover:text-slime-650 transition-colors duration-300">
+      A comprehensive guide to container security
+    </h3>
+    <div class="post-metadata text-small uppercase group-hover:text-slime-650 transition-colors duration-300 overflow-hidden">
+      
+        <span class="text-nowrap mr-8">Feb 13, 2025</span><span class="text-nowrap relative before:absolute before:h-4 before:bg-current before:w-px before:-left-4 before:block before:top-0">8 min read</span>
+      
+    </div>
+  </div>
+  
+
+  
+    
+
+
+
+
+
+
+
+<div class="flex gap-4 min-h-20 px-8 pb-5 grow-0 items-center">
+  <div class="rounded-full overflow-hidden w-10 h-10 shrink-0">
+    
+    
+
+
+
+
+
+
+<picture>
+  
+  
+  
+  
+  
+  
+    
+    
+      <source srcset="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=75 1x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=100&amp;fm=webp&amp;q=60 2x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=150&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=60" alt="Jacob Schmitt" class="">
+</picture>
+  </div>
+  <div class="media-body media-middle">
+    <p class="post-author-name">
+      
+        Jacob Schmitt
+      
+    </p>
+    
+      <p class="text-small leading-tight">
+        Senior Technical Content Marketing Manager
+      </p>
+    
+  </div>
+</div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Kanboard - Spraying Malicious Tasks]]></title>
-        <id>https://castilho.sh/kanboard</id>
-        <link href="https://castilho.sh/kanboard"/>
-        <updated>2026-02-02T05:40:48.733Z</updated>
-        <content type="html"><![CDATA[<div class="border bg-card text-card-foreground relative flex flex-col md:flex-row overflow-hidden z-10 rounded-[5px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] w-full"><div class="relative w-full md:w-1/2 aspect-[2/1] md:aspect-auto "><img alt="Kanboard - Spraying Malicious Tasks screenshot" style="position: absolute; inset: 0px; width: 100%; height: 100%; max-width: 100%;" class="object-cover" src="/board.png"></div><div class="flex-1 p-0 w-full"><div class="flex flex-col space-y-1.5 p-6"><div class="flex items-center border-l-4 border-red-500 pl-[10px]"><div class="font-semibold leading-none tracking-tight">Kanboard - Spraying Malicious Tasks</div></div><div class="text-sm text-muted-foreground">Kanboard is a widely used Kanban project management software with over 10 million downloads on Docker Hub. Today we're going explore how I found ...</div></div><div class="items-center p-6 pt-0 hidden md:flex gap-3 text-xs"><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Open Redirect</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Business Logic</button></div></div></div>]]></content>
+        <title type="html"><![CDATA[DAST: A guide to dynamic application security testing]]></title>
+        <id>https://circleci.com/blog/dynamic-application-security-testing-dast/</id>
+        <link href="https://circleci.com/blog/dynamic-application-security-testing-dast/"/>
+        <updated>2023-06-09T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="grow-0 w-full overflow-hidden h-0 bg-morph-vapor pt-[57%] relative">
+      
+
+
+
+
+
+
+<picture>
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=437&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=874&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=1311&amp;fm=webp&amp;q=45 3x" media="(min-width: 1440px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=431&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=862&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=1293&amp;fm=webp&amp;q=45 3x" media="(min-width: 1280px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=375&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=750&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=1125&amp;fm=webp&amp;q=45 3x" media="(min-width: 1024px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=487&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=974&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=1461&amp;fm=webp&amp;q=45 3x" media="(min-width: 768px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=353&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=706&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=1059&amp;fm=webp&amp;q=45 3x" media="(min-width: 640px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=604&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=1208&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=1812&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="https://images.ctfassets.net/il1yandlcjgk/4hfwXag6VLiVwTiIF8wTic/73c62d55791397b9635fe38bb4ba9f50/rba-security-solutions-v2.jpg?w=604&amp;fm=webp&amp;q=60" alt="An engineer sits at a desktop running dynamic security tests on a web application." class="object-cover w-full h-full absolute inset-0 group-hover:scale-105 duration-300 transition-transform">
+</picture>
+    </div>
+  
+
+  
+  <div class="p-8 grow">
+    <h3 class="type-h4 mb-2 text-morph-terminal group-hover:text-slime-650 transition-colors duration-300">
+      DAST: A guide to dynamic application security testing
+    </h3>
+    <div class="post-metadata text-small uppercase group-hover:text-slime-650 transition-colors duration-300 overflow-hidden">
+      
+        <span class="text-nowrap mr-8">Jun 9, 2023</span><span class="text-nowrap relative before:absolute before:h-4 before:bg-current before:w-px before:-left-4 before:block before:top-0">7 min read</span>
+      
+    </div>
+  </div>
+  
+
+  
+    
+
+
+
+
+
+
+
+<div class="flex gap-4 min-h-20 px-8 pb-5 grow-0 items-center">
+  <div class="rounded-full overflow-hidden w-10 h-10 shrink-0">
+    
+    
+
+
+
+
+
+
+<picture>
+  
+  
+  
+  
+  
+  
+    
+    
+      <source srcset="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=75 1x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=100&amp;fm=webp&amp;q=60 2x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=150&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=60" alt="Jacob Schmitt" class="">
+</picture>
+  </div>
+  <div class="media-body media-middle">
+    <p class="post-author-name">
+      
+        Jacob Schmitt
+      
+    </p>
+    
+      <p class="text-small leading-tight">
+        Senior Technical Content Marketing Manager
+      </p>
+    
+  </div>
+</div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Stealing Credit Card Info with CSS]]></title>
-        <id>https://castilho.sh/css-injection-credit-card</id>
-        <link href="https://castilho.sh/css-injection-credit-card"/>
-        <updated>2026-02-02T05:40:48.734Z</updated>
-        <content type="html"><![CDATA[<div class="border bg-card text-card-foreground relative flex flex-col md:flex-row overflow-hidden z-10 rounded-[5px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] w-full"><div class="relative w-full md:w-1/2 aspect-[2/1] md:aspect-auto md:order-last"><img alt="Stealing Credit Card Info with CSS screenshot" style="position: absolute; inset: 0px; width: 100%; height: 100%; max-width: 100%;" class="object-cover" src="/image.png"></div><div class="flex-1 p-0 w-full"><div class="flex flex-col space-y-1.5 p-6"><div class="flex items-center border-l-4 border-red-500 pl-[10px]"><div class="font-semibold leading-none tracking-tight">Stealing Credit Card Info with CSS</div></div><div class="text-sm text-muted-foreground">In this writeup I'll walk you through how I used CSS Injection to steal users Credit Card Info via Post-Messages ...</div></div><div class="items-center p-6 pt-0 hidden md:flex gap-3 text-xs"><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Web Sockets</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">CSS Injection</button></div></div></div>]]></content>
+        <title type="html"><![CDATA[Zero trust security for CI/CD pipelines]]></title>
+        <id>https://circleci.com/blog/zero-trust-security-for-ci-cd/</id>
+        <link href="https://circleci.com/blog/zero-trust-security-for-ci-cd/"/>
+        <updated>2023-06-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="grow-0 w-full overflow-hidden h-0 bg-morph-vapor pt-[57%] relative">
+      
+
+
+
+
+
+
+<picture>
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=437&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=874&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=1311&amp;fm=webp&amp;q=45 3x" media="(min-width: 1440px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=431&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=862&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=1293&amp;fm=webp&amp;q=45 3x" media="(min-width: 1280px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=375&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=750&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=1125&amp;fm=webp&amp;q=45 3x" media="(min-width: 1024px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=487&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=974&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=1461&amp;fm=webp&amp;q=45 3x" media="(min-width: 768px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=353&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=706&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=1059&amp;fm=webp&amp;q=45 3x" media="(min-width: 640px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=604&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=1208&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=1812&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="https://images.ctfassets.net/il1yandlcjgk/575Iq8OKkqwUwzZR1rmEoH/8b94ff3f0858cf5654b728678198ca40/rba-security-devsecops.jpg?w=604&amp;fm=webp&amp;q=60" alt="Workers raise an oversize security lock to higher and higher levels. " class="object-cover w-full h-full absolute inset-0 group-hover:scale-105 duration-300 transition-transform">
+</picture>
+    </div>
+  
+
+  
+  <div class="p-8 grow">
+    <h3 class="type-h4 mb-2 text-morph-terminal group-hover:text-slime-650 transition-colors duration-300">
+      Zero trust security for CI/CD pipelines
+    </h3>
+    <div class="post-metadata text-small uppercase group-hover:text-slime-650 transition-colors duration-300 overflow-hidden">
+      
+        <span class="text-nowrap mr-8">Jun 1, 2023</span><span class="text-nowrap relative before:absolute before:h-4 before:bg-current before:w-px before:-left-4 before:block before:top-0">7 min read</span>
+      
+    </div>
+  </div>
+  
+
+  
+    
+
+
+
+
+
+
+
+<div class="flex gap-4 min-h-20 px-8 pb-5 grow-0 items-center">
+  <div class="rounded-full overflow-hidden w-10 h-10 shrink-0">
+    
+    
+
+
+
+
+
+
+<picture>
+  
+  
+  
+  
+  
+  
+    
+    
+      <source srcset="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=75 1x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=100&amp;fm=webp&amp;q=60 2x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=150&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=60" alt="Jacob Schmitt" class="">
+</picture>
+  </div>
+  <div class="media-body media-middle">
+    <p class="post-author-name">
+      
+        Jacob Schmitt
+      
+    </p>
+    
+      <p class="text-small leading-tight">
+        Senior Technical Content Marketing Manager
+      </p>
+    
+  </div>
+</div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CVE-2022-0478 Wordpress Event-Manager Plugin SQLI]]></title>
-        <id>https://castilho.sh/cve-2022-0478</id>
-        <link href="https://castilho.sh/cve-2022-0478"/>
-        <updated>2026-02-02T05:40:48.736Z</updated>
-        <content type="html"><![CDATA[<div class="border bg-card text-card-foreground relative flex flex-col md:flex-row overflow-hidden z-10 rounded-[5px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] w-full"><div class="relative w-full md:w-1/2 aspect-[2/1] md:aspect-auto "><img alt="CVE-2022-0478 Wordpress Event-Manager Plugin SQLI screenshot" style="position: absolute; inset: 0px; width: 100%; height: 100%; max-width: 100%;" class="object-cover" src="/wow.png"></div><div class="flex-1 p-0 w-full"><div class="flex flex-col space-y-1.5 p-6"><div class="flex items-center border-l-4 border-red-500 pl-[10px]"><div class="font-semibold leading-none tracking-tight">CVE-2022-0478 Wordpress Event-Manager Plugin SQLI</div></div><div class="text-sm text-muted-foreground">It's been a while since I posted something ... But I plan to bring new content into the blog and to get off on the right foot. We'll start with ...</div></div><div class="items-center p-6 pt-0 hidden md:flex gap-3 text-xs"><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">SQL Injection</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Business Logic</button></div></div></div>]]></content>
+        <title type="html"><![CDATA[SAST: A guide to static application security testing]]></title>
+        <id>https://circleci.com/blog/static-application-security-testing-sast/</id>
+        <link href="https://circleci.com/blog/static-application-security-testing-sast/"/>
+        <updated>2023-05-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="grow-0 w-full overflow-hidden h-0 bg-morph-vapor pt-[57%] relative">
+      
+
+
+
+
+
+
+<picture>
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=437&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=874&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=1311&amp;fm=webp&amp;q=45 3x" media="(min-width: 1440px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=431&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=862&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=1293&amp;fm=webp&amp;q=45 3x" media="(min-width: 1280px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=375&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=750&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=1125&amp;fm=webp&amp;q=45 3x" media="(min-width: 1024px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=487&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=974&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=1461&amp;fm=webp&amp;q=45 3x" media="(min-width: 768px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=353&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=706&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=1059&amp;fm=webp&amp;q=45 3x" media="(min-width: 640px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=604&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=1208&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=1812&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="https://images.ctfassets.net/il1yandlcjgk/6CDjGvhi6m50FolDcMbLBY/920b61177a0c5752550a455372ecc85b/rba-testing-01.jpg?w=604&amp;fm=webp&amp;q=60" alt="A stand-alone computer kiosk shows how software can be tested from inside or outside the code." class="object-cover w-full h-full absolute inset-0 group-hover:scale-105 duration-300 transition-transform">
+</picture>
+    </div>
+  
+
+  
+  <div class="p-8 grow">
+    <h3 class="type-h4 mb-2 text-morph-terminal group-hover:text-slime-650 transition-colors duration-300">
+      SAST: A guide to static application security testing
+    </h3>
+    <div class="post-metadata text-small uppercase group-hover:text-slime-650 transition-colors duration-300 overflow-hidden">
+      
+        <span class="text-nowrap mr-8">May 24, 2023</span><span class="text-nowrap relative before:absolute before:h-4 before:bg-current before:w-px before:-left-4 before:block before:top-0">9 min read</span>
+      
+    </div>
+  </div>
+  
+
+  
+    
+
+
+
+
+
+
+
+<div class="flex gap-4 min-h-20 px-8 pb-5 grow-0 items-center">
+  <div class="rounded-full overflow-hidden w-10 h-10 shrink-0">
+    
+    
+
+
+
+
+
+
+<picture>
+  
+  
+  
+  
+  
+  
+    
+    
+      <source srcset="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=75 1x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=100&amp;fm=webp&amp;q=60 2x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=150&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=60" alt="Jacob Schmitt" class="">
+</picture>
+  </div>
+  <div class="media-body media-middle">
+    <p class="post-author-name">
+      
+        Jacob Schmitt
+      
+    </p>
+    
+      <p class="text-small leading-tight">
+        Senior Technical Content Marketing Manager
+      </p>
+    
+  </div>
+</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Role-based credential management with OIDC]]></title>
+        <id>https://circleci.com/blog/role-based-credential-management-with-oidc/</id>
+        <link href="https://circleci.com/blog/role-based-credential-management-with-oidc/"/>
+        <updated>2023-05-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="grow-0 w-full overflow-hidden h-0 bg-morph-vapor pt-[57%] relative">
+      
+
+
+
+
+
+
+<picture>
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=437&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=874&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=1311&amp;fm=webp&amp;q=45 3x" media="(min-width: 1440px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=431&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=862&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=1293&amp;fm=webp&amp;q=45 3x" media="(min-width: 1280px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=375&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=750&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=1125&amp;fm=webp&amp;q=45 3x" media="(min-width: 1024px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=487&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=974&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=1461&amp;fm=webp&amp;q=45 3x" media="(min-width: 768px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=353&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=706&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=1059&amp;fm=webp&amp;q=45 3x" media="(min-width: 640px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=604&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=1208&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=1812&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="https://images.ctfassets.net/il1yandlcjgk/3IRmsC7m0OrbMWPCG2Xgp5/0f497a5119bf4fb055fca88e9f1915d7/rba-s-oidc.png?w=604&amp;fm=webp&amp;q=60" alt="Stylized cloud showing a certificate-like document from CircleCI." class="object-cover w-full h-full absolute inset-0 group-hover:scale-105 duration-300 transition-transform">
+</picture>
+    </div>
+  
+
+  
+  <div class="p-8 grow">
+    <h3 class="type-h4 mb-2 text-morph-terminal group-hover:text-slime-650 transition-colors duration-300">
+      Role-based credential management with OIDC
+    </h3>
+    <div class="post-metadata text-small uppercase group-hover:text-slime-650 transition-colors duration-300 overflow-hidden">
+      
+        <span class="text-nowrap mr-8">May 8, 2023</span><span class="text-nowrap relative before:absolute before:h-4 before:bg-current before:w-px before:-left-4 before:block before:top-0">9 min read</span>
+      
+    </div>
+  </div>
+  
+
+  
+    
+
+
+
+
+
+
+
+<div class="flex gap-4 min-h-20 px-8 pb-5 grow-0 items-center">
+  <div class="rounded-full overflow-hidden w-10 h-10 shrink-0">
+    
+    
+
+
+
+
+
+
+<picture>
+  
+  
+  
+  
+  
+  
+    
+    
+      <source srcset="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=75 1x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=100&amp;fm=webp&amp;q=60 2x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=150&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=60" alt="Jacob Schmitt" class="">
+</picture>
+  </div>
+  <div class="media-body media-middle">
+    <p class="post-author-name">
+      
+        Jacob Schmitt
+      
+    </p>
+    
+      <p class="text-small leading-tight">
+        Senior Technical Content Marketing Manager
+      </p>
+    
+  </div>
+</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Static credential management for platform engineers]]></title>
+        <id>https://circleci.com/blog/static-credential-management-for-platform-engineers/</id>
+        <link href="https://circleci.com/blog/static-credential-management-for-platform-engineers/"/>
+        <updated>2023-04-28T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="grow-0 w-full overflow-hidden h-0 bg-morph-vapor pt-[57%] relative">
+      
+
+
+
+
+
+
+<picture>
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=437&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=874&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=1311&amp;fm=webp&amp;q=45 3x" media="(min-width: 1440px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=431&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=862&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=1293&amp;fm=webp&amp;q=45 3x" media="(min-width: 1280px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=375&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=750&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=1125&amp;fm=webp&amp;q=45 3x" media="(min-width: 1024px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=487&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=974&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=1461&amp;fm=webp&amp;q=45 3x" media="(min-width: 768px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=353&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=706&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=1059&amp;fm=webp&amp;q=45 3x" media="(min-width: 640px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=604&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=1208&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=1812&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="https://images.ctfassets.net/il1yandlcjgk/1j2kvGgBDF4xyqbNgSwM3p/fb830ba6763ef57bbd67b34e99e0692f/rba-s-project-restrictions.jpg?w=604&amp;fm=webp&amp;q=60" alt="A row of context secrets aligns with a row of stylized code projects." class="object-cover w-full h-full absolute inset-0 group-hover:scale-105 duration-300 transition-transform">
+</picture>
+    </div>
+  
+
+  
+  <div class="p-8 grow">
+    <h3 class="type-h4 mb-2 text-morph-terminal group-hover:text-slime-650 transition-colors duration-300">
+      Static credential management for platform engineers
+    </h3>
+    <div class="post-metadata text-small uppercase group-hover:text-slime-650 transition-colors duration-300 overflow-hidden">
+      
+        <span class="text-nowrap mr-8">Apr 28, 2023</span><span class="text-nowrap relative before:absolute before:h-4 before:bg-current before:w-px before:-left-4 before:block before:top-0">9 min read</span>
+      
+    </div>
+  </div>
+  
+
+  
+    
+
+
+
+
+
+
+
+<div class="flex gap-4 min-h-20 px-8 pb-5 grow-0 items-center">
+  <div class="rounded-full overflow-hidden w-10 h-10 shrink-0">
+    
+    
+
+
+
+
+
+
+<picture>
+  
+  
+  
+  
+  
+  
+    
+    
+      <source srcset="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=75 1x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=100&amp;fm=webp&amp;q=60 2x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=150&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=60" alt="Jacob Schmitt" class="">
+</picture>
+  </div>
+  <div class="media-body media-middle">
+    <p class="post-author-name">
+      
+        Jacob Schmitt
+      
+    </p>
+    
+      <p class="text-small leading-tight">
+        Senior Technical Content Marketing Manager
+      </p>
+    
+  </div>
+</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New CircleCI features for secure secrets management]]></title>
+        <id>https://circleci.com/blog/new-features-secure-secrets-management/</id>
+        <link href="https://circleci.com/blog/new-features-secure-secrets-management/"/>
+        <updated>2023-02-07T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="grow-0 w-full overflow-hidden h-0 bg-morph-vapor pt-[57%] relative">
+      
+
+
+
+
+
+
+<picture>
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=437&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=874&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=1311&amp;fm=webp&amp;q=45 3x" media="(min-width: 1440px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=431&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=862&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=1293&amp;fm=webp&amp;q=45 3x" media="(min-width: 1280px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=375&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=750&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=1125&amp;fm=webp&amp;q=45 3x" media="(min-width: 1024px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=487&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=974&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=1461&amp;fm=webp&amp;q=45 3x" media="(min-width: 768px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=353&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=706&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=1059&amp;fm=webp&amp;q=45 3x" media="(min-width: 640px)">
+    
+  
+  
+    
+    
+      <source srcset="https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=604&amp;fm=webp&amp;q=75 1x, https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=1208&amp;fm=webp&amp;q=60 2x, https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=1812&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="https://images.ctfassets.net/il1yandlcjgk/3GtH5meZcCYeCZuw825KXl/4fbffb9bd17cad0bafec4ec9ed7ce4f8/rba-security-secrets.png?w=604&amp;fm=webp&amp;q=60" alt="A stylized stream of usernames and passwords streams into a server and is transformed into code." class="object-cover w-full h-full absolute inset-0 group-hover:scale-105 duration-300 transition-transform">
+</picture>
+    </div>
+  
+
+  
+  <div class="p-8 grow">
+    <h3 class="type-h4 mb-2 text-morph-terminal group-hover:text-slime-650 transition-colors duration-300">
+      New CircleCI features for secure secrets management
+    </h3>
+    <div class="post-metadata text-small uppercase group-hover:text-slime-650 transition-colors duration-300 overflow-hidden">
+      
+        <span class="text-nowrap mr-8">Feb 7, 2023</span><span class="text-nowrap relative before:absolute before:h-4 before:bg-current before:w-px before:-left-4 before:block before:top-0">6 min read</span>
+      
+    </div>
+  </div>
+  
+
+  
+    
+
+
+
+
+
+
+
+<div class="flex gap-4 min-h-20 px-8 pb-5 grow-0 items-center">
+  <div class="rounded-full overflow-hidden w-10 h-10 shrink-0">
+    
+    
+
+
+
+
+
+
+<picture>
+  
+  
+  
+  
+  
+  
+    
+    
+      <source srcset="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=75 1x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=100&amp;fm=webp&amp;q=60 2x, //images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=150&amp;fm=webp&amp;q=45 3x" media="(min-width: 0px)">
+    
+  
+  <img src="//images.ctfassets.net/il1yandlcjgk/5jaDKy7of1bny9EdxkfENU/e1d8506d6f4dc49c02127006e288eeb4/jacob-schmitt.jpg?w=50&amp;fm=webp&amp;q=60" alt="Jacob Schmitt" class="">
+</picture>
+  </div>
+  <div class="media-body media-middle">
+    <p class="post-author-name">
+      
+        Jacob Schmitt
+      
+    </p>
+    
+      <p class="text-small leading-tight">
+        Senior Technical Content Marketing Manager
+      </p>
+    
+  </div>
+</div>]]></content>
     </entry>
 </feed>
