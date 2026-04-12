@@ -2,9 +2,213 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aquilax.ai/blog</id>
     <title>AquilaX Security Blog</title>
-    <updated>2026-04-12T22:05:34.945Z</updated>
+    <updated>2026-04-12T23:10:17.545Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://aquilax.ai/assets/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Platform Engineering Security: How Internal Developer Platforms Become Your Biggest Attack Surface]]></title>
+        <id>https://aquilax.ai/blog/platform-engineering-idp-security</id>
+        <link href="https://aquilax.ai/blog/platform-engineering-idp-security"/>
+        <updated>2026-04-12T23:10:07.109Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Platform Security</span>
+            <span class="b-tag purple">IDP</span>
+            <span class="b-tag">DevSecOps</span>
+          </div>
+          <h3>Platform Engineering Security: How Internal Developer Platforms Become Your Biggest Attack Surface</h3>
+          <p>IDPs centralise secrets, pipelines, and infrastructure access. A single misconfiguration or compromised plugin turns your IDP into a master key for the entire engineering organisation.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitOps Security: ArgoCD and Flux Vulnerabilities, Repo Manipulation, and Secrets Exposure]]></title>
+        <id>https://aquilax.ai/blog/gitops-argocd-flux-security</id>
+        <link href="https://aquilax.ai/blog/gitops-argocd-flux-security"/>
+        <updated>2026-04-12T23:10:07.109Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">GitOps</span>
+            <span class="b-tag purple">ArgoCD</span>
+            <span class="b-tag">Supply Chain</span>
+          </div>
+          <h3>GitOps Security: ArgoCD and Flux Vulnerabilities, Repo Manipulation, and Secrets Exposure</h3>
+          <p>When Git is your source of truth for infrastructure state, a commit to your config repo is equivalent to a deployment to production. Most teams haven't updated their security model to match.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenTelemetry Security: When Your Observability Pipeline Leaks PII and Secrets]]></title>
+        <id>https://aquilax.ai/blog/opentelemetry-security-data-leakage</id>
+        <link href="https://aquilax.ai/blog/opentelemetry-security-data-leakage"/>
+        <updated>2026-04-12T23:10:07.109Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Data Leakage</span>
+            <span class="b-tag purple">OpenTelemetry</span>
+            <span class="b-tag">Privacy</span>
+          </div>
+          <h3>OpenTelemetry Security: When Your Observability Pipeline Leaks PII and Secrets</h3>
+          <p>OTEL auto-instrumentation captures HTTP authorization headers, full SQL queries, and environment variables by default. Your trace backend may be your most comprehensive data breach waiting to happen.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Service Mesh Security: Istio mTLS Bypasses, Sidecar Vulnerabilities, and Zero-Trust Failures]]></title>
+        <id>https://aquilax.ai/blog/service-mesh-istio-mtls-bypass</id>
+        <link href="https://aquilax.ai/blog/service-mesh-istio-mtls-bypass"/>
+        <updated>2026-04-12T23:10:07.109Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Cloud Security</span>
+            <span class="b-tag purple">Service Mesh</span>
+            <span class="b-tag">Istio</span>
+          </div>
+          <h3>Service Mesh Security: Istio mTLS Bypasses, Sidecar Vulnerabilities, and Zero-Trust Failures</h3>
+          <p>Istio's default PERMISSIVE mode accepts both mTLS and plain-text traffic. Services believe they are zero-trust; the mesh accepts everything. Here's how mTLS is silently bypassed in practice.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Feature Flags as an Attack Surface: Unauthorized Access to Dark-Launch Code Paths]]></title>
+        <id>https://aquilax.ai/blog/feature-flags-security-risks</id>
+        <link href="https://aquilax.ai/blog/feature-flags-security-risks"/>
+        <updated>2026-04-12T23:10:07.109Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AppSec</span>
+            <span class="b-tag purple">Access Control</span>
+            <span class="b-tag">Feature Flags</span>
+          </div>
+          <h3>Feature Flags as an Attack Surface: Unauthorized Access to Dark-Launch Code Paths</h3>
+          <p>Feature flags are a parallel access control system governing who reaches unreleased functionality — yet most organisations audit their IAM policies rigorously while never reviewing their feature flag targeting rules.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 9 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kafka and Event-Driven Architecture Security: Message Injection, Schema Poisoning, Consumer Group Attacks]]></title>
+        <id>https://aquilax.ai/blog/kafka-event-driven-security</id>
+        <link href="https://aquilax.ai/blog/kafka-event-driven-security"/>
+        <updated>2026-04-12T23:10:07.109Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AppSec</span>
+            <span class="b-tag purple">Kafka</span>
+            <span class="b-tag">Event-Driven</span>
+          </div>
+          <h3>Kafka and Event-Driven Architecture Security: Message Injection, Schema Poisoning, Consumer Group Attacks</h3>
+          <p>A single malicious message published to a Kafka topic is consumed by every subscriber. The async nature of event streams means attacks can propagate hours before they're detected.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Backstage Developer Portal Security: Plugin Vulnerabilities, RBAC Bypass, and Catalog Poisoning]]></title>
+        <id>https://aquilax.ai/blog/backstage-developer-portal-security</id>
+        <link href="https://aquilax.ai/blog/backstage-developer-portal-security"/>
+        <updated>2026-04-12T23:10:07.109Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Platform Security</span>
+            <span class="b-tag purple">Backstage</span>
+            <span class="b-tag">DevPortal</span>
+          </div>
+          <h3>Backstage Developer Portal Security: Plugin Vulnerabilities, RBAC Bypass, and Catalog Poisoning</h3>
+          <p>Backstage's software catalog maps every service, dependency, and owner in your engineering org. Its plugin ecosystem runs third-party code with full access to your platform's service accounts.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 9 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CI-as-Code Security: Dagger, Tekton, and Argo Workflows Attack Surfaces]]></title>
+        <id>https://aquilax.ai/blog/ci-as-code-dagger-tekton-security</id>
+        <link href="https://aquilax.ai/blog/ci-as-code-dagger-tekton-security"/>
+        <updated>2026-04-12T23:10:07.109Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">DevSecOps</span>
+            <span class="b-tag purple">CI Security</span>
+            <span class="b-tag">Supply Chain</span>
+          </div>
+          <h3>CI-as-Code Security: Dagger, Tekton, and Argo Workflows Attack Surfaces</h3>
+          <p>Programmable CI frameworks let pipelines do anything an application can — including the bad things. Pipeline code has access to deployment credentials, signing keys, and production environments.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 9 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remote Development Environment Security: Codespaces, Gitpod, and Cloud IDE Risks]]></title>
+        <id>https://aquilax.ai/blog/remote-dev-environment-codespaces-security</id>
+        <link href="https://aquilax.ai/blog/remote-dev-environment-codespaces-security"/>
+        <updated>2026-04-12T23:10:07.109Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AppSec</span>
+            <span class="b-tag purple">Codespaces</span>
+            <span class="b-tag">Cloud IDE</span>
+          </div>
+          <h3>Remote Development Environment Security: Codespaces, Gitpod, and Cloud IDE Risks</h3>
+          <p>Remote dev environments give engineers full development capabilities — and move developer secrets, cloud credentials, and organisation tokens into managed cloud containers. Here's the security model.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 9 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Temporal Workflow Security: Long-Running Process Vulnerabilities and Activity Worker Exploitation]]></title>
+        <id>https://aquilax.ai/blog/temporal-workflow-security</id>
+        <link href="https://aquilax.ai/blog/temporal-workflow-security"/>
+        <updated>2026-04-12T23:10:07.110Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AppSec</span>
+            <span class="b-tag purple">Temporal</span>
+            <span class="b-tag">Workflow Security</span>
+          </div>
+          <h3>Temporal Workflow Security: Long-Running Process Vulnerabilities and Activity Worker Exploitation</h3>
+          <p>Temporal's durable execution model persists workflow state indefinitely and allows external signals, queries, and replays. Each of those capabilities is also an attack vector against your business logic.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 9 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WASM Components and WASI Security: Capability Leaks, Host Interface Attacks, and Sandbox Escapes]]></title>
+        <id>https://aquilax.ai/blog/wasi-webassembly-components-security</id>
+        <link href="https://aquilax.ai/blog/wasi-webassembly-components-security"/>
+        <updated>2026-04-12T23:10:07.113Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AppSec</span>
+            <span class="b-tag purple">WebAssembly</span>
+            <span class="b-tag">WASI</span>
+          </div>
+          <h3>WASM Components and WASI Security: Capability Leaks, Host Interface Attacks, and Sandbox Escapes</h3>
+          <p>WASI's capability model starts with zero access — but over-granted capabilities, host interface bugs, and supply chain risks in the WASM component ecosystem create real attack surfaces in production.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLM Guardrails Security: How Safety Systems Are Bypassed and Why They're Not Enough]]></title>
+        <id>https://aquilax.ai/blog/llm-guardrails-jailbreak-security</id>
+        <link href="https://aquilax.ai/blog/llm-guardrails-jailbreak-security"/>
+        <updated>2026-04-12T23:10:07.113Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">Guardrails</span>
+            <span class="b-tag">LLM Security</span>
+          </div>
+          <h3>LLM Guardrails Security: How Safety Systems Are Bypassed and Why They're Not Enough</h3>
+          <p>Guardrails are probabilistic classifiers with false negative rates, adversarial blind spots, and architectural limitations. Understanding those properties is the difference between a security control and security theatre.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Agentic AI Privilege Escalation: When Your AI Agent Becomes the Attacker's Foothold]]></title>
         <id>https://aquilax.ai/blog/agentic-ai-privilege-escalation</id>
