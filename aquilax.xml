@@ -2,9 +2,230 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aquilax.ai/blog</id>
     <title>AquilaX Security Blog</title>
-    <updated>2026-04-12T21:09:07.198Z</updated>
+    <updated>2026-04-12T22:05:34.945Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://aquilax.ai/assets/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Agentic AI Privilege Escalation: When Your AI Agent Becomes the Attacker's Foothold]]></title>
+        <id>https://aquilax.ai/blog/agentic-ai-privilege-escalation</id>
+        <link href="https://aquilax.ai/blog/agentic-ai-privilege-escalation"/>
+        <updated>2026-04-12T22:05:25.229Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">Privilege Escalation</span>
+            <span class="b-tag">Agentic AI</span>
+          </div>
+          <h3>Agentic AI Privilege Escalation: When Your AI Agent Becomes the Attacker's Foothold</h3>
+          <p>AI agents inherit service account permissions and can be manipulated into lateral movement across cloud environments. Here's the attack surface, exploitation chains, and how to constrain agent privilege at design time.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MCP Server Security: Path Traversal, Tool Poisoning, and RCE in AI Tool Servers]]></title>
+        <id>https://aquilax.ai/blog/mcp-server-path-traversal</id>
+        <link href="https://aquilax.ai/blog/mcp-server-path-traversal"/>
+        <updated>2026-04-12T22:05:25.229Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">MCP</span>
+            <span class="b-tag">AppSec</span>
+          </div>
+          <h3>MCP Server Security: Path Traversal, Tool Poisoning, and RCE in AI Tool Servers</h3>
+          <p>Model Context Protocol servers are exploding in adoption and most lack basic security review. Path traversal and tool poisoning turn your AI assistant's toolchain into a code execution primitive on the developer's machine.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multi-Ecosystem Supply Chain Worms: When npm, PyPI, and Containers Fall Together]]></title>
+        <id>https://aquilax.ai/blog/supply-chain-worms-multi-ecosystem</id>
+        <link href="https://aquilax.ai/blog/supply-chain-worms-multi-ecosystem"/>
+        <updated>2026-04-12T22:05:25.235Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Supply Chain</span>
+            <span class="b-tag purple">SCA</span>
+            <span class="b-tag">DevSecOps</span>
+          </div>
+          <h3>Multi-Ecosystem Supply Chain Worms: When npm, PyPI, and Containers Fall Together</h3>
+          <p>Modern supply chain attacks coordinate simultaneous campaigns across npm, PyPI, Docker Hub, and GitHub Actions. Your single-ecosystem SCA tool sees each package in isolation — missing the coordinated campaign pattern entirely.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 12 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Second-Order Prompt Injection: How Agent Chains Amplify Trust Violations]]></title>
+        <id>https://aquilax.ai/blog/second-order-prompt-injection-agents</id>
+        <link href="https://aquilax.ai/blog/second-order-prompt-injection-agents"/>
+        <updated>2026-04-12T22:05:25.235Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">Prompt Injection</span>
+            <span class="b-tag">Multi-Agent</span>
+          </div>
+          <h3>Second-Order Prompt Injection: How Agent Chains Amplify Trust Violations</h3>
+          <p>A low-privilege agent reads a document, gets injected, and passes the injected instruction to a high-privilege orchestrator that trusts it. Trust boundaries collapse through agent chains in ways that prompt-level defences cannot address.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vector Embedding Inversion: Reconstructing Sensitive Data from Your Vector Database]]></title>
+        <id>https://aquilax.ai/blog/vector-embedding-inversion-attacks</id>
+        <link href="https://aquilax.ai/blog/vector-embedding-inversion-attacks"/>
+        <updated>2026-04-12T22:05:25.235Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">RAG</span>
+            <span class="b-tag">Data Privacy</span>
+          </div>
+          <h3>Vector Embedding Inversion: Reconstructing Sensitive Data from Your Vector Database</h3>
+          <p>Embeddings are not a one-way transformation. Inversion attacks can reconstruct source text from embedding vectors with high fidelity — a vector database breach is functionally equivalent to a plaintext document breach.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 9 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Non-Human Identities: Cloud's Fastest-Growing Attack Surface]]></title>
+        <id>https://aquilax.ai/blog/cloud-nhi-serverless-token-theft</id>
+        <link href="https://aquilax.ai/blog/cloud-nhi-serverless-token-theft"/>
+        <updated>2026-04-12T22:05:25.235Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Cloud Security</span>
+            <span class="b-tag purple">IAM</span>
+            <span class="b-tag">DevSecOps</span>
+          </div>
+          <h3>Non-Human Identities: Cloud's Fastest-Growing Attack Surface</h3>
+          <p>Service accounts, API keys, and OAuth tokens outnumber human identities 45 to 1 in cloud environments, with weaker rotation discipline and minimal monitoring. They are the primary target for cloud-native attacks in 2026.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes Service Account Token Theft: Lateral Movement Across Clusters and Cloud]]></title>
+        <id>https://aquilax.ai/blog/kubernetes-service-account-token-theft</id>
+        <link href="https://aquilax.ai/blog/kubernetes-service-account-token-theft"/>
+        <updated>2026-04-12T22:05:25.235Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Container Security</span>
+            <span class="b-tag purple">Kubernetes</span>
+            <span class="b-tag">IAM</span>
+          </div>
+          <h3>Kubernetes Service Account Token Theft: Lateral Movement Across Clusters and Cloud</h3>
+          <p>Every pod has a service account token at a predictable path. Attackers use it for reconnaissance, RBAC escalation, cloud pivot via EKS Pod Identity, and accessing secrets across namespaces. Here's the full exploitation chain.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[API Injection and Cross-Site: The Shifting Attack Patterns of 2026]]></title>
+        <id>https://aquilax.ai/blog/api-injection-cross-site-2026</id>
+        <link href="https://aquilax.ai/blog/api-injection-cross-site-2026"/>
+        <updated>2026-04-12T22:05:25.235Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AppSec</span>
+            <span class="b-tag purple">API Security</span>
+            <span class="b-tag">OWASP</span>
+          </div>
+          <h3>API Injection and Cross-Site: The Shifting Attack Patterns of 2026</h3>
+          <p>JSON body injection, GraphQL alias-based rate limit bypass, and stored XSS through API endpoints — the attack landscape has changed while many WAF rules have not. Here's the gap between the threats and your current tooling.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unsafe Rust: Memory Safety Vulnerabilities in a "Safe" Language]]></title>
+        <id>https://aquilax.ai/blog/unsafe-rust-memory-safety</id>
+        <link href="https://aquilax.ai/blog/unsafe-rust-memory-safety"/>
+        <updated>2026-04-12T22:05:25.237Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AppSec</span>
+            <span class="b-tag purple">Rust</span>
+            <span class="b-tag">Memory Safety</span>
+          </div>
+          <h3>Unsafe Rust: Memory Safety Vulnerabilities in a "Safe" Language</h3>
+          <p>The <code style="font-family:var(--mono);font-size:12px">unsafe</code> keyword opts out of every Rust memory safety guarantee. Popular crates have had real CVEs rooted in incorrect unsafe code. Learn what unsafe can do wrong and how to audit it effectively.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Container Escape via runC Mount Manipulation: Symlink Attacks and Privilege Escalation]]></title>
+        <id>https://aquilax.ai/blog/runc-container-escape-mounts</id>
+        <link href="https://aquilax.ai/blog/runc-container-escape-mounts"/>
+        <updated>2026-04-12T22:05:25.237Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Container Security</span>
+            <span class="b-tag purple">Runtime</span>
+            <span class="b-tag">AppSec</span>
+          </div>
+          <h3>Container Escape via runC Mount Manipulation: Symlink Attacks and Privilege Escalation</h3>
+          <p>runC mount setup runs as root and processes container-controlled path inputs. Symlink race conditions between path validation and mount execution have produced repeated container escape CVEs. Here's the vulnerability class in full detail.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Serialization Injection in LLM Frameworks: LangChain and Beyond]]></title>
+        <id>https://aquilax.ai/blog/langchain-serialization-injection</id>
+        <link href="https://aquilax.ai/blog/langchain-serialization-injection"/>
+        <updated>2026-04-12T22:05:25.237Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">LangChain</span>
+            <span class="b-tag">Serialization</span>
+          </div>
+          <h3>Serialization Injection in LLM Frameworks: LangChain and Beyond</h3>
+          <p>LLM orchestration frameworks serialize chain state, memory, and tool configs. Injecting malicious keys into these objects can manipulate LLM behaviour, exfiltrate embedded API keys, and achieve arbitrary code execution on deserialization.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[eBPF: The Double-Edged Sword of Cloud-Native Security]]></title>
+        <id>https://aquilax.ai/blog/ebpf-security-monitoring-attacks</id>
+        <link href="https://aquilax.ai/blog/ebpf-security-monitoring-attacks"/>
+        <updated>2026-04-12T22:05:25.237Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Cloud Security</span>
+            <span class="b-tag purple">Runtime</span>
+            <span class="b-tag">Container</span>
+          </div>
+          <h3>eBPF: The Double-Edged Sword of Cloud-Native Security</h3>
+          <p>Falco and Tetragon use eBPF for best-in-class runtime monitoring. Attackers use the same capability to hide processes, harvest credentials, and blind detection tools from kernel level. Both sides of the eBPF security picture, fully explained.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OAuth Device Code Phishing: Bypassing MFA with Legitimate Authentication Flows]]></title>
+        <id>https://aquilax.ai/blog/oauth-device-code-phishing</id>
+        <link href="https://aquilax.ai/blog/oauth-device-code-phishing"/>
+        <updated>2026-04-12T22:05:25.239Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AppSec</span>
+            <span class="b-tag purple">Auth Security</span>
+            <span class="b-tag">Phishing</span>
+          </div>
+          <h3>OAuth Device Code Phishing: Bypassing MFA with Legitimate Authentication Flows</h3>
+          <p>The OAuth Device Authorization Grant is abused to bypass MFA by sending targets a real device code. The user authenticates on the genuine Microsoft or Google login page — and hands the attacker a valid access token. No fake website required.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 9 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Terraform Git Source Modules: The IaC Vulnerability Your Scanner Never Reaches]]></title>
         <id>https://aquilax.ai/blog/terraform-git-module-iac-blind-spot</id>
