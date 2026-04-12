@@ -1,36 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://omeramiad.com/posts/</id>
-    <title>Omer Amiad's Blog</title>
-    <updated>2026-04-11T23:08:02.565Z</updated>
+    <id>https://salt.security/salt-labs</id>
+    <title>Salt Labs API Security Research</title>
+    <updated>2026-04-12T00:05:39.149Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://omeramiad.com/favicon-96x96.png</icon>
+    <icon>https://salt.security/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[GatewayToHeaven: Finding a Cross-Tenant Vulnerability in GCP's Apigee]]></title>
-        <id>https://omeramiad.com/posts/gatewaytoheaven-gcp-cross-tenant-vulnerability</id>
-        <link href="https://omeramiad.com/posts/gatewaytoheaven-gcp-cross-tenant-vulnerability"/>
-        <updated>2026-01-28T08:46:35.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/gatewaytoheaven-gcp-cross-tenant-vulnerability" class="inline-block text-lg font-medium text-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"> <h2 style="view-transition-name:gateway-to-heaven-finding-a-cross-tenant-vulnerability-in-gc-ps-apigee" class="text-lg font-medium decoration-dashed hover:underline">GatewayToHeaven: Finding a Cross-Tenant Vulnerability in GCP's Apigee</h2> </a> <div class="flex items-center gap-x-2 opacity-80"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-6 min-w-[1.375rem] scale-90"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path><path d="M16 3v4"></path><path d="M8 3v4"></path><path d="M4 11h16"></path><path d="M7 14h.013"></path><path d="M10.01 14h.005"></path><path d="M13.01 14h.005"></path><path d="M16.015 14h.005"></path><path d="M13.015 17h.005"></path><path d="M7.01 17h.005"></path><path d="M10.01 17h.005"></path></svg>  <time class="text-sm" datetime="2026-01-28T08:46:35.000Z">28 Jan, 2026</time> </div> <p>A technical step-by-step writeup about finding CVE-2025-13292, a cross-tenant vulnerability in Google Cloud's Apigee. This vulnerability allowed an attacker to gain read/write access to verbose cross-tenant access logs and analytics data that could contain access tokens of end users.</p>]]></content>
+        <title type="html"><![CDATA[Navigating the API Security Landscape: Progress and Persistent Challenges in 2025]]></title>
+        <id>https://salt.security/blog/navigating-the-api-security-landscape-progress-and-persistent-challenges-in-2025</id>
+        <link href="https://salt.security/blog/navigating-the-api-security-landscape-progress-and-persistent-challenges-in-2025"/>
+        <updated>2025-02-26T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div fs-cmsfilter-field="category" class="kicker">Salt Labs</div><div fs-cmsfilter-field="name" class="heading-small">Navigating the API Security Landscape: Progress and Persistent Challenges in 2025</div><div class="card-content flow"><div class="inline-row bold"><div fs-cmsfilter-field="author">Eric Schwake</div><div>&nbsp;| </div><div fs-cmsfilter-field="date">February 26, 2025</div></div><p fs-cmsfilter-field="summary">The 2025 State of API Security Report paints a compelling picture of the evolving API security landscape, highlighting both the strides made and the persistent challenges organizations face.</p></div><div class="button btn-arrow-2">Read more</div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2Cool4School Writeup - Kalmar CTF 2023]]></title>
-        <id>https://omeramiad.com/posts/2cool4school-writeup-kalmar-ctf-2023</id>
-        <link href="https://omeramiad.com/posts/2cool4school-writeup-kalmar-ctf-2023"/>
-        <updated>2023-06-18T15:20:35.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/2cool4school-writeup-kalmar-ctf-2023" class="inline-block text-lg font-medium text-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"> <h2 style="view-transition-name:2-cool-4-school-writeup-kalmar-ctf-2023" class="text-lg font-medium decoration-dashed hover:underline">2Cool4School Writeup - Kalmar CTF 2023</h2> </a> <div class="flex items-center gap-x-2 opacity-80"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-6 min-w-[1.375rem] scale-90"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path><path d="M16 3v4"></path><path d="M8 3v4"></path><path d="M4 11h16"></path><path d="M7 14h.013"></path><path d="M10.01 14h.005"></path><path d="M13.01 14h.005"></path><path d="M16.015 14h.005"></path><path d="M13.015 17h.005"></path><path d="M7.01 17h.005"></path><path d="M10.01 17h.005"></path></svg>  <time class="text-sm" datetime="2023-06-18T15:20:35.000Z">18 Jun, 2023</time> </div> <p>A writeup for the web challenge 2Cool4School from Kalmar CTF 2023. This writeup examines hidden APIs discovered through Swagger documentation, finding a CSRF in the profile picture upload functionality of a website, and taking advantage of an HTTP parameter injection in a faulty SSO flow.</p>]]></content>
+        <title type="html"><![CDATA[Supply Chain API Attacks: Account Takeover Vulnerability Puts Millions of Airline Users at Risk]]></title>
+        <id>https://salt.security/blog/api-supply-chain-attacks---the-skys-the-limit</id>
+        <link href="https://salt.security/blog/api-supply-chain-attacks---the-skys-the-limit"/>
+        <updated>2025-01-28T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div fs-cmsfilter-field="category" class="kicker">Salt Labs</div><div fs-cmsfilter-field="name" class="heading-small">Supply Chain API Attacks: Account Takeover Vulnerability Puts Millions of Airline Users at Risk</div><div class="card-content flow"><div class="inline-row bold"><div fs-cmsfilter-field="author">Amit Elbirt</div><div>&nbsp;| </div><div fs-cmsfilter-field="date">January 28, 2025</div></div><p fs-cmsfilter-field="summary">Salt Labs has identified an account takeover vulnerability in a popular online top-tier travel service for hotel and car rentals. </p></div><div class="button btn-arrow-2">Read more</div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ZeroTrust Writeup - LA CTF 2023]]></title>
-        <id>https://omeramiad.com/posts/zerotrust-writeup-la-ctf-2023</id>
-        <link href="https://omeramiad.com/posts/zerotrust-writeup-la-ctf-2023"/>
-        <updated>2023-02-15T16:46:34.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/zerotrust-writeup-la-ctf-2023" class="inline-block text-lg font-medium text-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"> <h2 style="view-transition-name:zero-trust-writeup-la-ctf-2023" class="text-lg font-medium decoration-dashed hover:underline">ZeroTrust Writeup - LA CTF 2023</h2> </a> <div class="flex items-center gap-x-2 opacity-80"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-6 min-w-[1.375rem] scale-90"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path><path d="M16 3v4"></path><path d="M8 3v4"></path><path d="M4 11h16"></path><path d="M7 14h.013"></path><path d="M10.01 14h.005"></path><path d="M13.01 14h.005"></path><path d="M16.015 14h.005"></path><path d="M13.015 17h.005"></path><path d="M7.01 17h.005"></path><path d="M10.01 17h.005"></path></svg>  <time class="text-sm" datetime="2023-02-15T16:46:34.000Z">15 Feb, 2023</time> </div> <p>A writeup for the web challenge ZeroTrust from LA CTF 2023. This writeup details how to exploit a misconfigured AES GCM rolling cipher to modify an authentication cookie and read the contents of the flag.</p>]]></content>
+        <title type="html"><![CDATA[Over 1 Million websites are at risk of sensitive information leakage — XSS is dead. Long live XSS]]></title>
+        <id>https://salt.security/blog/over-1-million-websites-are-at-risk-of-sensitive-information-leakage---xss-is-dead-long-live-xss</id>
+        <link href="https://salt.security/blog/over-1-million-websites-are-at-risk-of-sensitive-information-leakage---xss-is-dead-long-live-xss"/>
+        <updated>2024-07-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div fs-cmsfilter-field="category" class="kicker">Salt Labs</div><div fs-cmsfilter-field="name" class="heading-small">Over 1 Million websites are at risk of sensitive information leakage — XSS is dead. Long live XSS</div><div class="card-content flow"><div class="inline-row bold"><div fs-cmsfilter-field="author">Aviad Carmel</div><div>&nbsp;| </div><div fs-cmsfilter-field="date">July 29, 2024</div></div><p fs-cmsfilter-field="summary">What better way to showcase a new attack technique than with real-world examples? This blog post will do just that. </p></div><div class="button btn-arrow-2">Read more</div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[jsss Writeup - AsiaCTF 2021]]></title>
-        <id>https://omeramiad.com/posts/jsss-writeup-asiactf-2021</id>
-        <link href="https://omeramiad.com/posts/jsss-writeup-asiactf-2021"/>
-        <updated>2021-12-26T16:46:34.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/jsss-writeup-asiactf-2021" class="inline-block text-lg font-medium text-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"> <h2 style="view-transition-name:jsss-writeup-asia-ctf-2021" class="text-lg font-medium decoration-dashed hover:underline">jsss Writeup - AsiaCTF 2021</h2> </a> <div class="flex items-center gap-x-2 opacity-80"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-6 min-w-[1.375rem] scale-90"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path><path d="M16 3v4"></path><path d="M8 3v4"></path><path d="M4 11h16"></path><path d="M7 14h.013"></path><path d="M10.01 14h.005"></path><path d="M13.01 14h.005"></path><path d="M16.015 14h.005"></path><path d="M13.015 17h.005"></path><path d="M7.01 17h.005"></path><path d="M10.01 17h.005"></path></svg>  <time class="text-sm" datetime="2021-12-26T16:46:34.000Z">26 Dec, 2021</time> </div> <p>A writeup for the web challenge jsss from AsiaCTF 2021. This writeup touches on type juggling in JavaScript, escaping the sandbox of the vm2 module, and taking advantage of race conditions and the /proc filesystem in order to bypass restrictions on file names.</p>]]></content>
+        <title type="html"><![CDATA[Another API Security Breach: Life360 Data Breach]]></title>
+        <id>https://salt.security/blog/another-api-security-breach-life360</id>
+        <link href="https://salt.security/blog/another-api-security-breach-life360"/>
+        <updated>2024-07-26T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div fs-cmsfilter-field="category" class="kicker">Salt Labs</div><div fs-cmsfilter-field="name" class="heading-small">Another API Security Breach: Life360 Data Breach</div><div class="card-content flow"><div class="inline-row bold"><div fs-cmsfilter-field="author">Hadar Freehling</div><div>&nbsp;| </div><div fs-cmsfilter-field="date">July 26, 2024</div></div><p fs-cmsfilter-field="summary">The latest API breach occurred on the Life360 platform where an advisory was able to gleam 400k user phone numbers.</p></div><div class="button btn-arrow-2">Read more</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Increasing API Traffic, Proliferating Attack Activity and Lack of Maturity: Key Findings from Salt Security’s 2024 State of API Security Report]]></title>
+        <id>https://salt.security/blog/increasing-api-traffic-proliferating-attack-activity-and-lack-of-maturity-key-findings-from-salt-securitys-2024-state-of-api-security-report</id>
+        <link href="https://salt.security/blog/increasing-api-traffic-proliferating-attack-activity-and-lack-of-maturity-key-findings-from-salt-securitys-2024-state-of-api-security-report"/>
+        <updated>2024-06-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div fs-cmsfilter-field="category" class="kicker">Salt Labs</div><div fs-cmsfilter-field="name" class="heading-small">Increasing API Traffic, Proliferating Attack Activity and Lack of Maturity: Key Findings from Salt Security’s 2024 State of API Security Report</div><div class="card-content flow"><div class="inline-row bold"><div fs-cmsfilter-field="author">Salt Labs</div><div>&nbsp;| </div><div fs-cmsfilter-field="date">June 18, 2024</div></div><p fs-cmsfilter-field="summary">The latest Salt Security State of API Security Report is out now, and we’re thrilled to give a little sneak peek of its contents.</p></div><div class="button btn-arrow-2">Read more</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Dell API Breach: It could have been prevented]]></title>
+        <id>https://salt.security/blog/dell-breach-review</id>
+        <link href="https://salt.security/blog/dell-breach-review"/>
+        <updated>2024-05-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div fs-cmsfilter-field="category" class="kicker">Salt Labs</div><div fs-cmsfilter-field="name" class="heading-small">The Dell API Breach: It could have been prevented</div><div class="card-content flow"><div class="inline-row bold"><div fs-cmsfilter-field="author">Hadar Freehling</div><div>&nbsp;| </div><div fs-cmsfilter-field="date">May 17, 2024</div></div><p fs-cmsfilter-field="summary">The API attack on Dell illustrates why API protection is so complex and why you need a tool like Salt to help.</p></div><div class="button btn-arrow-2">Read more</div>]]></content>
     </entry>
 </feed>

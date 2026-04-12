@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://0xnull007.github.io/posts</id>
-    <title>0xnull007</title>
-    <updated>2026-04-11T23:08:02.564Z</updated>
+    <id>https://stdnoerr.blog/blog</id>
+    <title>stdnoerr</title>
+    <updated>2026-04-12T00:05:39.109Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://0xnull007.github.io/favicon.ico</icon>
+    <icon>https://stdnoerr.blog/static/favicons/favicon-32x32.png</icon>
     <entry>
-        <title type="html"><![CDATA[DirtyPipe-CVE-2022-0847]]></title>
-        <id>https://0xnull007.github.io/posts/dirtypipe-cve-2022-0847</id>
-        <link href="https://0xnull007.github.io/posts/dirtypipe-cve-2022-0847"/>
-        <updated>2025-10-19T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2><a href="/posts/dirtypipe-cve-2022-0847">DirtyPipe-CVE-2022-0847</a></h2>
-          <time datetime="2025-10-19T00:00:00+00:00">19 Oct 2025</time>
-        
-          <p>One of my friends, stdnoerr, wrote a blog about his N-day research on DirtyPipe (CVE-2022-0847). As a noob in kernel exploitation, I realized that I should be familiar with some Linux kernel internals to fully understand his blog. So I decided to explore those internals and write about my journey...</p>]]></content>
+        <title type="html"><![CDATA[DirtyPipe CVE-2022-0847]]></title>
+        <id>https://stdnoerr.blog/blog/DirtyPipe-CVE-2022-0847</id>
+        <link href="https://stdnoerr.blog/blog/DirtyPipe-CVE-2022-0847"/>
+        <updated>2025-07-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<dl><dt class="sr-only">Published on</dt><dd class="text-base leading-6 font-medium text-gray-500 dark:text-gray-400"><time datetime="2025-07-08T00:00:00.000Z">July 8, 2025</time></dd></dl><div class="space-y-3"><div><h2 class="text-2xl leading-8 font-bold tracking-tight"><a class="text-gray-900 dark:text-gray-100" href="/blog/DirtyPipe-CVE-2022-0847">DirtyPipe CVE-2022-0847</a></h2><div class="flex flex-wrap"><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/kernel">kernel</a><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/cve">cve</a><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/n-day">n-day</a><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/exploit">exploit</a><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/linux">linux</a></div></div><div class="prose max-w-none text-gray-500 dark:text-gray-400">A deep dive into the DirtyPipe vulnerability, its analysis, and an exploit development journey.</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Demystifying the User Authentication in Linux]]></title>
-        <id>https://0xnull007.github.io/posts/demystifying-user-authentication-in-linux</id>
-        <link href="https://0xnull007.github.io/posts/demystifying-user-authentication-in-linux"/>
-        <updated>2024-12-25T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2><a href="/posts/demystifying-user-authentication-in-linux">Demystifying the User Authentication in Linux</a></h2>
-          <time datetime="2024-12-25T00:00:00+00:00">25 Dec 2024</time>
-        
-          <p>A Brief History In early Unix and Linux systems, user account information, including encrypted passwords, was stored in the /etc/passwd file. This file was readable by all users, which posed a significant security risk. Malicious users could potentially access the encrypted passwords and attempt to crack them offline. As security...</p>]]></content>
+        <title type="html"><![CDATA[DirtyCOW CVE-2016-5195]]></title>
+        <id>https://stdnoerr.blog/blog/DirtyCOW-CVE-2016-5195</id>
+        <link href="https://stdnoerr.blog/blog/DirtyCOW-CVE-2016-5195"/>
+        <updated>2025-06-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<dl><dt class="sr-only">Published on</dt><dd class="text-base leading-6 font-medium text-gray-500 dark:text-gray-400"><time datetime="2025-06-25T00:00:00.000Z">June 25, 2025</time></dd></dl><div class="space-y-3"><div><h2 class="text-2xl leading-8 font-bold tracking-tight"><a class="text-gray-900 dark:text-gray-100" href="/blog/DirtyCOW-CVE-2016-5195">DirtyCOW CVE-2016-5195</a></h2><div class="flex flex-wrap"><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/kernel">kernel</a><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/cve">cve</a><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/n-day">n-day</a><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/exploit">exploit</a><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/linux">linux</a></div></div><div class="prose max-w-none text-gray-500 dark:text-gray-400">A deep dive into the DirtyCOW vulnerability, its analysis, and an exploit development journey.</div></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BlackHat 2024 Quals - CPL0]]></title>
+        <id>https://stdnoerr.blog/blog/BlackHat-2024-Quals-CPL0</id>
+        <link href="https://stdnoerr.blog/blog/BlackHat-2024-Quals-CPL0"/>
+        <updated>2023-11-26T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<dl><dt class="sr-only">Published on</dt><dd class="text-base leading-6 font-medium text-gray-500 dark:text-gray-400"><time datetime="2023-11-26T00:00:00.000Z">November 26, 2023</time></dd></dl><div class="space-y-3"><div><h2 class="text-2xl leading-8 font-bold tracking-tight"><a class="text-gray-900 dark:text-gray-100" href="/blog/BlackHat-2024-Quals-CPL0">BlackHat 2024 Quals - CPL0</a></h2><div class="flex flex-wrap"><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/writeup">writeup</a><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/kernel">kernel</a><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/qemu">qemu</a></div></div><div class="prose max-w-none text-gray-500 dark:text-gray-400">Writeup for CPL0 in BlackHat 2024 Qualifiers.</div></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learning eBPF exploitation]]></title>
+        <id>https://stdnoerr.blog/blog/eBPF-exploitation-D3CTF-d3bpf</id>
+        <link href="https://stdnoerr.blog/blog/eBPF-exploitation-D3CTF-d3bpf"/>
+        <updated>2022-08-21T20:54:00.000Z</updated>
+        <content type="html"><![CDATA[<dl><dt class="sr-only">Published on</dt><dd class="text-base leading-6 font-medium text-gray-500 dark:text-gray-400"><time datetime="2022-08-21T20:54:00.000Z">August 21, 2022</time></dd></dl><div class="space-y-3"><div><h2 class="text-2xl leading-8 font-bold tracking-tight"><a class="text-gray-900 dark:text-gray-100" href="/blog/eBPF-exploitation-D3CTF-d3bpf">Learning eBPF exploitation</a></h2><div class="flex flex-wrap"><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/writeup">writeup</a><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/kernel">kernel</a></div></div><div class="prose max-w-none text-gray-500 dark:text-gray-400">eBPF notes and writeup of d3bpf challenge</div></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HacktivityCTF 2021 - Pawn Shop]]></title>
+        <id>https://stdnoerr.blog/blog/HacktivityCTF2021-pawn-shop</id>
+        <link href="https://stdnoerr.blog/blog/HacktivityCTF2021-pawn-shop"/>
+        <updated>2021-09-28T21:02:00.000Z</updated>
+        <content type="html"><![CDATA[<dl><dt class="sr-only">Published on</dt><dd class="text-base leading-6 font-medium text-gray-500 dark:text-gray-400"><time datetime="2021-09-28T21:02:00.000Z">September 28, 2021</time></dd></dl><div class="space-y-3"><div><h2 class="text-2xl leading-8 font-bold tracking-tight"><a class="text-gray-900 dark:text-gray-100" href="/blog/HacktivityCTF2021-pawn-shop">HacktivityCTF 2021 - Pawn Shop</a></h2><div class="flex flex-wrap"><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/writeup">writeup</a><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/heap">heap</a><a class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 mr-3 text-sm font-medium uppercase" href="/tags/uaf">uaf</a></div></div><div class="prose max-w-none text-gray-500 dark:text-gray-400">Writeup for pawn shop heap challenge in HacktivityCTF 2021</div></div>]]></content>
     </entry>
 </feed>
