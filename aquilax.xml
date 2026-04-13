@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aquilax.ai/blog</id>
     <title>AquilaX Security Blog</title>
-    <updated>2026-04-13T06:39:07.639Z</updated>
+    <updated>2026-04-13T08:38:36.651Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://aquilax.ai/assets/favicon.ico</icon>
     <entry>
@@ -206,6 +206,193 @@
           <p>Guardrails are probabilistic classifiers with false negative rates, adversarial blind spots, and architectural limitations. Understanding those properties is the difference between a security control and security theatre.</p>
           <div class="blog-card-footer">
             <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudflare Workers and Edge Runtime Security: Isolation Failures, KV Secrets Exposure, and Wrangler Risks]]></title>
+        <id>https://aquilax.ai/blog/cloudflare-workers-edge-runtime-security</id>
+        <link href="https://aquilax.ai/blog/cloudflare-workers-edge-runtime-security"/>
+        <updated>2026-04-13T08:38:26.302Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Edge Security</span>
+            <span class="b-tag purple">Cloudflare</span>
+            <span class="b-tag">Serverless</span>
+          </div>
+          <h3>Cloudflare Workers and Edge Runtime Security: Isolation Failures, KV Secrets Exposure, and Wrangler Risks</h3>
+          <p>V8 isolates are not OS-level containers. Workers KV used as a secrets store, Wrangler config shipping credentials to the edge, and Durable Object concurrency bugs create a distinct attack surface at the CDN layer.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pulumi and CDK Infrastructure-from-Code Security: State File Secrets, Supply Chain, and Bootstrap Privilege]]></title>
+        <id>https://aquilax.ai/blog/pulumi-cdk-infrastructure-from-code-security</id>
+        <link href="https://aquilax.ai/blog/pulumi-cdk-infrastructure-from-code-security"/>
+        <updated>2026-04-13T08:38:26.302Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">IaC Security</span>
+            <span class="b-tag purple">Pulumi</span>
+            <span class="b-tag">CDK</span>
+          </div>
+          <h3>Pulumi and CDK Infrastructure-from-Code Security: State File Secrets, Supply Chain, and Bootstrap Privilege</h3>
+          <p>Infrastructure-from-code tools generate stacks from general-purpose languages. npm supply chain attacks in CDK dependencies, secrets in Pulumi state files, and over-privileged bootstrap roles are the overlooked risks.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Database Migration Security: Schema Poisoning, Migration Runner Privilege, and History Table Tampering]]></title>
+        <id>https://aquilax.ai/blog/database-migration-schema-security</id>
+        <link href="https://aquilax.ai/blog/database-migration-schema-security"/>
+        <updated>2026-04-13T08:38:26.302Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Database Security</span>
+            <span class="b-tag purple">DevOps</span>
+            <span class="b-tag">Schema</span>
+          </div>
+          <h3>Database Migration Security: Schema Poisoning, Migration Runner Privilege, and History Table Tampering</h3>
+          <p>Database migrations run with elevated database privileges, often automatically in CI/CD pipelines. Schema poisoning, migration runner over-privilege, and tampered migration history create silent data integrity and access control failures.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 9 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Micro-Frontend Module Federation Security: Remote Module XSS and Shared State Poisoning]]></title>
+        <id>https://aquilax.ai/blog/micro-frontend-module-federation-security</id>
+        <link href="https://aquilax.ai/blog/micro-frontend-module-federation-security"/>
+        <updated>2026-04-13T08:38:26.302Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Frontend Security</span>
+            <span class="b-tag purple">Module Federation</span>
+            <span class="b-tag">Supply Chain</span>
+          </div>
+          <h3>Micro-Frontend Module Federation Security: Remote Module XSS and Shared State Poisoning</h3>
+          <p>Module Federation loads JavaScript from remote CDN origins at runtime. A compromised remote module executes in your application's context with full DOM access — supply chain attacks at the frontend boundary.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[gRPC and Protocol Buffers Security: Reflection API Recon, Deserialization Flaws, and Auth Interceptor Bypass]]></title>
+        <id>https://aquilax.ai/blog/grpc-protobuf-security-vulnerabilities</id>
+        <link href="https://aquilax.ai/blog/grpc-protobuf-security-vulnerabilities"/>
+        <updated>2026-04-13T08:38:26.302Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">API Security</span>
+            <span class="b-tag purple">gRPC</span>
+            <span class="b-tag">Protobuf</span>
+          </div>
+          <h3>gRPC and Protocol Buffers Security: Reflection API Recon, Deserialization Flaws, and Auth Interceptor Bypass</h3>
+          <p>gRPC's server reflection API exposes the entire service schema to unauthenticated callers. Protobuf deserialization of unknown fields and missing auth interceptors on streaming RPCs round out the attack surface.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLM Fine-Tuning Security: Training Data Poisoning, Backdoor Attacks, and Base Model Supply Chain]]></title>
+        <id>https://aquilax.ai/blog/llm-fine-tuning-training-data-poisoning</id>
+        <link href="https://aquilax.ai/blog/llm-fine-tuning-training-data-poisoning"/>
+        <updated>2026-04-13T08:38:26.302Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">Fine-Tuning</span>
+            <span class="b-tag">ML Security</span>
+          </div>
+          <h3>LLM Fine-Tuning Security: Training Data Poisoning, Backdoor Attacks, and Base Model Supply Chain</h3>
+          <p>Fine-tuning an LLM on poisoned data embeds attacker-controlled behaviour directly into model weights. Backdoor triggers survive RLHF. Base model supply chain compromise affects every downstream fine-tune.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SaaS Multi-Tenancy Isolation Failures: Tenant ID Injection, Shared Cache Poisoning, and Background Job Leakage]]></title>
+        <id>https://aquilax.ai/blog/saas-multi-tenancy-isolation-failures</id>
+        <link href="https://aquilax.ai/blog/saas-multi-tenancy-isolation-failures"/>
+        <updated>2026-04-13T08:38:26.305Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">SaaS Security</span>
+            <span class="b-tag purple">Multi-Tenancy</span>
+            <span class="b-tag">Cloud</span>
+          </div>
+          <h3>SaaS Multi-Tenancy Isolation Failures: Tenant ID Injection, Shared Cache Poisoning, and Background Job Leakage</h3>
+          <p>Multi-tenant SaaS applications share infrastructure by design. Tenant ID injection, cache key collisions that expose cross-tenant data, and background jobs that process wrong-tenant records are systematic failures with serious breach implications.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Serverless Container Security: AWS Fargate and Google Cloud Run Attack Surfaces]]></title>
+        <id>https://aquilax.ai/blog/serverless-container-security-fargate-cloud-run</id>
+        <link href="https://aquilax.ai/blog/serverless-container-security-fargate-cloud-run"/>
+        <updated>2026-04-13T08:38:26.305Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Cloud Security</span>
+            <span class="b-tag purple">Fargate</span>
+            <span class="b-tag">Containers</span>
+          </div>
+          <h3>Serverless Container Security: AWS Fargate and Google Cloud Run Attack Surfaces</h3>
+          <p>No host OS access doesn't mean no attack surface. Fargate task role abuse via IMDS credential theft, over-privileged IAM, container image supply chain, and unrestricted network egress remain fully exploitable.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[API Gateway Security: Rate Limiting Bypass, Routing Vulnerabilities, and Auth Delegation Flaws]]></title>
+        <id>https://aquilax.ai/blog/api-gateway-security-rate-limiting-bypass</id>
+        <link href="https://aquilax.ai/blog/api-gateway-security-rate-limiting-bypass"/>
+        <updated>2026-04-13T08:38:26.305Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">API Security</span>
+            <span class="b-tag purple">Rate Limiting</span>
+            <span class="b-tag">Infrastructure</span>
+          </div>
+          <h3>API Gateway Security: Rate Limiting Bypass, Routing Vulnerabilities, and Auth Delegation Flaws</h3>
+          <p>IP-based rate limits are bypassed with header spoofing. Path confusion routes requests around auth rules. Forwarded claim headers let attackers inject their own identity. Gateways centralise the false sense of security.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chaos Engineering Security: Blast Radius Governance, Experiment Access Control, and Agent Privilege]]></title>
+        <id>https://aquilax.ai/blog/chaos-engineering-security-blast-radius</id>
+        <link href="https://aquilax.ai/blog/chaos-engineering-security-blast-radius"/>
+        <updated>2026-04-13T08:38:26.305Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Platform Security</span>
+            <span class="b-tag purple">Chaos Engineering</span>
+            <span class="b-tag">SRE</span>
+          </div>
+          <h3>Chaos Engineering Security: Blast Radius Governance, Experiment Access Control, and Agent Privilege</h3>
+          <p>Chaos agents need deep production permissions to inject faults — which makes them ideal attack targets. Uncontrolled blast radius, missing experiment approval workflows, and privileged DaemonSets create a pre-built disruption toolkit for attackers.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 9 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[eBPF Security: Kernel Observability Risks, Privilege Escalation, and Malicious eBPF Programs]]></title>
+        <id>https://aquilax.ai/blog/ebpf-security-observability-risks</id>
+        <link href="https://aquilax.ai/blog/ebpf-security-observability-risks"/>
+        <updated>2026-04-13T08:38:26.305Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Critical</span>
+            <span class="b-tag purple">eBPF</span>
+            <span class="b-tag">Kernel</span>
+          </div>
+          <h3>eBPF Security: Kernel Observability Risks, Privilege Escalation, and Malicious eBPF Programs</h3>
+          <p>eBPF powers Falco, Cilium, and Tetragon — and makes near-perfect rootkits. Verifier bypass exploits, privileged DaemonSet supply chain risks, and container escape via CAP_BPF are the attack surface security teams need to understand.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
             <span class="blog-card-read">Read <span class="arrow">→</span></span>
           </div>]]></content>
     </entry>
