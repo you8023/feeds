@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aquilax.ai/blog</id>
     <title>AquilaX Security Blog</title>
-    <updated>2026-04-14T19:58:40.560Z</updated>
+    <updated>2026-04-14T22:19:08.132Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://aquilax.ai/assets/favicon.ico</icon>
     <entry>
@@ -2832,6 +2832,210 @@
           <p>IP-based rate limits collapse against proxy pools. Header spoofing fools proxy-aware implementations. Sliding window flaws allow burst attacks. Here is how to build limits that hold.</p>
           <div class="blog-card-footer">
             <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 14 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malware Hidden in npm Packages: How Attackers Exploit Package Registries]]></title>
+        <id>https://aquilax.ai/blog/malware-in-npm-packages-supply-chain</id>
+        <link href="https://aquilax.ai/blog/malware-in-npm-packages-supply-chain"/>
+        <updated>2026-04-14T22:18:57.820Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Supply Chain</span>
+            <span class="b-tag purple">npm</span>
+            <span class="b-tag">Malware</span>
+          </div>
+          <h3>Malware Hidden in npm Packages: How Attackers Exploit Package Registries</h3>
+          <p>Attackers embed malware in npm packages through postinstall hooks, obfuscated payloads, and typosquatted names. Millions of installs happen daily — most teams have no idea what's running at install time.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 13 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detecting Obfuscated Malware in Source Code: Patterns, Tools, and CI Gates]]></title>
+        <id>https://aquilax.ai/blog/obfuscated-malware-source-code-detection</id>
+        <link href="https://aquilax.ai/blog/obfuscated-malware-source-code-detection"/>
+        <updated>2026-04-14T22:18:57.821Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Malware</span>
+            <span class="b-tag purple">SAST</span>
+            <span class="b-tag">AppSec</span>
+          </div>
+          <h3>Detecting Obfuscated Malware in Source Code: Patterns, Tools, and CI Gates</h3>
+          <p>Attackers don't write obvious malware. They encode payloads in base64, fragment strings, hide behind eval chains, and exploit Unicode homoglyphs. These are the detection patterns that actually work.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 12 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malicious Code in Open Source Libraries: From Pull Request to Payload]]></title>
+        <id>https://aquilax.ai/blog/malicious-code-open-source-libraries</id>
+        <link href="https://aquilax.ai/blog/malicious-code-open-source-libraries"/>
+        <updated>2026-04-14T22:18:57.824Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Supply Chain</span>
+            <span class="b-tag purple">Open Source</span>
+            <span class="b-tag">SCA</span>
+          </div>
+          <h3>Malicious Code in Open Source Libraries: From Pull Request to Payload</h3>
+          <p>Open source libraries are trusted implicitly. Attackers exploit that trust — through maintainer account takeover, slow-burn contribution history building, and changes that slip past rushed code review.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 12 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Source Code Backdoors: How They're Planted and How to Find Them]]></title>
+        <id>https://aquilax.ai/blog/backdoor-source-code-detection</id>
+        <link href="https://aquilax.ai/blog/backdoor-source-code-detection"/>
+        <updated>2026-04-14T22:18:57.825Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Backdoor</span>
+            <span class="b-tag purple">Insider Threat</span>
+            <span class="b-tag">SAST</span>
+          </div>
+          <h3>Source Code Backdoors: How They're Planted and How to Find Them</h3>
+          <p>A backdoor doesn't announce itself. It hides in authentication logic, in debug endpoints left active, in hardcoded credentials masked as configuration. These are the patterns, and how to hunt them.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 13 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typosquatting Malware in Package Registries: npm, PyPI, and RubyGems Attack Patterns]]></title>
+        <id>https://aquilax.ai/blog/typosquatting-malware-package-registries</id>
+        <link href="https://aquilax.ai/blog/typosquatting-malware-package-registries"/>
+        <updated>2026-04-14T22:18:57.826Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Typosquatting</span>
+            <span class="b-tag purple">Supply Chain</span>
+            <span class="b-tag">SCA</span>
+          </div>
+          <h3>Typosquatting Malware in Package Registries: npm, PyPI, and RubyGems Attack Patterns</h3>
+          <p>A single keystroke difference. Attackers register misspelled package names, wait for developers to mistype, and collect credentials. Thousands of packages. One typo away from compromise.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Source Code Malware Indicators: What to Look for Beyond Signatures]]></title>
+        <id>https://aquilax.ai/blog/source-code-malware-indicators</id>
+        <link href="https://aquilax.ai/blog/source-code-malware-indicators"/>
+        <updated>2026-04-14T22:18:57.827Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Malware Detection</span>
+            <span class="b-tag purple">SAST</span>
+            <span class="b-tag">AppSec</span>
+          </div>
+          <h3>Source Code Malware Indicators: What to Look for Beyond Signatures</h3>
+          <p>Signature-based scanners catch known malware. Novel malware gets through. These are the behavioural indicators, structural anomalies, and contextual signals that betray malicious code regardless of whether it's in any database.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 13 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vibe Coding and Malware Injection: When AI Writes Your Attack Surface]]></title>
+        <id>https://aquilax.ai/blog/vibe-coding-malware-injection-risks</id>
+        <link href="https://aquilax.ai/blog/vibe-coding-malware-injection-risks"/>
+        <updated>2026-04-14T22:18:57.829Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Vibe Coding</span>
+            <span class="b-tag purple">AI Security</span>
+            <span class="b-tag">Malware</span>
+          </div>
+          <h3>Vibe Coding and Malware Injection: When AI Writes Your Attack Surface</h3>
+          <p>Vibe coding — generating and shipping code without deep understanding — creates a qualitatively new vector for malware injection. The risk isn't that AI writes bad code. It's that developers ship it without reading it.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 12 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI-Generated Code Backdoors: How LLMs Can Be Steered to Introduce Vulnerabilities]]></title>
+        <id>https://aquilax.ai/blog/ai-generated-code-backdoors</id>
+        <link href="https://aquilax.ai/blog/ai-generated-code-backdoors"/>
+        <updated>2026-04-14T22:18:57.830Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">Backdoor</span>
+            <span class="b-tag">LLM</span>
+          </div>
+          <h3>AI-Generated Code Backdoors: How LLMs Can Be Steered to Introduce Vulnerabilities</h3>
+          <p>Researchers have demonstrated that with carefully crafted prompts, poisoned few-shot examples, and context manipulation, LLMs can be steered into generating code containing backdoors, weak cryptography, and covert channels.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 13 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLM Hallucinated Packages: How AI Suggestions Become Malware Delivery Vectors]]></title>
+        <id>https://aquilax.ai/blog/llm-hallucinated-packages-malware</id>
+        <link href="https://aquilax.ai/blog/llm-hallucinated-packages-malware"/>
+        <updated>2026-04-14T22:18:57.832Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Supply Chain</span>
+            <span class="b-tag purple">AI Security</span>
+            <span class="b-tag">Vibe Coding</span>
+          </div>
+          <h3>LLM Hallucinated Packages: How AI Suggestions Become Malware Delivery Vectors</h3>
+          <p>AI coding assistants confidently suggest packages that don't exist. Attackers register those names with malicious payloads. Developers who trust AI suggestions and skip verification install malware — and the AI is the delivery mechanism.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vibe Coding and Supply Chain Security: The Unreviewed Dependency Problem]]></title>
+        <id>https://aquilax.ai/blog/vibe-coding-supply-chain-security</id>
+        <link href="https://aquilax.ai/blog/vibe-coding-supply-chain-security"/>
+        <updated>2026-04-14T22:18:57.834Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Supply Chain</span>
+            <span class="b-tag purple">Vibe Coding</span>
+            <span class="b-tag">SCA</span>
+          </div>
+          <h3>Vibe Coding and Supply Chain Security: The Unreviewed Dependency Problem</h3>
+          <p>AI coding tools generate dependency lists as readily as they generate code. Each AI-suggested package is a supply chain trust decision made without the scrutiny that decision deserves.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cursor, Copilot, and Vibe Coding: How AI IDEs Can Become Malware Delivery Systems]]></title>
+        <id>https://aquilax.ai/blog/cursor-copilot-vibe-coding-malware</id>
+        <link href="https://aquilax.ai/blog/cursor-copilot-vibe-coding-malware"/>
+        <updated>2026-04-14T22:18:57.835Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">AI Security</span>
+            <span class="b-tag purple">IDE Security</span>
+            <span class="b-tag">Vibe Coding</span>
+          </div>
+          <h3>Cursor, Copilot, and Vibe Coding: How AI IDEs Can Become Malware Delivery Systems</h3>
+          <p>AI IDEs have full access to your codebase, credentials, and file system. They execute code. They read documentation from external sources. They respond to instructions embedded in files they read. That's an attack surface.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 12 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vibe Coding and Security Code Review: Why AI-Generated Code Demands Mandatory SAST]]></title>
+        <id>https://aquilax.ai/blog/vibe-coding-security-code-review</id>
+        <link href="https://aquilax.ai/blog/vibe-coding-security-code-review"/>
+        <updated>2026-04-14T22:18:57.837Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags">
+            <span class="b-tag red">Vibe Coding</span>
+            <span class="b-tag purple">SAST</span>
+            <span class="b-tag">DevSecOps</span>
+          </div>
+          <h3>Vibe Coding and Security Code Review: Why AI-Generated Code Demands Mandatory SAST</h3>
+          <p>Code review was designed for humans reviewing code written by other humans. Vibe coding breaks that model. Automated security scanning is the only control that scales with AI-generated code velocity.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Apr 2026 &nbsp;·&nbsp; 11 min read</div>
             <span class="blog-card-read">Read <span class="arrow">→</span></span>
           </div>]]></content>
     </entry>
