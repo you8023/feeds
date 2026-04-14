@@ -2,9 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://juliet.sh/blog</id>
     <title>Juliet</title>
-    <updated>2026-04-14T12:00:04.149Z</updated>
+    <updated>2026-04-14T14:26:26.252Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://juliet.sh/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Building Runtime Enforcement for Kubernetes with eBPF]]></title>
+        <id>https://juliet.sh/blog/building-runtime-enforcement-for-kubernetes-with-ebpf</id>
+        <link href="https://juliet.sh/blog/building-runtime-enforcement-for-kubernetes-with-ebpf"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-04-14">April 14, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>12 min read</span>
+                        </div>
+                        <h2>Building Runtime Enforcement for Kubernetes with eBPF</h2>
+                        <p>How we replaced a Falco sidecar with an embedded eBPF sensor, built a five-stage event pipeline, and learned the hard way why namespace scoping matters for enforcement.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">ebpf</span>
+                            
+                            <span class="blog-tag">runtime-security</span>
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">engineering</span>
+                            
+                        </div>
+                    </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Axios Compromised: Finding It in Your Running Kubernetes Clusters]]></title>
         <id>https://juliet.sh/blog/axios-npm-supply-chain-compromise-finding-it-in-your-kubernetes-clusters</id>
