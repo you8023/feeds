@@ -2,120 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-04-15T08:21:52.693Z</updated>
+    <updated>2026-04-15T10:06:12.498Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
-    <entry>
-        <title type="html"><![CDATA[Secure crypto infrastructure: SLSA L3 Provenance for Docker Images - How We Made Our Builds Verifiable]]></title>
-        <id>https://dev.to/anhthii/secure-crypto-infrastructure-slsa-l3-provenance-for-docker-images-how-we-made-our-builds-55hn</id>
-        <link href="https://dev.to/anhthii/secure-crypto-infrastructure-slsa-l3-provenance-for-docker-images-how-we-made-our-builds-55hn"/>
-        <updated>2026-04-15T05:54:01.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/anhthii/secure-crypto-infrastructure-slsa-l3-provenance-for-docker-images-how-we-made-our-builds-55hn" aria-labelledby="article-link-3502988" class="crayons-story__hidden-navigation-link">Secure crypto infrastructure: SLSA L3 Provenance for Docker Images - How We Made Our Builds Verifiable</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/anhthii" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F800657%2F40146602-2474-4f0f-a742-19e340bea168.jpg" alt="anhthii profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/anhthii" class="crayons-story__secondary fw-medium m:hidden">
-              Thi Nguyen (T)
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3502988" aria-controls="story-author-preview-content-3502988" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Thi Nguyen (T) profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Thi Nguyen (T)
-                
-              </button>
-              <div id="story-author-preview-content-3502988" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/anhthii" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F800657%2F40146602-2474-4f0f-a742-19e340bea168.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Thi Nguyen (T)</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:800657,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Thi Nguyen (T)&quot;}" data-fetched="fetched" aria-label="Follow user: Thi Nguyen (T)" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="800657"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/anhthii/secure-crypto-infrastructure-slsa-l3-provenance-for-docker-images-how-we-made-our-builds-55hn" class="crayons-story__tertiary fs-xs"><time datetime="2026-04-15T05:54:01Z" title="">Apr 15</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1776232441"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/anhthii/secure-crypto-infrastructure-slsa-l3-provenance-for-docker-images-how-we-made-our-builds-55hn" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fghost.fystack.io%2Fcontent%2Fimages%2F2026%2F04%2Fslsa_level3.png" id="article-link-3502988">
-          Secure crypto infrastructure: SLSA L3 Provenance for Docker Images - How We Made Our Builds Verifiable
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(29, 99, 237, 0.10);
-        --tag-prefix: #1D63ED;
-        --tag-bg-hover: rgba(29, 99, 237, 0.10);
-        --tag-prefix-hover: #1D63ED;
-      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/anhthii/secure-crypto-infrastructure-slsa-l3-provenance-for-docker-images-how-we-made-our-builds-55hn#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Secure crypto infrastructure: SLSA L3 Provenance for Docker Images - How We Made Our Builds Verifiable">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ai9mng6b4ljs3fz4djah43cvxnsrz6i9" class="crayons-icon"><title id="ai9mng6b4ljs3fz4djah43cvxnsrz6i9">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
-          </small>
-            <button type="button" id="article-save-button-3502988" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3502988" data-article-author-id="800657" aria-label="Save post Secure crypto infrastructure: SLSA L3 Provenance for Docker Images - How We Made Our Builds Verifiable to reading list" title="Save post Secure crypto infrastructure: SLSA L3 Provenance for Docker Images - How We Made Our Builds Verifiable to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[The Zero-Trust Delivery Platform: DevSecOps Golden Paths for CI/CD at Scale]]></title>
         <id>https://dev.to/claudiosb/the-zero-trust-delivery-platform-devsecops-golden-paths-for-cicd-at-scale-1gil</id>
@@ -213,7 +102,7 @@
             </div>
           </a>
             <a href="https://dev.to/claudiosb/the-zero-trust-delivery-platform-devsecops-golden-paths-for-cicd-at-scale-1gil#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Zero-Trust Delivery Platform: DevSecOps Golden Paths for CI/CD at Scale">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ah7aym8pofvfmb9l4r6yisfz8mv2jq45" class="crayons-icon"><title id="ah7aym8pofvfmb9l4r6yisfz8mv2jq45">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aa41ssswhlz1tkcvrsuh8pjn4yfpq2yl" class="crayons-icon"><title id="aa41ssswhlz1tkcvrsuh8pjn4yfpq2yl">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               1<span class="hidden s:inline">&nbsp;comment</span>
             </a>
@@ -222,7 +111,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             14 min read
           </small>
-            <button type="button" id="article-save-button-3502177" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3502177" data-article-author-id="2121894" aria-label="Save post The Zero-Trust Delivery Platform: DevSecOps Golden Paths for CI/CD at Scale to reading list" title="Save post The Zero-Trust Delivery Platform: DevSecOps Golden Paths for CI/CD at Scale to reading list">
+            <button type="button" id="article-save-button-3502177" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3502177" data-article-author-id="2121894" aria-label="Save post The Zero-Trust Delivery Platform: DevSecOps Golden Paths for CI/CD at Scale to reading list" title="Save post The Zero-Trust Delivery Platform: DevSecOps Golden Paths for CI/CD at Scale to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -324,7 +213,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/piiiico/after-agents-week-the-layer-nobody-shipped-401p#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - After Agents Week: The Layer Nobody Shipped">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apsfzzxhycumog8pi6dgtb0qkimey0rf" class="crayons-icon"><title id="apsfzzxhycumog8pi6dgtb0qkimey0rf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3crquygzmwg8nxupdacnvfm9tw3yhj0" class="crayons-icon"><title id="a3crquygzmwg8nxupdacnvfm9tw3yhj0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -333,7 +222,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3502347" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3502347" data-article-author-id="3845861" aria-label="Save post After Agents Week: The Layer Nobody Shipped to reading list" title="Save post After Agents Week: The Layer Nobody Shipped to reading list">
+            <button type="button" id="article-save-button-3502347" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3502347" data-article-author-id="3845861" aria-label="Save post After Agents Week: The Layer Nobody Shipped to reading list" title="Save post After Agents Week: The Layer Nobody Shipped to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
