@@ -2,9 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://juliet.sh/blog</id>
     <title>Juliet</title>
-    <updated>2026-04-17T11:38:08.260Z</updated>
+    <updated>2026-04-17T12:17:58.933Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://juliet.sh/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Kyverno's 2026: Five Bugs, Eight Advisories, One Design Flaw]]></title>
+        <id>https://juliet.sh/blog/eight-kyverno-advisories-one-recurring-pattern</id>
+        <link href="https://juliet.sh/blog/eight-kyverno-advisories-one-recurring-pattern"/>
+        <updated>2026-04-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-04-17">April 17, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>7 min read</span>
+                        </div>
+                        <h2>Kyverno's 2026: Five Bugs, Eight Advisories, One Design Flaw</h2>
+                        <p>Ten Kyverno security advisories have been published in 2026. Eight of them trace to five distinct bugs in the same subsystem: user-controlled fields in a namespaced Policy that the admission controller's cluster-privileged ServiceAccount resolves without scope checks. The ConfigMap bypass disclosed this week (GHSA-cvq5-hhx3-f99p) is the newest variant.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">admission-control</span>
+                            
+                            <span class="blog-tag">kyverno</span>
+                            
+                            <span class="blog-tag">vulnerability-analysis</span>
+                            
+                        </div>
+                    </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Building Runtime Enforcement for Kubernetes with eBPF]]></title>
         <id>https://juliet.sh/blog/building-runtime-enforcement-for-kubernetes-with-ebpf</id>
