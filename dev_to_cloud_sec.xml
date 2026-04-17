@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-04-17T06:27:28.106Z</updated>
+    <updated>2026-04-17T08:21:27.753Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[DataGuard vs Bytebase vs Liquibase: The Missing Layer in Database Governance]]></title>
+        <id>https://dev.to/cicd_samurai/dataguard-vs-bytebase-vs-liquibase-the-missing-layer-in-database-governance-26hn</id>
+        <link href="https://dev.to/cicd_samurai/dataguard-vs-bytebase-vs-liquibase-the-missing-layer-in-database-governance-26hn"/>
+        <updated>2026-04-17T04:59:19.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/cicd_samurai/dataguard-vs-bytebase-vs-liquibase-the-missing-layer-in-database-governance-26hn" aria-labelledby="article-link-3513544" class="crayons-story__hidden-navigation-link">DataGuard vs Bytebase vs Liquibase: The Missing Layer in Database Governance</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/cicd_samurai" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3883633%2Fb60733e4-8350-4ad8-9856-fb6210218ded.png" alt="cicd_samurai profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/cicd_samurai" class="crayons-story__secondary fw-medium m:hidden">
+              CI CD Samurai
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3513544" aria-controls="story-author-preview-content-3513544" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="CI CD Samurai profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                CI CD Samurai
+                
+              </button>
+              <div id="story-author-preview-content-3513544" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/cicd_samurai" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3883633%2Fb60733e4-8350-4ad8-9856-fb6210218ded.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">CI CD Samurai</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3883633,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;CI CD Samurai&quot;}" data-fetched="fetched" aria-label="Follow user: CI CD Samurai" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3883633"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/cicd_samurai/dataguard-vs-bytebase-vs-liquibase-the-missing-layer-in-database-governance-26hn" class="crayons-story__tertiary fs-xs"><time datetime="2026-04-17T04:59:19Z" title="">Apr 17</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1776401959"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/cicd_samurai/dataguard-vs-bytebase-vs-liquibase-the-missing-layer-in-database-governance-26hn" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fexh6w2tl5hp8s912qcjm.png" id="article-link-3513544">
+          DataGuard vs Bytebase vs Liquibase: The Missing Layer in Database Governance
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(237, 21, 86, 0.10);
+        --tag-prefix: #ED1556;
+        --tag-bg-hover: rgba(237, 21, 86, 0.10);
+        --tag-prefix-hover: #ED1556;
+      " href="/t/database"><span class="crayons-tag__prefix">#</span>database</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(193, 216, 47, 0.10);
+        --tag-prefix: #c1d82f;
+        --tag-bg-hover: rgba(193, 216, 47, 0.10);
+        --tag-prefix-hover: #c1d82f;
+      " href="/t/tooling"><span class="crayons-tag__prefix">#</span>tooling</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/cicd_samurai/dataguard-vs-bytebase-vs-liquibase-the-missing-layer-in-database-governance-26hn#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - DataGuard vs Bytebase vs Liquibase: The Missing Layer in Database Governance">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ac5n7yzhhpcwjilfakrnuq88loi559pi" class="crayons-icon"><title id="ac5n7yzhhpcwjilfakrnuq88loi559pi">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3513544" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3513544" data-article-author-id="3883633" aria-label="Save post DataGuard vs Bytebase vs Liquibase: The Missing Layer in Database Governance to reading list" title="Save post DataGuard vs Bytebase vs Liquibase: The Missing Layer in Database Governance to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TryHackMe AI Threat Modelling Room]]></title>
         <id>https://dev.to/xmabry/tryhackme-ai-threat-modelling-room-1eoc</id>
@@ -86,7 +197,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/xmabry/tryhackme-ai-threat-modelling-room-1eoc#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - TryHackMe AI Threat Modelling Room">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abxz6d3fm1z0r5uvpbb5v4owk882o7or" class="crayons-icon"><title id="abxz6d3fm1z0r5uvpbb5v4owk882o7or">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alljwu2hm69h36ibvs8ozhkhtxajbxh8" class="crayons-icon"><title id="alljwu2hm69h36ibvs8ozhkhtxajbxh8">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -95,7 +206,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
           </small>
-            <button type="button" id="article-save-button-3513250" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3513250" data-article-author-id="3699431" aria-label="Save post TryHackMe AI Threat Modelling Room to reading list" title="Save post TryHackMe AI Threat Modelling Room to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3513250" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3513250" data-article-author-id="3699431" aria-label="Save post TryHackMe AI Threat Modelling Room to reading list" title="Save post TryHackMe AI Threat Modelling Room to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -197,7 +308,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/isms-core-adm/anti-cargo-cult-platform-engineering-for-kubernetes-at-scale-1i41#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Anti-Cargo-Cult Platform Engineering for Kubernetes at Scale">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a10bfji6915fkvjhw2z723rf2tf6etdp" class="crayons-icon"><title id="a10bfji6915fkvjhw2z723rf2tf6etdp">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aq0gwczsot3vgi5oxn7psfewwmaa6wat" class="crayons-icon"><title id="aq0gwczsot3vgi5oxn7psfewwmaa6wat">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -206,7 +317,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             35 min read
           </small>
-            <button type="button" id="article-save-button-3512249" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3512249" data-article-author-id="3882978" aria-label="Save post Anti-Cargo-Cult Platform Engineering for Kubernetes at Scale to reading list" title="Save post Anti-Cargo-Cult Platform Engineering for Kubernetes at Scale to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3512249" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3512249" data-article-author-id="3882978" aria-label="Save post Anti-Cargo-Cult Platform Engineering for Kubernetes at Scale to reading list" title="Save post Anti-Cargo-Cult Platform Engineering for Kubernetes at Scale to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -308,7 +419,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/alanwest/how-an-unrestricted-firebase-api-key-can-drain-your-bank-account-overnight-28ob#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How an Unrestricted Firebase API Key Can Drain Your Bank Account Overnight">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="amkcxfo7qatt6qctlyq6iox338xw1i2k" class="crayons-icon"><title id="amkcxfo7qatt6qctlyq6iox338xw1i2k">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ai40v91gqksnnk4t9am0vsrnj9hnekkd" class="crayons-icon"><title id="ai40v91gqksnnk4t9am0vsrnj9hnekkd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -317,7 +428,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             5 min read
           </small>
-            <button type="button" id="article-save-button-3512205" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3512205" data-article-author-id="3834047" aria-label="Save post How an Unrestricted Firebase API Key Can Drain Your Bank Account Overnight to reading list" title="Save post How an Unrestricted Firebase API Key Can Drain Your Bank Account Overnight to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3512205" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3512205" data-article-author-id="3834047" aria-label="Save post How an Unrestricted Firebase API Key Can Drain Your Bank Account Overnight to reading list" title="Save post How an Unrestricted Firebase API Key Can Drain Your Bank Account Overnight to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
