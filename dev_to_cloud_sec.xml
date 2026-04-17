@@ -2,9 +2,231 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-04-17T12:17:58.812Z</updated>
+    <updated>2026-04-17T14:11:38.066Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Agentic AI Has a Control Plane Problem — Because It Became the Control Plane]]></title>
+        <id>https://dev.to/ntctech/agentic-ai-has-a-control-plane-problem-because-it-became-the-control-plane-dp3</id>
+        <link href="https://dev.to/ntctech/agentic-ai-has-a-control-plane-problem-because-it-became-the-control-plane-dp3"/>
+        <updated>2026-04-17T13:04:36.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/ntctech/agentic-ai-has-a-control-plane-problem-because-it-became-the-control-plane-dp3" aria-labelledby="article-link-3505686" class="crayons-story__hidden-navigation-link">Agentic AI Has a Control Plane Problem — Because It Became the Control Plane</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/ntctech" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3784059%2Fc609d531-fdab-47ac-bb17-37fd1ecc3d71.jpg" alt="ntctech profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/ntctech" class="crayons-story__secondary fw-medium m:hidden">
+              NTCTech
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3505686" aria-controls="story-author-preview-content-3505686" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="NTCTech profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                NTCTech
+                
+              </button>
+              <div id="story-author-preview-content-3505686" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/ntctech" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3784059%2Fc609d531-fdab-47ac-bb17-37fd1ecc3d71.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">NTCTech</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3784059,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;NTCTech&quot;}" data-fetched="fetched" aria-label="Follow user: NTCTech" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3784059"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/ntctech/agentic-ai-has-a-control-plane-problem-because-it-became-the-control-plane-dp3" class="crayons-story__tertiary fs-xs"><time datetime="2026-04-17T13:04:36Z" title="">Apr 17</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1776431076"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/ntctech/agentic-ai-has-a-control-plane-problem-because-it-became-the-control-plane-dp3" data-preload-image="" id="article-link-3505686">
+          Agentic AI Has a Control Plane Problem — Because It Became the Control Plane
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(235, 223, 55, 0.10);
+        --tag-prefix: #ebdf37;
+        --tag-bg-hover: rgba(235, 223, 55, 0.10);
+        --tag-prefix-hover: #ebdf37;
+      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/ntctech/agentic-ai-has-a-control-plane-problem-because-it-became-the-control-plane-dp3#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Agentic AI Has a Control Plane Problem — Because It Became the Control Plane">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="arvn9mv44a1rf6qt2jh4pmf7ibfk8pti" class="crayons-icon"><title id="arvn9mv44a1rf6qt2jh4pmf7ibfk8pti">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+            <button type="button" id="article-save-button-3505686" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3505686" data-article-author-id="3784059" aria-label="Save post Agentic AI Has a Control Plane Problem — Because It Became the Control Plane to reading list" title="Save post Agentic AI Has a Control Plane Problem — Because It Became the Control Plane to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Subdomain Takeover is Not Just Phishing: How Acronis Nearly Lost Authenticated API Access]]></title>
+        <id>https://dev.to/bala_paranj_059d338e44e7e/subdomain-takeover-is-not-just-phishing-how-acronis-nearly-lost-authenticated-api-access-1ie</id>
+        <link href="https://dev.to/bala_paranj_059d338e44e7e/subdomain-takeover-is-not-just-phishing-how-acronis-nearly-lost-authenticated-api-access-1ie"/>
+        <updated>2026-04-17T12:46:34.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/subdomain-takeover-is-not-just-phishing-how-acronis-nearly-lost-authenticated-api-access-1ie" aria-labelledby="article-link-3515692" class="crayons-story__hidden-navigation-link">Subdomain Takeover is Not Just Phishing: How Acronis Nearly Lost Authenticated API Access</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
+              Bala Paranj
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3515692" aria-controls="story-author-preview-content-3515692" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Bala Paranj
+                
+              </button>
+              <div id="story-author-preview-content-3515692" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/bala_paranj_059d338e44e7e" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/bala_paranj_059d338e44e7e/subdomain-takeover-is-not-just-phishing-how-acronis-nearly-lost-authenticated-api-access-1ie" class="crayons-story__tertiary fs-xs"><time datetime="2026-04-17T12:46:34Z" title="">Apr 17</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1776429994"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/bala_paranj_059d338e44e7e/subdomain-takeover-is-not-just-phishing-how-acronis-nearly-lost-authenticated-api-access-1ie" data-preload-image="" id="article-link-3515692">
+          Subdomain Takeover is Not Just Phishing: How Acronis Nearly Lost Authenticated API Access
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/appsec"><span class="crayons-tag__prefix">#</span>appsec</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/bala_paranj_059d338e44e7e/subdomain-takeover-is-not-just-phishing-how-acronis-nearly-lost-authenticated-api-access-1ie#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Subdomain Takeover is Not Just Phishing: How Acronis Nearly Lost Authenticated API Access">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a28l7k194bihytkwnmr0jgnd05ufjgna" class="crayons-icon"><title id="a28l7k194bihytkwnmr0jgnd05ufjgna">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            6 min read
+          </small>
+            <button type="button" id="article-save-button-3515692" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3515692" data-article-author-id="3862804" aria-label="Save post Subdomain Takeover is Not Just Phishing: How Acronis Nearly Lost Authenticated API Access to reading list" title="Save post Subdomain Takeover is Not Just Phishing: How Acronis Nearly Lost Authenticated API Access to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Air Traffic Control Scaleway Ep.1]]></title>
         <id>https://dev.to/the-software-s-journey/air-traffic-control-scaleway-ep1-5hcj</id>
@@ -114,7 +336,7 @@
             </div>
           </a>
             <a href="https://dev.to/the-software-s-journey/air-traffic-control-scaleway-ep1-5hcj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Air Traffic Control Scaleway Ep.1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="acg3vw6f1qddmpopycb3945vlvijpexn" class="crayons-icon"><title id="acg3vw6f1qddmpopycb3945vlvijpexn">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahrqhitgty3797x3h0186iglvwvzq3qh" class="crayons-icon"><title id="ahrqhitgty3797x3h0186iglvwvzq3qh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -123,7 +345,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             9 min read
           </small>
-            <button type="button" id="article-save-button-3514728" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3514728" data-article-author-id="1547150" aria-label="Save post Air Traffic Control Scaleway Ep.1 to reading list" title="Save post Air Traffic Control Scaleway Ep.1 to reading list">
+            <button type="button" id="article-save-button-3514728" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3514728" data-article-author-id="1547150" aria-label="Save post Air Traffic Control Scaleway Ep.1 to reading list" title="Save post Air Traffic Control Scaleway Ep.1 to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -241,7 +463,7 @@
             </div>
           </a>
             <a href="https://dev.to/mechcloud_academy/the-ultimate-container-showdown-choosing-between-alpine-and-distroless-ipd#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Ultimate Container Showdown Choosing Between Alpine and Distroless">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aax8omfa3h5x5rqqglmy1oc917sa9j0q" class="crayons-icon"><title id="aax8omfa3h5x5rqqglmy1oc917sa9j0q">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ah1gd5qwoye29ye6qu878ypjq4osglmy" class="crayons-icon"><title id="ah1gd5qwoye29ye6qu878ypjq4osglmy">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -250,7 +472,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             8 min read
           </small>
-            <button type="button" id="article-save-button-3514295" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3514295" data-article-author-id="2897157" aria-label="Save post The Ultimate Container Showdown Choosing Between Alpine and Distroless to reading list" title="Save post The Ultimate Container Showdown Choosing Between Alpine and Distroless to reading list">
+            <button type="button" id="article-save-button-3514295" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3514295" data-article-author-id="2897157" aria-label="Save post The Ultimate Container Showdown Choosing Between Alpine and Distroless to reading list" title="Save post The Ultimate Container Showdown Choosing Between Alpine and Distroless to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
