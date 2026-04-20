@@ -1409,3 +1409,39 @@ titleSelector = ".blc-title"
 linkSelector = ".blog-listing-card"
 dateSelector = "p.blc-date"
 dateFormat = " MMM dd, yyyy"
+
+[credrelay]
+title = "credrelay"
+url = "https://www.credrelay.com/"
+entrySelector = ".embla__slide"
+titleSelector = "h3"
+linkSelector = "a[href^='/p/']"
+dateSelector = "p[data-json-path$=',0']"
+dateFormat = "MMM d, yyyy"
+
+[chain0x0]
+title = "chain0x0 blog"
+url = "https://blog.chain0x0.com/blog"
+entrySelector = ".blog_featuredPostContainer___NQOz > div[role='link'], .blog_postsGrid__kRaB_ > div[role='link']"
+titleSelector = ".blog_postTitle__lIeWF"
+linkSelector = "*"
+dateSelector = ".blog_featuredDate__ftvic, .blog_postDate__nDmoc"
+dateFormat = "MMMM d, yyyy"
+
+[reversec]
+title = "reversec research blog"
+url = "https://labs.reversec.com/"
+entrySelector = ".card-container > .card"
+titleSelector = "h3 a"
+linkSelector = "h3 a"
+dateSelector = "ul > li:nth-child(2) span"
+dateFormat = "d MMM yyyy"
+
+[sibouzitoun_labs]
+title = "sibouzitoun labs"
+url = "https://sibouzitoun.tech/labs"
+entrySelector = ".markdown-card-content"
+titleSelector = ".markdown-card-title"
+linkSelector = ".markdown-card-readmore"
+dateSelector = ".date"
+dateFormat = "yyyy-MM-dd"
