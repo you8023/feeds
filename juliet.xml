@@ -2,9 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://juliet.sh/blog</id>
     <title>Juliet</title>
-    <updated>2026-04-24T11:49:19.093Z</updated>
+    <updated>2026-04-24T14:23:40.066Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://juliet.sh/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[The Checkmarx Compromise: Two Waves, Three Artifacts, and the Bitwarden Chain]]></title>
+        <id>https://juliet.sh/blog/checkmarx-supply-chain-compromise-what-ci-cd-teams-need-to-know</id>
+        <link href="https://juliet.sh/blog/checkmarx-supply-chain-compromise-what-ci-cd-teams-need-to-know"/>
+        <updated>2026-04-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-04-24">April 24, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>8 min read</span>
+                        </div>
+                        <h2>The Checkmarx Compromise: Two Waves, Three Artifacts, and the Bitwarden Chain</h2>
+                        <p>A two-wave supply chain attack by TeamPCP. Checkmarx GitHub Actions were force-pushed with infostealers on March 23, 2026. One month later the same attackers used stolen credentials to trojanize checkmarx/kics Docker images, re-compromise ast-github-action, and publish a malicious @bitwarden/cli 2026.4.0 npm package. Here is the full timeline, the exact affected versions, and how to scan your pipelines with abom.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">supply-chain</span>
+                            
+                            <span class="blog-tag">github-actions</span>
+                            
+                            <span class="blog-tag">ci-cd</span>
+                            
+                            <span class="blog-tag">checkmarx</span>
+                            
+                            <span class="blog-tag">bitwarden</span>
+                            
+                            <span class="blog-tag">abom</span>
+                            
+                            <span class="blog-tag">teampcp</span>
+                            
+                        </div>
+                    </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vercel's April 19 Security Incident: What Customers Should Do]]></title>
         <id>https://juliet.sh/blog/vercel-april-2026-incident-what-customers-should-do</id>
