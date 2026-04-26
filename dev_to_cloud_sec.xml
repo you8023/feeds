@@ -2,9 +2,231 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-04-26T08:07:31.108Z</updated>
+    <updated>2026-04-26T09:38:53.728Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Prowler is great. Here's what to do with 400 findings.]]></title>
+        <id>https://dev.to/bangullia/prowler-is-great-heres-what-to-do-with-400-findings-3g8g</id>
+        <link href="https://dev.to/bangullia/prowler-is-great-heres-what-to-do-with-400-findings-3g8g"/>
+        <updated>2026-04-26T08:54:28.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/bangullia/prowler-is-great-heres-what-to-do-with-400-findings-3g8g" aria-labelledby="article-link-3552581" class="crayons-story__hidden-navigation-link">Prowler is great. Here's what to do with 400 findings.</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/bangullia" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3898513%2F43d2609f-96ba-4dc2-a2bf-2c0874ba3992.png" alt="bangullia profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/bangullia" class="crayons-story__secondary fw-medium m:hidden">
+              Bilal
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3552581" aria-controls="story-author-preview-content-3552581" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bilal profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Bilal
+                
+              </button>
+              <div id="story-author-preview-content-3552581" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/bangullia" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3898513%2F43d2609f-96ba-4dc2-a2bf-2c0874ba3992.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Bilal</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3898513,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bilal&quot;}" data-fetched="fetched" aria-label="Follow user: Bilal" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3898513"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/bangullia/prowler-is-great-heres-what-to-do-with-400-findings-3g8g" class="crayons-story__tertiary fs-xs"><time datetime="2026-04-26T08:54:28Z" title="">Apr 26</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1777193668"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/bangullia/prowler-is-great-heres-what-to-do-with-400-findings-3g8g" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fetpgss6q4jd61x8khw1l.png" id="article-link-3552581">
+          Prowler is great. Here's what to do with 400 findings.
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/bangullia/prowler-is-great-heres-what-to-do-with-400-findings-3g8g#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Prowler is great. Here's what to do with 400 findings.">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a85m6wbzn3hj3jazqaj8hh6tddo934r1" class="crayons-icon"><title id="a85m6wbzn3hj3jazqaj8hh6tddo934r1">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3552581" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3552581" data-article-author-id="3898513" aria-label="Save post Prowler is great. Here's what to do with 400 findings. to reading list" title="Save post Prowler is great. Here's what to do with 400 findings. to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DevSecOps in Practice: Tools That Actually Catch Vulnerabilities - Part 1]]></title>
+        <id>https://dev.to/pkkht/devsecops-in-practice-tools-that-actually-catch-vulnerabilities-part-1-43og</id>
+        <link href="https://dev.to/pkkht/devsecops-in-practice-tools-that-actually-catch-vulnerabilities-part-1-43og"/>
+        <updated>2026-04-26T08:48:08.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/pkkht/devsecops-in-practice-tools-that-actually-catch-vulnerabilities-part-1-43og" aria-labelledby="article-link-3552261" class="crayons-story__hidden-navigation-link">DevSecOps in Practice: Tools That Actually Catch Vulnerabilities - Part 1</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/pkkht" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1050851%2F6b07e8f8-7293-42ef-ac24-0718ae0654fc.jpeg" alt="pkkht profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/pkkht" class="crayons-story__secondary fw-medium m:hidden">
+              Hariharan
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3552261" aria-controls="story-author-preview-content-3552261" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Hariharan profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Hariharan
+                
+              </button>
+              <div id="story-author-preview-content-3552261" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/pkkht" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1050851%2F6b07e8f8-7293-42ef-ac24-0718ae0654fc.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Hariharan</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1050851,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Hariharan&quot;}" data-fetched="fetched" aria-label="Follow user: Hariharan" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="1050851"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/pkkht/devsecops-in-practice-tools-that-actually-catch-vulnerabilities-part-1-43og" class="crayons-story__tertiary fs-xs"><time datetime="2026-04-26T08:48:08Z" title="">Apr 26</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1777193288"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/pkkht/devsecops-in-practice-tools-that-actually-catch-vulnerabilities-part-1-43og" data-preload-image="" id="article-link-3552261">
+          DevSecOps in Practice: Tools That Actually Catch Vulnerabilities - Part 1
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(254, 255, 165, 0.10);
+        --tag-prefix: #FEFFA5;
+        --tag-bg-hover: rgba(254, 255, 165, 0.10);
+        --tag-prefix-hover: #FEFFA5;
+      " href="/t/tutorial"><span class="crayons-tag__prefix">#</span>tutorial</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/pkkht/devsecops-in-practice-tools-that-actually-catch-vulnerabilities-part-1-43og#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - DevSecOps in Practice: Tools That Actually Catch Vulnerabilities - Part 1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a96ifmhh5o7d6mqf3jy2r6snwktg34t0" class="crayons-icon"><title id="a96ifmhh5o7d6mqf3jy2r6snwktg34t0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3552261" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3552261" data-article-author-id="1050851" aria-label="Save post DevSecOps in Practice: Tools That Actually Catch Vulnerabilities - Part 1 to reading list" title="Save post DevSecOps in Practice: Tools That Actually Catch Vulnerabilities - Part 1 to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Building a real-time anomaly detection engine for a self-hosted Nextcloud (HNG Stage 3)]]></title>
         <id>https://dev.to/ibraheembello/building-a-real-time-anomaly-detection-engine-for-a-self-hosted-nextcloud-hng-stage-3-59km</id>
@@ -102,7 +324,7 @@
             </div>
           </a>
             <a href="https://dev.to/ibraheembello/building-a-real-time-anomaly-detection-engine-for-a-self-hosted-nextcloud-hng-stage-3-59km#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building a real-time anomaly detection engine for a self-hosted Nextcloud (HNG Stage 3)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aerfo97scgstbg7p6mkjgtm645sh5gzk" class="crayons-icon"><title id="aerfo97scgstbg7p6mkjgtm645sh5gzk">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ascvi0p45rsff4zghkua43dc8agd5sq0" class="crayons-icon"><title id="ascvi0p45rsff4zghkua43dc8agd5sq0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -111,118 +333,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             7 min read
           </small>
-            <button type="button" id="article-save-button-3551606" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3551606" data-article-author-id="1140237" aria-label="Save post Building a real-time anomaly detection engine for a self-hosted Nextcloud (HNG Stage 3) to reading list" title="Save post Building a real-time anomaly detection engine for a self-hosted Nextcloud (HNG Stage 3) to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Willow – local-first AI stack, phone reads desktop KB over LAN, no cloud relay]]></title>
-        <id>https://dev.to/sean_campbell_840bd62bf7e/willow-local-first-ai-stack-phone-reads-desktop-kb-over-lan-no-cloud-relay-189c</id>
-        <link href="https://dev.to/sean_campbell_840bd62bf7e/willow-local-first-ai-stack-phone-reads-desktop-kb-over-lan-no-cloud-relay-189c"/>
-        <updated>2026-04-26T01:42:55.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/sean_campbell_840bd62bf7e/willow-local-first-ai-stack-phone-reads-desktop-kb-over-lan-no-cloud-relay-189c" aria-labelledby="article-link-3551578" class="crayons-story__hidden-navigation-link">Willow – local-first AI stack, phone reads desktop KB over LAN, no cloud relay</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/sean_campbell_840bd62bf7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3898197%2F2677e7dc-42ca-4a5a-8ea6-1400ab1ebbde.jpg" alt="sean_campbell_840bd62bf7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/sean_campbell_840bd62bf7e" class="crayons-story__secondary fw-medium m:hidden">
-              sean campbell
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3551578" aria-controls="story-author-preview-content-3551578" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="sean campbell profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                sean campbell
-                
-              </button>
-              <div id="story-author-preview-content-3551578" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/sean_campbell_840bd62bf7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3898197%2F2677e7dc-42ca-4a5a-8ea6-1400ab1ebbde.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">sean campbell</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3898197,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;sean campbell&quot;}" data-fetched="fetched" aria-label="Follow user: sean campbell" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3898197"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/sean_campbell_840bd62bf7e/willow-local-first-ai-stack-phone-reads-desktop-kb-over-lan-no-cloud-relay-189c" class="crayons-story__tertiary fs-xs"><time datetime="2026-04-26T01:42:55Z" title="">Apr 26</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1777167775"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/sean_campbell_840bd62bf7e/willow-local-first-ai-stack-phone-reads-desktop-kb-over-lan-no-cloud-relay-189c" data-preload-image="" id="article-link-3551578">
-          Willow – local-first AI stack, phone reads desktop KB over LAN, no cloud relay
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(137, 6, 6, 0.10);
-        --tag-prefix: #890606;
-        --tag-bg-hover: rgba(137, 6, 6, 0.10);
-        --tag-prefix-hover: #890606;
-      " href="/t/programming"><span class="crayons-tag__prefix">#</span>programming</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(38, 190, 0, 0.10);
-        --tag-prefix: #26BE00;
-        --tag-bg-hover: rgba(38, 190, 0, 0.10);
-        --tag-prefix-hover: #26BE00;
-      " href="/t/opensource"><span class="crayons-tag__prefix">#</span>opensource</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/sean_campbell_840bd62bf7e/willow-local-first-ai-stack-phone-reads-desktop-kb-over-lan-no-cloud-relay-189c#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Willow – local-first AI stack, phone reads desktop KB over LAN, no cloud relay">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ad7zptlcn77stchz65zm3ivv2i4fziy" class="crayons-icon"><title id="ad7zptlcn77stchz65zm3ivv2i4fziy">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            1 min read
-          </small>
-            <button type="button" id="article-save-button-3551578" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3551578" data-article-author-id="3898197" aria-label="Save post Willow – local-first AI stack, phone reads desktop KB over LAN, no cloud relay to reading list" title="Save post Willow – local-first AI stack, phone reads desktop KB over LAN, no cloud relay to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3551606" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3551606" data-article-author-id="1140237" aria-label="Save post Building a real-time anomaly detection engine for a self-hosted Nextcloud (HNG Stage 3) to reading list" title="Save post Building a real-time anomaly detection engine for a self-hosted Nextcloud (HNG Stage 3) to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
