@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lab.ctbb.show/writeups/all/</id>
     <title>ctbb_writeups</title>
-    <updated>2026-04-27T06:54:46.978Z</updated>
+    <updated>2026-04-27T09:45:34.205Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://lab.ctbb.show/writeups/all/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Zero-Click RCE in Figma Desktop: A Race-Conditioned Prototype Pollution Chain That Escapes the Plugin SandboxNEW]]></title>
+        <id>https://lab.ctbb.show/research/figma-desktop-zero-click-rce/</id>
+        <link href="https://lab.ctbb.show/research/figma-desktop-zero-click-rce/"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/research/figma-desktop-zero-click-rce/">Zero-Click RCE in Figma Desktop: A Race-Conditioned Prototype Pollution Chain That Escapes the Plugin Sandbox<span class="new-badge">NEW</span></a>
+                </h3>
+                <div class="article-subtitle">A prototype pollution bug in Figma's variant counter, chained through a plugin-context race against $INTERNAL_DO_NOT_USE$RERUN_PLUGIN$, a jsx_debugging feature-flag flip, and a forgotten writeFileToPath IPC in the Electron desktop app, to achieve zero-click cross-platform RCE from a published plugin. Reported to Figma and patched within hours.</div>
+                <div class="article-meta">
+                    <span class="article-date">April 27, 2026</span> • <span class="article-author"><span>Benjamin Mamoud (DavenSec)</span><img src="/assets/images/davensec.jpg" alt="Benjamin Mamoud (DavenSec)" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">Important Note : Before getting into the details, I want to note upfront that Figma responded and fi...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="client-side">client-side</span><span class="article-tag" data-tag="prototype-pollution">prototype-pollution</span><span class="article-tag" data-tag="race-condition">race-condition</span><span class="article-tag" data-tag="rce">rce</span></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Authenticated Arbitrary File Read via Race Condition leads to 0-Click Account Take Over on n8n]]></title>
         <id>https://lab.ctbb.show/writeups/toctou-leads-to-ato-on-n8n</id>
