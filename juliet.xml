@@ -2,9 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://juliet.sh/blog</id>
     <title>Juliet</title>
-    <updated>2026-04-30T04:22:06.034Z</updated>
+    <updated>2026-04-30T07:23:51.872Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://juliet.sh/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[We Tested Copy Fail in Kubernetes: PSS Restricted and RuntimeDefault Did Not Block AF_ALG]]></title>
+        <id>https://juliet.sh/blog/we-tested-copy-fail-in-kubernetes-pss-restricted-runtime-default-af-alg</id>
+        <link href="https://juliet.sh/blog/we-tested-copy-fail-in-kubernetes-pss-restricted-runtime-default-af-alg"/>
+        <updated>2026-04-30T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-04-30">April 30, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>13 min read</span>
+                        </div>
+                        <h2>We Tested Copy Fail in Kubernetes: PSS Restricted and RuntimeDefault Did Not Block AF_ALG</h2>
+                        <p>Copy Fail is a Linux kernel page-cache corruption bug. We reproduced the primitive on Talos/containerd and EKS/Amazon Linux 2023/containerd: a non-root PSS Restricted pod reached AF_ALG, modified cached bytes for a shared image-layer file, and another pod on the same node observed the change. In controlled labs on both clusters, a separate allowPrivilegeEscalation pod consumed a mutated purpose-built setuid helper and reached euid 0. Here is what we tested, what we did not test, and how to defend Kubernetes nodes without overclaiming.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">linux-kernel</span>
+                            
+                            <span class="blog-tag">seccomp</span>
+                            
+                            <span class="blog-tag">runtime-security</span>
+                            
+                            <span class="blog-tag">cve-2026-31431</span>
+                            
+                            <span class="blog-tag">pod-security-standards</span>
+                            
+                        </div>
+                    </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Checkmarx Compromise: Two Waves, Three Artifacts, and the Bitwarden Chain]]></title>
         <id>https://juliet.sh/blog/checkmarx-supply-chain-compromise-what-ci-cd-teams-need-to-know</id>
