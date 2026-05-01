@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-01T14:07:43.008Z</updated>
+    <updated>2026-05-01T15:41:27.456Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[CVE-2026-31431 CopyFail: fast Kubernetes mitigation while waiting for the patch]]></title>
+        <id>https://dev.to/csepulvedab/cve-2026-31431-copyfail-fast-kubernetes-mitigation-while-waiting-for-the-patch-2c4o</id>
+        <link href="https://dev.to/csepulvedab/cve-2026-31431-copyfail-fast-kubernetes-mitigation-while-waiting-for-the-patch-2c4o"/>
+        <updated>2026-05-01T14:26:54.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/csepulvedab/cve-2026-31431-copyfail-fast-kubernetes-mitigation-while-waiting-for-the-patch-2c4o" aria-labelledby="article-link-3596488" class="crayons-story__hidden-navigation-link">CVE-2026-31431 CopyFail: fast Kubernetes mitigation while waiting for the patch</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/csepulvedab" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3033680%2F63e29f3a-5f38-4c70-bd24-4787e669bf12.png" alt="csepulvedab profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/csepulvedab" class="crayons-story__secondary fw-medium m:hidden">
+              César Sepúlveda Barra
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3596488" aria-controls="story-author-preview-content-3596488" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="César Sepúlveda Barra profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                César Sepúlveda Barra
+                
+              </button>
+              <div id="story-author-preview-content-3596488" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/csepulvedab" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3033680%2F63e29f3a-5f38-4c70-bd24-4787e669bf12.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">César Sepúlveda Barra</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3033680,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;César Sepúlveda Barra&quot;}" data-fetched="fetched" aria-label="Follow user: César Sepúlveda Barra" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3033680"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/csepulvedab/cve-2026-31431-copyfail-fast-kubernetes-mitigation-while-waiting-for-the-patch-2c4o" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-01T14:26:54Z" title="">May 1</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1777645614"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/csepulvedab/cve-2026-31431-copyfail-fast-kubernetes-mitigation-while-waiting-for-the-patch-2c4o" data-preload-image="" id="article-link-3596488">
+          CVE-2026-31431 CopyFail: fast Kubernetes mitigation while waiting for the patch
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/linux"><span class="crayons-tag__prefix">#</span>linux</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/eks"><span class="crayons-tag__prefix">#</span>eks</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/csepulvedab/cve-2026-31431-copyfail-fast-kubernetes-mitigation-while-waiting-for-the-patch-2c4o#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - CVE-2026-31431 CopyFail: fast Kubernetes mitigation while waiting for the patch">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akw2bwxnela01xtm967bkrvwx7scjd4z" class="crayons-icon"><title id="akw2bwxnela01xtm967bkrvwx7scjd4z">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            2 min read
+          </small>
+            <button type="button" id="article-save-button-3596488" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3596488" data-article-author-id="3033680" aria-label="Save post CVE-2026-31431 CopyFail: fast Kubernetes mitigation while waiting for the patch to reading list" title="Save post CVE-2026-31431 CopyFail: fast Kubernetes mitigation while waiting for the patch to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cybersecurity in AWS]]></title>
         <id>https://dev.to/leonardkachi/cybersecurity-in-aws-395h</id>
@@ -102,7 +213,7 @@
             </div>
           </a>
             <a href="https://dev.to/leonardkachi/cybersecurity-in-aws-395h#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Cybersecurity in AWS">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4heewnakm2s592ops3zopf6kzg60n97" class="crayons-icon"><title id="a4heewnakm2s592ops3zopf6kzg60n97">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apn8cver2yaj4wiwgyk45almzn9lmhoi" class="crayons-icon"><title id="apn8cver2yaj4wiwgyk45almzn9lmhoi">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -111,7 +222,118 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             8 min read
           </small>
-            <button type="button" id="article-save-button-3510796" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3510796" data-article-author-id="2809830" aria-label="Save post Cybersecurity in AWS to reading list" title="Save post Cybersecurity in AWS to reading list">
+            <button type="button" id="article-save-button-3510796" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3510796" data-article-author-id="2809830" aria-label="Save post Cybersecurity in AWS to reading list" title="Save post Cybersecurity in AWS to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Install and Secure Docker on Ubuntu 26.04 Bare Metal]]></title>
+        <id>https://dev.to/nyra_amsi/install-and-secure-docker-on-ubuntu-2604-bare-metal-154c</id>
+        <link href="https://dev.to/nyra_amsi/install-and-secure-docker-on-ubuntu-2604-bare-metal-154c"/>
+        <updated>2026-05-01T10:58:18.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/nyra_amsi/install-and-secure-docker-on-ubuntu-2604-bare-metal-154c" aria-labelledby="article-link-3595561" class="crayons-story__hidden-navigation-link">Install and Secure Docker on Ubuntu 26.04 Bare Metal</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/nyra_amsi" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3858750%2F7b55f3fe-97c6-4ea4-a336-62625c98be22.png" alt="nyra_amsi profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/nyra_amsi" class="crayons-story__secondary fw-medium m:hidden">
+              Nyra Amsi
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3595561" aria-controls="story-author-preview-content-3595561" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Nyra Amsi profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Nyra Amsi
+                
+              </button>
+              <div id="story-author-preview-content-3595561" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/nyra_amsi" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3858750%2F7b55f3fe-97c6-4ea4-a336-62625c98be22.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Nyra Amsi</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3858750,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Nyra Amsi&quot;}" data-fetched="fetched" aria-label="Follow user: Nyra Amsi" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3858750"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/nyra_amsi/install-and-secure-docker-on-ubuntu-2604-bare-metal-154c" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-01T10:58:18Z" title="">May 1</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1777633098"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/nyra_amsi/install-and-secure-docker-on-ubuntu-2604-bare-metal-154c" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdvc2ookwj6k9j8hbcsww.jpg" id="article-link-3595561">
+          Install and Secure Docker on Ubuntu 26.04 Bare Metal
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(233, 84, 32, 0.10);
+        --tag-prefix: #E95420;
+        --tag-bg-hover: rgba(233, 84, 32, 0.10);
+        --tag-prefix-hover: #E95420;
+      " href="/t/ubuntu"><span class="crayons-tag__prefix">#</span>ubuntu</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/nyra_amsi/install-and-secure-docker-on-ubuntu-2604-bare-metal-154c#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Install and Secure Docker on Ubuntu 26.04 Bare Metal">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aj9v0kd56vltqwc955mljjuhsb79vfck" class="crayons-icon"><title id="aj9v0kd56vltqwc955mljjuhsb79vfck">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3595561" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3595561" data-article-author-id="3858750" aria-label="Save post Install and Secure Docker on Ubuntu 26.04 Bare Metal to reading list" title="Save post Install and Secure Docker on Ubuntu 26.04 Bare Metal to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
