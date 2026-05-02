@@ -2,9 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://juliet.sh/blog</id>
     <title>Juliet</title>
-    <updated>2026-05-02T16:15:30.319Z</updated>
+    <updated>2026-05-02T17:22:13.125Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://juliet.sh/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Argo CD CVE-2026-43824: Read-Only App Access Could Expose Kubernetes Secrets]]></title>
+        <id>https://juliet.sh/blog/we-tested-argocd-cve-2026-43824-serversidediff-secret-exposure</id>
+        <link href="https://juliet.sh/blog/we-tested-argocd-cve-2026-43824-serversidediff-secret-exposure"/>
+        <updated>2026-05-02T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-05-02">May 2, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>8 min read</span>
+                        </div>
+                        <h2>Argo CD CVE-2026-43824: Read-Only App Access Could Expose Kubernetes Secrets</h2>
+                        <p>We reproduced CVE-2026-43824 in isolated Argo CD 3.2 and 3.3 labs. A read-only Argo CD account with applications get could use ServerSideDiff to receive cleartext managed Secret data when IncludeMutationWebhook=true. Fixed releases 3.2.11 and 3.3.9 masked the same path.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">argocd</span>
+                            
+                            <span class="blog-tag">gitops</span>
+                            
+                            <span class="blog-tag">secrets</span>
+                            
+                            <span class="blog-tag">cve-2026-43824</span>
+                            
+                            <span class="blog-tag">rbac</span>
+                            
+                        </div>
+                    </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We Tested Copy Fail in Kubernetes: PSS Restricted and RuntimeDefault Did Not Block AF_ALG]]></title>
         <id>https://juliet.sh/blog/we-tested-copy-fail-in-kubernetes-pss-restricted-runtime-default-af-alg</id>
