@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lab.ctbb.show/writeups/all/</id>
     <title>ctbb_writeups</title>
-    <updated>2026-05-06T07:23:02.445Z</updated>
+    <updated>2026-05-06T09:48:42.931Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://lab.ctbb.show/writeups/all/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Breaking SameSite=Strict in ChromeNEW]]></title>
+        <id>https://lab.ctbb.show/writeups/breaking-samesite-strict-in-chrome</id>
+        <link href="https://lab.ctbb.show/writeups/breaking-samesite-strict-in-chrome"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/writeups/breaking-samesite-strict-in-chrome">Breaking SameSite=Strict in Chrome<span class="new-badge">NEW</span></a>
+                </h3>
+                <div class="article-subtitle">How opening Chrome DevTools on a cross-site POST response can bypass SameSite=Strict cookie protections when a service worker is present.</div>
+                <div class="article-meta">
+                    <span class="article-date">May 6, 2026</span> • <span class="article-author"><span>Mian</span><img src="/assets/images/mian.png" alt="Mian" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">Breaking SameSite=Strict in Chrome Hello Hackers. Me and bug_blitzer found a Chrome bug that lets yo...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="cookies">cookies</span><span class="article-tag" data-tag="csrf">csrf</span><span class="article-tag" data-tag="service-workers">service-workers</span><span class="article-tag" data-tag="chrome">chrome</span><span class="article-tag" data-tag="devtools">devtools</span></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Zero-Click RCE in Figma Desktop: A Race-Conditioned Prototype Pollution Chain That Escapes the Plugin SandboxNEW]]></title>
         <id>https://lab.ctbb.show/research/figma-desktop-zero-click-rce/</id>
