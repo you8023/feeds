@@ -2,9 +2,342 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-06T00:23:10.905Z</updated>
+    <updated>2026-05-06T04:21:32.782Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[5 things healthcare engineering teams get wrong about HIPAA CI/CD]]></title>
+        <id>https://dev.to/stonebridgetechsolutions/5-things-healthcare-engineering-teams-get-wrong-about-hipaa-cicd-5ao</id>
+        <link href="https://dev.to/stonebridgetechsolutions/5-things-healthcare-engineering-teams-get-wrong-about-hipaa-cicd-5ao"/>
+        <updated>2026-05-05T23:26:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/stonebridgetechsolutions/5-things-healthcare-engineering-teams-get-wrong-about-hipaa-cicd-5ao" aria-labelledby="article-link-3617525" class="crayons-story__hidden-navigation-link">5 things healthcare engineering teams get wrong about HIPAA CI/CD</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/stonebridgetechsolutions" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3667756%2F559cdea9-b901-4e78-8f2a-ad5ce3d5ef32.png" alt="stonebridgetechsolutions profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/stonebridgetechsolutions" class="crayons-story__secondary fw-medium m:hidden">
+              Stonebridge Tech Solutions LLC
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3617525" aria-controls="story-author-preview-content-3617525" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Stonebridge Tech Solutions LLC profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Stonebridge Tech Solutions LLC
+                
+              </button>
+              <div id="story-author-preview-content-3617525" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/stonebridgetechsolutions" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3667756%2F559cdea9-b901-4e78-8f2a-ad5ce3d5ef32.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Stonebridge Tech Solutions LLC</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3667756,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Stonebridge Tech Solutions LLC&quot;}" data-fetched="fetched" aria-label="Follow user: Stonebridge Tech Solutions LLC" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3667756"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/stonebridgetechsolutions/5-things-healthcare-engineering-teams-get-wrong-about-hipaa-cicd-5ao" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-05T23:26:00Z" title="">May 5</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778023560"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/stonebridgetechsolutions/5-things-healthcare-engineering-teams-get-wrong-about-hipaa-cicd-5ao" data-preload-image="" id="article-link-3617525">
+          5 things healthcare engineering teams get wrong about HIPAA CI/CD
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/healthcare"><span class="crayons-tag__prefix">#</span>healthcare</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/stonebridgetechsolutions/5-things-healthcare-engineering-teams-get-wrong-about-hipaa-cicd-5ao#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 5 things healthcare engineering teams get wrong about HIPAA CI/CD">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ad3smv0v1jhtnqmb1bqa7w96mzm0btbx" class="crayons-icon"><title id="ad3smv0v1jhtnqmb1bqa7w96mzm0btbx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              1<span class="hidden s:inline">&nbsp;comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            7 min read
+          </small>
+            <button type="button" id="article-save-button-3617525" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3617525" data-article-author-id="3667756" aria-label="Save post 5 things healthcare engineering teams get wrong about HIPAA CI/CD to reading list" title="Save post 5 things healthcare engineering teams get wrong about HIPAA CI/CD to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[38% of MCP servers have no auth -- inside the OWASP MCP Top 10]]></title>
+        <id>https://dev.to/kenimo49/38-of-mcp-servers-have-no-auth-inside-the-owasp-mcp-top-10-hm</id>
+        <link href="https://dev.to/kenimo49/38-of-mcp-servers-have-no-auth-inside-the-owasp-mcp-top-10-hm"/>
+        <updated>2026-05-06T01:43:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/kenimo49/38-of-mcp-servers-have-no-auth-inside-the-owasp-mcp-top-10-hm" aria-labelledby="article-link-3586000" class="crayons-story__hidden-navigation-link">38% of MCP servers have no auth -- inside the OWASP MCP Top 10</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/kenimo49" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3800250%2F275022f6-cba9-47e3-b69e-e8faf7675a0c.jpg" alt="kenimo49 profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/kenimo49" class="crayons-story__secondary fw-medium m:hidden">
+              Ken Imoto
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3586000" aria-controls="story-author-preview-content-3586000" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Ken Imoto profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Ken Imoto
+                
+              </button>
+              <div id="story-author-preview-content-3586000" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/kenimo49" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3800250%2F275022f6-cba9-47e3-b69e-e8faf7675a0c.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Ken Imoto</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3800250,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Ken Imoto&quot;}" data-fetched="fetched" aria-label="Follow user: Ken Imoto" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3800250"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/kenimo49/38-of-mcp-servers-have-no-auth-inside-the-owasp-mcp-top-10-hm" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-06T01:43:00Z" title="">May 6</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778031780"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/kenimo49/38-of-mcp-servers-have-no-auth-inside-the-owasp-mcp-top-10-hm" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fres.cloudinary.com%2Fdzwithwd8%2Fimage%2Fupload%2Fv1777458690%2Fdevto-images%2Fowasp-mcp-cover.png" id="article-link-3586000">
+          38% of MCP servers have no auth -- inside the OWASP MCP Top 10
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/mcp"><span class="crayons-tag__prefix">#</span>mcp</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/devtools"><span class="crayons-tag__prefix">#</span>devtools</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/kenimo49/38-of-mcp-servers-have-no-auth-inside-the-owasp-mcp-top-10-hm#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 38% of MCP servers have no auth -- inside the OWASP MCP Top 10">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ap8i3tebyxspi3365jz1oe456ka4rdm9" class="crayons-icon"><title id="ap8i3tebyxspi3365jz1oe456ka4rdm9">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            6 min read
+          </small>
+            <button type="button" id="article-save-button-3586000" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3586000" data-article-author-id="3800250" aria-label="Save post 38% of MCP servers have no auth -- inside the OWASP MCP Top 10 to reading list" title="Save post 38% of MCP servers have no auth -- inside the OWASP MCP Top 10 to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How I Built a Real-Time DDoS Detection Engine from Scratch]]></title>
+        <id>https://dev.to/hezekiah_umoh/how-i-built-a-real-time-ddos-detection-engine-from-scratch-11ei</id>
+        <link href="https://dev.to/hezekiah_umoh/how-i-built-a-real-time-ddos-detection-engine-from-scratch-11ei"/>
+        <updated>2026-05-05T20:25:39.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/hezekiah_umoh/how-i-built-a-real-time-ddos-detection-engine-from-scratch-11ei" aria-labelledby="article-link-3617139" class="crayons-story__hidden-navigation-link">How I Built a Real-Time DDoS Detection Engine from Scratch</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/hezekiah_umoh" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3875823%2Fbe07e4f3-136f-4324-beff-45cc88fe02d7.jpg" alt="hezekiah_umoh profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/hezekiah_umoh" class="crayons-story__secondary fw-medium m:hidden">
+              Hezekiah Umoh
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3617139" aria-controls="story-author-preview-content-3617139" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Hezekiah Umoh profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Hezekiah Umoh
+                
+              </button>
+              <div id="story-author-preview-content-3617139" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/hezekiah_umoh" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3875823%2Fbe07e4f3-136f-4324-beff-45cc88fe02d7.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Hezekiah Umoh</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3875823,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Hezekiah Umoh&quot;}" data-fetched="fetched" aria-label="Follow user: Hezekiah Umoh" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3875823"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/hezekiah_umoh/how-i-built-a-real-time-ddos-detection-engine-from-scratch-11ei" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-05T20:25:39Z" title="">May 5</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778012739"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/hezekiah_umoh/how-i-built-a-real-time-ddos-detection-engine-from-scratch-11ei" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffjdjsby2adfowdx9dkdo.png" id="article-link-3617139">
+          How I Built a Real-Time DDoS Detection Engine from Scratch
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(30, 56, 187, 0.10);
+        --tag-prefix: #1E38BB;
+        --tag-bg-hover: rgba(30, 56, 187, 0.10);
+        --tag-prefix-hover: #1E38BB;
+      " href="/t/python"><span class="crayons-tag__prefix">#</span>python</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/hezekiah_umoh/how-i-built-a-real-time-ddos-detection-engine-from-scratch-11ei#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How I Built a Real-Time DDoS Detection Engine from Scratch">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a88m68mghh9euktujfmx2m8as9dmgysf" class="crayons-icon"><title id="a88m68mghh9euktujfmx2m8as9dmgysf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            9 min read
+          </small>
+            <button type="button" id="article-save-button-3617139" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3617139" data-article-author-id="3875823" aria-label="Save post How I Built a Real-Time DDoS Detection Engine from Scratch to reading list" title="Save post How I Built a Real-Time DDoS Detection Engine from Scratch to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I Built an AI Honeypot on GCP — Attackers Came in 4 Minutes]]></title>
         <id>https://dev.to/phantomojo/i-built-an-ai-honeypot-on-gcp-attackers-came-in-4-minutes-4j4</id>
@@ -92,7 +425,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/phantomojo/i-built-an-ai-honeypot-on-gcp-attackers-came-in-4-minutes-4j4#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I Built an AI Honeypot on GCP — Attackers Came in 4 Minutes">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afq3ijdkq6ykk3qpvptrnv0s1irfv79v" class="crayons-icon"><title id="afq3ijdkq6ykk3qpvptrnv0s1irfv79v">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afgsjscvbhr4l6yrypaozd2o5h5gpiaj" class="crayons-icon"><title id="afgsjscvbhr4l6yrypaozd2o5h5gpiaj">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -209,7 +542,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/aws-builders/i-ran-aws-security-agents-full-pipeline-on-my-personal-project-design-review-code-review-and-1cp2#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I ran AWS Security Agent's full pipeline on my personal project: Design Review, Code Review, and Pentest">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2hzdj7bdagyt41nw2w7a3wjzosjeqo7" class="crayons-icon"><title id="a2hzdj7bdagyt41nw2w7a3wjzosjeqo7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aq0xe6wfbs3yro1pgvoqnho4bnlrukkz" class="crayons-icon"><title id="aq0xe6wfbs3yro1pgvoqnho4bnlrukkz">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -219,117 +552,6 @@
             10 min read
           </small>
             <button type="button" id="article-save-button-3612381" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3612381" data-article-author-id="3228200" aria-label="Save post I ran AWS Security Agent's full pipeline on my personal project: Design Review, Code Review, and Pentest to reading list" title="Save post I ran AWS Security Agent's full pipeline on my personal project: Design Review, Code Review, and Pentest to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes Network Policies: Lessons from Production Incidents]]></title>
-        <id>https://dev.to/samson_tanimawo/kubernetes-network-policies-lessons-from-production-incidents-2fmh</id>
-        <link href="https://dev.to/samson_tanimawo/kubernetes-network-policies-lessons-from-production-incidents-2fmh"/>
-        <updated>2026-05-05T14:33:42.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/samson_tanimawo/kubernetes-network-policies-lessons-from-production-incidents-2fmh" aria-labelledby="article-link-3615965" class="crayons-story__hidden-navigation-link">Kubernetes Network Policies: Lessons from Production Incidents</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/samson_tanimawo" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3830227%2F02ea1ab7-513f-4426-b63d-9120142bc431.png" alt="samson_tanimawo profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/samson_tanimawo" class="crayons-story__secondary fw-medium m:hidden">
-              Samson Tanimawo
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3615965" aria-controls="story-author-preview-content-3615965" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Samson Tanimawo profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Samson Tanimawo
-                
-              </button>
-              <div id="story-author-preview-content-3615965" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/samson_tanimawo" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3830227%2F02ea1ab7-513f-4426-b63d-9120142bc431.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Samson Tanimawo</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3830227,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Samson Tanimawo&quot;}" data-fetched="fetched" aria-label="Follow user: Samson Tanimawo" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3830227"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/samson_tanimawo/kubernetes-network-policies-lessons-from-production-incidents-2fmh" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-05T14:33:42Z" title="">May 5</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1777991622"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/samson_tanimawo/kubernetes-network-policies-lessons-from-production-incidents-2fmh" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fnovaaiops.com%2Ffooter.png" id="article-link-3615965">
-          Kubernetes Network Policies: Lessons from Production Incidents
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(50, 109, 230, 0.10);
-        --tag-prefix: #326de6;
-        --tag-bg-hover: rgba(50, 109, 230, 0.10);
-        --tag-prefix-hover: #326de6;
-      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(119, 194, 127, 0.10);
-        --tag-prefix: #77c27f;
-        --tag-bg-hover: rgba(119, 194, 127, 0.10);
-        --tag-prefix-hover: #77c27f;
-      " href="/t/networking"><span class="crayons-tag__prefix">#</span>networking</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(60, 149, 89, 0.10);
-        --tag-prefix: #3C9559;
-        --tag-bg-hover: rgba(60, 149, 89, 0.10);
-        --tag-prefix-hover: #3C9559;
-      " href="/t/sre"><span class="crayons-tag__prefix">#</span>sre</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/samson_tanimawo/kubernetes-network-policies-lessons-from-production-incidents-2fmh#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Kubernetes Network Policies: Lessons from Production Incidents">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apjp69kf21jh06yy9x0cjlstgb34wt7z" class="crayons-icon"><title id="apjp69kf21jh06yy9x0cjlstgb34wt7z">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
-          </small>
-            <button type="button" id="article-save-button-3615965" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3615965" data-article-author-id="3830227" aria-label="Save post Kubernetes Network Policies: Lessons from Production Incidents to reading list" title="Save post Kubernetes Network Policies: Lessons from Production Incidents to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
