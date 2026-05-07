@@ -2,120 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-07T20:56:27.054Z</updated>
+    <updated>2026-05-07T22:43:51.050Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
-    <entry>
-        <title type="html"><![CDATA[Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1)]]></title>
-        <id>https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen</id>
-        <link href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen"/>
-        <updated>2026-05-07T18:40:38.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen" aria-labelledby="article-link-3628688" class="crayons-story__hidden-navigation-link">Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1)</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/codehirise" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1156987%2F29d91f5d-fa0a-4f64-abdd-a432eab04340.png" alt="codehirise profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/codehirise" class="crayons-story__secondary fw-medium m:hidden">
-              CodeHiRise
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3628688" aria-controls="story-author-preview-content-3628688" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="CodeHiRise profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                CodeHiRise
-                
-              </button>
-              <div id="story-author-preview-content-3628688" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/codehirise" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1156987%2F29d91f5d-fa0a-4f64-abdd-a432eab04340.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">CodeHiRise</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1156987,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;CodeHiRise&quot;}" data-fetched="fetched" aria-label="Follow user: CodeHiRise" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="1156987"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-07T18:40:38Z" title="">May 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778179238"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4qn1cyyxaa362upsvb7z.png" id="article-link-3628688">
-          Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1)
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(255, 153, 0, 0.10);
-        --tag-prefix: #FF9900;
-        --tag-bg-hover: rgba(255, 153, 0, 0.10);
-        --tag-prefix-hover: #FF9900;
-      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(119, 194, 127, 0.10);
-        --tag-prefix: #77c27f;
-        --tag-bg-hover: rgba(119, 194, 127, 0.10);
-        --tag-prefix-hover: #77c27f;
-      " href="/t/networking"><span class="crayons-tag__prefix">#</span>networking</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aamf3vjd4mcy0503f7g7h2cifmim66o5" class="crayons-icon"><title id="aamf3vjd4mcy0503f7g7h2cifmim66o5">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            7 min read
-          </small>
-            <button type="button" id="article-save-button-3628688" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3628688" data-article-author-id="1156987" aria-label="Save post Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1) to reading list" title="Save post Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1) to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[The Adoption Trap to Avoid]]></title>
         <id>https://dev.to/pgmpofu/the-adoption-trap-to-avoid-2ekd</id>
@@ -203,7 +92,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/pgmpofu/the-adoption-trap-to-avoid-2ekd#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Adoption Trap to Avoid">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ap34hvziv5qey85fpcd3nrz93vofuump" class="crayons-icon"><title id="ap34hvziv5qey85fpcd3nrz93vofuump">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ar2wpw7hj8xuwlply1shfsiwmq4blx0u" class="crayons-icon"><title id="ar2wpw7hj8xuwlply1shfsiwmq4blx0u">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -213,6 +102,117 @@
             1 min read
           </small>
             <button type="button" id="article-save-button-3628691" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3628691" data-article-author-id="3805080" aria-label="Save post The Adoption Trap to Avoid to reading list" title="Save post The Adoption Trap to Avoid to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1)]]></title>
+        <id>https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen</id>
+        <link href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen"/>
+        <updated>2026-05-07T18:40:38.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen" aria-labelledby="article-link-3628688" class="crayons-story__hidden-navigation-link">Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1)</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/codehirise" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1156987%2F29d91f5d-fa0a-4f64-abdd-a432eab04340.png" alt="codehirise profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/codehirise" class="crayons-story__secondary fw-medium m:hidden">
+              CodeHiRise
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3628688" aria-controls="story-author-preview-content-3628688" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="CodeHiRise profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                CodeHiRise
+                
+              </button>
+              <div id="story-author-preview-content-3628688" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/codehirise" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1156987%2F29d91f5d-fa0a-4f64-abdd-a432eab04340.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">CodeHiRise</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1156987,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;CodeHiRise&quot;}" data-fetched="fetched" aria-label="Follow user: CodeHiRise" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="1156987"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-07T18:40:38Z" title="">May 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778179238"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4qn1cyyxaa362upsvb7z.png" id="article-link-3628688">
+          Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1)
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(119, 194, 127, 0.10);
+        --tag-prefix: #77c27f;
+        --tag-bg-hover: rgba(119, 194, 127, 0.10);
+        --tag-prefix-hover: #77c27f;
+      " href="/t/networking"><span class="crayons-tag__prefix">#</span>networking</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aht56k4i6c5ppmzu1tfxtqeelc13wvwe" class="crayons-icon"><title id="aht56k4i6c5ppmzu1tfxtqeelc13wvwe">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            7 min read
+          </small>
+            <button type="button" id="article-save-button-3628688" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3628688" data-article-author-id="1156987" aria-label="Save post Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1) to reading list" title="Save post Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1) to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
