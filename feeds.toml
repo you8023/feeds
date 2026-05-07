@@ -1445,3 +1445,55 @@ titleSelector = ".markdown-card-title"
 linkSelector = ".markdown-card-readmore"
 dateSelector = ".date"
 dateFormat = "yyyy-MM-dd"
+
+[strix]
+title = "Strix Blog"
+url = "https://www.strix.ai/blog"
+entrySelector = "main a.group.block[href^='/blog/']:not([href='/blog'])"
+titleSelector = ":where(h2, h3)"
+linkSelector = "*"
+dateSelector = "> div:last-child > span:last-child"
+dateFormat = "MMM d, yyyy"
+
+[lukasmaar]
+title = "Lukas Maar"
+url = "https://lukasmaar.github.io/index.html"
+entrySelector = "a[href^='posts/']"
+titleSelector = ":scope"
+linkSelector = ":scope"
+
+[silverfort]
+title = "Silverfort Blog"
+url = "https://www.silverfort.com/blog/"
+entrySelector = "div.card-content-wrapper"
+titleSelector = "h3 a"
+linkSelector = "h3 a"
+dateSelector = "time"
+dateFormat = "MMMM d, yyyy"
+
+[abstract_canvas]
+title = "Abstract Canvas"
+url = "https://www.abstract.security/abstract-canvas"
+entrySelector = ".main-wrapper :where(.featured_post_card.card, .blog_thumb_card.card)"
+titleSelector = ":where([data-wf--plain-text--text-size='h3'], h3[fs-list-field='title'])"
+linkSelector = "a.g_clickable_link[href^='/blog/']"
+dateSelector = ".featured_post_card_meta .content-normal-text:last-child"
+dateFormat = "MMMM d, yyyy"
+
+[xint]
+title = "Xint Blog"
+url = "https://xint.io/blog"
+entrySelector = "main a[href^='https://xint.io/blog/']:not([href='https://xint.io/blog']):not([href^='https://xint.io/blog/category/'])"
+titleSelector = "h2"
+linkSelector = ":scope"
+dateSelector = "div.font-light.text-sm.flex"
+dateFormat = "MMM dd, yyyy"
+
+[msecops]
+title = "MSec Operations Blog"
+url = "https://www.msecops.de/blog/"
+entrySelector = "main ul li"
+titleSelector = "a"
+linkSelector = "a"
+dateSelector = "time"
+dateFormat = "yyyy-MM-dd"
