@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-07T19:22:16.095Z</updated>
+    <updated>2026-05-07T20:56:27.054Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
-        <title type="html"><![CDATA[Stop Shipping Vulnerabilities by Default: An Intro to Docker Hardened Images]]></title>
-        <id>https://dev.to/gelopfalcon/stop-shipping-vulnerabilities-by-default-an-intro-to-docker-hardened-images-d0c</id>
-        <link href="https://dev.to/gelopfalcon/stop-shipping-vulnerabilities-by-default-an-intro-to-docker-hardened-images-d0c"/>
-        <updated>2026-05-06T16:51:32.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/gelopfalcon/stop-shipping-vulnerabilities-by-default-an-intro-to-docker-hardened-images-d0c" aria-labelledby="article-link-3622225" class="crayons-story__hidden-navigation-link">Stop Shipping Vulnerabilities by Default: An Intro to Docker Hardened Images</a>
+        <title type="html"><![CDATA[Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1)]]></title>
+        <id>https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen</id>
+        <link href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen"/>
+        <updated>2026-05-07T18:40:38.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen" aria-labelledby="article-link-3628688" class="crayons-story__hidden-navigation-link">Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1)</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
@@ -18,40 +18,40 @@
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
 
-          <a href="/gelopfalcon" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F218103%2Fc0c97afd-19b6-4fc2-9d65-2e4cde617887.jpeg" alt="gelopfalcon profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/codehirise" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1156987%2F29d91f5d-fa0a-4f64-abdd-a432eab04340.png" alt="codehirise profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/gelopfalcon" class="crayons-story__secondary fw-medium m:hidden">
-              Falcon
+            <a href="/codehirise" class="crayons-story__secondary fw-medium m:hidden">
+              CodeHiRise
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3622225" aria-controls="story-author-preview-content-3622225" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Falcon profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Falcon
+              <button id="story-author-preview-trigger-3628688" aria-controls="story-author-preview-content-3628688" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="CodeHiRise profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                CodeHiRise
                 
               </button>
-              <div id="story-author-preview-content-3622225" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-3628688" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/gelopfalcon" class="flex">
+                    <a href="/codehirise" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F218103%2Fc0c97afd-19b6-4fc2-9d65-2e4cde617887.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1156987%2F29d91f5d-fa0a-4f64-abdd-a432eab04340.png" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Falcon</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">CodeHiRise</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:218103,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Falcon&quot;}" data-fetched="fetched" aria-label="Follow user: Falcon" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1156987,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;CodeHiRise&quot;}" data-fetched="fetched" aria-label="Follow user: CodeHiRise" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="218103"></div>
+                  <div class="author-preview-metadata-container" data-author-id="1156987"></div>
                 </div>
               </div>
             </div>
 
           </div>
-          <a href="https://dev.to/gelopfalcon/stop-shipping-vulnerabilities-by-default-an-intro-to-docker-hardened-images-d0c" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-06T16:51:32Z" title="">May 6</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778086292"></span></a>
+          <a href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-07T18:40:38Z" title="">May 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778179238"></span></a>
         </div>
       </div>
 
@@ -59,8 +59,8 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/gelopfalcon/stop-shipping-vulnerabilities-by-default-an-intro-to-docker-hardened-images-d0c" data-preload-image="" id="article-link-3622225">
-          Stop Shipping Vulnerabilities by Default: An Intro to Docker Hardened Images
+        <a href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4qn1cyyxaa362upsvb7z.png" id="article-link-3628688">
+          Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1)
         </a>
       </h2>
         <div class="crayons-story__tags">
@@ -70,133 +70,6 @@
         --tag-bg-hover: rgba(6, 181, 0, 0.10);
         --tag-prefix-hover: #06B500;
       " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(29, 99, 237, 0.10);
-        --tag-prefix: #1D63ED;
-        --tag-bg-hover: rgba(29, 99, 237, 0.10);
-        --tag-prefix-hover: #1D63ED;
-      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(254, 255, 165, 0.10);
-        --tag-prefix: #FEFFA5;
-        --tag-bg-hover: rgba(254, 255, 165, 0.10);
-        --tag-prefix-hover: #FEFFA5;
-      " href="/t/tutorial"><span class="crayons-tag__prefix">#</span>tutorial</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/gelopfalcon/stop-shipping-vulnerabilities-by-default-an-intro-to-docker-hardened-images-d0c" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3622225" aria-label="Add a comment to post - Stop Shipping Vulnerabilities by Default: An Intro to Docker Hardened Images">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">2<span class="hidden s:inline">&nbsp;reactions</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/gelopfalcon/stop-shipping-vulnerabilities-by-default-an-intro-to-docker-hardened-images-d0c#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Stop Shipping Vulnerabilities by Default: An Intro to Docker Hardened Images">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4z9d01sv9ns4xys0aohi6z553or58ti" class="crayons-icon"><title id="a4z9d01sv9ns4xys0aohi6z553or58ti">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
-          </small>
-            <button type="button" id="article-save-button-3622225" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3622225" data-article-author-id="218103" aria-label="Save post Stop Shipping Vulnerabilities by Default: An Intro to Docker Hardened Images to reading list" title="Save post Stop Shipping Vulnerabilities by Default: An Intro to Docker Hardened Images to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The dog that didn't bark: finding security holes in what's missing, not what's misconfigured]]></title>
-        <id>https://dev.to/bala_paranj_059d338e44e7e/the-dog-that-didnt-bark-finding-security-holes-in-whats-missing-not-whats-misconfigured-3d03</id>
-        <link href="https://dev.to/bala_paranj_059d338e44e7e/the-dog-that-didnt-bark-finding-security-holes-in-whats-missing-not-whats-misconfigured-3d03"/>
-        <updated>2026-05-07T11:30:32.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/the-dog-that-didnt-bark-finding-security-holes-in-whats-missing-not-whats-misconfigured-3d03" aria-labelledby="article-link-3626738" class="crayons-story__hidden-navigation-link">The dog that didn't bark: finding security holes in what's missing, not what's misconfigured</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
-              Bala Paranj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3626738" aria-controls="story-author-preview-content-3626738" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Bala Paranj
-                
-              </button>
-              <div id="story-author-preview-content-3626738" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bala_paranj_059d338e44e7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/the-dog-that-didnt-bark-finding-security-holes-in-whats-missing-not-whats-misconfigured-3d03" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-07T11:30:32Z" title="">May 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778153432"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bala_paranj_059d338e44e7e/the-dog-that-didnt-bark-finding-security-holes-in-whats-missing-not-whats-misconfigured-3d03" data-preload-image="" id="article-link-3626738">
-          The dog that didn't bark: finding security holes in what's missing, not what's misconfigured
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(255, 153, 0, 0.10);
         --tag-prefix: #FF9900;
@@ -204,16 +77,22 @@
         --tag-prefix-hover: #FF9900;
       " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(119, 194, 127, 0.10);
+        --tag-prefix: #77c27f;
+        --tag-bg-hover: rgba(119, 194, 127, 0.10);
+        --tag-prefix-hover: #77c27f;
+      " href="/t/networking"><span class="crayons-tag__prefix">#</span>networking</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-            <a href="https://dev.to/bala_paranj_059d338e44e7e/the-dog-that-didnt-bark-finding-security-holes-in-whats-missing-not-whats-misconfigured-3d03#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The dog that didn't bark: finding security holes in what's missing, not what's misconfigured">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ambkck0udiqb8d4aik10dlcletaojued" class="crayons-icon"><title id="ambkck0udiqb8d4aik10dlcletaojued">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/codehirise/going-production-on-cloud-infrastructure-best-practices-every-engineer-should-know-part-1-4fen#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aamf3vjd4mcy0503f7g7h2cifmim66o5" class="crayons-icon"><title id="aamf3vjd4mcy0503f7g7h2cifmim66o5">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -222,7 +101,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             7 min read
           </small>
-            <button type="button" id="article-save-button-3626738" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3626738" data-article-author-id="3862804" aria-label="Save post The dog that didn't bark: finding security holes in what's missing, not what's misconfigured to reading list" title="Save post The dog that didn't bark: finding security holes in what's missing, not what's misconfigured to reading list">
+            <button type="button" id="article-save-button-3628688" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3628688" data-article-author-id="1156987" aria-label="Save post Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1) to reading list" title="Save post Going Production on Cloud: Infrastructure Best Practices Every Engineer Should Know (Part 1) to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -238,11 +117,11 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[My .NET Docker image was 900MB - here's how I fixed it (and what I got wrong with JWT)]]></title>
-        <id>https://dev.to/huuanh20/my-net-docker-image-was-900mb-heres-how-i-fixed-it-and-what-i-got-wrong-with-jwt-47l3</id>
-        <link href="https://dev.to/huuanh20/my-net-docker-image-was-900mb-heres-how-i-fixed-it-and-what-i-got-wrong-with-jwt-47l3"/>
-        <updated>2026-05-07T08:34:12.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/huuanh20/my-net-docker-image-was-900mb-heres-how-i-fixed-it-and-what-i-got-wrong-with-jwt-47l3" aria-labelledby="article-link-3625584" class="crayons-story__hidden-navigation-link">My .NET Docker image was 900MB - here's how I fixed it (and what I got wrong with JWT)</a>
+        <title type="html"><![CDATA[The Adoption Trap to Avoid]]></title>
+        <id>https://dev.to/pgmpofu/the-adoption-trap-to-avoid-2ekd</id>
+        <link href="https://dev.to/pgmpofu/the-adoption-trap-to-avoid-2ekd"/>
+        <updated>2026-05-07T18:41:12.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/pgmpofu/the-adoption-trap-to-avoid-2ekd" aria-labelledby="article-link-3628691" class="crayons-story__hidden-navigation-link">The Adoption Trap to Avoid</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
@@ -250,40 +129,40 @@
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
 
-          <a href="/huuanh20" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3917476%2F0eeaa094-8ad7-43fa-97ff-04c42575c3ea.png" alt="huuanh20 profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/pgmpofu" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3805080%2F73f107c0-c84d-4ef3-aa44-8c4d2dc40b03.jpeg" alt="pgmpofu profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/huuanh20" class="crayons-story__secondary fw-medium m:hidden">
-              James Nguyen
+            <a href="/pgmpofu" class="crayons-story__secondary fw-medium m:hidden">
+              Patience Mpofu
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3625584" aria-controls="story-author-preview-content-3625584" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="James Nguyen profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                James Nguyen
+              <button id="story-author-preview-trigger-3628691" aria-controls="story-author-preview-content-3628691" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Patience Mpofu profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Patience Mpofu
                 
               </button>
-              <div id="story-author-preview-content-3625584" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-3628691" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/huuanh20" class="flex">
+                    <a href="/pgmpofu" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3917476%2F0eeaa094-8ad7-43fa-97ff-04c42575c3ea.png" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3805080%2F73f107c0-c84d-4ef3-aa44-8c4d2dc40b03.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">James Nguyen</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Patience Mpofu</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3917476,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;James Nguyen&quot;}" data-fetched="fetched" aria-label="Follow user: James Nguyen" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3805080,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Patience Mpofu&quot;}" data-fetched="fetched" aria-label="Follow user: Patience Mpofu" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="3917476"></div>
+                  <div class="author-preview-metadata-container" data-author-id="3805080"></div>
                 </div>
               </div>
             </div>
 
           </div>
-          <a href="https://dev.to/huuanh20/my-net-docker-image-was-900mb-heres-how-i-fixed-it-and-what-i-got-wrong-with-jwt-47l3" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-07T08:34:12Z" title="">May 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778142852"></span></a>
+          <a href="https://dev.to/pgmpofu/the-adoption-trap-to-avoid-2ekd" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-07T18:41:12Z" title="">May 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778179272"></span></a>
         </div>
       </div>
 
@@ -291,128 +170,17 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/huuanh20/my-net-docker-image-was-900mb-heres-how-i-fixed-it-and-what-i-got-wrong-with-jwt-47l3" data-preload-image="" id="article-link-3625584">
-          My .NET Docker image was 900MB - here's how I fixed it (and what I got wrong with JWT)
+        <a href="https://dev.to/pgmpofu/the-adoption-trap-to-avoid-2ekd" data-preload-image="" id="article-link-3628691">
+          The Adoption Trap to Avoid
         </a>
       </h2>
         <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(81, 42, 213, 0.10);
-        --tag-prefix: #512ad5;
-        --tag-bg-hover: rgba(81, 42, 213, 0.10);
-        --tag-prefix-hover: #512ad5;
-      " href="/t/dotnet"><span class="crayons-tag__prefix">#</span>dotnet</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(29, 99, 237, 0.10);
-        --tag-prefix: #1D63ED;
-        --tag-bg-hover: rgba(29, 99, 237, 0.10);
-        --tag-prefix-hover: #1D63ED;
-      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(27, 172, 128, 0.10);
         --tag-prefix: #1bac80;
         --tag-bg-hover: rgba(27, 172, 128, 0.10);
         --tag-prefix-hover: #1bac80;
       " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 131, 53, 0.10);
-        --tag-prefix: #008335;
-        --tag-bg-hover: rgba(0, 131, 53, 0.10);
-        --tag-prefix-hover: #008335;
-      " href="/t/beginners"><span class="crayons-tag__prefix">#</span>beginners</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/huuanh20/my-net-docker-image-was-900mb-heres-how-i-fixed-it-and-what-i-got-wrong-with-jwt-47l3#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - My .NET Docker image was 900MB - here's how I fixed it (and what I got wrong with JWT)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="azwuq70fuwebq0a6jxx0qbeds2lsrrd" class="crayons-icon"><title id="azwuq70fuwebq0a6jxx0qbeds2lsrrd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              2<span class="hidden s:inline">&nbsp;comments</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3625584" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3625584" data-article-author-id="3917476" aria-label="Save post My .NET Docker image was 900MB - here's how I fixed it (and what I got wrong with JWT) to reading list" title="Save post My .NET Docker image was 900MB - here's how I fixed it (and what I got wrong with JWT) to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Docker hardening : durcir un conteneur en profondeur, du Dockerfile au daemon]]></title>
-        <id>https://dev.to/hadimouter/docker-hardening-durcir-un-conteneur-en-profondeur-du-dockerfile-au-daemon-3blm</id>
-        <link href="https://dev.to/hadimouter/docker-hardening-durcir-un-conteneur-en-profondeur-du-dockerfile-au-daemon-3blm"/>
-        <updated>2026-05-07T07:07:17.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/hadimouter/docker-hardening-durcir-un-conteneur-en-profondeur-du-dockerfile-au-daemon-3blm" aria-labelledby="article-link-3616452" class="crayons-story__hidden-navigation-link">Docker hardening : durcir un conteneur en profondeur, du Dockerfile au daemon</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/hadimouter" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3914403%2F5ad5f07e-ca6e-4c4b-8510-d1cce91b9b08.jpeg" alt="hadimouter profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/hadimouter" class="crayons-story__secondary fw-medium m:hidden">
-              Hadi Mouter
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3616452" aria-controls="story-author-preview-content-3616452" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Hadi Mouter profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Hadi Mouter
-                
-              </button>
-              <div id="story-author-preview-content-3616452" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/hadimouter" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3914403%2F5ad5f07e-ca6e-4c4b-8510-d1cce91b9b08.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Hadi Mouter</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3914403,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Hadi Mouter&quot;}" data-fetched="fetched" aria-label="Follow user: Hadi Mouter" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3914403"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/hadimouter/docker-hardening-durcir-un-conteneur-en-profondeur-du-dockerfile-au-daemon-3blm" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-07T07:07:17Z" title="">May 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778137637"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/hadimouter/docker-hardening-durcir-un-conteneur-en-profondeur-du-dockerfile-au-daemon-3blm" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5l1enx56gvbzbkdcwydm.png" id="article-link-3616452">
-          Docker hardening : durcir un conteneur en profondeur, du Dockerfile au daemon
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(227, 255, 0, 0.10);
-        --tag-prefix: #e3ff00;
-        --tag-bg-hover: rgba(227, 255, 0, 0.10);
-        --tag-prefix-hover: #e3ff00;
-      " href="/t/cybersecurity"><span class="crayons-tag__prefix">#</span>cybersecurity</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(6, 181, 0, 0.10);
         --tag-prefix: #06B500;
@@ -420,404 +188,31 @@
         --tag-prefix-hover: #06B500;
       " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(29, 99, 237, 0.10);
-        --tag-prefix: #1D63ED;
-        --tag-bg-hover: rgba(29, 99, 237, 0.10);
-        --tag-prefix-hover: #1D63ED;
-      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/hadimouter/docker-hardening-durcir-un-conteneur-en-profondeur-du-dockerfile-au-daemon-3blm" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3616452" aria-label="Add a comment to post - Docker hardening : durcir un conteneur en profondeur, du Dockerfile au daemon">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/hadimouter/docker-hardening-durcir-un-conteneur-en-profondeur-du-dockerfile-au-daemon-3blm#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Docker hardening : durcir un conteneur en profondeur, du Dockerfile au daemon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4wj9oa4vl8rng7i9611ot29j97pwebm" class="crayons-icon"><title id="a4wj9oa4vl8rng7i9611ot29j97pwebm">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            17 min read
-          </small>
-            <button type="button" id="article-save-button-3616452" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3616452" data-article-author-id="3914403" aria-label="Save post Docker hardening : durcir un conteneur en profondeur, du Dockerfile au daemon to reading list" title="Save post Docker hardening : durcir un conteneur en profondeur, du Dockerfile au daemon to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Fixed Container Image Versions Matter: Lessons from the Trivy Supply Chain Attack]]></title>
-        <id>https://dev.to/nkuziev-sec/why-fixed-container-image-versions-matter-lessons-from-the-trivy-supply-chain-attack-29ke</id>
-        <link href="https://dev.to/nkuziev-sec/why-fixed-container-image-versions-matter-lessons-from-the-trivy-supply-chain-attack-29ke"/>
-        <updated>2026-05-07T05:39:20.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/nkuziev-sec/why-fixed-container-image-versions-matter-lessons-from-the-trivy-supply-chain-attack-29ke" aria-labelledby="article-link-3624504" class="crayons-story__hidden-navigation-link">Why Fixed Container Image Versions Matter: Lessons from the Trivy Supply Chain Attack</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/nkuziev-sec" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3917012%2F88d37d37-869a-40bc-b391-c2a104a830f0.png" alt="nkuziev-sec profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/nkuziev-sec" class="crayons-story__secondary fw-medium m:hidden">
-              Nikolay Kuziev
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3624504" aria-controls="story-author-preview-content-3624504" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Nikolay Kuziev profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Nikolay Kuziev
-                
-              </button>
-              <div id="story-author-preview-content-3624504" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/nkuziev-sec" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3917012%2F88d37d37-869a-40bc-b391-c2a104a830f0.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Nikolay Kuziev</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3917012,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Nikolay Kuziev&quot;}" data-fetched="fetched" aria-label="Follow user: Nikolay Kuziev" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3917012"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/nkuziev-sec/why-fixed-container-image-versions-matter-lessons-from-the-trivy-supply-chain-attack-29ke" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-07T05:39:20Z" title="">May 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778132360"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/nkuziev-sec/why-fixed-container-image-versions-matter-lessons-from-the-trivy-supply-chain-attack-29ke" data-preload-image="" id="article-link-3624504">
-          Why Fixed Container Image Versions Matter: Lessons from the Trivy Supply Chain Attack
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(64, 78, 211, 0.10);
         --tag-prefix: #404ED3;
         --tag-bg-hover: rgba(64, 78, 211, 0.10);
         --tag-prefix-hover: #404ED3;
       " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(29, 99, 237, 0.10);
-        --tag-prefix: #1D63ED;
-        --tag-bg-hover: rgba(29, 99, 237, 0.10);
-        --tag-prefix-hover: #1D63ED;
-      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/vulnerabilities"><span class="crayons-tag__prefix">#</span>vulnerabilities</a>
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/github"><span class="crayons-tag__prefix">#</span>github</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-          <a href="https://dev.to/nkuziev-sec/why-fixed-container-image-versions-matter-lessons-from-the-trivy-supply-chain-attack-29ke" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3624504" aria-label="Add a comment to post - Why Fixed Container Image Versions Matter: Lessons from the Trivy Supply Chain Attack">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/nkuziev-sec/why-fixed-container-image-versions-matter-lessons-from-the-trivy-supply-chain-attack-29ke#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Why Fixed Container Image Versions Matter: Lessons from the Trivy Supply Chain Attack">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ap63mhfgq1pdg4kfb79hxkv206psee3h" class="crayons-icon"><title id="ap63mhfgq1pdg4kfb79hxkv206psee3h">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/pgmpofu/the-adoption-trap-to-avoid-2ekd#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Adoption Trap to Avoid">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ap34hvziv5qey85fpcd3nrz93vofuump" class="crayons-icon"><title id="ap34hvziv5qey85fpcd3nrz93vofuump">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            15 min read
+            1 min read
           </small>
-            <button type="button" id="article-save-button-3624504" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3624504" data-article-author-id="3917012" aria-label="Save post Why Fixed Container Image Versions Matter: Lessons from the Trivy Supply Chain Attack to reading list" title="Save post Why Fixed Container Image Versions Matter: Lessons from the Trivy Supply Chain Attack to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stop Copy-Pasting Security YAML: A Gradle Build Layer for Java AppSec]]></title>
-        <id>https://dev.to/nkuziev-sec/stop-copy-pasting-security-yaml-a-gradle-build-layer-for-java-appsec-5ec7</id>
-        <link href="https://dev.to/nkuziev-sec/stop-copy-pasting-security-yaml-a-gradle-build-layer-for-java-appsec-5ec7"/>
-        <updated>2026-05-07T04:12:22.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/nkuziev-sec/stop-copy-pasting-security-yaml-a-gradle-build-layer-for-java-appsec-5ec7" aria-labelledby="article-link-3624169" class="crayons-story__hidden-navigation-link">Stop Copy-Pasting Security YAML: A Gradle Build Layer for Java AppSec</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/nkuziev-sec" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3917012%2F88d37d37-869a-40bc-b391-c2a104a830f0.png" alt="nkuziev-sec profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/nkuziev-sec" class="crayons-story__secondary fw-medium m:hidden">
-              Nikolay Kuziev
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3624169" aria-controls="story-author-preview-content-3624169" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Nikolay Kuziev profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Nikolay Kuziev
-                
-              </button>
-              <div id="story-author-preview-content-3624169" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/nkuziev-sec" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3917012%2F88d37d37-869a-40bc-b391-c2a104a830f0.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Nikolay Kuziev</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3917012,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Nikolay Kuziev&quot;}" data-fetched="fetched" aria-label="Follow user: Nikolay Kuziev" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3917012"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/nkuziev-sec/stop-copy-pasting-security-yaml-a-gradle-build-layer-for-java-appsec-5ec7" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-07T04:12:22Z" title="">May 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778127142"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/nkuziev-sec/stop-copy-pasting-security-yaml-a-gradle-build-layer-for-java-appsec-5ec7" data-preload-image="" id="article-link-3624169">
-          Stop Copy-Pasting Security YAML: A Gradle Build Layer for Java AppSec
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(126, 72, 16, 0.10);
-        --tag-prefix: #7e4810;
-        --tag-bg-hover: rgba(126, 72, 16, 0.10);
-        --tag-prefix-hover: #7e4810;
-      " href="/t/java"><span class="crayons-tag__prefix">#</span>java</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/gradle"><span class="crayons-tag__prefix">#</span>gradle</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/nkuziev-sec/stop-copy-pasting-security-yaml-a-gradle-build-layer-for-java-appsec-5ec7" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3624169" aria-label="Add a comment to post - Stop Copy-Pasting Security YAML: A Gradle Build Layer for Java AppSec">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/nkuziev-sec/stop-copy-pasting-security-yaml-a-gradle-build-layer-for-java-appsec-5ec7#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Stop Copy-Pasting Security YAML: A Gradle Build Layer for Java AppSec">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apd8plcl737t3vqtm7r0iyycpy7sj1en" class="crayons-icon"><title id="apd8plcl737t3vqtm7r0iyycpy7sj1en">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            9 min read
-          </small>
-            <button type="button" id="article-save-button-3624169" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3624169" data-article-author-id="3917012" aria-label="Save post Stop Copy-Pasting Security YAML: A Gradle Build Layer for Java AppSec to reading list" title="Save post Stop Copy-Pasting Security YAML: A Gradle Build Layer for Java AppSec to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making Maven Builds Security-Aware: AppSec Checks Without CI/CD Drift]]></title>
-        <id>https://dev.to/nkuziev-sec/making-maven-builds-security-aware-appsec-checks-without-cicd-drift-2n1m</id>
-        <link href="https://dev.to/nkuziev-sec/making-maven-builds-security-aware-appsec-checks-without-cicd-drift-2n1m"/>
-        <updated>2026-05-07T04:13:38.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/nkuziev-sec/making-maven-builds-security-aware-appsec-checks-without-cicd-drift-2n1m" aria-labelledby="article-link-3624171" class="crayons-story__hidden-navigation-link">Making Maven Builds Security-Aware: AppSec Checks Without CI/CD Drift</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/nkuziev-sec" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3917012%2F88d37d37-869a-40bc-b391-c2a104a830f0.png" alt="nkuziev-sec profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/nkuziev-sec" class="crayons-story__secondary fw-medium m:hidden">
-              Nikolay Kuziev
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3624171" aria-controls="story-author-preview-content-3624171" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Nikolay Kuziev profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Nikolay Kuziev
-                
-              </button>
-              <div id="story-author-preview-content-3624171" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/nkuziev-sec" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3917012%2F88d37d37-869a-40bc-b391-c2a104a830f0.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Nikolay Kuziev</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3917012,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Nikolay Kuziev&quot;}" data-fetched="fetched" aria-label="Follow user: Nikolay Kuziev" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3917012"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/nkuziev-sec/making-maven-builds-security-aware-appsec-checks-without-cicd-drift-2n1m" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-07T04:13:38Z" title="">May 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778127218"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/nkuziev-sec/making-maven-builds-security-aware-appsec-checks-without-cicd-drift-2n1m" data-preload-image="" id="article-link-3624171">
-          Making Maven Builds Security-Aware: AppSec Checks Without CI/CD Drift
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(126, 72, 16, 0.10);
-        --tag-prefix: #7e4810;
-        --tag-bg-hover: rgba(126, 72, 16, 0.10);
-        --tag-prefix-hover: #7e4810;
-      " href="/t/java"><span class="crayons-tag__prefix">#</span>java</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/mvn"><span class="crayons-tag__prefix">#</span>mvn</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/nkuziev-sec/making-maven-builds-security-aware-appsec-checks-without-cicd-drift-2n1m" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3624171" aria-label="Add a comment to post - Making Maven Builds Security-Aware: AppSec Checks Without CI/CD Drift">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/nkuziev-sec/making-maven-builds-security-aware-appsec-checks-without-cicd-drift-2n1m#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Making Maven Builds Security-Aware: AppSec Checks Without CI/CD Drift">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a21o608few5adff0ae7wxs0xxogiq176" class="crayons-icon"><title id="a21o608few5adff0ae7wxs0xxogiq176">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            9 min read
-          </small>
-            <button type="button" id="article-save-button-3624171" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3624171" data-article-author-id="3917012" aria-label="Save post Making Maven Builds Security-Aware: AppSec Checks Without CI/CD Drift to reading list" title="Save post Making Maven Builds Security-Aware: AppSec Checks Without CI/CD Drift to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3628691" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3628691" data-article-author-id="3805080" aria-label="Save post The Adoption Trap to Avoid to reading list" title="Save post The Adoption Trap to Avoid to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
