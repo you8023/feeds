@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-08T18:00:40.423Z</updated>
+    <updated>2026-05-08T20:01:06.368Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes RBAC: controlando quem pode fazer o quê dentro do cluster 🔐☸️]]></title>
+        <id>https://dev.to/deividferraz/kubernetes-rbac-controlando-quem-pode-fazer-o-que-dentro-do-cluster-hml</id>
+        <link href="https://dev.to/deividferraz/kubernetes-rbac-controlando-quem-pode-fazer-o-que-dentro-do-cluster-hml"/>
+        <updated>2026-05-08T17:44:41.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/deividferraz/kubernetes-rbac-controlando-quem-pode-fazer-o-que-dentro-do-cluster-hml" aria-labelledby="article-link-3635214" class="crayons-story__hidden-navigation-link">Kubernetes RBAC: controlando quem pode fazer o quê dentro do cluster 🔐☸️</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/deividferraz" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3443356%2F08429b32-7087-4e4f-a2a3-1fceb2ae4f5d.jpeg" alt="deividferraz profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/deividferraz" class="crayons-story__secondary fw-medium m:hidden">
+              DeividFerraz
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3635214" aria-controls="story-author-preview-content-3635214" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="DeividFerraz profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                DeividFerraz
+                
+              </button>
+              <div id="story-author-preview-content-3635214" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/deividferraz" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3443356%2F08429b32-7087-4e4f-a2a3-1fceb2ae4f5d.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">DeividFerraz</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3443356,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;DeividFerraz&quot;}" data-fetched="fetched" aria-label="Follow user: DeividFerraz" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3443356"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/deividferraz/kubernetes-rbac-controlando-quem-pode-fazer-o-que-dentro-do-cluster-hml" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-08T17:44:41Z" title="">May 8</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778262281"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/deividferraz/kubernetes-rbac-controlando-quem-pode-fazer-o-que-dentro-do-cluster-hml" data-preload-image="" id="article-link-3635214">
+          Kubernetes RBAC: controlando quem pode fazer o quê dentro do cluster 🔐☸️
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 131, 53, 0.10);
+        --tag-prefix: #008335;
+        --tag-bg-hover: rgba(0, 131, 53, 0.10);
+        --tag-prefix-hover: #008335;
+      " href="/t/beginners"><span class="crayons-tag__prefix">#</span>beginners</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/deividferraz/kubernetes-rbac-controlando-quem-pode-fazer-o-que-dentro-do-cluster-hml#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Kubernetes RBAC: controlando quem pode fazer o quê dentro do cluster 🔐☸️">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ab655rh9dn46fcdl51b6fbvix21o3yo4" class="crayons-icon"><title id="ab655rh9dn46fcdl51b6fbvix21o3yo4">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            7 min read
+          </small>
+            <button type="button" id="article-save-button-3635214" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3635214" data-article-author-id="3443356" aria-label="Save post Kubernetes RBAC: controlando quem pode fazer o quê dentro do cluster 🔐☸️ to reading list" title="Save post Kubernetes RBAC: controlando quem pode fazer o quê dentro do cluster 🔐☸️ to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Kubernetes NetworkPolicy: controlando quem fala com quem dentro do cluster 🔐☸️]]></title>
         <id>https://dev.to/deividferraz/kubernetes-networkpolicy-controlando-quem-fala-com-quem-dentro-do-cluster-2l1a</id>
@@ -92,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/deividferraz/kubernetes-networkpolicy-controlando-quem-fala-com-quem-dentro-do-cluster-2l1a#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Kubernetes NetworkPolicy: controlando quem fala com quem dentro do cluster 🔐☸️">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7r9i8vzz099benbygsih80wmtt360mf" class="crayons-icon"><title id="a7r9i8vzz099benbygsih80wmtt360mf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1pcgaj07rlvlzaccf7nujis0ju70nbt" class="crayons-icon"><title id="a1pcgaj07rlvlzaccf7nujis0ju70nbt">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
