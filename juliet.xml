@@ -2,9 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://juliet.sh/blog</id>
     <title>Juliet</title>
-    <updated>2026-05-08T00:21:44.549Z</updated>
+    <updated>2026-05-08T04:07:03.293Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://juliet.sh/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[We Tested Dirty Frag in Kubernetes: EKS and GKE Were Exploitable When Seccomp Was Unset]]></title>
+        <id>https://juliet.sh/blog/we-tested-dirty-frag-in-kubernetes-eks-gke-talos-seccomp</id>
+        <link href="https://juliet.sh/blog/we-tested-dirty-frag-in-kubernetes-eks-gke-talos-seccomp"/>
+        <updated>2026-05-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-05-08">May 8, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>15 min read</span>
+                        </div>
+                        <h2>We Tested Dirty Frag in Kubernetes: EKS and GKE Were Exploitable When Seccomp Was Unset</h2>
+                        <p>We tested Dirty Frag on EKS, GKE, Talos, and kind. EKS and GKE reached container root when seccomp was unset or Unconfined; RuntimeDefault blocked the tested xfrm chain; PSS Restricted blocked the full PoC on GKE and blocked tested prerequisites on EKS and Talos; and Talos blocked Unconfined because user namespaces were disabled.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">linux-kernel</span>
+                            
+                            <span class="blog-tag">seccomp</span>
+                            
+                            <span class="blog-tag">runtime-security</span>
+                            
+                            <span class="blog-tag">dirty-frag</span>
+                            
+                            <span class="blog-tag">pod-security-standards</span>
+                            
+                            <span class="blog-tag">gke</span>
+                            
+                            <span class="blog-tag">eks</span>
+                            
+                            <span class="blog-tag">talos</span>
+                            
+                        </div>
+                    </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Argo CD CVE-2026-43824: Read-Only App Access Could Expose Kubernetes Secrets]]></title>
         <id>https://juliet.sh/blog/we-tested-argocd-cve-2026-43824-serversidediff-secret-exposure</id>
