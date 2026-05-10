@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://back.engineering/blog/</id>
     <title>Back Engineering</title>
-    <updated>2026-05-10T09:21:28.607Z</updated>
+    <updated>2026-05-10T10:53:32.036Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://back.engineering/images/favicon_hu_57c0f097a32a52cb.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Static Devirtualization of Themida]]></title>
+        <id>https://back.engineering/blog/09/05/2026/</id>
+        <link href="https://back.engineering/blog/09/05/2026/"/>
+        <updated>2026-05-10T10:51:10.741Z</updated>
+        <content type="html"><![CDATA[<div class="bg-body dark:bg-darkmode-body"><h4 class="mb-3"><a href="/blog/09/05/2026/">Static Devirtualization of Themida</a></h4><ul class="mb-4"><li class="mr-4 inline-block"><i class="fa-regular fa-circle-user mr-2"></i>
+<a href="/authors/idontcode/" class="ms-1">IDontCode,</a>&nbsp;
+<a href="/authors/naci/" class="ms-1">naci</a></li><li class="mr-4 inline-block"><i class="fa-regular fa-folder mr-1"></i>
+<a href="/categories/windows/" class="ms-1">Windows</a></li></ul><p class="mb-6">This article demonstrates devirtualization of CodeVirtualizer/Themida protected code, however the techniques described here apply to pretty much every virtual machine based obfuscator. Only requiring some minor modifications to support each of them.</p><a class="btn btn-outline-primary btn-sm" href="/blog/09/05/2026/">Read More</a></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Deobfuscation and Analysis of Ring-1.io]]></title>
         <id>https://back.engineering/blog/04/02/2026/</id>
@@ -88,14 +98,5 @@
         <content type="html"><![CDATA[<div class="bg-body dark:bg-darkmode-body"><h4 class="mb-3"><a href="/blog/21/06/2021/">VMProtect 2 - Part Two, Complete Static Analysis</a></h4><ul class="mb-4"><li class="mr-4 inline-block"><i class="fa-regular fa-circle-user mr-2"></i>
 <a href="/authors/idontcode/" class="ms-1">IDontCode</a></li><li class="mr-4 inline-block"><i class="fa-regular fa-folder mr-1"></i>
 <a href="/categories/windows/" class="ms-1">Windows</a></li></ul><p class="mb-6">The purpose of this article is to expound upon the prior work disclosed in the last article titled, VMProtect 2 - Detailed Analysis of the Virtual Machine Architecture, as well as correct a few mistakes. In addition, this post will focus primarily on the creation of static analysis tools using the knowledge disclosed in the prior post...</p><a class="btn btn-outline-primary btn-sm" href="/blog/21/06/2021/">Read More</a></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VMProtect 2 - Detailed Analysis of the Virtual Machine Architecture]]></title>
-        <id>https://back.engineering/blog/17/05/2021/</id>
-        <link href="https://back.engineering/blog/17/05/2021/"/>
-        <updated>2026-04-12T00:03:53.993Z</updated>
-        <content type="html"><![CDATA[<div class="bg-body dark:bg-darkmode-body"><h4 class="mb-3"><a href="/blog/17/05/2021/">VMProtect 2 - Detailed Analysis of the Virtual Machine Architecture</a></h4><ul class="mb-4"><li class="mr-4 inline-block"><i class="fa-regular fa-circle-user mr-2"></i>
-<a href="/authors/idontcode/" class="ms-1">IDontCode</a></li><li class="mr-4 inline-block"><i class="fa-regular fa-folder mr-1"></i>
-<a href="/categories/windows/" class="ms-1">Windows</a></li></ul><p class="mb-6">VMProtect 2 is a virtual machine based x86 obfuscator which converts x86 instructions to a RISC, stack machine, instruction set. Each protected binary has a unique set of encrypted virtual machine instructions with unique obfuscation. This project aims to disclose very significant signatures which are in every single VMProtect 2 binary with the intent to aid in further research...</p><a class="btn btn-outline-primary btn-sm" href="/blog/17/05/2021/">Read More</a></div>]]></content>
     </entry>
 </feed>
