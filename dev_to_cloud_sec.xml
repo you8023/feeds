@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-10T04:39:36.175Z</updated>
+    <updated>2026-05-10T07:23:47.728Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Leveraging Amazon GuardDuty suppression rules to eliminate noise]]></title>
+        <id>https://dev.to/haggath/leveraging-amazon-guardduty-suppression-rules-to-eliminate-noise-590o</id>
+        <link href="https://dev.to/haggath/leveraging-amazon-guardduty-suppression-rules-to-eliminate-noise-590o"/>
+        <updated>2026-05-10T05:52:48.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/haggath/leveraging-amazon-guardduty-suppression-rules-to-eliminate-noise-590o" aria-labelledby="article-link-3643296" class="crayons-story__hidden-navigation-link">Leveraging Amazon GuardDuty suppression rules to eliminate noise</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/haggath" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3922027%2Fe19ab041-060e-4d52-900a-710e9f2ec652.png" alt="haggath profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/haggath" class="crayons-story__secondary fw-medium m:hidden">
+              Thomas Haggath
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3643296" aria-controls="story-author-preview-content-3643296" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Thomas Haggath profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Thomas Haggath
+                
+              </button>
+              <div id="story-author-preview-content-3643296" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/haggath" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3922027%2Fe19ab041-060e-4d52-900a-710e9f2ec652.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Thomas Haggath</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3922027,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Thomas Haggath&quot;}" data-fetched="fetched" aria-label="Follow user: Thomas Haggath" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3922027"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/haggath/leveraging-amazon-guardduty-suppression-rules-to-eliminate-noise-590o" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-10T05:52:48Z" title="">May 10</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778392368"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/haggath/leveraging-amazon-guardduty-suppression-rules-to-eliminate-noise-590o" data-preload-image="" id="article-link-3643296">
+          Leveraging Amazon GuardDuty suppression rules to eliminate noise
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/haggath/leveraging-amazon-guardduty-suppression-rules-to-eliminate-noise-590o#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Leveraging Amazon GuardDuty suppression rules to eliminate noise">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqefvpwt9ragz2wq4rs423l0mf3449x5" class="crayons-icon"><title id="aqefvpwt9ragz2wq4rs423l0mf3449x5">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            9 min read
+          </small>
+            <button type="button" id="article-save-button-3643296" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3643296" data-article-author-id="3922027" aria-label="Save post Leveraging Amazon GuardDuty suppression rules to eliminate noise to reading list" title="Save post Leveraging Amazon GuardDuty suppression rules to eliminate noise to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Politeness vs Enforcement: Why "Set HTTPS_PROXY" Isn't a Security Control]]></title>
         <id>https://dev.to/luckypipewrench/politeness-vs-enforcement-why-set-httpsproxy-isnt-a-security-control-1hka</id>
@@ -102,7 +213,7 @@
             </div>
           </a>
             <a href="https://dev.to/luckypipewrench/politeness-vs-enforcement-why-set-httpsproxy-isnt-a-security-control-1hka#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Politeness vs Enforcement: Why &quot;Set HTTPS_PROXY&quot; Isn't a Security Control">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afbuxkeebmlz4x6sve30moxwp46s7taj" class="crayons-icon"><title id="afbuxkeebmlz4x6sve30moxwp46s7taj">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aizmi9uwtdxnik2emt97wdkxajxyl9z2" class="crayons-icon"><title id="aizmi9uwtdxnik2emt97wdkxajxyl9z2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -213,7 +324,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/luckypipewrench/subpath-configmap-mounts-dont-hot-reload-silent-drift-in-kubernetes-52jn#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - subPath ConfigMap Mounts Don't Hot-Reload: Silent Drift in Kubernetes">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aa96f2cecc2hwcwq3ujh7t79i5fk33hp" class="crayons-icon"><title id="aa96f2cecc2hwcwq3ujh7t79i5fk33hp">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8evnpud525ydizv6wwhzdsgernn0b0s" class="crayons-icon"><title id="a8evnpud525ydizv6wwhzdsgernn0b0s">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -223,6 +334,117 @@
             6 min read
           </small>
             <button type="button" id="article-save-button-3642106" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3642106" data-article-author-id="3760698" aria-label="Save post subPath ConfigMap Mounts Don't Hot-Reload: Silent Drift in Kubernetes to reading list" title="Save post subPath ConfigMap Mounts Don't Hot-Reload: Silent Drift in Kubernetes to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Part 5: Securing a Homelab with Cloudflare Tunnels and Zero Trust]]></title>
+        <id>https://dev.to/prajwol-ad/part-5-securing-a-homelab-with-cloudflare-tunnels-and-zero-trust-52gi</id>
+        <link href="https://dev.to/prajwol-ad/part-5-securing-a-homelab-with-cloudflare-tunnels-and-zero-trust-52gi"/>
+        <updated>2026-05-10T00:51:09.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/prajwol-ad/part-5-securing-a-homelab-with-cloudflare-tunnels-and-zero-trust-52gi" aria-labelledby="article-link-3642599" class="crayons-story__hidden-navigation-link">Part 5: Securing a Homelab with Cloudflare Tunnels and Zero Trust</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/prajwol-ad" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2832799%2F1a77016f-6d1e-4f3e-80b7-fce915def15f.jpg" alt="prajwol-ad profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/prajwol-ad" class="crayons-story__secondary fw-medium m:hidden">
+              Prajwol Adhikari
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3642599" aria-controls="story-author-preview-content-3642599" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Prajwol Adhikari profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Prajwol Adhikari
+                
+              </button>
+              <div id="story-author-preview-content-3642599" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/prajwol-ad" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2832799%2F1a77016f-6d1e-4f3e-80b7-fce915def15f.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Prajwol Adhikari</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2832799,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Prajwol Adhikari&quot;}" data-fetched="fetched" aria-label="Follow user: Prajwol Adhikari" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="2832799"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/prajwol-ad/part-5-securing-a-homelab-with-cloudflare-tunnels-and-zero-trust-52gi" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-10T00:51:09Z" title="">May 10</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778374269"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/prajwol-ad/part-5-securing-a-homelab-with-cloudflare-tunnels-and-zero-trust-52gi" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzneb93cy42uz6j176mpk.png" id="article-link-3642599">
+          Part 5: Securing a Homelab with Cloudflare Tunnels and Zero Trust
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/linux"><span class="crayons-tag__prefix">#</span>linux</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/prajwol-ad/part-5-securing-a-homelab-with-cloudflare-tunnels-and-zero-trust-52gi#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Part 5: Securing a Homelab with Cloudflare Tunnels and Zero Trust">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ap1gwy2m4z0n2gjzybkjzqb86zgyvfr2" class="crayons-icon"><title id="ap1gwy2m4z0n2gjzybkjzqb86zgyvfr2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            6 min read
+          </small>
+            <button type="button" id="article-save-button-3642599" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3642599" data-article-author-id="2832799" aria-label="Save post Part 5: Securing a Homelab with Cloudflare Tunnels and Zero Trust to reading list" title="Save post Part 5: Securing a Homelab with Cloudflare Tunnels and Zero Trust to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
