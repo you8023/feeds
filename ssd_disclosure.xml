@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ssd-disclosure.com/advisories/</id>
     <title>ssd_disclosure</title>
-    <updated>2026-05-12T05:05:34.977Z</updated>
+    <updated>2026-05-12T08:20:25.122Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://ssd-disclosure.com/wp-content/uploads/2022/08/Group-36.png</icon>
+    <entry>
+        <title type="html"><![CDATA[ipTIME Pre-Auth RCE in CWMP]]></title>
+        <id>https://ssd-disclosure.com/iptime-pre-auth-rce-in-cwmp/</id>
+        <link href="https://ssd-disclosure.com/iptime-pre-auth-rce-in-cwmp/"/>
+        <updated>2026-05-12T08:10:59.231Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/iptime-pre-auth-rce-in-cwmp/">
+				ipTIME Pre-Auth RCE in CWMP			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary An unauthenticated attacker can remotely execute arbitrary code via the CWMP protocol on the ipTIME router. Vendor Response We have tried to reach out to the vendor through multiple channels (email and via KISA)</p>
+		</div>
+				</div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WebAssembly Canonical vs. Relative Type Index Confusion Leading to RCE]]></title>
         <id>https://ssd-disclosure.com/webassembly-canonical-vs-relative-type-index-confusion-leading-to-rce/</id>
@@ -167,21 +182,6 @@
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>Affected Version CanonicalEquality::EqualValueType nullity check bug All Chrome builds having the ValueType refactoring commit 44171ac – M135 and above in stable channel. Prior to the commit, CanonicalEquality::EqualValueType() had a ValueKind check that enforces nullity equivalence</p>
-		</div>
-				</div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LG WebOS TV Path Traversal, Authentication Bypass and Full Device Takeover]]></title>
-        <id>https://ssd-disclosure.com/lg-webos-tv-path-traversal-authentication-bypass-and-full-device-takeover/</id>
-        <link href="https://ssd-disclosure.com/lg-webos-tv-path-traversal-authentication-bypass-and-full-device-takeover/"/>
-        <updated>2026-05-03T09:01:00.549Z</updated>
-        <content type="html"><![CDATA[<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="https://ssd-disclosure.com/lg-webos-tv-path-traversal-authentication-bypass-and-full-device-takeover/">
-				LG WebOS TV Path Traversal, Authentication Bypass and Full Device Takeover			</a>
-		</h3>
-				<div class="elementor-post__excerpt">
-			<p>Affected Versions Vendor Response The vendor has issued an advisory SMR-SEP-2025, available at: https://lgsecurity.lge.com/bulletins/tv in regard to the below described vulnerability Credit The vulnerability was disclosed during our TyphoonPWN 2025 LG Category and won first</p>
 		</div>
 				</div>]]></content>
     </entry>
