@@ -2,56 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-12T16:09:04.268Z</updated>
+    <updated>2026-05-12T18:30:35.445Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
-        <title type="html"><![CDATA[GitHub Actions Security and GitLab CI Security: Static Analysis for CI/CD]]></title>
-        <id>https://dev.to/duriantaco/github-actions-security-and-gitlab-ci-security-static-analysis-for-cicd-g9h</id>
-        <link href="https://dev.to/duriantaco/github-actions-security-and-gitlab-ci-security-static-analysis-for-cicd-g9h"/>
-        <updated>2026-05-12T13:55:19.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/duriantaco/github-actions-security-and-gitlab-ci-security-static-analysis-for-cicd-g9h" aria-labelledby="article-link-3657205" class="crayons-story__hidden-navigation-link">GitHub Actions Security and GitLab CI Security: Static Analysis for CI/CD</a>
+        <title type="html"><![CDATA[Least-Privilege CI/CD on AWS: The 4-Layer Pattern That Scales to 200 Pipelines]]></title>
+        <id>https://dev.to/aws-builders/least-privilege-cicd-on-aws-the-4-layer-pattern-that-scales-to-200-pipelines-238o</id>
+        <link href="https://dev.to/aws-builders/least-privilege-cicd-on-aws-the-4-layer-pattern-that-scales-to-200-pipelines-238o"/>
+        <updated>2026-05-12T18:19:27.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/aws-builders/least-privilege-cicd-on-aws-the-4-layer-pattern-that-scales-to-200-pipelines-238o" aria-labelledby="article-link-3658172" class="crayons-story__hidden-navigation-link">Least-Privilege CI/CD on AWS: The 4-Layer Pattern That Scales to 200 Pipelines</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
     <div class="crayons-story__top">
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/aws-builders">
+            <img alt="AWS Community Builders  logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2794%2F88da75b6-aadd-4ea1-8083-ae2dfca8be94.png" class="crayons-logo__image" loading="lazy">
+          </a>
 
-          <a href="/duriantaco" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2757090%2Fcf7b3e60-5d34-4a60-9a8b-1e954aed1128.png" alt="duriantaco profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/vidanov" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F279573%2F2fb2b653-7b23-4378-a8ed-60e2c1776fdf.jpg" alt="vidanov profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/duriantaco" class="crayons-story__secondary fw-medium m:hidden">
-              Sour durian
+            <a href="/vidanov" class="crayons-story__secondary fw-medium m:hidden">
+              Alexey Vidanov
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3657205" aria-controls="story-author-preview-content-3657205" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Sour durian profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Sour durian
+              <button id="story-author-preview-trigger-3658172" aria-controls="story-author-preview-content-3658172" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Alexey Vidanov profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Alexey Vidanov
                 
               </button>
-              <div id="story-author-preview-content-3657205" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-3658172" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/duriantaco" class="flex">
+                    <a href="/vidanov" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2757090%2Fcf7b3e60-5d34-4a60-9a8b-1e954aed1128.png" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F279573%2F2fb2b653-7b23-4378-a8ed-60e2c1776fdf.jpg" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Sour durian</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Alexey Vidanov</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2757090,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Sour durian&quot;}" data-fetched="fetched" aria-label="Follow user: Sour durian" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:279573,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Alexey Vidanov&quot;}" data-fetched="fetched" aria-label="Follow user: Alexey Vidanov" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="2757090"></div>
+                  <div class="author-preview-metadata-container" data-author-id="279573"></div>
                 </div>
               </div>
             </div>
 
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/aws-builders" class="crayons-story__secondary fw-medium">AWS Community Builders </a>
+            </span>
           </div>
-          <a href="https://dev.to/duriantaco/github-actions-security-and-gitlab-ci-security-static-analysis-for-cicd-g9h" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-12T13:55:19Z" title="">May 12</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778594119"></span></a>
+          <a href="https://dev.to/aws-builders/least-privilege-cicd-on-aws-the-4-layer-pattern-that-scales-to-200-pipelines-238o" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-12T18:19:27Z" title="">May 12</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1778609967"></span></a>
         </div>
       </div>
 
@@ -59,11 +65,17 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/duriantaco/github-actions-security-and-gitlab-ci-security-static-analysis-for-cicd-g9h" data-preload-image="" id="article-link-3657205">
-          GitHub Actions Security and GitLab CI Security: Static Analysis for CI/CD
+        <a href="https://dev.to/aws-builders/least-privilege-cicd-on-aws-the-4-layer-pattern-that-scales-to-200-pipelines-238o" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbv7ueki7le2p39ctcqpj.png" id="article-link-3658172">
+          Least-Privilege CI/CD on AWS: The 4-Layer Pattern That Scales to 200 Pipelines
         </a>
       </h2>
         <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(27, 172, 128, 0.10);
         --tag-prefix: #1bac80;
@@ -81,27 +93,21 @@
         --tag-prefix: #404ED3;
         --tag-bg-hover: rgba(64, 78, 211, 0.10);
         --tag-prefix-hover: #404ED3;
-      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(38, 190, 0, 0.10);
-        --tag-prefix: #26BE00;
-        --tag-bg-hover: rgba(38, 190, 0, 0.10);
-        --tag-prefix-hover: #26BE00;
-      " href="/t/opensource"><span class="crayons-tag__prefix">#</span>opensource</a>
+      " href="/t/terraform"><span class="crayons-tag__prefix">#</span>terraform</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-            <a href="https://dev.to/duriantaco/github-actions-security-and-gitlab-ci-security-static-analysis-for-cicd-g9h#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - GitHub Actions Security and GitLab CI Security: Static Analysis for CI/CD">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="arezm2iv0ut8ly5ea9b77561xw8iskvf" class="crayons-icon"><title id="arezm2iv0ut8ly5ea9b77561xw8iskvf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/aws-builders/least-privilege-cicd-on-aws-the-4-layer-pattern-that-scales-to-200-pipelines-238o#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Least-Privilege CI/CD on AWS: The 4-Layer Pattern That Scales to 200 Pipelines">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anhg7hx9uacno4mmbknfrxh35wwsbtu8" class="crayons-icon"><title id="anhg7hx9uacno4mmbknfrxh35wwsbtu8">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            6 min read
+            14 min read
           </small>
-            <button type="button" id="article-save-button-3657205" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3657205" data-article-author-id="2757090" aria-label="Save post GitHub Actions Security and GitLab CI Security: Static Analysis for CI/CD to reading list" title="Save post GitHub Actions Security and GitLab CI Security: Static Analysis for CI/CD to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3658172" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3658172" data-article-author-id="279573" aria-label="Save post Least-Privilege CI/CD on AWS: The 4-Layer Pattern That Scales to 200 Pipelines to reading list" title="Save post Least-Privilege CI/CD on AWS: The 4-Layer Pattern That Scales to 200 Pipelines to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
