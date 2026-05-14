@@ -2,9 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://juliet.sh/blog</id>
     <title>Juliet</title>
-    <updated>2026-05-14T10:48:52.946Z</updated>
+    <updated>2026-05-14T13:23:03.269Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://juliet.sh/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Fragnesia CVE-2026-46300 in Kubernetes: What EKS, Talos, and Seccomp Change]]></title>
+        <id>https://juliet.sh/blog/fragnesia-cve-2026-46300-kubernetes-eks-talos-seccomp</id>
+        <link href="https://juliet.sh/blog/fragnesia-cve-2026-46300-kubernetes-eks-talos-seccomp"/>
+        <updated>2026-05-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-05-13">May 13, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>7 min read</span>
+                        </div>
+                        <h2>Fragnesia CVE-2026-46300 in Kubernetes: What EKS, Talos, and Seccomp Change</h2>
+                        <p>Fragnesia is a Dirty Frag-family Linux kernel issue in ESP-in-TCP. We tested the Kubernetes reachability question on kind, Talos, and EKS AL2023: RuntimeDefault and PSS blocked user namespace creation, and the Talos and EKS kernels we inspected did not expose ESP-in-TCP.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">linux-kernel</span>
+                            
+                            <span class="blog-tag">seccomp</span>
+                            
+                            <span class="blog-tag">runtime-security</span>
+                            
+                            <span class="blog-tag">dirty-frag</span>
+                            
+                            <span class="blog-tag">fragnesia</span>
+                            
+                            <span class="blog-tag">cve-2026-46300</span>
+                            
+                            <span class="blog-tag">pod-security-standards</span>
+                            
+                            <span class="blog-tag">eks</span>
+                            
+                            <span class="blog-tag">talos</span>
+                            
+                        </div>
+                    </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We Tested Dirty Frag in Kubernetes: EKS and GKE Were Exploitable When Seccomp Was Unset]]></title>
         <id>https://juliet.sh/blog/we-tested-dirty-frag-in-kubernetes-eks-gke-talos-seccomp</id>
