@@ -2,9 +2,93 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://amlalabs.com/blog/</id>
     <title>amlalabs</title>
-    <updated>2026-05-14T23:25:32.183Z</updated>
+    <updated>2026-05-15T01:29:05.419Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://amlalabs.com/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Toward Zero-Copy OCI Layers]]></title>
+        <id>https://amlalabs.com/blog/toward-zero-copy-oci-layers</id>
+        <link href="https://amlalabs.com/blog/toward-zero-copy-oci-layers"/>
+        <updated>2026-05-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="block" href="/blog/toward-zero-copy-oci-layers"><time class="font-mono text-gray-400 text-sm" datetime="2026-05-05T00:00:00.000Z">May 5, 2026</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">Toward Zero-Copy OCI Layers</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">How Kalahari turns OCI image layers into page-aligned EROFS images, hands them to the guest as virtio-pmem with DAX, and lets overlayfs do the stacking.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">filesystems </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">oci </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">virtualization </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">erofs </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">kalahari</span></div></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Two Kernel Bugs on the Way to Zero-Copy OCI Layers]]></title>
+        <id>https://amlalabs.com/blog/two-kernel-bugs-zero-copy-oci-layers</id>
+        <link href="https://amlalabs.com/blog/two-kernel-bugs-zero-copy-oci-layers"/>
+        <updated>2026-05-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="block" href="/blog/two-kernel-bugs-zero-copy-oci-layers"><time class="font-mono text-gray-400 text-sm" datetime="2026-05-05T00:00:00.000Z">May 5, 2026</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">Two Kernel Bugs on the Way to Zero-Copy OCI Layers</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">A DAX altmap kernel paging fault in fs/dax and a 7-year-old ESTALE bug in overlayfs copy-up: two upstream Linux bugs surfaced while building Kalahari.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">linux </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">kernel </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">dax </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">overlayfs </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">erofs </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">virtio-pmem </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">kalahari</span></div></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Kernel Config You Can Read in One Sitting]]></title>
+        <id>https://amlalabs.com/blog/fast-boot-kernel-config</id>
+        <link href="https://amlalabs.com/blog/fast-boot-kernel-config"/>
+        <updated>2026-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="block" href="/blog/fast-boot-kernel-config"><time class="font-mono text-gray-400 text-sm" datetime="2026-05-04T00:00:00.000Z">May 4, 2026</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">A Kernel Config You Can Read in One Sitting</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">How Kalahari's guest kernel boots in milliseconds: starting from allnoconfig and turning on only the devices the microVM's VMM actually exposes.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">kalahari </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">linux </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">virtualization </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">developer-tools</span></div></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Kalahari: MicroVM Isolation for Agent Code]]></title>
+        <id>https://amlalabs.com/blog/introducing-kalahari</id>
+        <link href="https://amlalabs.com/blog/introducing-kalahari"/>
+        <updated>2026-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="block" href="/blog/introducing-kalahari"><time class="font-mono text-gray-400 text-sm" datetime="2026-05-04T00:00:00.000Z">May 4, 2026</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">Introducing Kalahari: MicroVM Isolation for Agent Code</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">Kalahari is an agent sandbox SDK that runs OCI images in a microVM on Linux (KVM) and macOS (Hypervisor.framework), with no remote service required.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">kalahari </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">release </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">developer-tools </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">virtualization </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">security</span></div></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Compatibility Layers Should Be Thin, Not Fake]]></title>
+        <id>https://amlalabs.com/blog/kalahari-compatibility-without-leaky-abstractions</id>
+        <link href="https://amlalabs.com/blog/kalahari-compatibility-without-leaky-abstractions"/>
+        <updated>2026-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="block" href="/blog/kalahari-compatibility-without-leaky-abstractions"><time class="font-mono text-gray-400 text-sm" datetime="2026-05-04T00:00:00.000Z">May 4, 2026</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">Compatibility Layers Should Be Thin, Not Fake</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">How Kalahari maps common ComputeSDK, E2B-style, and Daytona-style process and filesystem workflows onto one native sandbox lifecycle.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">kalahari </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">developer-tools </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">typescript </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">infrastructure</span></div></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Kalahari Branches VM Memory on macOS with Mach Memory Entries]]></title>
+        <id>https://amlalabs.com/blog/macos-mach-memory-entries-cow</id>
+        <link href="https://amlalabs.com/blog/macos-mach-memory-entries-cow"/>
+        <updated>2026-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="block" href="/blog/macos-mach-memory-entries-cow"><time class="font-mono text-gray-400 text-sm" datetime="2026-05-04T00:00:00.000Z">May 4, 2026</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">How Kalahari Branches VM Memory on macOS with Mach Memory Entries</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">Why Kalahari uses Mach memory entries, mach_vm_map(copy=TRUE), Mach IPC port descriptors, and registered-port bootstrap to make VM branching portable.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">virtualization </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">rust </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">macos </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">mach</span></div></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Network Policy Belongs in the VM Device Model]]></title>
+        <id>https://amlalabs.com/blog/network-policy-as-device-state</id>
+        <link href="https://amlalabs.com/blog/network-policy-as-device-state"/>
+        <updated>2026-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="block" href="/blog/network-policy-as-device-state"><time class="font-mono text-gray-400 text-sm" datetime="2026-05-04T00:00:00.000Z">May 4, 2026</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">Network Policy Belongs in the VM Device Model</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">How Kalahari turns sandbox network options into VM device state through usernet, packet policy, packet leases, and scoped wake tokens.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">networking </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">security </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">virtualization </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">kalahari</span></div></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vsock Doesn't Survive Snapshots. A Shared-Memory Ring Does.]]></title>
+        <id>https://amlalabs.com/blog/ringbuf-not-vsock</id>
+        <link href="https://amlalabs.com/blog/ringbuf-not-vsock"/>
+        <updated>2026-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="block" href="/blog/ringbuf-not-vsock"><time class="font-mono text-gray-400 text-sm" datetime="2026-05-04T00:00:00.000Z">May 4, 2026</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">Vsock Doesn't Survive Snapshots. A Shared-Memory Ring Does.</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">Why Kalahari's host-guest IPC is an SPSC ring buffer over shared memory instead of vsock, and what Firecracker and SmolVM say about where vsock state lives.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">kalahari </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">rust </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">virtualization </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">developer-tools</span></div></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Process Handles Are Scheduler Contracts]]></title>
+        <id>https://amlalabs.com/blog/scheduler-process-lifecycle</id>
+        <link href="https://amlalabs.com/blog/scheduler-process-lifecycle"/>
+        <updated>2026-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="block" href="/blog/scheduler-process-lifecycle"><time class="font-mono text-gray-400 text-sm" datetime="2026-05-04T00:00:00.000Z">May 4, 2026</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">Process Handles Are Scheduler Contracts</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">How Kalahari keeps process handles, PTYs, callbacks, and zygote boundaries coherent across parked VM runs.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">kalahari </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">rust </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">virtualization </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">developer-tools</span></div></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Invalid VM State Unrepresentable]]></title>
+        <id>https://amlalabs.com/blog/typed-vm-state-invariants</id>
+        <link href="https://amlalabs.com/blog/typed-vm-state-invariants"/>
+        <updated>2026-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="block" href="/blog/typed-vm-state-invariants"><time class="font-mono text-gray-400 text-sm" datetime="2026-05-04T00:00:00.000Z">May 4, 2026</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">Making Invalid VM State Unrepresentable</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">How Kalahari narrows snapshot and restore correctness with typed topology, queue counts, memory geometry, VM state views, and architecture-specific exits.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">rust </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">virtualization </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">systems </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">kalahari</span></div></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Virtio Bugs Are Ownership Bugs]]></title>
+        <id>https://amlalabs.com/blog/virtio-linear-ownership</id>
+        <link href="https://amlalabs.com/blog/virtio-linear-ownership"/>
+        <updated>2026-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="block" href="/blog/virtio-linear-ownership"><time class="font-mono text-gray-400 text-sm" datetime="2026-05-04T00:00:00.000Z">May 4, 2026</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">Virtio Bugs Are Ownership Bugs</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">How Kalahari's virtio layer turns descriptor ownership into completion tokens, queue brands, deferred writable regions, and exact used-ring lengths.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">rust </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">virtualization </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">security </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">systems</span></div></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A VM Snapshot Is a Quiescence Protocol]]></title>
+        <id>https://amlalabs.com/blog/zygote-snapshots-quiescence</id>
+        <link href="https://amlalabs.com/blog/zygote-snapshots-quiescence"/>
+        <updated>2026-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="block" href="/blog/zygote-snapshots-quiescence"><time class="font-mono text-gray-400 text-sm" datetime="2026-05-04T00:00:00.000Z">May 4, 2026</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">A VM Snapshot Is a Quiescence Protocol</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">Why zygote-style VM spawning is less about copying memory and more about establishing that every device, backend, and guest channel is quiet enough to freeze.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">infrastructure </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">virtualization </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">rust </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">kalahari</span></div></a>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introducing amla-sandbox: Secure Code Execution for AI Agents]]></title>
         <id>https://amlalabs.com/blog/amla-sandbox-release</id>
@@ -13,18 +97,18 @@
         <content type="html"><![CDATA[<a class="block" href="/blog/amla-sandbox-release"><time class="font-mono text-gray-400 text-sm" datetime="2026-01-27T00:00:00.000Z">Jan 27, 2026</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">Introducing amla-sandbox: Secure Code Execution for AI Agents</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">A secure execution environment that lets AI agents write and run code safely—with 98% fewer tokens than tool-call loops.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">release </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">agents </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">security </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">python </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">open-source</span></div></a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[LangGrinch: A Bug in the Library, A Lesson for the Architecture]]></title>
-        <id>https://amlalabs.com/blog/langgrinch-cve-2025-68664</id>
-        <link href="https://amlalabs.com/blog/langgrinch-cve-2025-68664"/>
-        <updated>2025-12-26T12:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="block" href="/blog/langgrinch-cve-2025-68664"><time class="font-mono text-gray-400 text-sm" datetime="2025-12-26T12:00:00.000Z">Dec 26, 2025</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">LangGrinch: A Bug in the Library, A Lesson for the Architecture</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">A critical CVE in LangChain shows why credential isolation matters more than perfect code.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">security </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">langchain </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">cve </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">credentials </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">architecture</span></div></a>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[ForcedLeak: What Salesforce's Agentforce Vulnerability Reveals About Agent Security]]></title>
         <id>https://amlalabs.com/blog/forcedleak-agentforce-vulnerability</id>
         <link href="https://amlalabs.com/blog/forcedleak-agentforce-vulnerability"/>
         <updated>2025-12-26T12:00:00.000Z</updated>
         <content type="html"><![CDATA[<a class="block" href="/blog/forcedleak-agentforce-vulnerability"><time class="font-mono text-gray-400 text-sm" datetime="2025-12-26T12:00:00.000Z">Dec 26, 2025</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">ForcedLeak: What Salesforce's Agentforce Vulnerability Reveals About Agent Security</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">Salesforce patched a critical prompt injection vulnerability in Agentforce. The attack chain reveals why input filtering alone can't secure agentic AI—and what actually works.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">security </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">prompt-injection </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">salesforce </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">agents </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">confused-deputy </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">capabilities</span></div></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LangGrinch: A Bug in the Library, A Lesson for the Architecture]]></title>
+        <id>https://amlalabs.com/blog/langgrinch-cve-2025-68664</id>
+        <link href="https://amlalabs.com/blog/langgrinch-cve-2025-68664"/>
+        <updated>2025-12-26T12:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="block" href="/blog/langgrinch-cve-2025-68664"><time class="font-mono text-gray-400 text-sm" datetime="2025-12-26T12:00:00.000Z">Dec 26, 2025</time><h2 class="transition-colors font-semibold group-hover:text-primary mt-1 text-gray-900 text-lg">LangGrinch: A Bug in the Library, A Lesson for the Architecture</h2><p class="text-sm text-gray-600 leading-relaxed mt-2">A critical CVE in LangChain shows why credential isolation matters more than perfect code.</p><div class="flex gap-2 flex-wrap mt-3"><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">security </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">langchain </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">cve </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">credentials </span><span class="font-mono text-gray-400 bg-gray-100 px-2 py-0.5 rounded text-xs">architecture</span></div></a>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Why NHI Can't Secure Agentic AI: The Confused Deputy Returns]]></title>
