@@ -2,9 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://juliet.sh/blog</id>
     <title>Juliet</title>
-    <updated>2026-05-17T17:42:04.228Z</updated>
+    <updated>2026-05-17T19:52:26.020Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://juliet.sh/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[CVE-2026-46333 in Kubernetes: Unset Seccomp Exposed pidfd_getfd, RuntimeDefault Blocked It]]></title>
+        <id>https://juliet.sh/blog/cve-2026-46333-kubernetes-eks-bottlerocket-seccomp-pidfd</id>
+        <link href="https://juliet.sh/blog/cve-2026-46333-kubernetes-eks-bottlerocket-seccomp-pidfd"/>
+        <updated>2026-05-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-05-17">May 17, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>12 min read</span>
+                        </div>
+                        <h2>CVE-2026-46333 in Kubernetes: Unset Seccomp Exposed pidfd_getfd, RuntimeDefault Blocked It</h2>
+                        <p>We tested the Linux __ptrace_may_access bug in Kubernetes with a bounded fd-theft harness. EKS Auto Mode on Bottlerocket reproduced controlled fd theft when seccomp was unset; RuntimeDefault blocked pidfd_getfd; PSS Baseline did not fix unset seccomp; and PSS Restricted blocked both pidfd_getfd and the setuid open.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">linux-kernel</span>
+                            
+                            <span class="blog-tag">seccomp</span>
+                            
+                            <span class="blog-tag">runtime-security</span>
+                            
+                            <span class="blog-tag">cve-2026-46333</span>
+                            
+                            <span class="blog-tag">pidfd</span>
+                            
+                            <span class="blog-tag">ptrace</span>
+                            
+                            <span class="blog-tag">pod-security-standards</span>
+                            
+                            <span class="blog-tag">eks</span>
+                            
+                            <span class="blog-tag">bottlerocket</span>
+                            
+                            <span class="blog-tag">talos</span>
+                            
+                        </div>
+                    </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fragnesia CVE-2026-46300 in Kubernetes: What EKS, Talos, and Seccomp Change]]></title>
         <id>https://juliet.sh/blog/fragnesia-cve-2026-46300-kubernetes-eks-talos-seccomp</id>
