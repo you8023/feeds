@@ -1497,3 +1497,30 @@ titleSelector = "a"
 linkSelector = "a"
 dateSelector = "time"
 dateFormat = "yyyy-MM-dd"
+
+[fogsecurity]
+title = "fogsecurity"
+url = "https://www.fogsecurity.io/blog"
+entrySelector = ".simple-blog-post-item"
+titleSelector = "a[href^='/blog/']"
+linkSelector = "a[href^='/blog/']"
+dateSelector = "div.blog-post-date"
+dateFormat = "MMM d, yyyy"
+
+[olearysec]
+title = "olearysec"
+url = "https://olearysec.com/research/"
+entrySelector = ".research-grid"
+titleSelector = "h3"
+linkSelector = "> a"
+dateSelector = ".research-card-meta > span:nth-child(1)"
+dateFormat = "MMM d, yyyy"
+
+[cloud_iam]
+title = "cloud_iam"
+url = "https://www.cloud-iam.com/blog-posts/"
+entrySelector = "article"
+titleSelector = "h2:nth-child(2)"
+linkSelector = "> a"
+dateSelector = "span"
+dateFormat = "MMM d, yyyy"
