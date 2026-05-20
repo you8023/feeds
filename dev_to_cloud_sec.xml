@@ -2,62 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-20T16:14:41.820Z</updated>
+    <updated>2026-05-20T18:48:47.991Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
-        <title type="html"><![CDATA[Deploying Infisical Secrets Management Platform on Ubuntu 24.04]]></title>
-        <id>https://dev.to/vultr/deploying-infisical-secrets-management-platform-on-ubuntu-2404-4dde</id>
-        <link href="https://dev.to/vultr/deploying-infisical-secrets-management-platform-on-ubuntu-2404-4dde"/>
-        <updated>2026-05-20T14:03:11.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/vultr/deploying-infisical-secrets-management-platform-on-ubuntu-2404-4dde" aria-labelledby="article-link-3708618" class="crayons-story__hidden-navigation-link">Deploying Infisical Secrets Management Platform on Ubuntu 24.04</a>
+        <title type="html"><![CDATA[Eu parei de rodar agentes de IA direto no meu WSL: usando Dev Containers + gVisor com Claude Code e Codex]]></title>
+        <id>https://dev.to/mffdeo/eu-parei-de-rodar-agentes-de-ia-direto-no-meu-wsl-usando-dev-containers-gvisor-com-claude-code-e-3cob</id>
+        <link href="https://dev.to/mffdeo/eu-parei-de-rodar-agentes-de-ia-direto-no-meu-wsl-usando-dev-containers-gvisor-com-claude-code-e-3cob"/>
+        <updated>2026-05-20T17:28:28.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/mffdeo/eu-parei-de-rodar-agentes-de-ia-direto-no-meu-wsl-usando-dev-containers-gvisor-com-claude-code-e-3cob" aria-labelledby="article-link-3710923" class="crayons-story__hidden-navigation-link">Eu parei de rodar agentes de IA direto no meu WSL: usando Dev Containers + gVisor com Claude Code e Codex</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
     <div class="crayons-story__top">
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
-          <a class="crayons-logo crayons-logo--l" href="/vultr">
-            <img alt="Vultr logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F13147%2F592526f7-0870-4626-ae0f-ba3c820fcfcb.png" class="crayons-logo__image" loading="lazy">
-          </a>
 
-          <a href="/sharmukh" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3900728%2F38e545fb-274b-483d-a868-8780a6503800.png" alt="sharmukh profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/mffdeo" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3844879%2F21f3266c-a7b0-4748-b36c-5609f28ca749.jpeg" alt="mffdeo profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/sharmukh" class="crayons-story__secondary fw-medium m:hidden">
-              Sanskriti Harmukh
+            <a href="/mffdeo" class="crayons-story__secondary fw-medium m:hidden">
+              Marcos Filipe
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3708618" aria-controls="story-author-preview-content-3708618" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Sanskriti Harmukh profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Sanskriti Harmukh
+              <button id="story-author-preview-trigger-3710923" aria-controls="story-author-preview-content-3710923" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Marcos Filipe profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Marcos Filipe
                 
               </button>
-              <div id="story-author-preview-content-3708618" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-3710923" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/sharmukh" class="flex">
+                    <a href="/mffdeo" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3900728%2F38e545fb-274b-483d-a868-8780a6503800.png" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3844879%2F21f3266c-a7b0-4748-b36c-5609f28ca749.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Sanskriti Harmukh</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Marcos Filipe</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3900728,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Sanskriti Harmukh&quot;}" data-fetched="fetched" aria-label="Follow user: Sanskriti Harmukh" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3844879,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Marcos Filipe&quot;}" data-fetched="fetched" aria-label="Follow user: Marcos Filipe" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="3900728"></div>
+                  <div class="author-preview-metadata-container" data-author-id="3844879"></div>
                 </div>
               </div>
             </div>
 
-            <span>
-              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/vultr" class="crayons-story__secondary fw-medium">Vultr</a>
-            </span>
           </div>
-          <a href="https://dev.to/vultr/deploying-infisical-secrets-management-platform-on-ubuntu-2404-4dde" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-20T14:03:11Z" title="">May 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779285791"></span></a>
+          <a href="https://dev.to/mffdeo/eu-parei-de-rodar-agentes-de-ia-direto-no-meu-wsl-usando-dev-containers-gvisor-com-claude-code-e-3cob" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-20T17:28:28Z" title="">May 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779298108"></span></a>
         </div>
       </div>
 
@@ -65,17 +59,23 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/vultr/deploying-infisical-secrets-management-platform-on-ubuntu-2404-4dde" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0xola7sguxsqoarxwzxh.png" id="article-link-3708618">
-          Deploying Infisical Secrets Management Platform on Ubuntu 24.04
+        <a href="https://dev.to/mffdeo/eu-parei-de-rodar-agentes-de-ia-direto-no-meu-wsl-usando-dev-containers-gvisor-com-claude-code-e-3cob" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9b6vi38rg86pmij8jkb8.png" id="article-link-3710923">
+          Eu parei de rodar agentes de IA direto no meu WSL: usando Dev Containers + gVisor com Claude Code e Codex
         </a>
       </h2>
         <div class="crayons-story__tags">
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(194, 0, 0, 0.10);
+        --tag-prefix: #c20000;
+        --tag-bg-hover: rgba(194, 0, 0, 0.10);
+        --tag-prefix-hover: #c20000;
+      " href="/t/claude"><span class="crayons-tag__prefix">#</span>claude</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(29, 99, 237, 0.10);
         --tag-prefix: #1D63ED;
@@ -83,180 +83,25 @@
         --tag-prefix-hover: #1D63ED;
       " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(38, 190, 0, 0.10);
-        --tag-prefix: #26BE00;
-        --tag-bg-hover: rgba(38, 190, 0, 0.10);
-        --tag-prefix-hover: #26BE00;
-      " href="/t/opensource"><span class="crayons-tag__prefix">#</span>opensource</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/vultr/deploying-infisical-secrets-management-platform-on-ubuntu-2404-4dde" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3708618" aria-label="Add a comment to post - Deploying Infisical Secrets Management Platform on Ubuntu 24.04">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">5<span class="hidden s:inline">&nbsp;reactions</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/vultr/deploying-infisical-secrets-management-platform-on-ubuntu-2404-4dde#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Deploying Infisical Secrets Management Platform on Ubuntu 24.04">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2qjj13i6cnlj5bu2v4724f9nj09o3t8" class="crayons-icon"><title id="a2qjj13i6cnlj5bu2v4724f9nj09o3t8">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3708618" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3708618" data-article-author-id="3900728" aria-label="Save post Deploying Infisical Secrets Management Platform on Ubuntu 24.04 to reading list" title="Save post Deploying Infisical Secrets Management Platform on Ubuntu 24.04 to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deploying Vault Secret and Key Management on Ubuntu 24.04]]></title>
-        <id>https://dev.to/vultr/deploying-vault-secret-and-key-management-on-ubuntu-2404-53on</id>
-        <link href="https://dev.to/vultr/deploying-vault-secret-and-key-management-on-ubuntu-2404-53on"/>
-        <updated>2026-05-20T14:03:40.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/vultr/deploying-vault-secret-and-key-management-on-ubuntu-2404-53on" aria-labelledby="article-link-3708612" class="crayons-story__hidden-navigation-link">Deploying Vault Secret and Key Management on Ubuntu 24.04</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-          <a class="crayons-logo crayons-logo--l" href="/vultr">
-            <img alt="Vultr logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F13147%2F592526f7-0870-4626-ae0f-ba3c820fcfcb.png" class="crayons-logo__image" loading="lazy">
-          </a>
-
-          <a href="/sharmukh" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3900728%2F38e545fb-274b-483d-a868-8780a6503800.png" alt="sharmukh profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/sharmukh" class="crayons-story__secondary fw-medium m:hidden">
-              Sanskriti Harmukh
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3708612" aria-controls="story-author-preview-content-3708612" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Sanskriti Harmukh profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Sanskriti Harmukh
-                
-              </button>
-              <div id="story-author-preview-content-3708612" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/sharmukh" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3900728%2F38e545fb-274b-483d-a868-8780a6503800.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Sanskriti Harmukh</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3900728,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Sanskriti Harmukh&quot;}" data-fetched="fetched" aria-label="Follow user: Sanskriti Harmukh" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3900728"></div>
-                </div>
-              </div>
-            </div>
-
-            <span>
-              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/vultr" class="crayons-story__secondary fw-medium">Vultr</a>
-            </span>
-          </div>
-          <a href="https://dev.to/vultr/deploying-vault-secret-and-key-management-on-ubuntu-2404-53on" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-20T14:03:40Z" title="">May 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779285820"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/vultr/deploying-vault-secret-and-key-management-on-ubuntu-2404-53on" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fppcq2gu2bmhtdb5l1f4c.png" id="article-link-3708612">
-          Deploying Vault Secret and Key Management on Ubuntu 24.04
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(27, 172, 128, 0.10);
         --tag-prefix: #1bac80;
         --tag-bg-hover: rgba(27, 172, 128, 0.10);
         --tag-prefix-hover: #1bac80;
       " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(29, 99, 237, 0.10);
-        --tag-prefix: #1D63ED;
-        --tag-bg-hover: rgba(29, 99, 237, 0.10);
-        --tag-prefix-hover: #1D63ED;
-      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/secrets"><span class="crayons-tag__prefix">#</span>secrets</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-          <a href="https://dev.to/vultr/deploying-vault-secret-and-key-management-on-ubuntu-2404-53on" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3708612" aria-label="Add a comment to post - Deploying Vault Secret and Key Management on Ubuntu 24.04">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">5<span class="hidden s:inline">&nbsp;reactions</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/vultr/deploying-vault-secret-and-key-management-on-ubuntu-2404-53on#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Deploying Vault Secret and Key Management on Ubuntu 24.04">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aowvxesxj5sdixrsdxhkrrxr7cv6004s" class="crayons-icon"><title id="aowvxesxj5sdixrsdxhkrrxr7cv6004s">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/mffdeo/eu-parei-de-rodar-agentes-de-ia-direto-no-meu-wsl-usando-dev-containers-gvisor-com-claude-code-e-3cob#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Eu parei de rodar agentes de IA direto no meu WSL: usando Dev Containers + gVisor com Claude Code e Codex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aad5ryguks7wy1ubygt8e4inr9y7lg1l" class="crayons-icon"><title id="aad5ryguks7wy1ubygt8e4inr9y7lg1l">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
+            7 min read
           </small>
-            <button type="button" id="article-save-button-3708612" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3708612" data-article-author-id="3900728" aria-label="Save post Deploying Vault Secret and Key Management on Ubuntu 24.04 to reading list" title="Save post Deploying Vault Secret and Key Management on Ubuntu 24.04 to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3710923" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3710923" data-article-author-id="3844879" aria-label="Save post Eu parei de rodar agentes de IA direto no meu WSL: usando Dev Containers + gVisor com Claude Code e Codex to reading list" title="Save post Eu parei de rodar agentes de IA direto no meu WSL: usando Dev Containers + gVisor com Claude Code e Codex to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -368,7 +213,7 @@
             </div>
           </a>
             <a href="https://dev.to/itskondrat/i-read-the-devenex-launch-yesterday-heres-the-policy-file-your-agent-repo-is-still-missing-23j7#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I Read the Devenex Launch Yesterday - Here's the Policy File Your Agent Repo Is Still Missing">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ap15dtwn7lulgpxqx7cemheip1w36mau" class="crayons-icon"><title id="ap15dtwn7lulgpxqx7cemheip1w36mau">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3ehdx2g185i5o5vzs2tmynpfie3qacr" class="crayons-icon"><title id="a3ehdx2g185i5o5vzs2tmynpfie3qacr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               1<span class="hidden s:inline">&nbsp;comment</span>
             </a>
@@ -377,7 +222,118 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3707136" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3707136" data-article-author-id="3753205" aria-label="Save post I Read the Devenex Launch Yesterday - Here's the Policy File Your Agent Repo Is Still Missing to reading list" title="Save post I Read the Devenex Launch Yesterday - Here's the Policy File Your Agent Repo Is Still Missing to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3707136" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3707136" data-article-author-id="3753205" aria-label="Save post I Read the Devenex Launch Yesterday - Here's the Policy File Your Agent Repo Is Still Missing to reading list" title="Save post I Read the Devenex Launch Yesterday - Here's the Policy File Your Agent Repo Is Still Missing to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Spring Boot Monolith Application and a DevSecOps Pipeline Around It]]></title>
+        <id>https://dev.to/ashish_nair_d9b10ba4f8126/building-a-spring-boot-monolith-application-and-a-devsecops-pipeline-around-it-2dah</id>
+        <link href="https://dev.to/ashish_nair_d9b10ba4f8126/building-a-spring-boot-monolith-application-and-a-devsecops-pipeline-around-it-2dah"/>
+        <updated>2026-05-20T17:51:31.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/ashish_nair_d9b10ba4f8126/building-a-spring-boot-monolith-application-and-a-devsecops-pipeline-around-it-2dah" aria-labelledby="article-link-3710393" class="crayons-story__hidden-navigation-link">Building a Spring Boot Monolith Application and a DevSecOps Pipeline Around It</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/ashish_nair_d9b10ba4f8126" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2176306%2F7d07f10c-0efc-4f5d-a8cd-a6ed1a06b7ec.png" alt="ashish_nair_d9b10ba4f8126 profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/ashish_nair_d9b10ba4f8126" class="crayons-story__secondary fw-medium m:hidden">
+              Ashish Nair
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3710393" aria-controls="story-author-preview-content-3710393" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Ashish Nair profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Ashish Nair
+                
+              </button>
+              <div id="story-author-preview-content-3710393" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/ashish_nair_d9b10ba4f8126" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2176306%2F7d07f10c-0efc-4f5d-a8cd-a6ed1a06b7ec.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Ashish Nair</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2176306,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Ashish Nair&quot;}" data-fetched="fetched" aria-label="Follow user: Ashish Nair" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="2176306"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/ashish_nair_d9b10ba4f8126/building-a-spring-boot-monolith-application-and-a-devsecops-pipeline-around-it-2dah" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-20T17:51:31Z" title="">May 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779299491"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/ashish_nair_d9b10ba4f8126/building-a-spring-boot-monolith-application-and-a-devsecops-pipeline-around-it-2dah" data-preload-image="" id="article-link-3710393">
+          Building a Spring Boot Monolith Application and a DevSecOps Pipeline Around It
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/springboot"><span class="crayons-tag__prefix">#</span>springboot</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/ashish_nair_d9b10ba4f8126/building-a-spring-boot-monolith-application-and-a-devsecops-pipeline-around-it-2dah#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building a Spring Boot Monolith Application and a DevSecOps Pipeline Around It">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alt1vwew5tm53hjtv2uye9oonwt3xxeg" class="crayons-icon"><title id="alt1vwew5tm53hjtv2uye9oonwt3xxeg">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3710393" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3710393" data-article-author-id="2176306" aria-label="Save post Building a Spring Boot Monolith Application and a DevSecOps Pipeline Around It to reading list" title="Save post Building a Spring Boot Monolith Application and a DevSecOps Pipeline Around It to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -479,7 +435,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/bala_paranj_059d338e44e7e/google-engineers-cant-create-public-cloud-storage-buckets-not-because-theyre-smarter-because-29c5#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Google Engineers Can't Create Public Cloud Storage Buckets. Not Because They're Smarter. Because the Option Doesn't Exist.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="agnictk1ly2yi08j7chq08aizwbe5x32" class="crayons-icon"><title id="agnictk1ly2yi08j7chq08aizwbe5x32">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9k3lfz8kya4zyzwm6nnx0uqhpr3fv55" class="crayons-icon"><title id="a9k3lfz8kya4zyzwm6nnx0uqhpr3fv55">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -488,118 +444,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             7 min read
           </small>
-            <button type="button" id="article-save-button-3709308" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3709308" data-article-author-id="3862804" aria-label="Save post Google Engineers Can't Create Public Cloud Storage Buckets. Not Because They're Smarter. Because the Option Doesn't Exist. to reading list" title="Save post Google Engineers Can't Create Public Cloud Storage Buckets. Not Because They're Smarter. Because the Option Doesn't Exist. to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alert Fatigue Is a Design Choice: Building Views That Actually Help]]></title>
-        <id>https://dev.to/jon_rose/alert-fatigue-is-a-design-choice-building-views-that-actually-help-3677</id>
-        <link href="https://dev.to/jon_rose/alert-fatigue-is-a-design-choice-building-views-that-actually-help-3677"/>
-        <updated>2026-05-20T15:13:26.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/jon_rose/alert-fatigue-is-a-design-choice-building-views-that-actually-help-3677" aria-labelledby="article-link-3710192" class="crayons-story__hidden-navigation-link">Alert Fatigue Is a Design Choice: Building Views That Actually Help</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/jon_rose" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3941196%2F738754cb-acac-4823-a3c3-6f363b5d28da.png" alt="jon_rose profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/jon_rose" class="crayons-story__secondary fw-medium m:hidden">
-              Jon Rose
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3710192" aria-controls="story-author-preview-content-3710192" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Jon Rose profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Jon Rose
-                
-              </button>
-              <div id="story-author-preview-content-3710192" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/jon_rose" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3941196%2F738754cb-acac-4823-a3c3-6f363b5d28da.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Jon Rose</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3941196,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Jon Rose&quot;}" data-fetched="fetched" aria-label="Follow user: Jon Rose" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3941196"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/jon_rose/alert-fatigue-is-a-design-choice-building-views-that-actually-help-3677" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-20T15:13:26Z" title="">May 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779290006"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/jon_rose/alert-fatigue-is-a-design-choice-building-views-that-actually-help-3677" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2F20569952.fs1.hubspotusercontent-na1.net%2Fhubfs%2F20569952%2Fiomergent-alert-fatigue-exhausted-security-team.jpg" id="article-link-3710192">
-          Alert Fatigue Is a Design Choice: Building Views That Actually Help
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(255, 153, 0, 0.10);
-        --tag-prefix: #FF9900;
-        --tag-bg-hover: rgba(255, 153, 0, 0.10);
-        --tag-prefix-hover: #FF9900;
-      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/jon_rose/alert-fatigue-is-a-design-choice-building-views-that-actually-help-3677#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Alert Fatigue Is a Design Choice: Building Views That Actually Help">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apq27lhnv3pme54rrovpb7vnojb0ay6g" class="crayons-icon"><title id="apq27lhnv3pme54rrovpb7vnojb0ay6g">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
-          </small>
-            <button type="button" id="article-save-button-3710192" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3710192" data-article-author-id="3941196" aria-label="Save post Alert Fatigue Is a Design Choice: Building Views That Actually Help to reading list" title="Save post Alert Fatigue Is a Design Choice: Building Views That Actually Help to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3709308" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3709308" data-article-author-id="3862804" aria-label="Save post Google Engineers Can't Create Public Cloud Storage Buckets. Not Because They're Smarter. Because the Option Doesn't Exist. to reading list" title="Save post Google Engineers Can't Create Public Cloud Storage Buckets. Not Because They're Smarter. Because the Option Doesn't Exist. to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
