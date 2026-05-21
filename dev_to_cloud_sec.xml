@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-21T01:39:31.151Z</updated>
+    <updated>2026-05-21T05:57:34.047Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
@@ -108,7 +108,7 @@
             </div>
           </a>
             <a href="https://dev.to/aerabi/my-cloud-native-journey-docker-kubernetes-security-and-open-source-5588#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - My Cloud-Native Journey: Docker, Kubernetes, Security, and Open Source">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7mqgjkorwblax32vroogr4em5zip1t7" class="crayons-icon"><title id="a7mqgjkorwblax32vroogr4em5zip1t7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ablsodgcaridvr5oacaj8kzmff5owdyc" class="crayons-icon"><title id="ablsodgcaridvr5oacaj8kzmff5owdyc">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -117,7 +117,346 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             9 min read
           </small>
-            <button type="button" id="article-save-button-3711953" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3711953" data-article-author-id="416596" aria-label="Save post My Cloud-Native Journey: Docker, Kubernetes, Security, and Open Source to reading list" title="Save post My Cloud-Native Journey: Docker, Kubernetes, Security, and Open Source to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3711953" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3711953" data-article-author-id="416596" aria-label="Save post My Cloud-Native Journey: Docker, Kubernetes, Security, and Open Source to reading list" title="Save post My Cloud-Native Journey: Docker, Kubernetes, Security, and Open Source to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multi-Tenant Auth with Cognito and PostgreSQL Row-Level Security (Part 2)]]></title>
+        <id>https://dev.to/josh_blair/multi-tenant-auth-with-cognito-and-postgresql-row-level-security-part-2-5d30</id>
+        <link href="https://dev.to/josh_blair/multi-tenant-auth-with-cognito-and-postgresql-row-level-security-part-2-5d30"/>
+        <updated>2026-05-21T02:01:31.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/josh_blair/multi-tenant-auth-with-cognito-and-postgresql-row-level-security-part-2-5d30" aria-labelledby="article-link-3712751" class="crayons-story__hidden-navigation-link">Multi-Tenant Auth with Cognito and PostgreSQL Row-Level Security (Part 2)</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/josh_blair" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F100411%2F963e53f6-678b-4041-9d0f-ce8331890bed.png" alt="josh_blair profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/josh_blair" class="crayons-story__secondary fw-medium m:hidden">
+              Josh Blair
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3712751" aria-controls="story-author-preview-content-3712751" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Josh Blair profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Josh Blair
+                
+              </button>
+              <div id="story-author-preview-content-3712751" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/josh_blair" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F100411%2F963e53f6-678b-4041-9d0f-ce8331890bed.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Josh Blair</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:100411,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Josh Blair&quot;}" data-fetched="fetched" aria-label="Follow user: Josh Blair" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="100411"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/josh_blair/multi-tenant-auth-with-cognito-and-postgresql-row-level-security-part-2-5d30" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-21T02:01:31Z" title="">May 21</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779328891"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/josh_blair/multi-tenant-auth-with-cognito-and-postgresql-row-level-security-part-2-5d30" data-preload-image="" id="article-link-3712751">
+          Multi-Tenant Auth with Cognito and PostgreSQL Row-Level Security (Part 2)
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(237, 21, 86, 0.10);
+        --tag-prefix: #ED1556;
+        --tag-bg-hover: rgba(237, 21, 86, 0.10);
+        --tag-prefix-hover: #ED1556;
+      " href="/t/postgres"><span class="crayons-tag__prefix">#</span>postgres</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(81, 42, 213, 0.10);
+        --tag-prefix: #512ad5;
+        --tag-bg-hover: rgba(81, 42, 213, 0.10);
+        --tag-prefix-hover: #512ad5;
+      " href="/t/dotnet"><span class="crayons-tag__prefix">#</span>dotnet</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/josh_blair/multi-tenant-auth-with-cognito-and-postgresql-row-level-security-part-2-5d30#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Multi-Tenant Auth with Cognito and PostgreSQL Row-Level Security (Part 2)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="artsag7vstllha5dyl1q6d3g3qc38neb" class="crayons-icon"><title id="artsag7vstllha5dyl1q6d3g3qc38neb">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            7 min read
+          </small>
+            <button type="button" id="article-save-button-3712751" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3712751" data-article-author-id="100411" aria-label="Save post Multi-Tenant Auth with Cognito and PostgreSQL Row-Level Security (Part 2) to reading list" title="Save post Multi-Tenant Auth with Cognito and PostgreSQL Row-Level Security (Part 2) to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lambda Execution Roles Are Quietly Breaking Your Least Privilege Policy]]></title>
+        <id>https://dev.to/aws-builders/lambda-execution-roles-are-quietly-breaking-your-least-privilege-policy-2ldi</id>
+        <link href="https://dev.to/aws-builders/lambda-execution-roles-are-quietly-breaking-your-least-privilege-policy-2ldi"/>
+        <updated>2026-05-21T05:26:38.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/aws-builders/lambda-execution-roles-are-quietly-breaking-your-least-privilege-policy-2ldi" aria-labelledby="article-link-3713745" class="crayons-story__hidden-navigation-link">Lambda Execution Roles Are Quietly Breaking Your Least Privilege Policy</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/aws-builders">
+            <img alt="AWS Community Builders  logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F2794%2F88da75b6-aadd-4ea1-8083-ae2dfca8be94.png" class="crayons-logo__image" loading="lazy">
+          </a>
+
+          <a href="/tanseer" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3901526%2Faae5933f-439d-4185-ad46-10b5e922d96c.jpg" alt="tanseer profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/tanseer" class="crayons-story__secondary fw-medium m:hidden">
+              Tanseer
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3713745" aria-controls="story-author-preview-content-3713745" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Tanseer profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Tanseer
+                
+              </button>
+              <div id="story-author-preview-content-3713745" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/tanseer" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3901526%2Faae5933f-439d-4185-ad46-10b5e922d96c.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Tanseer</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3901526,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Tanseer&quot;}" data-fetched="fetched" aria-label="Follow user: Tanseer" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3901526"></div>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/aws-builders" class="crayons-story__secondary fw-medium">AWS Community Builders </a>
+            </span>
+          </div>
+          <a href="https://dev.to/aws-builders/lambda-execution-roles-are-quietly-breaking-your-least-privilege-policy-2ldi" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-21T05:26:38Z" title="">May 21</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779341198"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/aws-builders/lambda-execution-roles-are-quietly-breaking-your-least-privilege-policy-2ldi" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqy1dd8u74pif0fgcs0uj.png" id="article-link-3713745">
+          Lambda Execution Roles Are Quietly Breaking Your Least Privilege Policy
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(28, 28, 28, 0.10);
+        --tag-prefix: #1C1C1C;
+        --tag-bg-hover: rgba(28, 28, 28, 0.10);
+        --tag-prefix-hover: #1C1C1C;
+      " href="/t/serverless"><span class="crayons-tag__prefix">#</span>serverless</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/lambda"><span class="crayons-tag__prefix">#</span>lambda</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/aws-builders/lambda-execution-roles-are-quietly-breaking-your-least-privilege-policy-2ldi#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Lambda Execution Roles Are Quietly Breaking Your Least Privilege Policy">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a6ac97v3wej30cny0uxj2fdomeq88ia6" class="crayons-icon"><title id="a6ac97v3wej30cny0uxj2fdomeq88ia6">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            6 min read
+          </small>
+            <button type="button" id="article-save-button-3713745" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3713745" data-article-author-id="3901526" aria-label="Save post Lambda Execution Roles Are Quietly Breaking Your Least Privilege Policy to reading list" title="Save post Lambda Execution Roles Are Quietly Breaking Your Least Privilege Policy to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Per-Pod NetworkPolicy in Practice: Migrating Five Agents in a Day]]></title>
+        <id>https://dev.to/luckypipewrench/per-pod-networkpolicy-in-practice-migrating-five-agents-in-a-day-35hh</id>
+        <link href="https://dev.to/luckypipewrench/per-pod-networkpolicy-in-practice-migrating-five-agents-in-a-day-35hh"/>
+        <updated>2026-05-21T00:02:04.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/luckypipewrench/per-pod-networkpolicy-in-practice-migrating-five-agents-in-a-day-35hh" aria-labelledby="article-link-3712380" class="crayons-story__hidden-navigation-link">Per-Pod NetworkPolicy in Practice: Migrating Five Agents in a Day</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/luckypipewrench" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3760698%2Fbbfa2dcd-ec2e-4074-8eb4-bee0a7907f2b.jpg" alt="luckypipewrench profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/luckypipewrench" class="crayons-story__secondary fw-medium m:hidden">
+              Josh Waldrep
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3712380" aria-controls="story-author-preview-content-3712380" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Josh Waldrep profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Josh Waldrep
+                
+              </button>
+              <div id="story-author-preview-content-3712380" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/luckypipewrench" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3760698%2Fbbfa2dcd-ec2e-4074-8eb4-bee0a7907f2b.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Josh Waldrep</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3760698,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Josh Waldrep&quot;}" data-fetched="fetched" aria-label="Follow user: Josh Waldrep" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3760698"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/luckypipewrench/per-pod-networkpolicy-in-practice-migrating-five-agents-in-a-day-35hh" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-21T00:02:04Z" title="">May 21</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779321724"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/luckypipewrench/per-pod-networkpolicy-in-practice-migrating-five-agents-in-a-day-35hh" data-preload-image="" id="article-link-3712380">
+          Per-Pod NetworkPolicy in Practice: Migrating Five Agents in a Day
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/luckypipewrench/per-pod-networkpolicy-in-practice-migrating-five-agents-in-a-day-35hh#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Per-Pod NetworkPolicy in Practice: Migrating Five Agents in a Day">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anj9yl5qk7ehez4zmh7t3deeis2vhg" class="crayons-icon"><title id="anj9yl5qk7ehez4zmh7t3deeis2vhg">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            8 min read
+          </small>
+            <button type="button" id="article-save-button-3712380" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3712380" data-article-author-id="3760698" aria-label="Save post Per-Pod NetworkPolicy in Practice: Migrating Five Agents in a Day to reading list" title="Save post Per-Pod NetworkPolicy in Practice: Migrating Five Agents in a Day to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -219,7 +558,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/raju_dandigam/your-ai-agent-has-a-supply-chain-securing-nodejs-apps-with-docker-hardened-images-1ede#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your AI Agent Has a Supply Chain: Securing Node.js Apps with Docker Hardened Images">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahxwt1qlsmrf2oabucfp7h1wtj9g7tko" class="crayons-icon"><title id="ahxwt1qlsmrf2oabucfp7h1wtj9g7tko">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1vulb326cynbe8otbzn1bcar66jpf5c" class="crayons-icon"><title id="a1vulb326cynbe8otbzn1bcar66jpf5c">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -228,7 +567,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             8 min read
           </small>
-            <button type="button" id="article-save-button-3712175" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3712175" data-article-author-id="1726463" aria-label="Save post Your AI Agent Has a Supply Chain: Securing Node.js Apps with Docker Hardened Images to reading list" title="Save post Your AI Agent Has a Supply Chain: Securing Node.js Apps with Docker Hardened Images to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3712175" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3712175" data-article-author-id="1726463" aria-label="Save post Your AI Agent Has a Supply Chain: Securing Node.js Apps with Docker Hardened Images to reading list" title="Save post Your AI Agent Has a Supply Chain: Securing Node.js Apps with Docker Hardened Images to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -330,7 +669,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/alanwest/how-to-stop-accidentally-committing-aws-keys-to-github-14kn#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How to Stop Accidentally Committing AWS Keys to GitHub">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="adkm1otf57l1psd8ow458klq5h3ht6xk" class="crayons-icon"><title id="adkm1otf57l1psd8ow458klq5h3ht6xk">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="am6u48le9yc0027mxanazx0s69wzpoj5" class="crayons-icon"><title id="am6u48le9yc0027mxanazx0s69wzpoj5">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -339,7 +678,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             5 min read
           </small>
-            <button type="button" id="article-save-button-3711867" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3711867" data-article-author-id="3834047" aria-label="Save post How to Stop Accidentally Committing AWS Keys to GitHub to reading list" title="Save post How to Stop Accidentally Committing AWS Keys to GitHub to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3711867" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3711867" data-article-author-id="3834047" aria-label="Save post How to Stop Accidentally Committing AWS Keys to GitHub to reading list" title="Save post How to Stop Accidentally Committing AWS Keys to GitHub to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -441,7 +780,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/x4nent/istio-130-deep-dive-agentgateway-ambient-multicluster-trafficextension-api-and-4-cve-patches-431d#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Istio 1.30 Deep Dive — Agentgateway, Ambient Multicluster, TrafficExtension API, and 4 CVE Patches (JWKS RSA Leak, XDS Debug Auth)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2fpl6zhtw26dm2hw91m6a7wpcd1kewc" class="crayons-icon"><title id="a2fpl6zhtw26dm2hw91m6a7wpcd1kewc">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akzmtwyesjesawykhs50qne6z9dwe39x" class="crayons-icon"><title id="akzmtwyesjesawykhs50qne6z9dwe39x">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -450,340 +789,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             11 min read
           </small>
-            <button type="button" id="article-save-button-3712438" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3712438" data-article-author-id="3847714" aria-label="Save post Istio 1.30 Deep Dive — Agentgateway, Ambient Multicluster, TrafficExtension API, and 4 CVE Patches (JWKS RSA Leak, XDS Debug Auth) to reading list" title="Save post Istio 1.30 Deep Dive — Agentgateway, Ambient Multicluster, TrafficExtension API, and 4 CVE Patches (JWKS RSA Leak, XDS Debug Auth) to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stop Running LLM Workloads on Vanilla Kubernetes]]></title>
-        <id>https://dev.to/mateenali66/stop-running-llm-workloads-on-vanilla-kubernetes-4bke</id>
-        <link href="https://dev.to/mateenali66/stop-running-llm-workloads-on-vanilla-kubernetes-4bke"/>
-        <updated>2026-05-20T19:44:34.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/mateenali66/stop-running-llm-workloads-on-vanilla-kubernetes-4bke" aria-labelledby="article-link-3711420" class="crayons-story__hidden-navigation-link">Stop Running LLM Workloads on Vanilla Kubernetes</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/mateenali66" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3644604%2F79a9c96c-74eb-4675-9e33-f32d208b4d1b.jpg" alt="mateenali66 profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/mateenali66" class="crayons-story__secondary fw-medium m:hidden">
-              Mateen Anjum
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3711420" aria-controls="story-author-preview-content-3711420" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Mateen Anjum profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Mateen Anjum
-                
-              </button>
-              <div id="story-author-preview-content-3711420" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/mateenali66" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3644604%2F79a9c96c-74eb-4675-9e33-f32d208b4d1b.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Mateen Anjum</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3644604,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Mateen Anjum&quot;}" data-fetched="fetched" aria-label="Follow user: Mateen Anjum" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3644604"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/mateenali66/stop-running-llm-workloads-on-vanilla-kubernetes-4bke" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-20T19:44:34Z" title="">May 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779306274"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/mateenali66/stop-running-llm-workloads-on-vanilla-kubernetes-4bke" data-preload-image="" id="article-link-3711420">
-          Stop Running LLM Workloads on Vanilla Kubernetes
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/llm"><span class="crayons-tag__prefix">#</span>llm</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(50, 109, 230, 0.10);
-        --tag-prefix: #326de6;
-        --tag-bg-hover: rgba(50, 109, 230, 0.10);
-        --tag-prefix-hover: #326de6;
-      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/mateenali66/stop-running-llm-workloads-on-vanilla-kubernetes-4bke#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Stop Running LLM Workloads on Vanilla Kubernetes">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="atq1amlao0s9xhkmy8307h3oqi16dtn9" class="crayons-icon"><title id="atq1amlao0s9xhkmy8307h3oqi16dtn9">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
-          </small>
-            <button type="button" id="article-save-button-3711420" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3711420" data-article-author-id="3644604" aria-label="Save post Stop Running LLM Workloads on Vanilla Kubernetes to reading list" title="Save post Stop Running LLM Workloads on Vanilla Kubernetes to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Eu parei de rodar agentes de IA direto no meu WSL: usando Dev Containers + gVisor com Claude Code e Codex]]></title>
-        <id>https://dev.to/mffdeo/eu-parei-de-rodar-agentes-de-ia-direto-no-meu-wsl-usando-dev-containers-gvisor-com-claude-code-e-3cob</id>
-        <link href="https://dev.to/mffdeo/eu-parei-de-rodar-agentes-de-ia-direto-no-meu-wsl-usando-dev-containers-gvisor-com-claude-code-e-3cob"/>
-        <updated>2026-05-20T17:28:28.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/mffdeo/eu-parei-de-rodar-agentes-de-ia-direto-no-meu-wsl-usando-dev-containers-gvisor-com-claude-code-e-3cob" aria-labelledby="article-link-3710923" class="crayons-story__hidden-navigation-link">Eu parei de rodar agentes de IA direto no meu WSL: usando Dev Containers + gVisor com Claude Code e Codex</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/mffdeo" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3844879%2F21f3266c-a7b0-4748-b36c-5609f28ca749.jpeg" alt="mffdeo profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/mffdeo" class="crayons-story__secondary fw-medium m:hidden">
-              Marcos Filipe
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3710923" aria-controls="story-author-preview-content-3710923" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Marcos Filipe profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Marcos Filipe
-                
-              </button>
-              <div id="story-author-preview-content-3710923" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/mffdeo" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3844879%2F21f3266c-a7b0-4748-b36c-5609f28ca749.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Marcos Filipe</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3844879,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Marcos Filipe&quot;}" data-fetched="fetched" aria-label="Follow user: Marcos Filipe" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3844879"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/mffdeo/eu-parei-de-rodar-agentes-de-ia-direto-no-meu-wsl-usando-dev-containers-gvisor-com-claude-code-e-3cob" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-20T17:28:28Z" title="">May 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779298108"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/mffdeo/eu-parei-de-rodar-agentes-de-ia-direto-no-meu-wsl-usando-dev-containers-gvisor-com-claude-code-e-3cob" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9b6vi38rg86pmij8jkb8.png" id="article-link-3710923">
-          Eu parei de rodar agentes de IA direto no meu WSL: usando Dev Containers + gVisor com Claude Code e Codex
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(194, 0, 0, 0.10);
-        --tag-prefix: #c20000;
-        --tag-bg-hover: rgba(194, 0, 0, 0.10);
-        --tag-prefix-hover: #c20000;
-      " href="/t/claude"><span class="crayons-tag__prefix">#</span>claude</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(29, 99, 237, 0.10);
-        --tag-prefix: #1D63ED;
-        --tag-bg-hover: rgba(29, 99, 237, 0.10);
-        --tag-prefix-hover: #1D63ED;
-      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/mffdeo/eu-parei-de-rodar-agentes-de-ia-direto-no-meu-wsl-usando-dev-containers-gvisor-com-claude-code-e-3cob#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Eu parei de rodar agentes de IA direto no meu WSL: usando Dev Containers + gVisor com Claude Code e Codex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a91y2m218dz4qag15nngg3440i9kua5g" class="crayons-icon"><title id="a91y2m218dz4qag15nngg3440i9kua5g">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            7 min read
-          </small>
-            <button type="button" id="article-save-button-3710923" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3710923" data-article-author-id="3844879" aria-label="Save post Eu parei de rodar agentes de IA direto no meu WSL: usando Dev Containers + gVisor com Claude Code e Codex to reading list" title="Save post Eu parei de rodar agentes de IA direto no meu WSL: usando Dev Containers + gVisor com Claude Code e Codex to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes End-of-Life Dates — Official EOL Schedule for Every Version]]></title>
-        <id>https://dev.to/endoflifeai/kubernetes-end-of-life-dates-official-eol-schedule-for-every-version-58l9</id>
-        <link href="https://dev.to/endoflifeai/kubernetes-end-of-life-dates-official-eol-schedule-for-every-version-58l9"/>
-        <updated>2026-05-20T20:14:47.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/endoflifeai/kubernetes-end-of-life-dates-official-eol-schedule-for-every-version-58l9" aria-labelledby="article-link-3711523" class="crayons-story__hidden-navigation-link">Kubernetes End-of-Life Dates — Official EOL Schedule for Every Version</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/endoflifeai" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3921242%2Fb89c05cb-aee1-49c6-b4b9-11d2c94028a8.png" alt="endoflifeai profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/endoflifeai" class="crayons-story__secondary fw-medium m:hidden">
-              endoflife-ai
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3711523" aria-controls="story-author-preview-content-3711523" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="endoflife-ai profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                endoflife-ai
-                
-              </button>
-              <div id="story-author-preview-content-3711523" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/endoflifeai" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3921242%2Fb89c05cb-aee1-49c6-b4b9-11d2c94028a8.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">endoflife-ai</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3921242,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;endoflife-ai&quot;}" data-fetched="fetched" aria-label="Follow user: endoflife-ai" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3921242"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/endoflifeai/kubernetes-end-of-life-dates-official-eol-schedule-for-every-version-58l9" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-20T20:14:47Z" title="">May 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779308087"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/endoflifeai/kubernetes-end-of-life-dates-official-eol-schedule-for-every-version-58l9" data-preload-image="" id="article-link-3711523">
-          Kubernetes End-of-Life Dates — Official EOL Schedule for Every Version
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(50, 109, 230, 0.10);
-        --tag-prefix: #326de6;
-        --tag-bg-hover: rgba(50, 109, 230, 0.10);
-        --tag-prefix-hover: #326de6;
-      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudnative"><span class="crayons-tag__prefix">#</span>cloudnative</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/endoflifeai/kubernetes-end-of-life-dates-official-eol-schedule-for-every-version-58l9#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Kubernetes End-of-Life Dates — Official EOL Schedule for Every Version">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apa66sdsmt28txgcgmlqsepkl096tssi" class="crayons-icon"><title id="apa66sdsmt28txgcgmlqsepkl096tssi">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
-          </small>
-            <button type="button" id="article-save-button-3711523" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3711523" data-article-author-id="3921242" aria-label="Save post Kubernetes End-of-Life Dates — Official EOL Schedule for Every Version to reading list" title="Save post Kubernetes End-of-Life Dates — Official EOL Schedule for Every Version to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3712438" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3712438" data-article-author-id="3847714" aria-label="Save post Istio 1.30 Deep Dive — Agentgateway, Ambient Multicluster, TrafficExtension API, and 4 CVE Patches (JWKS RSA Leak, XDS Debug Auth) to reading list" title="Save post Istio 1.30 Deep Dive — Agentgateway, Ambient Multicluster, TrafficExtension API, and 4 CVE Patches (JWKS RSA Leak, XDS Debug Auth) to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
