@@ -2,22 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://olearysec.com/research/</id>
     <title>olearysec</title>
-    <updated>2026-05-22T16:10:43.318Z</updated>
+    <updated>2026-05-22T18:22:31.057Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://olearysec.com/favicon.svg</icon>
     <entry>
-        <title type="html"><![CDATA[GKE Fleet Hub Lets You Grant Kubernetes Admin to Email Addresses That Don't Exist]]></title>
-        <id>https://olearysec.com/research/gke-fleet-hub-rbac-confused-deputy/</id>
-        <link href="https://olearysec.com/research/gke-fleet-hub-rbac-confused-deputy/"/>
-        <updated>2026-05-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://olearysec.com/research/gke-fleet-hub-rbac-confused-deputy/" class="research-card"><div class="research-card-content"><h3>GKE Fleet Hub Lets You Grant Kubernetes Admin to Email Addresses That Don't Exist</h3><p class="excerpt">A GCP identity with Fleet management roles can grant Kubernetes namespace admin to arbitrary emails — including nonexistent domains — across every cluster in a Fleet scope. Google marked the related finding Won't Fix.</p><div class="research-card-meta"><span class="meta-item">May 22, 2026</span>
-<span class="meta-item">Google</span></div></div><div class="research-card-side"><span class="severity severity-critical">Critical</span>
-<span class="cvss">9.6</span></div></a><a href="https://olearysec.com/research/gke-fleet-hub-draft/" class="research-card"><div class="research-card-content"><h3>Google Grants Cluster-Admin to Anyone Who Can Impersonate a Service Account</h3><p class="excerpt">GKE Fleet registration creates a hidden trust bridge from GCP IAM to Kubernetes RBAC. Anyone with serviceAccountTokenCreator on the Hub SA gets cluster-admin on every registered cluster. Google closed this as Intended Behavior.</p><div class="research-card-meta"><span class="meta-item">May 21, 2026</span>
-<span class="meta-item">Google Cloud</span>
-<span class="meta-item">Pending</span></div></div><div class="research-card-side"><span class="severity severity-critical">Critical</span>
-<span class="cvss">9.9</span></div></a><a href="https://olearysec.com/research/azure-backup-aks-silent-patch/" class="research-card"><div class="research-card-content"><h3>Microsoft Silently Patched a CVSS 9.9 Privilege Escalation in Azure Backup for AKS</h3><p class="excerpt">CERT/CC validated a critical privilege escalation in Azure Backup for AKS (VU#284781). Microsoft rejected it, then silently patched it without assigning a CVE or notifying customers.</p><div class="research-card-meta"><span class="meta-item">May 12, 2026</span>
-<span class="meta-item">Microsoft</span>
-<span class="meta-item">None (vendor rejected)</span></div></div><div class="research-card-side"><span class="severity severity-critical">Critical</span>
-<span class="cvss">9.9</span></div></a>]]></content>
+        <title type="html"><![CDATA[Microsoft Silently Patched a CVSS 9.9 Privilege Escalation in Azure Backup for AKS]]></title>
+        <id>https://olearysec.com/research/azure-backup-aks-silent-patch/</id>
+        <link href="https://olearysec.com/research/azure-backup-aks-silent-patch/"/>
+        <updated>2026-05-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://olearysec.com/research/azure-backup-aks-silent-patch/" class="research-card">
+            <div class="research-card-content">
+                <h3>Microsoft Silently Patched a CVSS 9.9 Privilege Escalation in Azure Backup for AKS</h3>
+                <p class="excerpt">CERT/CC validated a critical privilege escalation in Azure Backup for AKS (VU#284781). Microsoft rejected it, then silently patched it without assigning a CVE or notifying customers.</p>
+                <div class="research-card-meta">
+                    <span class="meta-item">May 12, 2026</span>
+                    <span class="meta-item">Microsoft</span>
+                    <span class="meta-item">None (vendor rejected)</span>
+                </div>
+            </div>
+            <div class="research-card-side">
+                
+                <span class="severity severity-critical">Critical</span>
+                
+                
+                <span class="cvss">9.9</span>
+                
+            </div>
+        </a>]]></content>
     </entry>
 </feed>
