@@ -2,9 +2,235 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-22T21:50:15.667Z</updated>
+    <updated>2026-05-22T23:46:30.228Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[9 in 10 Docker Compose files skip the basic security flags]]></title>
+        <id>https://dev.to/tmatens/9-in-10-docker-compose-files-skip-the-basic-security-flags-2dpf</id>
+        <link href="https://dev.to/tmatens/9-in-10-docker-compose-files-skip-the-basic-security-flags-2dpf"/>
+        <updated>2026-05-22T22:48:21.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/tmatens/9-in-10-docker-compose-files-skip-the-basic-security-flags-2dpf" aria-labelledby="article-link-3728482" class="crayons-story__hidden-navigation-link">9 in 10 Docker Compose files skip the basic security flags</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/tmatens" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3946817%2F30ab95dc-17d7-4d40-9619-d451224e9093.png" alt="tmatens profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/tmatens" class="crayons-story__secondary fw-medium m:hidden">
+              Todd Matens
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3728482" aria-controls="story-author-preview-content-3728482" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Todd Matens profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Todd Matens
+                
+              </button>
+              <div id="story-author-preview-content-3728482" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/tmatens" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3946817%2F30ab95dc-17d7-4d40-9619-d451224e9093.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Todd Matens</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3946817,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Todd Matens&quot;}" data-fetched="fetched" aria-label="Follow user: Todd Matens" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3946817"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/tmatens/9-in-10-docker-compose-files-skip-the-basic-security-flags-2dpf" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-22T22:48:21Z" title="">May 22</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779490101"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/tmatens/9-in-10-docker-compose-files-skip-the-basic-security-flags-2dpf" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffu11nhfdv6efwqh1s0rz.png" id="article-link-3728482">
+          9 in 10 Docker Compose files skip the basic security flags
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/containers"><span class="crayons-tag__prefix">#</span>containers</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(38, 190, 0, 0.10);
+        --tag-prefix: #26BE00;
+        --tag-bg-hover: rgba(38, 190, 0, 0.10);
+        --tag-prefix-hover: #26BE00;
+      " href="/t/opensource"><span class="crayons-tag__prefix">#</span>opensource</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/tmatens/9-in-10-docker-compose-files-skip-the-basic-security-flags-2dpf" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3728482" aria-label="Add a comment to post - 9 in 10 Docker Compose files skip the basic security flags">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/tmatens/9-in-10-docker-compose-files-skip-the-basic-security-flags-2dpf#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 9 in 10 Docker Compose files skip the basic security flags">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5ck61cpbc8cpy9ybeizwazg92pd3g2n" class="crayons-icon"><title id="a5ck61cpbc8cpy9ybeizwazg92pd3g2n">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            8 min read
+          </small>
+            <button type="button" id="article-save-button-3728482" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3728482" data-article-author-id="3946817" aria-label="Save post 9 in 10 Docker Compose files skip the basic security flags to reading list" title="Save post 9 in 10 Docker Compose files skip the basic security flags to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Security CTF, GitHub CI/CD Supply Chain Attack, & Trend Micro Apex One Zero-Day]]></title>
+        <id>https://dev.to/soytuber/ai-security-ctf-github-cicd-supply-chain-attack-trend-micro-apex-one-zero-day-795</id>
+        <link href="https://dev.to/soytuber/ai-security-ctf-github-cicd-supply-chain-attack-trend-micro-apex-one-zero-day-795"/>
+        <updated>2026-05-22T21:36:39.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/soytuber/ai-security-ctf-github-cicd-supply-chain-attack-trend-micro-apex-one-zero-day-795" aria-labelledby="article-link-3728342" class="crayons-story__hidden-navigation-link">AI Security CTF, GitHub CI/CD Supply Chain Attack, &amp; Trend Micro Apex One Zero-Day</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/soytuber" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3812665%2F761376f9-10b8-4c2c-b6cb-af00f9fa48ab.jpeg" alt="soytuber profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/soytuber" class="crayons-story__secondary fw-medium m:hidden">
+              soy
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3728342" aria-controls="story-author-preview-content-3728342" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="soy profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                soy
+                
+              </button>
+              <div id="story-author-preview-content-3728342" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/soytuber" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3812665%2F761376f9-10b8-4c2c-b6cb-af00f9fa48ab.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">soy</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3812665,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;soy&quot;}" data-fetched="fetched" aria-label="Follow user: soy" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3812665"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/soytuber/ai-security-ctf-github-cicd-supply-chain-attack-trend-micro-apex-one-zero-day-795" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-22T21:36:39Z" title="">May 22</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779485799"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/soytuber/ai-security-ctf-github-cicd-supply-chain-attack-trend-micro-apex-one-zero-day-795" data-preload-image="" id="article-link-3728342">
+          AI Security CTF, GitHub CI/CD Supply Chain Attack, &amp; Trend Micro Apex One Zero-Day
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(227, 255, 0, 0.10);
+        --tag-prefix: #e3ff00;
+        --tag-bg-hover: rgba(227, 255, 0, 0.10);
+        --tag-prefix-hover: #e3ff00;
+      " href="/t/cybersecurity"><span class="crayons-tag__prefix">#</span>cybersecurity</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/vulnerability"><span class="crayons-tag__prefix">#</span>vulnerability</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/soytuber/ai-security-ctf-github-cicd-supply-chain-attack-trend-micro-apex-one-zero-day-795#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AI Security CTF, GitHub CI/CD Supply Chain Attack, &amp; Trend Micro Apex One Zero-Day">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ae44f51j9ssv3umuiqomd39nn7hn84xr" class="crayons-icon"><title id="ae44f51j9ssv3umuiqomd39nn7hn84xr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3728342" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3728342" data-article-author-id="3812665" aria-label="Save post AI Security CTF, GitHub CI/CD Supply Chain Attack, &amp; Trend Micro Apex One Zero-Day to reading list" title="Save post AI Security CTF, GitHub CI/CD Supply Chain Attack, &amp; Trend Micro Apex One Zero-Day to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Building an Amazon EKS Security Baseline]]></title>
         <id>https://dev.to/bansikah/building-an-amazon-eks-security-baseline-jo5</id>
@@ -92,7 +318,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/bansikah/building-an-amazon-eks-security-baseline-jo5#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building an Amazon EKS Security Baseline">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akkf8pevee7ubpuzxk6dgixq7w5cmbt" class="crayons-icon"><title id="akkf8pevee7ubpuzxk6dgixq7w5cmbt">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aokqh6uhfm731q7vrlqldgw2h6in9on5" class="crayons-icon"><title id="aokqh6uhfm731q7vrlqldgw2h6in9on5">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -203,7 +429,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/moshe_io/your-ai-coding-assistant-is-sending-your-code-to-the-cloud-does-it-have-to-4dia#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your AI Coding Assistant Is Sending Your Code to the Cloud. Does It Have To?">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="asjam8td1fegytsn53umqzt5irrjmyfg" class="crayons-icon"><title id="asjam8td1fegytsn53umqzt5irrjmyfg">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abvt1pajbp8wk0jv1fuee3st3wfwrjl8" class="crayons-icon"><title id="abvt1pajbp8wk0jv1fuee3st3wfwrjl8">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -213,117 +439,6 @@
             5 min read
           </small>
             <button type="button" id="article-save-button-3728130" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3728130" data-article-author-id="3705784" aria-label="Save post Your AI Coding Assistant Is Sending Your Code to the Cloud. Does It Have To? to reading list" title="Save post Your AI Coding Assistant Is Sending Your Code to the Cloud. Does It Have To? to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Backup: Resiliencia ante Desastres y Ransomware (en español sencillo)]]></title>
-        <id>https://dev.to/pangoro24/aws-backup-resiliencia-ante-desastres-y-ransomware-en-espanol-sencillo-4jh5</id>
-        <link href="https://dev.to/pangoro24/aws-backup-resiliencia-ante-desastres-y-ransomware-en-espanol-sencillo-4jh5"/>
-        <updated>2026-05-22T18:40:26.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/pangoro24/aws-backup-resiliencia-ante-desastres-y-ransomware-en-espanol-sencillo-4jh5" aria-labelledby="article-link-3673883" class="crayons-story__hidden-navigation-link">AWS Backup: Resiliencia ante Desastres y Ransomware (en español sencillo)</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/pangoro24" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F708573%2Fcb3abf57-c553-4245-8691-263df3743399.png" alt="pangoro24 profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/pangoro24" class="crayons-story__secondary fw-medium m:hidden">
-              Pablo Gonzalez Robles
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3673883" aria-controls="story-author-preview-content-3673883" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Pablo Gonzalez Robles profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Pablo Gonzalez Robles
-                
-              </button>
-              <div id="story-author-preview-content-3673883" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/pangoro24" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F708573%2Fcb3abf57-c553-4245-8691-263df3743399.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Pablo Gonzalez Robles</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:708573,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Pablo Gonzalez Robles&quot;}" data-fetched="fetched" aria-label="Follow user: Pablo Gonzalez Robles" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="708573"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/pangoro24/aws-backup-resiliencia-ante-desastres-y-ransomware-en-espanol-sencillo-4jh5" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-22T18:40:26Z" title="">May 22</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779475226"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/pangoro24/aws-backup-resiliencia-ante-desastres-y-ransomware-en-espanol-sencillo-4jh5" data-preload-image="" id="article-link-3673883">
-          AWS Backup: Resiliencia ante Desastres y Ransomware (en español sencillo)
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 131, 53, 0.10);
-        --tag-prefix: #008335;
-        --tag-bg-hover: rgba(0, 131, 53, 0.10);
-        --tag-prefix-hover: #008335;
-      " href="/t/beginners"><span class="crayons-tag__prefix">#</span>beginners</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(252, 179, 24, 0.10);
-        --tag-prefix: #fcb318;
-        --tag-bg-hover: rgba(252, 179, 24, 0.10);
-        --tag-prefix-hover: #fcb318;
-      " href="/t/spanish"><span class="crayons-tag__prefix">#</span>spanish</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/pangoro24/aws-backup-resiliencia-ante-desastres-y-ransomware-en-espanol-sencillo-4jh5#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS Backup: Resiliencia ante Desastres y Ransomware (en español sencillo)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a861uiy8oa7qmvwer88nzexr65ou4u5f" class="crayons-icon"><title id="a861uiy8oa7qmvwer88nzexr65ou4u5f">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
-          </small>
-            <button type="button" id="article-save-button-3673883" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3673883" data-article-author-id="708573" aria-label="Save post AWS Backup: Resiliencia ante Desastres y Ransomware (en español sencillo) to reading list" title="Save post AWS Backup: Resiliencia ante Desastres y Ransomware (en español sencillo) to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
