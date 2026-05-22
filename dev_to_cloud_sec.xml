@@ -2,120 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-22T01:38:16.994Z</updated>
+    <updated>2026-05-22T05:46:49.277Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
-    <entry>
-        <title type="html"><![CDATA[What It Actually Takes to Audit Aurora PostgreSQL on AWS]]></title>
-        <id>https://dev.to/pranay_raavi/what-it-actually-takes-to-audit-aurora-postgresql-on-aws-l7j</id>
-        <link href="https://dev.to/pranay_raavi/what-it-actually-takes-to-audit-aurora-postgresql-on-aws-l7j"/>
-        <updated>2026-05-21T23:28:33.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/pranay_raavi/what-it-actually-takes-to-audit-aurora-postgresql-on-aws-l7j" aria-labelledby="article-link-3720708" class="crayons-story__hidden-navigation-link">What It Actually Takes to Audit Aurora PostgreSQL on AWS</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/pranay_raavi" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3372066%2F5ac87370-81a3-4df2-a2b2-6e46f3c4ede8.jpg" alt="pranay_raavi profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/pranay_raavi" class="crayons-story__secondary fw-medium m:hidden">
-              Pranay ravi
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3720708" aria-controls="story-author-preview-content-3720708" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Pranay ravi profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Pranay ravi
-                
-              </button>
-              <div id="story-author-preview-content-3720708" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/pranay_raavi" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3372066%2F5ac87370-81a3-4df2-a2b2-6e46f3c4ede8.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Pranay ravi</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3372066,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Pranay ravi&quot;}" data-fetched="fetched" aria-label="Follow user: Pranay ravi" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3372066"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/pranay_raavi/what-it-actually-takes-to-audit-aurora-postgresql-on-aws-l7j" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-21T23:28:33Z" title="">May 21</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779406113"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/pranay_raavi/what-it-actually-takes-to-audit-aurora-postgresql-on-aws-l7j" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcyirtmu21tf6xeg30nny.png" id="article-link-3720708">
-          What It Actually Takes to Audit Aurora PostgreSQL on AWS
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(237, 21, 86, 0.10);
-        --tag-prefix: #ED1556;
-        --tag-bg-hover: rgba(237, 21, 86, 0.10);
-        --tag-prefix-hover: #ED1556;
-      " href="/t/postgres"><span class="crayons-tag__prefix">#</span>postgres</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/pranay_raavi/what-it-actually-takes-to-audit-aurora-postgresql-on-aws-l7j#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - What It Actually Takes to Audit Aurora PostgreSQL on AWS">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8g857uez71vm75p6zbpg01eev473mkr" class="crayons-icon"><title id="a8g857uez71vm75p6zbpg01eev473mkr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            7 min read
-          </small>
-            <button type="button" id="article-save-button-3720708" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3720708" data-article-author-id="3372066" aria-label="Save post What It Actually Takes to Audit Aurora PostgreSQL on AWS to reading list" title="Save post What It Actually Takes to Audit Aurora PostgreSQL on AWS to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Security Is Important. Automate It]]></title>
         <id>https://dev.to/nicolas_vbgh/security-is-important-automate-it-5ekg</id>
@@ -213,7 +102,7 @@
             </div>
           </a>
             <a href="https://dev.to/nicolas_vbgh/security-is-important-automate-it-5ekg#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Security Is Important. Automate It">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anbh8kz89ceyaiojk5plrjxm746ilcnq" class="crayons-icon"><title id="anbh8kz89ceyaiojk5plrjxm746ilcnq">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a47epuf07lrfx2s7pj60gzgtcoqktbwu" class="crayons-icon"><title id="a47epuf07lrfx2s7pj60gzgtcoqktbwu">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -324,7 +213,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/dwoitzik/nis2-article-21-in-azure-implementing-network-security-controls-with-terraform-3idl#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - NIS2 Article 21 in Azure: Implementing Network Security Controls with Terraform">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1ow3bjjbdn67ap720cgp550o696ke6d" class="crayons-icon"><title id="a1ow3bjjbdn67ap720cgp550o696ke6d">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apdhv6as7navhf69xm9oo06i9rufhn4f" class="crayons-icon"><title id="apdhv6as7navhf69xm9oo06i9rufhn4f">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
