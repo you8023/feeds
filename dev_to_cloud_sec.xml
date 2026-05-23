@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-23T04:23:12.710Z</updated>
+    <updated>2026-05-23T07:22:04.320Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Why your vulnerability dashboard is lying to you (and how to fix it)]]></title>
+        <id>https://dev.to/apurv_tyagi_5e3b073593430/why-your-vulnerability-dashboard-is-lying-to-you-and-how-to-fix-it-ja7</id>
+        <link href="https://dev.to/apurv_tyagi_5e3b073593430/why-your-vulnerability-dashboard-is-lying-to-you-and-how-to-fix-it-ja7"/>
+        <updated>2026-05-23T04:30:20.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/apurv_tyagi_5e3b073593430/why-your-vulnerability-dashboard-is-lying-to-you-and-how-to-fix-it-ja7" aria-labelledby="article-link-3729927" class="crayons-story__hidden-navigation-link">Why your vulnerability dashboard is lying to you (and how to fix it)</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/apurv_tyagi_5e3b073593430" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2188556%2F4e4398fc-2720-441b-9aa9-76b11a467bc6.jpg" alt="apurv_tyagi_5e3b073593430 profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/apurv_tyagi_5e3b073593430" class="crayons-story__secondary fw-medium m:hidden">
+              Apurv Tyagi
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3729927" aria-controls="story-author-preview-content-3729927" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Apurv Tyagi profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Apurv Tyagi
+                
+              </button>
+              <div id="story-author-preview-content-3729927" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/apurv_tyagi_5e3b073593430" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2188556%2F4e4398fc-2720-441b-9aa9-76b11a467bc6.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Apurv Tyagi</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2188556,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Apurv Tyagi&quot;}" data-fetched="fetched" aria-label="Follow user: Apurv Tyagi" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="2188556"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/apurv_tyagi_5e3b073593430/why-your-vulnerability-dashboard-is-lying-to-you-and-how-to-fix-it-ja7" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-23T04:30:20Z" title="">May 23</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779510620"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/apurv_tyagi_5e3b073593430/why-your-vulnerability-dashboard-is-lying-to-you-and-how-to-fix-it-ja7" data-preload-image="" id="article-link-3729927">
+          Why your vulnerability dashboard is lying to you (and how to fix it)
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/devsecops"><span class="crayons-tag__prefix">#</span>devsecops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(30, 56, 187, 0.10);
+        --tag-prefix: #1E38BB;
+        --tag-bg-hover: rgba(30, 56, 187, 0.10);
+        --tag-prefix-hover: #1E38BB;
+      " href="/t/python"><span class="crayons-tag__prefix">#</span>python</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/apurv_tyagi_5e3b073593430/why-your-vulnerability-dashboard-is-lying-to-you-and-how-to-fix-it-ja7#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Why your vulnerability dashboard is lying to you (and how to fix it)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a34pddjusjg2r44u8lgvxd4vu0q5a3dx" class="crayons-icon"><title id="a34pddjusjg2r44u8lgvxd4vu0q5a3dx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            3 min read
+          </small>
+            <button type="button" id="article-save-button-3729927" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3729927" data-article-author-id="2188556" aria-label="Save post Why your vulnerability dashboard is lying to you (and how to fix it) to reading list" title="Save post Why your vulnerability dashboard is lying to you (and how to fix it) to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI Security CTF, GitHub CI/CD Supply Chain Attack, & Trend Micro Apex One Zero-Day]]></title>
         <id>https://dev.to/soytuber/ai-security-ctf-github-cicd-supply-chain-attack-trend-micro-apex-one-zero-day-795</id>
@@ -86,7 +197,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/soytuber/ai-security-ctf-github-cicd-supply-chain-attack-trend-micro-apex-one-zero-day-795#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AI Security CTF, GitHub CI/CD Supply Chain Attack, &amp; Trend Micro Apex One Zero-Day">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afag47qyx3cjm3a1x6xle8ecu4kiittz" class="crayons-icon"><title id="afag47qyx3cjm3a1x6xle8ecu4kiittz">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqpof4cohwg0i9fi3j2dh90yr7zy4jc3" class="crayons-icon"><title id="aqpof4cohwg0i9fi3j2dh90yr7zy4jc3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -96,117 +207,6 @@
             4 min read
           </small>
             <button type="button" id="article-save-button-3728342" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3728342" data-article-author-id="3812665" aria-label="Save post AI Security CTF, GitHub CI/CD Supply Chain Attack, &amp; Trend Micro Apex One Zero-Day to reading list" title="Save post AI Security CTF, GitHub CI/CD Supply Chain Attack, &amp; Trend Micro Apex One Zero-Day to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building an Amazon EKS Security Baseline]]></title>
-        <id>https://dev.to/bansikah/building-an-amazon-eks-security-baseline-jo5</id>
-        <link href="https://dev.to/bansikah/building-an-amazon-eks-security-baseline-jo5"/>
-        <updated>2026-05-22T17:20:07.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bansikah/building-an-amazon-eks-security-baseline-jo5" aria-labelledby="article-link-3727321" class="crayons-story__hidden-navigation-link">Building an Amazon EKS Security Baseline</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/bansikah" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F986646%2F61247089-46d8-4739-be45-f47d34d83d9f.jpeg" alt="bansikah profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bansikah" class="crayons-story__secondary fw-medium m:hidden">
-              Tandap Noel Bansikah
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3727321" aria-controls="story-author-preview-content-3727321" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Tandap Noel Bansikah profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Tandap Noel Bansikah
-                
-              </button>
-              <div id="story-author-preview-content-3727321" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bansikah" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F986646%2F61247089-46d8-4739-be45-f47d34d83d9f.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Tandap Noel Bansikah</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:986646,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Tandap Noel Bansikah&quot;}" data-fetched="fetched" aria-label="Follow user: Tandap Noel Bansikah" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="986646"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/bansikah/building-an-amazon-eks-security-baseline-jo5" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-22T17:20:07Z" title="">May 22</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779470407"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bansikah/building-an-amazon-eks-security-baseline-jo5" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb0xb0gnyvbf4f7r5wmeg.png" id="article-link-3727321">
-          Building an Amazon EKS Security Baseline
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(50, 109, 230, 0.10);
-        --tag-prefix: #326de6;
-        --tag-bg-hover: rgba(50, 109, 230, 0.10);
-        --tag-prefix-hover: #326de6;
-      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/bansikah/building-an-amazon-eks-security-baseline-jo5#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building an Amazon EKS Security Baseline">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ak6gy9bowfuh3m34cee78egicnez2zec" class="crayons-icon"><title id="ak6gy9bowfuh3m34cee78egicnez2zec">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            5 min read
-          </small>
-            <button type="button" id="article-save-button-3727321" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3727321" data-article-author-id="986646" aria-label="Save post Building an Amazon EKS Security Baseline to reading list" title="Save post Building an Amazon EKS Security Baseline to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
