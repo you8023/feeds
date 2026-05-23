@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-23T21:23:44.513Z</updated>
+    <updated>2026-05-23T22:21:53.717Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[The NSA just published an MCP security playbook. We created Agent Trust Transport Protocol ATTP - Implement today with MCPS]]></title>
+        <id>https://dev.to/razashariff/the-nsa-just-published-an-mcp-security-playbook-heres-the-ietf-spec-the-openapi-extension-and-28pa</id>
+        <link href="https://dev.to/razashariff/the-nsa-just-published-an-mcp-security-playbook-heres-the-ietf-spec-the-openapi-extension-and-28pa"/>
+        <updated>2026-05-23T18:26:54.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/razashariff/the-nsa-just-published-an-mcp-security-playbook-heres-the-ietf-spec-the-openapi-extension-and-28pa" aria-labelledby="article-link-3734909" class="crayons-story__hidden-navigation-link">The NSA just published an MCP security playbook. We created Agent Trust Transport Protocol ATTP - Implement today with MCPS</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/razashariff" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3817319%2F79b4944a-f4d6-4260-8f21-00d70f243baf.png" alt="razashariff profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/razashariff" class="crayons-story__secondary fw-medium m:hidden">
+              razashariff
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3734909" aria-controls="story-author-preview-content-3734909" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="razashariff profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                razashariff
+                
+              </button>
+              <div id="story-author-preview-content-3734909" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/razashariff" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3817319%2F79b4944a-f4d6-4260-8f21-00d70f243baf.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">razashariff</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3817319,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;razashariff&quot;}" data-fetched="fetched" aria-label="Follow user: razashariff" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3817319"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/razashariff/the-nsa-just-published-an-mcp-security-playbook-heres-the-ietf-spec-the-openapi-extension-and-28pa" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-23T18:26:54Z" title="">May 23</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779560814"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/razashariff/the-nsa-just-published-an-mcp-security-playbook-heres-the-ietf-spec-the-openapi-extension-and-28pa" data-preload-image="" id="article-link-3734909">
+          The NSA just published an MCP security playbook. We created Agent Trust Transport Protocol ATTP - Implement today with MCPS
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/mcp"><span class="crayons-tag__prefix">#</span>mcp</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/owasp"><span class="crayons-tag__prefix">#</span>owasp</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/razashariff/the-nsa-just-published-an-mcp-security-playbook-heres-the-ietf-spec-the-openapi-extension-and-28pa#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The NSA just published an MCP security playbook. We created Agent Trust Transport Protocol ATTP - Implement today with MCPS">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a55t3zuvtz2kfd8f4nuak8s53qt39xdd" class="crayons-icon"><title id="a55t3zuvtz2kfd8f4nuak8s53qt39xdd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+            <button type="button" id="article-save-button-3734909" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3734909" data-article-author-id="3817319" aria-label="Save post The NSA just published an MCP security playbook. We created Agent Trust Transport Protocol ATTP - Implement today with MCPS to reading list" title="Save post The NSA just published an MCP security playbook. We created Agent Trust Transport Protocol ATTP - Implement today with MCPS to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Beyond the Hype: My Production Playbook for Docker Swarm]]></title>
         <id>https://dev.to/amirsefati/beyond-the-hype-my-production-playbook-for-docker-swarm-54d8</id>
@@ -92,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/amirsefati/beyond-the-hype-my-production-playbook-for-docker-swarm-54d8#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Beyond the Hype: My Production Playbook for Docker Swarm">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="as72n53j2a98dkseqd85jsxalij90t4q" class="crayons-icon"><title id="as72n53j2a98dkseqd85jsxalij90t4q">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="acrskeur1d2mq5d9l9899u7bc3x6efkf" class="crayons-icon"><title id="acrskeur1d2mq5d9l9899u7bc3x6efkf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -101,128 +212,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             17 min read
           </small>
-            <button type="button" id="article-save-button-3733641" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3733641" data-article-author-id="161199" aria-label="Save post Beyond the Hype: My Production Playbook for Docker Swarm to reading list" title="Save post Beyond the Hype: My Production Playbook for Docker Swarm to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weekend Grind: Breaking the GUI Habit and Building a Scalable Cloud Fortress in Azure (Day 4 & 5)]]></title>
-        <id>https://dev.to/abhishek_kadlii_9ef4ca8bc/weekend-grind-breaking-the-gui-habit-and-building-a-scalable-cloud-fortress-in-azure-day-4-5-241o</id>
-        <link href="https://dev.to/abhishek_kadlii_9ef4ca8bc/weekend-grind-breaking-the-gui-habit-and-building-a-scalable-cloud-fortress-in-azure-day-4-5-241o"/>
-        <updated>2026-05-23T13:56:49.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/abhishek_kadlii_9ef4ca8bc/weekend-grind-breaking-the-gui-habit-and-building-a-scalable-cloud-fortress-in-azure-day-4-5-241o" aria-labelledby="article-link-3733261" class="crayons-story__hidden-navigation-link">Weekend Grind: Breaking the GUI Habit and Building a Scalable Cloud Fortress in Azure (Day 4 &amp; 5)</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/abhishek_kadlii_9ef4ca8bc" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3945536%2F543d54c3-f3c9-49ba-b4c1-f9d22f89ec15.jpg" alt="abhishek_kadlii_9ef4ca8bc profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/abhishek_kadlii_9ef4ca8bc" class="crayons-story__secondary fw-medium m:hidden">
-              Abhishek Kadlii
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3733261" aria-controls="story-author-preview-content-3733261" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Abhishek Kadlii profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Abhishek Kadlii
-                
-              </button>
-              <div id="story-author-preview-content-3733261" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/abhishek_kadlii_9ef4ca8bc" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3945536%2F543d54c3-f3c9-49ba-b4c1-f9d22f89ec15.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Abhishek Kadlii</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3945536,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Abhishek Kadlii&quot;}" data-fetched="fetched" aria-label="Follow user: Abhishek Kadlii" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3945536"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/abhishek_kadlii_9ef4ca8bc/weekend-grind-breaking-the-gui-habit-and-building-a-scalable-cloud-fortress-in-azure-day-4-5-241o" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-23T13:56:49Z" title="">May 23</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779544609"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/abhishek_kadlii_9ef4ca8bc/weekend-grind-breaking-the-gui-habit-and-building-a-scalable-cloud-fortress-in-azure-day-4-5-241o" data-preload-image="" id="article-link-3733261">
-          Weekend Grind: Breaking the GUI Habit and Building a Scalable Cloud Fortress in Azure (Day 4 &amp; 5)
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 127, 255, 0.10);
-        --tag-prefix: #007fff;
-        --tag-bg-hover: rgba(0, 127, 255, 0.10);
-        --tag-prefix-hover: #007fff;
-      " href="/t/azure"><span class="crayons-tag__prefix">#</span>azure</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(42, 37, 102, 0.10);
-        --tag-prefix: #2A2566;
-        --tag-bg-hover: rgba(42, 37, 102, 0.10);
-        --tag-prefix-hover: #2A2566;
-      " href="/t/career"><span class="crayons-tag__prefix">#</span>career</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/abhishek_kadlii_9ef4ca8bc/weekend-grind-breaking-the-gui-habit-and-building-a-scalable-cloud-fortress-in-azure-day-4-5-241o" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3733261" aria-label="Add a comment to post - Weekend Grind: Breaking the GUI Habit and Building a Scalable Cloud Fortress in Azure (Day 4 &amp; 5)">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/abhishek_kadlii_9ef4ca8bc/weekend-grind-breaking-the-gui-habit-and-building-a-scalable-cloud-fortress-in-azure-day-4-5-241o#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Weekend Grind: Breaking the GUI Habit and Building a Scalable Cloud Fortress in Azure (Day 4 &amp; 5)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqwfug3u6zp2xpxkggy17ivz1f8xebjo" class="crayons-icon"><title id="aqwfug3u6zp2xpxkggy17ivz1f8xebjo">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            6 min read
-          </small>
-            <button type="button" id="article-save-button-3733261" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3733261" data-article-author-id="3945536" aria-label="Save post Weekend Grind: Breaking the GUI Habit and Building a Scalable Cloud Fortress in Azure (Day 4 &amp; 5) to reading list" title="Save post Weekend Grind: Breaking the GUI Habit and Building a Scalable Cloud Fortress in Azure (Day 4 &amp; 5) to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3733641" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3733641" data-article-author-id="161199" aria-label="Save post Beyond the Hype: My Production Playbook for Docker Swarm to reading list" title="Save post Beyond the Hype: My Production Playbook for Docker Swarm to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
