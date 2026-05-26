@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-26T08:56:47.455Z</updated>
+    <updated>2026-05-26T16:24:15.950Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
-        <title type="html"><![CDATA[How My Docker Setup Saved Me From a Supply Chain Attack (And Why Yours Should Too)]]></title>
-        <id>https://dev.to/hschimpf/how-my-docker-setup-saved-me-from-a-supply-chain-attack-and-why-yours-should-too-59lk</id>
-        <link href="https://dev.to/hschimpf/how-my-docker-setup-saved-me-from-a-supply-chain-attack-and-why-yours-should-too-59lk"/>
-        <updated>2026-05-25T23:49:56.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/hschimpf/how-my-docker-setup-saved-me-from-a-supply-chain-attack-and-why-yours-should-too-59lk" aria-labelledby="article-link-3752700" class="crayons-story__hidden-navigation-link">How My Docker Setup Saved Me From a Supply Chain Attack (And Why Yours Should Too)</a>
+        <title type="html"><![CDATA[Securing auth in a large-scale production system: three industry-standard architectures — and why none survived a closer look]]></title>
+        <id>https://dev.to/dragosbln/securing-auth-in-a-large-scale-production-system-three-industry-standard-architectures-and-why-279b</id>
+        <link href="https://dev.to/dragosbln/securing-auth-in-a-large-scale-production-system-three-industry-standard-architectures-and-why-279b"/>
+        <updated>2026-05-26T09:47:36.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/dragosbln/securing-auth-in-a-large-scale-production-system-three-industry-standard-architectures-and-why-279b" aria-labelledby="article-link-3740564" class="crayons-story__hidden-navigation-link">Securing auth in a large-scale production system: three industry-standard architectures — and why none survived a closer look</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
@@ -18,40 +18,40 @@
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
 
-          <a href="/hschimpf" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F362439%2F9af79350-c363-40b7-bae7-80b34b35bbac.png" alt="hschimpf profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/dragosbln" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F667037%2F9cecb184-ee2a-4249-9a4b-09008692eb32.jpeg" alt="dragosbln profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/hschimpf" class="crayons-story__secondary fw-medium m:hidden">
-              Hermann D. Schimpf
+            <a href="/dragosbln" class="crayons-story__secondary fw-medium m:hidden">
+              Bilaniuc Dragos
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3752700" aria-controls="story-author-preview-content-3752700" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Hermann D. Schimpf profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Hermann D. Schimpf
+              <button id="story-author-preview-trigger-3740564" aria-controls="story-author-preview-content-3740564" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bilaniuc Dragos profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Bilaniuc Dragos
                 
               </button>
-              <div id="story-author-preview-content-3752700" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-3740564" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/hschimpf" class="flex">
+                    <a href="/dragosbln" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F362439%2F9af79350-c363-40b7-bae7-80b34b35bbac.png" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F667037%2F9cecb184-ee2a-4249-9a4b-09008692eb32.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Hermann D. Schimpf</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Bilaniuc Dragos</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:362439,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Hermann D. Schimpf&quot;}" data-fetched="fetched" aria-label="Follow user: Hermann D. Schimpf" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:667037,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bilaniuc Dragos&quot;}" data-fetched="fetched" aria-label="Follow user: Bilaniuc Dragos" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="362439"></div>
+                  <div class="author-preview-metadata-container" data-author-id="667037"></div>
                 </div>
               </div>
             </div>
 
           </div>
-          <a href="https://dev.to/hschimpf/how-my-docker-setup-saved-me-from-a-supply-chain-attack-and-why-yours-should-too-59lk" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-25T23:49:56Z" title="">May 25</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779752996"></span></a>
+          <a href="https://dev.to/dragosbln/securing-auth-in-a-large-scale-production-system-three-industry-standard-architectures-and-why-279b" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-26T09:47:36Z" title="">May 26</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779788856"></span></a>
         </div>
       </div>
 
@@ -59,8 +59,125 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/hschimpf/how-my-docker-setup-saved-me-from-a-supply-chain-attack-and-why-yours-should-too-59lk" data-preload-image="" id="article-link-3752700">
-          How My Docker Setup Saved Me From a Supply Chain Attack (And Why Yours Should Too)
+        <a href="https://dev.to/dragosbln/securing-auth-in-a-large-scale-production-system-three-industry-standard-architectures-and-why-279b" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fq5lvmilnjin2bw8kapp6.png" id="article-link-3740564">
+          Securing auth in a large-scale production system: three industry-standard architectures — and why none survived a closer look
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(235, 223, 55, 0.10);
+        --tag-prefix: #ebdf37;
+        --tag-bg-hover: rgba(235, 223, 55, 0.10);
+        --tag-prefix-hover: #ebdf37;
+      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/nextjs"><span class="crayons-tag__prefix">#</span>nextjs</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/dragosbln/securing-auth-in-a-large-scale-production-system-three-industry-standard-architectures-and-why-279b#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Securing auth in a large-scale production system: three industry-standard architectures — and why none survived a closer look">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aamtnyinod1il05gtjjpvtpcvpl9845x" class="crayons-icon"><title id="aamtnyinod1il05gtjjpvtpcvpl9845x">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            16 min read
+          </small>
+            <button type="button" id="article-save-button-3740564" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3740564" data-article-author-id="667037" aria-label="Save post Securing auth in a large-scale production system: three industry-standard architectures — and why none survived a closer look to reading list" title="Save post Securing auth in a large-scale production system: three industry-standard architectures — and why none survived a closer look to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deploying Bitwarden Password Management Vault on Ubuntu 24.04]]></title>
+        <id>https://dev.to/vultr/deploying-bitwarden-password-management-vault-on-ubuntu-2404-1men</id>
+        <link href="https://dev.to/vultr/deploying-bitwarden-password-management-vault-on-ubuntu-2404-1men"/>
+        <updated>2026-05-26T15:19:46.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/vultr/deploying-bitwarden-password-management-vault-on-ubuntu-2404-1men" aria-labelledby="article-link-3753083" class="crayons-story__hidden-navigation-link">Deploying Bitwarden Password Management Vault on Ubuntu 24.04</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/vultr">
+            <img alt="Vultr logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F13147%2F592526f7-0870-4626-ae0f-ba3c820fcfcb.png" class="crayons-logo__image" loading="lazy">
+          </a>
+
+          <a href="/sharmukh" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3900728%2F38e545fb-274b-483d-a868-8780a6503800.png" alt="sharmukh profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/sharmukh" class="crayons-story__secondary fw-medium m:hidden">
+              Sanskriti Harmukh
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3753083" aria-controls="story-author-preview-content-3753083" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Sanskriti Harmukh profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Sanskriti Harmukh
+                
+              </button>
+              <div id="story-author-preview-content-3753083" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/sharmukh" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3900728%2F38e545fb-274b-483d-a868-8780a6503800.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Sanskriti Harmukh</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3900728,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Sanskriti Harmukh&quot;}" data-fetched="fetched" aria-label="Follow user: Sanskriti Harmukh" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3900728"></div>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/vultr" class="crayons-story__secondary fw-medium">Vultr</a>
+            </span>
+          </div>
+          <a href="https://dev.to/vultr/deploying-bitwarden-password-management-vault-on-ubuntu-2404-1men" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-26T15:19:46Z" title="">May 26</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779808786"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/vultr/deploying-bitwarden-password-management-vault-on-ubuntu-2404-1men" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv7pe1kq032ia44se4p84.png" id="article-link-3753083">
+          Deploying Bitwarden Password Management Vault on Ubuntu 24.04
         </a>
       </h2>
         <div class="crayons-story__tags">
@@ -77,31 +194,376 @@
         --tag-prefix-hover: #1D63ED;
       " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(35, 161, 170, 0.10);
-        --tag-prefix: #23A1AA;
-        --tag-bg-hover: rgba(35, 161, 170, 0.10);
-        --tag-prefix-hover: #23A1AA;
-      " href="/t/php"><span class="crayons-tag__prefix">#</span>php</a>
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(227, 255, 0, 0.10);
-        --tag-prefix: #e3ff00;
-        --tag-bg-hover: rgba(227, 255, 0, 0.10);
-        --tag-prefix-hover: #e3ff00;
-      " href="/t/cybersecurity"><span class="crayons-tag__prefix">#</span>cybersecurity</a>
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/selfhosted"><span class="crayons-tag__prefix">#</span>selfhosted</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-            <a href="https://dev.to/hschimpf/how-my-docker-setup-saved-me-from-a-supply-chain-attack-and-why-yours-should-too-59lk#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How My Docker Setup Saved Me From a Supply Chain Attack (And Why Yours Should Too)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aa7cggg1y98cyake32kw0n9dx8228i7q" class="crayons-icon"><title id="aa7cggg1y98cyake32kw0n9dx8228i7q">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/vultr/deploying-bitwarden-password-management-vault-on-ubuntu-2404-1men#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Deploying Bitwarden Password Management Vault on Ubuntu 24.04">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1h64tzi5vuhcgekifcrnh8pj2897mbu" class="crayons-icon"><title id="a1h64tzi5vuhcgekifcrnh8pj2897mbu">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            9 min read
+            2 min read
           </small>
-            <button type="button" id="article-save-button-3752700" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3752700" data-article-author-id="362439" aria-label="Save post How My Docker Setup Saved Me From a Supply Chain Attack (And Why Yours Should Too) to reading list" title="Save post How My Docker Setup Saved Me From a Supply Chain Attack (And Why Yours Should Too) to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3753083" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3753083" data-article-author-id="3900728" aria-label="Save post Deploying Bitwarden Password Management Vault on Ubuntu 24.04 to reading list" title="Save post Deploying Bitwarden Password Management Vault on Ubuntu 24.04 to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deploying Passbolt Team Password Manager on Ubuntu 24.04]]></title>
+        <id>https://dev.to/vultr/deploying-passbolt-team-password-manager-on-ubuntu-2404-3564</id>
+        <link href="https://dev.to/vultr/deploying-passbolt-team-password-manager-on-ubuntu-2404-3564"/>
+        <updated>2026-05-26T15:20:46.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/vultr/deploying-passbolt-team-password-manager-on-ubuntu-2404-3564" aria-labelledby="article-link-3753081" class="crayons-story__hidden-navigation-link">Deploying Passbolt Team Password Manager on Ubuntu 24.04</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/vultr">
+            <img alt="Vultr logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F13147%2F592526f7-0870-4626-ae0f-ba3c820fcfcb.png" class="crayons-logo__image" loading="lazy">
+          </a>
+
+          <a href="/sharmukh" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3900728%2F38e545fb-274b-483d-a868-8780a6503800.png" alt="sharmukh profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/sharmukh" class="crayons-story__secondary fw-medium m:hidden">
+              Sanskriti Harmukh
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3753081" aria-controls="story-author-preview-content-3753081" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Sanskriti Harmukh profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Sanskriti Harmukh
+                
+              </button>
+              <div id="story-author-preview-content-3753081" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/sharmukh" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3900728%2F38e545fb-274b-483d-a868-8780a6503800.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Sanskriti Harmukh</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3900728,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Sanskriti Harmukh&quot;}" data-fetched="fetched" aria-label="Follow user: Sanskriti Harmukh" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3900728"></div>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/vultr" class="crayons-story__secondary fw-medium">Vultr</a>
+            </span>
+          </div>
+          <a href="https://dev.to/vultr/deploying-passbolt-team-password-manager-on-ubuntu-2404-3564" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-26T15:20:46Z" title="">May 26</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779808846"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/vultr/deploying-passbolt-team-password-manager-on-ubuntu-2404-3564" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fs4pj7chwxfnnnhy54p4x.png" id="article-link-3753081">
+          Deploying Passbolt Team Password Manager on Ubuntu 24.04
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/selfhosted"><span class="crayons-tag__prefix">#</span>selfhosted</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/vultr/deploying-passbolt-team-password-manager-on-ubuntu-2404-3564#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Deploying Passbolt Team Password Manager on Ubuntu 24.04">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="an647fpkenddb51vnbouke2xoy8zdpcl" class="crayons-icon"><title id="an647fpkenddb51vnbouke2xoy8zdpcl">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            2 min read
+          </small>
+            <button type="button" id="article-save-button-3753081" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3753081" data-article-author-id="3900728" aria-label="Save post Deploying Passbolt Team Password Manager on Ubuntu 24.04 to reading list" title="Save post Deploying Passbolt Team Password Manager on Ubuntu 24.04 to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deploying Unbound Validating DNS Resolver on Ubuntu 24.04]]></title>
+        <id>https://dev.to/vultr/deploying-unbound-validating-dns-resolver-on-ubuntu-2404-4pn6</id>
+        <link href="https://dev.to/vultr/deploying-unbound-validating-dns-resolver-on-ubuntu-2404-4pn6"/>
+        <updated>2026-05-26T15:22:46.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/vultr/deploying-unbound-validating-dns-resolver-on-ubuntu-2404-4pn6" aria-labelledby="article-link-3753075" class="crayons-story__hidden-navigation-link">Deploying Unbound Validating DNS Resolver on Ubuntu 24.04</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/vultr">
+            <img alt="Vultr logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F13147%2F592526f7-0870-4626-ae0f-ba3c820fcfcb.png" class="crayons-logo__image" loading="lazy">
+          </a>
+
+          <a href="/sharmukh" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3900728%2F38e545fb-274b-483d-a868-8780a6503800.png" alt="sharmukh profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/sharmukh" class="crayons-story__secondary fw-medium m:hidden">
+              Sanskriti Harmukh
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3753075" aria-controls="story-author-preview-content-3753075" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Sanskriti Harmukh profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Sanskriti Harmukh
+                
+              </button>
+              <div id="story-author-preview-content-3753075" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/sharmukh" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3900728%2F38e545fb-274b-483d-a868-8780a6503800.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Sanskriti Harmukh</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3900728,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Sanskriti Harmukh&quot;}" data-fetched="fetched" aria-label="Follow user: Sanskriti Harmukh" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3900728"></div>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/vultr" class="crayons-story__secondary fw-medium">Vultr</a>
+            </span>
+          </div>
+          <a href="https://dev.to/vultr/deploying-unbound-validating-dns-resolver-on-ubuntu-2404-4pn6" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-26T15:22:46Z" title="">May 26</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779808966"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/vultr/deploying-unbound-validating-dns-resolver-on-ubuntu-2404-4pn6" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9d756zq06gc0swshkht9.png" id="article-link-3753075">
+          Deploying Unbound Validating DNS Resolver on Ubuntu 24.04
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/dns"><span class="crayons-tag__prefix">#</span>dns</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/vultr/deploying-unbound-validating-dns-resolver-on-ubuntu-2404-4pn6#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Deploying Unbound Validating DNS Resolver on Ubuntu 24.04">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="atstheqg7zwquee367z7ynne7uvxm7y" class="crayons-icon"><title id="atstheqg7zwquee367z7ynne7uvxm7y">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            2 min read
+          </small>
+            <button type="button" id="article-save-button-3753075" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3753075" data-article-author-id="3900728" aria-label="Save post Deploying Unbound Validating DNS Resolver on Ubuntu 24.04 to reading list" title="Save post Deploying Unbound Validating DNS Resolver on Ubuntu 24.04 to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS IAM Roles Anywhere Hands-On]]></title>
+        <id>https://dev.to/kanywst/iam-roles-anywhere-hands-on-2fh8</id>
+        <link href="https://dev.to/kanywst/iam-roles-anywhere-hands-on-2fh8"/>
+        <updated>2026-05-26T15:22:04.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/kanywst/iam-roles-anywhere-hands-on-2fh8" aria-labelledby="article-link-3757892" class="crayons-story__hidden-navigation-link">AWS IAM Roles Anywhere Hands-On</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/kanywst" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3700180%2F04651b63-c6a1-4069-b356-a0f85c17e0bb.png" alt="kanywst profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/kanywst" class="crayons-story__secondary fw-medium m:hidden">
+              kt
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3757892" aria-controls="story-author-preview-content-3757892" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="kt profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                kt
+                
+              </button>
+              <div id="story-author-preview-content-3757892" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/kanywst" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3700180%2F04651b63-c6a1-4069-b356-a0f85c17e0bb.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">kt</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3700180,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;kt&quot;}" data-fetched="fetched" aria-label="Follow user: kt" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3700180"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/kanywst/iam-roles-anywhere-hands-on-2fh8" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-26T15:22:04Z" title="">May 26</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779808924"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/kanywst/iam-roles-anywhere-hands-on-2fh8" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2F0-draft%2Fdev.to%2Frefs%2Fheads%2Fmain%2Farticles%2Fassets%2Faws-roles-anywhere-hands-on%2Fcover.png" id="article-link-3757892">
+          AWS IAM Roles Anywhere Hands-On
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/iam"><span class="crayons-tag__prefix">#</span>iam</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/sts"><span class="crayons-tag__prefix">#</span>sts</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/kanywst/iam-roles-anywhere-hands-on-2fh8#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS IAM Roles Anywhere Hands-On">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apncjae9096ytpp3kwnoz0brprjqchs2" class="crayons-icon"><title id="apncjae9096ytpp3kwnoz0brprjqchs2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            14 min read
+          </small>
+            <button type="button" id="article-save-button-3757892" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3757892" data-article-author-id="3700180" aria-label="Save post AWS IAM Roles Anywhere Hands-On to reading list" title="Save post AWS IAM Roles Anywhere Hands-On to reading list">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
