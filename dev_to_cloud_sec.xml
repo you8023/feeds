@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-28T20:51:07.793Z</updated>
+    <updated>2026-05-28T23:02:30.733Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[173 Undocumented Security Findings in TerraGoat: What Standard IaC Scanners Miss (and Why Post-Quantum Matters)]]></title>
+        <id>https://dev.to/mkscorpiosec/173-undocumented-security-findings-in-terragoat-what-standard-iac-scanners-miss-and-why-f62</id>
+        <link href="https://dev.to/mkscorpiosec/173-undocumented-security-findings-in-terragoat-what-standard-iac-scanners-miss-and-why-f62"/>
+        <updated>2026-05-28T22:16:44.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/mkscorpiosec/173-undocumented-security-findings-in-terragoat-what-standard-iac-scanners-miss-and-why-f62" aria-labelledby="article-link-3773798" class="crayons-story__hidden-navigation-link">173 Undocumented Security Findings in TerraGoat: What Standard IaC Scanners Miss (and Why Post-Quantum Matters)</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/mkscorpiosec" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3955194%2F8f494afe-9a1d-4f75-b5f4-94c8e46064e4.jpg" alt="mkscorpiosec profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/mkscorpiosec" class="crayons-story__secondary fw-medium m:hidden">
+              Mike Martinez Oroz
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3773798" aria-controls="story-author-preview-content-3773798" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Mike Martinez Oroz profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Mike Martinez Oroz
+                
+              </button>
+              <div id="story-author-preview-content-3773798" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/mkscorpiosec" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3955194%2F8f494afe-9a1d-4f75-b5f4-94c8e46064e4.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Mike Martinez Oroz</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3955194,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Mike Martinez Oroz&quot;}" data-fetched="fetched" aria-label="Follow user: Mike Martinez Oroz" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3955194"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/mkscorpiosec/173-undocumented-security-findings-in-terragoat-what-standard-iac-scanners-miss-and-why-f62" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-28T22:16:44Z" title="">May 28</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1780006604"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/mkscorpiosec/173-undocumented-security-findings-in-terragoat-what-standard-iac-scanners-miss-and-why-f62" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz17k2zaauwul8rh6a62u.png" id="article-link-3773798">
+          173 Undocumented Security Findings in TerraGoat: What Standard IaC Scanners Miss (and Why Post-Quantum Matters)
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/terraform"><span class="crayons-tag__prefix">#</span>terraform</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/pentest"><span class="crayons-tag__prefix">#</span>pentest</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/mkscorpiosec/173-undocumented-security-findings-in-terragoat-what-standard-iac-scanners-miss-and-why-f62#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 173 Undocumented Security Findings in TerraGoat: What Standard IaC Scanners Miss (and Why Post-Quantum Matters)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aix1xnl6id146ot7taq8slne3msty08d" class="crayons-icon"><title id="aix1xnl6id146ot7taq8slne3msty08d">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3773798" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3773798" data-article-author-id="3955194" aria-label="Save post 173 Undocumented Security Findings in TerraGoat: What Standard IaC Scanners Miss (and Why Post-Quantum Matters) to reading list" title="Save post 173 Undocumented Security Findings in TerraGoat: What Standard IaC Scanners Miss (and Why Post-Quantum Matters) to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Leaked Kubernetes Secrets: Impact Assessment and Mitigation Strategies]]></title>
         <id>https://dev.to/gitguardian/leaked-kubernetes-secrets-impact-assessment-and-mitigation-strategies-5dnj</id>
@@ -98,7 +209,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/gitguardian/leaked-kubernetes-secrets-impact-assessment-and-mitigation-strategies-5dnj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Leaked Kubernetes Secrets: Impact Assessment and Mitigation Strategies">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="attvo1nwolhy4bipfo1to54c8flb85bs" class="crayons-icon"><title id="attvo1nwolhy4bipfo1to54c8flb85bs">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1gof25im1f5j7622e0mu4jmfnhcyzly" class="crayons-icon"><title id="a1gof25im1f5j7622e0mu4jmfnhcyzly">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -107,134 +218,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             7 min read
           </small>
-            <button type="button" id="article-save-button-3771319" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3771319" data-article-author-id="865016" aria-label="Save post Leaked Kubernetes Secrets: Impact Assessment and Mitigation Strategies to reading list" title="Save post Leaked Kubernetes Secrets: Impact Assessment and Mitigation Strategies to reading list">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Treat AI Coding Agents Like Untrusted Interns: A Practical Sandbox Checklist]]></title>
-        <id>https://dev.to/nimay_04/treat-ai-coding-agents-like-untrusted-interns-a-practical-sandbox-checklist-39eg</id>
-        <link href="https://dev.to/nimay_04/treat-ai-coding-agents-like-untrusted-interns-a-practical-sandbox-checklist-39eg"/>
-        <updated>2026-05-28T12:32:05.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/nimay_04/treat-ai-coding-agents-like-untrusted-interns-a-practical-sandbox-checklist-39eg" aria-labelledby="article-link-3771275" class="crayons-story__hidden-navigation-link">Treat AI Coding Agents Like Untrusted Interns: A Practical Sandbox Checklist</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/nimay_04" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3604005%2F962463d0-717a-46e7-b0ea-0d7cd72431e0.jpg" alt="nimay_04 profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/nimay_04" class="crayons-story__secondary fw-medium m:hidden">
-              Nimesh Kulkarni
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3771275" aria-controls="story-author-preview-content-3771275" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Nimesh Kulkarni profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Nimesh Kulkarni
-                
-              </button>
-              <div id="story-author-preview-content-3771275" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/nimay_04" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3604005%2F962463d0-717a-46e7-b0ea-0d7cd72431e0.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Nimesh Kulkarni</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3604005,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Nimesh Kulkarni&quot;}" data-fetched="fetched" aria-label="Follow user: Nimesh Kulkarni" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3604005"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/nimay_04/treat-ai-coding-agents-like-untrusted-interns-a-practical-sandbox-checklist-39eg" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-28T12:32:05Z" title="">May 28</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1779971525"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/nimay_04/treat-ai-coding-agents-like-untrusted-interns-a-practical-sandbox-checklist-39eg" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2FGitNimay%2FGitnimay-HostedImages%2Fmain%2Fdevto%2F2026%2Fai-agent-sandbox-checklist%2Fcover-paperclip.png" id="article-link-3771275">
-          Treat AI Coding Agents Like Untrusted Interns: A Practical Sandbox Checklist
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(29, 99, 237, 0.10);
-        --tag-prefix: #1D63ED;
-        --tag-bg-hover: rgba(29, 99, 237, 0.10);
-        --tag-prefix-hover: #1D63ED;
-      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/nimay_04/treat-ai-coding-agents-like-untrusted-interns-a-practical-sandbox-checklist-39eg" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="3771275" aria-label="Add a comment to post - Treat AI Coding Agents Like Untrusted Interns: A Practical Sandbox Checklist">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">5<span class="hidden s:inline">&nbsp;reactions</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/nimay_04/treat-ai-coding-agents-like-untrusted-interns-a-practical-sandbox-checklist-39eg#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Treat AI Coding Agents Like Untrusted Interns: A Practical Sandbox Checklist">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aaf4brozs6nbu4611tjn3fzqpm777qo0" class="crayons-icon"><title id="aaf4brozs6nbu4611tjn3fzqpm777qo0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              1<span class="hidden s:inline">&nbsp;comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            5 min read
-          </small>
-            <button type="button" id="article-save-button-3771275" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3771275" data-article-author-id="3604005" aria-label="Save post Treat AI Coding Agents Like Untrusted Interns: A Practical Sandbox Checklist to reading list" title="Save post Treat AI Coding Agents Like Untrusted Interns: A Practical Sandbox Checklist to reading list">
+            <button type="button" id="article-save-button-3771319" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3771319" data-article-author-id="865016" aria-label="Save post Leaked Kubernetes Secrets: Impact Assessment and Mitigation Strategies to reading list" title="Save post Leaked Kubernetes Secrets: Impact Assessment and Mitigation Strategies to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -336,7 +320,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/aitranxuan/demystifying-epub-to-pdf-handling-complex-input-schemas-and-securing-microservices-without-leaking-21oj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Demystifying EPUB to PDF: Handling Complex Input Schemas and Securing Microservices Without Leaking JWT Claims">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ai5czfv7tluajei46eseexm10seuvihr" class="crayons-icon"><title id="ai5czfv7tluajei46eseexm10seuvihr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="adqxf2u05sdrdivxd3iyq6ab1uvkay21" class="crayons-icon"><title id="adqxf2u05sdrdivxd3iyq6ab1uvkay21">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -345,7 +329,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             9 min read
           </small>
-            <button type="button" id="article-save-button-3771907" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3771907" data-article-author-id="498575" aria-label="Save post Demystifying EPUB to PDF: Handling Complex Input Schemas and Securing Microservices Without Leaking JWT Claims to reading list" title="Save post Demystifying EPUB to PDF: Handling Complex Input Schemas and Securing Microservices Without Leaking JWT Claims to reading list">
+            <button type="button" id="article-save-button-3771907" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3771907" data-article-author-id="498575" aria-label="Save post Demystifying EPUB to PDF: Handling Complex Input Schemas and Securing Microservices Without Leaking JWT Claims to reading list" title="Save post Demystifying EPUB to PDF: Handling Complex Input Schemas and Securing Microservices Without Leaking JWT Claims to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -447,7 +431,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/dbartalos/three-cloudflare-patterns-earned-the-hard-way-1pcc#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Three Cloudflare Patterns Earned the Hard Way">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akl53lz3tic9huw2d3vqz7hntbiyfnqj" class="crayons-icon"><title id="akl53lz3tic9huw2d3vqz7hntbiyfnqj">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aopuex96r4noi7dbp899ibxaou3lhuog" class="crayons-icon"><title id="aopuex96r4noi7dbp899ibxaou3lhuog">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -456,7 +440,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
           </small>
-            <button type="button" id="article-save-button-3689531" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3689531" data-article-author-id="3936644" aria-label="Save post Three Cloudflare Patterns Earned the Hard Way to reading list" title="Save post Three Cloudflare Patterns Earned the Hard Way to reading list">
+            <button type="button" id="article-save-button-3689531" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3689531" data-article-author-id="3936644" aria-label="Save post Three Cloudflare Patterns Earned the Hard Way to reading list" title="Save post Three Cloudflare Patterns Earned the Hard Way to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -558,7 +542,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/da1/we-patched-chromium-with-49-c-hooks-to-beat-cloudflare-heres-how-browserhand-works-4p15#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - We patched Chromium with 49 C++ hooks to beat Cloudflare — here's how BrowserHand works">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3s4krra469irvw0pstrww6sc4c4ykh4" class="crayons-icon"><title id="a3s4krra469irvw0pstrww6sc4c4ykh4">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ab6nx4wom0kxurjbqfw0ro993yh16hew" class="crayons-icon"><title id="ab6nx4wom0kxurjbqfw0ro993yh16hew">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -567,7 +551,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             1 min read
           </small>
-            <button type="button" id="article-save-button-3772374" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3772374" data-article-author-id="3956838" aria-label="Save post We patched Chromium with 49 C++ hooks to beat Cloudflare — here's how BrowserHand works to reading list" title="Save post We patched Chromium with 49 C++ hooks to beat Cloudflare — here's how BrowserHand works to reading list">
+            <button type="button" id="article-save-button-3772374" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3772374" data-article-author-id="3956838" aria-label="Save post We patched Chromium with 49 C++ hooks to beat Cloudflare — here's how BrowserHand works to reading list" title="Save post We patched Chromium with 49 C++ hooks to beat Cloudflare — here's how BrowserHand works to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
