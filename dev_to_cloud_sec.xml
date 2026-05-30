@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-30T14:22:47.990Z</updated>
+    <updated>2026-05-30T15:54:44.111Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Coding agents should not hold write credentials.]]></title>
+        <id>https://dev.to/davidloibner/coding-agents-should-not-hold-write-credentials-3eod</id>
+        <link href="https://dev.to/davidloibner/coding-agents-should-not-hold-write-credentials-3eod"/>
+        <updated>2026-05-30T12:50:22.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/davidloibner/coding-agents-should-not-hold-write-credentials-3eod" aria-labelledby="article-link-3783707" class="crayons-story__hidden-navigation-link">Coding agents should not hold write credentials.</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/davidloibner" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3959684%2F2ccf52da-9ae1-4e12-856b-7663bbfeb8f0.png" alt="davidloibner profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/davidloibner" class="crayons-story__secondary fw-medium m:hidden">
+              David Loibner
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3783707" aria-controls="story-author-preview-content-3783707" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="David Loibner profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                David Loibner
+                
+              </button>
+              <div id="story-author-preview-content-3783707" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/davidloibner" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3959684%2F2ccf52da-9ae1-4e12-856b-7663bbfeb8f0.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">David Loibner</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3959684,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;David Loibner&quot;}" data-fetched="fetched" aria-label="Follow user: David Loibner" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3959684"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/davidloibner/coding-agents-should-not-hold-write-credentials-3eod" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-30T12:50:22Z" title="">May 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1780145422"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/davidloibner/coding-agents-should-not-hold-write-credentials-3eod" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwun29savdzr2h0p8znqv.png" id="article-link-3783707">
+          Coding agents should not hold write credentials.
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/devtools"><span class="crayons-tag__prefix">#</span>devtools</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/github"><span class="crayons-tag__prefix">#</span>github</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/davidloibner/coding-agents-should-not-hold-write-credentials-3eod#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Coding agents should not hold write credentials.">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ah6s5rf3at2dqpwrd3uukwgcpwqotaef" class="crayons-icon"><title id="ah6s5rf3at2dqpwrd3uukwgcpwqotaef">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3783707" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3783707" data-article-author-id="3959684" aria-label="Save post Coding agents should not hold write credentials. to reading list" title="Save post Coding agents should not hold write credentials. to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Google Has 1,000 Platform Engineers Making Security Invisible. You Have Zero. Here's How Agents Close the Gap.]]></title>
         <id>https://dev.to/bala_paranj_059d338e44e7e/google-has-1000-platform-engineers-making-security-invisible-you-have-zero-heres-how-agents-58ed</id>
@@ -92,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/bala_paranj_059d338e44e7e/google-has-1000-platform-engineers-making-security-invisible-you-have-zero-heres-how-agents-58ed#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Google Has 1,000 Platform Engineers Making Security Invisible. You Have Zero. Here's How Agents Close the Gap.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5kzqok2cdayciafsrupeme9fl8x4lck" class="crayons-icon"><title id="a5kzqok2cdayciafsrupeme9fl8x4lck">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="acj9vfh71shf45g9inay0qp5cj59235c" class="crayons-icon"><title id="acj9vfh71shf45g9inay0qp5cj59235c">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -203,7 +314,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/wartzarbee/how-to-run-claude-code-sandboxed-containers-network-walls-and-secret-isolation-2jkn#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How to Run Claude Code Sandboxed: Containers, Network Walls, and Secret Isolation">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abqvasbxj0utgnk6ifzi071wbiubif4l" class="crayons-icon"><title id="abqvasbxj0utgnk6ifzi071wbiubif4l">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="amq4dehiok9nkr5t2qa49uc7owclsdin" class="crayons-icon"><title id="amq4dehiok9nkr5t2qa49uc7owclsdin">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -314,7 +425,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/kanywst/aws-sigv4-and-sigv4a-deep-dive-12li#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS SigV4 and SigV4A Deep Dive">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8cf6tjo5ruxbmlvqcjwed57ezzygzje" class="crayons-icon"><title id="a8cf6tjo5ruxbmlvqcjwed57ezzygzje">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="asyl2ox6nlrj89g496zcv0jymw3brhme" class="crayons-icon"><title id="asyl2ox6nlrj89g496zcv0jymw3brhme">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -324,228 +435,6 @@
             14 min read
           </small>
             <button type="button" id="article-save-button-3783645" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3783645" data-article-author-id="3700180" aria-label="Save post AWS SigV4 and SigV4A Deep Dive to reading list" title="Save post AWS SigV4 and SigV4A Deep Dive to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA["The AI did it" won't save you when EU regulators come knocking]]></title>
-        <id>https://dev.to/thegatewayguy/the-ai-did-it-wont-save-you-when-eu-regulators-come-knocking-3nlb</id>
-        <link href="https://dev.to/thegatewayguy/the-ai-did-it-wont-save-you-when-eu-regulators-come-knocking-3nlb"/>
-        <updated>2026-05-30T08:09:23.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/thegatewayguy/the-ai-did-it-wont-save-you-when-eu-regulators-come-knocking-3nlb" aria-labelledby="article-link-3782639" class="crayons-story__hidden-navigation-link">"The AI did it" won't save you when EU regulators come knocking</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/thegatewayguy" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3895707%2F446a1c4a-0cef-467b-8849-b16d5ada0e04.png" alt="thegatewayguy profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/thegatewayguy" class="crayons-story__secondary fw-medium m:hidden">
-              Andrew Kew
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3782639" aria-controls="story-author-preview-content-3782639" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Andrew Kew profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Andrew Kew
-                
-              </button>
-              <div id="story-author-preview-content-3782639" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/thegatewayguy" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3895707%2F446a1c4a-0cef-467b-8849-b16d5ada0e04.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Andrew Kew</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3895707,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Andrew Kew&quot;}" data-fetched="fetched" aria-label="Follow user: Andrew Kew" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3895707"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/thegatewayguy/the-ai-did-it-wont-save-you-when-eu-regulators-come-knocking-3nlb" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-30T08:09:23Z" title="">May 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1780128563"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/thegatewayguy/the-ai-did-it-wont-save-you-when-eu-regulators-come-knocking-3nlb" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2FTheGatewayGuy%2Fblog-assets%2Fmain%2Fimages%2Feu-cra-ai-liability-cover.png" id="article-link-3782639">
-          "The AI did it" won't save you when EU regulators come knocking
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(86, 39, 101, 0.10);
-        --tag-prefix: #562765;
-        --tag-bg-hover: rgba(86, 39, 101, 0.10);
-        --tag-prefix-hover: #562765;
-      " href="/t/webdev"><span class="crayons-tag__prefix">#</span>webdev</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(255, 153, 0, 0.10);
-        --tag-prefix: #FF9900;
-        --tag-bg-hover: rgba(255, 153, 0, 0.10);
-        --tag-prefix-hover: #FF9900;
-      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/thegatewayguy/the-ai-did-it-wont-save-you-when-eu-regulators-come-knocking-3nlb#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - &quot;The AI did it&quot; won't save you when EU regulators come knocking">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="atvwf7efeae5ihwb3nxjft1822yq2r1p" class="crayons-icon"><title id="atvwf7efeae5ihwb3nxjft1822yq2r1p">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            3 min read
-          </small>
-            <button type="button" id="article-save-button-3782639" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3782639" data-article-author-id="3895707" aria-label="Save post &quot;The AI did it&quot; won't save you when EU regulators come knocking to reading list" title="Save post &quot;The AI did it&quot; won't save you when EU regulators come knocking to reading list" data-save-initialized="true">
-              <span class="bm-initial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fireblocks Agentic Payments: The Paid Request That Still Stays on Hold]]></title>
-        <id>https://dev.to/aicryptosystems/fireblocks-agentic-payments-the-paid-request-that-still-stays-on-hold-1i8d</id>
-        <link href="https://dev.to/aicryptosystems/fireblocks-agentic-payments-the-paid-request-that-still-stays-on-hold-1i8d"/>
-        <updated>2026-05-30T11:36:13.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/aicryptosystems/fireblocks-agentic-payments-the-paid-request-that-still-stays-on-hold-1i8d" aria-labelledby="article-link-3767188" class="crayons-story__hidden-navigation-link">Fireblocks Agentic Payments: The Paid Request That Still Stays on Hold</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/aicryptosystems" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3717453%2Ffc1b63a0-d90d-4437-bf3f-b3b6db13ce97.jpg" alt="aicryptosystems profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/aicryptosystems" class="crayons-story__secondary fw-medium m:hidden">
-              AI x Crypto Systems
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3767188" aria-controls="story-author-preview-content-3767188" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="AI x Crypto Systems profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                AI x Crypto Systems
-                
-              </button>
-              <div id="story-author-preview-content-3767188" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/aicryptosystems" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3717453%2Ffc1b63a0-d90d-4437-bf3f-b3b6db13ce97.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">AI x Crypto Systems</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3717453,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;AI x Crypto Systems&quot;}" data-fetched="fetched" aria-label="Follow user: AI x Crypto Systems" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3717453"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/aicryptosystems/fireblocks-agentic-payments-the-paid-request-that-still-stays-on-hold-1i8d" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-30T11:36:13Z" title="">May 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1780140973"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/aicryptosystems/fireblocks-agentic-payments-the-paid-request-that-still-stays-on-hold-1i8d" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fres.cloudinary.com%2Fdaozfrjoo%2Fimage%2Fupload%2Fv1780076469%2Fdevto%2Ffireblocks-agentic-payments-delegated-controls%2Fpayment-hold-state-log.png" id="article-link-3767188">
-          Fireblocks Agentic Payments: The Paid Request That Still Stays on Hold
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(11, 226, 245, 0.10);
-        --tag-prefix: #0be2f5;
-        --tag-bg-hover: rgba(11, 226, 245, 0.10);
-        --tag-prefix-hover: #0be2f5;
-      " href="/t/agents"><span class="crayons-tag__prefix">#</span>agents</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(17, 58, 98, 0.10);
-        --tag-prefix: #113a62;
-        --tag-bg-hover: rgba(17, 58, 98, 0.10);
-        --tag-prefix-hover: #113a62;
-      " href="/t/blockchain"><span class="crayons-tag__prefix">#</span>blockchain</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/aicryptosystems/fireblocks-agentic-payments-the-paid-request-that-still-stays-on-hold-1i8d#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Fireblocks Agentic Payments: The Paid Request That Still Stays on Hold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5drvda2mccl5hpicxjswv23yqv06w5x" class="crayons-icon"><title id="a5drvda2mccl5hpicxjswv23yqv06w5x">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            7 min read
-          </small>
-            <button type="button" id="article-save-button-3767188" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3767188" data-article-author-id="3717453" aria-label="Save post Fireblocks Agentic Payments: The Paid Request That Still Stays on Hold to reading list" title="Save post Fireblocks Agentic Payments: The Paid Request That Still Stays on Hold to reading list" data-save-initialized="true">
               <span class="bm-initial">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
