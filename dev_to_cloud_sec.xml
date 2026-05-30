@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-05-30T19:56:32.053Z</updated>
+    <updated>2026-05-30T21:41:43.616Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Configuring CORS in Azure API Management]]></title>
+        <id>https://dev.to/shailugit/configuring-cors-in-azure-api-management-21kp</id>
+        <link href="https://dev.to/shailugit/configuring-cors-in-azure-api-management-21kp"/>
+        <updated>2026-05-30T19:08:48.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/shailugit/configuring-cors-in-azure-api-management-21kp" aria-labelledby="article-link-3785484" class="crayons-story__hidden-navigation-link">Configuring CORS in Azure API Management</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/shailugit" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F329018%2F9c502e58-43f5-4759-a48a-1bbc10df44f9.png" alt="shailugit profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/shailugit" class="crayons-story__secondary fw-medium m:hidden">
+              shailugit
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3785484" aria-controls="story-author-preview-content-3785484" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="shailugit profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                shailugit
+                
+              </button>
+              <div id="story-author-preview-content-3785484" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/shailugit" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F329018%2F9c502e58-43f5-4759-a48a-1bbc10df44f9.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">shailugit</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:329018,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;shailugit&quot;}" data-fetched="fetched" aria-label="Follow user: shailugit" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="329018"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/shailugit/configuring-cors-in-azure-api-management-21kp" class="crayons-story__tertiary fs-xs"><time datetime="2026-05-30T19:08:48Z" title="">May 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1780168128"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/shailugit/configuring-cors-in-azure-api-management-21kp" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Faz21qutxzicgc2ervcr3.png" id="article-link-3785484">
+          Configuring CORS in Azure API Management
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(151, 37, 234, 0.10);
+        --tag-prefix: #9725ea;
+        --tag-bg-hover: rgba(151, 37, 234, 0.10);
+        --tag-prefix-hover: #9725ea;
+      " href="/t/api"><span class="crayons-tag__prefix">#</span>api</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 127, 255, 0.10);
+        --tag-prefix: #007fff;
+        --tag-bg-hover: rgba(0, 127, 255, 0.10);
+        --tag-prefix-hover: #007fff;
+      " href="/t/azure"><span class="crayons-tag__prefix">#</span>azure</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(254, 255, 165, 0.10);
+        --tag-prefix: #FEFFA5;
+        --tag-bg-hover: rgba(254, 255, 165, 0.10);
+        --tag-prefix-hover: #FEFFA5;
+      " href="/t/tutorial"><span class="crayons-tag__prefix">#</span>tutorial</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/shailugit/configuring-cors-in-azure-api-management-21kp#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Configuring CORS in Azure API Management">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="acr24uqv0akc2vnc45wqmpqcw3kapx3r" class="crayons-icon"><title id="acr24uqv0akc2vnc45wqmpqcw3kapx3r">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            3 min read
+          </small>
+            <button type="button" id="article-save-button-3785484" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3785484" data-article-author-id="329018" aria-label="Save post Configuring CORS in Azure API Management to reading list" title="Save post Configuring CORS in Azure API Management to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Google Has 1,000 Platform Engineers Making Security Invisible. You Have Zero. Here's How Agents Close the Gap.]]></title>
         <id>https://dev.to/bala_paranj_059d338e44e7e/google-has-1000-platform-engineers-making-security-invisible-you-have-zero-heres-how-agents-58ed</id>
@@ -92,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/bala_paranj_059d338e44e7e/google-has-1000-platform-engineers-making-security-invisible-you-have-zero-heres-how-agents-58ed#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Google Has 1,000 Platform Engineers Making Security Invisible. You Have Zero. Here's How Agents Close the Gap.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ar4u6w3q0uacbe3hyzbzd6h8a79r0elg" class="crayons-icon"><title id="ar4u6w3q0uacbe3hyzbzd6h8a79r0elg">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2oktpywabqekw9z1q85bqnc1upnuqf" class="crayons-icon"><title id="a2oktpywabqekw9z1q85bqnc1upnuqf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -203,7 +314,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/wartzarbee/how-to-run-claude-code-sandboxed-containers-network-walls-and-secret-isolation-2jkn#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How to Run Claude Code Sandboxed: Containers, Network Walls, and Secret Isolation">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aseozxpzjqp2azfri5t2slitqw3ljmcz" class="crayons-icon"><title id="aseozxpzjqp2azfri5t2slitqw3ljmcz">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afiiez9vfxy7wp1x1lhzf7hslu6lttq6" class="crayons-icon"><title id="afiiez9vfxy7wp1x1lhzf7hslu6lttq6">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -314,7 +425,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/kanywst/aws-sigv4-and-sigv4a-deep-dive-12li#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS SigV4 and SigV4A Deep Dive">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahhoxfowxgaz5cxeb7l61jcutoumzcnd" class="crayons-icon"><title id="ahhoxfowxgaz5cxeb7l61jcutoumzcnd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="amtr1eurbllmxzpl8exxgmmhp27u7rvk" class="crayons-icon"><title id="amtr1eurbllmxzpl8exxgmmhp27u7rvk">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
