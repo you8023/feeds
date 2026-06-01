@@ -2,9 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://omeramiad.com/posts/</id>
     <title>Omer Amiad's Blog</title>
-    <updated>2026-06-01T07:37:32.582Z</updated>
+    <updated>2026-06-01T13:20:19.437Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://omeramiad.com/favicon-96x96.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Kicking the Bucket: Critical RCE and Cross-Tenant Exploits in 3 Different GCP Products]]></title>
+        <id>https://focalsecurity.io/blog/kicking-the-bucket-gcp-cross-tenant/</id>
+        <link href="https://focalsecurity.io/blog/kicking-the-bucket-gcp-cross-tenant/"/>
+        <updated>2026-04-14T15:20:35.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://focalsecurity.io/blog/kicking-the-bucket-gcp-cross-tenant/" target="_blank" rel="noopener noreferrer" class="inline-block text-lg font-medium text-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"> <h2 style="view-transition-name:kicking-the-bucket-critical-rce-and-cross-tenant-exploits-in-3-different-gcp-products" class="text-lg font-medium decoration-dashed hover:underline">Kicking the Bucket: Critical RCE and Cross-Tenant Exploits in 3 Different GCP Products</h2> </a> <div class="flex items-center gap-x-2 opacity-80"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-6 min-w-[1.375rem] scale-90"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path><path d="M16 3v4"></path><path d="M8 3v4"></path><path d="M4 11h16"></path><path d="M7 14h.013"></path><path d="M10.01 14h.005"></path><path d="M13.01 14h.005"></path><path d="M16.015 14h.005"></path><path d="M13.015 17h.005"></path><path d="M7.01 17h.005"></path><path d="M10.01 17h.005"></path></svg>  <time class="text-sm" datetime="2026-04-14T15:20:35.000Z">14 Apr, 2026</time> </div> <p>How my bucket-squatting research uncovered three cross-tenant vulnerabilities - GeminiSquat (CVE-2026-1727), MountSquat and VertexSquat (CVE-2026-2473) - affecting Gemini Enterprise, Cloud Run, and Vertex AI.
+</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GatewayToHeaven: Finding a Critical Cross-Tenant Exploit in GCP's Apigee]]></title>
         <id>https://omeramiad.com/posts/gatewaytoheaven-gcp-cross-tenant-vulnerability</id>
@@ -25,12 +33,5 @@
         <link href="https://omeramiad.com/posts/zerotrust-writeup-la-ctf-2023"/>
         <updated>2023-02-15T16:46:34.000Z</updated>
         <content type="html"><![CDATA[<a href="/posts/zerotrust-writeup-la-ctf-2023" class="inline-block text-lg font-medium text-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"> <h2 style="view-transition-name:zero-trust-writeup-la-ctf-2023" class="text-lg font-medium decoration-dashed hover:underline">ZeroTrust Writeup - LA CTF 2023</h2> </a> <div class="flex items-center gap-x-2 opacity-80"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-6 min-w-[1.375rem] scale-90"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path><path d="M16 3v4"></path><path d="M8 3v4"></path><path d="M4 11h16"></path><path d="M7 14h.013"></path><path d="M10.01 14h.005"></path><path d="M13.01 14h.005"></path><path d="M16.015 14h.005"></path><path d="M13.015 17h.005"></path><path d="M7.01 17h.005"></path><path d="M10.01 17h.005"></path></svg>  <time class="text-sm" datetime="2023-02-15T16:46:34.000Z">15 Feb, 2023</time> </div> <p>A writeup for the web challenge ZeroTrust from LA CTF 2023. This writeup details how to exploit a misconfigured AES GCM rolling cipher to modify an authentication cookie and read the contents of the flag.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[jsss Writeup - AsiaCTF 2021]]></title>
-        <id>https://omeramiad.com/posts/jsss-writeup-asiactf-2021</id>
-        <link href="https://omeramiad.com/posts/jsss-writeup-asiactf-2021"/>
-        <updated>2021-12-26T16:46:34.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/jsss-writeup-asiactf-2021" class="inline-block text-lg font-medium text-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"> <h2 style="view-transition-name:jsss-writeup-asia-ctf-2021" class="text-lg font-medium decoration-dashed hover:underline">jsss Writeup - AsiaCTF 2021</h2> </a> <div class="flex items-center gap-x-2 opacity-80"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block size-6 min-w-[1.375rem] scale-90"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path><path d="M16 3v4"></path><path d="M8 3v4"></path><path d="M4 11h16"></path><path d="M7 14h.013"></path><path d="M10.01 14h.005"></path><path d="M13.01 14h.005"></path><path d="M16.015 14h.005"></path><path d="M13.015 17h.005"></path><path d="M7.01 17h.005"></path><path d="M10.01 17h.005"></path></svg>  <time class="text-sm" datetime="2021-12-26T16:46:34.000Z">26 Dec, 2021</time> </div> <p>A writeup for the web challenge jsss from AsiaCTF 2021. This writeup touches on type juggling in JavaScript, escaping the sandbox of the vm2 module, and taking advantage of race conditions and the /proc filesystem in order to bypass restrictions on file names.</p>]]></content>
     </entry>
 </feed>
