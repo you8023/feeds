@@ -2,7 +2,187 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ssd-disclosure.com/advisories/</id>
     <title>ssd_disclosure</title>
-    <updated>2026-06-06T17:48:35.236Z</updated>
+    <updated>2026-06-06T20:01:33.871Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>data:;</icon>
+    <icon>https://ssd-disclosure.com/wp-content/uploads/2022/08/Group-36.png</icon>
+    <entry>
+        <title type="html"><![CDATA[ipTIME Pre-Auth RCE in CWMP]]></title>
+        <id>https://ssd-disclosure.com/iptime-pre-auth-rce-in-cwmp/</id>
+        <link href="https://ssd-disclosure.com/iptime-pre-auth-rce-in-cwmp/"/>
+        <updated>2026-06-06T19:53:09.707Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/iptime-pre-auth-rce-in-cwmp/">
+				ipTIME Pre-Auth RCE in CWMP			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary An unauthenticated attacker can remotely execute arbitrary code via the CWMP protocol on the ipTIME router. Vendor Response We have tried to reach out to the vendor through multiple channels (email and via KISA)</p>
+		</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebAssembly Canonical vs. Relative Type Index Confusion Leading to RCE]]></title>
+        <id>https://ssd-disclosure.com/webassembly-canonical-vs-relative-type-index-confusion-leading-to-rce/</id>
+        <link href="https://ssd-disclosure.com/webassembly-canonical-vs-relative-type-index-confusion-leading-to-rce/"/>
+        <updated>2026-06-06T19:53:09.709Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/webassembly-canonical-vs-relative-type-index-confusion-leading-to-rce/">
+				WebAssembly Canonical vs. Relative Type Index Confusion Leading to RCE			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary CVE -2024 -12053 is an arbitrary WebAssembly type confusion vulnerability stemming from a mix-up between the canonical and relative indices of WebAssembly types. The Chromium team noted that this vulnerability was reported to have</p>
+		</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UNISOC T612 RCE]]></title>
+        <id>https://ssd-disclosure.com/unisoc-t612-rce/</id>
+        <link href="https://ssd-disclosure.com/unisoc-t612-rce/"/>
+        <updated>2026-06-06T19:53:09.710Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/unisoc-t612-rce/">
+				UNISOC T612 RCE			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary UNISOC (Shanghai) Technologies Co., Ltd. is a top-three global fabless semiconductor company headquartered in Shanghai, specializing in 2G/3G/4G/5G mobile communication, IoT, and smart device chipsets. Formerly Spreadtrum, it serves major brands like Honor, realme,</p>
+		</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chrome GPU Sandbox Escape via Qualcomm Adreno and ARM Mali GPU Drivers]]></title>
+        <id>https://ssd-disclosure.com/chrome-gpu-sandbox-escape-via-qualcomm-adreno-and-arm-mali-gpu-drivers/</id>
+        <link href="https://ssd-disclosure.com/chrome-gpu-sandbox-escape-via-qualcomm-adreno-and-arm-mali-gpu-drivers/"/>
+        <updated>2026-06-06T19:53:09.712Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/chrome-gpu-sandbox-escape-via-qualcomm-adreno-and-arm-mali-gpu-drivers/">
+				Chrome GPU Sandbox Escape via Qualcomm Adreno and ARM Mali GPU Drivers			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary Google’s Threat Analysis Group (TAG) recently discovered two critical vulnerabilities in Android GPU drivers being actively exploited in the wild. Both bugs enable Chrome sandbox escape when exploited from a compromised renderer. Clément Lecigne</p>
+		</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joomla! Novarain/Tassos Framework Vulnerabilities]]></title>
+        <id>https://ssd-disclosure.com/joomla-novarain-tassos-framework-vulnerabilities/</id>
+        <link href="https://ssd-disclosure.com/joomla-novarain-tassos-framework-vulnerabilities/"/>
+        <updated>2026-06-06T19:53:09.714Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/joomla-novarain-tassos-framework-vulnerabilities/">
+				Joomla! Novarain/Tassos Framework Vulnerabilities			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary Source code review of the Novarain/Tassos Framework revealed three critical primitives – unauthenticated file read, unauthenticated file deletion, and SQL injection leading to arbitrary database read – across five widely deployed Joomla! extensions (Convert</p>
+		</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Kernel net/sched CAKE Qdisc Use-After-Free LPE]]></title>
+        <id>https://ssd-disclosure.com/linux-kernel-net-sched-cake-qdisc-use-after-free-lpe/</id>
+        <link href="https://ssd-disclosure.com/linux-kernel-net-sched-cake-qdisc-use-after-free-lpe/"/>
+        <updated>2026-06-06T19:53:09.715Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/linux-kernel-net-sched-cake-qdisc-use-after-free-lpe/">
+				Linux Kernel net/sched CAKE Qdisc Use-After-Free LPE			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary A local user under the CentOS 9 operating system can trigger an use-after-free, which in turn can be used to elevate to root privileges. Vendor Response The vendor has been notified more than 90</p>
+		</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ISPConfig Multiple Post Auth Privilege Escalation Vulnerabilities]]></title>
+        <id>https://ssd-disclosure.com/ispconfig-multiple-post-auth-privilege-escalation-vulnerabilities/</id>
+        <link href="https://ssd-disclosure.com/ispconfig-multiple-post-auth-privilege-escalation-vulnerabilities/"/>
+        <updated>2026-06-06T19:53:09.716Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/ispconfig-multiple-post-auth-privilege-escalation-vulnerabilities/">
+				ISPConfig Multiple Post Auth Privilege Escalation Vulnerabilities			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary Three post authentication vulnerabilities have been found in ISPConfig, these vulnerabilities allow attackers who are either a Reseller or Client account to escalate to root level access. Vendor Response ISPConfig version 3.3.1 was released:</p>
+		</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Desktop Window Manager Array Out Of Bounds LPE]]></title>
+        <id>https://ssd-disclosure.com/desktop-window-manager-array-out-of-bounds-lpe/</id>
+        <link href="https://ssd-disclosure.com/desktop-window-manager-array-out-of-bounds-lpe/"/>
+        <updated>2026-06-06T19:53:09.717Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/desktop-window-manager-array-out-of-bounds-lpe/">
+				Desktop Window Manager Array Out Of Bounds LPE			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Vendor Response The vendor has released a patch for Windows that addresses this vulnerability: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-55681 CVE CVE-2025-55681 Credit The vulnerability was disclosed during our TyphoonPWN Windows category and won second place. Vulnerability Details The bug</p>
+		</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloud Filter Arbitrary File Creation EoP Patch Bypass LPE]]></title>
+        <id>https://ssd-disclosure.com/cloud-filter-arbitrary-file-creation-eop-patch-bypass-lpe/</id>
+        <link href="https://ssd-disclosure.com/cloud-filter-arbitrary-file-creation-eop-patch-bypass-lpe/"/>
+        <updated>2026-06-06T19:53:09.719Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/cloud-filter-arbitrary-file-creation-eop-patch-bypass-lpe/">
+				Cloud Filter Arbitrary File Creation EoP Patch Bypass LPE			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Vendor Response The vendor has released a patch for Windows that addresses this vulnerability: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-55680 CVE CVE-2025-55680 Credit The vulnerability was disclosed during our TyphoonPWN Windows category and won first place. Vulnerability Details A vulnerability</p>
+		</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LPE via refcount imbalance in the af_unix of Ubuntu’s Kernel]]></title>
+        <id>https://ssd-disclosure.com/lpe-via-refcount-imbalance-in-the-af_unix-of-ubuntus-kernel/</id>
+        <link href="https://ssd-disclosure.com/lpe-via-refcount-imbalance-in-the-af_unix-of-ubuntus-kernel/"/>
+        <updated>2026-06-06T19:53:09.720Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/lpe-via-refcount-imbalance-in-the-af_unix-of-ubuntus-kernel/">
+				LPE via refcount imbalance in the af_unix of Ubuntu’s Kernel			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Affected Versions Vendor Response The vendor has released an updated kernel on the 18th of September Credit The vulnerability was disclosed during our TyphoonPWN 2025 Linux category and won first place. Vulnerability Details The vulnerability</p>
+		</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux vsock’s VMADDR_PORT_ANY: dynamic port assignment simplifies VM‑host communication]]></title>
+        <id>https://ssd-disclosure.com/an-introduction-to-chrome-exploitation-webassembly-edition-2/</id>
+        <link href="https://ssd-disclosure.com/an-introduction-to-chrome-exploitation-webassembly-edition-2/"/>
+        <updated>2026-06-06T19:53:09.721Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/an-introduction-to-chrome-exploitation-webassembly-edition-2/">
+				Linux vsock’s VMADDR_PORT_ANY: dynamic port assignment simplifies VM‑host communication			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Background vsock&nbsp;(short for Virtual Socket) is a communication mechanism in the Linux kernel designed to enable efficient, low-latency communication between virtual machines (VMs) and their host system, or between VMs themselves, without relying on traditional</p>
+		</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Chrome RCE (no sandbox) via CanonicalEquality::EqualValueType()]]></title>
+        <id>https://ssd-disclosure.com/google-chrome-rce-no-sandbox-via-canonicalequalityequalvaluetype/</id>
+        <link href="https://ssd-disclosure.com/google-chrome-rce-no-sandbox-via-canonicalequalityequalvaluetype/"/>
+        <updated>2026-06-06T19:53:09.722Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/google-chrome-rce-no-sandbox-via-canonicalequalityequalvaluetype/">
+				Google Chrome RCE (no sandbox) via CanonicalEquality::EqualValueType()			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Affected Version CanonicalEquality::EqualValueType nullity check bug All Chrome builds having the ValueType refactoring commit 44171ac – M135 and above in stable channel. Prior to the commit, CanonicalEquality::EqualValueType() had a ValueKind check that enforces nullity equivalence</p>
+		</div>
+				</div>]]></content>
+    </entry>
 </feed>
