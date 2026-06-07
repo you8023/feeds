@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-06-07T05:14:05.264Z</updated>
+    <updated>2026-06-07T08:42:27.833Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Your CI/CD Pipeline Is the Most Privileged System in Your Infrastructure. Here's How Attackers Know That.]]></title>
+        <id>https://dev.to/walosha/your-cicd-pipeline-is-the-most-privileged-system-in-your-infrastructure-heres-how-attackers-know-1gcj</id>
+        <link href="https://dev.to/walosha/your-cicd-pipeline-is-the-most-privileged-system-in-your-infrastructure-heres-how-attackers-know-1gcj"/>
+        <updated>2026-06-07T04:58:48.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/walosha/your-cicd-pipeline-is-the-most-privileged-system-in-your-infrastructure-heres-how-attackers-know-1gcj" aria-labelledby="article-link-3838992" class="crayons-story__hidden-navigation-link">Your CI/CD Pipeline Is the Most Privileged System in Your Infrastructure. Here's How Attackers Know That.</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/walosha" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F477620%2F8292c4cf-8266-4ccf-a3de-ba562fe95966.jpg" alt="walosha profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/walosha" class="crayons-story__secondary fw-medium m:hidden">
+              Olawale Afuye 
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3838992" aria-controls="story-author-preview-content-3838992" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Olawale Afuye  profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Olawale Afuye 
+                
+              </button>
+              <div id="story-author-preview-content-3838992" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/walosha" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F477620%2F8292c4cf-8266-4ccf-a3de-ba562fe95966.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Olawale Afuye </span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:477620,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Olawale Afuye &quot;}" data-fetched="fetched" aria-label="Follow user: Olawale Afuye " aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="477620"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/walosha/your-cicd-pipeline-is-the-most-privileged-system-in-your-infrastructure-heres-how-attackers-know-1gcj" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-07T04:58:48Z" title="">Jun 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1780808328"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/walosha/your-cicd-pipeline-is-the-most-privileged-system-in-your-infrastructure-heres-how-attackers-know-1gcj" data-preload-image="" id="article-link-3838992">
+          Your CI/CD Pipeline Is the Most Privileged System in Your Infrastructure. Here's How Attackers Know That.
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/github"><span class="crayons-tag__prefix">#</span>github</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/walosha/your-cicd-pipeline-is-the-most-privileged-system-in-your-infrastructure-heres-how-attackers-know-1gcj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your CI/CD Pipeline Is the Most Privileged System in Your Infrastructure. Here's How Attackers Know That.">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="asyninrw56a0wknfldnwa1ncy87iyzxe" class="crayons-icon"><title id="asyninrw56a0wknfldnwa1ncy87iyzxe">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            9 min read
+          </small>
+            <button type="button" id="article-save-button-3838992" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3838992" data-article-author-id="477620" aria-label="Save post Your CI/CD Pipeline Is the Most Privileged System in Your Infrastructure. Here's How Attackers Know That. to reading list" title="Save post Your CI/CD Pipeline Is the Most Privileged System in Your Infrastructure. Here's How Attackers Know That. to reading list">
+              <span class="bm-initial crayons-icon c-btn__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success crayons-icon c-btn__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I'm rotating three of my own secrets this week. Three keys ended up where they didn't belong, I caught it fast, and I have a ...]]></title>
         <id>https://dev.to/connectengine/im-rotating-three-of-my-own-secrets-this-week-three-keys-ended-up-where-they-didnt-belong-i-2797</id>
@@ -92,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/connectengine/im-rotating-three-of-my-own-secrets-this-week-three-keys-ended-up-where-they-didnt-belong-i-2797#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I'm rotating three of my own secrets this week. Three keys ended up where they didn't belong, I caught it fast, and I have a ...">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a286o9v0jks9ov4kandpiz0t7d6yq0fm" class="crayons-icon"><title id="a286o9v0jks9ov4kandpiz0t7d6yq0fm">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="af1gpy12a95l42y80k4vn086yn9fnreu" class="crayons-icon"><title id="af1gpy12a95l42y80k4vn086yn9fnreu">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
