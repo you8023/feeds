@@ -1526,3 +1526,88 @@ dateSelector = "span"
 dateFormat = "MMMM d, yyyy"
 waitUntil = "networkidle"
 
+[inesmartins]
+title = "inesmartins"
+url = "https://inesmartins.github.io/index.html"
+entrySelector = "article.gh-card.post"
+titleSelector = ".gh-card-title"
+linkSelector = ".gh-card-link"
+dateSelector = ".gh-card-date"
+dateFormat = "yyyy-MM-dd"
+
+[brokenbrowser]
+title = "brokenbrowser"
+url = "https://brokenbrowser.com/"
+entrySelector = "article.post.on-list"
+titleSelector = ".post-title a"
+linkSelector = ".post-title a"
+dateSelector = ".post-date time"
+dateFormat = "yyyy-MM-dd"
+
+[ganasec]
+title = "ganasec"
+url = "https://ganasec.com/blog"
+entrySelector = ".gs-blog-card"
+titleSelector = ".gs-blog-row-title"
+linkSelector = "*"
+dateSelector = ".gs-blog-row-meta"
+dateFormat = "yyyy-MM-dd"
+
+[manifold]
+title = "manifold"
+url = "https://www.manifold.security/blog"
+entrySelector = "[class~=\"framer-YuP4O\"]:not([class~=\"framer-1c4g7su-container\"])"
+titleSelector = ".framer-1dckhmo"
+linkSelector = ".framer-164oq06"
+dateSelector = ".framer-1skfwye"
+dateFormat = "MMM dd, yyyy"
+
+[apple-security]
+title = "apple-security"
+url = "https://security.apple.com/blog/"
+entrySelector = "#blogs-list li"
+titleSelector = "h2"
+linkSelector = ".blog-list_blog-more__link__qJnr7"
+dateSelector = ".blog-list_blog-date__y06Tq"
+dateFormat = "MMMM d, yyyy"
+
+[ammaraskar]
+title = "ammaraskar"
+url = "https://blog.ammaraskar.com/posts/"
+entrySelector = "li.entry-title"
+titleSelector = "a"
+linkSelector = "a"
+
+[xchglabs]
+title = "xchglabs"
+url = "https://xchglabs.com/blog/index.html"
+entrySelector = ".trophy"
+titleSelector = ".trophy-title"
+linkSelector = ".trophy-link"
+dateSelector = ".trophy-date"
+dateFormat = "yyyy-MM-dd"
+
+[bugscale]
+title = "bugscale"
+url = "https://bugscale.ch/blog/"
+entrySelector = "article.group"
+titleSelector = "h2"
+linkSelector = "a.block"
+dateSelector = ".flex.items-center > :first-child"
+dateFormat = "d MMMM yyyy"
+
+[raelize]
+title = "raelize"
+url = "https://raelize.com/blog/"
+entrySelector = ".post-block"
+titleSelector = ".content h3 a"
+linkSelector = ".content h3 a"
+
+[dreadnode]
+title = "dreadnode"
+url = "https://www.dreadnode.io/research/"
+entrySelector = ".grid.gap-6 > a"
+titleSelector = ".font-mono.text-base.font-bold"
+linkSelector = "*"
+dateSelector = ".font-mono.text-xs.text-dim"
+dateFormat = "MMM dd, yyyy"
