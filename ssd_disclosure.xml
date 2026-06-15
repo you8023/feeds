@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ssd-disclosure.com/advisories/</id>
     <title>ssd_disclosure</title>
-    <updated>2026-06-15T07:54:57.598Z</updated>
+    <updated>2026-06-15T10:15:49.509Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://ssd-disclosure.com/wp-content/uploads/2022/08/Group-36.png</icon>
+    <entry>
+        <title type="html"><![CDATA[ReadableStream TOCTOU: V8 Sandbox Bypass via Wasm Streaming]]></title>
+        <id>https://ssd-disclosure.com/readablestream-toctou-v8-sandbox-bypass-via-wasm-streaming/</id>
+        <link href="https://ssd-disclosure.com/readablestream-toctou-v8-sandbox-bypass-via-wasm-streaming/"/>
+        <updated>2026-06-15T10:06:37.329Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/readablestream-toctou-v8-sandbox-bypass-via-wasm-streaming/">
+				ReadableStream TOCTOU: V8 Sandbox Bypass via Wasm Streaming			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary Issue 433533359 is a TOCTOU data race between Blink’s ReadableStream consumer pipeline and V8’s WebAssembly streaming compiler. A renderer-controlled SharedArrayBuffer(SAB) mutated by a worker thread causes WebAssembly’s bytecode validator and its JIT to disagree</p>
+		</div>
+				</div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ipTIME Pre-Auth RCE in CWMP]]></title>
         <id>https://ssd-disclosure.com/iptime-pre-auth-rce-in-cwmp/</id>
@@ -167,21 +182,6 @@
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>Background vsock&nbsp;(short for Virtual Socket) is a communication mechanism in the Linux kernel designed to enable efficient, low-latency communication between virtual machines (VMs) and their host system, or between VMs themselves, without relying on traditional</p>
-		</div>
-				</div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Chrome RCE (no sandbox) via CanonicalEquality::EqualValueType()]]></title>
-        <id>https://ssd-disclosure.com/google-chrome-rce-no-sandbox-via-canonicalequalityequalvaluetype/</id>
-        <link href="https://ssd-disclosure.com/google-chrome-rce-no-sandbox-via-canonicalequalityequalvaluetype/"/>
-        <updated>2026-06-13T14:35:44.921Z</updated>
-        <content type="html"><![CDATA[<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="https://ssd-disclosure.com/google-chrome-rce-no-sandbox-via-canonicalequalityequalvaluetype/">
-				Google Chrome RCE (no sandbox) via CanonicalEquality::EqualValueType()			</a>
-		</h3>
-				<div class="elementor-post__excerpt">
-			<p>Affected Version CanonicalEquality::EqualValueType nullity check bug All Chrome builds having the ValueType refactoring commit 44171ac – M135 and above in stable channel. Prior to the commit, CanonicalEquality::EqualValueType() had a ValueKind check that enforces nullity equivalence</p>
 		</div>
 				</div>]]></content>
     </entry>
