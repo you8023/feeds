@@ -1550,16 +1550,17 @@ url = "https://ganasec.com/blog"
 entrySelector = ".gs-blog-card"
 titleSelector = ".gs-blog-row-title"
 linkSelector = "*"
-dateSelector = ".gs-blog-row-meta"
+dateSelector = ".gs-blog-row-meta > span:nth-child(2)"
 dateFormat = "yyyy-MM-dd"
+waitUntil = "networkidle"
 
 [manifold]
 title = "manifold"
 url = "https://www.manifold.security/blog"
-entrySelector = "[class~=\"framer-YuP4O\"]:not([class~=\"framer-1c4g7su-container\"])"
-titleSelector = ".framer-1dckhmo"
-linkSelector = ".framer-164oq06"
-dateSelector = ".framer-1skfwye"
+entrySelector = "[data-framer-name='Small Card']"
+titleSelector = "h2"
+linkSelector = "a[data-framer-name='Category & Title']"
+dateSelector = "div[data-framer-name='Date'] > p"
 dateFormat = "MMM dd, yyyy"
 
 [apple_security]
