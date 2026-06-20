@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-06-20T11:08:33.774Z</updated>
+    <updated>2026-06-20T13:13:44.200Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[AWS IAM Explained: Users, Roles, Policies, and Least Privilege]]></title>
+        <id>https://dev.to/pandey-raghvendra/aws-iam-explained-users-roles-policies-and-least-privilege-l1e</id>
+        <link href="https://dev.to/pandey-raghvendra/aws-iam-explained-users-roles-policies-and-least-privilege-l1e"/>
+        <updated>2026-06-20T11:10:11.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/pandey-raghvendra/aws-iam-explained-users-roles-policies-and-least-privilege-l1e" aria-labelledby="article-link-3948553" class="crayons-story__hidden-navigation-link">AWS IAM Explained: Users, Roles, Policies, and Least Privilege</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/pandey-raghvendra" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3031233%2F3db6d024-1e58-41bb-983a-cb43818587d0.png" alt="pandey-raghvendra profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/pandey-raghvendra" class="crayons-story__secondary fw-medium m:hidden">
+              Raghvendra Pandey
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3948553" aria-controls="story-author-preview-content-3948553" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Raghvendra Pandey profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Raghvendra Pandey
+                
+              </button>
+              <div id="story-author-preview-content-3948553" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/pandey-raghvendra" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3031233%2F3db6d024-1e58-41bb-983a-cb43818587d0.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Raghvendra Pandey</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3031233,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Raghvendra Pandey&quot;}" data-fetched="fetched" aria-label="Follow user: Raghvendra Pandey" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3031233"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/pandey-raghvendra/aws-iam-explained-users-roles-policies-and-least-privilege-l1e" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-20T11:10:11Z" title="Saturday, June 20, 2026 at 11:10:11 AM">Jun 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1781953811"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/pandey-raghvendra/aws-iam-explained-users-roles-policies-and-least-privilege-l1e" data-preload-image="" id="article-link-3948553">
+          AWS IAM Explained: Users, Roles, Policies, and Least Privilege
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/infrastructure"><span class="crayons-tag__prefix">#</span>infrastructure</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(254, 255, 165, 0.10);
+        --tag-prefix: #FEFFA5;
+        --tag-bg-hover: rgba(254, 255, 165, 0.10);
+        --tag-prefix-hover: #FEFFA5;
+      " href="/t/tutorial"><span class="crayons-tag__prefix">#</span>tutorial</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/pandey-raghvendra/aws-iam-explained-users-roles-policies-and-least-privilege-l1e#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS IAM Explained: Users, Roles, Policies, and Least Privilege">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ah4jui7ioqk900otozp2efa60yrcotm3" class="crayons-icon"><title id="ah4jui7ioqk900otozp2efa60yrcotm3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            8 min read
+          </small>
+            <button type="button" id="article-save-button-3948553" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3948553" data-article-author-id="3031233" aria-label="Save post AWS IAM Explained: Users, Roles, Policies, and Least Privilege to reading list" title="Save post AWS IAM Explained: Users, Roles, Policies, and Least Privilege to reading list" data-save-initialized="true">
+              <span class="bm-initial crayons-icon c-btn__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success crayons-icon c-btn__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introducing EAP: The Production-Ready Zero-Config Auth Proxy with Cloud IAM & Rate Limiting]]></title>
         <id>https://dev.to/parthtiw710/introducing-eap-the-production-ready-zero-config-auth-proxy-with-cloud-iam-rate-limiting-1l1b</id>
@@ -102,7 +213,7 @@
             </div>
           </a>
             <a href="https://dev.to/parthtiw710/introducing-eap-the-production-ready-zero-config-auth-proxy-with-cloud-iam-rate-limiting-1l1b#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Introducing EAP: The Production-Ready Zero-Config Auth Proxy with Cloud IAM &amp; Rate Limiting">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akzcblgiawezjzfhgvhi4y9ed8h24vml" class="crayons-icon"><title id="akzcblgiawezjzfhgvhi4y9ed8h24vml">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aefh59emwozzd1krxl451xzwic30wwnf" class="crayons-icon"><title id="aefh59emwozzd1krxl451xzwic30wwnf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -213,7 +324,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/exploitnotes/hackthebox-forgotten-writeup-4kj6#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Hackthebox: Forgotten Writeup">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aagf4npn7c9v3uvsxe480hi61ljlmg7s" class="crayons-icon"><title id="aagf4npn7c9v3uvsxe480hi61ljlmg7s">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aab68np4mntsyrm8s5gaw5e3tgpfe4e2" class="crayons-icon"><title id="aab68np4mntsyrm8s5gaw5e3tgpfe4e2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -324,7 +435,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/pvgomes/your-ci-agent-is-reading-more-than-your-prompt-3c96#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - your CI agent is reading more than your prompt">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqymza8hz8q03s8j8nzi154qc64dpc90" class="crayons-icon"><title id="aqymza8hz8q03s8j8nzi154qc64dpc90">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aezn4fo5o01fb2u6ldi608di1fd9q1g5" class="crayons-icon"><title id="aezn4fo5o01fb2u6ldi608di1fd9q1g5">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -435,7 +546,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/arefla/aws-secrets-manager-in-net-how-to-load-your-secrets-straight-into-iconfiguration-4pam#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS Secrets Manager in .NET: How To Load Your Secrets Straight into IConfiguration">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aj7oahnqx2zdg0gvindrhm19mia5y2ov" class="crayons-icon"><title id="aj7oahnqx2zdg0gvindrhm19mia5y2ov">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aa0wm3l3tk9jag5u2fx1nvu9f2v27vu4" class="crayons-icon"><title id="aa0wm3l3tk9jag5u2fx1nvu9f2v27vu4">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
