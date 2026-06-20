@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-06-20T17:10:38.029Z</updated>
+    <updated>2026-06-20T19:04:03.822Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[What building HIPAA-compliant lakehouses taught me about real-world encryption]]></title>
+        <id>https://dev.to/aniketsoni/what-building-hipaa-compliant-lakehouses-taught-me-about-real-world-encryption-7co</id>
+        <link href="https://dev.to/aniketsoni/what-building-hipaa-compliant-lakehouses-taught-me-about-real-world-encryption-7co"/>
+        <updated>2026-06-20T17:50:41.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/aniketsoni/what-building-hipaa-compliant-lakehouses-taught-me-about-real-world-encryption-7co" aria-labelledby="article-link-3943173" class="crayons-story__hidden-navigation-link">What building HIPAA-compliant lakehouses taught me about real-world encryption</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/aniketsoni" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3954381%2Fc17f147f-e19b-4160-be20-e2d4dd2af1dd.png" alt="aniketsoni profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/aniketsoni" class="crayons-story__secondary fw-medium m:hidden">
+              Aniket Abhishek Soni
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3943173" aria-controls="story-author-preview-content-3943173" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Aniket Abhishek Soni profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Aniket Abhishek Soni
+                
+              </button>
+              <div id="story-author-preview-content-3943173" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/aniketsoni" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3954381%2Fc17f147f-e19b-4160-be20-e2d4dd2af1dd.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Aniket Abhishek Soni</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3954381,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Aniket Abhishek Soni&quot;}" data-fetched="fetched" aria-label="Follow user: Aniket Abhishek Soni" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3954381"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/aniketsoni/what-building-hipaa-compliant-lakehouses-taught-me-about-real-world-encryption-7co" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-20T17:50:41Z" title="Saturday, June 20, 2026 at 5:50:41 PM">Jun 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1781977841"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/aniketsoni/what-building-hipaa-compliant-lakehouses-taught-me-about-real-world-encryption-7co" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1680992046617-e2e35451bcdb%3Fcrop%3Dentropy%26cs%3Dtinysrgb%26fit%3Dmax%26fm%3Djpg%26ixid%3DM3w5NzU0MjJ8MHwxfHNlYXJjaHw3fHxzZXJ2ZXIlMjByb29tJTIwY2FibGVzfGVufDB8MHx8fDE3ODE4OTkxMDF8MA%26ixlib%3Drb-4.1.0%26q%3D80%26w%3D1080" id="article-link-3943173">
+          What building HIPAA-compliant lakehouses taught me about real-world encryption
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/data"><span class="crayons-tag__prefix">#</span>data</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/compliance"><span class="crayons-tag__prefix">#</span>compliance</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/aniketsoni/what-building-hipaa-compliant-lakehouses-taught-me-about-real-world-encryption-7co#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - What building HIPAA-compliant lakehouses taught me about real-world encryption">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a32gnmlrbvadwoj755sfnhr9sd2b44t3" class="crayons-icon"><title id="a32gnmlrbvadwoj755sfnhr9sd2b44t3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-3943173" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3943173" data-article-author-id="3954381" aria-label="Save post What building HIPAA-compliant lakehouses taught me about real-world encryption to reading list" title="Save post What building HIPAA-compliant lakehouses taught me about real-world encryption to reading list" data-save-initialized="true">
+              <span class="bm-initial crayons-icon c-btn__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success crayons-icon c-btn__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AWS IAM Least Privilege: A Practical Guide to Scoping Down Policies]]></title>
         <id>https://dev.to/jeff_shieldly/aws-iam-least-privilege-a-practical-guide-to-scoping-down-policies-249a</id>
@@ -92,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/jeff_shieldly/aws-iam-least-privilege-a-practical-guide-to-scoping-down-policies-249a#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS IAM Least Privilege: A Practical Guide to Scoping Down Policies">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ajjfx1yzs82j9nn5um2s0j0igynej6x8" class="crayons-icon"><title id="ajjfx1yzs82j9nn5um2s0j0igynej6x8">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqii253j6vprx5e66x8ksx496wgbr1ly" class="crayons-icon"><title id="aqii253j6vprx5e66x8ksx496wgbr1ly">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -102,117 +213,6 @@
             2 min read
           </small>
             <button type="button" id="article-save-button-3949494" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3949494" data-article-author-id="3994190" aria-label="Save post AWS IAM Least Privilege: A Practical Guide to Scoping Down Policies to reading list" title="Save post AWS IAM Least Privilege: A Practical Guide to Scoping Down Policies to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Wildcards in AWS IAM Policies Are Dangerous (and How to Fix Them)]]></title>
-        <id>https://dev.to/jeff_shieldly/why-wildcards-in-aws-iam-policies-are-dangerous-and-how-to-fix-them-15e5</id>
-        <link href="https://dev.to/jeff_shieldly/why-wildcards-in-aws-iam-policies-are-dangerous-and-how-to-fix-them-15e5"/>
-        <updated>2026-06-20T14:10:36.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/jeff_shieldly/why-wildcards-in-aws-iam-policies-are-dangerous-and-how-to-fix-them-15e5" aria-labelledby="article-link-3949466" class="crayons-story__hidden-navigation-link">Why Wildcards in AWS IAM Policies Are Dangerous (and How to Fix Them)</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/jeff_shieldly" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3994190%2Ff6fd9730-40fa-48e6-9c93-9f22c51bc149.png" alt="jeff_shieldly profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/jeff_shieldly" class="crayons-story__secondary fw-medium m:hidden">
-              Jeff Tham
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3949466" aria-controls="story-author-preview-content-3949466" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Jeff Tham profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Jeff Tham
-                
-              </button>
-              <div id="story-author-preview-content-3949466" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/jeff_shieldly" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3994190%2Ff6fd9730-40fa-48e6-9c93-9f22c51bc149.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Jeff Tham</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3994190,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Jeff Tham&quot;}" data-fetched="fetched" aria-label="Follow user: Jeff Tham" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3994190"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/jeff_shieldly/why-wildcards-in-aws-iam-policies-are-dangerous-and-how-to-fix-them-15e5" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-20T14:10:36Z" title="Saturday, June 20, 2026 at 2:10:36 PM">Jun 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1781964636"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/jeff_shieldly/why-wildcards-in-aws-iam-policies-are-dangerous-and-how-to-fix-them-15e5" data-preload-image="" id="article-link-3949466">
-          Why Wildcards in AWS IAM Policies Are Dangerous (and How to Fix Them)
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(255, 153, 0, 0.10);
-        --tag-prefix: #FF9900;
-        --tag-bg-hover: rgba(255, 153, 0, 0.10);
-        --tag-prefix-hover: #FF9900;
-      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/jeff_shieldly/why-wildcards-in-aws-iam-policies-are-dangerous-and-how-to-fix-them-15e5#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Why Wildcards in AWS IAM Policies Are Dangerous (and How to Fix Them)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4c67ty9f6efs5hfv9kqhwsjh0rnnjnv" class="crayons-icon"><title id="a4c67ty9f6efs5hfv9kqhwsjh0rnnjnv">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3949466" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3949466" data-article-author-id="3994190" aria-label="Save post Why Wildcards in AWS IAM Policies Are Dangerous (and How to Fix Them) to reading list" title="Save post Why Wildcards in AWS IAM Policies Are Dangerous (and How to Fix Them) to reading list" data-save-initialized="true">
               <span class="bm-initial crayons-icon c-btn__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -314,7 +314,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/jeff_shieldly/aws-iam-privilege-escalation-common-paths-and-how-to-catch-them-15an#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS IAM Privilege Escalation: Common Paths and How to Catch Them">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ao1b2meswc44sd4ozuqvylsbnkvptlzo" class="crayons-icon"><title id="ao1b2meswc44sd4ozuqvylsbnkvptlzo">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="arxavbo2ut2s9top8cu8rwf7xi4k3nl7" class="crayons-icon"><title id="arxavbo2ut2s9top8cu8rwf7xi4k3nl7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -339,11 +339,11 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AWS IAM Explained: Users, Roles, Policies, and Least Privilege]]></title>
-        <id>https://dev.to/pandey-raghvendra/aws-iam-explained-users-roles-policies-and-least-privilege-l1e</id>
-        <link href="https://dev.to/pandey-raghvendra/aws-iam-explained-users-roles-policies-and-least-privilege-l1e"/>
-        <updated>2026-06-20T11:10:11.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/pandey-raghvendra/aws-iam-explained-users-roles-policies-and-least-privilege-l1e" aria-labelledby="article-link-3948553" class="crayons-story__hidden-navigation-link">AWS IAM Explained: Users, Roles, Policies, and Least Privilege</a>
+        <title type="html"><![CDATA[Why Wildcards in AWS IAM Policies Are Dangerous (and How to Fix Them)]]></title>
+        <id>https://dev.to/jeff_shieldly/why-wildcards-in-aws-iam-policies-are-dangerous-and-how-to-fix-them-15e5</id>
+        <link href="https://dev.to/jeff_shieldly/why-wildcards-in-aws-iam-policies-are-dangerous-and-how-to-fix-them-15e5"/>
+        <updated>2026-06-20T14:10:36.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/jeff_shieldly/why-wildcards-in-aws-iam-policies-are-dangerous-and-how-to-fix-them-15e5" aria-labelledby="article-link-3949466" class="crayons-story__hidden-navigation-link">Why Wildcards in AWS IAM Policies Are Dangerous (and How to Fix Them)</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
@@ -351,40 +351,40 @@
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
 
-          <a href="/pandey-raghvendra" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3031233%2F3db6d024-1e58-41bb-983a-cb43818587d0.png" alt="pandey-raghvendra profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/jeff_shieldly" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3994190%2Ff6fd9730-40fa-48e6-9c93-9f22c51bc149.png" alt="jeff_shieldly profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/pandey-raghvendra" class="crayons-story__secondary fw-medium m:hidden">
-              Raghvendra Pandey
+            <a href="/jeff_shieldly" class="crayons-story__secondary fw-medium m:hidden">
+              Jeff Tham
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3948553" aria-controls="story-author-preview-content-3948553" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Raghvendra Pandey profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Raghvendra Pandey
+              <button id="story-author-preview-trigger-3949466" aria-controls="story-author-preview-content-3949466" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Jeff Tham profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Jeff Tham
                 
               </button>
-              <div id="story-author-preview-content-3948553" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-3949466" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/pandey-raghvendra" class="flex">
+                    <a href="/jeff_shieldly" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3031233%2F3db6d024-1e58-41bb-983a-cb43818587d0.png" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3994190%2Ff6fd9730-40fa-48e6-9c93-9f22c51bc149.png" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Raghvendra Pandey</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Jeff Tham</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3031233,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Raghvendra Pandey&quot;}" data-fetched="fetched" aria-label="Follow user: Raghvendra Pandey" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3994190,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Jeff Tham&quot;}" data-fetched="fetched" aria-label="Follow user: Jeff Tham" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="3031233"></div>
+                  <div class="author-preview-metadata-container" data-author-id="3994190"></div>
                 </div>
               </div>
             </div>
 
           </div>
-          <a href="https://dev.to/pandey-raghvendra/aws-iam-explained-users-roles-policies-and-least-privilege-l1e" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-20T11:10:11Z" title="Saturday, June 20, 2026 at 11:10:11 AM">Jun 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1781953811"></span></a>
+          <a href="https://dev.to/jeff_shieldly/why-wildcards-in-aws-iam-policies-are-dangerous-and-how-to-fix-them-15e5" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-20T14:10:36Z" title="Saturday, June 20, 2026 at 2:10:36 PM">Jun 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1781964636"></span></a>
         </div>
       </div>
 
@@ -392,8 +392,8 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/pandey-raghvendra/aws-iam-explained-users-roles-policies-and-least-privilege-l1e" data-preload-image="" id="article-link-3948553">
-          AWS IAM Explained: Users, Roles, Policies, and Least Privilege
+        <a href="https://dev.to/jeff_shieldly/why-wildcards-in-aws-iam-policies-are-dangerous-and-how-to-fix-them-15e5" data-preload-image="" id="article-link-3949466">
+          Why Wildcards in AWS IAM Policies Are Dangerous (and How to Fix Them)
         </a>
       </h2>
         <div class="crayons-story__tags">
@@ -404,148 +404,37 @@
         --tag-prefix-hover: #212b3a;
       " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 0, 0, 0.10);
-        --tag-prefix: #000000;
-        --tag-bg-hover: rgba(0, 0, 0, 0.10);
-        --tag-prefix-hover: #000000;
-      " href="/t/infrastructure"><span class="crayons-tag__prefix">#</span>infrastructure</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(27, 172, 128, 0.10);
         --tag-prefix: #1bac80;
         --tag-bg-hover: rgba(27, 172, 128, 0.10);
         --tag-prefix-hover: #1bac80;
       " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(254, 255, 165, 0.10);
-        --tag-prefix: #FEFFA5;
-        --tag-bg-hover: rgba(254, 255, 165, 0.10);
-        --tag-prefix-hover: #FEFFA5;
-      " href="/t/tutorial"><span class="crayons-tag__prefix">#</span>tutorial</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/pandey-raghvendra/aws-iam-explained-users-roles-policies-and-least-privilege-l1e#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AWS IAM Explained: Users, Roles, Policies, and Least Privilege">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="agoi6rnwx8j5c3c1i3cba5rkq94nndsd" class="crayons-icon"><title id="agoi6rnwx8j5c3c1i3cba5rkq94nndsd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            8 min read
-          </small>
-            <button type="button" id="article-save-button-3948553" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3948553" data-article-author-id="3031233" aria-label="Save post AWS IAM Explained: Users, Roles, Policies, and Least Privilege to reading list" title="Save post AWS IAM Explained: Users, Roles, Policies, and Least Privilege to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stop Paying the Cloud Tax: How to Self-Host GitHub Actions on Bare Metal]]></title>
-        <id>https://dev.to/jaksontate/stop-paying-the-cloud-tax-how-to-self-host-github-actions-on-bare-metal-4n3h</id>
-        <link href="https://dev.to/jaksontate/stop-paying-the-cloud-tax-how-to-self-host-github-actions-on-bare-metal-4n3h"/>
-        <updated>2026-06-20T11:14:36.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/jaksontate/stop-paying-the-cloud-tax-how-to-self-host-github-actions-on-bare-metal-4n3h" aria-labelledby="article-link-3948582" class="crayons-story__hidden-navigation-link">Stop Paying the Cloud Tax: How to Self-Host GitHub Actions on Bare Metal</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/jaksontate" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3844606%2F248b4fa0-86c4-40f6-9b8d-d410fdbb9e72.jpeg" alt="jaksontate profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/jaksontate" class="crayons-story__secondary fw-medium m:hidden">
-              Jakson Tate
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3948582" aria-controls="story-author-preview-content-3948582" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Jakson Tate profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Jakson Tate
-                
-              </button>
-              <div id="story-author-preview-content-3948582" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/jaksontate" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3844606%2F248b4fa0-86c4-40f6-9b8d-d410fdbb9e72.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Jakson Tate</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3844606,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Jakson Tate&quot;}" data-fetched="fetched" aria-label="Follow user: Jakson Tate" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3844606"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/jaksontate/stop-paying-the-cloud-tax-how-to-self-host-github-actions-on-bare-metal-4n3h" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-20T11:14:36Z" title="Saturday, June 20, 2026 at 11:14:36 AM">Jun 20</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1781954076"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/jaksontate/stop-paying-the-cloud-tax-how-to-self-host-github-actions-on-bare-metal-4n3h" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgf0vm16e1zs5we0wztx7.jpg" id="article-link-3948582">
-          Stop Paying the Cloud Tax: How to Self-Host GitHub Actions on Bare Metal
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(6, 181, 0, 0.10);
         --tag-prefix: #06B500;
         --tag-bg-hover: rgba(6, 181, 0, 0.10);
         --tag-prefix-hover: #06B500;
       " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 0, 0, 0.10);
-        --tag-prefix: #000000;
-        --tag-bg-hover: rgba(0, 0, 0, 0.10);
-        --tag-prefix-hover: #000000;
-      " href="/t/github"><span class="crayons-tag__prefix">#</span>github</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-            <a href="https://dev.to/jaksontate/stop-paying-the-cloud-tax-how-to-self-host-github-actions-on-bare-metal-4n3h#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Stop Paying the Cloud Tax: How to Self-Host GitHub Actions on Bare Metal">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahwxpl4rlrnsq8zyt63hj03x42s81yxi" class="crayons-icon"><title id="ahwxpl4rlrnsq8zyt63hj03x42s81yxi">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/jeff_shieldly/why-wildcards-in-aws-iam-policies-are-dangerous-and-how-to-fix-them-15e5#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Why Wildcards in AWS IAM Policies Are Dangerous (and How to Fix Them)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4l2fcl1ll7eqnd3x578fsw2jl6jqhj0" class="crayons-icon"><title id="a4l2fcl1ll7eqnd3x578fsw2jl6jqhj0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            5 min read
+            2 min read
           </small>
-            <button type="button" id="article-save-button-3948582" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3948582" data-article-author-id="3844606" aria-label="Save post Stop Paying the Cloud Tax: How to Self-Host GitHub Actions on Bare Metal to reading list" title="Save post Stop Paying the Cloud Tax: How to Self-Host GitHub Actions on Bare Metal to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3949466" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3949466" data-article-author-id="3994190" aria-label="Save post Why Wildcards in AWS IAM Policies Are Dangerous (and How to Fix Them) to reading list" title="Save post Why Wildcards in AWS IAM Policies Are Dangerous (and How to Fix Them) to reading list" data-save-initialized="true">
               <span class="bm-initial crayons-icon c-btn__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
