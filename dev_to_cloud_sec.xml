@@ -2,9 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-06-21T22:50:17.239Z</updated>
+    <updated>2026-06-22T01:56:08.430Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[container escape is becoming an agent workload]]></title>
+        <id>https://dev.to/pvgomes/container-escape-is-becoming-an-agent-workload-56gb</id>
+        <link href="https://dev.to/pvgomes/container-escape-is-becoming-an-agent-workload-56gb"/>
+        <updated>2026-06-22T00:01:34.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/pvgomes/container-escape-is-becoming-an-agent-workload-56gb" aria-labelledby="article-link-3958297" class="crayons-story__hidden-navigation-link">container escape is becoming an agent workload</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/pvgomes" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F109646%2F27accb17-594d-4776-b421-db7cca109bfe.jpg" alt="pvgomes profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/pvgomes" class="crayons-story__secondary fw-medium m:hidden">
+              Paulo Victor Leite Lima Gomes
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-3958297" aria-controls="story-author-preview-content-3958297" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Paulo Victor Leite Lima Gomes profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Paulo Victor Leite Lima Gomes
+                
+              </button>
+              <div id="story-author-preview-content-3958297" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/pvgomes" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F109646%2F27accb17-594d-4776-b421-db7cca109bfe.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Paulo Victor Leite Lima Gomes</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:109646,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Paulo Victor Leite Lima Gomes&quot;}" data-fetched="fetched" aria-label="Follow user: Paulo Victor Leite Lima Gomes" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="109646"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/pvgomes/container-escape-is-becoming-an-agent-workload-56gb" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-22T00:01:34Z" title="Monday, June 22, 2026 at 12:01:34 AM">Jun 22</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782086494"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/pvgomes/container-escape-is-becoming-an-agent-workload-56gb" data-preload-image="" id="article-link-3958297">
+          container escape is becoming an agent workload
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/containers"><span class="crayons-tag__prefix">#</span>containers</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/pvgomes/container-escape-is-becoming-an-agent-workload-56gb#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - container escape is becoming an agent workload">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8nh600vjz42xi6kkuyqj00nztxvfvpw" class="crayons-icon"><title id="a8nh600vjz42xi6kkuyqj00nztxvfvpw">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            7 min read
+          </small>
+            <button type="button" id="article-save-button-3958297" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3958297" data-article-author-id="109646" aria-label="Save post container escape is becoming an agent workload to reading list" title="Save post container escape is becoming an agent workload to reading list" data-save-initialized="true">
+              <span class="bm-initial crayons-icon c-btn__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success crayons-icon c-btn__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Optimizing Conversion Rates at the Edge: Why We Moved Bot Protection to Cloudflare]]></title>
         <id>https://dev.to/katie_p/optimizing-conversion-rates-at-the-edge-why-we-moved-bot-protection-to-cloudflare-2766</id>
@@ -92,7 +203,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/katie_p/optimizing-conversion-rates-at-the-edge-why-we-moved-bot-protection-to-cloudflare-2766#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Optimizing Conversion Rates at the Edge: Why We Moved Bot Protection to Cloudflare">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apwnxbrh4n1v7dmbl59p3rc94i93thpf" class="crayons-icon"><title id="apwnxbrh4n1v7dmbl59p3rc94i93thpf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="acj7dn7cdl9jvqcc1is4x34ecgdsmlr4" class="crayons-icon"><title id="acj7dn7cdl9jvqcc1is4x34ecgdsmlr4">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -203,7 +314,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/dwoitzik/my-firewall-had-77-rules-terraform-knew-about-22-of-them-4pep#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - My Firewall Had 77 Rules. Terraform Knew About 22 of Them.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="af7j5l2qixh4xbrc63m3hjex84pcjl51" class="crayons-icon"><title id="af7j5l2qixh4xbrc63m3hjex84pcjl51">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5r31qs185wfi51cqbdoawzuj5g8br9b" class="crayons-icon"><title id="a5r31qs185wfi51cqbdoawzuj5g8br9b">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -308,7 +419,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/dwoitzik/i-ran-gitleaks-against-my-own-repo-and-found-12-real-secrets-1j18#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I Ran Gitleaks Against My Own Repo and Found 12 Real Secrets">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aouk0u5ubuur8nmsh2iw2o1nsfjhal5w" class="crayons-icon"><title id="aouk0u5ubuur8nmsh2iw2o1nsfjhal5w">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anzcf60pa21jxf6pfnl82eaxga98k6vw" class="crayons-icon"><title id="anzcf60pa21jxf6pfnl82eaxga98k6vw">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
