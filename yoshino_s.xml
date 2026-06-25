@@ -1,621 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://flowerwitch.github.io/</id>
-    <title>flowerwitch</title>
-    <updated>2026-06-25T18:41:04.581Z</updated>
+    <id>https://blog.yoshino-s.xyz/blog/</id>
+    <title>yoshino_s</title>
+    <updated>2026-06-25T20:41:41.317Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://flowerwitch.github.io/images/favicon-light-32.png</icon>
+    <icon>https://blog.yoshino-s.xyz/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[「花」铁线莲]]></title>
-        <id>https://flowerwitch.github.io/2026/05/14/Azure/</id>
-        <link href="https://flowerwitch.github.io/2026/05/14/Azure/"/>
-        <updated>2026-05-14T09:39:50.000Z</updated>
-        <content type="html"><![CDATA[<div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2026/05/14/Azure/">「花」铁线莲</a>
-      </h1>
-    
-  
-</div>
-
-        <div class="meta-info-bar">
-          <div class="meta-info">
-  <time class="dt-published" datetime="2026-05-14T09:39:50.000Z" itemprop="datePublished">2026-05-14</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-    Uncategorized 
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            26k words 
-          </div>
-        </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wp/" rel="tag">wp</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          有东西被加密了, 请输入hash查看.
-        
-      </div>
-      
-         
-    </div>
-    
-     
-    <a class="right-panel  with-pic  " style="background-image: url(/images/)" href="/2026/05/14/Azure/">
-       
-      <div class="overlay">
-        <i class="fa-solid fa-angle-right with-pic"></i>
-      </div>
-       
-    </a>
-     
-  </div>]]></content>
+        <title type="html"><![CDATA[CVE-2025-62506：MinIO服务账户权限提升漏洞深度分析]]></title>
+        <id>https://blog.yoshino-s.xyz/blog/2025/10/23/cve-2025-62506/</id>
+        <link href="https://blog.yoshino-s.xyz/blog/2025/10/23/cve-2025-62506/"/>
+        <updated>2025-10-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<header><h2 class="title_aCrY"><a href="/blog/2025/10/23/cve-2025-62506/">CVE-2025-62506：MinIO服务账户权限提升漏洞深度分析</a></h2><div class="container_qTaG margin-vert--md"><time datetime="2025-10-23T00:00:00.000Z">2025年10月23日</time> · <!-- -->阅读需 11 分钟</div><div class="margin-top--md margin-bottom--sm row"><div class="col col--12 authorCol_o1NY"><div class="avatar margin-bottom--sm"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer" class="avatar__photo-link"><img class="avatar__photo authorImage_cMSJ" src="https://github.com/yoshino-s.png" alt="Yoshino-s"></a><div class="avatar__intro authorDetails_yaY3"><div class="avatar__name"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer"><span class="authorName_ASDy" translate="no">Yoshino-s</span></a></div><small class="authorTitle_Xxqa" title="Yoshino-s">Yoshino-s</small><div class="authorSocials_dC04"></div></div></div></div></div></header><div class="markdown"><div class="theme-admonition theme-admonition-tip admonition_C8Mh alert alert--success"><div class="admonitionHeading_x7WG"><span class="admonitionIcon_r803"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_W9KL"><p>Exp脚本已发布：<a href="https://github.com/yoshino-s/CVE-2025-62506" target="_blank" rel="noopener noreferrer" class="">https://github.com/yoshino-s/CVE-2025-62506</a></p></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_zIqo" id="引言">引言<a href="#引言" class="hash-link" aria-label="引言的直接链接" title="引言的直接链接" translate="no">​</a></h2>
+<p>2025年10月，MinIO官方发布了一个严重的安全漏洞补丁，编号为CVE-2025-62506。这是一个权限提升漏洞，影响了MinIO对象存储系统中的服务账户和STS（安全令牌服务）账户。该漏洞允许受限账户通过创建新服务账户的方式绕过其内联策略限制，从而获得超出预期权限的访问能力。</p>
+<p>作为云原生对象存储领域的领先解决方案，MinIO被广泛应用于各种规模的企业环境中。这个漏洞的发现凸显了在复杂权限模型中进行安全验证时需要格外谨慎的重要性。本文将深入分析这个漏洞的成因、利用方式、影响以及修复方案。</p></div><footer class="row docusaurus-mt-lg"><div class="col col--9"><b>标签：</b><ul class="tags_PKdg padding--none margin-left--sm"><li class="tag_UE17"><a rel="tag" class="tag_AvNX tagRegular_BvWH" href="/blog/tags/minio/">minio</a></li></ul></div><div class="col text--right col--3"><a aria-label="阅读 CVE-2025-62506：MinIO服务账户权限提升漏洞深度分析 的全文" href="/blog/2025/10/23/cve-2025-62506/"><b>阅读更多</b></a></div></footer>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【wiz】 2026の陈年文章]]></title>
-        <id>https://flowerwitch.github.io/2026/02/04/wiz-2026-bug-bounty/</id>
-        <link href="https://flowerwitch.github.io/2026/02/04/wiz-2026-bug-bounty/"/>
-        <updated>2026-02-04T13:20:49.000Z</updated>
-        <content type="html"><![CDATA[<div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2026/02/04/wiz-2026-bug-bounty/">【wiz】 2026の陈年文章</a>
-      </h1>
-    
-  
-</div>
-
-        <div class="meta-info-bar">
-          <div class="meta-info">
-  <time class="dt-published" datetime="2026-02-04T13:20:49.000Z" itemprop="datePublished">2026-02-04</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-  <a class="meta-cate-link" href="/categories/src/">src</a>&gt;<a class="meta-cate-link" href="/categories/src/wiz/">wiz</a>
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            9.4k words 
-          </div>
-        </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wp/" rel="tag">wp</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          wiz 2026
-        
-      </div>
-      
-         
-    </div>
-    
-     
-    <a class="right-panel  with-pic  " style="background-image: url(https://cdn.cdnjson.com/pic.html?url=http://tvax2.sinaimg.cn/large/0065CzJOly1i9yvyx7qqoj31ce0y4hdu.jpg)" href="/2026/02/04/wiz-2026-bug-bounty/">
-       
-      <div class="overlay">
-        <i class="fa-solid fa-angle-right with-pic"></i>
-      </div>
-       
-    </a>
-     
-  </div>]]></content>
+        <title type="html"><![CDATA[跨云的K8S集群搭建]]></title>
+        <id>https://blog.yoshino-s.xyz/blog/2025/10/22/index/</id>
+        <link href="https://blog.yoshino-s.xyz/blog/2025/10/22/index/"/>
+        <updated>2025-10-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<header><h2 class="title_aCrY"><a href="/blog/2025/10/22/index/">跨云的K8S集群搭建</a></h2><div class="container_qTaG margin-vert--md"><time datetime="2025-10-22T00:00:00.000Z">2025年10月22日</time> · <!-- -->阅读需 6 分钟</div><div class="margin-top--md margin-bottom--sm row"><div class="col col--12 authorCol_o1NY"><div class="avatar margin-bottom--sm"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer" class="avatar__photo-link"><img class="avatar__photo authorImage_cMSJ" src="https://github.com/yoshino-s.png" alt="Yoshino-s"></a><div class="avatar__intro authorDetails_yaY3"><div class="avatar__name"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer"><span class="authorName_ASDy" translate="no">Yoshino-s</span></a></div><small class="authorTitle_Xxqa" title="Yoshino-s">Yoshino-s</small><div class="authorSocials_dC04"></div></div></div></div></div></header><div class="markdown"><p>好久没写文章了，来水点东西。</p>
+<p>故事的起因是因为，老集群的kadalu炸了，glusterfs的数据没发auto heal，导致磁盘爆炸。所以决定rm -rf并新建一个集群。</p>
+<p>在搭建集群的时候，有一个需求：在腾讯云cos上打包大量的小文件到tar.gz并存回cos上。</p>
+<p>这就涉及到大量的网络读写，如果说在家里的服务器上跑，太慢了，所以设想的是，把workload跑在腾讯云的CVM上，这样cos上下载全部走腾讯云内网，省钱省时间。</p></div><footer class="row docusaurus-mt-lg"><div class="col col--9"><b>标签：</b><ul class="tags_PKdg padding--none margin-left--sm"><li class="tag_UE17"><a rel="tag" class="tag_AvNX tagRegular_BvWH" href="/blog/tags/infra/">infra</a></li></ul></div><div class="col text--right col--3"><a aria-label="阅读 跨云的K8S集群搭建 的全文" href="/blog/2025/10/22/index/"><b>阅读更多</b></a></div></footer>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Vuln-SSCMS-2026-1-18]]></title>
-        <id>https://flowerwitch.github.io/2026/01/18/Vuln-SSCMS-2026-1-18/</id>
-        <link href="https://flowerwitch.github.io/2026/01/18/Vuln-SSCMS-2026-1-18/"/>
-        <updated>2026-01-18T12:18:50.000Z</updated>
-        <content type="html"><![CDATA[<div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2026/01/18/Vuln-SSCMS-2026-1-18/">Vuln-SSCMS-2026-1-18</a>
-      </h1>
-    
-  
-</div>
-
-        <div class="meta-info-bar">
-          <div class="meta-info">
-  <time class="dt-published" datetime="2026-01-18T12:18:50.000Z" itemprop="datePublished">2026-01-18</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-    Uncategorized 
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            2.2k words 
-          </div>
-        </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/cve/" rel="tag">cve</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wp/" rel="tag">wp</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          <div class="truncate-text">
-            
-              此处用户传入的 RelatedFileName 参数没有进行路径遍历字符的过滤或清洗，导致持有 /api/admin/cms/templates/templatesEditor/actions/settings 接口访问权限的用户，可以构造如  "relatedFileName":"/../../../../../../../../.././etc/cron.d/e2scrub_all" 进行传参，请求的中 relatedFileName 参数将会进入到如下位置。
-
-cms/src/SSCMS.Web/Controllers/Admin/Cms/Templates/TemplatesEditorController.Settings.cs
-
-
-在 TemplatesEditorController.Settings.cs 的 L100，含有路径穿越的内容的 RelatedFileName 的值又赋给了 template.RelatedFileName 中，然后 templ...
-            
-          </div>
-        
-      </div>
-      
-         
-    </div>
-    
-     
-    <a class="right-panel  with-pic  " style="background-image: url(https://cdn.cdnjson.com/pic.html?url=http://tvax1.sinaimg.cn/large/0065CzJOly1i9f8ay0h55j34mo668b2g.jpg)" href="/2026/01/18/Vuln-SSCMS-2026-1-18/">
-       
-      <div class="overlay">
-        <i class="fa-solid fa-angle-right with-pic"></i>
-      </div>
-       
-    </a>
-     
-  </div>]]></content>
+        <title type="html"><![CDATA[家庭服务器环境搭建]]></title>
+        <id>https://blog.yoshino-s.xyz/blog/2023/09/28/infra/</id>
+        <link href="https://blog.yoshino-s.xyz/blog/2023/09/28/infra/"/>
+        <updated>2023-09-28T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<header><h2 class="title_aCrY"><a href="/blog/2023/09/28/infra/">家庭服务器环境搭建</a></h2><div class="container_qTaG margin-vert--md"><time datetime="2023-09-28T00:00:00.000Z">2023年9月28日</time> · <!-- -->阅读需 2 分钟</div><div class="margin-top--md margin-bottom--sm row"><div class="col col--12 authorCol_o1NY"><div class="avatar margin-bottom--sm"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer" class="avatar__photo-link"><img class="avatar__photo authorImage_cMSJ" src="https://github.com/yoshino-s.png" alt="Yoshino-s"></a><div class="avatar__intro authorDetails_yaY3"><div class="avatar__name"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer"><span class="authorName_ASDy" translate="no">Yoshino-s</span></a></div><small class="authorTitle_Xxqa" title="Yoshino-s">Yoshino-s</small><div class="authorSocials_dC04"></div></div></div></div></div></header><div class="markdown"><div class="theme-admonition theme-admonition-tip admonition_C8Mh alert alert--success"><div class="admonitionHeading_x7WG"><span class="admonitionIcon_r803"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_W9KL"><p>没写完，慢慢更</p></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_zIqo" id="tldr">TL;DR<a href="#tldr" class="hash-link" aria-label="TL;DR的直接链接" title="TL;DR的直接链接" translate="no">​</a></h2>
+<p>架构图</p>
+<p><img decoding="async" loading="lazy" alt="Alt text" src="/assets/images/image-e23edeee3b27d61645c47abcb72274c4.png" width="2282" height="2186" class="img__IhQ"></p></div><footer class="row docusaurus-mt-lg"><div class="col col--9"><b>标签：</b><ul class="tags_PKdg padding--none margin-left--sm"><li class="tag_UE17"><a rel="tag" class="tag_AvNX tagRegular_BvWH" href="/blog/tags/infra/">infra</a></li></ul></div><div class="col text--right col--3"><a aria-label="阅读 家庭服务器环境搭建 的全文" href="/blog/2023/09/28/infra/"><b>阅读更多</b></a></div></footer>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【Wiz 2026】State of Affairs]]></title>
-        <id>https://flowerwitch.github.io/2026/01/05/wiz-2026-cloudsecuritychampionship-7/</id>
-        <link href="https://flowerwitch.github.io/2026/01/05/wiz-2026-cloudsecuritychampionship-7/"/>
-        <updated>2026-01-05T10:37:12.000Z</updated>
-        <content type="html"><![CDATA[<div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2026/01/05/wiz-2026-cloudsecuritychampionship-7/">【Wiz 2026】State of Affairs</a>
-      </h1>
-    
-  
-</div>
-
-        <div class="meta-info-bar">
-          <div class="meta-info">
-  <time class="dt-published" datetime="2026-01-05T10:37:12.000Z" itemprop="datePublished">2026-01-05</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-  <a class="meta-cate-link" href="/categories/ctf/">ctf</a>&gt;<a class="meta-cate-link" href="/categories/ctf/wiz/">wiz</a>
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            44k words 
-          </div>
-        </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Terraform/" rel="tag">Terraform</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wp/" rel="tag">wp</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          有东西被加密了, 请输入hash查看.
-        
-      </div>
-      
-         
-    </div>
-    
-     
-    <a class="right-panel  with-pic  " style="background-image: url(https://cdn.cdnjson.com/pic.html?url=http://tvax4.sinaimg.cn/large/0065CzJOly1i91ey76u7vj30sg11y7rm.jpg)" href="/2026/01/05/wiz-2026-cloudsecuritychampionship-7/">
-       
-      <div class="overlay">
-        <i class="fa-solid fa-angle-right with-pic"></i>
-      </div>
-       
-    </a>
-     
-  </div>]]></content>
+        <title type="html"><![CDATA[P106-100 折腾笔记]]></title>
+        <id>https://blog.yoshino-s.xyz/blog/2023/09/27/p106-100/</id>
+        <link href="https://blog.yoshino-s.xyz/blog/2023/09/27/p106-100/"/>
+        <updated>2023-09-27T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<header><h2 class="title_aCrY"><a href="/blog/2023/09/27/p106-100/">P106-100 折腾笔记</a></h2><div class="container_qTaG margin-vert--md"><time datetime="2023-09-27T00:00:00.000Z">2023年9月27日</time> · <!-- -->阅读需 7 分钟</div><div class="margin-top--md margin-bottom--sm row"><div class="col col--12 authorCol_o1NY"><div class="avatar margin-bottom--sm"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer" class="avatar__photo-link"><img class="avatar__photo authorImage_cMSJ" src="https://github.com/yoshino-s.png" alt="Yoshino-s"></a><div class="avatar__intro authorDetails_yaY3"><div class="avatar__name"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer"><span class="authorName_ASDy" translate="no">Yoshino-s</span></a></div><small class="authorTitle_Xxqa" title="Yoshino-s">Yoshino-s</small><div class="authorSocials_dC04"></div></div></div></div></div></header><div class="markdown"><h2 class="anchor anchorTargetStickyNavbar_zIqo" id="背景">背景<a href="#背景" class="hash-link" aria-label="背景的直接链接" title="背景的直接链接" translate="no">​</a></h2>
+<p>从pdd收了一张100不到的1060，超级牛逼，但是这货不支持视频输出，也不支持编解码。但是牛逼就牛逼在他真的和1060核心一样，久经沙场体质好对吧。（<!-- -->😆<!-- -->）</p></div><footer class="row docusaurus-mt-lg"><div class="col col--9"><b>标签：</b><ul class="tags_PKdg padding--none margin-left--sm"><li class="tag_UE17"><a rel="tag" class="tag_AvNX tagRegular_BvWH" href="/blog/tags/infra/">infra</a></li></ul></div><div class="col text--right col--3"><a aria-label="阅读 P106-100 折腾笔记 的全文" href="/blog/2023/09/27/p106-100/"><b>阅读更多</b></a></div></footer>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【Wiz 2025】Malware Busters!]]></title>
-        <id>https://flowerwitch.github.io/2025/12/16/wiz-2025-cloudsecuritychampionship-6/</id>
-        <link href="https://flowerwitch.github.io/2025/12/16/wiz-2025-cloudsecuritychampionship-6/"/>
-        <updated>2025-12-16T08:47:29.000Z</updated>
-        <content type="html"><![CDATA[<div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2025/12/16/wiz-2025-cloudsecuritychampionship-6/">【Wiz 2025】Malware Busters!</a>
-      </h1>
-    
-  
-</div>
-
-        <div class="meta-info-bar">
-          <div class="meta-info">
-  <time class="dt-published" datetime="2025-12-16T08:47:29.000Z" itemprop="datePublished">2025-12-16</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-  <a class="meta-cate-link" href="/categories/ctf/">ctf</a>&gt;<a class="meta-cate-link" href="/categories/ctf/wiz/">wiz</a>
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            11k words 
-          </div>
-        </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/reverse/" rel="tag">reverse</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wp/" rel="tag">wp</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          有东西被加密了, 请输入hash查看.
-        
-      </div>
-      
-         
-    </div>
-    
-     
-    <a class="right-panel  with-pic  " style="background-image: url(https://cdn.cdnjson.com/pic.html?url=http://tvax1.sinaimg.cn/large/0065CzJOly1i8d2lb2a76j34mo6687wl.jpg)" href="/2025/12/16/wiz-2025-cloudsecuritychampionship-6/">
-       
-      <div class="overlay">
-        <i class="fa-solid fa-angle-right with-pic"></i>
-      </div>
-       
-    </a>
-     
-  </div>]]></content>
+        <title type="html"><![CDATA[怎么搞定加密Electron应用]]></title>
+        <id>https://blog.yoshino-s.xyz/blog/2022/04/01/electron-enc/</id>
+        <link href="https://blog.yoshino-s.xyz/blog/2022/04/01/electron-enc/"/>
+        <updated>2022-04-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<header><h2 class="title_aCrY"><a href="/blog/2022/04/01/electron-enc/">怎么搞定加密Electron应用</a></h2><div class="container_qTaG margin-vert--md"><time datetime="2022-04-01T00:00:00.000Z">2022年4月1日</time> · <!-- -->阅读需 7 分钟</div><div class="margin-top--md margin-bottom--sm row"><div class="col col--12 authorCol_o1NY"><div class="avatar margin-bottom--sm"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer" class="avatar__photo-link"><img class="avatar__photo authorImage_cMSJ" src="https://github.com/yoshino-s.png" alt="Yoshino-s"></a><div class="avatar__intro authorDetails_yaY3"><div class="avatar__name"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer"><span class="authorName_ASDy" translate="no">Yoshino-s</span></a></div><small class="authorTitle_Xxqa" title="Yoshino-s">Yoshino-s</small><div class="authorSocials_dC04"></div></div></div></div></div></header><div class="markdown"><p>遇到了个加密的electron应用，每次都逆一下挺麻烦的，于是准备研究一下思路，一劳永逸一下。</p></div><footer class="row docusaurus-mt-lg"><div class="col col--9"><b>标签：</b><ul class="tags_PKdg padding--none margin-left--sm"><li class="tag_UE17"><a rel="tag" class="tag_AvNX tagRegular_BvWH" href="/blog/tags/crack/">crack</a></li><li class="tag_UE17"><a rel="tag" class="tag_AvNX tagRegular_BvWH" href="/blog/tags/electron/">electron</a></li></ul></div><div class="col text--right col--3"><a aria-label="阅读 怎么搞定加密Electron应用 的全文" href="/blog/2022/04/01/electron-enc/"><b>阅读更多</b></a></div></footer>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【season-8】 htb Guardian wp]]></title>
-        <id>https://flowerwitch.github.io/2025/09/02/box-wp-Guardian/</id>
-        <link href="https://flowerwitch.github.io/2025/09/02/box-wp-Guardian/"/>
-        <updated>2025-09-02T05:33:12.000Z</updated>
-        <content type="html"><![CDATA[<div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2025/09/02/box-wp-Guardian/">【season-8】 htb Guardian wp</a>
-      </h1>
-    
-  
-</div>
-
-        <div class="meta-info-bar">
-          <div class="meta-info">
-  <time class="dt-published" datetime="2025-09-02T05:33:12.000Z" itemprop="datePublished">2025-09-02</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-  <a class="meta-cate-link" href="/categories/htb-Season-8/">htb-Season-8</a>
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            30k words 
-          </div>
-        </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/apache/" rel="tag">apache</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/pfishing/" rel="tag">pfishing</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/" rel="tag">php</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wp/" rel="tag">wp</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          有东西被加密了, 请输入hash查看.
-        
-      </div>
-      
-         
-    </div>
-    
-     
-    <a class="right-panel  with-pic  " style="background-image: url(https://cdn.cdnjson.com/pic.html?url=http://tvax3.sinaimg.cn/large/0065CzJOly1i4zgg1zowlj31401k9hdt.jpg)" href="/2025/09/02/box-wp-Guardian/">
-       
-      <div class="overlay">
-        <i class="fa-solid fa-angle-right with-pic"></i>
-      </div>
-       
-    </a>
-     
-  </div>]]></content>
+        <title type="html"><![CDATA[如何日了宿舍路由器]]></title>
+        <id>https://blog.yoshino-s.xyz/blog/2022/03/11/hack-my-router/</id>
+        <link href="https://blog.yoshino-s.xyz/blog/2022/03/11/hack-my-router/"/>
+        <updated>2022-03-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<header><h2 class="title_aCrY"><a href="/blog/2022/03/11/hack-my-router/">如何日了宿舍路由器</a></h2><div class="container_qTaG margin-vert--md"><time datetime="2022-03-11T00:00:00.000Z">2022年3月11日</time> · <!-- -->阅读需 20 分钟</div><div class="margin-top--md margin-bottom--sm row"><div class="col col--12 authorCol_o1NY"><div class="avatar margin-bottom--sm"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer" class="avatar__photo-link"><img class="avatar__photo authorImage_cMSJ" src="https://github.com/yoshino-s.png" alt="Yoshino-s"></a><div class="avatar__intro authorDetails_yaY3"><div class="avatar__name"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer"><span class="authorName_ASDy" translate="no">Yoshino-s</span></a></div><small class="authorTitle_Xxqa" title="Yoshino-s">Yoshino-s</small><div class="authorSocials_dC04"></div></div></div></div></div></header><div class="markdown"><p>昨天晚上下游戏下得太慢了，所以想找点既不占网速又能搞一会的事，就想起来宿舍路由器还没玩过，不如日下路由器吧。</p></div><footer class="row docusaurus-mt-lg"><div class="col col--9"><b>标签：</b><ul class="tags_PKdg padding--none margin-left--sm"><li class="tag_UE17"><a rel="tag" class="tag_AvNX tagRegular_BvWH" href="/blog/tags/iot/">iot</a></li><li class="tag_UE17"><a rel="tag" class="tag_AvNX tagRegular_BvWH" href="/blog/tags/0-day/">0day</a></li></ul></div><div class="col text--right col--3"><a aria-label="阅读 如何日了宿舍路由器 的全文" href="/blog/2022/03/11/hack-my-router/"><b>阅读更多</b></a></div></footer>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【Wiz 2025】Breaking The Barriers]]></title>
-        <id>https://flowerwitch.github.io/2025/08/29/wiz-2025-cloudsecuritychampionship-3/</id>
-        <link href="https://flowerwitch.github.io/2025/08/29/wiz-2025-cloudsecuritychampionship-3/"/>
-        <updated>2025-08-29T15:51:34.000Z</updated>
-        <content type="html"><![CDATA[<div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2025/08/29/wiz-2025-cloudsecuritychampionship-3/">【Wiz 2025】Breaking The Barriers</a>
-      </h1>
-    
-  
-</div>
-
-        <div class="meta-info-bar">
-          <div class="meta-info">
-  <time class="dt-published" datetime="2025-08-29T15:51:34.000Z" itemprop="datePublished">2025-08-29</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-  <a class="meta-cate-link" href="/categories/ctf/">ctf</a>&gt;<a class="meta-cate-link" href="/categories/ctf/wiz/">wiz</a>
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            20k words 
-          </div>
-        </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/azure/" rel="tag">azure</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wp/" rel="tag">wp</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          有东西被加密了, 请输入flag查看.
-        
-      </div>
-      
-         
-    </div>
-    
-     
-    <a class="right-panel  with-pic  " style="background-image: url(https://cdn.cdnjson.com/pic.html?url=http://tvax3.sinaimg.cn/large/0065CzJOly1i4vat439myj30xc18gdq0.jpg)" href="/2025/08/29/wiz-2025-cloudsecuritychampionship-3/">
-       
-      <div class="overlay">
-        <i class="fa-solid fa-angle-right with-pic"></i>
-      </div>
-       
-    </a>
-     
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Wiz 2025】Contain Me If You Can]]></title>
-        <id>https://flowerwitch.github.io/2025/08/11/wiz-2025-cloudsecuritychampionship-2/</id>
-        <link href="https://flowerwitch.github.io/2025/08/11/wiz-2025-cloudsecuritychampionship-2/"/>
-        <updated>2025-08-11T02:09:19.000Z</updated>
-        <content type="html"><![CDATA[<div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2025/08/11/wiz-2025-cloudsecuritychampionship-2/">【Wiz 2025】Contain Me If You Can</a>
-      </h1>
-    
-  
-</div>
-
-        <div class="meta-info-bar">
-          <div class="meta-info">
-  <time class="dt-published" datetime="2025-08-11T02:09:19.000Z" itemprop="datePublished">2025-08-11</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-  <a class="meta-cate-link" href="/categories/ctf/">ctf</a>&gt;<a class="meta-cate-link" href="/categories/ctf/wiz/">wiz</a>
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            9.7k words 
-          </div>
-        </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/docker/" rel="tag">docker</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/postgres/" rel="tag">postgres</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wp/" rel="tag">wp</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          有东西被加密了, 请输入flag查看.
-        
-      </div>
-      
-         
-    </div>
-    
-     
-    <a class="right-panel  with-pic  " style="background-image: url(https://cdn.cdnjson.com/pic.html?url=http://tvax4.sinaimg.cn/large/0065CzJOly1i49taafh9xj31k91k9b2d.jpg)" href="/2025/08/11/wiz-2025-cloudsecuritychampionship-2/">
-       
-      <div class="overlay">
-        <i class="fa-solid fa-angle-right with-pic"></i>
-      </div>
-       
-    </a>
-     
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【season-8】 htb Outbound wp]]></title>
-        <id>https://flowerwitch.github.io/2025/07/14/htb-wp-Outbound/</id>
-        <link href="https://flowerwitch.github.io/2025/07/14/htb-wp-Outbound/"/>
-        <updated>2025-07-14T06:41:29.000Z</updated>
-        <content type="html"><![CDATA[<div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2025/07/14/htb-wp-Outbound/">【season-8】 htb Outbound wp</a>
-      </h1>
-    
-  
-</div>
-
-        <div class="meta-info-bar">
-          <div class="meta-info">
-  <time class="dt-published" datetime="2025-07-14T06:41:29.000Z" itemprop="datePublished">2025-07-14</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-  <a class="meta-cate-link" href="/categories/htb-Season-8/">htb-Season-8</a>
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            20k words 
-          </div>
-        </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/AD/" rel="tag">AD</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Below/" rel="tag">Below</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Roundcube/" rel="tag">Roundcube</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wp/" rel="tag">wp</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          有东西被加密了, 请输入hash查看.
-        
-      </div>
-      
-         
-    </div>
-    
-     
-    <a class="right-panel  with-pic  " style="background-image: url(https://cdn.cdnjson.com/pic.html?url=http://tvax2.sinaimg.cn/large/0065CzJOly1i3duq6754sj32bc334nmi.jpg)" href="/2025/07/14/htb-wp-Outbound/">
-       
-      <div class="overlay">
-        <i class="fa-solid fa-angle-right with-pic"></i>
-      </div>
-       
-    </a>
-     
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tracks-AD-Coder]]></title>
-        <id>https://flowerwitch.github.io/2025/07/11/Tracks-AD-Coder/</id>
-        <link href="https://flowerwitch.github.io/2025/07/11/Tracks-AD-Coder/"/>
-        <updated>2025-07-11T02:49:03.000Z</updated>
-        <content type="html"><![CDATA[<div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2025/07/11/Tracks-AD-Coder/">Tracks-AD-Coder</a>
-      </h1>
-    
-  
-</div>
-
-        <div class="meta-info-bar">
-          <div class="meta-info">
-  <time class="dt-published" datetime="2025-07-11T02:49:03.000Z" itemprop="datePublished">2025-07-11</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-  <a class="meta-cate-link" href="/categories/AD/">AD</a>
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            38k words 
-          </div>
-        </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/AD/" rel="tag">AD</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ADCS/" rel="tag">ADCS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C#</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CI-CD/" rel="tag">CI/CD</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CVE-2022-29623/" rel="tag">CVE-2022-29623</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CreateChild/" rel="tag">CreateChild</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/DACL/" rel="tag">DACL</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PKI-ADMIN/" rel="tag">PKI ADMIN</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TOTP/" rel="tag">TOTP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TeamCity/" rel="tag">TeamCity</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wp/" rel="tag">wp</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          <div class="truncate-text">
-            
-              Nmap1234567891011121314151617181920212223242526272829303132333435└─$ sudo nmap -sS 10.10.11.207 -p- --min-rate=3000Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-11 18:47 EDTWarning: 10.10.11.207 giving up on port because retransmission cap hit (10).Nmap scan report for 10.10.11.207Host is up (0.32s latency).Not shown: 65200 closed tcp ports (reset), 307 filtered tcp ports (no-response)PORT      STATE SERVICE53/tcp    open  domain80/tcp    open  http88/tcp    open  kerberos-sec135/tcp   o...
-            
-          </div>
-        
-      </div>
-      
-         
-    </div>
-    
-     
-    <a class="right-panel  with-pic  " style="background-image: url(https://cdn.cdnjson.com/pic.html?url=http://tvax4.sinaimg.cn/mw690/0065CzJOly1i3bhthg68xj31k01601fo.jpg)" href="/2025/07/11/Tracks-AD-Coder/">
-       
-      <div class="overlay">
-        <i class="fa-solid fa-angle-right with-pic"></i>
-      </div>
-       
-    </a>
-     
-  </div>]]></content>
+        <title type="html"><![CDATA[虚拟化 Virtualization]]></title>
+        <id>https://blog.yoshino-s.xyz/blog/2022/02/12/virtualize/</id>
+        <link href="https://blog.yoshino-s.xyz/blog/2022/02/12/virtualize/"/>
+        <updated>2022-02-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<header><h2 class="title_aCrY"><a href="/blog/2022/02/12/virtualize/">虚拟化 Virtualization</a></h2><div class="container_qTaG margin-vert--md"><time datetime="2022-02-12T00:00:00.000Z">2022年2月12日</time> · <!-- -->阅读需 6 分钟</div><div class="margin-top--md margin-bottom--sm row"><div class="col col--12 authorCol_o1NY"><div class="avatar margin-bottom--sm"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer" class="avatar__photo-link"><img class="avatar__photo authorImage_cMSJ" src="https://github.com/yoshino-s.png" alt="Yoshino-s"></a><div class="avatar__intro authorDetails_yaY3"><div class="avatar__name"><a href="https://github.com/yoshino-s" target="_blank" rel="noopener noreferrer"><span class="authorName_ASDy" translate="no">Yoshino-s</span></a></div><small class="authorTitle_Xxqa" title="Yoshino-s">Yoshino-s</small><div class="authorSocials_dC04"></div></div></div></div></div></header><div class="markdown"></div><footer class="row docusaurus-mt-lg"><div class="col col--9"><b>标签：</b><ul class="tags_PKdg padding--none margin-left--sm"><li class="tag_UE17"><a rel="tag" class="tag_AvNX tagRegular_BvWH" href="/blog/tags/virtualization/">virtualization</a></li></ul></div><div class="col text--right col--3"><a aria-label="阅读 虚拟化 Virtualization 的全文" href="/blog/2022/02/12/virtualize/"><b>阅读更多</b></a></div></footer>]]></content>
     </entry>
 </feed>
