@@ -1,300 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://dayzerosec.com/blog/</id>
-    <title>dayzerosec</title>
-    <updated>2026-06-26T20:27:25.721Z</updated>
+    <id>https://brownfinesecurity.com/blog</id>
+    <title>brownfinesecurity</title>
+    <updated>2026-06-26T21:55:50.522Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://dayzerosec.com/images/favicon.16.png</icon>
+    <icon>https://brownfinesecurity.com/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Reversing Samsung's H-Arx Hypervisor Framework - Part 1]]></title>
-        <id>https://dayzerosec.com/blog/2025/03/08/reversing-samsungs-h-arx-hypervisor-part-1.html</id>
-        <link href="https://dayzerosec.com/blog/2025/03/08/reversing-samsungs-h-arx-hypervisor-part-1.html"/>
-        <updated>2025-03-08T11:32:34.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2025/03/08/reversing-samsungs-h-arx-hypervisor-part-1.html">Reversing Samsung's H-Arx Hypervisor Framework - Part 1</a></h3>
-    <p><time datetime="2025-03-08T05:32:34-06:00">08 March 2025</time></p>
-  </header>
-  <summary>In many ways, mobile devices lead the security industry when it comes to defense-in-depth and mitigation. Over the years, it has been proven time and again that the kernel cannot be trusted to be secure. As such, there has been effort put into moving secrets (ie. encryption keys) and other sensitive data out of the kernel and gate it behind an API at higher levels in the chain of trust, whether it be the hypervisor or secure enclaves. In any case, the kernel must have a lot of control over the s</summary>
-  <footer>
-      <ul class="tags">
-        
-          <li><a href="/tags/low-level" class="low-level">low-level</a></li>
-        
-          <li><a href="/tags/hypervisor" class="hypervisor">hypervisor</a></li>
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[IoT Security Fail: Remote Camera Control via Missing ONVIF Authentication]]></title>
+        <id>https://brownfinesecurity.com/blog/iot-vulnerability-basics-onvif-missing-authentication</id>
+        <link href="https://brownfinesecurity.com/blog/iot-vulnerability-basics-onvif-missing-authentication"/>
+        <updated>2025-11-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="IoT Security Fail: Remote Camera Control via Missing ONVIF Authentication" href="/blog/iot-vulnerability-basics-onvif-missing-authentication"><img alt="Cover Image for IoT Security Fail: Remote Camera Control via Missing ONVIF Authentication" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fiotptbasics2%2Fiotpt-basics3.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fiotptbasics2%2Fiotpt-basics3.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fiotptbasics2%2Fiotpt-basics3.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/iot-vulnerability-basics-onvif-missing-authentication">IoT Security Fail: Remote Camera Control via Missing ONVIF Authentication</a></h3><div class="text-lg mb-4"><time datetime="2025-11-10">November	10, 2025</time></div><p class="text-lg leading-relaxed mb-4">Missing authentication in Chinese IP camera allows attackers to remotely access video streams and control camera movement</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Getting Started with Exploit Development]]></title>
-        <id>https://dayzerosec.com/blog/2024/07/11/getting-started-2024.html</id>
-        <link href="https://dayzerosec.com/blog/2024/07/11/getting-started-2024.html"/>
-        <updated>2024-07-11T05:34:35.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2024/07/11/getting-started-2024.html">Getting Started with Exploit Development</a></h3>
-    <p><time datetime="2024-07-11T00:34:35-05:00">11 July 2024</time></p>
-  </header>
-  <summary>Many resources for learning exploit development focus on specific tricks rather than underlying principles. My roadmap aims to teach the fundamentals of memory corruption to help you grasp modern, complex exploits.</summary>
-  <footer>
-      <ul class="tags">
-        
-          <li><a href="/tags/low-level" class="low-level">low-level</a></li>
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[IoT Pentesting Basics: Root Shell via UART Exploitation]]></title>
+        <id>https://brownfinesecurity.com/blog/iot-pentesting-basics-uart-root-shells</id>
+        <link href="https://brownfinesecurity.com/blog/iot-pentesting-basics-uart-root-shells"/>
+        <updated>2025-11-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="IoT Pentesting Basics: Root Shell via UART Exploitation" href="/blog/iot-pentesting-basics-uart-root-shells"><img alt="Cover Image for IoT Pentesting Basics: Root Shell via UART Exploitation" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fiotptbasics1%2Fiotpt-basics1.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fiotptbasics1%2Fiotpt-basics1.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fiotptbasics1%2Fiotpt-basics1.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/iot-pentesting-basics-uart-root-shells">IoT Pentesting Basics: Root Shell via UART Exploitation</a></h3><div class="text-lg mb-4"><time datetime="2025-11-03">November	3, 2025</time></div><p class="text-lg leading-relaxed mb-4">UART enumeration and exploitation for IoT security assessments</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spot the Vuln Shirt (Solutions)]]></title>
-        <id>https://dayzerosec.com/blog/2023/07/07/def-con-spot-the-vuln-shirts.html</id>
-        <link href="https://dayzerosec.com/blog/2023/07/07/def-con-spot-the-vuln-shirts.html"/>
-        <updated>2023-07-07T06:55:30.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2023/07/07/def-con-spot-the-vuln-shirts.html">Spot the Vuln Shirt (Solutions)</a></h3>
-    <p><time datetime="2023-07-07T01:55:30-05:00">07 July 2023</time></p>
-  </header>
-  <summary>Unfortunately, we will not be directly selling these shirts, but I have another post tutorial on how to reproduce the shirt if you want to put in the bit of extra work to get one.
-
-
-Regex (bug-bounty style vulnerability)
-
-
-
-
-We've covered this vulnerability multiple times on the podcast and it was our Spot the Vuln on Episode 152 (written in Golang).
-
-The &nbsp;regex in allow. It looks normal, and if you test it in the obvious ways it seems to work. api.safe.com passes, api.notsafe.com fails. Because</summary>
-  <footer>
-      <ul class="tags">
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[Enterprise IoT Pentesting: Client Mobile Application Testing]]></title>
+        <id>https://brownfinesecurity.com/blog/attacking-enterprise-iot-mobile-apps</id>
+        <link href="https://brownfinesecurity.com/blog/attacking-enterprise-iot-mobile-apps"/>
+        <updated>2025-10-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Enterprise IoT Pentesting: Client Mobile Application Testing" href="/blog/attacking-enterprise-iot-mobile-apps"><img alt="Cover Image for Enterprise IoT Pentesting: Client Mobile Application Testing" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv19.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv19.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv19.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/attacking-enterprise-iot-mobile-apps">Enterprise IoT Pentesting: Client Mobile Application Testing</a></h3><div class="text-lg mb-4"><time datetime="2025-10-11">October	11, 2025</time></div><p class="text-lg leading-relaxed mb-4">Authentication Downgrade Attacks on Enterprise IoT Mobile Applications</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spot the Vuln Shirt (DIY)]]></title>
-        <id>https://dayzerosec.com/blog/2023/07/06/spot-the-vuln-shirt-diy.html</id>
-        <link href="https://dayzerosec.com/blog/2023/07/06/spot-the-vuln-shirt-diy.html"/>
-        <updated>2023-07-07T04:42:33.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2023/07/06/spot-the-vuln-shirt-diy.html">Spot the Vuln Shirt (DIY)</a></h3>
-    <p><time datetime="2023-07-06T23:42:33-05:00">06 July 2023</time></p>
-  </header>
-  <summary>Unfortunately, we will NOT be selling the "Spot the Vuln" shirts we mentioned on the podcast. Its just due to some tax things I don't have the time to deal with right now, maybe next year.
-
-
-If you're willing to put in some effort though what follows is basically a tutorial on recreating the shirt within Printify so you can order it from a producer yourself.
-
-
-Printify is kind-of a drop-shipping system for custom clothing. You can create a product that will be fulfilled by some producer. You can</summary>
-  <footer>
-      <ul class="tags">
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[Enterprise IoT Pentesting: Network Service Analysis]]></title>
+        <id>https://brownfinesecurity.com/blog/uniview-camera-network-services</id>
+        <link href="https://brownfinesecurity.com/blog/uniview-camera-network-services"/>
+        <updated>2025-10-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Enterprise IoT Pentesting: Network Service Analysis" href="/blog/uniview-camera-network-services"><img alt="Cover Image for Enterprise IoT Pentesting: Network Service Analysis" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funvnetstat.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Funiview%2Funvnetstat.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funvnetstat.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/uniview-camera-network-services">Enterprise IoT Pentesting: Network Service Analysis</a></h3><div class="text-lg mb-4"><time datetime="2025-10-10">October	10, 2025</time></div><p class="text-lg leading-relaxed mb-4">Information Disclosure in Embedded IoT Web Applications</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Reversing the AMD Secure Processor (PSP) - Part 2: Cryptographic Co-Processor (CCP)]]></title>
-        <id>https://dayzerosec.com/blog/2023/04/22/reversing-the-amd-secure-processor-psp-part-2-cryptographic-co-processor-ccp.html</id>
-        <link href="https://dayzerosec.com/blog/2023/04/22/reversing-the-amd-secure-processor-psp-part-2-cryptographic-co-processor-ccp.html"/>
-        <updated>2023-04-22T19:21:30.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2023/04/22/reversing-the-amd-secure-processor-psp-part-2-cryptographic-co-processor-ccp.html">Reversing the AMD Secure Processor (PSP) - Part 2: Cryptographic Co-Processor (CCP)</a></h3>
-    <p><time datetime="2023-04-22T14:21:30-05:00">22 April 2023</time></p>
-  </header>
-  <summary>Part one: https://dayzerosec.com/blog/2023/04/17/reversing-the-amd-secure-processor-psp.html
-
-This is a follow-up part 2 to my previous post on the AMD Secure Processor (formerly known as the Platform Security Processor or "PSP"). In that post, I mentioned that the Cryptographic Co-Processor (CCP) is an essential component of how the PSP functions. It's primarily responsible for hardware-accelerated cryptography, but it's also used as a Direct Memory Access (DMA) copy engine for doing mass copy </summary>
-  <footer>
-      <ul class="tags">
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[Enterprise IoT Pentesting: Cleartext Cloud Communications]]></title>
+        <id>https://brownfinesecurity.com/blog/cleartext-communications-to-univew-cloud-servers</id>
+        <link href="https://brownfinesecurity.com/blog/cleartext-communications-to-univew-cloud-servers"/>
+        <updated>2025-10-09T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Enterprise IoT Pentesting: Cleartext Cloud Communications" href="/blog/cleartext-communications-to-univew-cloud-servers"><img alt="Cover Image for Enterprise IoT Pentesting: Cleartext Cloud Communications" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv7.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv7.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv7.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/cleartext-communications-to-univew-cloud-servers">Enterprise IoT Pentesting: Cleartext Cloud Communications</a></h3><div class="text-lg mb-4"><time datetime="2025-10-09">October	9, 2025</time></div><p class="text-lg leading-relaxed mb-4">Uncovering Unencrypted Data Flows to the Public Internet</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Reversing the AMD Secure Processor (PSP) - Part 1: Design and Overview]]></title>
-        <id>https://dayzerosec.com/blog/2023/04/17/reversing-the-amd-secure-processor-psp.html</id>
-        <link href="https://dayzerosec.com/blog/2023/04/17/reversing-the-amd-secure-processor-psp.html"/>
-        <updated>2023-04-17T22:46:30.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2023/04/17/reversing-the-amd-secure-processor-psp.html">Reversing the AMD Secure Processor (PSP) - Part 1: Design and Overview</a></h3>
-    <p><time datetime="2023-04-17T17:46:30-05:00">17 April 2023</time></p>
-  </header>
-  <summary>AMD's Secure Processor (formerly known as Platform Security Processor or "PSP") is a very interesting piece of technology that is critical to the operation of all modern-day AMD CPUs. There's also very little public information about it and because of that, it's commonly misunderstood and fantasized about. Not only is it at the top of the chain of trust, but it's also responsible for initializing the CPU and facilitating attestation (TPM), hardware-accelerated crypto, and Secure Encrypted Virtua</summary>
-  <footer>
-      <ul class="tags">
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[Enterprise IoT Pentesting: Firmware Extraction and Analysis]]></title>
+        <id>https://brownfinesecurity.com/blog/firmware-extraction-and-analysis-of-uniview-camera</id>
+        <link href="https://brownfinesecurity.com/blog/firmware-extraction-and-analysis-of-uniview-camera"/>
+        <updated>2025-10-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Enterprise IoT Pentesting: Firmware Extraction and Analysis" href="/blog/firmware-extraction-and-analysis-of-uniview-camera"><img alt="Cover Image for Enterprise IoT Pentesting: Firmware Extraction and Analysis" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv4.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv4.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv4.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/firmware-extraction-and-analysis-of-uniview-camera">Enterprise IoT Pentesting: Firmware Extraction and Analysis</a></h3><div class="text-lg mb-4"><time datetime="2025-10-08">October	8, 2025</time></div><p class="text-lg leading-relaxed mb-4">Searching Firmware for Hardcoded Secrets</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[200 Episodes of Dayzerosec]]></title>
-        <id>https://dayzerosec.com/blog/2023/03/28/200-episodes.html</id>
-        <link href="https://dayzerosec.com/blog/2023/03/28/200-episodes.html"/>
-        <updated>2023-03-28T21:50:26.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2023/03/28/200-episodes.html">200 Episodes of Dayzerosec</a></h3>
-    <p><time datetime="2023-03-28T16:50:26-05:00">28 March 2023</time></p>
-  </header>
-  <summary>A look back at some statistics from our first 200 episodes of the dayzerosec podcast.</summary>
-  <footer>
-      <ul class="tags">
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[Enterprise IoT Pentesting: Bypassing Restricted Shell on Uniview Security Camera]]></title>
+        <id>https://brownfinesecurity.com/blog/bypassing-restricted-shell-on-uniview-security-camera</id>
+        <link href="https://brownfinesecurity.com/blog/bypassing-restricted-shell-on-uniview-security-camera"/>
+        <updated>2025-10-07T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Enterprise IoT Pentesting: Bypassing Restricted Shell on Uniview Security Camera" href="/blog/bypassing-restricted-shell-on-uniview-security-camera"><img alt="Cover Image for Enterprise IoT Pentesting: Bypassing Restricted Shell on Uniview Security Camera" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv1.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv1.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv1.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/bypassing-restricted-shell-on-uniview-security-camera">Enterprise IoT Pentesting: Bypassing Restricted Shell on Uniview Security Camera</a></h3><div class="text-lg mb-4"><time datetime="2025-10-07">October	7, 2025</time></div><p class="text-lg leading-relaxed mb-4">From Unlocked Bootloader to Root Shell</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[From CTFs to Real-Exploitation (Part 3)]]></title>
-        <id>https://dayzerosec.com/blog/2021/05/22/from-ctfs-to-real-exploitation-part-3.html</id>
-        <link href="https://dayzerosec.com/blog/2021/05/22/from-ctfs-to-real-exploitation-part-3.html"/>
-        <updated>2021-05-22T11:00:00.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2021/05/22/from-ctfs-to-real-exploitation-part-3.html">From CTFs to Real-Exploitation (Part 3)</a></h3>
-    <p><time datetime="2021-05-22T06:00:00-05:00">22 May 2021</time></p>
-  </header>
-  <summary>Final part of our series on going from the foundations of exploitation development to real-world exploitation. Focusing on the critical skill of discovering and developing your own exploitation strategies in large applications.</summary>
-  <footer>
-      <ul class="tags">
-        
-          <li><a href="/tags/ctf-to-real-world" class="ctf-to-real-world">ctf-to-real-world</a></li>
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[Intercepting Traffic from Police Bodycam App Sending Data to China]]></title>
+        <id>https://brownfinesecurity.com/blog/police-bodycam-data-to-china</id>
+        <link href="https://brownfinesecurity.com/blog/police-bodycam-data-to-china"/>
+        <updated>2025-09-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Intercepting Traffic from Police Bodycam App Sending Data to China" href="/blog/police-bodycam-data-to-china"><img alt="Cover Image for Intercepting Traffic from Police Bodycam App Sending Data to China" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fpolice-bodycam-data-to-china%2Fbodycam.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fpolice-bodycam-data-to-china%2Fbodycam.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fpolice-bodycam-data-to-china%2Fbodycam.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/police-bodycam-data-to-china">Intercepting Traffic from Police Bodycam App Sending Data to China</a></h3><div class="text-lg mb-4"><time datetime="2025-09-05">September	5, 2025</time></div><p class="text-lg leading-relaxed mb-4">Detailing a vulnerability in the Viidure mobile application that fails to validate server certificates in TLS communications</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[From CTFs to Real-Vulnerabilities (Part 2)]]></title>
-        <id>https://dayzerosec.com/blog/2021/05/21/from-ctfs-to-real-vulnerabilities-part-2.html</id>
-        <link href="https://dayzerosec.com/blog/2021/05/21/from-ctfs-to-real-vulnerabilities-part-2.html"/>
-        <updated>2021-05-21T11:00:00.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2021/05/21/from-ctfs-to-real-vulnerabilities-part-2.html">From CTFs to Real-Vulnerabilities (Part 2)</a></h3>
-    <p><time datetime="2021-05-21T06:00:00-05:00">21 May 2021</time></p>
-  </header>
-  <summary>From having the foundations of exploit dev you might be wondering how to progress? Well, we argue that you should take some time to learn the basics of vulnerability research.</summary>
-  <footer>
-      <ul class="tags">
-        
-          <li><a href="/tags/ctf-to-real-world" class="ctf-to-real-world">ctf-to-real-world</a></li>
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[Reverse Engineering Hanwha Security Camera Firmware File Decryption with IDA Pro]]></title>
+        <id>https://brownfinesecurity.com/blog/hanwha-firmware-file-decryption</id>
+        <link href="https://brownfinesecurity.com/blog/hanwha-firmware-file-decryption"/>
+        <updated>2025-06-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Reverse Engineering Hanwha Security Camera Firmware File Decryption with IDA Pro" href="/blog/hanwha-firmware-file-decryption"><img alt="Cover Image for Reverse Engineering Hanwha Security Camera Firmware File Decryption with IDA Pro" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fhanwha-firmware-file-decryption%2Ffeatured.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fhanwha-firmware-file-decryption%2Ffeatured.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fhanwha-firmware-file-decryption%2Ffeatured.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/hanwha-firmware-file-decryption">Reverse Engineering Hanwha Security Camera Firmware File Decryption with IDA Pro</a></h3><div class="text-lg mb-4"><time datetime="2025-06-08">June	8, 2025</time></div><p class="text-lg leading-relaxed mb-4">Detailing the Hanwha firmware file decryption method</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[From CTFs to The Real-World: Overview (Part 1)]]></title>
-        <id>https://dayzerosec.com/blog/2021/05/20/from-ctfs-to-the-real-world-an-overview.html</id>
-        <link href="https://dayzerosec.com/blog/2021/05/20/from-ctfs-to-the-real-world-an-overview.html"/>
-        <updated>2021-05-20T11:00:00.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2021/05/20/from-ctfs-to-the-real-world-an-overview.html">From CTFs to The Real-World: Overview (Part 1)</a></h3>
-    <p><time datetime="2021-05-20T06:00:00-05:00">20 May 2021</time></p>
-  </header>
-  <summary>So you've played some CTFs and got a handle on this exploit dev stuff. This is the start of a three-part series about making the jump into real-world exploitation.</summary>
-  <footer>
-      <ul class="tags">
-        
-          <li><a href="/tags/ctf-to-real-world" class="ctf-to-real-world">ctf-to-real-world</a></li>
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[An IoT Pentesting Roadmap: Secure Your Devices with Confidence]]></title>
+        <id>https://brownfinesecurity.com/blog/iot-pentesting-roadmap</id>
+        <link href="https://brownfinesecurity.com/blog/iot-pentesting-roadmap"/>
+        <updated>2025-06-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="An IoT Pentesting Roadmap: Secure Your Devices with Confidence" href="/blog/iot-pentesting-roadmap"><img alt="Cover Image for An IoT Pentesting Roadmap: Secure Your Devices with Confidence" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fiot-pentesting-roadmap%2Ffeatured.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fiot-pentesting-roadmap%2Ffeatured.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fiot-pentesting-roadmap%2Ffeatured.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/iot-pentesting-roadmap">An IoT Pentesting Roadmap: Secure Your Devices with Confidence</a></h3><div class="text-lg mb-4"><time datetime="2025-06-03">June	3, 2025</time></div><p class="text-lg leading-relaxed mb-4">A guide for conducting an IoT Pentest</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Getting Started with Exploit Development]]></title>
-        <id>https://dayzerosec.com/blog/2021/02/02/getting-started.html</id>
-        <link href="https://dayzerosec.com/blog/2021/02/02/getting-started.html"/>
-        <updated>2021-02-02T22:14:22.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2021/02/02/getting-started.html">Getting Started with Exploit Development</a></h3>
-    <p><time datetime="2021-02-02T16:14:22-06:00">02 February 2021</time></p>
-  </header>
-  <summary>This post has been updated
-
-https://dayzerosec.com/blog/2024/07/11/getting-started-2024.html
-
-Removing the Open Security Training from my recommendations kinda messed with the flow of these recommendations. So it triggered me to rework all the recommendations with updated resources. I'm leaving this post relatively untouched for anyone who was referencing it but I'd recommend the new one for anyone just getting started.
-
-tl;dr The rest of this goes into detail about what topics matter and why fr</summary>
-  <footer>
-      <ul class="tags">
-        
-          <li><a href="/tags/low-level" class="low-level">low-level</a></li>
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[A Beginner's Guide to Hardware Hacking Tools]]></title>
+        <id>https://brownfinesecurity.com/blog/hardware-hacking-tools-beginners-guide</id>
+        <link href="https://brownfinesecurity.com/blog/hardware-hacking-tools-beginners-guide"/>
+        <updated>2024-10-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="A Beginner's Guide to Hardware Hacking Tools" href="/blog/hardware-hacking-tools-beginners-guide"><img alt="Cover Image for A Beginner's Guide to Hardware Hacking Tools" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fhardware-hacking-tools-beginners-guide%2Ffeatured.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fhardware-hacking-tools-beginners-guide%2Ffeatured.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fhardware-hacking-tools-beginners-guide%2Ffeatured.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/hardware-hacking-tools-beginners-guide">A Beginner's Guide to Hardware Hacking Tools</a></h3><div class="text-lg mb-4"><time datetime="2024-10-16">October	16, 2024</time></div><p class="text-lg leading-relaxed mb-4">A prioritized list of tools for getting started in hardware hacking</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Adventures of porting MUSL to PS4]]></title>
-        <id>https://dayzerosec.com/blog/2020/05/23/adventures-of-porting-musl-to-ps4.html</id>
-        <link href="https://dayzerosec.com/blog/2020/05/23/adventures-of-porting-musl-to-ps4.html"/>
-        <updated>2020-05-24T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2020/05/23/adventures-of-porting-musl-to-ps4.html">Adventures of porting MUSL to PS4</a></h3>
-    <p><time datetime="2020-05-23T19:00:00-05:00">23 May 2020</time></p>
-  </header>
-  <summary>Over the last year or so, I've been working with the OpenOrbis team to develop a toolchain for building homebrew for the PS4, and one of the challenges we faced was porting a proper libc to the console. This article dives into some of the interesting lessons learned while porting MUSL to the PS4.</summary>
-  <footer>
-      <ul class="tags">
-        
-          <li><a href="/tags/ps4" class="ps4">ps4</a></li>
-        
-          <li><a href="/tags/low-level" class="low-level">low-level</a></li>
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[Intercepting Mobile Application Traffic with Caido and Frida]]></title>
+        <id>https://brownfinesecurity.com/blog/intercepting-mobile-traffic-with-caido-and-frida</id>
+        <link href="https://brownfinesecurity.com/blog/intercepting-mobile-traffic-with-caido-and-frida"/>
+        <updated>2024-08-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Intercepting Mobile Application Traffic with Caido and Frida" href="/blog/intercepting-mobile-traffic-with-caido-and-frida"><img alt="Cover Image for Intercepting Mobile Application Traffic with Caido and Frida" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fintercepting-mobile-traffic-with-caido-and-frida%2Ffeatured.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fintercepting-mobile-traffic-with-caido-and-frida%2Ffeatured.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fintercepting-mobile-traffic-with-caido-and-frida%2Ffeatured.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/intercepting-mobile-traffic-with-caido-and-frida">Intercepting Mobile Application Traffic with Caido and Frida</a></h3><div class="text-lg mb-4"><time datetime="2024-08-22">August	22, 2024</time></div><p class="text-lg leading-relaxed mb-4">Proxying HTTP traffic from mobile devices using Caido and Frida</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Learn Exploit Development While Not Dying from COVID-19]]></title>
-        <id>https://dayzerosec.com/blog/2020/03/17/learn-exploit-development-while-not-dying-from-covid-19.html</id>
-        <link href="https://dayzerosec.com/blog/2020/03/17/learn-exploit-development-while-not-dying-from-covid-19.html"/>
-        <updated>2020-03-17T09:33:57.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2020/03/17/learn-exploit-development-while-not-dying-from-covid-19.html">Learn Exploit Development While Not Dying from COVID-19</a></h3>
-    <p><time datetime="2020-03-17T04:33:57-05:00">17 March 2020</time></p>
-  </header>
-  <summary>With so many countries recommending self-isolation in the past little while we thought it might be useful to recommend some excellent learning resources to help enable you make the most of the extra time you might find yourself with.
-
-
-These are generally solid resources that will also be entertaining and engaging to work through and a focus on beginner friendly resources.
-
-
-We've also put out a Youtube video discussing all of these points along with some side discussion about stuff like whether</summary>
-  <footer>
-      <ul class="tags">
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[Too Many Secrets: Proprietary Encryption Protocol Analysis in VStarcam CB73 Security Camera]]></title>
+        <id>https://brownfinesecurity.com/blog/vstarcam-cb73-proprietary-encryption-analysis</id>
+        <link href="https://brownfinesecurity.com/blog/vstarcam-cb73-proprietary-encryption-analysis"/>
+        <updated>2024-08-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Too Many Secrets: Proprietary Encryption Protocol Analysis in VStarcam CB73 Security Camera" href="/blog/vstarcam-cb73-proprietary-encryption-analysis"><img alt="Cover Image for Too Many Secrets: Proprietary Encryption Protocol Analysis in VStarcam CB73 Security Camera" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fvstarcam-cb73-proprietary-encryption-analysis%2Ffeatured.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fvstarcam-cb73-proprietary-encryption-analysis%2Ffeatured.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fvstarcam-cb73-proprietary-encryption-analysis%2Ffeatured.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/vstarcam-cb73-proprietary-encryption-analysis">Too Many Secrets: Proprietary Encryption Protocol Analysis in VStarcam CB73 Security Camera</a></h3><div class="text-lg mb-4"><time datetime="2024-08-11">August	11, 2024</time></div><p class="text-lg leading-relaxed mb-4">Critical encryption flaws discovered in UDP P2P protocol in VStarcam CB73</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Black Friday for Security Professionals]]></title>
-        <id>https://dayzerosec.com/blog/2019/11/25/black-friday-for-security-professionals.html</id>
-        <link href="https://dayzerosec.com/blog/2019/11/25/black-friday-for-security-professionals.html"/>
-        <updated>2019-11-25T19:51:11.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2019/11/25/black-friday-for-security-professionals.html">Black Friday for Security Professionals</a></h3>
-    <p><time datetime="2019-11-25T13:51:11-06:00">25 November 2019</time></p>
-  </header>
-  <summary>Plenty of websites are offering deals for Black Friday, these are the places we plan to check out.</summary>
-  <footer>
-      <ul class="tags">
-        
-      </ul>
-  </footer>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Analyzing Android's CVE-2019-2215 (/dev/binder UAF)]]></title>
-        <id>https://dayzerosec.com/blog/2019/11/07/analyzing-androids-cve-2019-2215-dev-binder-uaf.html</id>
-        <link href="https://dayzerosec.com/blog/2019/11/07/analyzing-androids-cve-2019-2215-dev-binder-uaf.html"/>
-        <updated>2019-11-08T05:54:02.000Z</updated>
-        <content type="html"><![CDATA[<header>
-    <h3><a href="/blog/2019/11/07/analyzing-androids-cve-2019-2215-dev-binder-uaf.html">Analyzing Android's CVE-2019-2215 (/dev/binder UAF)</a></h3>
-    <p><time datetime="2019-11-07T23:54:02-06:00">07 November 2019</time></p>
-  </header>
-  <summary>Over the past few weeks, those of you who frequent the DAY[0] streams over on our Twitch may have seen me working on trying to understand the recent Android Binder Use-After-Free (UAF) published by Google's Project Zero (p0). This bug is actually not new, the issue was discovered and fixed in the mainline kernel in February 2018, however, p0 discovered many popular devices did not receive the patch downstream. Some of these devices include the Pixel 2, the Huawei P20, and Samsung Galaxy S7, S8, </summary>
-  <footer>
-      <ul class="tags">
-        
-          <li><a href="/tags/exploit-analysis" class="exploit-analysis">exploit-analysis</a></li>
-        
-          <li><a href="/tags/android" class="android">android</a></li>
-        
-      </ul>
-  </footer>]]></content>
+        <title type="html"><![CDATA[Uncovering Hardcoded Root Password in VStarcam CB73 Security Camera]]></title>
+        <id>https://brownfinesecurity.com/blog/vstarcam-cb73-hardcoded-root-password</id>
+        <link href="https://brownfinesecurity.com/blog/vstarcam-cb73-hardcoded-root-password"/>
+        <updated>2024-07-20T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Uncovering Hardcoded Root Password in VStarcam CB73 Security Camera" href="/blog/vstarcam-cb73-hardcoded-root-password"><img alt="Cover Image for Uncovering Hardcoded Root Password in VStarcam CB73 Security Camera" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fvstarcam-cb73-hardcoded-root-password%2Ffeatured.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fvstarcam-cb73-hardcoded-root-password%2Ffeatured.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fvstarcam-cb73-hardcoded-root-password%2Ffeatured.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/vstarcam-cb73-hardcoded-root-password">Uncovering Hardcoded Root Password in VStarcam CB73 Security Camera</a></h3><div class="text-lg mb-4"><time datetime="2024-07-20">July	20, 2024</time></div><p class="text-lg leading-relaxed mb-4">Firmware extraction and reverse engineering of VStarcam CB73 root password</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
 </feed>
