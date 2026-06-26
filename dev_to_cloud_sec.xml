@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-06-26T06:45:31.899Z</updated>
+    <updated>2026-06-26T10:45:20.462Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
-        <title type="html"><![CDATA[Base64 Encoding Explained — JWT Tokens, Data URIs, and Kubernetes Secrets]]></title>
-        <id>https://dev.to/codewiztools/base64-encoding-explained-jwt-tokens-data-uris-and-kubernetes-secrets-2g7d</id>
-        <link href="https://dev.to/codewiztools/base64-encoding-explained-jwt-tokens-data-uris-and-kubernetes-secrets-2g7d"/>
-        <updated>2026-06-25T22:17:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/codewiztools/base64-encoding-explained-jwt-tokens-data-uris-and-kubernetes-secrets-2g7d" aria-labelledby="article-link-3992518" class="crayons-story__hidden-navigation-link">Base64 Encoding Explained — JWT Tokens, Data URIs, and Kubernetes Secrets</a>
+        <title type="html"><![CDATA[Kubernetes Security Best Practices 2026: Complete Hardening Guide]]></title>
+        <id>https://dev.to/devtocash/kubernetes-security-best-practices-2026-complete-hardening-guide-5hk5</id>
+        <link href="https://dev.to/devtocash/kubernetes-security-best-practices-2026-complete-hardening-guide-5hk5"/>
+        <updated>2026-06-26T06:35:33.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/devtocash/kubernetes-security-best-practices-2026-complete-hardening-guide-5hk5" aria-labelledby="article-link-3994948" class="crayons-story__hidden-navigation-link">Kubernetes Security Best Practices 2026: Complete Hardening Guide</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
@@ -18,40 +18,40 @@
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
 
-          <a href="/codewiztools" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3991208%2Fcad72945-b0dd-456d-beaa-6862956a832d.png" alt="codewiztools profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/devtocash" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4002560%2F6ede7663-58de-4c06-a945-113cc245c5c6.png" alt="devtocash profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/codewiztools" class="crayons-story__secondary fw-medium m:hidden">
-              Code Wiz Tools
+            <a href="/devtocash" class="crayons-story__secondary fw-medium m:hidden">
+              devtocash
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3992518" aria-controls="story-author-preview-content-3992518" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Code Wiz Tools profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Code Wiz Tools
+              <button id="story-author-preview-trigger-3994948" aria-controls="story-author-preview-content-3994948" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="devtocash profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                devtocash
                 
               </button>
-              <div id="story-author-preview-content-3992518" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-3994948" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/codewiztools" class="flex">
+                    <a href="/devtocash" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3991208%2Fcad72945-b0dd-456d-beaa-6862956a832d.png" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4002560%2F6ede7663-58de-4c06-a945-113cc245c5c6.png" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Code Wiz Tools</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">devtocash</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3991208,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Code Wiz Tools&quot;}" data-fetched="fetched" aria-label="Follow user: Code Wiz Tools" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4002560,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;devtocash&quot;}" data-fetched="fetched" aria-label="Follow user: devtocash" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="3991208"></div>
+                  <div class="author-preview-metadata-container" data-author-id="4002560"></div>
                 </div>
               </div>
             </div>
 
           </div>
-          <a href="https://dev.to/codewiztools/base64-encoding-explained-jwt-tokens-data-uris-and-kubernetes-secrets-2g7d" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-25T22:17:00Z" title="Thursday, June 25, 2026 at 10:17:00 PM">Jun 25</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782425820"></span></a>
+          <a href="https://dev.to/devtocash/kubernetes-security-best-practices-2026-complete-hardening-guide-5hk5" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-26T06:35:33Z" title="Friday, June 26, 2026 at 6:35:33 AM">Jun 26</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782455733"></span></a>
         </div>
       </div>
 
@@ -59,23 +59,17 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/codewiztools/base64-encoding-explained-jwt-tokens-data-uris-and-kubernetes-secrets-2g7d" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4c804ej48y79zv7ty71g.PNG" id="article-link-3992518">
-          Base64 Encoding Explained — JWT Tokens, Data URIs, and Kubernetes Secrets
+        <a href="https://dev.to/devtocash/kubernetes-security-best-practices-2026-complete-hardening-guide-5hk5" data-preload-image="" id="article-link-3994948">
+          Kubernetes Security Best Practices 2026: Complete Hardening Guide
         </a>
       </h2>
         <div class="crayons-story__tags">
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(86, 39, 101, 0.10);
-        --tag-prefix: #562765;
-        --tag-bg-hover: rgba(86, 39, 101, 0.10);
-        --tag-prefix-hover: #562765;
-      " href="/t/webdev"><span class="crayons-tag__prefix">#</span>webdev</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(247, 223, 30, 0.10);
-        --tag-prefix: #f7df1e;
-        --tag-bg-hover: rgba(247, 223, 30, 0.10);
-        --tag-prefix-hover: #f7df1e;
-      " href="/t/javascript"><span class="crayons-tag__prefix">#</span>javascript</a>
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(27, 172, 128, 0.10);
         --tag-prefix: #1bac80;
@@ -83,136 +77,31 @@
         --tag-prefix-hover: #1bac80;
       " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 131, 53, 0.10);
-        --tag-prefix: #008335;
-        --tag-bg-hover: rgba(0, 131, 53, 0.10);
-        --tag-prefix-hover: #008335;
-      " href="/t/beginners"><span class="crayons-tag__prefix">#</span>beginners</a>
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(60, 149, 89, 0.10);
+        --tag-prefix: #3C9559;
+        --tag-bg-hover: rgba(60, 149, 89, 0.10);
+        --tag-prefix-hover: #3C9559;
+      " href="/t/sre"><span class="crayons-tag__prefix">#</span>sre</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-            <a href="https://dev.to/codewiztools/base64-encoding-explained-jwt-tokens-data-uris-and-kubernetes-secrets-2g7d#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Base64 Encoding Explained — JWT Tokens, Data URIs, and Kubernetes Secrets">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ajdp2wzd14232gdpoa7lvvw5r1thqwcb" class="crayons-icon"><title id="ajdp2wzd14232gdpoa7lvvw5r1thqwcb">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/devtocash/kubernetes-security-best-practices-2026-complete-hardening-guide-5hk5#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Kubernetes Security Best Practices 2026: Complete Hardening Guide">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akthif0orzx4yl1f514ljd2w1qa5deim" class="crayons-icon"><title id="akthif0orzx4yl1f514ljd2w1qa5deim">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            6 min read
+            9 min read
           </small>
-            <button type="button" id="article-save-button-3992518" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3992518" data-article-author-id="3991208" aria-label="Save post Base64 Encoding Explained — JWT Tokens, Data URIs, and Kubernetes Secrets to reading list" title="Save post Base64 Encoding Explained — JWT Tokens, Data URIs, and Kubernetes Secrets to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to move a Python service from a Docker Image -DHI without breaking package installs, root permissions?]]></title>
-        <id>https://dev.to/sivolko/how-to-move-a-python-service-from-a-docker-image-dhi-without-breaking-package-installs-root-22nm</id>
-        <link href="https://dev.to/sivolko/how-to-move-a-python-service-from-a-docker-image-dhi-without-breaking-package-installs-root-22nm"/>
-        <updated>2026-06-25T20:27:57.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/sivolko/how-to-move-a-python-service-from-a-docker-image-dhi-without-breaking-package-installs-root-22nm" aria-labelledby="article-link-3992059" class="crayons-story__hidden-navigation-link">How to move a Python service from a Docker Image -DHI without breaking package installs, root permissions?</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/sivolko" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F288681%2F86551a66-137a-46ab-9f3b-4634c0472c2b.jpg" alt="sivolko profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/sivolko" class="crayons-story__secondary fw-medium m:hidden">
-              SHUBHENDU SHUBHAM
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-3992059" aria-controls="story-author-preview-content-3992059" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="SHUBHENDU SHUBHAM profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                SHUBHENDU SHUBHAM
-                
-              </button>
-              <div id="story-author-preview-content-3992059" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/sivolko" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F288681%2F86551a66-137a-46ab-9f3b-4634c0472c2b.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">SHUBHENDU SHUBHAM</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:288681,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;SHUBHENDU SHUBHAM&quot;}" data-fetched="fetched" aria-label="Follow user: SHUBHENDU SHUBHAM" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="288681"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/sivolko/how-to-move-a-python-service-from-a-docker-image-dhi-without-breaking-package-installs-root-22nm" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-25T20:27:57Z" title="Thursday, June 25, 2026 at 8:27:57 PM">Jun 25</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782419277"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/sivolko/how-to-move-a-python-service-from-a-docker-image-dhi-without-breaking-package-installs-root-22nm" data-preload-image="" id="article-link-3992059">
-          How to move a Python service from a Docker Image -DHI without breaking package installs, root permissions?
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(29, 99, 237, 0.10);
-        --tag-prefix: #1D63ED;
-        --tag-bg-hover: rgba(29, 99, 237, 0.10);
-        --tag-prefix-hover: #1D63ED;
-      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/dhi"><span class="crayons-tag__prefix">#</span>dhi</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/container"><span class="crayons-tag__prefix">#</span>container</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/sivolko/how-to-move-a-python-service-from-a-docker-image-dhi-without-breaking-package-installs-root-22nm#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How to move a Python service from a Docker Image -DHI without breaking package installs, root permissions?">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="achnzey7hmp5feopgdi9wdkzyfu5yhc3" class="crayons-icon"><title id="achnzey7hmp5feopgdi9wdkzyfu5yhc3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-3992059" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3992059" data-article-author-id="288681" aria-label="Save post How to move a Python service from a Docker Image -DHI without breaking package installs, root permissions? to reading list" title="Save post How to move a Python service from a Docker Image -DHI without breaking package installs, root permissions? to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-3994948" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="3994948" data-article-author-id="4002560" aria-label="Save post Kubernetes Security Best Practices 2026: Complete Hardening Guide to reading list" title="Save post Kubernetes Security Best Practices 2026: Complete Hardening Guide to reading list" data-save-initialized="true">
               <span class="bm-initial crayons-icon c-btn__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
