@@ -1,523 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://blog.washi.dev/</id>
-    <title>washi</title>
-    <updated>2026-06-26T21:55:50.486Z</updated>
+    <id>https://brownfinesecurity.com/blog</id>
+    <title>brownfinesecurity</title>
+    <updated>2026-06-26T23:51:25.954Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://blog.washi.dev/assets/img/favicons/favicon-96x96.png</icon>
+    <icon>https://brownfinesecurity.com/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Why Custom Attributes in .NET give me Nightmares]]></title>
-        <id>https://blog.washi.dev/posts/custom-attributes-and-why-they-suck/</id>
-        <link href="https://blog.washi.dev/posts/custom-attributes-and-why-they-suck/"/>
-        <updated>2026-05-30T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/custom-attributes-and-why-they-suck/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Why Custom Attributes in .NET give me Nightmares</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Some people may think I am a shill for .NET.  With my previous post, they may be right.  However, as much as I like .NET, there are some things that just really do not make any sense to me, and the...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/modules/components/locale-datetime.js
--->
-
-
-
-
-<time>May 30, 2026</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Reverse Engineering
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>]]></content>
+        <title type="html"><![CDATA[IoT Security Fail: Remote Camera Control via Missing ONVIF Authentication]]></title>
+        <id>https://brownfinesecurity.com/blog/iot-vulnerability-basics-onvif-missing-authentication</id>
+        <link href="https://brownfinesecurity.com/blog/iot-vulnerability-basics-onvif-missing-authentication"/>
+        <updated>2025-11-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="IoT Security Fail: Remote Camera Control via Missing ONVIF Authentication" href="/blog/iot-vulnerability-basics-onvif-missing-authentication"><img alt="Cover Image for IoT Security Fail: Remote Camera Control via Missing ONVIF Authentication" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fiotptbasics2%2Fiotpt-basics3.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fiotptbasics2%2Fiotpt-basics3.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fiotptbasics2%2Fiotpt-basics3.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/iot-vulnerability-basics-onvif-missing-authentication">IoT Security Fail: Remote Camera Control via Missing ONVIF Authentication</a></h3><div class="text-lg mb-4"><time datetime="2025-11-10">November	10, 2025</time></div><p class="text-lg leading-relaxed mb-4">Missing authentication in Chinese IP camera allows attackers to remotely access video streams and control camera movement</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Addressing Common Misconceptions about .NET in the InfoSec World]]></title>
-        <id>https://blog.washi.dev/posts/misconceptions-about-dotnet/</id>
-        <link href="https://blog.washi.dev/posts/misconceptions-about-dotnet/"/>
-        <updated>2026-02-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/misconceptions-about-dotnet/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Addressing Common Misconceptions about .NET in the InfoSec World</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Over the past couple years, I have come to know the .NET platform pretty well, from both a developer’s and a reverse engineer’s standpoint.  I can’t always quite say the same about people in the se...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/modules/components/locale-datetime.js
--->
-
-
-
-
-<time>Feb 21, 2026</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Reverse Engineering
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>]]></content>
+        <title type="html"><![CDATA[IoT Pentesting Basics: Root Shell via UART Exploitation]]></title>
+        <id>https://brownfinesecurity.com/blog/iot-pentesting-basics-uart-root-shells</id>
+        <link href="https://brownfinesecurity.com/blog/iot-pentesting-basics-uart-root-shells"/>
+        <updated>2025-11-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="IoT Pentesting Basics: Root Shell via UART Exploitation" href="/blog/iot-pentesting-basics-uart-root-shells"><img alt="Cover Image for IoT Pentesting Basics: Root Shell via UART Exploitation" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fiotptbasics1%2Fiotpt-basics1.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fiotptbasics1%2Fiotpt-basics1.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fiotptbasics1%2Fiotpt-basics1.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/iot-pentesting-basics-uart-root-shells">IoT Pentesting Basics: Root Shell via UART Exploitation</a></h3><div class="text-lg mb-4"><time datetime="2025-11-03">November	3, 2025</time></div><p class="text-lg leading-relaxed mb-4">UART enumeration and exploitation for IoT security assessments</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Flare-On 12 Write-Ups]]></title>
-        <id>https://blog.washi.dev/posts/flareon12/</id>
-        <link href="https://blog.washi.dev/posts/flareon12/"/>
-        <updated>2025-12-23T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/flareon12/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Flare-On 12 Write-Ups</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>At last, as promised in my previous post, with a huge delay I finally managed to finalize my Flare-On12 write-ups. Overall, it was a really good and fun set of challenges, and as always, the latter...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/modules/components/locale-datetime.js
--->
-
-
-
-
-<time>Dec 23, 2025</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Reverse Engineering,
-                      CTF
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>]]></content>
+        <title type="html"><![CDATA[Enterprise IoT Pentesting: Client Mobile Application Testing]]></title>
+        <id>https://brownfinesecurity.com/blog/attacking-enterprise-iot-mobile-apps</id>
+        <link href="https://brownfinesecurity.com/blog/attacking-enterprise-iot-mobile-apps"/>
+        <updated>2025-10-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Enterprise IoT Pentesting: Client Mobile Application Testing" href="/blog/attacking-enterprise-iot-mobile-apps"><img alt="Cover Image for Enterprise IoT Pentesting: Client Mobile Application Testing" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv19.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv19.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv19.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/attacking-enterprise-iot-mobile-apps">Enterprise IoT Pentesting: Client Mobile Application Testing</a></h3><div class="text-lg mb-4"><time datetime="2025-10-11">October	11, 2025</time></div><p class="text-lg leading-relaxed mb-4">Authentication Downgrade Attacks on Enterprise IoT Mobile Applications</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Life Updates and Other Ramblings]]></title>
-        <id>https://blog.washi.dev/posts/life-update/</id>
-        <link href="https://blog.washi.dev/posts/life-update/"/>
-        <updated>2025-11-07T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/life-update/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Life Updates and Other Ramblings</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Today a bit of a different, more rambly post.  DEFCON and Grand Canyon  It’s been a couple of months since I’ve been back from BSidesLV 2025 and DEFCON 33. Long story short, it was awesome and extr...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/modules/components/locale-datetime.js
--->
-
-
-
-
-<time>Nov 7, 2025</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Miscellaneous
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>]]></content>
+        <title type="html"><![CDATA[Enterprise IoT Pentesting: Network Service Analysis]]></title>
+        <id>https://brownfinesecurity.com/blog/uniview-camera-network-services</id>
+        <link href="https://brownfinesecurity.com/blog/uniview-camera-network-services"/>
+        <updated>2025-10-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Enterprise IoT Pentesting: Network Service Analysis" href="/blog/uniview-camera-network-services"><img alt="Cover Image for Enterprise IoT Pentesting: Network Service Analysis" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funvnetstat.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Funiview%2Funvnetstat.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funvnetstat.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/uniview-camera-network-services">Enterprise IoT Pentesting: Network Service Analysis</a></h3><div class="text-lg mb-4"><time datetime="2025-10-10">October	10, 2025</time></div><p class="text-lg leading-relaxed mb-4">Information Disclosure in Embedded IoT Web Applications</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Recovering Metadata from .NET Native AOT Binaries]]></title>
-        <id>https://blog.washi.dev/posts/recovering-nativeaot-metadata/</id>
-        <link href="https://blog.washi.dev/posts/recovering-nativeaot-metadata/"/>
-        <updated>2025-04-18T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/recovering-nativeaot-metadata/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Recovering Metadata from .NET Native AOT Binaries</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Ever seen a binary that looks like a .NET binary based on its strings, but .NET decompilers are not able to open them?    .NET or not?  You may just be dealing with a Native AOT binary!  That may s...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/modules/components/locale-datetime.js
--->
-
-
-
-
-<time>Apr 18, 2025</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Reverse Engineering
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>]]></content>
+        <title type="html"><![CDATA[Enterprise IoT Pentesting: Cleartext Cloud Communications]]></title>
+        <id>https://brownfinesecurity.com/blog/cleartext-communications-to-univew-cloud-servers</id>
+        <link href="https://brownfinesecurity.com/blog/cleartext-communications-to-univew-cloud-servers"/>
+        <updated>2025-10-09T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Enterprise IoT Pentesting: Cleartext Cloud Communications" href="/blog/cleartext-communications-to-univew-cloud-servers"><img alt="Cover Image for Enterprise IoT Pentesting: Cleartext Cloud Communications" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv7.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv7.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv7.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/cleartext-communications-to-univew-cloud-servers">Enterprise IoT Pentesting: Cleartext Cloud Communications</a></h3><div class="text-lg mb-4"><time datetime="2025-10-09">October	9, 2025</time></div><p class="text-lg leading-relaxed mb-4">Uncovering Unencrypted Data Flows to the Public Internet</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Flare-On 11 Write-Ups]]></title>
-        <id>https://blog.washi.dev/posts/flareon11/</id>
-        <link href="https://blog.washi.dev/posts/flareon11/"/>
-        <updated>2024-11-17T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/flareon11/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Flare-On 11 Write-Ups</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Today a short post.  Over the past half year or so, I have been dealing with some pretty serious medical complications that made me unable to do a lot of programming, reversing and blogging. On doc...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/modules/components/locale-datetime.js
--->
-
-
-
-
-<time>Nov 17, 2024</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Reverse Engineering,
-                      CTF
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>]]></content>
+        <title type="html"><![CDATA[Enterprise IoT Pentesting: Firmware Extraction and Analysis]]></title>
+        <id>https://brownfinesecurity.com/blog/firmware-extraction-and-analysis-of-uniview-camera</id>
+        <link href="https://brownfinesecurity.com/blog/firmware-extraction-and-analysis-of-uniview-camera"/>
+        <updated>2025-10-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Enterprise IoT Pentesting: Firmware Extraction and Analysis" href="/blog/firmware-extraction-and-analysis-of-uniview-camera"><img alt="Cover Image for Enterprise IoT Pentesting: Firmware Extraction and Analysis" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv4.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv4.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv4.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/firmware-extraction-and-analysis-of-uniview-camera">Enterprise IoT Pentesting: Firmware Extraction and Analysis</a></h3><div class="text-lg mb-4"><time datetime="2025-10-08">October	8, 2025</time></div><p class="text-lg leading-relaxed mb-4">Searching Firmware for Hardcoded Secrets</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Solving BinaryShield VM Crackme by ra1n]]></title>
-        <id>https://blog.washi.dev/posts/binaryshield-vm-crackme/</id>
-        <link href="https://blog.washi.dev/posts/binaryshield-vm-crackme/"/>
-        <updated>2024-09-25T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/binaryshield-vm-crackme/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Solving BinaryShield VM Crackme by ra1n</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Flare-On 11 is about to start, and I thought I needed some warming-up practice. So I went to Tuts4You, and saw that a Windows crackme challenge by ra1n popped up very recently, featuring a custom V...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/modules/components/locale-datetime.js
--->
-
-
-
-
-<time>Sep 25, 2024</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Reverse Engineering,
-                      CTF
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>]]></content>
+        <title type="html"><![CDATA[Enterprise IoT Pentesting: Bypassing Restricted Shell on Uniview Security Camera]]></title>
+        <id>https://brownfinesecurity.com/blog/bypassing-restricted-shell-on-uniview-security-camera</id>
+        <link href="https://brownfinesecurity.com/blog/bypassing-restricted-shell-on-uniview-security-camera"/>
+        <updated>2025-10-07T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Enterprise IoT Pentesting: Bypassing Restricted Shell on Uniview Security Camera" href="/blog/bypassing-restricted-shell-on-uniview-security-camera"><img alt="Cover Image for Enterprise IoT Pentesting: Bypassing Restricted Shell on Uniview Security Camera" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv1.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv1.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Funiview%2Funv1.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/bypassing-restricted-shell-on-uniview-security-camera">Enterprise IoT Pentesting: Bypassing Restricted Shell on Uniview Security Camera</a></h3><div class="text-lg mb-4"><time datetime="2025-10-07">October	7, 2025</time></div><p class="text-lg leading-relaxed mb-4">From Unlocked Bootloader to Root Shell</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Awaiting the Awaitables - Building the AwaitFuscator]]></title>
-        <id>https://blog.washi.dev/posts/awaitfuscator/</id>
-        <link href="https://blog.washi.dev/posts/awaitfuscator/"/>
-        <updated>2024-01-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/awaitfuscator/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Awaiting the Awaitables - Building the AwaitFuscator</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Here is a scenario you probably have never encountered.  Have you ever decompiled a .NET binary that only consists of a bunch of await keywords and nothing else?    Yea me neither. Well… until now ...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/modules/components/locale-datetime.js
--->
-
-
-
-
-<time>Jan 21, 2024</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Anti-Reverse Engineering,
-                      Anti-Decompiler
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>]]></content>
+        <title type="html"><![CDATA[Intercepting Traffic from Police Bodycam App Sending Data to China]]></title>
+        <id>https://brownfinesecurity.com/blog/police-bodycam-data-to-china</id>
+        <link href="https://brownfinesecurity.com/blog/police-bodycam-data-to-china"/>
+        <updated>2025-09-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Intercepting Traffic from Police Bodycam App Sending Data to China" href="/blog/police-bodycam-data-to-china"><img alt="Cover Image for Intercepting Traffic from Police Bodycam App Sending Data to China" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fpolice-bodycam-data-to-china%2Fbodycam.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fpolice-bodycam-data-to-china%2Fbodycam.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fpolice-bodycam-data-to-china%2Fbodycam.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/police-bodycam-data-to-china">Intercepting Traffic from Police Bodycam App Sending Data to China</a></h3><div class="text-lg mb-4"><time datetime="2025-09-05">September	5, 2025</time></div><p class="text-lg leading-relaxed mb-4">Detailing a vulnerability in the Viidure mobile application that fails to validate server certificates in TLS communications</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[On the recent VMProtect leaks and why it is a bad thing]]></title>
-        <id>https://blog.washi.dev/posts/on-the-vmp-leak-and-why-it-is-bad/</id>
-        <link href="https://blog.washi.dev/posts/on-the-vmp-leak-and-why-it-is-bad/"/>
-        <updated>2023-12-13T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/on-the-vmp-leak-and-why-it-is-bad/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">On the recent VMProtect leaks and why it is a bad thing</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>You may have seen the recent word about the VMProtect source being leaked to various openly accessible places like GitHub. For obvious reasons I won’t link it here, but from the brief looks that I ...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/modules/components/locale-datetime.js
--->
-
-
-
-
-<time>Dec 13, 2023</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Miscellaneous
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>]]></content>
+        <title type="html"><![CDATA[Reverse Engineering Hanwha Security Camera Firmware File Decryption with IDA Pro]]></title>
+        <id>https://brownfinesecurity.com/blog/hanwha-firmware-file-decryption</id>
+        <link href="https://brownfinesecurity.com/blog/hanwha-firmware-file-decryption"/>
+        <updated>2025-06-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Reverse Engineering Hanwha Security Camera Firmware File Decryption with IDA Pro" href="/blog/hanwha-firmware-file-decryption"><img alt="Cover Image for Reverse Engineering Hanwha Security Camera Firmware File Decryption with IDA Pro" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fhanwha-firmware-file-decryption%2Ffeatured.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fhanwha-firmware-file-decryption%2Ffeatured.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fhanwha-firmware-file-decryption%2Ffeatured.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/hanwha-firmware-file-decryption">Reverse Engineering Hanwha Security Camera Firmware File Decryption with IDA Pro</a></h3><div class="text-lg mb-4"><time datetime="2025-06-08">June	8, 2025</time></div><p class="text-lg leading-relaxed mb-4">Detailing the Hanwha firmware file decryption method</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A problem with .NET Self-Contained Apps and how to pop calculators in dnSpy]]></title>
-        <id>https://blog.washi.dev/posts/popping-calcs-in-dnspy/</id>
-        <link href="https://blog.washi.dev/posts/popping-calcs-in-dnspy/"/>
-        <updated>2023-09-23T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="/posts/popping-calcs-in-dnspy/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">A problem with .NET Self-Contained Apps and how to pop calculators in dnSpy</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Programming languages that operate on a virtual machine often promise safety guards against many unsafe operations. However, virtual machines can have pretty serious bugs. In this post, we explore ...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/modules/components/locale-datetime.js
--->
-
-
-
-
-<time>Sep 23, 2023</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Reverse Engineering,
-                      Bug Hunting
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>]]></content>
+        <title type="html"><![CDATA[An IoT Pentesting Roadmap: Secure Your Devices with Confidence]]></title>
+        <id>https://brownfinesecurity.com/blog/iot-pentesting-roadmap</id>
+        <link href="https://brownfinesecurity.com/blog/iot-pentesting-roadmap"/>
+        <updated>2025-06-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="An IoT Pentesting Roadmap: Secure Your Devices with Confidence" href="/blog/iot-pentesting-roadmap"><img alt="Cover Image for An IoT Pentesting Roadmap: Secure Your Devices with Confidence" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fiot-pentesting-roadmap%2Ffeatured.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fiot-pentesting-roadmap%2Ffeatured.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fiot-pentesting-roadmap%2Ffeatured.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/iot-pentesting-roadmap">An IoT Pentesting Roadmap: Secure Your Devices with Confidence</a></h3><div class="text-lg mb-4"><time datetime="2025-06-03">June	3, 2025</time></div><p class="text-lg leading-relaxed mb-4">A guide for conducting an IoT Pentest</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Beginner's Guide to Hardware Hacking Tools]]></title>
+        <id>https://brownfinesecurity.com/blog/hardware-hacking-tools-beginners-guide</id>
+        <link href="https://brownfinesecurity.com/blog/hardware-hacking-tools-beginners-guide"/>
+        <updated>2024-10-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="A Beginner's Guide to Hardware Hacking Tools" href="/blog/hardware-hacking-tools-beginners-guide"><img alt="Cover Image for A Beginner's Guide to Hardware Hacking Tools" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fhardware-hacking-tools-beginners-guide%2Ffeatured.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fhardware-hacking-tools-beginners-guide%2Ffeatured.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fhardware-hacking-tools-beginners-guide%2Ffeatured.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/hardware-hacking-tools-beginners-guide">A Beginner's Guide to Hardware Hacking Tools</a></h3><div class="text-lg mb-4"><time datetime="2024-10-16">October	16, 2024</time></div><p class="text-lg leading-relaxed mb-4">A prioritized list of tools for getting started in hardware hacking</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intercepting Mobile Application Traffic with Caido and Frida]]></title>
+        <id>https://brownfinesecurity.com/blog/intercepting-mobile-traffic-with-caido-and-frida</id>
+        <link href="https://brownfinesecurity.com/blog/intercepting-mobile-traffic-with-caido-and-frida"/>
+        <updated>2024-08-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Intercepting Mobile Application Traffic with Caido and Frida" href="/blog/intercepting-mobile-traffic-with-caido-and-frida"><img alt="Cover Image for Intercepting Mobile Application Traffic with Caido and Frida" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fintercepting-mobile-traffic-with-caido-and-frida%2Ffeatured.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fintercepting-mobile-traffic-with-caido-and-frida%2Ffeatured.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fintercepting-mobile-traffic-with-caido-and-frida%2Ffeatured.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/intercepting-mobile-traffic-with-caido-and-frida">Intercepting Mobile Application Traffic with Caido and Frida</a></h3><div class="text-lg mb-4"><time datetime="2024-08-22">August	22, 2024</time></div><p class="text-lg leading-relaxed mb-4">Proxying HTTP traffic from mobile devices using Caido and Frida</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Too Many Secrets: Proprietary Encryption Protocol Analysis in VStarcam CB73 Security Camera]]></title>
+        <id>https://brownfinesecurity.com/blog/vstarcam-cb73-proprietary-encryption-analysis</id>
+        <link href="https://brownfinesecurity.com/blog/vstarcam-cb73-proprietary-encryption-analysis"/>
+        <updated>2024-08-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Too Many Secrets: Proprietary Encryption Protocol Analysis in VStarcam CB73 Security Camera" href="/blog/vstarcam-cb73-proprietary-encryption-analysis"><img alt="Cover Image for Too Many Secrets: Proprietary Encryption Protocol Analysis in VStarcam CB73 Security Camera" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fvstarcam-cb73-proprietary-encryption-analysis%2Ffeatured.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fvstarcam-cb73-proprietary-encryption-analysis%2Ffeatured.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fvstarcam-cb73-proprietary-encryption-analysis%2Ffeatured.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/vstarcam-cb73-proprietary-encryption-analysis">Too Many Secrets: Proprietary Encryption Protocol Analysis in VStarcam CB73 Security Camera</a></h3><div class="text-lg mb-4"><time datetime="2024-08-11">August	11, 2024</time></div><p class="text-lg leading-relaxed mb-4">Critical encryption flaws discovered in UDP P2P protocol in VStarcam CB73</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uncovering Hardcoded Root Password in VStarcam CB73 Security Camera]]></title>
+        <id>https://brownfinesecurity.com/blog/vstarcam-cb73-hardcoded-root-password</id>
+        <link href="https://brownfinesecurity.com/blog/vstarcam-cb73-hardcoded-root-password"/>
+        <updated>2024-07-20T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="mb-5"><div class="sm:mx-0"><a aria-label="Uncovering Hardcoded Root Password in VStarcam CB73 Security Camera" href="/blog/vstarcam-cb73-hardcoded-root-password"><img alt="Cover Image for Uncovering Hardcoded Root Password in VStarcam CB73 Security Camera" loading="lazy" width="1300" height="630" decoding="async" data-nimg="1" class="shadow-sm w-full hover:shadow-lg transition-shadow duration-200" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fblog%2Fvstarcam-cb73-hardcoded-root-password%2Ffeatured.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog%2Fvstarcam-cb73-hardcoded-root-password%2Ffeatured.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fblog%2Fvstarcam-cb73-hardcoded-root-password%2Ffeatured.png&amp;w=3840&amp;q=75"></a></div></div><h3 class="text-3xl mb-3 leading-snug"><a class="hover:underline" href="/blog/vstarcam-cb73-hardcoded-root-password">Uncovering Hardcoded Root Password in VStarcam CB73 Security Camera</a></h3><div class="text-lg mb-4"><time datetime="2024-07-20">July	20, 2024</time></div><p class="text-lg leading-relaxed mb-4">Firmware extraction and reverse engineering of VStarcam CB73 root password</p><div class="flex items-center"><img src="/images/bfs/mbrownhs.png" class="w-12 h-12 rounded-full mr-4" alt="Matt Brown"><div class="text-xl font-bold">Matt Brown</div></div>]]></content>
     </entry>
 </feed>
