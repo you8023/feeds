@@ -1,43 +1,380 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.deepinstinct.com/blog</id>
-    <title>Deep Instinct Blog</title>
-    <updated>2026-06-27T20:46:35.705Z</updated>
+    <id>https://www.okta.com/blog/threat-intelligence/</id>
+    <title>Okta Threat Intelligence</title>
+    <updated>2026-06-27T22:45:33.880Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://www.deepinstinct.com/favicon/favicon-32x32.png</icon>
+    <icon>https://www.okta.com/blog/threat-intelligence/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Schrödinger’s Cloud: Both Safe and Compromised]]></title>
-        <id>https://www.deepinstinct.com/blog/schrodingers-cloud-both-safe-and-compromised</id>
-        <link href="https://www.deepinstinct.com/blog/schrodingers-cloud-both-safe-and-compromised"/>
-        <updated>2026-01-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="blog-card__image relative mb-4 sm:mb-0"><a href="/blog/schrodingers-cloud-both-safe-and-compromised"><img title="Cat-1200 x 627.png" loading="lazy" width="1200" height="627" decoding="async" data-nimg="1" class="" style="color:transparent;width:100%;height:auto;object-fit:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 627'%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/svg+xml;base64,Cjxzdmcgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjI3IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJnIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI2NlZDRkYSIgb2Zmc2V0PSIyMCUiIC8+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmYiIG9mZnNldD0iNTAlIiAvPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjY2VkNGRhIiBvZmZzZXQ9IjcwJSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYyNyIgZmlsbD0iI2NlZDRkYSIgLz4KICA8cmVjdCBpZD0iciIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjI3IiBmaWxsPSJ1cmwoI2cpIiAvPgogIDxhbmltYXRlIHhsaW5rOmhyZWY9IiNyIiBhdHRyaWJ1dGVOYW1lPSJ4IiBmcm9tPSItMTIwMCIgdG89IjEyMDAiIGR1cj0iMXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAgLz4KPC9zdmc+'/%3E%3C/svg%3E&quot;)" sizes="100vw" srcset="/_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltf78b255768d2b2eb%2F6970029b6b2a1037e17a4b27%2FCat-1200_x_627.png&amp;w=640&amp;q=100 640w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltf78b255768d2b2eb%2F6970029b6b2a1037e17a4b27%2FCat-1200_x_627.png&amp;w=768&amp;q=100 768w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltf78b255768d2b2eb%2F6970029b6b2a1037e17a4b27%2FCat-1200_x_627.png&amp;w=1024&amp;q=100 1024w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltf78b255768d2b2eb%2F6970029b6b2a1037e17a4b27%2FCat-1200_x_627.png&amp;w=1200&amp;q=100 1200w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltf78b255768d2b2eb%2F6970029b6b2a1037e17a4b27%2FCat-1200_x_627.png&amp;w=1400&amp;q=100 1400w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltf78b255768d2b2eb%2F6970029b6b2a1037e17a4b27%2FCat-1200_x_627.png&amp;w=1680&amp;q=100 1680w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltf78b255768d2b2eb%2F6970029b6b2a1037e17a4b27%2FCat-1200_x_627.png&amp;w=1920&amp;q=100 1920w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltf78b255768d2b2eb%2F6970029b6b2a1037e17a4b27%2FCat-1200_x_627.png&amp;w=2048&amp;q=100 2048w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltf78b255768d2b2eb%2F6970029b6b2a1037e17a4b27%2FCat-1200_x_627.png&amp;w=3840&amp;q=100 3840w" src="/_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltf78b255768d2b2eb%2F6970029b6b2a1037e17a4b27%2FCat-1200_x_627.png&amp;w=3840&amp;q=100"></a></div><div class="blog-card__content"><h3 class="blog-card__title text-h-xsml sm:text-h-md"><a class="hover:underline" href="/blog/schrodingers-cloud-both-safe-and-compromised">Schrödinger’s Cloud: Both Safe and Compromised</a></h3><div class="font-sans font-bold text-sm tracking-widest pt-3 uppercase">January 21, 2026</div></div>]]></content>
+        <title type="html"><![CDATA[Defending against TeamPCP software supply chain attacks]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/defending_against_team_pcp_software_supply_chain_attacks/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/defending_against_team_pcp_software_supply_chain_attacks/"/>
+        <updated>2026-05-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/defending_against_team_pcp_software_supply_chain_attacks/" data-link-cta="yes" data-link-text="Defending against TeamPCP software supply chain attacks" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--b35c98b1-7429-428b-a47c-a080537dbacd/scb-1-jpg.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--b35c98b1-7429-428b-a47c-a080537dbacd/scb-1-jpg.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta-www/en_us/blog/threat-intelligence/teampcp-supply-chain-blog/scb_1.jpg">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">18 May 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Defending against TeamPCP software supply chain attacks</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                18 May 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Overconfident and Underprepared: IT Leaders Misjudge AI Cyber Risk]]></title>
-        <id>https://www.deepinstinct.com/blog/overconfident-and-underprepared-it-leaders-misjudge-ai-cyber-risk</id>
-        <link href="https://www.deepinstinct.com/blog/overconfident-and-underprepared-it-leaders-misjudge-ai-cyber-risk"/>
-        <updated>2025-12-10T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="blog-card__image relative mb-4 sm:mb-0"><a href="/blog/overconfident-and-underprepared-it-leaders-misjudge-ai-cyber-risk"><img title="Researchscape - 1200.jpg" loading="lazy" width="2400" height="1254" decoding="async" data-nimg="1" class="" style="color:transparent;width:100%;height:auto;object-fit:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2400 1254'%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/svg+xml;base64,Cjxzdmcgd2lkdGg9IjI0MDAiIGhlaWdodD0iMTI1NCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNjZWQ0ZGEiIG9mZnNldD0iMjAlIiAvPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjZmZmIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI2NlZDRkYSIgb2Zmc2V0PSI3MCUiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMjQwMCIgaGVpZ2h0PSIxMjU0IiBmaWxsPSIjY2VkNGRhIiAvPgogIDxyZWN0IGlkPSJyIiB3aWR0aD0iMjQwMCIgaGVpZ2h0PSIxMjU0IiBmaWxsPSJ1cmwoI2cpIiAvPgogIDxhbmltYXRlIHhsaW5rOmhyZWY9IiNyIiBhdHRyaWJ1dGVOYW1lPSJ4IiBmcm9tPSItMjQwMCIgdG89IjI0MDAiIGR1cj0iMXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAgLz4KPC9zdmc+'/%3E%3C/svg%3E&quot;)" sizes="100vw" srcset="/_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte10d4f8c965607ba%2F6939927c0212d773f03bd4b3%2FResearchscape_-_1200.jpg&amp;w=640&amp;q=100 640w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte10d4f8c965607ba%2F6939927c0212d773f03bd4b3%2FResearchscape_-_1200.jpg&amp;w=768&amp;q=100 768w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte10d4f8c965607ba%2F6939927c0212d773f03bd4b3%2FResearchscape_-_1200.jpg&amp;w=1024&amp;q=100 1024w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte10d4f8c965607ba%2F6939927c0212d773f03bd4b3%2FResearchscape_-_1200.jpg&amp;w=1200&amp;q=100 1200w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte10d4f8c965607ba%2F6939927c0212d773f03bd4b3%2FResearchscape_-_1200.jpg&amp;w=1400&amp;q=100 1400w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte10d4f8c965607ba%2F6939927c0212d773f03bd4b3%2FResearchscape_-_1200.jpg&amp;w=1680&amp;q=100 1680w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte10d4f8c965607ba%2F6939927c0212d773f03bd4b3%2FResearchscape_-_1200.jpg&amp;w=1920&amp;q=100 1920w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte10d4f8c965607ba%2F6939927c0212d773f03bd4b3%2FResearchscape_-_1200.jpg&amp;w=2048&amp;q=100 2048w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte10d4f8c965607ba%2F6939927c0212d773f03bd4b3%2FResearchscape_-_1200.jpg&amp;w=3840&amp;q=100 3840w" src="/_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte10d4f8c965607ba%2F6939927c0212d773f03bd4b3%2FResearchscape_-_1200.jpg&amp;w=3840&amp;q=100"></a></div><div class="blog-card__content"><h3 class="blog-card__title text-h-xsml sm:text-h-md"><a class="hover:underline" href="/blog/overconfident-and-underprepared-it-leaders-misjudge-ai-cyber-risk">Overconfident and Underprepared: IT Leaders Misjudge AI Cyber Risk</a></h3><div class="font-sans font-bold text-sm tracking-widest pt-3 uppercase">December 10, 2025</div></div>]]></content>
+        <title type="html"><![CDATA[Device code phishing: it's phishing with dynamite]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/device-code-phishing--it-s-phishing-with-dynamite/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/device-code-phishing--it-s-phishing-with-dynamite/"/>
+        <updated>2026-05-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/device-code-phishing--it-s-phishing-with-dynamite/" data-link-cta="yes" data-link-text="Device code phishing: it's phishing with dynamite" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--e386339b-103c-4898-b753-78187e88c9ef/phishing-with-dynamite-CU-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--e386339b-103c-4898-b753-78187e88c9ef/phishing-with-dynamite-CU-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta-www/en_us/blog/threat-intelligence/device_code_phishing/phishing_with_dynamite_CU.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">11 May 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Device code phishing: it's phishing with dynamite</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                11 May 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[DIANNA Explains 4: Nimbus Manticore—Monstrous Malware]]></title>
-        <id>https://www.deepinstinct.com/blog/dianna-explains-4-nimbus-manticore-monstrous-malware</id>
-        <link href="https://www.deepinstinct.com/blog/dianna-explains-4-nimbus-manticore-monstrous-malware"/>
-        <updated>2025-12-03T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="blog-card__image relative mb-4 sm:mb-0"><a href="/blog/dianna-explains-4-nimbus-manticore-monstrous-malware"><img title="Nimbus Manticore 930x400.jpg" loading="lazy" width="1860" height="800" decoding="async" data-nimg="1" class="" style="color:transparent;width:100%;height:auto;object-fit:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1860 800'%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/svg+xml;base64,Cjxzdmcgd2lkdGg9IjE4NjAiIGhlaWdodD0iODAwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJnIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI2NlZDRkYSIgb2Zmc2V0PSIyMCUiIC8+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmYiIG9mZnNldD0iNTAlIiAvPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjY2VkNGRhIiBvZmZzZXQ9IjcwJSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIxODYwIiBoZWlnaHQ9IjgwMCIgZmlsbD0iI2NlZDRkYSIgLz4KICA8cmVjdCBpZD0iciIgd2lkdGg9IjE4NjAiIGhlaWdodD0iODAwIiBmaWxsPSJ1cmwoI2cpIiAvPgogIDxhbmltYXRlIHhsaW5rOmhyZWY9IiNyIiBhdHRyaWJ1dGVOYW1lPSJ4IiBmcm9tPSItMTg2MCIgdG89IjE4NjAiIGR1cj0iMXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAgLz4KPC9zdmc+'/%3E%3C/svg%3E&quot;)" sizes="100vw" srcset="/_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblt02fa9a5277aae27b%2F692f4fafb48b455c1e3fcd59%2FNimbus_Manticore_930x400.jpg&amp;w=640&amp;q=100 640w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblt02fa9a5277aae27b%2F692f4fafb48b455c1e3fcd59%2FNimbus_Manticore_930x400.jpg&amp;w=768&amp;q=100 768w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblt02fa9a5277aae27b%2F692f4fafb48b455c1e3fcd59%2FNimbus_Manticore_930x400.jpg&amp;w=1024&amp;q=100 1024w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblt02fa9a5277aae27b%2F692f4fafb48b455c1e3fcd59%2FNimbus_Manticore_930x400.jpg&amp;w=1200&amp;q=100 1200w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblt02fa9a5277aae27b%2F692f4fafb48b455c1e3fcd59%2FNimbus_Manticore_930x400.jpg&amp;w=1400&amp;q=100 1400w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblt02fa9a5277aae27b%2F692f4fafb48b455c1e3fcd59%2FNimbus_Manticore_930x400.jpg&amp;w=1680&amp;q=100 1680w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblt02fa9a5277aae27b%2F692f4fafb48b455c1e3fcd59%2FNimbus_Manticore_930x400.jpg&amp;w=1920&amp;q=100 1920w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblt02fa9a5277aae27b%2F692f4fafb48b455c1e3fcd59%2FNimbus_Manticore_930x400.jpg&amp;w=2048&amp;q=100 2048w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblt02fa9a5277aae27b%2F692f4fafb48b455c1e3fcd59%2FNimbus_Manticore_930x400.jpg&amp;w=3840&amp;q=100 3840w" src="/_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblt02fa9a5277aae27b%2F692f4fafb48b455c1e3fcd59%2FNimbus_Manticore_930x400.jpg&amp;w=3840&amp;q=100"></a></div><div class="blog-card__content"><h3 class="blog-card__title text-h-xsml sm:text-h-md"><a class="hover:underline" href="/blog/dianna-explains-4-nimbus-manticore-monstrous-malware">DIANNA Explains 4: Nimbus Manticore—Monstrous Malware</a></h3><div class="font-sans font-bold text-sm tracking-widest pt-3 uppercase">December 3, 2025</div></div>]]></content>
+        <title type="html"><![CDATA[Tycoon 2FA phishing actors disperse, branch into new attacks]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/tycoon_2fa_phishing_actors_scatter/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/tycoon_2fa_phishing_actors_scatter/"/>
+        <updated>2026-05-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/tycoon_2fa_phishing_actors_scatter/" data-link-cta="yes" data-link-text="Tycoon 2FA phishing actors disperse, branch into new attacks" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--57c991b7-caca-49f0-b990-6fbf27dda1a5/tycoon-1-jpg.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--57c991b7-caca-49f0-b990-6fbf27dda1a5/tycoon-1-jpg.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta-www/en_us/blog/threat-intelligence/tycoon-2fa/tycoon_1.jpg">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">03 May 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Tycoon 2FA phishing actors disperse, branch into new attacks</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                03 May 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Voice of SecOps Spotlight: Tis the Season for Online Sales — and AI-Fueled Cyberattacks]]></title>
-        <id>https://www.deepinstinct.com/blog/voice-of-secops-spotlight-tis-the-season-for-online-sales-and-ai-fueled-cyberattacks</id>
-        <link href="https://www.deepinstinct.com/blog/voice-of-secops-spotlight-tis-the-season-for-online-sales-and-ai-fueled-cyberattacks"/>
-        <updated>2025-11-05T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="blog-card__image relative mb-4 sm:mb-0"><a href="/blog/voice-of-secops-spotlight-tis-the-season-for-online-sales-and-ai-fueled-cyberattacks"><img title="Voice of SecOps-Retail_930x400.png" loading="lazy" width="930" height="400" decoding="async" data-nimg="1" class="" style="color:transparent;width:100%;height:auto;object-fit:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 930 400'%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/svg+xml;base64,Cjxzdmcgd2lkdGg9IjkzMCIgaGVpZ2h0PSI0MDAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImciPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjY2VkNGRhIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgb2Zmc2V0PSI1MCUiIC8+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNjZWQ0ZGEiIG9mZnNldD0iNzAlIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjkzMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiNjZWQ0ZGEiIC8+CiAgPHJlY3QgaWQ9InIiIHdpZHRoPSI5MzAiIGhlaWdodD0iNDAwIiBmaWxsPSJ1cmwoI2cpIiAvPgogIDxhbmltYXRlIHhsaW5rOmhyZWY9IiNyIiBhdHRyaWJ1dGVOYW1lPSJ4IiBmcm9tPSItOTMwIiB0bz0iOTMwIiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+Cjwvc3ZnPg=='/%3E%3C/svg%3E&quot;)" sizes="100vw" srcset="/_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte514a84913bfd49b%2F6908d825a45e9639d7b5af61%2FVoice_of_SecOps-Retail_930x400.png&amp;w=640&amp;q=100 640w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte514a84913bfd49b%2F6908d825a45e9639d7b5af61%2FVoice_of_SecOps-Retail_930x400.png&amp;w=768&amp;q=100 768w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte514a84913bfd49b%2F6908d825a45e9639d7b5af61%2FVoice_of_SecOps-Retail_930x400.png&amp;w=1024&amp;q=100 1024w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte514a84913bfd49b%2F6908d825a45e9639d7b5af61%2FVoice_of_SecOps-Retail_930x400.png&amp;w=1200&amp;q=100 1200w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte514a84913bfd49b%2F6908d825a45e9639d7b5af61%2FVoice_of_SecOps-Retail_930x400.png&amp;w=1400&amp;q=100 1400w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte514a84913bfd49b%2F6908d825a45e9639d7b5af61%2FVoice_of_SecOps-Retail_930x400.png&amp;w=1680&amp;q=100 1680w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte514a84913bfd49b%2F6908d825a45e9639d7b5af61%2FVoice_of_SecOps-Retail_930x400.png&amp;w=1920&amp;q=100 1920w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte514a84913bfd49b%2F6908d825a45e9639d7b5af61%2FVoice_of_SecOps-Retail_930x400.png&amp;w=2048&amp;q=100 2048w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte514a84913bfd49b%2F6908d825a45e9639d7b5af61%2FVoice_of_SecOps-Retail_930x400.png&amp;w=3840&amp;q=100 3840w" src="/_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fblte514a84913bfd49b%2F6908d825a45e9639d7b5af61%2FVoice_of_SecOps-Retail_930x400.png&amp;w=3840&amp;q=100"></a></div><div class="blog-card__content"><h3 class="blog-card__title text-h-xsml sm:text-h-md"><a class="hover:underline" href="/blog/voice-of-secops-spotlight-tis-the-season-for-online-sales-and-ai-fueled-cyberattacks">Voice of SecOps Spotlight: Tis the Season for Online Sales — and AI-Fueled Cyberattacks</a></h3><div class="font-sans font-bold text-sm tracking-widest pt-3 uppercase">November 5, 2025</div></div>]]></content>
+        <title type="html"><![CDATA[BreachForums logs reveal anonymizers of choice for shady characters]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/blocking_shady_network/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/blocking_shady_network/"/>
+        <updated>2026-03-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/blocking_shady_network/" data-link-cta="yes" data-link-text="BreachForums logs reveal anonymizers of choice for shady characters" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--4f08fba6-7229-4788-a276-2c94ad1d4b5b/03312026-OTI-BreachForums-Hero-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--4f08fba6-7229-4788-a276-2c94ad1d4b5b/03312026-OTI-BreachForums-Hero-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta-www/en_us/blog/threat-intelligence/breachfroums-blog/03312026-OTI_BreachForums_Hero.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">29 Mar 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">BreachForums logs reveal anonymizers of choice for shady characters</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                29 Mar 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Watch a Black Hat Hacker Use a Guardrail-Free LLM to Create Malware That Evades 65 of 73 Legacy Cyber Tools]]></title>
-        <id>https://www.deepinstinct.com/blog/black-hat-hacker-uses-guardrail-free-LLM-to-create-malware-that-evades-legacy-cyber</id>
-        <link href="https://www.deepinstinct.com/blog/black-hat-hacker-uses-guardrail-free-LLM-to-create-malware-that-evades-legacy-cyber"/>
-        <updated>2025-10-08T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="blog-card__image relative mb-4 sm:mb-0"><a href="/blog/black-hat-hacker-uses-guardrail-free-LLM-to-create-malware-that-evades-legacy-cyber"><img title="DIANNA Webinar Blog-1200x627.png" loading="lazy" width="1200" height="627" decoding="async" data-nimg="1" class="" style="color:transparent;width:100%;height:auto;object-fit:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 627'%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b);' href='data:image/svg+xml;base64,Cjxzdmcgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjI3IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJnIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI2NlZDRkYSIgb2Zmc2V0PSIyMCUiIC8+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmYiIG9mZnNldD0iNTAlIiAvPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjY2VkNGRhIiBvZmZzZXQ9IjcwJSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYyNyIgZmlsbD0iI2NlZDRkYSIgLz4KICA8cmVjdCBpZD0iciIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjI3IiBmaWxsPSJ1cmwoI2cpIiAvPgogIDxhbmltYXRlIHhsaW5rOmhyZWY9IiNyIiBhdHRyaWJ1dGVOYW1lPSJ4IiBmcm9tPSItMTIwMCIgdG89IjEyMDAiIGR1cj0iMXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAgLz4KPC9zdmc+'/%3E%3C/svg%3E&quot;)" sizes="100vw" srcset="/_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltefd5f86bf29b5113%2F68e58d90c2504e46621fe433%2FDIANNA_Webinar_Blog-1200x627.png&amp;w=640&amp;q=100 640w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltefd5f86bf29b5113%2F68e58d90c2504e46621fe433%2FDIANNA_Webinar_Blog-1200x627.png&amp;w=768&amp;q=100 768w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltefd5f86bf29b5113%2F68e58d90c2504e46621fe433%2FDIANNA_Webinar_Blog-1200x627.png&amp;w=1024&amp;q=100 1024w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltefd5f86bf29b5113%2F68e58d90c2504e46621fe433%2FDIANNA_Webinar_Blog-1200x627.png&amp;w=1200&amp;q=100 1200w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltefd5f86bf29b5113%2F68e58d90c2504e46621fe433%2FDIANNA_Webinar_Blog-1200x627.png&amp;w=1400&amp;q=100 1400w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltefd5f86bf29b5113%2F68e58d90c2504e46621fe433%2FDIANNA_Webinar_Blog-1200x627.png&amp;w=1680&amp;q=100 1680w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltefd5f86bf29b5113%2F68e58d90c2504e46621fe433%2FDIANNA_Webinar_Blog-1200x627.png&amp;w=1920&amp;q=100 1920w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltefd5f86bf29b5113%2F68e58d90c2504e46621fe433%2FDIANNA_Webinar_Blog-1200x627.png&amp;w=2048&amp;q=100 2048w, /_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltefd5f86bf29b5113%2F68e58d90c2504e46621fe433%2FDIANNA_Webinar_Blog-1200x627.png&amp;w=3840&amp;q=100 3840w" src="/_next/image?url=https%3A%2F%2Fwww.deepinstinct.com%2Fimage%2Fbltefd5f86bf29b5113%2F68e58d90c2504e46621fe433%2FDIANNA_Webinar_Blog-1200x627.png&amp;w=3840&amp;q=100"></a></div><div class="blog-card__content"><h3 class="blog-card__title text-h-xsml sm:text-h-md"><a class="hover:underline" href="/blog/black-hat-hacker-uses-guardrail-free-LLM-to-create-malware-that-evades-legacy-cyber">Watch a Black Hat Hacker Use a Guardrail-Free LLM to Create Malware That Evades 65 of 73 Legacy Cyber Tools</a></h3><div class="font-sans font-bold text-sm tracking-widest pt-3 uppercase">October 8, 2025</div></div>]]></content>
+        <title type="html"><![CDATA[LiteLLM supply chain attack: an explainer for identity pros]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/litellm-supply-chain-attack--an-explainer-for-identity-pros/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/litellm-supply-chain-attack--an-explainer-for-identity-pros/"/>
+        <updated>2026-03-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/litellm-supply-chain-attack--an-explainer-for-identity-pros/" data-link-cta="yes" data-link-text="LiteLLM supply chain attack: an explainer for identity pros" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--fb702671-0c6d-42e2-8671-07af26cfcff3/dollsandkeys-jpg.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--fb702671-0c6d-42e2-8671-07af26cfcff3/dollsandkeys-jpg.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/cards/dollsandkeys.jpg">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">25 Mar 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">LiteLLM supply chain attack: an explainer for identity pros</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                25 Mar 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disrupting ShieldGuard: a security extension primed to drain crypto wallets]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/disrupting-shieldguard--a-security-extension-primed-to-drain-cry/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/disrupting-shieldguard--a-security-extension-primed-to-drain-cry/"/>
+        <updated>2026-03-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/disrupting-shieldguard--a-security-extension-primed-to-drain-cry/" data-link-cta="yes" data-link-text="Disrupting ShieldGuard: a security extension primed to drain crypto wallets" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--0cbec35c-54dc-4a7b-a308-b80774aa92ad/SG-homepage-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--0cbec35c-54dc-4a7b-a308-b80774aa92ad/SG-homepage-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/shieldguards/SG_homepage.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">17 Mar 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Disrupting ShieldGuard: a security extension primed to drain crypto wallets</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                17 Mar 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vietnam-based cybercrime markets enable account sign-ups at scale]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/vietnamese-cybercrime-operation-enables-fraudulent-account-signups/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/vietnamese-cybercrime-operation-enables-fraudulent-account-signups/"/>
+        <updated>2026-03-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/vietnamese-cybercrime-operation-enables-fraudulent-account-signups/" data-link-cta="yes" data-link-text="Vietnam-based cybercrime markets enable account sign-ups at scale" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--00755330-d0b3-4732-87c8-b81eaa8e62ea/hieu-jeremy-video-tease-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--00755330-d0b3-4732-87c8-b81eaa8e62ea/hieu-jeremy-video-tease-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/cards/hieu_jeremy_video_tease.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">01 Mar 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Vietnam-based cybercrime markets enable account sign-ups at scale</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                01 Mar 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Universities exposed to account takeover risk from contract cheating services]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/universities-contract-cheating-services/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/universities-contract-cheating-services/"/>
+        <updated>2026-02-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/universities-contract-cheating-services/" data-link-cta="yes" data-link-text="Universities exposed to account takeover risk from contract cheating services" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--bbc706a3-aa23-44f5-8fde-6543195188ef/categoty-image-threat-intelligence-advisory-1-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--bbc706a3-aa23-44f5-8fde-6543195188ef/categoty-image-threat-intelligence-advisory-1-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/categoty-image-threat-intelligence-advisory-1.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">16 Feb 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Universities exposed to account takeover risk from contract cheating services</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                16 Feb 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The North Korean on your payroll]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/the-north-korean-on-your-payroll/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/the-north-korean-on-your-payroll/"/>
+        <updated>2026-02-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/the-north-korean-on-your-payroll/" data-link-cta="yes" data-link-text="The North Korean on your payroll" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--035c6465-825a-49ff-b3fd-b57175fde27f/dprk-newhire-card-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--035c6465-825a-49ff-b3fd-b57175fde27f/dprk-newhire-card-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/dprk-payroll/dprk_newhire_card.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">11 Feb 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">The North Korean on your payroll</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                11 Feb 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detecting OpenClaw using advanced posture checks]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/detecting-openclaw-advanced-posture-checks/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/detecting-openclaw-advanced-posture-checks/"/>
+        <updated>2026-02-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/detecting-openclaw-advanced-posture-checks/" data-link-cta="yes" data-link-text="Detecting OpenClaw using advanced posture checks" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--5ffad8c4-0456-4fcd-86a9-ebd5aa862a6e/crab-top-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--5ffad8c4-0456-4fcd-86a9-ebd5aa862a6e/crab-top-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/cards/crab_top.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">10 Feb 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Detecting OpenClaw using advanced posture checks</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                10 Feb 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Phishing kits adapt to the script of callers]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/phishing-kits-adapt-to-the-script-of-callers/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/phishing-kits-adapt-to-the-script-of-callers/"/>
+        <updated>2026-01-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/phishing-kits-adapt-to-the-script-of-callers/" data-link-cta="yes" data-link-text="Phishing kits adapt to the script of callers" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--c1ee68ec-2aa7-4043-a6c3-b0c97e7a21c6/01232026-Phishing-kits-adopt-to-the-script-of-callers-hero-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--c1ee68ec-2aa7-4043-a6c3-b0c97e7a21c6/01232026-Phishing-kits-adopt-to-the-script-of-callers-hero-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/01232026_Phishing%20kits%20adopt%20to%20the%20script%20of%20callers_hero.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">22 Jan 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Phishing kits adapt to the script of callers</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                22 Jan 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jobseekers exploited in fake recruiter phishing campaigns]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/jobseekers-exploited-in-fake-recruiter-phishing-campaigns/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/jobseekers-exploited-in-fake-recruiter-phishing-campaigns/"/>
+        <updated>2025-12-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/jobseekers-exploited-in-fake-recruiter-phishing-campaigns/" data-link-cta="yes" data-link-text="Jobseekers exploited in fake recruiter phishing campaigns" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--c61ee0a2-495d-48a4-805d-3b3219e6a9c3/15-Meta-Splash-FakeRecruitment-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--c61ee0a2-495d-48a4-805d-3b3219e6a9c3/15-Meta-Splash-FakeRecruitment-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/fake-recruiter/15-Meta_Splash_FakeRecruitment.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">19 Dec 2025</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Jobseekers exploited in fake recruiter phishing campaigns</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                19 Dec 2025
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
     </entry>
 </feed>

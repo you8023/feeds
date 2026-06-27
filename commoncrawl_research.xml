@@ -1,106 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://commoncrawl.org/research-papers</id>
-    <title>Common Crawl Research Papers</title>
-    <updated>2026-06-27T20:46:35.714Z</updated>
+    <id>https://oobs.io/posts</id>
+    <title>Out of Bounds</title>
+    <updated>2026-06-27T22:45:33.846Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://commoncrawl.org/favicon.ico</icon>
+    <icon>https://oobs.io/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[The Diffusion of Artificial Intelligence Across Firms: Evidence from Europe]]></title>
-        <id>https://docs.iza.org/dp18434.pdf</id>
-        <link href="https://docs.iza.org/dp18434.pdf"/>
-        <updated>2026-06-27T20:43:28.814Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://docs.iza.org/dp18434.pdf" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">Tracking AI adoption across European firms using their websites</h2><h3 class="heading-ss---bleached">Julio Garbers, Terry Gregory</h3><h3 class="heading-m">The Diffusion of Artificial Intelligence Across Firms: Evidence from Europe</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
+        <title type="html"><![CDATA[TP-Link ER605 DDNS Pre-Auth RCE: Chaining Three CVEs]]></title>
+        <id>https://oobs.io/posts/er605-1day-exploit/</id>
+        <link href="https://oobs.io/posts/er605-1day-exploit/"/>
+        <updated>2026-02-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2 class="post-title">
+          <a href="/posts/er605-1day-exploit/">TP-Link ER605 DDNS Pre-Auth RCE: Chaining Three CVEs</a>
+        </h2>
+        <div class="post-meta"><time class="post-date">2026-02-04</time><span class="post-author">Barrack</span></div>
+
+        
+
+        
+  <img src="/posts/er605-1day-exploit/tplink_er605.png" class="post-cover" alt="TP-Link ER605 DDNS Pre-Auth RCE: Chaining Three CVEs" title="Cover Image">
+
+
+        <div class="post-content">
+          
+            <p>Technical analysis and exploit reproduction of CVE-2024-5242/5243/5244 chain targeting TP-Link ER605 router’s cmxddnsd daemon, originally discovered at Pwn2Own Toronto 2023. Details BSS overflow for ASLR bypass and stack overflow for ROP-based RCE.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/er605-1day-exploit/">[Read more]</a>
+          </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CommonLID: Re-evaluating State-of-the-Art Language Identification Performance on Web Data]]></title>
-        <id>https://arxiv.org/abs/2601.18026</id>
-        <link href="https://arxiv.org/abs/2601.18026"/>
-        <updated>2026-06-27T20:43:28.815Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://arxiv.org/abs/2601.18026" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">A new benchmark for web language identification</h2><h3 class="heading-ss---bleached">Pedro Ortiz Suarez, Laurie Burchell, Catherine Arnett, et al.</h3><h3 class="heading-m">CommonLID: Re-evaluating State-of-the-Art Language Identification Performance on Web Data</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
+        <title type="html"><![CDATA[Four Bytes, One Lie: A SMAP-Free Confidence Trick on Kernel Pointers]]></title>
+        <id>https://oobs.io/posts/four-bytes-one-lie/</id>
+        <link href="https://oobs.io/posts/four-bytes-one-lie/"/>
+        <updated>2025-11-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2 class="post-title">
+          <a href="/posts/four-bytes-one-lie/">Four Bytes, One Lie: A SMAP-Free Confidence Trick on Kernel Pointers</a>
+        </h2>
+        <div class="post-meta"><time class="post-date">2025-11-03</time><span class="post-author">Hyeonjin</span></div>
+
+        
+
+        
+  <img src="/posts/four-bytes-one-lie/result.png" class="post-cover" alt="Four Bytes, One Lie: A SMAP-Free Confidence Trick on Kernel Pointers" title="Cover Image">
+
+
+        <div class="post-content">
+          
+            <p>A deep-dive technical analysis of CVE-2025-50168, a Windows kernel vulnerability (Type Confusion in DirectComposition) presented at Pwn2Own Berlin 2025. This post details how a 4-byte OOB write is escalated into an AAR/AAW primitive using IoRing to achieve Local Privilege Escalation (LPE).</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/four-bytes-one-lie/">[Read more]</a>
+          </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A geolocated dataset of German news articles]]></title>
-        <id>https://www.nature.com/articles/s41597-025-05422-w</id>
-        <link href="https://www.nature.com/articles/s41597-025-05422-w"/>
-        <updated>2026-06-27T20:43:28.816Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://www.nature.com/articles/s41597-025-05422-w" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">Geolocating and embedding 50M German news articles for semantic analysis</h2><h3 class="heading-ss---bleached">Lukas Kriesch, Sebastian Losacker</h3><h3 class="heading-m">A geolocated dataset of German news articles</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web Crawl Refusals: Insights From Common Crawl]]></title>
-        <id>https://link.springer.com/chapter/10.1007/978-3-031-85960-1_9</id>
-        <link href="https://link.springer.com/chapter/10.1007/978-3-031-85960-1_9"/>
-        <updated>2026-06-27T20:43:28.817Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://link.springer.com/chapter/10.1007/978-3-031-85960-1_9" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">A study on web crawlers facing inconsistent and poorly-signalled blocking</h2><h3 class="heading-ss---bleached">Mostafa Ansar, Anna Sperotto, Ralph Holz</h3><h3 class="heading-m">Web Crawl Refusals: Insights From Common Crawl</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Banned Books: Analysis of Censorship on Amazon.com]]></title>
-        <id>https://citizenlab.ca/2024/11/analysis-of-censorship-on-amazon-com/</id>
-        <link href="https://citizenlab.ca/2024/11/analysis-of-censorship-on-amazon-com/"/>
-        <updated>2026-06-27T20:43:28.819Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://citizenlab.ca/2024/11/analysis-of-censorship-on-amazon-com/" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">Research on Free Expression Online</h2><h3 class="heading-ss---bleached">Jeffrey Knockel, Jakub Dalek, Noura Aljizawi, Mohamed Ahmed, Levi Meletti, and Justin Lau</h3><h3 class="heading-m">Banned Books: Analysis of Censorship on Amazon.com</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset]]></title>
-        <id>https://arxiv.org/abs/2412.02595</id>
-        <link href="https://arxiv.org/abs/2412.02595"/>
-        <updated>2026-06-27T20:43:28.828Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://arxiv.org/abs/2412.02595" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">Improved Trade-Offs Between Data Quality and Quantity for Long-Horizon Model Training</h2><h3 class="heading-ss---bleached">Dan Su, Kezhi Kong, Ying Lin, Joseph Jennings, Brandon Norick, Markus Kliegl, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro</h3><h3 class="heading-m">Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Misinformation Resilient Search Rankings with Webgraph-based Interventions]]></title>
-        <id>https://arxiv.org/pdf/2404.08869</id>
-        <link href="https://arxiv.org/pdf/2404.08869"/>
-        <updated>2026-06-27T20:43:28.829Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://arxiv.org/pdf/2404.08869" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">Web Graph Strategies Against Unreliable News</h2><h3 class="heading-ss---bleached">Peter Carragher, Evan M. Williams, Kathleen M. Carley</h3><h3 class="heading-m">Misinformation Resilient Search Rankings with Webgraph-based Interventions</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Harmony in the Australian Domain Space]]></title>
-        <id>https://arxiv.org/pdf/2404.10006</id>
-        <link href="https://arxiv.org/pdf/2404.10006"/>
-        <updated>2026-06-27T20:43:28.829Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://arxiv.org/pdf/2404.10006" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">Analyzing the Australian Web with Web Graphs: Harmonic Centrality at the Domain Level</h2><h3 class="heading-ss---bleached">Xian Gong, Paul X. McCarthy, Marian-Andrei Rizoiu, Paolo Boldi</h3><h3 class="heading-m">Harmony in the Australian Domain Space</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hyperlink Hijacking: Exploiting Erroneous URL Links to Phantom Domains]]></title>
-        <id>https://dl.acm.org/doi/10.1145/3589334.3645510</id>
-        <link href="https://dl.acm.org/doi/10.1145/3589334.3645510"/>
-        <updated>2026-06-27T20:43:28.829Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://dl.acm.org/doi/10.1145/3589334.3645510" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">The Dangers of Hijacked Hyperlinks</h2><h3 class="heading-ss---bleached">Kevin Saric, Felix Savins, Gowri Sankar Ramachandran, Raja Jurdak, Surya Nepal</h3><h3 class="heading-m">Hyperlink Hijacking: Exploiting Erroneous URL Links to Phantom Domains</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models]]></title>
-        <id>https://arxiv.org/abs/2402.03300</id>
-        <link href="https://arxiv.org/abs/2402.03300"/>
-        <updated>2026-06-27T20:43:28.831Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://arxiv.org/abs/2402.03300" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">Enhancing Computational Analysis</h2><h3 class="heading-ss---bleached">Zhihong Shao, Peiyi Wang, Qihao Zhu, Runxin Xu, Junxiao Song, Mingchuan Zhang, Y.K. Li, Y. Wu, Daya Guo</h3><h3 class="heading-m">DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[esCorpius: A Massive Spanish Crawling Corpus]]></title>
-        <id>https://arxiv.org/abs/2206.15147</id>
-        <link href="https://arxiv.org/abs/2206.15147"/>
-        <updated>2026-06-27T20:43:28.832Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://arxiv.org/abs/2206.15147" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">Computation and Language</h2><h3 class="heading-ss---bleached">Asier Gutiérrez-Fandiño, David Pérez-Fernández, Jordi Armengol-Estapé, David Griol, Zoraida Callejas</h3><h3 class="heading-m">esCorpius: A Massive Spanish Crawling Corpus</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BacklinkDB: A Purpose-Built Backlink Database Management System]]></title>
-        <id>https://munin.uit.no/handle/10037/28861</id>
-        <link href="https://munin.uit.no/handle/10037/28861"/>
-        <updated>2026-06-27T20:43:28.833Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://munin.uit.no/handle/10037/28861" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">The Web as a Graph (Master's Thesis)</h2><h3 class="heading-ss---bleached">Marius Løvold Jørgensen, UiT Norges Arktiske Universitet</h3><h3 class="heading-m"> BacklinkDB: A Purpose-Built Backlink Database Management System</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Measuring and Evading Turkmenistan’s Internet Censorship]]></title>
-        <id>https://doi.org/10.1145/3543507.3583189</id>
-        <link href="https://doi.org/10.1145/3543507.3583189"/>
-        <updated>2026-06-27T20:43:28.834Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://doi.org/10.1145/3543507.3583189" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">Internet Censorship</h2><h3 class="heading-ss---bleached">University of Maryland, Nourin, Sadia, et al</h3><h3 class="heading-m">Measuring and Evading Turkmenistan’s Internet Censorship</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Systematic Literature Review on Phishing Website Detection Techniques]]></title>
-        <id>https://doi.org/10.1016/j.jksuci.2023.01.004</id>
-        <link href="https://doi.org/10.1016/j.jksuci.2023.01.004"/>
-        <updated>2026-06-27T20:43:28.835Z</updated>
-        <content type="html"><![CDATA[<div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a71" class="article-wrapper"><a href="https://doi.org/10.1016/j.jksuci.2023.01.004" target="_blank" class="research-paper-link-block w-inline-block"><h2 class="heading-ss">Internet Security: Phishing Websites</h2><h3 class="heading-ss---bleached">Asadullah Safi, Satwinder Singh</h3><h3 class="heading-m">A Systematic Literature Review on Phishing Website Detection Techniques</h3></a><div data-w-id="cf674311-094b-a7bc-7a6b-30566b599a76" class="article-underline" style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div></div>]]></content>
+        <title type="html"><![CDATA[About]]></title>
+        <id>https://oobs.io/posts/about/</id>
+        <link href="https://oobs.io/posts/about/"/>
+        <updated>2024-01-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2 class="post-title">
+          <a href="/posts/about/">About</a>
+        </h2>
+        <div class="post-meta"><time class="post-date">2024-01-01</time><span class="post-author">David</span></div>
+
+        
+
+        
+  <img src="/posts/about/sunrise.jpg" class="post-cover" alt="About" title="Cover Image">
+
+
+        <div class="post-content">
+          
+            <p><strong>Out of Bounds</strong> is a cybersecurity company driven by curiosity and a passion for pushing boundaries. We specialize in vulnerability research, diving deep into systems to uncover the flaws that others miss.</p>
+<p>We believe offensive security has the power to make the digital world safer. Our team combines elite technical expertise with a creative mindset—transforming complex problems into real-world breakthroughs.</p>
+<p>Our journey began on the global stage with back-to-back wins at <a href="https://www.zerodayinitiative.com/blog/2024/3/21/pwn2own-vancouver-2024-day-two-results">Pwn2Own Vancouver 2024</a> and <a href="https://www.zerodayinitiative.com/blog/2025/5/15/pwn2own-berlin-2025-day-one-results">Berlin 2025</a>. But for us, that’s just the beginning. We’re here to keep raising the bar and redefining the possibilities of security research.</p>
+<p>Beyond research, we are committed to empowering the next generation. We actively mentor exceptional young talent, providing them with the tools, guidance, and the global stage they need to thrive.</p>
+<p>We’re still early in our journey, and we can’t wait for what’s next.</p>
+<p><em>Happy Hacking!</em></p>
+
+          
+        </div>]]></content>
     </entry>
 </feed>

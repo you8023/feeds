@@ -1,90 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://oobs.io/posts</id>
-    <title>Out of Bounds</title>
-    <updated>2026-06-27T20:46:35.873Z</updated>
+    <id>https://onecloudplease.com/blog/</id>
+    <title>One Cloud Please</title>
+    <updated>2026-06-27T22:45:33.826Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://oobs.io/favicon.ico</icon>
+    <icon>https://onecloudplease.com/blog/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[TP-Link ER605 DDNS Pre-Auth RCE: Chaining Three CVEs]]></title>
-        <id>https://oobs.io/posts/er605-1day-exploit/</id>
-        <link href="https://oobs.io/posts/er605-1day-exploit/"/>
-        <updated>2026-02-04T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2 class="post-title">
-          <a href="/posts/er605-1day-exploit/">TP-Link ER605 DDNS Pre-Auth RCE: Chaining Three CVEs</a>
-        </h2>
-        <div class="post-meta"><time class="post-date">2026-02-04</time><span class="post-author">Barrack</span></div>
+        <title type="html"><![CDATA[Bucketsquatting is (Finally) Dead]]></title>
+        <id>https://onecloudplease.com/blog/bucketsquatting-is-finally-dead</id>
+        <link href="https://onecloudplease.com/blog/bucketsquatting-is-finally-dead"/>
+        <updated>2026-03-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="blog-post__link" href="/blog/bucketsquatting-is-finally-dead">
 
-        
+				<div class="blog-post__image">
+					<img src="/images/posts/bucket.jpg" alt="Bucketsquatting is (Finally) Dead">
+				</div>
 
-        
-  <img src="/posts/er605-1day-exploit/tplink_er605.png" class="post-cover" alt="TP-Link ER605 DDNS Pre-Auth RCE: Chaining Three CVEs" title="Cover Image">
+				<div class="blog-post__content">
+					<div class="blog-post__info">
+						<h2 class="blog-post__title">Bucketsquatting is (Finally) Dead</h2>
+						<p class="blog-post__subtitle">13 March 2026</p>
+					</div>
+				</div>
 
-
-        <div class="post-content">
-          
-            <p>Technical analysis and exploit reproduction of CVE-2024-5242/5243/5244 chain targeting TP-Link ER605 router’s cmxddnsd daemon, originally discovered at Pwn2Own Toronto 2023. Details BSS overflow for ASLR bypass and stack overflow for ROP-based RCE.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/er605-1day-exploit/">[Read more]</a>
-          </div>]]></content>
+			</a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Four Bytes, One Lie: A SMAP-Free Confidence Trick on Kernel Pointers]]></title>
-        <id>https://oobs.io/posts/four-bytes-one-lie/</id>
-        <link href="https://oobs.io/posts/four-bytes-one-lie/"/>
-        <updated>2025-11-03T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2 class="post-title">
-          <a href="/posts/four-bytes-one-lie/">Four Bytes, One Lie: A SMAP-Free Confidence Trick on Kernel Pointers</a>
-        </h2>
-        <div class="post-meta"><time class="post-date">2025-11-03</time><span class="post-author">Hyeonjin</span></div>
+        <title type="html"><![CDATA[MistakenVMtity: Another cloud image confusion attack]]></title>
+        <id>https://onecloudplease.com/blog/mistakenvmtity-another-cloud-image-confusion-attack</id>
+        <link href="https://onecloudplease.com/blog/mistakenvmtity-another-cloud-image-confusion-attack"/>
+        <updated>2025-03-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="blog-post__link" href="/blog/mistakenvmtity-another-cloud-image-confusion-attack">
 
-        
+				<div class="blog-post__image">
+					<img src="/images/posts/cloud-confusion.jpg" alt="MistakenVMtity: Another cloud image confusion attack">
+				</div>
 
-        
-  <img src="/posts/four-bytes-one-lie/result.png" class="post-cover" alt="Four Bytes, One Lie: A SMAP-Free Confidence Trick on Kernel Pointers" title="Cover Image">
+				<div class="blog-post__content">
+					<div class="blog-post__info">
+						<h2 class="blog-post__title">MistakenVMtity: Another cloud image confusion attack</h2>
+						<p class="blog-post__subtitle">10 March 2025</p>
+					</div>
+				</div>
 
-
-        <div class="post-content">
-          
-            <p>A deep-dive technical analysis of CVE-2025-50168, a Windows kernel vulnerability (Type Confusion in DirectComposition) presented at Pwn2Own Berlin 2025. This post details how a 4-byte OOB write is escalated into an AAR/AAW primitive using IoRing to achieve Local Privilege Escalation (LPE).</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/four-bytes-one-lie/">[Read more]</a>
-          </div>]]></content>
+			</a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[About]]></title>
-        <id>https://oobs.io/posts/about/</id>
-        <link href="https://oobs.io/posts/about/"/>
-        <updated>2024-01-01T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h2 class="post-title">
-          <a href="/posts/about/">About</a>
-        </h2>
-        <div class="post-meta"><time class="post-date">2024-01-01</time><span class="post-author">David</span></div>
+        <title type="html"><![CDATA[Resource Control Policies: Closing the data perimeter gap]]></title>
+        <id>https://onecloudplease.com/blog/resource-control-policies-closing-the-data-perimeter-gap</id>
+        <link href="https://onecloudplease.com/blog/resource-control-policies-closing-the-data-perimeter-gap"/>
+        <updated>2024-11-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="blog-post__link" href="/blog/resource-control-policies-closing-the-data-perimeter-gap">
 
-        
+				<div class="blog-post__image">
+					<img src="/images/posts/noexit.jpg" alt="Resource Control Policies: Closing the data perimeter gap">
+				</div>
 
-        
-  <img src="/posts/about/sunrise.jpg" class="post-cover" alt="About" title="Cover Image">
+				<div class="blog-post__content">
+					<div class="blog-post__info">
+						<h2 class="blog-post__title">Resource Control Policies: Closing the data perimeter gap</h2>
+						<p class="blog-post__subtitle">17 November 2024</p>
+					</div>
+				</div>
 
+			</a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Poor mans MFA for AWS Client VPN]]></title>
+        <id>https://onecloudplease.com/blog/poor-mans-mfa-for-aws-client-vpn</id>
+        <link href="https://onecloudplease.com/blog/poor-mans-mfa-for-aws-client-vpn"/>
+        <updated>2024-07-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="blog-post__link" href="/blog/poor-mans-mfa-for-aws-client-vpn">
 
-        <div class="post-content">
-          
-            <p><strong>Out of Bounds</strong> is a cybersecurity company driven by curiosity and a passion for pushing boundaries. We specialize in vulnerability research, diving deep into systems to uncover the flaws that others miss.</p>
-<p>We believe offensive security has the power to make the digital world safer. Our team combines elite technical expertise with a creative mindset—transforming complex problems into real-world breakthroughs.</p>
-<p>Our journey began on the global stage with back-to-back wins at <a href="https://www.zerodayinitiative.com/blog/2024/3/21/pwn2own-vancouver-2024-day-two-results">Pwn2Own Vancouver 2024</a> and <a href="https://www.zerodayinitiative.com/blog/2025/5/15/pwn2own-berlin-2025-day-one-results">Berlin 2025</a>. But for us, that’s just the beginning. We’re here to keep raising the bar and redefining the possibilities of security research.</p>
-<p>Beyond research, we are committed to empowering the next generation. We actively mentor exceptional young talent, providing them with the tools, guidance, and the global stage they need to thrive.</p>
-<p>We’re still early in our journey, and we can’t wait for what’s next.</p>
-<p><em>Happy Hacking!</em></p>
+				<div class="blog-post__image">
+					<img src="/images/posts/client-vpn-slack.jpg" alt="Poor mans MFA for AWS Client VPN">
+				</div>
 
-          
-        </div>]]></content>
+				<div class="blog-post__content">
+					<div class="blog-post__info">
+						<h2 class="blog-post__title">Poor mans MFA for AWS Client VPN</h2>
+						<p class="blog-post__subtitle">13 July 2024</p>
+					</div>
+				</div>
+
+			</a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTTPS Endpoints and more tricks with AWS Step Functions]]></title>
+        <id>https://onecloudplease.com/blog/https-endpoints-and-more-tricks-with-aws-step-functions</id>
+        <link href="https://onecloudplease.com/blog/https-endpoints-and-more-tricks-with-aws-step-functions"/>
+        <updated>2024-01-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="blog-post__link" href="/blog/https-endpoints-and-more-tricks-with-aws-step-functions">
+
+				<div class="blog-post__image">
+					<img src="/images/posts/https-endpoints-step-functions.jpg" alt="HTTPS Endpoints and more tricks with AWS Step Functions">
+				</div>
+
+				<div class="blog-post__content">
+					<div class="blog-post__info">
+						<h2 class="blog-post__title">HTTPS Endpoints and more tricks with AWS Step Functions</h2>
+						<p class="blog-post__subtitle">13 January 2024</p>
+					</div>
+				</div>
+
+			</a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Swiping right on the AWS WAF CAPTCHA challenge]]></title>
+        <id>https://onecloudplease.com/blog/swiping-right-on-the-aws-waf-captcha-challenge</id>
+        <link href="https://onecloudplease.com/blog/swiping-right-on-the-aws-waf-captcha-challenge"/>
+        <updated>2023-07-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="blog-post__link" href="/blog/swiping-right-on-the-aws-waf-captcha-challenge">
+
+				<div class="blog-post__image">
+					<img src="/images/posts/captcha.jpg" alt="Swiping right on the AWS WAF CAPTCHA challenge">
+				</div>
+
+				<div class="blog-post__content">
+					<div class="blog-post__info">
+						<h2 class="blog-post__title">Swiping right on the AWS WAF CAPTCHA challenge</h2>
+						<p class="blog-post__subtitle">25 July 2023</p>
+					</div>
+				</div>
+
+			</a>]]></content>
     </entry>
 </feed>
