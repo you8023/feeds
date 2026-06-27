@@ -1,71 +1,386 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://gutem.github.io/</id>
-    <title>Gutem</title>
-    <updated>2026-06-27T10:42:41.894Z</updated>
+    <id>https://juliet.sh/blog</id>
+    <title>Juliet</title>
+    <updated>2026-06-27T12:59:35.040Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://gutem.github.io/assets/favicon.png</icon>
+    <icon>https://juliet.sh/favicon.svg</icon>
     <entry>
-        <title type="html"><![CDATA[Blue Boxing — História Completa: do Apito do Captain Crunch ao CPqD]]></title>
-        <id>https://gutem.github.io/notes/blue-boxing-historia-completa</id>
-        <link href="https://gutem.github.io/notes/blue-boxing-historia-completa"/>
-        <updated>2026-06-27T10:40:17.963Z</updated>
-        <content type="html"><![CDATA[<div class="title"> <a href="/notes/blue-boxing-historia-completa">Blue Boxing — História Completa: do Apito do Captain Crunch ao CPqD</a></div><div class="post-date"> <span> 22 de Junho de 2026 </span></div>]]></content>
+        <title type="html"><![CDATA[CVE-2026-46333 in Kubernetes: Unset Seccomp Exposed pidfd_getfd, RuntimeDefault Blocked It]]></title>
+        <id>https://juliet.sh/blog/cve-2026-46333-kubernetes-eks-bottlerocket-seccomp-pidfd</id>
+        <link href="https://juliet.sh/blog/cve-2026-46333-kubernetes-eks-bottlerocket-seccomp-pidfd"/>
+        <updated>2026-05-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-05-17">May 17, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>12 min read</span>
+                        </div>
+                        <h2>CVE-2026-46333 in Kubernetes: Unset Seccomp Exposed pidfd_getfd, RuntimeDefault Blocked It</h2>
+                        <p>We tested the Linux __ptrace_may_access bug in Kubernetes with a bounded fd-theft harness. EKS Auto Mode on Bottlerocket reproduced controlled fd theft when seccomp was unset; RuntimeDefault blocked pidfd_getfd; PSS Baseline did not fix unset seccomp; and PSS Restricted blocked both pidfd_getfd and the setuid open.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">linux-kernel</span>
+                            
+                            <span class="blog-tag">seccomp</span>
+                            
+                            <span class="blog-tag">runtime-security</span>
+                            
+                            <span class="blog-tag">cve-2026-46333</span>
+                            
+                            <span class="blog-tag">pidfd</span>
+                            
+                            <span class="blog-tag">ptrace</span>
+                            
+                            <span class="blog-tag">pod-security-standards</span>
+                            
+                            <span class="blog-tag">eks</span>
+                            
+                            <span class="blog-tag">bottlerocket</span>
+                            
+                            <span class="blog-tag">talos</span>
+                            
+                        </div>
+                    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Anatomia de um Malware Multi-Vetor: Shai-Hulud, o Worm do Deserto]]></title>
-        <id>https://gutem.github.io/notes/anatomia-de-um-malware-multi-vetor-shai-hulud-o-worm-do-deserto</id>
-        <link href="https://gutem.github.io/notes/anatomia-de-um-malware-multi-vetor-shai-hulud-o-worm-do-deserto"/>
-        <updated>2026-06-27T10:40:17.963Z</updated>
-        <content type="html"><![CDATA[<div class="title"> <a href="/notes/anatomia-de-um-malware-multi-vetor-shai-hulud-o-worm-do-deserto">Anatomia de um Malware Multi-Vetor: Shai-Hulud, o Worm do Deserto</a></div><div class="post-date"> <span> 25 de Maio de 2026 </span></div>]]></content>
+        <title type="html"><![CDATA[Fragnesia CVE-2026-46300 in Kubernetes: What EKS, Talos, and Seccomp Change]]></title>
+        <id>https://juliet.sh/blog/fragnesia-cve-2026-46300-kubernetes-eks-talos-seccomp</id>
+        <link href="https://juliet.sh/blog/fragnesia-cve-2026-46300-kubernetes-eks-talos-seccomp"/>
+        <updated>2026-05-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-05-13">May 13, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>7 min read</span>
+                        </div>
+                        <h2>Fragnesia CVE-2026-46300 in Kubernetes: What EKS, Talos, and Seccomp Change</h2>
+                        <p>Fragnesia is a Dirty Frag-family Linux kernel issue in ESP-in-TCP. We tested the Kubernetes reachability question on kind, Talos, and EKS AL2023: RuntimeDefault and PSS blocked user namespace creation, and the Talos and EKS kernels we inspected did not expose ESP-in-TCP.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">linux-kernel</span>
+                            
+                            <span class="blog-tag">seccomp</span>
+                            
+                            <span class="blog-tag">runtime-security</span>
+                            
+                            <span class="blog-tag">dirty-frag</span>
+                            
+                            <span class="blog-tag">fragnesia</span>
+                            
+                            <span class="blog-tag">cve-2026-46300</span>
+                            
+                            <span class="blog-tag">pod-security-standards</span>
+                            
+                            <span class="blog-tag">eks</span>
+                            
+                            <span class="blog-tag">talos</span>
+                            
+                        </div>
+                    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Anatomia de um Infostealer Moderno: Três Camadas, Uma Botnet]]></title>
-        <id>https://gutem.github.io/notes/anatomia-de-um-infostealer-moderno-tres-amadas-uma-botnet</id>
-        <link href="https://gutem.github.io/notes/anatomia-de-um-infostealer-moderno-tres-amadas-uma-botnet"/>
-        <updated>2026-06-27T10:40:17.963Z</updated>
-        <content type="html"><![CDATA[<div class="title"> <a href="/notes/anatomia-de-um-infostealer-moderno-tres-amadas-uma-botnet">Anatomia de um Infostealer Moderno: Três Camadas, Uma Botnet</a></div><div class="post-date"> <span> 25 de Março de 2026 </span></div>]]></content>
+        <title type="html"><![CDATA[We Tested Dirty Frag in Kubernetes: EKS and GKE Were Exploitable When Seccomp Was Unset]]></title>
+        <id>https://juliet.sh/blog/we-tested-dirty-frag-in-kubernetes-eks-gke-talos-seccomp</id>
+        <link href="https://juliet.sh/blog/we-tested-dirty-frag-in-kubernetes-eks-gke-talos-seccomp"/>
+        <updated>2026-05-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-05-08">May 8, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>15 min read</span>
+                        </div>
+                        <h2>We Tested Dirty Frag in Kubernetes: EKS and GKE Were Exploitable When Seccomp Was Unset</h2>
+                        <p>We tested Dirty Frag on EKS, GKE, Talos, and kind. EKS and GKE reached container root when seccomp was unset or Unconfined; RuntimeDefault blocked the tested xfrm chain; PSS Restricted blocked the full PoC on GKE and blocked tested prerequisites on EKS and Talos; and Talos blocked Unconfined because user namespaces were disabled.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">linux-kernel</span>
+                            
+                            <span class="blog-tag">seccomp</span>
+                            
+                            <span class="blog-tag">runtime-security</span>
+                            
+                            <span class="blog-tag">dirty-frag</span>
+                            
+                            <span class="blog-tag">cve-2026-43284</span>
+                            
+                            <span class="blog-tag">cve-2026-43500</span>
+                            
+                            <span class="blog-tag">cve-2026-46300</span>
+                            
+                            <span class="blog-tag">fragnesia</span>
+                            
+                            <span class="blog-tag">pod-security-standards</span>
+                            
+                            <span class="blog-tag">gke</span>
+                            
+                            <span class="blog-tag">eks</span>
+                            
+                            <span class="blog-tag">talos</span>
+                            
+                        </div>
+                    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Por que é tão facil ser um mau gestor?]]></title>
-        <id>https://gutem.github.io/notes/Porque-e-tao-facil-ser-um-mau-gestor</id>
-        <link href="https://gutem.github.io/notes/Porque-e-tao-facil-ser-um-mau-gestor"/>
-        <updated>2026-06-27T10:40:17.965Z</updated>
-        <content type="html"><![CDATA[<div class="title"> <a href="/notes/Porque-e-tao-facil-ser-um-mau-gestor">Por que é tão facil ser um mau gestor?</a></div><div class="post-date"> <span> 16 de Dezembro de 2017 </span></div>]]></content>
+        <title type="html"><![CDATA[Argo CD CVE-2026-43824: Read-Only App Access Could Expose Kubernetes Secrets]]></title>
+        <id>https://juliet.sh/blog/we-tested-argocd-cve-2026-43824-serversidediff-secret-exposure</id>
+        <link href="https://juliet.sh/blog/we-tested-argocd-cve-2026-43824-serversidediff-secret-exposure"/>
+        <updated>2026-05-02T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-05-02">May 2, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>8 min read</span>
+                        </div>
+                        <h2>Argo CD CVE-2026-43824: Read-Only App Access Could Expose Kubernetes Secrets</h2>
+                        <p>We reproduced CVE-2026-43824 in isolated Argo CD 3.2 and 3.3 labs. A read-only Argo CD account with applications get could use ServerSideDiff to receive cleartext managed Secret data when IncludeMutationWebhook=true. Fixed releases 3.2.11 and 3.3.9 masked the same path.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">argocd</span>
+                            
+                            <span class="blog-tag">gitops</span>
+                            
+                            <span class="blog-tag">secrets</span>
+                            
+                            <span class="blog-tag">cve-2026-43824</span>
+                            
+                            <span class="blog-tag">rbac</span>
+                            
+                        </div>
+                    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RandomSource getRandomValues()]]></title>
-        <id>https://gutem.github.io/notes/RandomSource-getRandomValues</id>
-        <link href="https://gutem.github.io/notes/RandomSource-getRandomValues"/>
-        <updated>2026-06-27T10:40:17.968Z</updated>
-        <content type="html"><![CDATA[<div class="title"> <a href="/notes/RandomSource-getRandomValues">RandomSource getRandomValues()</a></div><div class="post-date"> <span> 21 de Novembro de 2015 </span></div>]]></content>
+        <title type="html"><![CDATA[We Tested Copy Fail in Kubernetes: PSS Restricted and RuntimeDefault Did Not Block AF_ALG]]></title>
+        <id>https://juliet.sh/blog/we-tested-copy-fail-in-kubernetes-pss-restricted-runtime-default-af-alg</id>
+        <link href="https://juliet.sh/blog/we-tested-copy-fail-in-kubernetes-pss-restricted-runtime-default-af-alg"/>
+        <updated>2026-04-30T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-04-30">April 30, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>13 min read</span>
+                        </div>
+                        <h2>We Tested Copy Fail in Kubernetes: PSS Restricted and RuntimeDefault Did Not Block AF_ALG</h2>
+                        <p>Copy Fail is a Linux kernel page-cache corruption bug. We reproduced the primitive on Talos/containerd and EKS/Amazon Linux 2023/containerd: a non-root PSS Restricted pod reached AF_ALG, modified cached bytes for a shared image-layer file, and another pod on the same node observed the change. In controlled labs on both clusters, a separate allowPrivilegeEscalation pod consumed a mutated purpose-built setuid helper and reached euid 0. Here is what we tested, what we did not test, and how to defend Kubernetes nodes without overclaiming.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">linux-kernel</span>
+                            
+                            <span class="blog-tag">seccomp</span>
+                            
+                            <span class="blog-tag">runtime-security</span>
+                            
+                            <span class="blog-tag">cve-2026-31431</span>
+                            
+                            <span class="blog-tag">pod-security-standards</span>
+                            
+                        </div>
+                    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Geolocation getCurrentPosition()]]></title>
-        <id>https://gutem.github.io/notes/geolocation_getCurrentPosition</id>
-        <link href="https://gutem.github.io/notes/geolocation_getCurrentPosition"/>
-        <updated>2026-06-27T10:40:17.970Z</updated>
-        <content type="html"><![CDATA[<div class="title"> <a href="/notes/geolocation_getCurrentPosition">Geolocation getCurrentPosition()</a></div><div class="post-date"> <span> 1 de Agosto de 2015 </span></div>]]></content>
+        <title type="html"><![CDATA[The Checkmarx Compromise: Two Waves, Three Artifacts, and the Bitwarden Chain]]></title>
+        <id>https://juliet.sh/blog/checkmarx-supply-chain-compromise-what-ci-cd-teams-need-to-know</id>
+        <link href="https://juliet.sh/blog/checkmarx-supply-chain-compromise-what-ci-cd-teams-need-to-know"/>
+        <updated>2026-04-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-04-24">April 24, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>8 min read</span>
+                        </div>
+                        <h2>The Checkmarx Compromise: Two Waves, Three Artifacts, and the Bitwarden Chain</h2>
+                        <p>A two-wave supply chain attack by TeamPCP. Checkmarx GitHub Actions were force-pushed with infostealers on March 23, 2026. One month later the same attackers used stolen credentials to trojanize checkmarx/kics Docker images, re-compromise ast-github-action, and publish a malicious @bitwarden/cli 2026.4.0 npm package. Here is the full timeline, the exact affected versions, and how to scan your pipelines with abom.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">supply-chain</span>
+                            
+                            <span class="blog-tag">github-actions</span>
+                            
+                            <span class="blog-tag">ci-cd</span>
+                            
+                            <span class="blog-tag">checkmarx</span>
+                            
+                            <span class="blog-tag">bitwarden</span>
+                            
+                            <span class="blog-tag">abom</span>
+                            
+                            <span class="blog-tag">teampcp</span>
+                            
+                        </div>
+                    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Geolocation watchPosition()]]></title>
-        <id>https://gutem.github.io/notes/geolocation_watchPosition</id>
-        <link href="https://gutem.github.io/notes/geolocation_watchPosition"/>
-        <updated>2026-06-27T10:40:17.972Z</updated>
-        <content type="html"><![CDATA[<div class="title"> <a href="/notes/geolocation_watchPosition">Geolocation watchPosition()</a></div><div class="post-date"> <span> 1 de Agosto de 2015 </span></div>]]></content>
+        <title type="html"><![CDATA[Vercel's April 19 Security Incident: What Customers Should Do]]></title>
+        <id>https://juliet.sh/blog/vercel-april-2026-incident-what-customers-should-do</id>
+        <link href="https://juliet.sh/blog/vercel-april-2026-incident-what-customers-should-do"/>
+        <updated>2026-04-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-04-19">April 19, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>18 min read</span>
+                        </div>
+                        <h2>Vercel's April 19 Security Incident: What Customers Should Do</h2>
+                        <p>A six-week supply-chain chain — from a Lumma Stealer infection at Context.ai in February 2026, through a compromised consumer AI Office Suite OAuth token, into a Vercel employee's shadow-IT signup and from there into Vercel's internal environments. Fully sourced with primary statements from Vercel, Context.ai, The Register, and Hudson Rock, with what customers should rotate and the Google Workspace OAuth audit every org should run.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">supply-chain</span>
+                            
+                            <span class="blog-tag">vercel</span>
+                            
+                            <span class="blog-tag">context-ai</span>
+                            
+                            <span class="blog-tag">environment-variables</span>
+                            
+                            <span class="blog-tag">secrets-management</span>
+                            
+                            <span class="blog-tag">incident-response</span>
+                            
+                            <span class="blog-tag">oauth</span>
+                            
+                            <span class="blog-tag">ai-security</span>
+                            
+                            <span class="blog-tag">infostealer</span>
+                            
+                        </div>
+                    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Navigation Timing API]]></title>
-        <id>https://gutem.github.io/notes/navigation-timing-api</id>
-        <link href="https://gutem.github.io/notes/navigation-timing-api"/>
-        <updated>2026-06-27T10:40:17.973Z</updated>
-        <content type="html"><![CDATA[<div class="title"> <a href="/notes/navigation-timing-api">Navigation Timing API</a></div><div class="post-date"> <span> 26 de Julho de 2015 </span></div>]]></content>
+        <title type="html"><![CDATA[Kyverno's 2026: Five Bugs, Eight Advisories, One Design Flaw]]></title>
+        <id>https://juliet.sh/blog/eight-kyverno-advisories-one-recurring-pattern</id>
+        <link href="https://juliet.sh/blog/eight-kyverno-advisories-one-recurring-pattern"/>
+        <updated>2026-04-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-04-17">April 17, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>7 min read</span>
+                        </div>
+                        <h2>Kyverno's 2026: Five Bugs, Eight Advisories, One Design Flaw</h2>
+                        <p>Ten Kyverno security advisories have been published in 2026. Eight of them trace to five distinct bugs in the same subsystem: user-controlled fields in a namespaced Policy that the admission controller's cluster-privileged ServiceAccount resolves without scope checks. The ConfigMap bypass disclosed this week (GHSA-cvq5-hhx3-f99p) is the newest variant.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">admission-control</span>
+                            
+                            <span class="blog-tag">kyverno</span>
+                            
+                            <span class="blog-tag">vulnerability-analysis</span>
+                            
+                        </div>
+                    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Guia para Projeto de API HTTP]]></title>
-        <id>https://gutem.github.io/notes/guia-para-projeto-de-api-http</id>
-        <link href="https://gutem.github.io/notes/guia-para-projeto-de-api-http"/>
-        <updated>2026-06-27T10:40:17.974Z</updated>
-        <content type="html"><![CDATA[<div class="title"> <a href="/notes/guia-para-projeto-de-api-http">Guia para Projeto de API HTTP</a></div><div class="post-date"> <span> 23 de Julho de 2015 </span></div>]]></content>
+        <title type="html"><![CDATA[Building Runtime Enforcement for Kubernetes with eBPF]]></title>
+        <id>https://juliet.sh/blog/building-runtime-enforcement-for-kubernetes-with-ebpf</id>
+        <link href="https://juliet.sh/blog/building-runtime-enforcement-for-kubernetes-with-ebpf"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-04-14">April 14, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>12 min read</span>
+                        </div>
+                        <h2>Building Runtime Enforcement for Kubernetes with eBPF</h2>
+                        <p>How we replaced a Falco sidecar with an embedded eBPF sensor, built a five-stage event pipeline, and learned the hard way why namespace scoping matters for enforcement.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">ebpf</span>
+                            
+                            <span class="blog-tag">runtime-security</span>
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">engineering</span>
+                            
+                        </div>
+                    </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Axios Compromised: Finding It in Your Running Kubernetes Clusters]]></title>
+        <id>https://juliet.sh/blog/axios-npm-supply-chain-compromise-finding-it-in-your-kubernetes-clusters</id>
+        <link href="https://juliet.sh/blog/axios-npm-supply-chain-compromise-finding-it-in-your-kubernetes-clusters"/>
+        <updated>2026-03-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-03-31">March 31, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>8 min read</span>
+                        </div>
+                        <h2>Axios Compromised: Finding It in Your Running Kubernetes Clusters</h2>
+                        <p>Malicious axios versions deployed a cross-platform RAT via npm for three hours. Your lockfile might be clean, but what about the container images already running in your clusters?</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">supply-chain</span>
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                            <span class="blog-tag">vulnerability-scanning</span>
+                            
+                            <span class="blog-tag">npm</span>
+                            
+                        </div>
+                    </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing the ABOM: Why Your CI/CD Pipelines Need a Bill of Materials]]></title>
+        <id>https://juliet.sh/blog/introducing-the-abom-why-your-ci-cd-pipelines-need-a-bill-of-materials</id>
+        <link href="https://juliet.sh/blog/introducing-the-abom-why-your-ci-cd-pipelines-need-a-bill-of-materials"/>
+        <updated>2026-03-26T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-03-26">March 26, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>5 min read</span>
+                        </div>
+                        <h2>Introducing the ABOM: Why Your CI/CD Pipelines Need a Bill of Materials</h2>
+                        <p>SBOMs catalog your application dependencies. ABOMs catalog your pipeline dependencies. After the Trivy supply chain compromise, we built a tool to close that gap.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">supply-chain</span>
+                            
+                            <span class="blog-tag">github-actions</span>
+                            
+                            <span class="blog-tag">open-source</span>
+                            
+                            <span class="blog-tag">ci-cd</span>
+                            
+                        </div>
+                    </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Trivy Compromise: What Kubernetes Security Teams Need to Know]]></title>
+        <id>https://juliet.sh/blog/trivy-supply-chain-compromise-what-kubernetes-teams-need-to-know</id>
+        <link href="https://juliet.sh/blog/trivy-supply-chain-compromise-what-kubernetes-teams-need-to-know"/>
+        <updated>2026-03-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <time datetime="2026-03-25">March 25, 2026</time>
+                            <span class="blog-card-dot"></span>
+                            <span>7 min read</span>
+                        </div>
+                        <h2>The Trivy Compromise: What Kubernetes Security Teams Need to Know</h2>
+                        <p>Trivy, the most widely used open-source container vulnerability scanner, was hit by a multi-stage supply chain attack. Here's what happened, who's affected, and what to do right now.</p>
+                        <div class="blog-card-tags">
+                            
+                            <span class="blog-tag">supply-chain</span>
+                            
+                            <span class="blog-tag">vulnerability-scanning</span>
+                            
+                            <span class="blog-tag">kubernetes-security</span>
+                            
+                        </div>
+                    </div>]]></content>
     </entry>
 </feed>

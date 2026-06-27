@@ -1,230 +1,287 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://dev.to/t/security</id>
-    <title>dev_to_cloud_sec</title>
-    <updated>2026-06-27T10:42:41.741Z</updated>
+    <id>https://checkmarx.com/zero/research/</id>
+    <title>checkmarx</title>
+    <updated>2026-06-27T12:59:34.973Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <icon>https://checkmarx.com/wp-content/uploads/2026/06/favicon_spring-150x150.webp</icon>
     <entry>
-        <title type="html"><![CDATA[Fix GitHub Copilot Terraform Security Risks Before They Hit Prod]]></title>
-        <id>https://dev.to/oleksandr_kuryzhev_42873f/fix-github-copilot-terraform-security-risks-before-they-hit-prod-1f6j</id>
-        <link href="https://dev.to/oleksandr_kuryzhev_42873f/fix-github-copilot-terraform-security-risks-before-they-hit-prod-1f6j"/>
-        <updated>2026-06-27T07:02:52.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/oleksandr_kuryzhev_42873f/fix-github-copilot-terraform-security-risks-before-they-hit-prod-1f6j" aria-labelledby="article-link-4003559" class="crayons-story__hidden-navigation-link">Fix GitHub Copilot Terraform Security Risks Before They Hit Prod</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/oleksandr_kuryzhev_42873f" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3970301%2Fff42dfb6-af2a-4fc7-968a-54326187a691.jpg" alt="oleksandr_kuryzhev_42873f profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/oleksandr_kuryzhev_42873f" class="crayons-story__secondary fw-medium m:hidden">
-              Oleksandr Kuryzhev
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4003559" aria-controls="story-author-preview-content-4003559" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Oleksandr Kuryzhev profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Oleksandr Kuryzhev
-                
-              </button>
-              <div id="story-author-preview-content-4003559" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/oleksandr_kuryzhev_42873f" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3970301%2Fff42dfb6-af2a-4fc7-968a-54326187a691.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Oleksandr Kuryzhev</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3970301,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Oleksandr Kuryzhev&quot;}" data-fetched="fetched" aria-label="Follow user: Oleksandr Kuryzhev" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3970301"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/oleksandr_kuryzhev_42873f/fix-github-copilot-terraform-security-risks-before-they-hit-prod-1f6j" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-27T07:02:52Z" title="Saturday, June 27, 2026 at 7:02:52 AM">Jun 27</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782543772"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/oleksandr_kuryzhev_42873f/fix-github-copilot-terraform-security-risks-before-they-hit-prod-1f6j" data-preload-image="" id="article-link-4003559">
-          Fix GitHub Copilot Terraform Security Risks Before They Hit Prod
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/terraform"><span class="crayons-tag__prefix">#</span>terraform</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/oleksandr_kuryzhev_42873f/fix-github-copilot-terraform-security-risks-before-they-hit-prod-1f6j#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Fix GitHub Copilot Terraform Security Risks Before They Hit Prod">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="as1cle2tv49gku8c4tcseonsw56yoqr7" class="crayons-icon"><title id="as1cle2tv49gku8c4tcseonsw56yoqr7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            11 min read
-          </small>
-            <button type="button" id="article-save-button-4003559" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4003559" data-article-author-id="3970301" aria-label="Save post Fix GitHub Copilot Terraform Security Risks Before They Hit Prod to reading list" title="Save post Fix GitHub Copilot Terraform Security Risks Before They Hit Prod to reading list">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+        <title type="html"><![CDATA[Proof, Not Promises: How We Drive Security Testing Accuracy With Better Data]]></title>
+        <id>https://checkmarx.com/zero-post/proof-not-promises-how-we-drive-security-testing-accuracy-with-better-data/</id>
+        <link href="https://checkmarx.com/zero-post/proof-not-promises-how-we-drive-security-testing-accuracy-with-better-data/"/>
+        <updated>2026-06-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="card-big__main-wrap">
+                            <div>
+                                <a href="https://checkmarx.com/zero-post/proof-not-promises-how-we-drive-security-testing-accuracy-with-better-data/" class="card-post__bg">
+                            <span data-bg="https://checkmarx.com/wp-content/uploads/2026/06/cxzero_feature-proof_not_promises_blog.webp" class="bg-el rocket-lazyload entered lazyloaded" style="background-image: url(&quot;https://checkmarx.com/wp-content/uploads/2026/06/cxzero_feature-proof_not_promises_blog.webp&quot;);" data-ll-status="loaded"></span>
+                                </a>
+                                <div class="card-big__footer">
+                                    <div class="card-big__footer_left">
+                                        <a href="https://checkmarx.com/zero-post/proof-not-promises-how-we-drive-security-testing-accuracy-with-better-data/" class="card-post__title">June 11, 2026</a>
+                                        <br>
+                                        <a href="https://checkmarx.com/zero-post/proof-not-promises-how-we-drive-security-testing-accuracy-with-better-data/" class="card-post__description">Proof, Not Promises:&nbsp;How We&nbsp;Drive&nbsp;Security Testing Accuracy&nbsp;With&nbsp;Better Data&nbsp;</a>
+                                    </div>
+                                    <div class="card-big__footer_right">
+                                        <a href="https://checkmarx.com/zero-post/proof-not-promises-how-we-drive-security-testing-accuracy-with-better-data/" class="card-post__text">Claims of security testing accuracy are often the result of inexpensive testing methods that produce results intended to tell a marketing story. But when you need data to drive design decisions that improve results for real application…</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-big__wrap-bottom-link">
+                                <div>
+                                    <a href="https://checkmarx.com/zero-post/proof-not-promises-how-we-drive-security-testing-accuracy-with-better-data/" class="link-to-more">Read Now                                        <i class="arrow-css">
+                                            <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+                                                    <g id="icon-arrow-right" transform="translate(8.221166, 8.108806) scale(1, -1) translate(-8.221166, -8.108806) translate(0.441166, 0.852471)" stroke-width="2">
+                                                        <path d="M7.9030343,-0.277179457 L15.659374,7.22282054 M15.5563543,6.75633 L0,6.75633 M15.8772737,6.05901676 L8.11728804,14.2716868" id="Shape"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Applying Checkov SAST to Detect Security Issues in Terraform Infrastructure as Code]]></title>
-        <id>https://dev.to/abel_fernandopacompiaor/applying-checkov-sast-to-detect-security-issues-in-terraform-infrastructure-as-code-14gp</id>
-        <link href="https://dev.to/abel_fernandopacompiaor/applying-checkov-sast-to-detect-security-issues-in-terraform-infrastructure-as-code-14gp"/>
-        <updated>2026-06-27T05:47:57.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/abel_fernandopacompiaor/applying-checkov-sast-to-detect-security-issues-in-terraform-infrastructure-as-code-14gp" aria-labelledby="article-link-4003110" class="crayons-story__hidden-navigation-link">Applying Checkov SAST to Detect Security Issues in Terraform Infrastructure as Code</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/abel_fernandopacompiaor" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4004729%2Fdbff5f55-6b75-4cd3-9755-b491f268dd5c.png" alt="abel_fernandopacompiaor profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/abel_fernandopacompiaor" class="crayons-story__secondary fw-medium m:hidden">
-              Abel Fernando PACOMPIA ORTIZ
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4003110" aria-controls="story-author-preview-content-4003110" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Abel Fernando PACOMPIA ORTIZ profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Abel Fernando PACOMPIA ORTIZ
-                
-              </button>
-              <div id="story-author-preview-content-4003110" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/abel_fernandopacompiaor" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4004729%2Fdbff5f55-6b75-4cd3-9755-b491f268dd5c.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Abel Fernando PACOMPIA ORTIZ</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4004729,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Abel Fernando PACOMPIA ORTIZ&quot;}" data-fetched="fetched" aria-label="Follow user: Abel Fernando PACOMPIA ORTIZ" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="4004729"></div>
-                </div>
-              </div>
+        <title type="html"><![CDATA[ChainVeil: A Malicious npm Supply Chain Attack by SuccessKey]]></title>
+        <id>https://checkmarx.com/zero-post/chainveil-a-malicious-npm-supply-chain-attack-by-successkey/</id>
+        <link href="https://checkmarx.com/zero-post/chainveil-a-malicious-npm-supply-chain-attack-by-successkey/"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div>
+                            <a href="https://checkmarx.com/zero-post/chainveil-a-malicious-npm-supply-chain-attack-by-successkey/" class="card-post__bg">
+                            <span data-bg="https://checkmarx.com/wp-content/uploads/2026/06/cxzero-feature-chainveil-2026-06-15.webp" class="bg-el rocket-lazyload entered lazyloaded" style="background-image: url(&quot;https://checkmarx.com/wp-content/uploads/2026/06/cxzero-feature-chainveil-2026-06-15.webp&quot;);" data-ll-status="loaded"></span>
+                            </a>
+                            <a href="https://checkmarx.com/zero-post/chainveil-a-malicious-npm-supply-chain-attack-by-successkey/" class="card-post__title">June 16, 2026</a>
+                            <br>
+                            <a href="https://checkmarx.com/zero-post/chainveil-a-malicious-npm-supply-chain-attack-by-successkey/" class="card-post__description">ChainVeil: A Malicious npm Supply Chain Attack by SuccessKey</a>
+                            <br>
+                            <a href="https://checkmarx.com/zero-post/chainveil-a-malicious-npm-supply-chain-attack-by-successkey/" class="card-post__text">A new npm supply chain attack campaign leverages typosquatting and a command-and-control system that's nearly impossible to disable. Learn how the actor "SuccessKey" takes steps to hide from malware detection, resist researcher analysis,…</a>
+                        </div>
+                        <a href="https://checkmarx.com/zero-post/chainveil-a-malicious-npm-supply-chain-attack-by-successkey/" class="link-to-more">Read Now                            <i class="arrow-css">
+                                <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+                                        <g id="icon-arrow-right" transform="translate(8.221166, 8.108806) scale(1, -1) translate(-8.221166, -8.108806) translate(0.441166, 0.852471)" stroke-width="2">
+                                            <path d="M7.9030343,-0.277179457 L15.659374,7.22282054 M15.5563543,6.75633 L0,6.75633 M15.8772737,6.05901676 L8.11728804,14.2716868" id="Shape"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </i>
+                        </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Operation Navy Ghost: How Attackers Planted a Telegram-Powered Backdoor Across Fake pyrogram Packages on PyPI]]></title>
+        <id>https://checkmarx.com/zero/research/</id>
+        <link href="https://checkmarx.com/zero/research/"/>
+        <updated>2026-06-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div>
+                <span class="card-post__bg">
+                    <span data-bg="https://checkmarx.com/wp-content/uploads/2026/06/cxzero-feature_2026-06_operation_navy_ghost.webp" class="bg-el rocket-lazyload" style=""></span>
+                </span>
+                <span class="card-post__title">June 25, 2026</span>
+                <br>
+                <span class="card-post__description">Operation Navy Ghost: How Attackers Planted a Telegram-Powered Backdoor Across Fake pyrogram Packages on PyPI</span>
             </div>
-
-          </div>
-          <a href="https://dev.to/abel_fernandopacompiaor/applying-checkov-sast-to-detect-security-issues-in-terraform-infrastructure-as-code-14gp" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-27T05:47:57Z" title="Saturday, June 27, 2026 at 5:47:57 AM">Jun 27</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782539277"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/abel_fernandopacompiaor/applying-checkov-sast-to-detect-security-issues-in-terraform-infrastructure-as-code-14gp" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frliriqklx36r6sqxf0hp.png" id="article-link-4003110">
-          Applying Checkov SAST to Detect Security Issues in Terraform Infrastructure as Code
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/terraform"><span class="crayons-tag__prefix">#</span>terraform</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/devsecops"><span class="crayons-tag__prefix">#</span>devsecops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/checkov"><span class="crayons-tag__prefix">#</span>checkov</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/abel_fernandopacompiaor/applying-checkov-sast-to-detect-security-issues-in-terraform-infrastructure-as-code-14gp#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Applying Checkov SAST to Detect Security Issues in Terraform Infrastructure as Code">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aixs8aut7slptisb2xh4g4yvdv6wzczm" class="crayons-icon"><title id="aixs8aut7slptisb2xh4g4yvdv6wzczm">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
-          </small>
-            <button type="button" id="article-save-button-4003110" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4003110" data-article-author-id="4004729" aria-label="Save post Applying Checkov SAST to Detect Security Issues in Terraform Infrastructure as Code to reading list" title="Save post Applying Checkov SAST to Detect Security Issues in Terraform Infrastructure as Code to reading list">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+            <span class="link-to-more">Read More                <i class="arrow-css">
+                    <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+                            <g id="icon-arrow-right" transform="translate(8.221166, 8.108806) scale(1, -1) translate(-8.221166, -8.108806) translate(0.441166, 0.852471)" stroke-width="2">
+                                <path d="M7.9030343,-0.277179457 L15.659374,7.22282054 M15.5563543,6.75633 L0,6.75633 M15.8772737,6.05901676 L8.11728804,14.2716868" id="Shape"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </i>
+            </span>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OverDoS: Taking Down Over 70,000 n8n Instances]]></title>
+        <id>https://checkmarx.com/zero/research/</id>
+        <link href="https://checkmarx.com/zero/research/"/>
+        <updated>2026-05-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div>
+                <span class="card-post__bg">
+                    <span data-bg="https://checkmarx.com/wp-content/uploads/2026/05/cxzero-feature-n8n-overdos-cve-2026-42236.webp" class="bg-el rocket-lazyload" style=""></span>
+                </span>
+                <span class="card-post__title">May 12, 2026</span>
+                <br>
+                <span class="card-post__description">OverDoS: Taking Down Over 70,000 n8n Instances</span>
+            </div>
+            <span class="link-to-more">Read More                <i class="arrow-css">
+                    <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+                            <g id="icon-arrow-right" transform="translate(8.221166, 8.108806) scale(1, -1) translate(-8.221166, -8.108806) translate(0.441166, 0.852471)" stroke-width="2">
+                                <path d="M7.9030343,-0.277179457 L15.659374,7.22282054 M15.5563543,6.75633 L0,6.75633 M15.8772737,6.05901676 L8.11728804,14.2716868" id="Shape"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </i>
+            </span>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Same Origin, Same Tricks: Bypassing n8n’s CSP Sandbox (CVE-2026-27578)]]></title>
+        <id>https://checkmarx.com/zero/research/</id>
+        <link href="https://checkmarx.com/zero/research/"/>
+        <updated>2026-04-07T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div>
+                <span class="card-post__bg">
+                    <span data-bg="https://checkmarx.com/wp-content/uploads/2026/04/cxzero-feature_n8n-csp-bypass-stored-xss_CVE-2026-27578.webp" class="bg-el rocket-lazyload" style=""></span>
+                </span>
+                <span class="card-post__title">April 7, 2026</span>
+                <br>
+                <span class="card-post__description">Same Origin, Same Tricks: Bypassing n8n’s CSP Sandbox (CVE-2026-27578)</span>
+            </div>
+            <span class="link-to-more">Read More                <i class="arrow-css">
+                    <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+                            <g id="icon-arrow-right" transform="translate(8.221166, 8.108806) scale(1, -1) translate(-8.221166, -8.108806) translate(0.441166, 0.852471)" stroke-width="2">
+                                <path d="M7.9030343,-0.277179457 L15.659374,7.22282054 M15.5563543,6.75633 L0,6.75633 M15.8772737,6.05901676 L8.11728804,14.2716868" id="Shape"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </i>
+            </span>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rapid Exploitation and Clever Malware in the Supply Chain, Last Week In AppSec (2026-04-02)]]></title>
+        <id>https://checkmarx.com/zero/research/</id>
+        <link href="https://checkmarx.com/zero/research/"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div>
+                <span class="card-post__bg">
+                    <span data-bg="https://checkmarx.com/wp-content/uploads/2026/04/lwias-feature_2026-04-02.webp" class="bg-el rocket-lazyload" style=""></span>
+                </span>
+                <span class="card-post__title">April 2, 2026</span>
+                <br>
+                <span class="card-post__description">Rapid Exploitation and Clever Malware in the Supply Chain, Last Week In AppSec (2026-04-02)</span>
+            </div>
+            <span class="link-to-more">Read More                <i class="arrow-css">
+                    <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+                            <g id="icon-arrow-right" transform="translate(8.221166, 8.108806) scale(1, -1) translate(-8.221166, -8.108806) translate(0.441166, 0.852471)" stroke-width="2">
+                                <path d="M7.9030343,-0.277179457 L15.659374,7.22282054 M15.5563543,6.75633 L0,6.75633 M15.8772737,6.05901676 L8.11728804,14.2716868" id="Shape"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </i>
+            </span>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GlassWorm Targets Developer IDEs Again, Hiding Staged Malware Behind Runtime-Rebuilt Loaders]]></title>
+        <id>https://checkmarx.com/zero/research/</id>
+        <link href="https://checkmarx.com/zero/research/"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div>
+                <span class="card-post__bg">
+                    <span data-bg="https://checkmarx.com/wp-content/uploads/2026/03/cxzero-feature_glassworm-solana-dynamic-ide-malware-malicious.webp" class="bg-el rocket-lazyload" style=""></span>
+                </span>
+                <span class="card-post__title">March 23, 2026</span>
+                <br>
+                <span class="card-post__description">GlassWorm Targets Developer IDEs Again, Hiding Staged Malware Behind Runtime-Rebuilt Loaders</span>
+            </div>
+            <span class="link-to-more">Read More                <i class="arrow-css">
+                    <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+                            <g id="icon-arrow-right" transform="translate(8.221166, 8.108806) scale(1, -1) translate(-8.221166, -8.108806) translate(0.441166, 0.852471)" stroke-width="2">
+                                <path d="M7.9030343,-0.277179457 L15.659374,7.22282054 M15.5563543,6.75633 L0,6.75633 M15.8772737,6.05901676 L8.11728804,14.2716868" id="Shape"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </i>
+            </span>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unearned Confidence: AI Security Reviewers Don’t Really Get It]]></title>
+        <id>https://checkmarx.com/zero/research/</id>
+        <link href="https://checkmarx.com/zero/research/"/>
+        <updated>2026-03-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div>
+                <span class="card-post__bg">
+                    <span data-bg="https://checkmarx.com/wp-content/uploads/2026/03/cxzero-feature_unearned-confidence-ai-security-reviewers.webp" class="bg-el rocket-lazyload" style=""></span>
+                </span>
+                <span class="card-post__title">March 5, 2026</span>
+                <br>
+                <span class="card-post__description">Unearned Confidence: AI Security Reviewers Don’t Really Get It</span>
+            </div>
+            <span class="link-to-more">Read More                <i class="arrow-css">
+                    <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+                            <g id="icon-arrow-right" transform="translate(8.221166, 8.108806) scale(1, -1) translate(-8.221166, -8.108806) translate(0.441166, 0.852471)" stroke-width="2">
+                                <path d="M7.9030343,-0.277179457 L15.659374,7.22282054 M15.5563543,6.75633 L0,6.75633 M15.8772737,6.05901676 L8.11728804,14.2716868" id="Shape"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </i>
+            </span>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI fights and more attacks on dev infrastructure: Last Week in AppSec for 4. March 2026]]></title>
+        <id>https://checkmarx.com/zero/research/</id>
+        <link href="https://checkmarx.com/zero/research/"/>
+        <updated>2026-03-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div>
+                <span class="card-post__bg">
+                    <span data-bg="https://checkmarx.com/wp-content/uploads/2026/03/cxzero-feature_2026-03-05_last-week-in-appsec.webp" class="bg-el rocket-lazyload" style=""></span>
+                </span>
+                <span class="card-post__title">March 5, 2026</span>
+                <br>
+                <span class="card-post__description">AI fights and more attacks on dev infrastructure: Last Week in AppSec for 4. March 2026</span>
+            </div>
+            <span class="link-to-more">Read More                <i class="arrow-css">
+                    <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+                            <g id="icon-arrow-right" transform="translate(8.221166, 8.108806) scale(1, -1) translate(-8.221166, -8.108806) translate(0.441166, 0.852471)" stroke-width="2">
+                                <path d="M7.9030343,-0.277179457 L15.659374,7.22282054 M15.5563543,6.75633 L0,6.75633 M15.8772737,6.05901676 L8.11728804,14.2716868" id="Shape"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </i>
+            </span>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Last Week in AppSec for 26. February 2026]]></title>
+        <id>https://checkmarx.com/zero/research/</id>
+        <link href="https://checkmarx.com/zero/research/"/>
+        <updated>2026-02-26T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div>
+                <span class="card-post__bg">
+                    <span data-bg="https://checkmarx.com/wp-content/uploads/2026/02/cxzero-feature_2026-02-26_last-week-in-appsec.webp" class="bg-el rocket-lazyload" style=""></span>
+                </span>
+                <span class="card-post__title">February 26, 2026</span>
+                <br>
+                <span class="card-post__description">Last Week in AppSec for 26. February 2026</span>
+            </div>
+            <span class="link-to-more">Read More                <i class="arrow-css">
+                    <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+                            <g id="icon-arrow-right" transform="translate(8.221166, 8.108806) scale(1, -1) translate(-8.221166, -8.108806) translate(0.441166, 0.852471)" stroke-width="2">
+                                <path d="M7.9030343,-0.277179457 L15.659374,7.22282054 M15.5563543,6.75633 L0,6.75633 M15.8772737,6.05901676 L8.11728804,14.2716868" id="Shape"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </i>
+            </span>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learning About LLM-Based Zero-Day Hunting with Claude Code’s Opus 4.6]]></title>
+        <id>https://checkmarx.com/zero/research/</id>
+        <link href="https://checkmarx.com/zero/research/"/>
+        <updated>2026-02-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div>
+                <span class="card-post__bg">
+                    <span data-bg="https://checkmarx.com/wp-content/uploads/2026/02/cxzero-feature_claude_code_opus_46_zero_day.webp" class="bg-el rocket-lazyload" style=""></span>
+                </span>
+                <span class="card-post__title">February 25, 2026</span>
+                <br>
+                <span class="card-post__description">Learning About LLM-Based Zero-Day Hunting with Claude Code’s Opus 4.6</span>
+            </div>
+            <span class="link-to-more">Read More                <i class="arrow-css">
+                    <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+                            <g id="icon-arrow-right" transform="translate(8.221166, 8.108806) scale(1, -1) translate(-8.221166, -8.108806) translate(0.441166, 0.852471)" stroke-width="2">
+                                <path d="M7.9030343,-0.277179457 L15.659374,7.22282054 M15.5563543,6.75633 L0,6.75633 M15.8772737,6.05901676 L8.11728804,14.2716868" id="Shape"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </i>
+            </span>]]></content>
     </entry>
 </feed>
