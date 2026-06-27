@@ -2,9 +2,231 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-06-27T04:42:08.218Z</updated>
+    <updated>2026-06-27T08:18:49.102Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Fix GitHub Copilot Terraform Security Risks Before They Hit Prod]]></title>
+        <id>https://dev.to/oleksandr_kuryzhev_42873f/fix-github-copilot-terraform-security-risks-before-they-hit-prod-1f6j</id>
+        <link href="https://dev.to/oleksandr_kuryzhev_42873f/fix-github-copilot-terraform-security-risks-before-they-hit-prod-1f6j"/>
+        <updated>2026-06-27T07:02:52.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/oleksandr_kuryzhev_42873f/fix-github-copilot-terraform-security-risks-before-they-hit-prod-1f6j" aria-labelledby="article-link-4003559" class="crayons-story__hidden-navigation-link">Fix GitHub Copilot Terraform Security Risks Before They Hit Prod</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/oleksandr_kuryzhev_42873f" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3970301%2Fff42dfb6-af2a-4fc7-968a-54326187a691.jpg" alt="oleksandr_kuryzhev_42873f profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/oleksandr_kuryzhev_42873f" class="crayons-story__secondary fw-medium m:hidden">
+              Oleksandr Kuryzhev
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4003559" aria-controls="story-author-preview-content-4003559" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Oleksandr Kuryzhev profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Oleksandr Kuryzhev
+                
+              </button>
+              <div id="story-author-preview-content-4003559" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/oleksandr_kuryzhev_42873f" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3970301%2Fff42dfb6-af2a-4fc7-968a-54326187a691.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Oleksandr Kuryzhev</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3970301,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Oleksandr Kuryzhev&quot;}" data-fetched="fetched" aria-label="Follow user: Oleksandr Kuryzhev" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3970301"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/oleksandr_kuryzhev_42873f/fix-github-copilot-terraform-security-risks-before-they-hit-prod-1f6j" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-27T07:02:52Z" title="Saturday, June 27, 2026 at 7:02:52 AM">Jun 27</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782543772"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/oleksandr_kuryzhev_42873f/fix-github-copilot-terraform-security-risks-before-they-hit-prod-1f6j" data-preload-image="" id="article-link-4003559">
+          Fix GitHub Copilot Terraform Security Risks Before They Hit Prod
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/terraform"><span class="crayons-tag__prefix">#</span>terraform</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/oleksandr_kuryzhev_42873f/fix-github-copilot-terraform-security-risks-before-they-hit-prod-1f6j#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Fix GitHub Copilot Terraform Security Risks Before They Hit Prod">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afhmc4cir0ow055oh9pzsuv5o94bmbzr" class="crayons-icon"><title id="afhmc4cir0ow055oh9pzsuv5o94bmbzr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            11 min read
+          </small>
+            <button type="button" id="article-save-button-4003559" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4003559" data-article-author-id="3970301" aria-label="Save post Fix GitHub Copilot Terraform Security Risks Before They Hit Prod to reading list" title="Save post Fix GitHub Copilot Terraform Security Risks Before They Hit Prod to reading list">
+              <span class="bm-initial crayons-icon c-btn__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success crayons-icon c-btn__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Applying Checkov SAST to Detect Security Issues in Terraform Infrastructure as Code]]></title>
+        <id>https://dev.to/abel_fernandopacompiaor/applying-checkov-sast-to-detect-security-issues-in-terraform-infrastructure-as-code-14gp</id>
+        <link href="https://dev.to/abel_fernandopacompiaor/applying-checkov-sast-to-detect-security-issues-in-terraform-infrastructure-as-code-14gp"/>
+        <updated>2026-06-27T05:47:57.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/abel_fernandopacompiaor/applying-checkov-sast-to-detect-security-issues-in-terraform-infrastructure-as-code-14gp" aria-labelledby="article-link-4003110" class="crayons-story__hidden-navigation-link">Applying Checkov SAST to Detect Security Issues in Terraform Infrastructure as Code</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/abel_fernandopacompiaor" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4004729%2Fdbff5f55-6b75-4cd3-9755-b491f268dd5c.png" alt="abel_fernandopacompiaor profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/abel_fernandopacompiaor" class="crayons-story__secondary fw-medium m:hidden">
+              Abel Fernando PACOMPIA ORTIZ
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4003110" aria-controls="story-author-preview-content-4003110" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Abel Fernando PACOMPIA ORTIZ profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Abel Fernando PACOMPIA ORTIZ
+                
+              </button>
+              <div id="story-author-preview-content-4003110" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/abel_fernandopacompiaor" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4004729%2Fdbff5f55-6b75-4cd3-9755-b491f268dd5c.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Abel Fernando PACOMPIA ORTIZ</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4004729,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Abel Fernando PACOMPIA ORTIZ&quot;}" data-fetched="fetched" aria-label="Follow user: Abel Fernando PACOMPIA ORTIZ" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="4004729"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/abel_fernandopacompiaor/applying-checkov-sast-to-detect-security-issues-in-terraform-infrastructure-as-code-14gp" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-27T05:47:57Z" title="Saturday, June 27, 2026 at 5:47:57 AM">Jun 27</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782539277"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/abel_fernandopacompiaor/applying-checkov-sast-to-detect-security-issues-in-terraform-infrastructure-as-code-14gp" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frliriqklx36r6sqxf0hp.png" id="article-link-4003110">
+          Applying Checkov SAST to Detect Security Issues in Terraform Infrastructure as Code
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/terraform"><span class="crayons-tag__prefix">#</span>terraform</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/devsecops"><span class="crayons-tag__prefix">#</span>devsecops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/checkov"><span class="crayons-tag__prefix">#</span>checkov</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/abel_fernandopacompiaor/applying-checkov-sast-to-detect-security-issues-in-terraform-infrastructure-as-code-14gp#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Applying Checkov SAST to Detect Security Issues in Terraform Infrastructure as Code">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aos5pzh7sn7fqwk9h22vm3hws9u9pq3y" class="crayons-icon"><title id="aos5pzh7sn7fqwk9h22vm3hws9u9pq3y">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+            <button type="button" id="article-save-button-4003110" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4003110" data-article-author-id="4004729" aria-label="Save post Applying Checkov SAST to Detect Security Issues in Terraform Infrastructure as Code to reading list" title="Save post Applying Checkov SAST to Detect Security Issues in Terraform Infrastructure as Code to reading list">
+              <span class="bm-initial crayons-icon c-btn__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success crayons-icon c-btn__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BurnAfterRead – E2E encrypted self-destructing drops on Cloudflare Workers]]></title>
         <id>https://dev.to/casablanque/burnafterread-e2e-encrypted-self-destructing-drops-on-cloudflare-workers-56d9</id>
@@ -92,7 +314,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/casablanque/burnafterread-e2e-encrypted-self-destructing-drops-on-cloudflare-workers-56d9#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - BurnAfterRead – E2E encrypted self-destructing drops on Cloudflare Workers">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a30cd9coaaamwan6u5uvf8hczofzryhl" class="crayons-icon"><title id="a30cd9coaaamwan6u5uvf8hczofzryhl">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ads8xc8x33l4eg8rqa0wnjpsfxviwrix" class="crayons-icon"><title id="ads8xc8x33l4eg8rqa0wnjpsfxviwrix">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -101,118 +323,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             1 min read
           </small>
-            <button type="button" id="article-save-button-4001572" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4001572" data-article-author-id="3952987" aria-label="Save post BurnAfterRead – E2E encrypted self-destructing drops on Cloudflare Workers to reading list" title="Save post BurnAfterRead – E2E encrypted self-destructing drops on Cloudflare Workers to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I let my AI agent provision cloud infra. Then I made sure it couldn't go bankrupt doing it.]]></title>
-        <id>https://dev.to/vdalal/i-let-my-ai-agent-provision-cloud-infra-then-i-made-sure-it-couldnt-go-bankrupt-doing-it-g1p</id>
-        <link href="https://dev.to/vdalal/i-let-my-ai-agent-provision-cloud-infra-then-i-made-sure-it-couldnt-go-bankrupt-doing-it-g1p"/>
-        <updated>2026-06-26T21:37:06.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/vdalal/i-let-my-ai-agent-provision-cloud-infra-then-i-made-sure-it-couldnt-go-bankrupt-doing-it-g1p" aria-labelledby="article-link-4000914" class="crayons-story__hidden-navigation-link">I let my AI agent provision cloud infra. Then I made sure it couldn't go bankrupt doing it.</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/vdalal" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4001076%2Fc1ecd5b8-65f7-4be2-a41c-8811bdc5a715.png" alt="vdalal profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/vdalal" class="crayons-story__secondary fw-medium m:hidden">
-              Vasu Dalal
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4000914" aria-controls="story-author-preview-content-4000914" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Vasu Dalal profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Vasu Dalal
-                
-              </button>
-              <div id="story-author-preview-content-4000914" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/vdalal" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4001076%2Fc1ecd5b8-65f7-4be2-a41c-8811bdc5a715.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Vasu Dalal</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4001076,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Vasu Dalal&quot;}" data-fetched="fetched" aria-label="Follow user: Vasu Dalal" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="4001076"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/vdalal/i-let-my-ai-agent-provision-cloud-infra-then-i-made-sure-it-couldnt-go-bankrupt-doing-it-g1p" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-26T21:37:06Z" title="Friday, June 26, 2026 at 9:37:06 PM">Jun 26</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782509826"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/vdalal/i-let-my-ai-agent-provision-cloud-infra-then-i-made-sure-it-couldnt-go-bankrupt-doing-it-g1p" data-preload-image="" id="article-link-4000914">
-          I let my AI agent provision cloud infra. Then I made sure it couldn't go bankrupt doing it.
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(30, 56, 187, 0.10);
-        --tag-prefix: #1E38BB;
-        --tag-bg-hover: rgba(30, 56, 187, 0.10);
-        --tag-prefix-hover: #1E38BB;
-      " href="/t/python"><span class="crayons-tag__prefix">#</span>python</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/llm"><span class="crayons-tag__prefix">#</span>llm</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/vdalal/i-let-my-ai-agent-provision-cloud-infra-then-i-made-sure-it-couldnt-go-bankrupt-doing-it-g1p#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I let my AI agent provision cloud infra. Then I made sure it couldn't go bankrupt doing it.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ac0w58joasnfw208nbpyxpwny23sq8h2" class="crayons-icon"><title id="ac0w58joasnfw208nbpyxpwny23sq8h2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            3 min read
-          </small>
-            <button type="button" id="article-save-button-4000914" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4000914" data-article-author-id="4001076" aria-label="Save post I let my AI agent provision cloud infra. Then I made sure it couldn't go bankrupt doing it. to reading list" title="Save post I let my AI agent provision cloud infra. Then I made sure it couldn't go bankrupt doing it. to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-4001572" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4001572" data-article-author-id="3952987" aria-label="Save post BurnAfterRead – E2E encrypted self-destructing drops on Cloudflare Workers to reading list" title="Save post BurnAfterRead – E2E encrypted self-destructing drops on Cloudflare Workers to reading list">
               <span class="bm-initial crayons-icon c-btn__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
@@ -308,7 +419,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/b0gy/your-cloud-keys-should-not-exist-4phk#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your cloud keys should not exist">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="acyj1ldvxq46pjinxl3v2k1ofvbwzna3" class="crayons-icon"><title id="acyj1ldvxq46pjinxl3v2k1ofvbwzna3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ajn6cgonul989skjcnthe0kufmhbpagh" class="crayons-icon"><title id="ajn6cgonul989skjcnthe0kufmhbpagh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -317,7 +428,7 @@
           <small class="crayons-story__tertiary fs-xs mr-2">
             6 min read
           </small>
-            <button type="button" id="article-save-button-4000920" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4000920" data-article-author-id="3923848" aria-label="Save post Your cloud keys should not exist to reading list" title="Save post Your cloud keys should not exist to reading list" data-save-initialized="true">
+            <button type="button" id="article-save-button-4000920" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4000920" data-article-author-id="3923848" aria-label="Save post Your cloud keys should not exist to reading list" title="Save post Your cloud keys should not exist to reading list">
               <span class="bm-initial crayons-icon c-btn__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
 
