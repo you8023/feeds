@@ -1,113 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lab.ctbb.show/writeups/all/</id>
-    <title>ctbb_writeups</title>
-    <updated>2026-06-27T08:18:49.070Z</updated>
+    <id>https://lab.ctbb.show/research/all/</id>
+    <title>ctbb_research</title>
+    <updated>2026-06-27T10:42:41.750Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://lab.ctbb.show/writeups/all/favicon.ico</icon>
+    <icon>https://lab.ctbb.show/research/all/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Breaking SameSite=Strict in Chrome]]></title>
-        <id>https://lab.ctbb.show/writeups/breaking-samesite-strict-in-chrome</id>
-        <link href="https://lab.ctbb.show/writeups/breaking-samesite-strict-in-chrome"/>
-        <updated>2026-05-06T00:00:00.000Z</updated>
+        <title type="html"><![CDATA[WAF Bypasses via h2 framing]]></title>
+        <id>https://lab.ctbb.show/research/h2-WAF-Bypasses</id>
+        <link href="https://lab.ctbb.show/research/h2-WAF-Bypasses"/>
+        <updated>2026-06-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/writeups/breaking-samesite-strict-in-chrome">Breaking SameSite=Strict in Chrome</a>
+                    <a href="/research/h2-WAF-Bypasses">WAF Bypasses via h2 framing</a>
                 </h3>
-                <div class="article-subtitle">How opening Chrome DevTools on a cross-site POST response can bypass SameSite=Strict cookie protections when a service worker is present.</div>
+                <div class="article-subtitle">How HTTP/2’s multi-frame architecture allows attackers to bypass WAFs by exploiting timing delays, protocol translation flaws, and incomplete body inspection across various reverse proxies</div>
                 <div class="article-meta">
-                    <span class="article-date">May 6, 2026</span> • <span class="article-author"><span>Mian</span><img src="/assets/images/mian.png" alt="Mian" class="author-avatar"></span>
+                    <span class="article-date">Jun 1, 2026</span> • <span class="article-author"><span>Diyan Apostolov</span><img src="/assets/images/fsi.jpg" alt="Diyan Apostolov" class="author-avatar"></span>
                 </div>
-                <div class="article-excerpt">Breaking SameSite=Strict in Chrome Hello Hackers. Me and bug_blitzer found a Chrome bug that lets yo...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="cookies">cookies</span><span class="article-tag" data-tag="csrf">csrf</span><span class="article-tag" data-tag="service-workers">service-workers</span><span class="article-tag" data-tag="chrome">chrome</span><span class="article-tag" data-tag="devtools">devtools</span></div>]]></content>
+                <div class="article-excerpt"># HTTP/2 WAF Bypass: A Black-Box Methodology ## Introduction Modern web infrastructure relies heavil...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="Proxies">Proxies</span><span class="article-tag" data-tag="WAFBypasses">WAFBypasses</span></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Zero-Click RCE in Figma Desktop: A Race-Conditioned Prototype Pollution Chain That Escapes the Plugin Sandbox]]></title>
-        <id>https://lab.ctbb.show/research/figma-desktop-zero-click-rce/</id>
-        <link href="https://lab.ctbb.show/research/figma-desktop-zero-click-rce/"/>
-        <updated>2026-04-27T00:00:00.000Z</updated>
+        <title type="html"><![CDATA[The Dot-Dot-Slash That Frameworks Hand You: CSPT Across Every Major Frontend Framework]]></title>
+        <id>https://lab.ctbb.show/research/the-dot-dot-slash-that-frameworks-hand-you</id>
+        <link href="https://lab.ctbb.show/research/the-dot-dot-slash-that-frameworks-hand-you"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/figma-desktop-zero-click-rce/">Zero-Click RCE in Figma Desktop: A Race-Conditioned Prototype Pollution Chain That Escapes the Plugin Sandbox</a>
+                    <a href="/research/the-dot-dot-slash-that-frameworks-hand-you">The Dot-Dot-Slash That Frameworks Hand You: CSPT Across Every Major Frontend Framework</a>
                 </h3>
-                <div class="article-subtitle">A prototype pollution bug in Figma's variant counter, chained through a plugin-context race against $INTERNAL_DO_NOT_USE$RERUN_PLUGIN$, a jsx_debugging feature-flag flip, and a forgotten writeFileToPath IPC in the Electron desktop app, to achieve zero-click cross-platform RCE from a published plugin. Reported to Figma and patched within hours.</div>
+                <div class="article-subtitle">A deep-dive into the URL decoding pipelines of React Router, Next.js, Vue Router, Angular, SvelteKit, Nuxt, Ember, and SolidStart. Showing how every major frontend framework creates path traversal primitives and how those primitives escalate to CSPT, SSRF, and XSS.</div>
                 <div class="article-meta">
-                    <span class="article-date">April 27, 2026</span> • <span class="article-author"><span>Benjamin Mamoud (DavenSec)</span><img src="/assets/images/davensec.jpg" alt="Benjamin Mamoud (DavenSec)" class="author-avatar"></span>
+                    <span class="article-date">Apr 2, 2026</span> • <span class="article-author"><span>Jonathan Dunn</span><img src="/assets/images/xssdoctor.jpg" alt="Jonathan Dunn" class="author-avatar"></span>
                 </div>
-                <div class="article-excerpt">Important Note : Before getting into the details, I want to note upfront that Figma responded and fi...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="client-side">client-side</span><span class="article-tag" data-tag="prototype-pollution">prototype-pollution</span><span class="article-tag" data-tag="race-condition">race-condition</span><span class="article-tag" data-tag="rce">rce</span></div>]]></content>
+                <div class="article-excerpt">{% raw %} _How I mapped the decoding pipelines of 8 frontend frameworks and found that every single ...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="cspt">cspt</span><span class="article-tag" data-tag="path-traversal">path-traversal</span><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="url-decoding">url-decoding</span><span class="article-tag" data-tag="frontend-frameworks">frontend-frameworks</span></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Authenticated Arbitrary File Read via Race Condition leads to 0-Click Account Take Over on n8n]]></title>
-        <id>https://lab.ctbb.show/writeups/toctou-leads-to-ato-on-n8n</id>
-        <link href="https://lab.ctbb.show/writeups/toctou-leads-to-ato-on-n8n"/>
-        <updated>2026-03-19T00:00:00.000Z</updated>
+        <title type="html"><![CDATA[Slacker Slash: Bypassing Bun Security Middleware via Normalization Desync]]></title>
+        <id>https://lab.ctbb.show/research/bun-slacker-slash</id>
+        <link href="https://lab.ctbb.show/research/bun-slacker-slash"/>
+        <updated>2026-03-13T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/writeups/toctou-leads-to-ato-on-n8n">Authenticated Arbitrary File Read via Race Condition leads to 0-Click Account Take Over on n8n</a>
+                    <a href="/research/bun-slacker-slash">Slacker Slash: Bypassing Bun Security Middleware via Normalization Desync</a>
                 </h3>
-                <div class="article-subtitle">TOCTOU race condition leads to full ATO on popular open source automation platform n8n</div>
+                <div class="article-subtitle">How WHATWG URL compliance in Bun creates a normalization desync with POSIX utilities, enabling double-slash and partial-path middleware bypasses.</div>
                 <div class="article-meta">
-                    <span class="article-date">March 19, 2026</span> • <span class="article-author"><span>Théo Lelasseux</span><img src="/assets/images/theoL.jpg" alt="Théo Lelasseux" class="author-avatar"></span>
+                    <span class="article-date">Mar 13, 2026</span> • <span class="article-author"><span>Mohamed Salem Eddah</span><img src="/assets/images/ze3ter.jpg" alt="Mohamed Salem Eddah" class="author-avatar"></span>
                 </div>
-                <div class="article-excerpt">Overview This is the write up of a n8n vulnerability I found, patched January 14 2026. Here is the g...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="n8n">n8n</span><span class="article-tag" data-tag="TOCTOU">TOCTOU</span><span class="article-tag" data-tag="ATO">ATO</span></div>]]></content>
+                <div class="article-excerpt">Modern JavaScript runtimes like Bun advertise strict WHATWG URL compliance, but this creates a silen...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="bun">bun</span><span class="article-tag" data-tag="path-traversal">path-traversal</span><span class="article-tag" data-tag="middleware-bypass">middleware-bypass</span><span class="article-tag" data-tag="javascript">javascript</span></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Chaining service key leakage and path confusion in LangSmith (Resolved)]]></title>
-        <id>https://lab.ctbb.show/writeups/chaining-service-key-leakage-and-path-confusion-in-langsmith</id>
-        <link href="https://lab.ctbb.show/writeups/chaining-service-key-leakage-and-path-confusion-in-langsmith"/>
-        <updated>2026-03-16T00:00:00.000Z</updated>
+        <title type="html"><![CDATA[Can a Predicted window.open Target Really Be That Impactful?]]></title>
+        <id>https://lab.ctbb.show/research/can-a-predicted-window-open-target-really-be-that-impactful</id>
+        <link href="https://lab.ctbb.show/research/can-a-predicted-window-open-target-really-be-that-impactful"/>
+        <updated>2026-02-25T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/writeups/chaining-service-key-leakage-and-path-confusion-in-langsmith">Chaining service key leakage and path confusion in LangSmith (Resolved)</a>
+                    <a href="/research/can-a-predicted-window-open-target-really-be-that-impactful">Can a Predicted <code>window.open</code> Target Really Be That Impactful?</a>
                 </h3>
-                <div class="article-subtitle">Unauthorised access across LangSmith agent deployments and path normalisation differences between Nginx and GCP LB</div>
+                <div class="article-subtitle">This post walks through a real-world OAuth popup hijacking attack. The target had solid defenses origin validation, source checking, CSP but a single predictable window.open() target name created an exploitable gap. It also serves as a real-world case use of iframe hijacking, showing how I managed to squeeze a vulnerability with a useless behavior.</div>
                 <div class="article-meta">
-                    <span class="article-date">March 16, 2026</span> • <span class="article-author"><span>Vladislav Nechakhin</span><img src="/assets/images/0xn3va_logo.png" alt="Vladislav Nechakhin" class="author-avatar"></span>
+                    <span class="article-date">Feb 25, 2026</span> • <span class="article-author"><span>Achbani Ismail</span><img src="/assets/images/alien.jpg" alt="Achbani Ismail" class="author-avatar"></span>
                 </div>
-                <div class="article-excerpt">Introduction This post continues my exploration of LangSmith, which began with a high-level overview...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="path confusion">path confusion</span><span class="article-tag" data-tag="path normalization">path normalization</span><span class="article-tag" data-tag="nginx">nginx</span><span class="article-tag" data-tag="gcp load balancer">gcp load balancer</span></div>]]></content>
+                <div class="article-excerpt">&gt; **TL;DR:** A predictable `window.open()` target name in [REDACTED]'s OAuth flow allowed att...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="trick">trick</span><span class="article-tag" data-tag="client-side">client-side</span><span class="article-tag" data-tag="bypass">bypass</span></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Challenge Two - Writeup For Stranger XSS]]></title>
-        <id>https://lab.ctbb.show/writeups/challenge-two-stranger-xss</id>
-        <link href="https://lab.ctbb.show/writeups/challenge-two-stranger-xss"/>
+        <title type="html"><![CDATA[Total.js RCE gadgets all around]]></title>
+        <id>https://lab.ctbb.show/research/totaljs-rce-gadgets</id>
+        <link href="https://lab.ctbb.show/research/totaljs-rce-gadgets"/>
+        <updated>2026-02-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/research/totaljs-rce-gadgets">Total.js RCE gadgets all around</a>
+                </h3>
+                <div class="article-subtitle">RCEs, RCEs...they are all around and Total.js framework will be in our scope this time</div>
+                <div class="article-meta">
+                    <span class="article-date">Feb 23, 2026</span> • <span class="article-author"><span>Diyan Apostolov</span><img src="/assets/images/fsi.jpg" alt="Diyan Apostolov" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt"># Overview In this article, I'll walk you through some security vulnerabilities recently found i...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="TotalJS">TotalJS</span><span class="article-tag" data-tag="RCE">RCE</span><span class="article-tag" data-tag="RCEGadgets">RCEGadgets</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Azure DevOps Agent Interception]]></title>
+        <id>https://lab.ctbb.show/research/azure-devops-agent-interception</id>
+        <link href="https://lab.ctbb.show/research/azure-devops-agent-interception"/>
+        <updated>2026-02-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/research/azure-devops-agent-interception">Azure DevOps Agent Interception</a>
+                </h3>
+                <div class="article-subtitle">Pivoting from a compromised Windows VM to the cloud by intercepting Azure DevOps Agent traffic</div>
+                <div class="article-meta">
+                    <span class="article-date">Feb 10, 2026</span> • <span class="article-author"><span>Diyan Apostolov</span><img src="/assets/images/fsi.jpg" alt="Diyan Apostolov" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">Imagine the scenario: you just ended up on a Windows Azure VM with RCE in your hands and start wonde...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="AzureDevOpsAgent">AzureDevOpsAgent</span><span class="article-tag" data-tag="CloudPE">CloudPE</span><span class="article-tag" data-tag="PE">PE</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Parse and Parse: MIME Validation Bypass to XSS via Parser Differential]]></title>
+        <id>https://lab.ctbb.show/research/parse-and-parse-mime-validation-bypass-to-xss-via-parser-differential</id>
+        <link href="https://lab.ctbb.show/research/parse-and-parse-mime-validation-bypass-to-xss-via-parser-differential"/>
+        <updated>2026-01-30T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/research/parse-and-parse-mime-validation-bypass-to-xss-via-parser-differential">Parse and Parse: MIME Validation Bypass to XSS via Parser Differential</a>
+                </h3>
+                <div class="article-subtitle">This research is an extension of Content-Type research from BlackFan. More specifically, the response Content-Type tricks. Unfortunately, the multiple Content-Type trick is not clearly explained by BlackFan. Therefore, I'll explain and demonstrate how a single comma character can cause a parsing difference between the browser and different MIME type parser libraries.</div>
+                <div class="article-meta">
+                    <span class="article-date">Jan 30, 2026</span> • <span class="article-author"><span>Tang Cheuk Hei</span><img src="/assets/images/siunam.png" alt="Tang Cheuk Hei" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt"># Parse and Parse: MIME Validation Bypass to XSS via Parser Differential This research is an extensi...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="parser-differential">parser-differential</span><span class="article-tag" data-tag="client-side">client-side</span><span class="article-tag" data-tag="mime">mime</span><span class="article-tag" data-tag="xss">xss</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Achieving remote code execution in LangSmith Playground using unsafe template formatting]]></title>
+        <id>https://lab.ctbb.show/research/langsmith-unsafe-formatting-to-rce</id>
+        <link href="https://lab.ctbb.show/research/langsmith-unsafe-formatting-to-rce"/>
+        <updated>2026-01-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/research/langsmith-unsafe-formatting-to-rce">Achieving remote code execution in LangSmith Playground using unsafe template formatting</a>
+                </h3>
+                <div class="article-subtitle">This post details the discovery and exploitation of a vulnerability in LangSmith Playground that allowed arbitrary code execution through unsafe template formatting</div>
+                <div class="article-meta">
+                    <span class="article-date">Jan 12, 2026</span> • <span class="article-author"><span>Vladislav Nechakhin</span><img src="/assets/images/0xn3va_logo.png" alt="Vladislav Nechakhin" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">These days, everything and everyone is becoming AI-driven, and I'm no exception. While I was pla...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="template formatting">template formatting</span><span class="article-tag" data-tag="jinja2">jinja2</span><span class="article-tag" data-tag="rce">rce</span><span class="article-tag" data-tag="python">python</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stopping Redirects]]></title>
+        <id>https://lab.ctbb.show/research/stopping-redirects</id>
+        <link href="https://lab.ctbb.show/research/stopping-redirects"/>
+        <updated>2025-12-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/research/stopping-redirects">Stopping Redirects</a>
+                </h3>
+                <div class="article-subtitle">Interesting ways to stop redirects of another site in the browser for use in OAuth and exploits requiring interaction</div>
+                <div class="article-meta">
+                    <span class="article-date">Dec 4, 2025</span> • <span class="article-author"><span>Jorian Woltjer</span><img src="/assets/images/JW_Logo_V2_Transparant.webp" alt="Jorian Woltjer" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">This post will cover various ways to cancel or pause redirects in the browser, since I've recent...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="browser">browser</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="oauth">oauth</span><span class="article-tag" data-tag="redirect">redirect</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vega CVE-2025-59840 - Unusual XSS Technique toString gadget chains]]></title>
+        <id>https://lab.ctbb.show/research/CVE-2025-59840-unusual-xss-technique-toString-gadget-chains</id>
+        <link href="https://lab.ctbb.show/research/CVE-2025-59840-unusual-xss-technique-toString-gadget-chains"/>
         <updated>2025-12-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/writeups/challenge-two-stranger-xss">Challenge Two - Writeup For Stranger XSS</a>
+                    <a href="/research/CVE-2025-59840-unusual-xss-technique-toString-gadget-chains">Vega CVE-2025-59840 - Unusual XSS Technique toString gadget chains</a>
                 </h3>
-                <div class="article-subtitle">A writeup on the second strange XSS challenge in this miniseries.</div>
+                <div class="article-subtitle">A writeup on the technical details of a Vega Visualization library XSS bug that uses interesting techniques to get controlled JS function execution.</div>
                 <div class="article-meta">
-                    <span class="article-date">December 1, 2025</span> • <span class="article-author"><span>Nick Copi</span><img src="/assets/images/7urb0pfp.png" alt="Nick Copi" class="author-avatar"></span>
+                    <span class="article-date">Dec 1, 2025</span> • <span class="article-author"><span>Nick Copi</span><img src="/assets/images/7urb0pfp.png" alt="Nick Copi" class="author-avatar"></span>
                 </div>
-                <div class="article-excerpt">This challenge has two pages, a fairly functionless outer page, and an inner page with a postMessage...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="challenge">challenge</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="client-side">client-side</span></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Challenge One - Strange XSS Writeup]]></title>
-        <id>https://lab.ctbb.show/writeups/challenge-one-strange-xss</id>
-        <link href="https://lab.ctbb.show/writeups/challenge-one-strange-xss"/>
-        <updated>2025-11-24T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/writeups/challenge-one-strange-xss">Challenge One - Strange XSS Writeup</a>
-                </h3>
-                <div class="article-subtitle">A writeup on the first strange XSS challenge in this miniseries.</div>
-                <div class="article-meta">
-                    <span class="article-date">November 24, 2025</span> • <span class="article-author"><span>Nick Copi</span><img src="/assets/images/7urb0pfp.png" alt="Nick Copi" class="author-avatar"></span>
-                </div>
-                <div class="article-excerpt">This challenge has two pages, a fairly functionless outer page, and an inner page with a postMessage...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="challenge">challenge</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="client-side">client-side</span></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bypassing CSP with New Relic Custom Events]]></title>
-        <id>https://lab.ctbb.show/writeups/bypassing-csp-new-relic-custom-events-cspt</id>
-        <link href="https://lab.ctbb.show/writeups/bypassing-csp-new-relic-custom-events-cspt"/>
-        <updated>2025-10-31T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/writeups/bypassing-csp-new-relic-custom-events-cspt">Bypassing CSP with New Relic Custom Events</a>
-                </h3>
-                <div class="article-subtitle">One of my favorite bugs I've ever found because of the sheer volume of unexpected solutions to chain-ending problems. The end result was an ATO!</div>
-                <div class="article-meta">
-                    <span class="article-date">October 31, 2025</span> • <span class="article-author"><span>Justin Gardner</span><img src="/assets/images/Rhyno.jpg" alt="Justin Gardner" class="author-avatar"></span>
-                </div>
-                <div class="article-excerpt">This writeup outlines one of my favorite bugs I’ve ever found because of the sheer volume of unexpec...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="csp">csp</span><span class="article-tag" data-tag="auth-token">auth-token</span><span class="article-tag" data-tag="ato">ato</span><span class="article-tag" data-tag="post-request-hijack">post-request-hijack</span></div>]]></content>
+                <div class="article-excerpt">Vega is an open source visualization library with support for rich custom configurations, including ...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="client-side">client-side</span></div>]]></content>
     </entry>
 </feed>
