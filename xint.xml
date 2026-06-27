@@ -1,176 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.fogsecurity.io/blog</id>
-    <title>fogsecurity</title>
-    <updated>2026-06-26T23:51:26.070Z</updated>
+    <id>https://www.msecops.de/blog/</id>
+    <title>MSec Operations Blog</title>
+    <updated>2026-06-27T04:42:08.291Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://www.fogsecurity.io/favicon.ico</icon>
+    <icon>https://www.msecops.de/blog/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Authorization Bypass in Amazon Quick: Unauthorized AI Chat Agent Usage]]></title>
-        <id>https://www.fogsecurity.io/blog/authorization-bypass-in-amazon-quick-ai-agents</id>
-        <link href="https://www.fogsecurity.io/blog/authorization-bypass-in-amazon-quick-ai-agents"/>
-        <updated>2026-05-12T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/6a0258349f0007b912df962d_ai-agent-quick-door.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/authorization-bypass-in-amazon-quick-ai-agents" class="blog-post-title-link">Authorization Bypass in Amazon Quick: Unauthorized AI Chat Agent Usage</a><div class="blog-post-date">May 12, 2026</div><p class="blog-post-summary">We discovered an authorization bypass in Amazon Quick’s AI Chat Agents that allows users to access and interact with AI agents despite explicit administrative restrictions. AWS responded by deploying a fix without notifying customers, classified the issue as “none,” and did not publish an advisory.</p>]]></content>
+        <title type="html"><![CDATA[Introduction to RustPack]]></title>
+        <id>https://www.msecops.de/blog/posts/rustpack-intro/</id>
+        <link href="https://www.msecops.de/blog/posts/rustpack-intro/"/>
+        <updated>2026-05-02T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<time datetime="2026-05-02">2026-05-02</time>
+<a href="/blog/posts/rustpack-intro/">Introduction to RustPack</a><p class="post-excerpt">The philosophy and initial usage guide for RustPack</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Disabling SSE-C Encryption For Amazon S3 Buckets: What to Know for Data Protection and Ransomware Prevention]]></title>
-        <id>https://www.fogsecurity.io/blog/disabling-sse-c-for-s3-buckets-what-to-know</id>
-        <link href="https://www.fogsecurity.io/blog/disabling-sse-c-for-s3-buckets-what-to-know"/>
-        <updated>2026-04-27T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/69efadfa9346d8d82a87a5bb_78b0ed2b-18ee-4c47-a252-ac629aacdb8d.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/disabling-sse-c-for-s3-buckets-what-to-know" class="blog-post-title-link">Disabling SSE-C Encryption For Amazon S3 Buckets: What to Know for Data Protection and Ransomware Prevention</a><div class="blog-post-date">April 27, 2026</div><p class="blog-post-summary">A technical analysis of a new AWS change to disabling SSE-C encryption. Read more about how we interpret AWS's design decisions and how we can improve our security by to protect against unique S3 ransomware.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State of Bug Bounties with AI: Analysis of curl and other Programs]]></title>
-        <id>https://www.fogsecurity.io/blog/state-of-bug-bounties-with-ai-an-analysis-of-curls-program</id>
-        <link href="https://www.fogsecurity.io/blog/state-of-bug-bounties-with-ai-an-analysis-of-curls-program"/>
-        <updated>2026-04-16T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/69dfdfb2d45767dae6c8fa0b_ai-agent-cartoon.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/state-of-bug-bounties-with-ai-an-analysis-of-curls-program" class="blog-post-title-link">State of Bug Bounties with AI: Analysis of curl and other Programs</a><div class="blog-post-date">April 16, 2026</div><p class="blog-post-summary">Review of AI impact on bug bounty programs in 2026 including triage impact, report volume impact, and more. Analysis done on curl and other HackerOne programs.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mistrusted Advisor: Evading Detection with Public S3 Buckets and Potential Data Exfiltration in AWS]]></title>
-        <id>https://www.fogsecurity.io/blog/mistrusted-advisor-public-s3-buckets</id>
-        <link href="https://www.fogsecurity.io/blog/mistrusted-advisor-public-s3-buckets"/>
-        <updated>2025-08-20T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/688bdcda15eb542855090764_generated-image.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/mistrusted-advisor-public-s3-buckets" class="blog-post-title-link">Mistrusted Advisor: Evading Detection with Public S3 Buckets and Potential Data Exfiltration in AWS</a><div class="blog-post-date">August 20, 2025</div><p class="blog-post-summary">We found security issues with AWS's Trusted Advisor Service that allowed us to create public S3 buckets while evading detection for potential data exfiltration. </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing aws-size: A New Open Source Tool for Difficult Service Limit Visibility in AWS]]></title>
-        <id>https://www.fogsecurity.io/blog/aws-size-release</id>
-        <link href="https://www.fogsecurity.io/blog/aws-size-release"/>
-        <updated>2025-08-05T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/68914f81ec1f462be1d8ae99_generated-image%20(1).png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/aws-size-release" class="blog-post-title-link">Introducing aws-size: A New Open Source Tool for Difficult Service Limit Visibility in AWS</a><div class="blog-post-date">August 5, 2025</div><p class="blog-post-summary">Releasing aws-size, a new open source tool to help with managing difficult service limits such as IAM policy size, bucket policy size, SCPs, RCPs, EC2 user data, and more. These limits may not be covered by AWS services such as Service Quotas or Trusted Advisor.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IAM SAR-ry: Deep Dive and Nuances of AWS's Programmatic IAM Action List and Service Authorization References (SAR)]]></title>
-        <id>https://www.fogsecurity.io/blog/aws-sar-and-programmatic-iam-actions</id>
-        <link href="https://www.fogsecurity.io/blog/aws-sar-and-programmatic-iam-actions"/>
-        <updated>2025-07-15T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/6876682469c72dcf35bc8438_AWS%20IAM%20Actions%402x%20(1)%20copy.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/aws-sar-and-programmatic-iam-actions" class="blog-post-title-link">IAM SAR-ry: Deep Dive and Nuances of AWS's Programmatic IAM Action List and Service Authorization References (SAR)</a><div class="blog-post-date">July 15, 2025</div><p class="blog-post-summary">AWS released a programmatic service reference for IAM. We did research and pulled statistics such as number of IAM actions, inconsistencies with the service authorization pages, access levels, changes in permission classification, and how this impacts your cloud security and IAM workflows.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hey ARNold: A Guide to All the Amazon Resource Identifiers Formats in AWS]]></title>
-        <id>https://www.fogsecurity.io/blog/aws-arn-formats</id>
-        <link href="https://www.fogsecurity.io/blog/aws-arn-formats"/>
-        <updated>2025-06-09T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/683f0d556261d0976313528f_Screenshot%202025-06-03%20at%2010.56.21%20AM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/aws-arn-formats" class="blog-post-title-link">Hey ARNold: A Guide to All the Amazon Resource Identifiers Formats in AWS</a><div class="blog-post-date">June 9, 2025</div><p class="blog-post-summary">Securing AWS is hard. We programmatically pulled all of the amazon resource identifiers from AWS's documentation and compared it to other listings, even determining less than 21% resource coverage from AWS's own IAM policy generator.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shifty Business: Encryption in Amazon Redshift, Secure Defaults, and How to Shiftily Create Unencrypted Redshift Clusters]]></title>
-        <id>https://www.fogsecurity.io/blog/shifty-business-redshift-encryption-aws</id>
-        <link href="https://www.fogsecurity.io/blog/shifty-business-redshift-encryption-aws"/>
-        <updated>2025-04-30T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/6811fda689345b3409697295_Screenshot%202025-04-30%20at%206.38.21%20AM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/shifty-business-redshift-encryption-aws" class="blog-post-title-link">Shifty Business: Encryption in Amazon Redshift, Secure Defaults, and How to Shiftily Create Unencrypted Redshift Clusters</a><div class="blog-post-date">April 30, 2025</div><p class="blog-post-summary">We uncovered inaccuracies in AWS documentation on data security and encryption for Amazon Redshift clusters. Redshift, a data warehousing database service, can have unencrypted resources configured via an encryption workaround via cluster modification via CloudFormation, CLI, and API despite AWS parameter checks on cluster creation and secure by default behavior changes.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Complexity of Detecting Amazon S3 and KMS Ransomware]]></title>
-        <id>https://www.fogsecurity.io/blog/how-to-detect-amazon-s3-ransomware</id>
-        <link href="https://www.fogsecurity.io/blog/how-to-detect-amazon-s3-ransomware"/>
-        <updated>2025-04-07T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/67f34b8955ccc1914c9d9b61_Screenshot%202025-04-06%20at%2011.50.25%20PM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/how-to-detect-amazon-s3-ransomware" class="blog-post-title-link">The Complexity of Detecting Amazon S3 and KMS Ransomware</a><div class="blog-post-date">April 7, 2025</div><p class="blog-post-summary">Detecting ransomware in Amazon S3 and KMS is complex. Not all events are logged by default and available tools can miss events due to nuances in logging. This post covers 11 different indicators of different types of ransomware in AWS, how they show in logs, and if these are logged by default. We cover CloudTrail (both data and management events) and Server Access Logging and how we've updated our open source YES3 Scanner tool to scan for Server Access Logging. </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YES3 Scanner: An Open Source Tool to Scan S3 Buckets for Access Misconfigurations and Ransomware Prevention]]></title>
-        <id>https://www.fogsecurity.io/blog/yes3-amazon-s3</id>
-        <link href="https://www.fogsecurity.io/blog/yes3-amazon-s3"/>
-        <updated>2025-03-26T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/67e3517f83b4aabdd0de38be_Screenshot%202025-03-25%20at%208.59.33%20PM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/yes3-amazon-s3" class="blog-post-title-link">YES3 Scanner: An Open Source Tool to Scan S3 Buckets for Access Misconfigurations and Ransomware Prevention</a><div class="blog-post-date">March 26, 2025</div><p class="blog-post-summary">Announcing Fog Security's latest open source tool: YES3 Scanner. YES3 scans Amazon S3 buckets to help prevent AWS access issues and check for security configurations including ransomware prevention. This includes checking for backups, account configuration, public access, and other S3 configuration items to help secure data in S3.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 18 Different Tagging Permissions for Amazon S3]]></title>
-        <id>https://www.fogsecurity.io/blog/the-18-different-s3-tagging-permissions-aws</id>
-        <link href="https://www.fogsecurity.io/blog/the-18-different-s3-tagging-permissions-aws"/>
-        <updated>2025-02-09T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/67a8109574c75420287b1dff_Screenshot%202025-02-08%20at%209.18.52%20PM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/the-18-different-s3-tagging-permissions-aws" class="blog-post-title-link">The 18 Different Tagging Permissions for Amazon S3</a><div class="blog-post-date">February 9, 2025</div><p class="blog-post-summary">A deep-dive into tagging on Amazon S3 and the 18 different IAM permissions to manage tags on S3 resources. This covers the inconsistencies in tagging, complexity of tagging in cloud, how it compares to other AWS services, and example policies. </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Complete Guide to Cloud-Native Ransomware Protection in Amazon S3 and KMS]]></title>
-        <id>https://www.fogsecurity.io/blog/the-complete-guide-to-ransomware-protection-in-s3-and-kms</id>
-        <link href="https://www.fogsecurity.io/blog/the-complete-guide-to-ransomware-protection-in-s3-and-kms"/>
-        <updated>2025-02-03T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/67a1548924732be37fe24b9f_Screenshot%202025-02-03%20at%206.42.49%20PM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/the-complete-guide-to-ransomware-protection-in-s3-and-kms" class="blog-post-title-link">The Complete Guide to Cloud-Native Ransomware Protection in Amazon S3 and KMS</a><div class="blog-post-date">February 3, 2025</div><p class="blog-post-summary">Fog Security's research on 11 different ransomware prevention use cases with AWS S3 and KMS. We utilize cloud-native settings including encryption via KMS, organizational policies such as service control policies and resource control policies, bucket policies, and account and bucket settings such as block public access. This post covers policy samples, code samples, and more to help with your ransomware protection.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ransomware in Amazon S3: SSE-C]]></title>
-        <id>https://www.fogsecurity.io/blog/ransomware-in-aws-s3-sse-c</id>
-        <link href="https://www.fogsecurity.io/blog/ransomware-in-aws-s3-sse-c"/>
-        <updated>2025-01-19T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/6797c91c09da681d248779d3_Screenshot%202025-01-27%20at%2012.57.38%20PM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/ransomware-in-aws-s3-sse-c" class="blog-post-title-link">Ransomware in Amazon S3: SSE-C</a><div class="blog-post-date">January 19, 2025</div><p class="blog-post-summary">There's been an increase in recent ransomware via AWS SSE-C with customer-provided encryption keys. This research covers technical details, how to prevent against ransomware, and offers insight on reports from both AWS and Halcyon.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding RCPs and SCPs in AWS: Choosing the Right Policy for your Security Needs]]></title>
-        <id>https://www.fogsecurity.io/blog/understanding-rcps-and-scps-in-aws</id>
-        <link href="https://www.fogsecurity.io/blog/understanding-rcps-and-scps-in-aws"/>
-        <updated>2025-01-15T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/6785ad0b541c45280da10d8f_Screenshot%202025-01-13%20at%207.16.45%20PM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/understanding-rcps-and-scps-in-aws" class="blog-post-title-link">Understanding RCPs and SCPs in AWS: Choosing the Right Policy for your Security Needs</a><div class="blog-post-date">January 15, 2025</div><p class="blog-post-summary">Using both AWS Service Control Policies and Resource Control Policies can improve security and data perimeters within your cloud infrastructure. AWS recently released RCPs in late 2024, and this post covers how to leverage them together, nuanced reasons for adopting RCPs and SCPs, how to migrate to RCPs, code examples, and nuances and limitations of policy syntax for both.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Securing Your Cloud Data: Unencrypted Resources in AWS]]></title>
-        <id>https://www.fogsecurity.io/blog/unencrypted-resources-in-aws</id>
-        <link href="https://www.fogsecurity.io/blog/unencrypted-resources-in-aws"/>
-        <updated>2024-12-17T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/6761a0f12b66a4214238312b_Screenshot%202024-12-17%20at%2011.02.10%20AM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/unencrypted-resources-in-aws" class="blog-post-title-link">Securing Your Cloud Data: Unencrypted Resources in AWS</a><div class="blog-post-date">December 17, 2024</div><p class="blog-post-summary">We look at what data can be unencrypted in Amazon Web Services, specifically which cloud services have resources that can be unencrypted. While most services offer encryption by default, certain resources can be unencrypted by default or also offer unencrypted options. This post covers observations, those AWS services, and recommendations to improve data security.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Finders Keypers: A Open Source Tool to Discover Usage and Blast Radius of Encryption Keys in AWS]]></title>
-        <id>https://www.fogsecurity.io/blog/introducing-finders-keypers-a-tool-to-discover-usage-and-blast-radius-of-encryption-keys-in-aws</id>
-        <link href="https://www.fogsecurity.io/blog/introducing-finders-keypers-a-tool-to-discover-usage-and-blast-radius-of-encryption-keys-in-aws"/>
-        <updated>2024-11-29T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/6745edc0f1fbf02a0c67f4c8_Screenshot%202024-11-26%20at%2010.46.32%20AM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/introducing-finders-keypers-a-tool-to-discover-usage-and-blast-radius-of-encryption-keys-in-aws" class="blog-post-title-link">Introducing Finders Keypers: A Open Source Tool to Discover Usage and Blast Radius of Encryption Keys in AWS</a><div class="blog-post-date">November 29, 2024</div><p class="blog-post-summary">Introduction of a new open-source tool, Finders Keypers that helps determine usage of KMS encryption keys to encrypt resources in Amazon Web Services (AWS). This tool helps with data perimeters, security and audit, determining blast radius, and helping understand usage and relationships of KMS keys.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating a Data Perimeter with Resource Control Policies (RCPs) and AWS KMS]]></title>
-        <id>https://www.fogsecurity.io/blog/data-perimeters-with-resource-control-policies-and-aws-kms</id>
-        <link href="https://www.fogsecurity.io/blog/data-perimeters-with-resource-control-policies-and-aws-kms"/>
-        <updated>2024-11-19T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/673e18f8f5c24c8735d60553_Screenshot%202024-11-20%20at%2012.14.01%20PM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/data-perimeters-with-resource-control-policies-and-aws-kms" class="blog-post-title-link">Creating a Data Perimeter with Resource Control Policies (RCPs) and AWS KMS</a><div class="blog-post-date">November 19, 2024</div><p class="blog-post-summary">AWS recently released resource control policies as a new type of Organizational policies. These policies can control maximum permissions to resources within an organization. We look at the security impact and how to use these RCPs to craft data perimeters as well as when to use them compared to service control policies.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protecting Data and Preventing Ransomware: The IAM Guide to Managing and Updating Encryption for AWS Resources]]></title>
-        <id>https://www.fogsecurity.io/blog/updating-encryption-aws-resources-ransonware</id>
-        <link href="https://www.fogsecurity.io/blog/updating-encryption-aws-resources-ransonware"/>
-        <updated>2024-10-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/67112e682e424c8cc9eae259_Screenshot%202024-10-17%20at%2011.33.44%20AM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/updating-encryption-aws-resources-ransonware" class="blog-post-title-link">Protecting Data and Preventing Ransomware: The IAM Guide to Managing and Updating Encryption for AWS Resources</a><div class="blog-post-date">October 21, 2024</div><p class="blog-post-summary">A guide to IAM actions, nuances, and categorization of how to manage and update encryption for AWS resources with KMS. This helps with encryption management such as encryption key rotation, updating, and preventing against cloud data ransomware attacks where data is held hostage by removing access to encryption keys. </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Complexity of AWS Data Access with KMS Encryption: KMS Key Grants and all the possible combinations]]></title>
-        <id>https://www.fogsecurity.io/blog/how-kms-access-works-key-grants</id>
-        <link href="https://www.fogsecurity.io/blog/how-kms-access-works-key-grants"/>
-        <updated>2024-09-12T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/66cf81688ffe1f5054d02d45_grant-access-permitted.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/how-kms-access-works-key-grants" class="blog-post-title-link">The Complexity of AWS Data Access with KMS Encryption: KMS Key Grants and all the possible combinations</a><div class="blog-post-date">September 12, 2024</div><p class="blog-post-summary">Access to KMS and data access in Amazon Web Services can be complex. We look at a potential hidden access source and all the combinations of access that can be granted via KMS Key Grants. We take a different approach to look at evaluation with resource-based policies, IAM, and KMS Key Grants to see effective privilege and best practices for least privilege, encryption management, and data access</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are my AWS Resources Encrypted or Unencrypted by Default?]]></title>
-        <id>https://www.fogsecurity.io/blog/are-my-aws-resources-encrypted-or-unencrypted-by-default</id>
-        <link href="https://www.fogsecurity.io/blog/are-my-aws-resources-encrypted-or-unencrypted-by-default"/>
-        <updated>2024-07-16T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/66956f778236a6ba6c4d31f9_Screenshot%202024-07-15%20at%202.24.27%20PM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/are-my-aws-resources-encrypted-or-unencrypted-by-default" class="blog-post-title-link">Are my AWS Resources Encrypted or Unencrypted by Default?  </a><div class="blog-post-date">July 16, 2024</div><p class="blog-post-summary">This research focuses on an aspect of security by default by looking at AWS Resources and their encryption state by default when created. We look into encryption types including AWS Owned and AWS Managed default encryption by KMS, history of encryption by default settings, and additional settings and guardrails to help with cloud data security.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Managed KMS Keys and their Key Policies: Security Implications and Coverage for AWS Services]]></title>
-        <id>https://www.fogsecurity.io/blog/encryption-aws-managed-kms-keys</id>
-        <link href="https://www.fogsecurity.io/blog/encryption-aws-managed-kms-keys"/>
-        <updated>2024-07-02T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/66830c35e34432752bd646d3_Screenshot%202024-07-01%20at%204.05.12%20PM.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/encryption-aws-managed-kms-keys" class="blog-post-title-link">AWS Managed KMS Keys and their Key Policies: Security Implications and Coverage for AWS Services</a><div class="blog-post-date">July 2, 2024</div><p class="blog-post-summary">Deep Dive on AWS Support for AWS Managed Keys. We found 39 AWS Services that Support AWS Managed Keys and created documentation around service support, details and interesting details about AWS Managed Keys and their key policies, and created a tool to help you check support and access for AWS Managed Keys.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The State of AWS's Block Public Access: Is It Secure By Default?]]></title>
-        <id>https://www.fogsecurity.io/blog/aws-block-public-access-state</id>
-        <link href="https://www.fogsecurity.io/blog/aws-block-public-access-state"/>
-        <updated>2024-04-23T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/6625293e545c62a265995293_DynamoDBBlockPublicAccess.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/aws-block-public-access-state" class="blog-post-title-link">The State of AWS's Block Public Access: Is It Secure By Default?</a><div class="blog-post-date">April 23, 2024</div><p class="blog-post-summary">A look at Amazon Web Services's Block Public Access feature across AWS services such as EC2, S3, EMR, DynamoDB and how secure by default principles apply to account configuration to add additional layers of security as well as best practices for configuration.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon S3 Block Public Access Bypass]]></title>
-        <id>https://www.fogsecurity.io/blog/s3-block-public-access-bypass</id>
-        <link href="https://www.fogsecurity.io/blog/s3-block-public-access-bypass"/>
-        <updated>2024-03-14T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/65de7f63cd736168d26a457f_S3%20Block%20Public%20Access%20Account%20Settings.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/s3-block-public-access-bypass" class="blog-post-title-link">Amazon S3 Block Public Access Bypass</a><div class="blog-post-date">March 14, 2024</div><p class="blog-post-summary">A scenario with Amazon S3 where S3's Block Public Access Check can be circumvented to make a S3 Bucket public.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Misleading Encryption State of Amazon Quantum Ledger Database (QLDB)]]></title>
-        <id>https://www.fogsecurity.io/blog/encryption-state-of-amazon-qldb</id>
-        <link href="https://www.fogsecurity.io/blog/encryption-state-of-amazon-qldb"/>
-        <updated>2024-02-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="#" style="background-image:url(&quot;https://cdn.prod.website-files.com/65cbe51e3caace3e66efd139/65d79f900761a944bb123337_qlbd-aws-console%20copy.png&quot;)" class="simple-blog-image-block w-inline-block"><div class="blog-post-overlay light"></div></a><a href="/blog/encryption-state-of-amazon-qldb" class="blog-post-title-link">The Misleading Encryption State of Amazon Quantum Ledger Database (QLDB)</a><div class="blog-post-date">February 22, 2024</div><p class="blog-post-summary">Research on AWS's Quantum Ledger Database and the misleading reporting of at-rest data encryption. Misleading reporting from encryption status may result in false positives for security and compliance of the QLDB and cause issues for security and application teams.</p>]]></content>
+        <title type="html"><![CDATA[Introduction to RustPack]]></title>
+        <id>https://www.msecops.de/blog/posts/rustpack-intro/</id>
+        <link href="https://www.msecops.de/blog/posts/rustpack-intro/"/>
+        <updated>2026-05-02T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<time datetime="2026-05-02">2026-05-02</time>
+<a href="/blog/posts/rustpack-intro/">Introduction to RustPack</a><p class="post-excerpt">The philosophy and initial usage guide for RustPack</p>]]></content>
     </entry>
 </feed>

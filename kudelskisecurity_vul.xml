@@ -1,104 +1,380 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://blog.r0rt1z2.com/</id>
-    <title>R0rt1z2's Blog</title>
-    <updated>2026-06-26T23:51:25.968Z</updated>
+    <id>https://www.okta.com/blog/threat-intelligence/</id>
+    <title>Okta Threat Intelligence</title>
+    <updated>2026-06-27T04:42:08.314Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://blog.r0rt1z2.com/favicon/frog.svg</icon>
+    <icon>https://www.okta.com/blog/threat-intelligence/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Dissecting a mantis - the kamakiri exploit]]></title>
-        <id>https://blog.r0rt1z2.com/posts/dissecting-a-mantis/</id>
-        <link href="https://blog.r0rt1z2.com/posts/dissecting-a-mantis/"/>
-        <updated>2026-05-02T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="pl-6 md:pl-9 pr-6 md:pr-2 pt-6 md:pt-7 pb-6 relative w-full md:w-[calc(100%_-_52px_-_12px)]" data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> <a href="/posts/dissecting-a-mantis/" class="transition group w-full block font-bold mb-3 text-3xl text-90
-        hover:text-[var(--primary)] dark:hover:text-[var(--primary)]
-        active:text-[var(--title-active)] dark:active:text-[var(--title-active)]
-        before:w-1 before:h-5 before:rounded-md before:bg-[var(--primary)]
-        before:absolute before:top-[35px] before:left-[18px] before:hidden md:before:block
-        " data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> Dissecting a mantis - the kamakiri exploit <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline text-[2rem] text-[var(--primary)] md:hidden translate-y-0.5 absolute" data-astro-cid-iyiqi2so="true" data-icon="material-symbols:chevron-right-rounded">   <use href="#ai:material-symbols:chevron-right-rounded"></use>  </svg> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-[var(--primary)] text-[2rem] transition hidden md:inline absolute translate-y-0.5 opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0" data-astro-cid-iyiqi2so="true" data-icon="material-symbols:chevron-right-rounded">   <use href="#ai:material-symbols:chevron-right-rounded"></use>  </svg> </a> <!-- metadata --> <div class="flex flex-wrap text-neutral-500 dark:text-neutral-400 items-center gap-4 gap-x-4 gap-y-2 mb-4"> <!-- publish date --> <div class="flex items-center"> <div class="meta-icon"> <svg width="1em" height="1em" class="text-xl" data-icon="material-symbols:calendar-today-outline-rounded">   <symbol id="ai:material-symbols:calendar-today-outline-rounded" viewBox="0 0 24 24"><path fill="currentColor" d="M5 22q-.825 0-1.412-.587T3 20V6q0-.825.588-1.412T5 4h1V3q0-.425.288-.712T7 2t.713.288T8 3v1h8V3q0-.425.288-.712T17 2t.713.288T18 3v1h1q.825 0 1.413.588T21 6v14q0 .825-.587 1.413T19 22zm0-2h14V10H5zM5 8h14V6H5zm0 0V6z"></path></symbol><use href="#ai:material-symbols:calendar-today-outline-rounded"></use>  </svg> </div> <span class="text-50 text-sm font-medium">2026-05-02</span> </div> <!-- update date -->  <!-- categories --> <div class="flex items-center"> <div class="meta-icon"> <svg width="1em" height="1em" class="text-xl" data-icon="material-symbols:book-2-outline-rounded">   <symbol id="ai:material-symbols:book-2-outline-rounded" viewBox="0 0 24 24"><path fill="currentColor" d="M6 15.325q.35-.175.725-.25T7.5 15H8V4h-.5q-.625 0-1.062.438T6 5.5zM10 15h8V4h-8zm-4 .325V4zM7.5 22q-1.45 0-2.475-1.025T4 18.5v-13q0-1.45 1.025-2.475T7.5 2H18q.825 0 1.413.587T20 4v12.525q0 .2-.162.363t-.588.362q-.35.175-.55.5t-.2.75t.2.763t.55.487t.55.413t.2.562v.25q0 .425-.288.725T19 22zm0-2h9.325q-.15-.35-.237-.712T16.5 18.5q0-.4.075-.775t.25-.725H7.5q-.65 0-1.075.438T6 18.5q0 .65.425 1.075T7.5 20"></path></symbol><use href="#ai:material-symbols:book-2-outline-rounded"></use>  </svg> </div> <div class="flex flex-row flex-nowrap items-center"> <a href="/archive/?category=Writeup" aria-label="View all posts in the Writeup category" class="link-lg transition text-50 text-sm font-medium
-                            hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Writeup </a> </div> </div> <!-- tags --> <div class="items-center hidden md:flex"> <div class="meta-icon"> <svg width="1em" height="1em" class="text-xl" data-icon="material-symbols:tag-rounded">   <symbol id="ai:material-symbols:tag-rounded" viewBox="0 0 24 24"><path fill="currentColor" d="m9 16l-.825 3.275q-.075.325-.325.525t-.6.2q-.475 0-.775-.375T6.3 18.8L7 16H4.275q-.5 0-.8-.387T3.3 14.75q.075-.35.35-.55t.625-.2H7.5l1-4H5.775q-.5 0-.8-.387T4.8 8.75q.075-.35.35-.55t.625-.2H9l.825-3.275Q9.9 4.4 10.15 4.2t.6-.2q.475 0 .775.375t.175.825L11 8h4l.825-3.275q.075-.325.325-.525t.6-.2q.475 0 .775.375t.175.825L17 8h2.725q.5 0 .8.387t.175.863q-.075.35-.35.55t-.625.2H16.5l-1 4h2.725q.5 0 .8.388t.175.862q-.075.35-.35.55t-.625.2H15l-.825 3.275q-.075.325-.325.525t-.6.2q-.475 0-.775-.375T12.3 18.8L13 16zm.5-2h4l1-4h-4z"></path></symbol><use href="#ai:material-symbols:tag-rounded"></use>  </svg> </div> <div class="flex flex-row flex-nowrap items-center"> <div class="hidden mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=MediaTek" aria-label="View all posts with the MediaTek tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> MediaTek </a><div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=Bootloader" aria-label="View all posts with the Bootloader tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Bootloader </a><div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=Reverse%20Engineering" aria-label="View all posts with the Reverse Engineering tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Reverse Engineering </a><div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=Exploits" aria-label="View all posts with the Exploits tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Exploits </a>  </div> </div> </div> <!-- description --> <div class="transition text-75 mb-3.5 pr-4" data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> Understanding and explaining the "kamakiri" MediaTek BROM exploit </div> <!-- word count and read time  --> <div class="text-sm text-black/30 dark:text-white/30 flex gap-4 transition" data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> <div data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> 2559  words </div> <div data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;">|</div> <div data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> 13  minutes </div> </div> </div>  <a href="/posts/dissecting-a-mantis/" aria-label="Dissecting a mantis - the kamakiri exploit" class="!hidden md:!flex btn-regular w-[3.25rem]
-         absolute right-3 top-3 bottom-3 rounded-xl bg-[var(--enter-btn-bg)]
-         hover:bg-[var(--enter-btn-bg-hover)] active:bg-[var(--enter-btn-bg-active)] active:scale-95
-        " data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="transition text-[var(--primary)] text-4xl mx-auto" data-astro-cid-iyiqi2so="true" data-icon="material-symbols:chevron-right-rounded">   <use href="#ai:material-symbols:chevron-right-rounded"></use>  </svg> </a>]]></content>
+        <title type="html"><![CDATA[Defending against TeamPCP software supply chain attacks]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/defending_against_team_pcp_software_supply_chain_attacks/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/defending_against_team_pcp_software_supply_chain_attacks/"/>
+        <updated>2026-05-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/defending_against_team_pcp_software_supply_chain_attacks/" data-link-cta="yes" data-link-text="Defending against TeamPCP software supply chain attacks" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--b35c98b1-7429-428b-a47c-a080537dbacd/scb-1-jpg.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--b35c98b1-7429-428b-a47c-a080537dbacd/scb-1-jpg.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta-www/en_us/blog/threat-intelligence/teampcp-supply-chain-blog/scb_1.jpg">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">18 May 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Defending against TeamPCP software supply chain attacks</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                18 May 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Reverse Engineer MediaTek Bootloaders]]></title>
-        <id>https://blog.r0rt1z2.com/posts/reverse-engineering-mediatek-lk/</id>
-        <link href="https://blog.r0rt1z2.com/posts/reverse-engineering-mediatek-lk/"/>
-        <updated>2026-03-30T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="pl-6 md:pl-9 pr-6 md:pr-2 pt-6 md:pt-7 pb-6 relative w-full md:w-[calc(100%_-_52px_-_12px)]" data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> <a href="/posts/reverse-engineering-mediatek-lk/" class="transition group w-full block font-bold mb-3 text-3xl text-90
-        hover:text-[var(--primary)] dark:hover:text-[var(--primary)]
-        active:text-[var(--title-active)] dark:active:text-[var(--title-active)]
-        before:w-1 before:h-5 before:rounded-md before:bg-[var(--primary)]
-        before:absolute before:top-[35px] before:left-[18px] before:hidden md:before:block
-        " data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> How to Reverse Engineer MediaTek Bootloaders <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline text-[2rem] text-[var(--primary)] md:hidden translate-y-0.5 absolute" data-astro-cid-iyiqi2so="true" data-icon="material-symbols:chevron-right-rounded">   <use href="#ai:material-symbols:chevron-right-rounded"></use>  </svg> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-[var(--primary)] text-[2rem] transition hidden md:inline absolute translate-y-0.5 opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0" data-astro-cid-iyiqi2so="true" data-icon="material-symbols:chevron-right-rounded">   <use href="#ai:material-symbols:chevron-right-rounded"></use>  </svg> </a> <!-- metadata --> <div class="flex flex-wrap text-neutral-500 dark:text-neutral-400 items-center gap-4 gap-x-4 gap-y-2 mb-4"> <!-- publish date --> <div class="flex items-center"> <div class="meta-icon"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-xl" data-icon="material-symbols:calendar-today-outline-rounded">   <use href="#ai:material-symbols:calendar-today-outline-rounded"></use>  </svg> </div> <span class="text-50 text-sm font-medium">2026-03-30</span> </div> <!-- update date -->  <!-- categories --> <div class="flex items-center"> <div class="meta-icon"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-xl" data-icon="material-symbols:book-2-outline-rounded">   <use href="#ai:material-symbols:book-2-outline-rounded"></use>  </svg> </div> <div class="flex flex-row flex-nowrap items-center"> <a href="/archive/?category=Guides" aria-label="View all posts in the Guides category" class="link-lg transition text-50 text-sm font-medium
-                            hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Guides </a> </div> </div> <!-- tags --> <div class="items-center hidden md:flex"> <div class="meta-icon"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-xl" data-icon="material-symbols:tag-rounded">   <use href="#ai:material-symbols:tag-rounded"></use>  </svg> </div> <div class="flex flex-row flex-nowrap items-center"> <div class="hidden mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=MediaTek" aria-label="View all posts with the MediaTek tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> MediaTek </a><div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=Bootloader" aria-label="View all posts with the Bootloader tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Bootloader </a><div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=Reverse%20Engineering" aria-label="View all posts with the Reverse Engineering tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Reverse Engineering </a>  </div> </div> </div> <!-- description --> <div class="transition text-75 mb-3.5 pr-4" data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> A quick introduction and guide to reverse engineering MediaTek bootloaders (LK) </div> <!-- word count and read time  --> <div class="text-sm text-black/30 dark:text-white/30 flex gap-4 transition" data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> <div data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> 1280  words </div> <div data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;">|</div> <div data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> 6  minutes </div> </div> </div>  <a href="/posts/reverse-engineering-mediatek-lk/" aria-label="How to Reverse Engineer MediaTek Bootloaders" class="!hidden md:!flex btn-regular w-[3.25rem]
-         absolute right-3 top-3 bottom-3 rounded-xl bg-[var(--enter-btn-bg)]
-         hover:bg-[var(--enter-btn-bg-hover)] active:bg-[var(--enter-btn-bg-active)] active:scale-95
-        " data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="transition text-[var(--primary)] text-4xl mx-auto" data-astro-cid-iyiqi2so="true" data-icon="material-symbols:chevron-right-rounded">   <use href="#ai:material-symbols:chevron-right-rounded"></use>  </svg> </a>]]></content>
+        <title type="html"><![CDATA[Device code phishing: it's phishing with dynamite]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/device-code-phishing--it-s-phishing-with-dynamite/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/device-code-phishing--it-s-phishing-with-dynamite/"/>
+        <updated>2026-05-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/device-code-phishing--it-s-phishing-with-dynamite/" data-link-cta="yes" data-link-text="Device code phishing: it's phishing with dynamite" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--e386339b-103c-4898-b753-78187e88c9ef/phishing-with-dynamite-CU-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--e386339b-103c-4898-b753-78187e88c9ef/phishing-with-dynamite-CU-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta-www/en_us/blog/threat-intelligence/device_code_phishing/phishing_with_dynamite_CU.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">11 May 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Device code phishing: it's phishing with dynamite</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                11 May 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Exploiting MediaTek's Download Agent]]></title>
-        <id>https://blog.r0rt1z2.com/posts/exploiting-mediatek-datwo/</id>
-        <link href="https://blog.r0rt1z2.com/posts/exploiting-mediatek-datwo/"/>
-        <updated>2026-01-30T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="pl-6 md:pl-9 pr-6 md:pr-2 pt-6 md:pt-7 pb-6 relative w-full md:w-[calc(100%_-_52px_-_12px)]" data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> <a href="/posts/exploiting-mediatek-datwo/" class="transition group w-full block font-bold mb-3 text-3xl text-90
-        hover:text-[var(--primary)] dark:hover:text-[var(--primary)]
-        active:text-[var(--title-active)] dark:active:text-[var(--title-active)]
-        before:w-1 before:h-5 before:rounded-md before:bg-[var(--primary)]
-        before:absolute before:top-[35px] before:left-[18px] before:hidden md:before:block
-        " data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> Exploiting MediaTek's Download Agent <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline text-[2rem] text-[var(--primary)] md:hidden translate-y-0.5 absolute" data-astro-cid-iyiqi2so="true" data-icon="material-symbols:chevron-right-rounded">   <use href="#ai:material-symbols:chevron-right-rounded"></use>  </svg> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-[var(--primary)] text-[2rem] transition hidden md:inline absolute translate-y-0.5 opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0" data-astro-cid-iyiqi2so="true" data-icon="material-symbols:chevron-right-rounded">   <use href="#ai:material-symbols:chevron-right-rounded"></use>  </svg> </a> <!-- metadata --> <div class="flex flex-wrap text-neutral-500 dark:text-neutral-400 items-center gap-4 gap-x-4 gap-y-2 mb-4"> <!-- publish date --> <div class="flex items-center"> <div class="meta-icon"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-xl" data-icon="material-symbols:calendar-today-outline-rounded">   <use href="#ai:material-symbols:calendar-today-outline-rounded"></use>  </svg> </div> <span class="text-50 text-sm font-medium">2026-01-30</span> </div> <!-- update date -->  <!-- categories --> <div class="flex items-center"> <div class="meta-icon"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-xl" data-icon="material-symbols:book-2-outline-rounded">   <use href="#ai:material-symbols:book-2-outline-rounded"></use>  </svg> </div> <div class="flex flex-row flex-nowrap items-center"> <a href="/archive/?category=Writeup" aria-label="View all posts in the Writeup category" class="link-lg transition text-50 text-sm font-medium
-                            hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Writeup </a> </div> </div> <!-- tags --> <div class="items-center hidden md:flex"> <div class="meta-icon"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-xl" data-icon="material-symbols:tag-rounded">   <use href="#ai:material-symbols:tag-rounded"></use>  </svg> </div> <div class="flex flex-row flex-nowrap items-center"> <div class="hidden mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=MediaTek" aria-label="View all posts with the MediaTek tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> MediaTek </a><div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=Bootloader" aria-label="View all posts with the Bootloader tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Bootloader </a><div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=Reverse%20Engineering" aria-label="View all posts with the Reverse Engineering tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Reverse Engineering </a><div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=Exploits" aria-label="View all posts with the Exploits tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Exploits </a>  </div> </div> </div> <!-- description --> <div class="transition text-75 mb-3.5 pr-4" data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> Analysis and exploitation of MediaTek's second stage Download Agent </div> <!-- word count and read time  --> <div class="text-sm text-black/30 dark:text-white/30 flex gap-4 transition" data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> <div data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> 7415  words </div> <div data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;">|</div> <div data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> 37  minutes </div> </div> </div>  <a href="/posts/exploiting-mediatek-datwo/" aria-label="Exploiting MediaTek's Download Agent" class="!hidden md:!flex btn-regular w-[3.25rem]
-         absolute right-3 top-3 bottom-3 rounded-xl bg-[var(--enter-btn-bg)]
-         hover:bg-[var(--enter-btn-bg-hover)] active:bg-[var(--enter-btn-bg-active)] active:scale-95
-        " data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="transition text-[var(--primary)] text-4xl mx-auto" data-astro-cid-iyiqi2so="true" data-icon="material-symbols:chevron-right-rounded">   <use href="#ai:material-symbols:chevron-right-rounded"></use>  </svg> </a>]]></content>
+        <title type="html"><![CDATA[Tycoon 2FA phishing actors disperse, branch into new attacks]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/tycoon_2fa_phishing_actors_scatter/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/tycoon_2fa_phishing_actors_scatter/"/>
+        <updated>2026-05-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/tycoon_2fa_phishing_actors_scatter/" data-link-cta="yes" data-link-text="Tycoon 2FA phishing actors disperse, branch into new attacks" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--57c991b7-caca-49f0-b990-6fbf27dda1a5/tycoon-1-jpg.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--57c991b7-caca-49f0-b990-6fbf27dda1a5/tycoon-1-jpg.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta-www/en_us/blog/threat-intelligence/tycoon-2fa/tycoon_1.jpg">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">03 May 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Tycoon 2FA phishing actors disperse, branch into new attacks</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                03 May 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hacking a 2014 tablet... in 2024!]]></title>
-        <id>https://blog.r0rt1z2.com/posts/hacking-2014-tablet/</id>
-        <link href="https://blog.r0rt1z2.com/posts/hacking-2014-tablet/"/>
-        <updated>2024-07-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="pl-6 md:pl-9 pr-6 md:pr-2 pt-6 md:pt-7 pb-6 relative w-full md:w-[calc(100%_-_52px_-_12px)]" data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> <a href="/posts/hacking-2014-tablet/" class="transition group w-full block font-bold mb-3 text-3xl text-90
-        hover:text-[var(--primary)] dark:hover:text-[var(--primary)]
-        active:text-[var(--title-active)] dark:active:text-[var(--title-active)]
-        before:w-1 before:h-5 before:rounded-md before:bg-[var(--primary)]
-        before:absolute before:top-[35px] before:left-[18px] before:hidden md:before:block
-        " data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> Hacking a 2014 tablet... in 2024! <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline text-[2rem] text-[var(--primary)] md:hidden translate-y-0.5 absolute" data-astro-cid-iyiqi2so="true" data-icon="material-symbols:chevron-right-rounded">   <use href="#ai:material-symbols:chevron-right-rounded"></use>  </svg> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-[var(--primary)] text-[2rem] transition hidden md:inline absolute translate-y-0.5 opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0" data-astro-cid-iyiqi2so="true" data-icon="material-symbols:chevron-right-rounded">   <use href="#ai:material-symbols:chevron-right-rounded"></use>  </svg> </a> <!-- metadata --> <div class="flex flex-wrap text-neutral-500 dark:text-neutral-400 items-center gap-4 gap-x-4 gap-y-2 mb-4"> <!-- publish date --> <div class="flex items-center"> <div class="meta-icon"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-xl" data-icon="material-symbols:calendar-today-outline-rounded">   <use href="#ai:material-symbols:calendar-today-outline-rounded"></use>  </svg> </div> <span class="text-50 text-sm font-medium">2024-07-21</span> </div> <!-- update date -->  <!-- categories --> <div class="flex items-center"> <div class="meta-icon"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-xl" data-icon="material-symbols:book-2-outline-rounded">   <use href="#ai:material-symbols:book-2-outline-rounded"></use>  </svg> </div> <div class="flex flex-row flex-nowrap items-center"> <a href="/archive/?category=Writeup" aria-label="View all posts in the Writeup category" class="link-lg transition text-50 text-sm font-medium
-                            hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Writeup </a> </div> </div> <!-- tags --> <div class="items-center hidden md:flex"> <div class="meta-icon"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-xl" data-icon="material-symbols:tag-rounded">   <use href="#ai:material-symbols:tag-rounded"></use>  </svg> </div> <div class="flex flex-row flex-nowrap items-center"> <div class="hidden mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=MediaTek" aria-label="View all posts with the MediaTek tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> MediaTek </a><div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=Amazon" aria-label="View all posts with the Amazon tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Amazon </a><div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=Bootloader" aria-label="View all posts with the Bootloader tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Bootloader </a><div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=Exploit" aria-label="View all posts with the Exploit tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Exploit </a><div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div>
-                <a href="/archive/?tag=Reverse%20Engineering" aria-label="View all posts with the Reverse Engineering tag" class="link-lg transition text-50 text-sm font-medium
-                                hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Reverse Engineering </a>  </div> </div> </div> <!-- description --> <div class="transition text-75 mb-3.5 pr-4" data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> Unlocking the bootloader of the old but gold Amazon Fire HD6 / HD7 2014 </div> <!-- word count and read time  --> <div class="text-sm text-black/30 dark:text-white/30 flex gap-4 transition" data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> <div data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> 6330  words </div> <div data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;">|</div> <div data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> 32  minutes </div> </div> </div>  <a href="/posts/hacking-2014-tablet/" aria-label="Hacking a 2014 tablet... in 2024!" class="!hidden md:!flex btn-regular w-[3.25rem]
-         absolute right-3 top-3 bottom-3 rounded-xl bg-[var(--enter-btn-bg)]
-         hover:bg-[var(--enter-btn-bg-hover)] active:bg-[var(--enter-btn-bg-active)] active:scale-95
-        " data-astro-cid-iyiqi2so="" style="--coverWidth: 28%;"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="transition text-[var(--primary)] text-4xl mx-auto" data-astro-cid-iyiqi2so="true" data-icon="material-symbols:chevron-right-rounded">   <use href="#ai:material-symbols:chevron-right-rounded"></use>  </svg> </a>]]></content>
+        <title type="html"><![CDATA[BreachForums logs reveal anonymizers of choice for shady characters]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/blocking_shady_network/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/blocking_shady_network/"/>
+        <updated>2026-03-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/blocking_shady_network/" data-link-cta="yes" data-link-text="BreachForums logs reveal anonymizers of choice for shady characters" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--4f08fba6-7229-4788-a276-2c94ad1d4b5b/03312026-OTI-BreachForums-Hero-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--4f08fba6-7229-4788-a276-2c94ad1d4b5b/03312026-OTI-BreachForums-Hero-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta-www/en_us/blog/threat-intelligence/breachfroums-blog/03312026-OTI_BreachForums_Hero.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">29 Mar 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">BreachForums logs reveal anonymizers of choice for shady characters</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                29 Mar 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LiteLLM supply chain attack: an explainer for identity pros]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/litellm-supply-chain-attack--an-explainer-for-identity-pros/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/litellm-supply-chain-attack--an-explainer-for-identity-pros/"/>
+        <updated>2026-03-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/litellm-supply-chain-attack--an-explainer-for-identity-pros/" data-link-cta="yes" data-link-text="LiteLLM supply chain attack: an explainer for identity pros" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--fb702671-0c6d-42e2-8671-07af26cfcff3/dollsandkeys-jpg.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--fb702671-0c6d-42e2-8671-07af26cfcff3/dollsandkeys-jpg.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/cards/dollsandkeys.jpg">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">25 Mar 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">LiteLLM supply chain attack: an explainer for identity pros</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                25 Mar 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disrupting ShieldGuard: a security extension primed to drain crypto wallets]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/disrupting-shieldguard--a-security-extension-primed-to-drain-cry/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/disrupting-shieldguard--a-security-extension-primed-to-drain-cry/"/>
+        <updated>2026-03-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/disrupting-shieldguard--a-security-extension-primed-to-drain-cry/" data-link-cta="yes" data-link-text="Disrupting ShieldGuard: a security extension primed to drain crypto wallets" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--0cbec35c-54dc-4a7b-a308-b80774aa92ad/SG-homepage-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--0cbec35c-54dc-4a7b-a308-b80774aa92ad/SG-homepage-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/shieldguards/SG_homepage.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">17 Mar 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Disrupting ShieldGuard: a security extension primed to drain crypto wallets</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                17 Mar 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vietnam-based cybercrime markets enable account sign-ups at scale]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/vietnamese-cybercrime-operation-enables-fraudulent-account-signups/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/vietnamese-cybercrime-operation-enables-fraudulent-account-signups/"/>
+        <updated>2026-03-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/vietnamese-cybercrime-operation-enables-fraudulent-account-signups/" data-link-cta="yes" data-link-text="Vietnam-based cybercrime markets enable account sign-ups at scale" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--00755330-d0b3-4732-87c8-b81eaa8e62ea/hieu-jeremy-video-tease-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--00755330-d0b3-4732-87c8-b81eaa8e62ea/hieu-jeremy-video-tease-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/cards/hieu_jeremy_video_tease.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">01 Mar 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Vietnam-based cybercrime markets enable account sign-ups at scale</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                01 Mar 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Universities exposed to account takeover risk from contract cheating services]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/universities-contract-cheating-services/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/universities-contract-cheating-services/"/>
+        <updated>2026-02-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/universities-contract-cheating-services/" data-link-cta="yes" data-link-text="Universities exposed to account takeover risk from contract cheating services" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--bbc706a3-aa23-44f5-8fde-6543195188ef/categoty-image-threat-intelligence-advisory-1-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--bbc706a3-aa23-44f5-8fde-6543195188ef/categoty-image-threat-intelligence-advisory-1-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/categoty-image-threat-intelligence-advisory-1.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">16 Feb 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Universities exposed to account takeover risk from contract cheating services</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                16 Feb 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The North Korean on your payroll]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/the-north-korean-on-your-payroll/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/the-north-korean-on-your-payroll/"/>
+        <updated>2026-02-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/the-north-korean-on-your-payroll/" data-link-cta="yes" data-link-text="The North Korean on your payroll" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--035c6465-825a-49ff-b3fd-b57175fde27f/dprk-newhire-card-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--035c6465-825a-49ff-b3fd-b57175fde27f/dprk-newhire-card-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/dprk-payroll/dprk_newhire_card.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">11 Feb 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">The North Korean on your payroll</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                11 Feb 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detecting OpenClaw using advanced posture checks]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/detecting-openclaw-advanced-posture-checks/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/detecting-openclaw-advanced-posture-checks/"/>
+        <updated>2026-02-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/detecting-openclaw-advanced-posture-checks/" data-link-cta="yes" data-link-text="Detecting OpenClaw using advanced posture checks" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--5ffad8c4-0456-4fcd-86a9-ebd5aa862a6e/crab-top-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--5ffad8c4-0456-4fcd-86a9-ebd5aa862a6e/crab-top-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/cards/crab_top.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">10 Feb 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Detecting OpenClaw using advanced posture checks</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                10 Feb 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Phishing kits adapt to the script of callers]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/phishing-kits-adapt-to-the-script-of-callers/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/phishing-kits-adapt-to-the-script-of-callers/"/>
+        <updated>2026-01-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/phishing-kits-adapt-to-the-script-of-callers/" data-link-cta="yes" data-link-text="Phishing kits adapt to the script of callers" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--c1ee68ec-2aa7-4043-a6c3-b0c97e7a21c6/01232026-Phishing-kits-adopt-to-the-script-of-callers-hero-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--c1ee68ec-2aa7-4043-a6c3-b0c97e7a21c6/01232026-Phishing-kits-adopt-to-the-script-of-callers-hero-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/01232026_Phishing%20kits%20adopt%20to%20the%20script%20of%20callers_hero.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">22 Jan 2026</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Phishing kits adapt to the script of callers</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                22 Jan 2026
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jobseekers exploited in fake recruiter phishing campaigns]]></title>
+        <id>https://www.okta.com/blog/threat-intelligence/jobseekers-exploited-in-fake-recruiter-phishing-campaigns/</id>
+        <link href="https://www.okta.com/blog/threat-intelligence/jobseekers-exploited-in-fake-recruiter-phishing-campaigns/"/>
+        <updated>2025-12-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="cmp-related-pages-card__link" href="/blog/threat-intelligence/jobseekers-exploited-in-fake-recruiter-phishing-campaigns/" data-link-cta="yes" data-link-text="Jobseekers exploited in fake recruiter phishing campaigns" data-nav-hierarchy="" data-component-name="card" data-component-type="card">
+        <div class="cmp-related-pages-card__thumbnail">
+            
+                <img class="cmp-customer-story-card__bg" alt="" loading="lazy" srcset="/adobe/dynamicmedia/deliver/dm-aid--c61ee0a2-495d-48a4-805d-3b3219e6a9c3/15-Meta-Splash-FakeRecruitment-png.webp?width=800&amp;preferwebp=true 800w, /adobe/dynamicmedia/deliver/dm-aid--c61ee0a2-495d-48a4-805d-3b3219e6a9c3/15-Meta-Splash-FakeRecruitment-png.webp?width=1280&amp;preferwebp=true 1280w" sizes="(max-width: 1200px) 800px, 1280px" data-fallback-srcset="/content/dam/okta---digital/en_us/images/blog/threat-intelligence/fake-recruiter/15-Meta_Splash_FakeRecruitment.png">
+            
+            
+        </div>
+        <div class="cmp-related-pages-card__text-content">
+            <span class="cmp-related-pages-card__overline cmp-card__overline">
+                <span class="cmp-related-pages-card__overline__tag">Threat Intelligence</span>
+                <span class="cmp-related-pages-card__overline__separator"> • </span> 
+                <span class="cmp-card__top-date">19 Dec 2025</span> 
+            </span>
+            <h3 class="cmp-related-pages-card__title cmp-card__title">Jobseekers exploited in fake recruiter phishing campaigns</h3>
+            <span class="cmp-related-pages-card__overline cmp-card__overline cmp-card__bottom-date">
+                19 Dec 2025
+            </span>
+            <div class="cmp-related-pages-card__learn-more cmp-button">
+                <span class="cmp-button__label">Learn more</span>
+                <span class="cmp-button__icon" data-icon-category="system" data-icon-id="chevron-right" data-icon-options="{&quot;size&quot;: &quot;1rem&quot;}" data-initialized="true"><svg width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.7072 12.7072L10.2072 19.2072L8.79297 17.793L14.5859 12.0001L8.79297 6.20718L10.2072 4.79297L16.7072 11.293C16.8947 11.4805 17.0001 11.7349 17.0001 12.0001C17.0001 12.2653 16.8947 12.5196 16.7072 12.7072Z" fill="inherit"></path>
+</svg></span>
+            </div>
+        </div>
+    </a>]]></content>
     </entry>
 </feed>
