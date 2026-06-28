@@ -1,128 +1,356 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://raelize.com/blog/</id>
-    <title>raelize</title>
-    <updated>2026-06-28T17:53:54.155Z</updated>
+    <id>https://bugscale.ch/blog/</id>
+    <title>bugscale</title>
+    <updated>2026-06-28T20:00:41.590Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://raelize.com/images/Uk3Fdpje_400x400.jpg</icon>
+    <icon>https://bugscale.ch/blog/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[AI-FI: Reproducing adb to root on Google's TV Streamer using …]]></title>
-        <id>https://raelize.com/blog/ai-fi-reproducing-adb-to-root-on-googles-tv-streamer-using-claude/</id>
-        <link href="https://raelize.com/blog/ai-fi-reproducing-adb-to-root-on-googles-tv-streamer-using-claude/"/>
-        <updated>2026-06-28T17:53:49.758Z</updated>
-        <content type="html"><![CDATA[<div class="media-wrapper">
-            
-        </div>
-
-        
-        <div class="content">
-            
-            <h3><a href="https://raelize.com/blog/ai-fi-reproducing-adb-to-root-on-googles-tv-streamer-using-claude/">AI-FI: Reproducing adb to root on Google's TV Streamer using …</a></h3>
-            
-
-            <p>We reproduce our 2025 hardwear.io research where an ElectroMagnetic (EM) glitch escalates privilege from the adb shell to root on Google’s TV …</p>
-            <a class="btn btn-transparent" href="https://raelize.com/blog/ai-fi-reproducing-adb-to-root-on-googles-tv-streamer-using-claude/">Read more</a>
-        </div>]]></content>
+        <title type="html"><![CDATA[Here We Go Again: A Five-Bug Chain to Arbitrary APK Install on Samsung S25]]></title>
+        <id>https://bugscale.ch/blog/here-we-go-again-a-five-bug-chain-to-arbitrary-apk-install-on-samsung-s25/</id>
+        <link href="https://bugscale.ch/blog/here-we-go-again-a-five-bug-chain-to-arbitrary-apk-install-on-samsung-s25/"/>
+        <updated>2026-04-30T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="bg-white rounded-2xl shadow-lg border-2 border-gray-200 p-8 lg:p-10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-[var(--color-bugscale)]/30">
+              <a href="/blog/here-we-go-again-a-five-bug-chain-to-arbitrary-apk-install-on-samsung-s25/" class="block">
+                <!-- Meta Information -->
+                <div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-gray-500">
+                  <div class="flex items-center">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                      </path>
+                    </svg>
+                    <time datetime="30 April 2026">
+                      30 April 2026
+                    </time>
+                  </div>
+                  <span class="text-gray-300">•</span>
+                  <div class="flex items-center">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
+                      </path>
+                    </svg>
+                    Sacha Kozma, Yichen Chai
+                  </div>
+                  
+                    <span class="text-gray-300">•</span>
+                    <div class="flex items-center">
+                      <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
+                        </path>
+                      </svg>
+                      15 mins
+                    </div>
+                  
+                </div>
+                <!-- Title and Content -->
+                <div class="flex items-start justify-between gap-6">
+                  <div class="flex-1">
+                    <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                      Here We Go Again: A Five-Bug Chain to Arbitrary APK Install on Samsung S25
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed mb-6 text-lg">This post breaks down a bug chain we found in Samsung Galaxy Store that leads to arbitrary local APK install on the Samsung S25, using weak signature verification, an unprotected exported receiver, path traversal, predictable randomness, and a denial-of-service bug.</p>
+                    <!-- Tags -->
+                    
+                      <div class="flex flex-wrap gap-2">
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Android
+                            </span>
+                          
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Samsung
+                            </span>
+                          
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Mobile Security
+                            </span>
+                          
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Exploit
+                            </span>
+                          
+                        
+                      </div>
+                    
+                  </div>
+                  <!-- Arrow Icon -->
+                  <div class="flex-shrink-0">
+                    <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-[var(--color-bugscale)] transition-all duration-300 group-hover:scale-105">
+                      <svg class="w-6 h-6 text-gray-600 group-hover:text-white transform transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[setresuid(⚡): Glitching Google's TV Streamer from adb to …]]></title>
-        <id>https://raelize.com/blog/setresuid-glitching-google-tv-streamer-from-adb-to-root/</id>
-        <link href="https://raelize.com/blog/setresuid-glitching-google-tv-streamer-from-adb-to-root/"/>
-        <updated>2026-06-28T17:53:49.759Z</updated>
-        <content type="html"><![CDATA[<div class="media-wrapper">
-            
-        </div>
-
-        
-        <div class="content">
-            
-            <h3><a href="https://raelize.com/blog/setresuid-glitching-google-tv-streamer-from-adb-to-root/">setresuid(⚡): Glitching Google's TV Streamer from adb to …</a></h3>
-            
-
-            <p>We attacked Google’s TV Streamer 4K with an ElectroMagnetic Fault Injection (EMFI) glitch on the Mediatek MT8696’s CPU. From an …</p>
-            <a class="btn btn-transparent" href="https://raelize.com/blog/setresuid-glitching-google-tv-streamer-from-adb-to-root/">Read more</a>
-        </div>]]></content>
+        <title type="html"><![CDATA[Shoot for the Galaxies: Our Samsung S25 1-click RCE Journey]]></title>
+        <id>https://bugscale.ch/blog/shoot-for-the-galaxies-our-samsung-s25-1-click-rce-journey/</id>
+        <link href="https://bugscale.ch/blog/shoot-for-the-galaxies-our-samsung-s25-1-click-rce-journey/"/>
+        <updated>2026-03-20T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="bg-white rounded-2xl shadow-lg border-2 border-gray-200 p-8 lg:p-10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-[var(--color-bugscale)]/30">
+              <a href="/blog/shoot-for-the-galaxies-our-samsung-s25-1-click-rce-journey/" class="block">
+                <!-- Meta Information -->
+                <div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-gray-500">
+                  <div class="flex items-center">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                      </path>
+                    </svg>
+                    <time datetime="20 March 2026">
+                      20 March 2026
+                    </time>
+                  </div>
+                  <span class="text-gray-300">•</span>
+                  <div class="flex items-center">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
+                      </path>
+                    </svg>
+                    Yichen Chai, Sacha Kozma
+                  </div>
+                  
+                    <span class="text-gray-300">•</span>
+                    <div class="flex items-center">
+                      <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
+                        </path>
+                      </svg>
+                      30 mins
+                    </div>
+                  
+                </div>
+                <!-- Title and Content -->
+                <div class="flex items-start justify-between gap-6">
+                  <div class="flex-1">
+                    <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                      Shoot for the Galaxies: Our Samsung S25 1-click RCE Journey
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed mb-6 text-lg">This article covers our journey for Pwn2Own Ireland 2025, where a chain of bugs in Smart Switch eventually gave us a way to install and launch arbitrary APKs from a single link. At the center of that chain was a migration component quietly listening on a socket and parsing commands from the network.</p>
+                    <!-- Tags -->
+                    
+                      <div class="flex flex-wrap gap-2">
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Android
+                            </span>
+                          
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Samsung
+                            </span>
+                          
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Mobile Security
+                            </span>
+                          
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Exploit
+                            </span>
+                          
+                        
+                      </div>
+                    
+                  </div>
+                  <!-- Arrow Icon -->
+                  <div class="flex-shrink-0">
+                    <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-[var(--color-bugscale)] transition-all duration-300 group-hover:scale-105">
+                      <svg class="w-6 h-6 text-gray-600 group-hover:text-white transform transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AI-FI: Giving Claude Code Glitch Skills for Bypassing Secure …]]></title>
-        <id>https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot/</id>
-        <link href="https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot/"/>
-        <updated>2026-06-28T17:53:49.761Z</updated>
-        <content type="html"><![CDATA[<div class="media-wrapper">
-            
-        </div>
-
-        
-        <div class="content">
-            
-            <h3><a href="https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot/">AI-FI: Giving Claude Code Glitch Skills for Bypassing Secure …</a></h3>
-            
-
-            <p>We let an AI, namely Claude Code, orchestrate every part of a real Fault Injection (FI) attack. Driving the setup, the hardware tooling, debugging the …</p>
-            <a class="btn btn-transparent" href="https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot/">Read more</a>
-        </div>]]></content>
+        <title type="html"><![CDATA[Defending Against Software Supply Chain Attacks: A Cross-Ecosystem Guide]]></title>
+        <id>https://bugscale.ch/blog/defending-against-software-supply-chain-attacks-a-cross-ecosystem-guide/</id>
+        <link href="https://bugscale.ch/blog/defending-against-software-supply-chain-attacks-a-cross-ecosystem-guide/"/>
+        <updated>2025-10-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="bg-white rounded-2xl shadow-lg border-2 border-gray-200 p-8 lg:p-10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-[var(--color-bugscale)]/30">
+              <a href="/blog/defending-against-software-supply-chain-attacks-a-cross-ecosystem-guide/" class="block">
+                <!-- Meta Information -->
+                <div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-gray-500">
+                  <div class="flex items-center">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                      </path>
+                    </svg>
+                    <time datetime="24 October 2025">
+                      24 October 2025
+                    </time>
+                  </div>
+                  <span class="text-gray-300">•</span>
+                  <div class="flex items-center">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
+                      </path>
+                    </svg>
+                    Florent Trupheme
+                  </div>
+                  
+                    <span class="text-gray-300">•</span>
+                    <div class="flex items-center">
+                      <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
+                        </path>
+                      </svg>
+                      30 mins
+                    </div>
+                  
+                </div>
+                <!-- Title and Content -->
+                <div class="flex items-start justify-between gap-6">
+                  <div class="flex-1">
+                    <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                      Defending Against Software Supply Chain Attacks: A Cross-Ecosystem Guide
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed mb-6 text-lg">Objective is to provide a cross-ecosystem implementation guide for supply chain security, offering concrete and detailed configuration and command examples for npm, Python, Java, and Go. Recommendations are organized by maturity level with a risk comparison framework and control effectiveness analysis supporting the prioritization.</p>
+                    <!-- Tags -->
+                    
+                      <div class="flex flex-wrap gap-2">
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Software Supply Chain
+                            </span>
+                          
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Practical Remediation Guidance
+                            </span>
+                          
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Node
+                            </span>
+                          
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Java
+                            </span>
+                          
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Go
+                            </span>
+                          
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              Python
+                            </span>
+                          
+                        
+                      </div>
+                    
+                  </div>
+                  <!-- Arrow Icon -->
+                  <div class="flex-shrink-0">
+                    <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-[var(--color-bugscale)] transition-all duration-300 group-hover:scale-105">
+                      <svg class="w-6 h-6 text-gray-600 group-hover:text-white transform transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Google Wifi Pro Glitching from Root to EL3 - Part 3]]></title>
-        <id>https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-3-arbitrary-code-exec/</id>
-        <link href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-3-arbitrary-code-exec/"/>
-        <updated>2026-06-28T17:53:49.764Z</updated>
-        <content type="html"><![CDATA[<div class="media-wrapper">
-            
-        </div>
-
-        
-        <div class="content">
-            
-            <h3>
-                <a href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-3-arbitrary-code-exec/">Google Wifi Pro Glitching from Root to EL3 - Part 3</a>
-            </h3>
-            
-
-            <p>In this third blog post, we will explain in detail, how we were able get arbitrary code execution at EL3 leveraging the arbitrary write.</p>
-            <a class="btn btn-transparent" href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-3-arbitrary-code-exec/">Read more</a>
-        </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Wifi Pro Glitching from Root to EL3 - Part 2]]></title>
-        <id>https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-2-arbitrary-read-write/</id>
-        <link href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-2-arbitrary-read-write/"/>
-        <updated>2026-06-28T17:53:49.764Z</updated>
-        <content type="html"><![CDATA[<div class="media-wrapper">
-            
-        </div>
-
-        
-        <div class="content">
-            
-            <h3>
-                <a href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-2-arbitrary-read-write/">Google Wifi Pro Glitching from Root to EL3 - Part 2</a>
-            </h3>
-            
-
-            <p>In this second post, we explain in detail, how we used a single EM glitch to read and write a 32-bit value from/to an arbitrary address.</p>
-            <a class="btn btn-transparent" href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-2-arbitrary-read-write/">Read more</a>
-        </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Wifi Pro Glitching from Root to EL3 - Part 1]]></title>
-        <id>https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-1-characterization/</id>
-        <link href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-1-characterization/"/>
-        <updated>2026-06-28T17:53:49.766Z</updated>
-        <content type="html"><![CDATA[<div class="media-wrapper">
-            
-        </div>
-
-        
-        <div class="content">
-            
-            <h3>
-                <a href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-1-characterization/">Google Wifi Pro Glitching from Root to EL3 - Part 1</a>
-            </h3>
-            
-
-            <p>In this first post, we explain in detail, how we were able to inject EM glitches in order to characterize Qualcomm’s IPQ5018 SoC susceptibility …</p>
-            <a class="btn btn-transparent" href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-1-characterization/">Read more</a>
-        </div>]]></content>
+        <title type="html"><![CDATA[Dissecting CVE-2024-12695: Exploiting Object.assign() in V8]]></title>
+        <id>https://bugscale.ch/blog/dissecting-cve-2024-12695-exploiting-object-assign-in-v8/</id>
+        <link href="https://bugscale.ch/blog/dissecting-cve-2024-12695-exploiting-object-assign-in-v8/"/>
+        <updated>2025-06-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="bg-white rounded-2xl shadow-lg border-2 border-gray-200 p-8 lg:p-10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-[var(--color-bugscale)]/30">
+              <a href="/blog/dissecting-cve-2024-12695-exploiting-object-assign-in-v8/" class="block">
+                <!-- Meta Information -->
+                <div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-gray-500">
+                  <div class="flex items-center">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                      </path>
+                    </svg>
+                    <time datetime="12 June 2025">
+                      12 June 2025
+                    </time>
+                  </div>
+                  <span class="text-gray-300">•</span>
+                  <div class="flex items-center">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
+                      </path>
+                    </svg>
+                    Dimitri Fourny
+                  </div>
+                  
+                    <span class="text-gray-300">•</span>
+                    <div class="flex items-center">
+                      <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
+                        </path>
+                      </svg>
+                      20 mins
+                    </div>
+                  
+                </div>
+                <!-- Title and Content -->
+                <div class="flex items-start justify-between gap-6">
+                  <div class="flex-1">
+                    <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                      Dissecting CVE-2024-12695: Exploiting Object.assign() in V8
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed mb-6 text-lg">Bug 383647255 was reported to the Chromium bug tracker on December 12, 2024. In this article, we will look at the root cause of this vulnerability and walk through how it can be exploited to achieve arbitrary read/write access in V8, the JavaScript engine used by Chrome and other Chromium-based browsers.</p>
+                    <!-- Tags -->
+                    
+                      <div class="flex flex-wrap gap-2">
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              browser
+                            </span>
+                          
+                        
+                          
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
+                              chrome
+                            </span>
+                          
+                        
+                      </div>
+                    
+                  </div>
+                  <!-- Arrow Icon -->
+                  <div class="flex-shrink-0">
+                    <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-[var(--color-bugscale)] transition-all duration-300 group-hover:scale-105">
+                      <svg class="w-6 h-6 text-gray-600 group-hover:text-white transform transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>]]></content>
     </entry>
 </feed>
