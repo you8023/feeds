@@ -1,29 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://kerbit.io/#research</id>
-    <title>kerbit</title>
-    <updated>2026-06-28T21:45:30.007Z</updated>
+    <id>https://xclow3n.github.io/</id>
+    <title>xclow3n</title>
+    <updated>2026-06-28T23:46:01.750Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://kerbit.io/static/images/png/favicon.png</icon>
+    <icon>https://xclow3n.github.io/avatar.svg</icon>
     <entry>
-        <title type="html"><![CDATA[SMC Broadband Router Root RCE]]></title>
-        <id>https://kerbit.io/research/read/blog/5</id>
-        <link href="https://kerbit.io/research/read/blog/5"/>
-        <updated>2026-06-28T21:43:38.178Z</updated>
-        <content type="html"><![CDATA[<a href="/research/read/blog/5"><img src="/static/blog/472d103a190df8ea857a1ec398e320f7be1e3dcc1452132648b9c5c25d9bc73d/thumb.jpg"><div class="research-card-content"><p class="research-card-title">SMC Broadband Router Root RCE</p><p class="research-card-description">A route's handler copies a parameter to a global object which allows us to write a crafted message and add our own session via a memory corruption vulnerability. Another handler allows us to inject a command into the OS. Read on for More.</p><div class="secondary-btn">Read More</div>   </div></a>]]></content>
+        <title type="html"><![CDATA[0]]></title>
+        <id>https://xclow3n.github.io/post/7</id>
+        <link href="https://xclow3n.github.io/post/7"/>
+        <updated>2026-06-28T23:44:14.147Z</updated>
+        <content type="html"><![CDATA[▶ PRESS START]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Pascom: The story of 3 bugs that lead to unauthed RCE.]]></title>
-        <id>https://kerbit.io/research/read/blog/4</id>
-        <link href="https://kerbit.io/research/read/blog/4"/>
-        <updated>2026-06-28T21:43:38.181Z</updated>
-        <content type="html"><![CDATA[<a href="/research/read/blog/4"><img src="/static/blog/0cd36e73ac06c16e61b26d4374a5196faf64eae83a21c1da48fff29996e19ca1/thumb.jpg"><div class="research-card-content"><p class="research-card-title">Pascom: The story of 3 bugs that lead to unauthed RCE.</p><p class="research-card-description">A detailed post on how I chained 3 vulnerabilities (A path traversal, An SSRF in an external piece of software and a post-authentication RCE) into a full pre-auth RCE in Pascoms Cloud phone system. </p><div class="secondary-btn">Read More</div>   </div></a>]]></content>
+        <title type="html"><![CDATA[Testing AI for Vulnerability Research: 4 Approaches & Where I Failed]]></title>
+        <id>https://xclow3n.github.io/post/7</id>
+        <link href="https://xclow3n.github.io/post/7"/>
+        <updated>2026-06-28T23:44:14.161Z</updated>
+        <content type="html"><![CDATA[<div class="feat-num">01</div> <div class="min-w-0"> <div class="feat-meta"> <span class="feat-badge">latest</span> <span>March 2026</span> <span style="opacity:.5;">·</span> <span>research</span> </div> <h3 class="feat-title">Testing AI for Vulnerability Research: 4 Approaches &amp; Where I Failed</h3> <p class="feat-excerpt">Tested 4 AI-assisted approaches for finding vulnerabilities over one week. Found real bugs - 14 confirmed vulns in one target in 20 minutes. Also burned time on an approach that found nothing useful. Honest breakdown of what worked and what didn't.</p> <div class="grow-tags"><span>AI</span><span>Vulnerability Research</span><span>SAML</span><span>HTTP Smuggling</span></div> </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Multiple vulnerabilities in VoipMonitor.]]></title>
-        <id>https://kerbit.io/research/read/blog/3</id>
-        <link href="https://kerbit.io/research/read/blog/3"/>
-        <updated>2026-06-28T21:43:38.183Z</updated>
-        <content type="html"><![CDATA[<a href="/research/read/blog/3"><img src="/static/blog/9afd3dcafe445748998ecc2c5b13a73a9f154583ce6d0de90a86560145739380/thumb.jpg"><div class="research-card-content"><p class="research-card-title">Multiple vulnerabilities in VoipMonitor.</p><p class="research-card-description">I discovered and reported a few bugs in VoipMonitor ranging from a simple authentication bypass to a full RCE chain. Here I'll describe "most" of these bugs. The issues have been patched in VoipMonitor GUI version 24.97. If you use this product, Please update your installation. If you're not interested in reading the details, There's a short demo at the end.</p><div class="secondary-btn">Read More</div>   </div></a>]]></content>
+        <title type="html"><![CDATA[Breaking Pingora: HTTP Request Smuggling & Cache Poisoning in Cloudflare's Reverse Proxy]]></title>
+        <id>https://xclow3n.github.io/post/6</id>
+        <link href="https://xclow3n.github.io/post/6"/>
+        <updated>2026-06-28T23:44:14.167Z</updated>
+        <content type="html"><![CDATA[<div class="grow-num">02</div> <div class="min-w-0"> <div class="grow-meta">March 2026 <span style="opacity:.5;">·</span> research</div> <h3 class="grow-title">Breaking Pingora: HTTP Request Smuggling &amp; Cache Poisoning in Cloudflare's Reverse Proxy</h3> <div class="grow-tags"><span>HTTP Smuggling</span><span>Cache Poisoning</span><span>Cloudflare</span><span>Pingora</span></div> </div> <div class="grow-arrow">→</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML Sanitize Bypass Using MXSS]]></title>
+        <id>https://xclow3n.github.io/post/5</id>
+        <link href="https://xclow3n.github.io/post/5"/>
+        <updated>2026-06-28T23:44:14.168Z</updated>
+        <content type="html"><![CDATA[<div class="grow-num">03</div> <div class="min-w-0"> <div class="grow-meta">November 2024 <span style="opacity:.5;">·</span> research</div> <h3 class="grow-title">HTML Sanitize Bypass Using MXSS</h3> <div class="grow-tags"><span>Security Research</span><span>MXSS</span><span>XSS</span><span>HTML Sanitization</span></div> </div> <div class="grow-arrow">→</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Email Parser Discrepancy in Nodemailer]]></title>
+        <id>https://xclow3n.github.io/post/4</id>
+        <link href="https://xclow3n.github.io/post/4"/>
+        <updated>2026-06-28T23:44:14.169Z</updated>
+        <content type="html"><![CDATA[<div class="grow-num">04</div> <div class="min-w-0"> <div class="grow-meta">November 2024 <span style="opacity:.5;">·</span> research</div> <h3 class="grow-title">Email Parser Discrepancy in Nodemailer</h3> <div class="grow-tags"><span>Security Research</span><span>Nodemailer</span><span>Email Parser</span><span>RFC 5322</span></div> </div> <div class="grow-arrow">→</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intergalactic Bounty - HTB University CTF 2024]]></title>
+        <id>https://xclow3n.github.io/post/3</id>
+        <link href="https://xclow3n.github.io/post/3"/>
+        <updated>2026-06-28T23:44:14.170Z</updated>
+        <content type="html"><![CDATA[<div class="grow-num">05</div> <div class="min-w-0"> <div class="grow-meta">November 2024 <span style="opacity:.5;">·</span> my challenges</div> <h3 class="grow-title">Intergalactic Bounty - HTB University CTF 2024</h3> <div class="grow-tags"><span>CTF</span><span>Web</span><span>Nodemailer</span><span>MXSS</span></div> </div> <div class="grow-arrow">→</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EncoDecept - HTB University CTF 2024]]></title>
+        <id>https://xclow3n.github.io/post/2</id>
+        <link href="https://xclow3n.github.io/post/2"/>
+        <updated>2026-06-28T23:44:14.171Z</updated>
+        <content type="html"><![CDATA[<div class="grow-num">06</div> <div class="min-w-0"> <div class="grow-meta">November 2024 <span style="opacity:.5;">·</span> my challenges</div> <h3 class="grow-title">EncoDecept - HTB University CTF 2024</h3> <div class="grow-tags"><span>CTF</span><span>Web</span><span>Cache Deception</span><span>XSS</span></div> </div> <div class="grow-arrow">→</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7]]></title>
+        <id>https://xclow3n.github.io/post/7</id>
+        <link href="https://xclow3n.github.io/post/7"/>
+        <updated>2026-06-28T23:44:14.148Z</updated>
+        <content type="html"><![CDATA[▶ LATEST WRITEUP]]></content>
     </entry>
 </feed>

@@ -1,158 +1,558 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lab.ctbb.show/research/all/</id>
-    <title>ctbb_research</title>
-    <updated>2026-06-28T21:45:30.100Z</updated>
+    <id>https://blog.axelarator.net/</id>
+    <title>axelarator</title>
+    <updated>2026-06-28T23:46:01.825Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://lab.ctbb.show/research/all/favicon.ico</icon>
+    <icon>https://blog.axelarator.net/content/images/size/w256h256/format/jpeg/2025/10/EW7A8077.jpg</icon>
     <entry>
-        <title type="html"><![CDATA[WAF Bypasses via h2 framing]]></title>
-        <id>https://lab.ctbb.show/research/h2-WAF-Bypasses</id>
-        <link href="https://lab.ctbb.show/research/h2-WAF-Bypasses"/>
-        <updated>2026-06-01T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/h2-WAF-Bypasses">WAF Bypasses via h2 framing</a>
-                </h3>
-                <div class="article-subtitle">How HTTP/2’s multi-frame architecture allows attackers to bypass WAFs by exploiting timing delays, protocol translation flaws, and incomplete body inspection across various reverse proxies</div>
-                <div class="article-meta">
-                    <span class="article-date">Jun 1, 2026</span> • <span class="article-author"><span>Diyan Apostolov</span><img src="/assets/images/fsi.jpg" alt="Diyan Apostolov" class="author-avatar"></span>
+        <title type="html"><![CDATA[We Have Packet Capture at Home]]></title>
+        <id>https://blog.axelarator.net/we-have-packet-capture-at-home/</id>
+        <link href="https://blog.axelarator.net/we-have-packet-capture-at-home/"/>
+        <updated>2026-05-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/we-have-packet-capture-at-home/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2026/05/DSCF2139.jpg 300w,
+                    /content/images/size/w600/2026/05/DSCF2139.jpg 600w,
+                    /content/images/size/w1000/2026/05/DSCF2139.jpg 1000w,
+                    /content/images/size/w2000/2026/05/DSCF2139.jpg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2026/05/DSCF2139.jpg" alt="We Have Packet Capture at Home" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/we-have-packet-capture-at-home/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
                 </div>
-                <div class="article-excerpt"># HTTP/2 WAF Bypass: A Black-Box Methodology ## Introduction Modern web infrastructure relies heavil...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="Proxies">Proxies</span><span class="article-tag" data-tag="WAFBypasses">WAFBypasses</span></div>]]></content>
+                <h2 class="post-card-title">
+                    We Have Packet Capture at Home
+                </h2>
+            </header>
+                <div class="post-card-excerpt">When hunting for suspicious activity in an environment, surface level host:port values may only tell so much. For example, Falcon has an #event_simpleName called NetworkConnectIP4. In this event are useful fields like Local/RemoteAddressIP4, Local/RemotePort, and Protocol. Correlating that activity with ProcessRollup2 events could reveal a process</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2026-05-13">13 May 2026</time>
+                <span class="post-card-meta-length">13 min read</span>
+        </footer>
+
+    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Dot-Dot-Slash That Frameworks Hand You: CSPT Across Every Major Frontend Framework]]></title>
-        <id>https://lab.ctbb.show/research/the-dot-dot-slash-that-frameworks-hand-you</id>
-        <link href="https://lab.ctbb.show/research/the-dot-dot-slash-that-frameworks-hand-you"/>
-        <updated>2026-04-02T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/the-dot-dot-slash-that-frameworks-hand-you">The Dot-Dot-Slash That Frameworks Hand You: CSPT Across Every Major Frontend Framework</a>
-                </h3>
-                <div class="article-subtitle">A deep-dive into the URL decoding pipelines of React Router, Next.js, Vue Router, Angular, SvelteKit, Nuxt, Ember, and SolidStart. Showing how every major frontend framework creates path traversal primitives and how those primitives escalate to CSPT, SSRF, and XSS.</div>
-                <div class="article-meta">
-                    <span class="article-date">Apr 2, 2026</span> • <span class="article-author"><span>Jonathan Dunn</span><img src="/assets/images/xssdoctor.jpg" alt="Jonathan Dunn" class="author-avatar"></span>
+        <title type="html"><![CDATA[Learn By Doing - AWS]]></title>
+        <id>https://blog.axelarator.net/learn-by-doing-aws/</id>
+        <link href="https://blog.axelarator.net/learn-by-doing-aws/"/>
+        <updated>2026-02-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/learn-by-doing-aws/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2026/02/EW7A7610.jpg 300w,
+                    /content/images/size/w600/2026/02/EW7A7610.jpg 600w,
+                    /content/images/size/w1000/2026/02/EW7A7610.jpg 1000w,
+                    /content/images/size/w2000/2026/02/EW7A7610.jpg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2026/02/EW7A7610.jpg" alt="Learn By Doing - AWS" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/learn-by-doing-aws/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
                 </div>
-                <div class="article-excerpt">{% raw %} _How I mapped the decoding pipelines of 8 frontend frameworks and found that every single ...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="cspt">cspt</span><span class="article-tag" data-tag="path-traversal">path-traversal</span><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="url-decoding">url-decoding</span><span class="article-tag" data-tag="frontend-frameworks">frontend-frameworks</span></div>]]></content>
+                <h2 class="post-card-title">
+                    Learn By Doing - AWS
+                </h2>
+            </header>
+                <div class="post-card-excerpt">It's 2026 and I have somehow managed to only work with on-prem environments my entire career thus far. This year though, I plan to change that. Back in December 2025, I decided to start fresh and enrolled in the AWS Certified Cloud Practitioner pathway via https://skillbuilder.aws/</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2026-02-12">12 Feb 2026</time>
+                <span class="post-card-meta-length">12 min read</span>
+        </footer>
+
+    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Slacker Slash: Bypassing Bun Security Middleware via Normalization Desync]]></title>
-        <id>https://lab.ctbb.show/research/bun-slacker-slash</id>
-        <link href="https://lab.ctbb.show/research/bun-slacker-slash"/>
-        <updated>2026-03-13T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/bun-slacker-slash">Slacker Slash: Bypassing Bun Security Middleware via Normalization Desync</a>
-                </h3>
-                <div class="article-subtitle">How WHATWG URL compliance in Bun creates a normalization desync with POSIX utilities, enabling double-slash and partial-path middleware bypasses.</div>
-                <div class="article-meta">
-                    <span class="article-date">Mar 13, 2026</span> • <span class="article-author"><span>Mohamed Salem Eddah</span><img src="/assets/images/ze3ter.jpg" alt="Mohamed Salem Eddah" class="author-avatar"></span>
+        <title type="html"><![CDATA[Cobalt Strike Beacon Analysis]]></title>
+        <id>https://blog.axelarator.net/cobalt-strike-beacon-analysis/</id>
+        <link href="https://blog.axelarator.net/cobalt-strike-beacon-analysis/"/>
+        <updated>2025-12-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/cobalt-strike-beacon-analysis/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2025/12/DSCF0587.jpg 300w,
+                    /content/images/size/w600/2025/12/DSCF0587.jpg 600w,
+                    /content/images/size/w1000/2025/12/DSCF0587.jpg 1000w,
+                    /content/images/size/w2000/2025/12/DSCF0587.jpg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2025/12/DSCF0587.jpg" alt="Cobalt Strike Beacon Analysis" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/cobalt-strike-beacon-analysis/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
                 </div>
-                <div class="article-excerpt">Modern JavaScript runtimes like Bun advertise strict WHATWG URL compliance, but this creates a silen...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="bun">bun</span><span class="article-tag" data-tag="path-traversal">path-traversal</span><span class="article-tag" data-tag="middleware-bypass">middleware-bypass</span><span class="article-tag" data-tag="javascript">javascript</span></div>]]></content>
+                <h2 class="post-card-title">
+                    Cobalt Strike Beacon Analysis
+                </h2>
+            </header>
+                <div class="post-card-excerpt">I've written before about how servers with open directories can make it easy to deploy malware but in this post I'll explore a benefit of a single open directory on a site, https://beaconbeagle.com/, which hosts configuration files of Cobalt Strike beacons.
+
+Thanks to some</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-12-29">29 Dec 2025</time>
+                <span class="post-card-meta-length">9 min read</span>
+        </footer>
+
+    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Can a Predicted window.open Target Really Be That Impactful?]]></title>
-        <id>https://lab.ctbb.show/research/can-a-predicted-window-open-target-really-be-that-impactful</id>
-        <link href="https://lab.ctbb.show/research/can-a-predicted-window-open-target-really-be-that-impactful"/>
-        <updated>2026-02-25T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/can-a-predicted-window-open-target-really-be-that-impactful">Can a Predicted <code>window.open</code> Target Really Be That Impactful?</a>
-                </h3>
-                <div class="article-subtitle">This post walks through a real-world OAuth popup hijacking attack. The target had solid defenses origin validation, source checking, CSP but a single predictable window.open() target name created an exploitable gap. It also serves as a real-world case use of iframe hijacking, showing how I managed to squeeze a vulnerability with a useless behavior.</div>
-                <div class="article-meta">
-                    <span class="article-date">Feb 25, 2026</span> • <span class="article-author"><span>Achbani Ismail</span><img src="/assets/images/alien.jpg" alt="Achbani Ismail" class="author-avatar"></span>
+        <title type="html"><![CDATA[Revisiting a Malicious Word Doc]]></title>
+        <id>https://blog.axelarator.net/revisiting-a-malicious-word-doc/</id>
+        <link href="https://blog.axelarator.net/revisiting-a-malicious-word-doc/"/>
+        <updated>2025-11-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/revisiting-a-malicious-word-doc/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2025/11/000885690013.jpg 300w,
+                    /content/images/size/w600/2025/11/000885690013.jpg 600w,
+                    /content/images/size/w1000/2025/11/000885690013.jpg 1000w,
+                    /content/images/size/w2000/2025/11/000885690013.jpg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2025/11/000885690013.jpg" alt="Revisiting a Malicious Word Doc" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/revisiting-a-malicious-word-doc/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
                 </div>
-                <div class="article-excerpt">&gt; **TL;DR:** A predictable `window.open()` target name in [REDACTED]'s OAuth flow allowed att...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="trick">trick</span><span class="article-tag" data-tag="client-side">client-side</span><span class="article-tag" data-tag="bypass">bypass</span></div>]]></content>
+                <h2 class="post-card-title">
+                    Revisiting a Malicious Word Doc
+                </h2>
+            </header>
+                <div class="post-card-excerpt">This research was originally conducted in 2022. An eternity I know. When looking at my notes preparing to add them to this blog, they were lacking a lot of context and in-depth details of what the analysis was revealing. I also hadn't investigated an OLE file in a</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-11-17">17 Nov 2025</time>
+                <span class="post-card-meta-length">7 min read</span>
+        </footer>
+
+    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Total.js RCE gadgets all around]]></title>
-        <id>https://lab.ctbb.show/research/totaljs-rce-gadgets</id>
-        <link href="https://lab.ctbb.show/research/totaljs-rce-gadgets"/>
-        <updated>2026-02-23T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/totaljs-rce-gadgets">Total.js RCE gadgets all around</a>
-                </h3>
-                <div class="article-subtitle">RCEs, RCEs...they are all around and Total.js framework will be in our scope this time</div>
-                <div class="article-meta">
-                    <span class="article-date">Feb 23, 2026</span> • <span class="article-author"><span>Diyan Apostolov</span><img src="/assets/images/fsi.jpg" alt="Diyan Apostolov" class="author-avatar"></span>
+        <title type="html"><![CDATA[Close Those Ports: Exploring Splashtop RMM and Relays]]></title>
+        <id>https://blog.axelarator.net/close-those-ports-exploring-splashtop-rmm-and-relays/</id>
+        <link href="https://blog.axelarator.net/close-those-ports-exploring-splashtop-rmm-and-relays/"/>
+        <updated>2025-11-06T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/close-those-ports-exploring-splashtop-rmm-and-relays/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2025/11/DSCF1991.jpg 300w,
+                    /content/images/size/w600/2025/11/DSCF1991.jpg 600w,
+                    /content/images/size/w1000/2025/11/DSCF1991.jpg 1000w,
+                    /content/images/size/w2000/2025/11/DSCF1991.jpg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2025/11/DSCF1991.jpg" alt="Close Those Ports: Exploring Splashtop RMM and Relays" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/close-those-ports-exploring-splashtop-rmm-and-relays/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
                 </div>
-                <div class="article-excerpt"># Overview In this article, I'll walk you through some security vulnerabilities recently found i...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="TotalJS">TotalJS</span><span class="article-tag" data-tag="RCE">RCE</span><span class="article-tag" data-tag="RCEGadgets">RCEGadgets</span></div>]]></content>
+                <h2 class="post-card-title">
+                    Close Those Ports: Exploring Splashtop RMM and Relays
+                </h2>
+            </header>
+                <div class="post-card-excerpt">When looking for suspicious network connectivity, it's important to understand what other services might be running on the destination IP. It could be a harmless Python server with an open directory hosting files but additional analysis revealed it's running Empire at the same time. That open</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-11-06">06 Nov 2025</time>
+                <span class="post-card-meta-length">8 min read</span>
+        </footer>
+
+    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Azure DevOps Agent Interception]]></title>
-        <id>https://lab.ctbb.show/research/azure-devops-agent-interception</id>
-        <link href="https://lab.ctbb.show/research/azure-devops-agent-interception"/>
-        <updated>2026-02-10T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/azure-devops-agent-interception">Azure DevOps Agent Interception</a>
-                </h3>
-                <div class="article-subtitle">Pivoting from a compromised Windows VM to the cloud by intercepting Azure DevOps Agent traffic</div>
-                <div class="article-meta">
-                    <span class="article-date">Feb 10, 2026</span> • <span class="article-author"><span>Diyan Apostolov</span><img src="/assets/images/fsi.jpg" alt="Diyan Apostolov" class="author-avatar"></span>
+        <title type="html"><![CDATA[Hunting for EDR-Freeze]]></title>
+        <id>https://blog.axelarator.net/hunting-for-edr-freeze/</id>
+        <link href="https://blog.axelarator.net/hunting-for-edr-freeze/"/>
+        <updated>2025-10-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/hunting-for-edr-freeze/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2025/10/DSCF1323-2.JPG 300w,
+                    /content/images/size/w600/2025/10/DSCF1323-2.JPG 600w,
+                    /content/images/size/w1000/2025/10/DSCF1323-2.JPG 1000w,
+                    /content/images/size/w2000/2025/10/DSCF1323-2.JPG 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2025/10/DSCF1323-2.JPG" alt="Hunting for EDR-Freeze" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/hunting-for-edr-freeze/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
                 </div>
-                <div class="article-excerpt">Imagine the scenario: you just ended up on a Windows Azure VM with RCE in your hands and start wonde...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="AzureDevOpsAgent">AzureDevOpsAgent</span><span class="article-tag" data-tag="CloudPE">CloudPE</span><span class="article-tag" data-tag="PE">PE</span></div>]]></content>
+                <h2 class="post-card-title">
+                    Hunting for EDR-Freeze
+                </h2>
+            </header>
+                <div class="post-card-excerpt">EDR bypassing has become a technique of choice for threat actors and has enabled a market of tools being sold on cybercrime forums:
+
+ * Unit42 uncovered a variant of EDRSandBlast being sold on XSS and Exploit.
+ * CheckPoint Research uncovered the use of a vulnerable driver, Truesight.sys, which evaded the Microsoft</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-10-31">31 Oct 2025</time>
+                <span class="post-card-meta-length">10 min read</span>
+        </footer>
+
+    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Parse and Parse: MIME Validation Bypass to XSS via Parser Differential]]></title>
-        <id>https://lab.ctbb.show/research/parse-and-parse-mime-validation-bypass-to-xss-via-parser-differential</id>
-        <link href="https://lab.ctbb.show/research/parse-and-parse-mime-validation-bypass-to-xss-via-parser-differential"/>
-        <updated>2026-01-30T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/parse-and-parse-mime-validation-bypass-to-xss-via-parser-differential">Parse and Parse: MIME Validation Bypass to XSS via Parser Differential</a>
-                </h3>
-                <div class="article-subtitle">This research is an extension of Content-Type research from BlackFan. More specifically, the response Content-Type tricks. Unfortunately, the multiple Content-Type trick is not clearly explained by BlackFan. Therefore, I'll explain and demonstrate how a single comma character can cause a parsing difference between the browser and different MIME type parser libraries.</div>
-                <div class="article-meta">
-                    <span class="article-date">Jan 30, 2026</span> • <span class="article-author"><span>Tang Cheuk Hei</span><img src="/assets/images/siunam.png" alt="Tang Cheuk Hei" class="author-avatar"></span>
+        <title type="html"><![CDATA[Homelabs Don't End, They Improve]]></title>
+        <id>https://blog.axelarator.net/homelabs-dont-end-they-improve/</id>
+        <link href="https://blog.axelarator.net/homelabs-dont-end-they-improve/"/>
+        <updated>2025-10-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/homelabs-dont-end-they-improve/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2025/10/000660220008.jpg 300w,
+                    /content/images/size/w600/2025/10/000660220008.jpg 600w,
+                    /content/images/size/w1000/2025/10/000660220008.jpg 1000w,
+                    /content/images/size/w2000/2025/10/000660220008.jpg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2025/10/000660220008.jpg" alt="Homelabs Don't End, They Improve" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/homelabs-dont-end-they-improve/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
                 </div>
-                <div class="article-excerpt"># Parse and Parse: MIME Validation Bypass to XSS via Parser Differential This research is an extensi...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="parser-differential">parser-differential</span><span class="article-tag" data-tag="client-side">client-side</span><span class="article-tag" data-tag="mime">mime</span><span class="article-tag" data-tag="xss">xss</span></div>]]></content>
+                <h2 class="post-card-title">
+                    Homelabs Don't End, They Improve
+                </h2>
+            </header>
+                <div class="post-card-excerpt">There's a never ending list of homelab projects, ways to build one, hardware requirements, goals for running one, single server or 24U rack, the list goes on.
+
+I started my journey long ago when I thought VirtualBox and an external HDD was all I needed. Fast forward to</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2025-10-29">29 Oct 2025</time>
+                <span class="post-card-meta-length">8 min read</span>
+        </footer>
+
+    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Achieving remote code execution in LangSmith Playground using unsafe template formatting]]></title>
-        <id>https://lab.ctbb.show/research/langsmith-unsafe-formatting-to-rce</id>
-        <link href="https://lab.ctbb.show/research/langsmith-unsafe-formatting-to-rce"/>
-        <updated>2026-01-12T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/langsmith-unsafe-formatting-to-rce">Achieving remote code execution in LangSmith Playground using unsafe template formatting</a>
-                </h3>
-                <div class="article-subtitle">This post details the discovery and exploitation of a vulnerability in LangSmith Playground that allowed arbitrary code execution through unsafe template formatting</div>
-                <div class="article-meta">
-                    <span class="article-date">Jan 12, 2026</span> • <span class="article-author"><span>Vladislav Nechakhin</span><img src="/assets/images/0xn3va_logo.png" alt="Vladislav Nechakhin" class="author-avatar"></span>
+        <title type="html"><![CDATA[LNK Stomping]]></title>
+        <id>https://blog.axelarator.net/lnk-stomping/</id>
+        <link href="https://blog.axelarator.net/lnk-stomping/"/>
+        <updated>2024-09-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/lnk-stomping/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2025/10/DSCF1916.jpg 300w,
+                    /content/images/size/w600/2025/10/DSCF1916.jpg 600w,
+                    /content/images/size/w1000/2025/10/DSCF1916.jpg 1000w,
+                    /content/images/size/w2000/2025/10/DSCF1916.jpg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2025/10/DSCF1916.jpg" alt="LNK Stomping" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/lnk-stomping/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
                 </div>
-                <div class="article-excerpt">These days, everything and everyone is becoming AI-driven, and I'm no exception. While I was pla...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="template formatting">template formatting</span><span class="article-tag" data-tag="jinja2">jinja2</span><span class="article-tag" data-tag="rce">rce</span><span class="article-tag" data-tag="python">python</span></div>]]></content>
+                <h2 class="post-card-title">
+                    LNK Stomping
+                </h2>
+            </header>
+                <div class="post-card-excerpt">This&nbsp;PoC provided by Elastic&nbsp;is about LNK Stomping. Currently Microsoft has not provided a CVE for this method; however, they did release CVE-2024-38212, a MotW bypass vulnerability, but only included SmartScreen, not Smart App Control (SAC). As this testing is done on Windows 10 with build number 19045, I</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-09-04">04 Sep 2024</time>
+                <span class="post-card-meta-length">6 min read</span>
+        </footer>
+
+    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Stopping Redirects]]></title>
-        <id>https://lab.ctbb.show/research/stopping-redirects</id>
-        <link href="https://lab.ctbb.show/research/stopping-redirects"/>
-        <updated>2025-12-04T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/stopping-redirects">Stopping Redirects</a>
-                </h3>
-                <div class="article-subtitle">Interesting ways to stop redirects of another site in the browser for use in OAuth and exploits requiring interaction</div>
-                <div class="article-meta">
-                    <span class="article-date">Dec 4, 2025</span> • <span class="article-author"><span>Jorian Woltjer</span><img src="/assets/images/JW_Logo_V2_Transparant.webp" alt="Jorian Woltjer" class="author-avatar"></span>
+        <title type="html"><![CDATA[The A in CTI Stands for Actionable]]></title>
+        <id>https://blog.axelarator.net/the-a-in-cti-stands-for-actionable/</id>
+        <link href="https://blog.axelarator.net/the-a-in-cti-stands-for-actionable/"/>
+        <updated>2024-04-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/the-a-in-cti-stands-for-actionable/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2025/10/DSCF1404.jpg 300w,
+                    /content/images/size/w600/2025/10/DSCF1404.jpg 600w,
+                    /content/images/size/w1000/2025/10/DSCF1404.jpg 1000w,
+                    /content/images/size/w2000/2025/10/DSCF1404.jpg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2025/10/DSCF1404.jpg" alt="The A in CTI Stands for Actionable" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/the-a-in-cti-stands-for-actionable/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
                 </div>
-                <div class="article-excerpt">This post will cover various ways to cancel or pause redirects in the browser, since I've recent...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="browser">browser</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="oauth">oauth</span><span class="article-tag" data-tag="redirect">redirect</span></div>]]></content>
+                <h2 class="post-card-title">
+                    The A in CTI Stands for Actionable
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Cyber Threat Intelligence is about communicating the latest information on threat actors and incidents to organizations in a timely manner. Analysis in these areas allows an organization to maintain situational awareness of the current threat landscape, organizational impacts, and threat actor motives. The level of information that needs to be</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2024-04-13">13 Apr 2024</time>
+                <span class="post-card-meta-length">7 min read</span>
+        </footer>
+
+    </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Vega CVE-2025-59840 - Unusual XSS Technique toString gadget chains]]></title>
-        <id>https://lab.ctbb.show/research/CVE-2025-59840-unusual-xss-technique-toString-gadget-chains</id>
-        <link href="https://lab.ctbb.show/research/CVE-2025-59840-unusual-xss-technique-toString-gadget-chains"/>
-        <updated>2025-12-01T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/CVE-2025-59840-unusual-xss-technique-toString-gadget-chains">Vega CVE-2025-59840 - Unusual XSS Technique toString gadget chains</a>
-                </h3>
-                <div class="article-subtitle">A writeup on the technical details of a Vega Visualization library XSS bug that uses interesting techniques to get controlled JS function execution.</div>
-                <div class="article-meta">
-                    <span class="article-date">Dec 1, 2025</span> • <span class="article-author"><span>Nick Copi</span><img src="/assets/images/7urb0pfp.png" alt="Nick Copi" class="author-avatar"></span>
+        <title type="html"><![CDATA[Hunting C2s with Nuclei]]></title>
+        <id>https://blog.axelarator.net/hunting-c2s-with-nuclei/</id>
+        <link href="https://blog.axelarator.net/hunting-c2s-with-nuclei/"/>
+        <updated>2023-09-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/hunting-c2s-with-nuclei/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2025/10/DSCF0311.jpg 300w,
+                    /content/images/size/w600/2025/10/DSCF0311.jpg 600w,
+                    /content/images/size/w1000/2025/10/DSCF0311.jpg 1000w,
+                    /content/images/size/w2000/2025/10/DSCF0311.jpg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2025/10/DSCF0311.jpg" alt="Hunting C2s with Nuclei" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/hunting-c2s-with-nuclei/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
                 </div>
-                <div class="article-excerpt">Vega is an open source visualization library with support for rich custom configurations, including ...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="client-side">client-side</span></div>]]></content>
+                <h2 class="post-card-title">
+                    Hunting C2s with Nuclei
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Overview
+
+For a long time now, I’ve been using Censys/Shodan and DomainTools to look up hosts, attempt to correlate infrastructure to find overlaps and potentially attribute to C2s and other malicious hosts. There are so many data points to look at like JARM signatures, certificate data including historical</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2023-09-04">04 Sep 2023</time>
+                <span class="post-card-meta-length">10 min read</span>
+        </footer>
+
+    </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring the Mozi Botnet Network]]></title>
+        <id>https://blog.axelarator.net/exploring-the-mozi-botnet-network/</id>
+        <link href="https://blog.axelarator.net/exploring-the-mozi-botnet-network/"/>
+        <updated>2023-04-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/exploring-the-mozi-botnet-network/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2025/10/DSCF0378-1.jpg 300w,
+                    /content/images/size/w600/2025/10/DSCF0378-1.jpg 600w,
+                    /content/images/size/w1000/2025/10/DSCF0378-1.jpg 1000w,
+                    /content/images/size/w2000/2025/10/DSCF0378-1.jpg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2025/10/DSCF0378-1.jpg" alt="Exploring the Mozi Botnet Network" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/exploring-the-mozi-botnet-network/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    Exploring the Mozi Botnet Network
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Discovered in 2019, Mozi is a P2P botnet using the DHT protocol that spreads via Telnet with weak passwords and known exploits. Evolved from the source code of several known malware families; Gafgyt, Mirai and IoT Reaper, Mozi is capable of DDoS attacks, data exfiltration and command or payload execution.</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2023-04-11">11 Apr 2023</time>
+                <span class="post-card-meta-length">7 min read</span>
+        </footer>
+
+    </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Abusing Code Signing Certificates]]></title>
+        <id>https://blog.axelarator.net/abusing-code-signing-certificates/</id>
+        <link href="https://blog.axelarator.net/abusing-code-signing-certificates/"/>
+        <updated>2023-02-15T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/abusing-code-signing-certificates/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2025/10/IMG_8442.jpeg 300w,
+                    /content/images/size/w600/2025/10/IMG_8442.jpeg 600w,
+                    /content/images/size/w1000/2025/10/IMG_8442.jpeg 1000w,
+                    /content/images/size/w2000/2025/10/IMG_8442.jpeg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2025/10/IMG_8442.jpeg" alt="Abusing Code Signing Certificates" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/abusing-code-signing-certificates/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    Abusing Code Signing Certificates
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Authenticode Signature
+
+The point of code signing certificates is to verify the file came from a trusted source, the file was not tampered with prior to receiving it, and the file’s origin can be validated. Code signing creates a hash of the code and encrypts it with a private</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2023-02-15">15 Feb 2023</time>
+                <span class="post-card-meta-length">11 min read</span>
+        </footer>
+
+    </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Identify the cloud perimeter of a target]]></title>
+        <id>https://blog.axelarator.net/identify-the-cloud-perimeter-of-a-target/</id>
+        <link href="https://blog.axelarator.net/identify-the-cloud-perimeter-of-a-target/"/>
+        <updated>2022-08-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/identify-the-cloud-perimeter-of-a-target/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2025/10/IMG_5488-Edit-1.jpg 300w,
+                    /content/images/size/w600/2025/10/IMG_5488-Edit-1.jpg 600w,
+                    /content/images/size/w1000/2025/10/IMG_5488-Edit-1.jpg 1000w,
+                    /content/images/size/w2000/2025/10/IMG_5488-Edit-1.jpg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2025/10/IMG_5488-Edit-1.jpg" alt="Identify the cloud perimeter of a target" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/identify-the-cloud-perimeter-of-a-target/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    Identify the cloud perimeter of a target
+                </h2>
+            </header>
+                <div class="post-card-excerpt">This is a quick guide to
+
+
+Identify Service
+
+ * Use OSINT to determine the provider and region your target is located in.
+   * Shodan for example has a&nbsp;cloud.region&nbsp;filter that lists what region the IP is located in. Some examples:
+     * GCP: us-central1
+     * Azure: northeurope
+     * AWS: us-east-1
+ * Download corresponding IP ranges</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2022-08-03">03 Aug 2022</time>
+                <span class="post-card-meta-length">1 min read</span>
+        </footer>
+
+    </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using a Honeypot to Capture TeamTNT Activity]]></title>
+        <id>https://blog.axelarator.net/using-a-honeypot-to-capture-teamtnt-activity/</id>
+        <link href="https://blog.axelarator.net/using-a-honeypot-to-capture-teamtnt-activity/"/>
+        <updated>2022-06-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/using-a-honeypot-to-capture-teamtnt-activity/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2025/10/DSCF0936.jpg 300w,
+                    /content/images/size/w600/2025/10/DSCF0936.jpg 600w,
+                    /content/images/size/w1000/2025/10/DSCF0936.jpg 1000w,
+                    /content/images/size/w2000/2025/10/DSCF0936.jpg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2025/10/DSCF0936.jpg" alt="Using a Honeypot to Capture TeamTNT Activity" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/using-a-honeypot-to-capture-teamtnt-activity/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    Using a Honeypot to Capture TeamTNT Activity
+                </h2>
+            </header>
+                <div class="post-card-excerpt">This idea came from a combination of an Intezer guide on building a honeypot and a Sysdig article on triaging malicious Docker containers. I decided to test it myself and stood up an EC2 instance running Ubuntu Server 18.04 w/ Docker running an Alpine Linux container. The actual telemetry</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2022-06-23">23 Jun 2022</time>
+                <span class="post-card-meta-length">4 min read</span>
+        </footer>
+
+    </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qakbot Distributes MSI Files]]></title>
+        <id>https://blog.axelarator.net/qakbot-distributes-msi-files/</id>
+        <link href="https://blog.axelarator.net/qakbot-distributes-msi-files/"/>
+        <updated>2022-06-21T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="post-card-image-link" href="/qakbot-distributes-msi-files/">
+
+        <img class="post-card-image" srcset="/content/images/size/w300/2025/10/IMG_8486.jpg 300w,
+                    /content/images/size/w600/2025/10/IMG_8486.jpg 600w,
+                    /content/images/size/w1000/2025/10/IMG_8486.jpg 1000w,
+                    /content/images/size/w2000/2025/10/IMG_8486.jpg 2000w" sizes="(max-width: 1000px) 400px, 800px" src="/content/images/size/w600/2025/10/IMG_8486.jpg" alt="Qakbot Distributes MSI Files" loading="lazy">
+
+
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/qakbot-distributes-msi-files/">
+            <header class="post-card-header">
+                <div class="post-card-tags">
+                </div>
+                <h2 class="post-card-title">
+                    Qakbot Distributes MSI Files
+                </h2>
+            </header>
+                <div class="post-card-excerpt">Executive Summary
+
+ * In mid-April 2022, Mandiant observed UNC2500 campaigns using MSI packages to distribute Qakbot payloads.
+ * This change comes shortly after Microsoft’s announcement that macros from Office documents downloaded from the internet (ZoneIdentifier ADS) will be blocked by default.
+ * This new payload uses a botnet ID&nbsp;AA,&nbsp;which is</div>
+        </a>
+
+        <footer class="post-card-meta">
+            <time class="post-card-meta-date" datetime="2022-06-21">21 Jun 2022</time>
+                <span class="post-card-meta-length">6 min read</span>
+        </footer>
+
+    </div>]]></content>
     </entry>
 </feed>
