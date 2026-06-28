@@ -1,127 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://devansh.bearblog.dev/writings/</id>
-    <title>devansh</title>
-    <updated>2026-06-28T20:00:41.643Z</updated>
+    <id>https://oobs.io/posts</id>
+    <title>Out of Bounds</title>
+    <updated>2026-06-28T21:45:30.045Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E</icon>
+    <icon>https://oobs.io/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[On LLMs and Vulnerability Research]]></title>
-        <id>https://devansh.bearblog.dev/on-llms-and-vuln-research/</id>
-        <link href="https://devansh.bearblog.dev/on-llms-and-vuln-research/"/>
-        <updated>2026-06-28T19:58:30.714Z</updated>
-        <content type="html"><![CDATA[2026-04-06 ➤ <a href="https://devansh.bearblog.dev/on-llms-and-vuln-research/">On LLMs and Vulnerability Research</a>]]></content>
+        <title type="html"><![CDATA[TP-Link ER605 DDNS Pre-Auth RCE: Chaining Three CVEs]]></title>
+        <id>https://oobs.io/posts/er605-1day-exploit/</id>
+        <link href="https://oobs.io/posts/er605-1day-exploit/"/>
+        <updated>2026-02-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2 class="post-title">
+          <a href="/posts/er605-1day-exploit/">TP-Link ER605 DDNS Pre-Auth RCE: Chaining Three CVEs</a>
+        </h2>
+        <div class="post-meta"><time class="post-date">2026-02-04</time><span class="post-author">Barrack</span></div>
+
+        
+
+        
+  <img src="/posts/er605-1day-exploit/tplink_er605.png" class="post-cover" alt="TP-Link ER605 DDNS Pre-Auth RCE: Chaining Three CVEs" title="Cover Image">
+
+
+        <div class="post-content">
+          
+            <p>Technical analysis and exploit reproduction of CVE-2024-5242/5243/5244 chain targeting TP-Link ER605 router’s cmxddnsd daemon, originally discovered at Pwn2Own Toronto 2023. Details BSS overflow for ASLR bypass and stack overflow for ROP-based RCE.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/er605-1day-exploit/">[Read more]</a>
+          </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[More egress filtering bypasses in harden-runner]]></title>
-        <id>https://devansh.bearblog.dev/harden-runner-bypass/</id>
-        <link href="https://devansh.bearblog.dev/harden-runner-bypass/"/>
-        <updated>2026-06-28T19:58:30.715Z</updated>
-        <content type="html"><![CDATA[2026-03-15 ➤ <a href="https://devansh.bearblog.dev/harden-runner-bypass/">More egress filtering bypasses in harden-runner</a>]]></content>
+        <title type="html"><![CDATA[Four Bytes, One Lie: A SMAP-Free Confidence Trick on Kernel Pointers]]></title>
+        <id>https://oobs.io/posts/four-bytes-one-lie/</id>
+        <link href="https://oobs.io/posts/four-bytes-one-lie/"/>
+        <updated>2025-11-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2 class="post-title">
+          <a href="/posts/four-bytes-one-lie/">Four Bytes, One Lie: A SMAP-Free Confidence Trick on Kernel Pointers</a>
+        </h2>
+        <div class="post-meta"><time class="post-date">2025-11-03</time><span class="post-author">Hyeonjin</span></div>
+
+        
+
+        
+  <img src="/posts/four-bytes-one-lie/result.png" class="post-cover" alt="Four Bytes, One Lie: A SMAP-Free Confidence Trick on Kernel Pointers" title="Cover Image">
+
+
+        <div class="post-content">
+          
+            <p>A deep-dive technical analysis of CVE-2025-50168, a Windows kernel vulnerability (Type Confusion in DirectComposition) presented at Pwn2Own Berlin 2025. This post details how a 4-byte OOB write is escalated into an AAR/AAW primitive using IoRing to achieve Local Privilege Escalation (LPE).</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/four-bytes-one-lie/">[Read more]</a>
+          </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Needle in the haystack: LLMs for vulnerability research]]></title>
-        <id>https://devansh.bearblog.dev/needle-in-the-haystack/</id>
-        <link href="https://devansh.bearblog.dev/needle-in-the-haystack/"/>
-        <updated>2026-06-28T19:58:30.715Z</updated>
-        <content type="html"><![CDATA[2026-03-10 ➤ <a href="https://devansh.bearblog.dev/needle-in-the-haystack/">Needle in the haystack: LLMs for vulnerability research</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Four vulnerabilities in Parse Server]]></title>
-        <id>https://devansh.bearblog.dev/parse-server/</id>
-        <link href="https://devansh.bearblog.dev/parse-server/"/>
-        <updated>2026-06-28T19:58:30.716Z</updated>
-        <content type="html"><![CDATA[2026-03-07 ➤ <a href="https://devansh.bearblog.dev/parse-server/">Four vulnerabilities in Parse Server</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bypassing egress filtering in BullFrog using shared IP]]></title>
-        <id>https://devansh.bearblog.dev/virtual-hosting-bypass/</id>
-        <link href="https://devansh.bearblog.dev/virtual-hosting-bypass/"/>
-        <updated>2026-06-28T19:58:30.717Z</updated>
-        <content type="html"><![CDATA[2026-03-02 ➤ <a href="https://devansh.bearblog.dev/virtual-hosting-bypass/">Bypassing egress filtering in BullFrog using shared IP</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacking Better-Hub]]></title>
-        <id>https://devansh.bearblog.dev/better-hub/</id>
-        <link href="https://devansh.bearblog.dev/better-hub/"/>
-        <updated>2026-06-28T19:58:30.718Z</updated>
-        <content type="html"><![CDATA[2026-03-01 ➤ <a href="https://devansh.bearblog.dev/better-hub/">Hacking Better-Hub</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sudo restriction bypass in BullFrog GitHub Action]]></title>
-        <id>https://devansh.bearblog.dev/sudo-bypass/</id>
-        <link href="https://devansh.bearblog.dev/sudo-bypass/"/>
-        <updated>2026-06-28T19:58:30.719Z</updated>
-        <content type="html"><![CDATA[2026-02-28 ➤ <a href="https://devansh.bearblog.dev/sudo-bypass/">sudo restriction bypass in BullFrog GitHub Action</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bypassing egress filtering in BullFrog GitHub Action]]></title>
-        <id>https://devansh.bearblog.dev/bullfrog-dns-pipelining/</id>
-        <link href="https://devansh.bearblog.dev/bullfrog-dns-pipelining/"/>
-        <updated>2026-06-28T19:58:30.720Z</updated>
-        <content type="html"><![CDATA[2026-02-28 ➤ <a href="https://devansh.bearblog.dev/bullfrog-dns-pipelining/">Bypassing egress filtering in BullFrog GitHub Action</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bypassing egress logging in harden-runner GitHub Action]]></title>
-        <id>https://devansh.bearblog.dev/harden-runner/</id>
-        <link href="https://devansh.bearblog.dev/harden-runner/"/>
-        <updated>2026-06-28T19:58:30.721Z</updated>
-        <content type="html"><![CDATA[2026-02-11 ➤ <a href="https://devansh.bearblog.dev/harden-runner/">Bypassing egress logging in harden-runner GitHub Action</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HonoJS JWT/JWKS Algorithm Confusion]]></title>
-        <id>https://devansh.bearblog.dev/honojs/</id>
-        <link href="https://devansh.bearblog.dev/honojs/"/>
-        <updated>2026-06-28T19:58:30.722Z</updated>
-        <content type="html"><![CDATA[2026-01-13 ➤ <a href="https://devansh.bearblog.dev/honojs/">HonoJS JWT/JWKS Algorithm Confusion</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ElysiaJS Cookie Signature Validation Bypass]]></title>
-        <id>https://devansh.bearblog.dev/elysiajs/</id>
-        <link href="https://devansh.bearblog.dev/elysiajs/"/>
-        <updated>2026-06-28T19:58:30.723Z</updated>
-        <content type="html"><![CDATA[2026-01-10 ➤ <a href="https://devansh.bearblog.dev/elysiajs/">ElysiaJS Cookie Signature Validation Bypass</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI powered SAST : The New Frontier?]]></title>
-        <id>https://devansh.bearblog.dev/ai-sast/</id>
-        <link href="https://devansh.bearblog.dev/ai-sast/"/>
-        <updated>2026-06-28T19:58:30.723Z</updated>
-        <content type="html"><![CDATA[2025-12-07 ➤ <a href="https://devansh.bearblog.dev/ai-sast/">AI powered SAST : The New Frontier?</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hitchhiker's Guide to Attack Surface Management]]></title>
-        <id>https://devansh.bearblog.dev/attack-surface-management/</id>
-        <link href="https://devansh.bearblog.dev/attack-surface-management/"/>
-        <updated>2026-06-28T19:58:30.724Z</updated>
-        <content type="html"><![CDATA[2025-11-07 ➤ <a href="https://devansh.bearblog.dev/attack-surface-management/">Hitchhiker's Guide to Attack Surface Management</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI pentest scoping playbook]]></title>
-        <id>https://devansh.bearblog.dev/ai-pentest-scoping/</id>
-        <link href="https://devansh.bearblog.dev/ai-pentest-scoping/"/>
-        <updated>2026-06-28T19:58:30.725Z</updated>
-        <content type="html"><![CDATA[2025-11-04 ➤ <a href="https://devansh.bearblog.dev/ai-pentest-scoping/">AI pentest scoping playbook</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On AI Slop vs OSS Security]]></title>
-        <id>https://devansh.bearblog.dev/ai-slop/</id>
-        <link href="https://devansh.bearblog.dev/ai-slop/"/>
-        <updated>2026-06-28T19:58:30.726Z</updated>
-        <content type="html"><![CDATA[2025-11-03 ➤ <a href="https://devansh.bearblog.dev/ai-slop/">On AI Slop vs OSS Security</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fragility of The Internet]]></title>
-        <id>https://devansh.bearblog.dev/fragility-of-the-internet/</id>
-        <link href="https://devansh.bearblog.dev/fragility-of-the-internet/"/>
-        <updated>2026-06-28T19:58:30.727Z</updated>
-        <content type="html"><![CDATA[2025-02-10 ➤ <a href="https://devansh.bearblog.dev/fragility-of-the-internet/">Fragility of The Internet</a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Horrors of DNS: A Tale of DNS takeovers due to mistyped NS]]></title>
-        <id>https://devansh.bearblog.dev/horrors-of-dns/</id>
-        <link href="https://devansh.bearblog.dev/horrors-of-dns/"/>
-        <updated>2026-06-28T19:58:30.728Z</updated>
-        <content type="html"><![CDATA[2025-01-28 ➤ <a href="https://devansh.bearblog.dev/horrors-of-dns/">Horrors of DNS: A Tale of DNS takeovers due to mistyped NS</a>]]></content>
+        <title type="html"><![CDATA[About]]></title>
+        <id>https://oobs.io/posts/about/</id>
+        <link href="https://oobs.io/posts/about/"/>
+        <updated>2024-01-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2 class="post-title">
+          <a href="/posts/about/">About</a>
+        </h2>
+        <div class="post-meta"><time class="post-date">2024-01-01</time><span class="post-author">David</span></div>
+
+        
+
+        
+  <img src="/posts/about/sunrise.jpg" class="post-cover" alt="About" title="Cover Image">
+
+
+        <div class="post-content">
+          
+            <p><strong>Out of Bounds</strong> is a cybersecurity company driven by curiosity and a passion for pushing boundaries. We specialize in vulnerability research, diving deep into systems to uncover the flaws that others miss.</p>
+<p>We believe offensive security has the power to make the digital world safer. Our team combines elite technical expertise with a creative mindset—transforming complex problems into real-world breakthroughs.</p>
+<p>Our journey began on the global stage with back-to-back wins at <a href="https://www.zerodayinitiative.com/blog/2024/3/21/pwn2own-vancouver-2024-day-two-results">Pwn2Own Vancouver 2024</a> and <a href="https://www.zerodayinitiative.com/blog/2025/5/15/pwn2own-berlin-2025-day-one-results">Berlin 2025</a>. But for us, that’s just the beginning. We’re here to keep raising the bar and redefining the possibilities of security research.</p>
+<p>Beyond research, we are committed to empowering the next generation. We actively mentor exceptional young talent, providing them with the tools, guidance, and the global stage they need to thrive.</p>
+<p>We’re still early in our journey, and we can’t wait for what’s next.</p>
+<p><em>Happy Hacking!</em></p>
+
+          
+        </div>]]></content>
     </entry>
 </feed>
