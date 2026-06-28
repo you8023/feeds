@@ -1,24 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.msecops.de/blog/</id>
-    <title>MSec Operations Blog</title>
-    <updated>2026-06-28T06:51:13.259Z</updated>
+    <id>https://olearysec.com/research/</id>
+    <title>olearysec</title>
+    <updated>2026-06-28T10:20:47.959Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://www.msecops.de/blog/favicon.ico</icon>
+    <icon>https://olearysec.com/favicon.svg</icon>
     <entry>
-        <title type="html"><![CDATA[Introduction to RustPack]]></title>
-        <id>https://www.msecops.de/blog/posts/rustpack-intro/</id>
-        <link href="https://www.msecops.de/blog/posts/rustpack-intro/"/>
-        <updated>2026-05-02T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<time datetime="2026-05-02">2026-05-02</time>
-<a href="/blog/posts/rustpack-intro/">Introduction to RustPack</a><p class="post-excerpt">The philosophy and initial usage guide for RustPack</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introduction to RustPack]]></title>
-        <id>https://www.msecops.de/blog/posts/rustpack-intro/</id>
-        <link href="https://www.msecops.de/blog/posts/rustpack-intro/"/>
-        <updated>2026-05-02T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<time datetime="2026-05-02">2026-05-02</time>
-<a href="/blog/posts/rustpack-intro/">Introduction to RustPack</a><p class="post-excerpt">The philosophy and initial usage guide for RustPack</p>]]></content>
+        <title type="html"><![CDATA[ConfigConfusion: GCP IAM Authorization Bypass — Google Said 'Nice Catch' Then Left It Unpatched]]></title>
+        <id>https://olearysec.com/research/config-connector-authorization-bypass/</id>
+        <link href="https://olearysec.com/research/config-connector-authorization-bypass/"/>
+        <updated>2026-06-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://olearysec.com/research/config-connector-authorization-bypass/" class="research-card">
+            <div class="research-card-content">
+                <h3>ConfigConfusion: GCP IAM Authorization Bypass — Google Said 'Nice Catch' Then Left It Unpatched</h3>
+                <p class="excerpt">GCP IAM authorization bypass via Config Connector confused deputy allows any Kubernetes user to escalate to GCP Organization Owner, bypassing all IAM controls. CVSS 10.0. Google's VRP acknowledged it, then refused the bounty by miscategorizing it as a Config Connector issue instead of an IAM bypass.</p>
+                <div class="research-card-meta">
+                    <span class="meta-item">Jun 18, 2026</span>
+                    <span class="meta-item">Google</span>
+                    <span class="meta-item">None (vendor rejected)</span>
+                </div>
+            </div>
+            <div class="research-card-side">
+                
+                <span class="severity severity-critical">Critical</span>
+                
+                
+                <span class="cvss">10.0</span>
+                
+            </div>
+        </a>
+        
+        <a href="https://olearysec.com/research/azure-backup-aks-silent-patch/" class="research-card">
+            <div class="research-card-content">
+                <h3>Microsoft Silently Patched a CVSS 9.9 Privilege Escalation in Azure Backup for AKS</h3>
+                <p class="excerpt">CERT/CC validated a critical privilege escalation in Azure Backup for AKS (VU#284781). Microsoft rejected it, then silently patched it without assigning a CVE or notifying customers.</p>
+                <div class="research-card-meta">
+                    <span class="meta-item">May 12, 2026</span>
+                    <span class="meta-item">Microsoft</span>
+                    <span class="meta-item">None (vendor rejected)</span>
+                </div>
+            </div>
+            <div class="research-card-side">
+                
+                <span class="severity severity-critical">Critical</span>
+                
+                
+                <span class="cvss">9.9</span>
+                
+            </div>
+        </a>]]></content>
     </entry>
 </feed>

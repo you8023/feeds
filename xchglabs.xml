@@ -1,120 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://xchglabs.com/blog/index.html</id>
-    <title>xchglabs</title>
-    <updated>2026-06-28T06:51:13.260Z</updated>
+    <id>https://raelize.com/blog/</id>
+    <title>raelize</title>
+    <updated>2026-06-28T10:20:47.958Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://xchglabs.com/assets/favicon-32.png</icon>
+    <icon>https://raelize.com/images/Uk3Fdpje_400x400.jpg</icon>
     <entry>
-        <title type="html"><![CDATA[Fuzzing GPSD, Part 3: The Bugs]]></title>
-        <id>https://xchglabs.com/blog/fuzzing-gpsd-part-three.html</id>
-        <link href="https://xchglabs.com/blog/fuzzing-gpsd-part-three.html"/>
-        <updated>2026-06-09T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="trophy-link" href="fuzzing-gpsd-part-three.html">
-            <div class="trophy-meta-row">
-              <span class="trophy-target">GPSD master @ 43a340603</span>
-              <span class="trophy-date">2026-06-09</span>
-            </div>
-            <h3 class="trophy-title">Fuzzing GPSD, Part 3: The Bugs</h3>
-            <p class="trophy-body">
-              The GPSD fuzzing series moves from harnesses to findings: eight memory-safety issues from public work item #397, including Skytraq RCE, NMEA format strings, AIS writes, and parser leaks.
-            </p>
-          </a>]]></content>
+        <title type="html"><![CDATA[AI-FI: Reproducing adb to root on Google's TV Streamer using …]]></title>
+        <id>https://raelize.com/blog/ai-fi-reproducing-adb-to-root-on-googles-tv-streamer-using-claude/</id>
+        <link href="https://raelize.com/blog/ai-fi-reproducing-adb-to-root-on-googles-tv-streamer-using-claude/"/>
+        <updated>2026-06-28T10:20:43.908Z</updated>
+        <content type="html"><![CDATA[<div class="media-wrapper">
+            
+        </div>
+
+        
+        <div class="content">
+            
+            <h3><a href="https://raelize.com/blog/ai-fi-reproducing-adb-to-root-on-googles-tv-streamer-using-claude/">AI-FI: Reproducing adb to root on Google's TV Streamer using …</a></h3>
+            
+
+            <p>We reproduce our 2025 hardwear.io research where an ElectroMagnetic (EM) glitch escalates privilege from the adb shell to root on Google’s TV …</p>
+            <a class="btn btn-transparent" href="https://raelize.com/blog/ai-fi-reproducing-adb-to-root-on-googles-tv-streamer-using-claude/">Read more</a>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Fuzzing GPSD, Part 2: Lessons Learned]]></title>
-        <id>https://xchglabs.com/blog/fuzzing-gpsd-part-two.html</id>
-        <link href="https://xchglabs.com/blog/fuzzing-gpsd-part-two.html"/>
-        <updated>2026-06-09T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="trophy-link" href="fuzzing-gpsd-part-two.html">
-            <div class="trophy-meta-row">
-              <span class="trophy-target">gpsd_fuzzer lessons</span>
-              <span class="trophy-date">2026-06-09</span>
-            </div>
-            <h3 class="trophy-title">Fuzzing GPSD, Part 2: Lessons Learned</h3>
-            <p class="trophy-body">
-              What changed after actually running the fuzzer: target selection, mutation scheduling, corpus quality, performance, and crash triage.
-            </p>
-          </a>]]></content>
+        <title type="html"><![CDATA[setresuid(⚡): Glitching Google's TV Streamer from adb to …]]></title>
+        <id>https://raelize.com/blog/setresuid-glitching-google-tv-streamer-from-adb-to-root/</id>
+        <link href="https://raelize.com/blog/setresuid-glitching-google-tv-streamer-from-adb-to-root/"/>
+        <updated>2026-06-28T10:20:43.912Z</updated>
+        <content type="html"><![CDATA[<div class="media-wrapper">
+            
+        </div>
+
+        
+        <div class="content">
+            
+            <h3><a href="https://raelize.com/blog/setresuid-glitching-google-tv-streamer-from-adb-to-root/">setresuid(⚡): Glitching Google's TV Streamer from adb to …</a></h3>
+            
+
+            <p>We attacked Google’s TV Streamer 4K with an ElectroMagnetic Fault Injection (EMFI) glitch on the Mediatek MT8696’s CPU. From an …</p>
+            <a class="btn btn-transparent" href="https://raelize.com/blog/setresuid-glitching-google-tv-streamer-from-adb-to-root/">Read more</a>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Fuzzing GPSD, Part 1: The Lexer Harness]]></title>
-        <id>https://xchglabs.com/blog/fuzzing-gpsd-part-one.html</id>
-        <link href="https://xchglabs.com/blog/fuzzing-gpsd-part-one.html"/>
-        <updated>2026-06-09T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="trophy-link" href="fuzzing-gpsd-part-one.html">
-            <div class="trophy-meta-row">
-              <span class="trophy-target">gpsd_fuzzer</span>
-              <span class="trophy-date">2026-06-09</span>
-            </div>
-            <h3 class="trophy-title">Fuzzing GPSD, Part 1: The Lexer Harness</h3>
-            <p class="trophy-body">
-              Building the structure-aware LibAFL fuzzer: fake a consistent <code>gps_lexer_t</code>, mutate GPS protocol shapes, and reach real parser code.
-            </p>
-          </a>]]></content>
+        <title type="html"><![CDATA[AI-FI: Giving Claude Code Glitch Skills for Bypassing Secure …]]></title>
+        <id>https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot/</id>
+        <link href="https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot/"/>
+        <updated>2026-06-28T10:20:43.912Z</updated>
+        <content type="html"><![CDATA[<div class="media-wrapper">
+            
+        </div>
+
+        
+        <div class="content">
+            
+            <h3><a href="https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot/">AI-FI: Giving Claude Code Glitch Skills for Bypassing Secure …</a></h3>
+            
+
+            <p>We let an AI, namely Claude Code, orchestrate every part of a real Fault Injection (FI) attack. Driving the setup, the hardware tooling, debugging the …</p>
+            <a class="btn btn-transparent" href="https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot/">Read more</a>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Escaping QEMU]]></title>
-        <id>https://xchglabs.com/blog/escaping-qemu.html</id>
-        <link href="https://xchglabs.com/blog/escaping-qemu.html"/>
-        <updated>2026-05-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="trophy-link" href="escaping-qemu.html">
-            <div class="trophy-meta-row">
-              <span class="trophy-target">QEMU EDU PCI device</span>
-              <span class="trophy-date">2026-05-22</span>
-            </div>
-            <h3 class="trophy-title">Escaping QEMU</h3>
-            <p class="trophy-body">
-              A guest-to-host escape against QEMU's educational PCI device: an advisory DMA bounds check gives both a leak and a write over <code>QEMUTimer</code>'s callback fields.
-            </p>
-          </a>]]></content>
+        <title type="html"><![CDATA[Google Wifi Pro Glitching from Root to EL3 - Part 3]]></title>
+        <id>https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-3-arbitrary-code-exec/</id>
+        <link href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-3-arbitrary-code-exec/"/>
+        <updated>2026-06-28T10:20:43.913Z</updated>
+        <content type="html"><![CDATA[<div class="media-wrapper">
+            
+        </div>
+
+        
+        <div class="content">
+            
+            <h3>
+                <a href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-3-arbitrary-code-exec/">Google Wifi Pro Glitching from Root to EL3 - Part 3</a>
+            </h3>
+            
+
+            <p>In this third blog post, we will explain in detail, how we were able get arbitrary code execution at EL3 leveraging the arbitrary write.</p>
+            <a class="btn btn-transparent" href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-3-arbitrary-code-exec/">Read more</a>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[lwIP Audit Series, Part 1 of 13]]></title>
-        <id>https://xchglabs.com/blog/lwip-smtp-auth-overflow.html</id>
-        <link href="https://xchglabs.com/blog/lwip-smtp-auth-overflow.html"/>
-        <updated>2026-05-16T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="trophy-link" href="lwip-smtp-auth-overflow.html">
-            <div class="trophy-meta-row">
-              <span class="trophy-target">lwIP 2.2.1 audit series</span>
-              <span class="trophy-date">2026-05-16</span>
-            </div>
-            <h3 class="trophy-title">lwIP Audit Series, Part 1 of 13</h3>
-            <p class="trophy-body">
-              SMTP AUTH-line parsing copies server-controlled EHLO data into <code>tx_buf</code> without a clamp. Includes PoC, patch notes, and the first writeup from a 13-part lwIP audit.
-            </p>
-          </a>]]></content>
+        <title type="html"><![CDATA[Google Wifi Pro Glitching from Root to EL3 - Part 2]]></title>
+        <id>https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-2-arbitrary-read-write/</id>
+        <link href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-2-arbitrary-read-write/"/>
+        <updated>2026-06-28T10:20:43.914Z</updated>
+        <content type="html"><![CDATA[<div class="media-wrapper">
+            
+        </div>
+
+        
+        <div class="content">
+            
+            <h3>
+                <a href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-2-arbitrary-read-write/">Google Wifi Pro Glitching from Root to EL3 - Part 2</a>
+            </h3>
+            
+
+            <p>In this second post, we explain in detail, how we used a single EM glitch to read and write a 32-bit value from/to an arbitrary address.</p>
+            <a class="btn btn-transparent" href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-2-arbitrary-read-write/">Read more</a>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A KVM dirty-ring OOB]]></title>
-        <id>https://xchglabs.com/blog/kvm-dirty-ring-oob.html</id>
-        <link href="https://xchglabs.com/blog/kvm-dirty-ring-oob.html"/>
-        <updated>2026-05-16T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="trophy-link" href="kvm-dirty-ring-oob.html">
-            <div class="trophy-meta-row">
-              <span class="trophy-target">Linux KVM v6.13.7 / v7.0.6</span>
-              <span class="trophy-date">2026-05-16</span>
-            </div>
-            <h3 class="trophy-title">A KVM dirty-ring OOB</h3>
-            <p class="trophy-body">
-              A <code>u64</code> wraparound in <code>kvm_reset_dirty_gfn()</code> sends the reverse-map index 504 bytes before <code>rmap[]</code>. The access lands in vmalloc guard space and faults.
-            </p>
-          </a>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Five CVEs in dnsmasq 2.92]]></title>
-        <id>https://xchglabs.com/blog/dnsmasq-five-cves.html</id>
-        <link href="https://xchglabs.com/blog/dnsmasq-five-cves.html"/>
-        <updated>2026-05-11T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="trophy-link" href="dnsmasq-five-cves.html">
-            <div class="trophy-meta-row">
-              <span class="trophy-target">dnsmasq 2.92</span>
-              <span class="trophy-date">2026-05-11</span>
-            </div>
-            <h3 class="trophy-title">Five CVEs in dnsmasq 2.92</h3>
-            <p class="trophy-body">
-              Five vulnerabilities fixed in 2.92rel2, including CVE-2026-2291, DNSSEC parser bugs, a DHCPv6 helper overflow, and an EDNS Client Subnet validation bypass.
-            </p>
-          </a>]]></content>
+        <title type="html"><![CDATA[Google Wifi Pro Glitching from Root to EL3 - Part 1]]></title>
+        <id>https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-1-characterization/</id>
+        <link href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-1-characterization/"/>
+        <updated>2026-06-28T10:20:43.915Z</updated>
+        <content type="html"><![CDATA[<div class="media-wrapper">
+            
+        </div>
+
+        
+        <div class="content">
+            
+            <h3>
+                <a href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-1-characterization/">Google Wifi Pro Glitching from Root to EL3 - Part 1</a>
+            </h3>
+            
+
+            <p>In this first post, we explain in detail, how we were able to inject EM glitches in order to characterize Qualcomm’s IPQ5018 SoC susceptibility …</p>
+            <a class="btn btn-transparent" href="https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-1-characterization/">Read more</a>
+        </div>]]></content>
     </entry>
 </feed>
