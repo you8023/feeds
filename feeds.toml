@@ -195,6 +195,7 @@ titleSelector = "h2.heading_blog"
 linkSelector = ".card_link"
 dateSelector = "p.blog_description"
 dateFormat = "MMM do, yyyy"
+waitUntil = "networkidle"
 
 [buganizer]
 title = "buganizer"
@@ -331,6 +332,7 @@ url = "https://blog.pwnedlabs.io/all"
 entrySelector = ".blog-listing__post"
 titleSelector = ".blog-listing__post-title-link"
 linkSelector = ".blog-listing__post-title-link"
+waitUntil = "networkidle"
 
 [mobeta]
 title = "mobeta"
