@@ -1,5 +1,5 @@
 [default]
-onFail = "stale"
+onFail = "skip"
 
 [pushsecurity]
 title = "pushsecurity"
@@ -1473,6 +1473,7 @@ titleSelector = "h3 a"
 linkSelector = "h3 a"
 dateSelector = "time"
 dateFormat = "MMMM d, yyyy"
+waitUntil = "networkidle"
 
 [abstract_canvas]
 title = "Abstract Canvas"
@@ -1565,6 +1566,7 @@ titleSelector = "h2"
 linkSelector = "a[data-framer-name='Category & Title']"
 dateSelector = "div[data-framer-name='Date'] > p"
 dateFormat = "MMM dd, yyyy"
+waitUntil = "networkidle"
 
 [apple_security]
 title = "apple-security"
