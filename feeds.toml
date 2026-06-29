@@ -1612,3 +1612,29 @@ titleSelector = ".font-mono.text-base.font-bold"
 linkSelector = "*"
 dateSelector = ".font-mono.text-xs.text-dim"
 dateFormat = "MMM dd, yyyy"
+
+[groupib]
+title = "groupib"
+url = "https://www.group-ib.com/blog/"
+entrySelector = ".blogpost-card"
+titleSelector = ".blogpost-card__title"
+linkSelector = "*"
+dateSelector = ".blogpost-card__meta"
+dateFormat = "MMMM d, yyyy"
+filters = ["Technologies ·"]
+
+[hhj4ck]
+title = "hhj4ck"
+url = "https://hhj4ck.github.io/"
+entrySelector = ".post-list li"
+titleSelector = ".post-link"
+linkSelector = ".post-link"
+dateSelector = ".post-meta"
+dateFormat = "MMM d, yyyy"
+
+[syntaxerr0r]
+title = "syntaxerr0r"
+url = "https://syntax-err0r.github.io/"
+entrySelector = ".markdown-body ul li"
+titleSelector = "a"
+linkSelector = "a"
