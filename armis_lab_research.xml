@@ -1,382 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.armis.com/blog?cat=attacks-vulnerabilities</id>
-    <title>armis_attack_vul</title>
-    <updated>2026-06-29T05:21:11.495Z</updated>
+    <id>https://www.armis.com/blog/?cat=armis-research</id>
+    <title>armis_lab_research</title>
+    <updated>2026-06-29T10:15:30.836Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://www.armis.com/favicon.ico</icon>
+    <icon>https://www.armis.com/blog/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Safeguarding AI at Scale: How Armis Protects Critical NVIDIA AI Factories]]></title>
-        <id>https://www.armis.com/blog/safeguarding-ai-at-scale-how-armis-protects-critical-nvidia-ai-factories/</id>
-        <link href="https://www.armis.com/blog/safeguarding-ai-at-scale-how-armis-protects-critical-nvidia-ai-factories/"/>
-        <updated>2026-06-29T03:07:01.728Z</updated>
+        <title type="html"><![CDATA[Beyond the Scanner: Why AI-Native AppSec Must Evolve into Risk Management]]></title>
+        <id>https://www.armis.com/blog/beyond-the-scanner-why-ai-native-appsec-must-evolve-into-risk-management/</id>
+        <link href="https://www.armis.com/blog/beyond-the-scanner-why-ai-native-appsec-must-evolve-into-risk-management/"/>
+        <updated>2026-06-29T10:08:03.131Z</updated>
         <content type="html"><![CDATA[<div class="resource">
-								<a href="https://www.armis.com/blog/safeguarding-ai-at-scale-how-armis-protects-critical-nvidia-ai-factories/">
+								<a href="https://www.armis.com/blog/beyond-the-scanner-why-ai-native-appsec-must-evolve-into-risk-management/">
 																			<div class="resource__category">
 											<ul>
 																									<li>
-														Attacks &amp; Vulnerabilities													</li>
+														Armis Labs Research													</li>
 																							</ul>
 										</div><!-- /.resource__category -->
 									
 									<div class="resource__image image-fit">
-										<img width="360" height="160" src="https://www.armis.com/wp-content/uploads/2026/05/Armis-Thumbnail-Socia-NVIDIA-Timely-Blog-360x160px.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2572566 wp-post-2572564" alt="" decoding="async" srcset="https://www.armis.com/wp-content/uploads/2026/05/Armis-Thumbnail-Socia-NVIDIA-Timely-Blog-360x160px.png 360w, https://www.armis.com/wp-content/uploads/2026/05/Armis-Thumbnail-Socia-NVIDIA-Timely-Blog-360x160px-300x133.png 300w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+										<img width="1280" height="720" src="https://res.cloudinary.com/armis/images/w_1280,h_720,c_scale/f_auto,q_auto/v1773325552/beyond-the-scanner-blog/beyond-the-scanner-blog.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2571358 wp-post-2571342" alt="Beyond the Scanner - Why AI-Native AppSec Must Evolve into Risk Management" decoding="async" data-public-id="beyond-the-scanner-blog/beyond-the-scanner-blog.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1773325552" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_1280,h_720,c_scale/f_auto,q_auto/v1773325552/beyond-the-scanner-blog/beyond-the-scanner-blog.jpg?_i=AA 1280w, https://res.cloudinary.com/armis/images/w_1248,h_702,c_scale/f_auto,q_auto/v1773325552/beyond-the-scanner-blog/beyond-the-scanner-blog.jpg?_i=AA 1248w, https://res.cloudinary.com/armis/images/w_1048,h_589,c_scale/f_auto,q_auto/v1773325552/beyond-the-scanner-blog/beyond-the-scanner-blog.jpg?_i=AA 1048w, https://res.cloudinary.com/armis/images/w_848,h_477,c_scale/f_auto,q_auto/v1773325552/beyond-the-scanner-blog/beyond-the-scanner-blog.jpg?_i=AA 848w, https://res.cloudinary.com/armis/images/w_648,h_364,c_scale/f_auto,q_auto/v1773325552/beyond-the-scanner-blog/beyond-the-scanner-blog.jpg?_i=AA 648w, https://res.cloudinary.com/armis/images/w_448,h_252,c_scale/f_auto,q_auto/v1773325552/beyond-the-scanner-blog/beyond-the-scanner-blog.jpg?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_139,c_scale/f_auto,q_auto/v1773325552/beyond-the-scanner-blog/beyond-the-scanner-blog.jpg?_i=AA 248w" sizes="(max-width: 1280px) 100vw, 1280px">									</div><!-- /.resource__image -->
 
-									<div class="resource__content" style="height: 199.5px;">
+									<div class="resource__content" style="height: 188.667px;">
 										<h5 style="height: 127.667px;">
-											Safeguarding AI at Scale: How Armis Protects Critical NVIDIA AI Factories										</h5>
-																					
-										<div class="article__author">
-											<div class="card-author">
-												<div class="card__image image-fit">
-													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA" class="attachment-small size-small wp-image-25595" alt="Blog Author" decoding="async" data-public-id="images/Nadir-Izrael-author/Nadir-Izrael-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1686859058" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
-												<div class="card__content">
-													<h6>
-															By Nadir Izrael													</h6>
-					
-													<p>CTO &amp; Co-Founder</p>
-												</div><!-- /.card__content -->
-											</div><!-- /.card-author -->
-										</div><!-- /.article__author -->
-									</div><!-- /.resource__content -->
-
-									<div class="resource__actions">
-										<span>
-											<i class="fa-solid fa-circle-arrow-right"></i>
-
-											Learn More										</span>
-									</div><!-- /.resource__actions -->
-								</a>
-							</div><!-- /.resource -->]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI-Driven Automated Warfare: How the Iranian ATG Hacks Expose the Vulnerabilities of U.S. Critical Infrastructure]]></title>
-        <id>https://www.armis.com/blog/ai-driven-automated-warfare-how-the-iranian-atg-hacks-expose-the-vulnerabilities-of-us-critical-infrastructure/</id>
-        <link href="https://www.armis.com/blog/ai-driven-automated-warfare-how-the-iranian-atg-hacks-expose-the-vulnerabilities-of-us-critical-infrastructure/"/>
-        <updated>2026-06-29T03:07:01.731Z</updated>
-        <content type="html"><![CDATA[<div class="resource">
-								<a href="https://www.armis.com/blog/ai-driven-automated-warfare-how-the-iranian-atg-hacks-expose-the-vulnerabilities-of-us-critical-infrastructure/">
-																			<div class="resource__category">
-											<ul>
-																									<li>
-														Attacks &amp; Vulnerabilities													</li>
-																							</ul>
-										</div><!-- /.resource__category -->
-									
-									<div class="resource__image image-fit">
-										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1779219348/blog-dark-purple-fc-mixed-tiles5-thumbnail/blog-dark-purple-fc-mixed-tiles5-thumbnail.png?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2572532 wp-post-2572529" alt="armis generic branded blog thumbnail" decoding="async" data-public-id="blog-dark-purple-fc-mixed-tiles5-thumbnail/blog-dark-purple-fc-mixed-tiles5-thumbnail.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1779219348" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1779219348/blog-dark-purple-fc-mixed-tiles5-thumbnail/blog-dark-purple-fc-mixed-tiles5-thumbnail.png?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1779219348/blog-dark-purple-fc-mixed-tiles5-thumbnail/blog-dark-purple-fc-mixed-tiles5-thumbnail.png?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
-
-									<div class="resource__content" style="height: 199.5px;">
-										<h5 style="height: 127.667px;">
-											AI-Driven Automated Warfare: How the Iranian ATG Hacks Expose the Vulnerabilities of U.S. Critical Infrastructure										</h5>
-																					
-										<div class="article__author">
-											<div class="card-author">
-												<div class="card__image image-fit">
-													<img width="525" height="525" src="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1779219146/olivia-oshaughnessy-michael-freeman-co-authors/olivia-oshaughnessy-michael-freeman-co-authors.png?_i=AA" class="attachment-small size-small wp-image-2572531" alt="Olivia O'Shaughnessy &amp; Michael Freeman Co-authors" decoding="async" data-public-id="olivia-oshaughnessy-michael-freeman-co-authors/olivia-oshaughnessy-michael-freeman-co-authors.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1779219146" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1779219146/olivia-oshaughnessy-michael-freeman-co-authors/olivia-oshaughnessy-michael-freeman-co-authors.png?_i=AA 525w, https://res.cloudinary.com/armis/images/w_448,h_448,c_fill,g_auto/f_auto,q_auto/v1779219146/olivia-oshaughnessy-michael-freeman-co-authors/olivia-oshaughnessy-michael-freeman-co-authors.png?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1779219146/olivia-oshaughnessy-michael-freeman-co-authors/olivia-oshaughnessy-michael-freeman-co-authors.png?_i=AA 248w" sizes="(max-width: 525px) 100vw, 525px">												</div><!-- /.card__image -->
-												<div class="card__content">
-													<h6>
-															By Olivia O'Shaughnessy // Michael Freeman													</h6>
-					
-													<p>Sr. Product Marketing Manager // Head of Threat Intelligence</p>
-												</div><!-- /.card__content -->
-											</div><!-- /.card-author -->
-										</div><!-- /.article__author -->
-									</div><!-- /.resource__content -->
-
-									<div class="resource__actions">
-										<span>
-											<i class="fa-solid fa-circle-arrow-right"></i>
-
-											Learn More										</span>
-									</div><!-- /.resource__actions -->
-								</a>
-							</div><!-- /.resource -->]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When AI Finds The Flaw, Armis Finds The Fix]]></title>
-        <id>https://www.armis.com/blog/when-ai-finds-the-flaw-armis-finds-the-fix/</id>
-        <link href="https://www.armis.com/blog/when-ai-finds-the-flaw-armis-finds-the-fix/"/>
-        <updated>2026-06-29T03:07:01.732Z</updated>
-        <content type="html"><![CDATA[<div class="resource">
-								<a href="https://www.armis.com/blog/when-ai-finds-the-flaw-armis-finds-the-fix/">
-																			<div class="resource__category">
-											<ul>
-																									<li>
-														Attacks &amp; Vulnerabilities													</li>
-																							</ul>
-										</div><!-- /.resource__category -->
-									
-									<div class="resource__image image-fit">
-										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1777379747/ai-hacker-in-hoodie-2396701649-thumbnail/ai-hacker-in-hoodie-2396701649-thumbnail.png?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2572318 wp-post-2572310" alt="AI technology hacker hooded figure" decoding="async" data-public-id="ai-hacker-in-hoodie-2396701649-thumbnail/ai-hacker-in-hoodie-2396701649-thumbnail.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1777379747" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1777379747/ai-hacker-in-hoodie-2396701649-thumbnail/ai-hacker-in-hoodie-2396701649-thumbnail.png?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1777379747/ai-hacker-in-hoodie-2396701649-thumbnail/ai-hacker-in-hoodie-2396701649-thumbnail.png?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
-
-									<div class="resource__content" style="height: 199.5px;">
-										<h5 style="height: 127.667px;">
-											When AI Finds The Flaw, Armis Finds The Fix										</h5>
-																					
-										<div class="article__author">
-											<div class="card-author">
-												<div class="card__image image-fit">
-													<img width="525" height="525" src="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1777380343/maxime-chardome-michael-freeman-co-authors/maxime-chardome-michael-freeman-co-authors.png?_i=AA" class="attachment-small size-small wp-image-2572312" alt="Maxime Chardome &amp; Michael Freeman Co-authors" decoding="async" data-public-id="maxime-chardome-michael-freeman-co-authors/maxime-chardome-michael-freeman-co-authors.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1777380343" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1777380343/maxime-chardome-michael-freeman-co-authors/maxime-chardome-michael-freeman-co-authors.png?_i=AA 525w, https://res.cloudinary.com/armis/images/w_448,h_448,c_fill,g_auto/f_auto,q_auto/v1777380343/maxime-chardome-michael-freeman-co-authors/maxime-chardome-michael-freeman-co-authors.png?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1777380343/maxime-chardome-michael-freeman-co-authors/maxime-chardome-michael-freeman-co-authors.png?_i=AA 248w" sizes="(max-width: 525px) 100vw, 525px">												</div><!-- /.card__image -->
-												<div class="card__content">
-													<h6>
-															By Maxime Chardome // Michael Freeman													</h6>
-					
-													<p>Product Marketing Director // Head of Threat Intelligence</p>
-												</div><!-- /.card__content -->
-											</div><!-- /.card-author -->
-										</div><!-- /.article__author -->
-									</div><!-- /.resource__content -->
-
-									<div class="resource__actions">
-										<span>
-											<i class="fa-solid fa-circle-arrow-right"></i>
-
-											Learn More										</span>
-									</div><!-- /.resource__actions -->
-								</a>
-							</div><!-- /.resource -->]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ni8mare in Automation]]></title>
-        <id>https://www.armis.com/blog/ni8mare-in-automation/</id>
-        <link href="https://www.armis.com/blog/ni8mare-in-automation/"/>
-        <updated>2026-06-29T03:07:01.734Z</updated>
-        <content type="html"><![CDATA[<div class="resource">
-								<a href="https://www.armis.com/blog/ni8mare-in-automation/">
-																			<div class="resource__category">
-											<ul>
-																									<li>
-														Attacks &amp; Vulnerabilities													</li>
-																							</ul>
-										</div><!-- /.resource__category -->
-									
-									<div class="resource__image image-fit">
-										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1767879297/warning-alert-stylized-icon-2265563827-thumbnail/warning-alert-stylized-icon-2265563827-thumbnail.png?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2568944 wp-post-2568943" alt="warning stylized icon" decoding="async" data-public-id="warning-alert-stylized-icon-2265563827-thumbnail/warning-alert-stylized-icon-2265563827-thumbnail.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1767879297" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1767879297/warning-alert-stylized-icon-2265563827-thumbnail/warning-alert-stylized-icon-2265563827-thumbnail.png?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1767879297/warning-alert-stylized-icon-2265563827-thumbnail/warning-alert-stylized-icon-2265563827-thumbnail.png?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
-
-									<div class="resource__content" style="height: 156.75px;">
-										<h5 style="height: 95.75px;">
-											Ni8mare in Automation										</h5>
-																					
-										<div class="article__author">
-											<div class="card-author">
-												<div class="card__image image-fit">
-													<img width="525" height="525" src="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1767877626/michael-rothschild-maxime-chardome-co-authors/michael-rothschild-maxime-chardome-co-authors.png?_i=AA" class="attachment-small size-small wp-image-2568937" alt="Michael Rothschild and Maxime Chardome - Co-authors" decoding="async" data-public-id="michael-rothschild-maxime-chardome-co-authors/michael-rothschild-maxime-chardome-co-authors.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1767877626" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1767877626/michael-rothschild-maxime-chardome-co-authors/michael-rothschild-maxime-chardome-co-authors.png?_i=AA 525w, https://res.cloudinary.com/armis/images/w_448,h_448,c_fill,g_auto/f_auto,q_auto/v1767877626/michael-rothschild-maxime-chardome-co-authors/michael-rothschild-maxime-chardome-co-authors.png?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1767877626/michael-rothschild-maxime-chardome-co-authors/michael-rothschild-maxime-chardome-co-authors.png?_i=AA 248w" sizes="(max-width: 525px) 100vw, 525px">												</div><!-- /.card__image -->
-												<div class="card__content">
-													<h6>
-															By Michael Rothschild // Maxime Chardome													</h6>
-					
-													<p>VP, Product Marketing // Product Marketing Director</p>
-												</div><!-- /.card__content -->
-											</div><!-- /.card-author -->
-										</div><!-- /.article__author -->
-									</div><!-- /.resource__content -->
-
-									<div class="resource__actions">
-										<span>
-											<i class="fa-solid fa-circle-arrow-right"></i>
-
-											Learn More										</span>
-									</div><!-- /.resource__actions -->
-								</a>
-							</div><!-- /.resource -->]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Priority-Zero Patching Event: React2Shell]]></title>
-        <id>https://www.armis.com/blog/priority-zero-patching-event-react2shell/</id>
-        <link href="https://www.armis.com/blog/priority-zero-patching-event-react2shell/"/>
-        <updated>2026-06-29T03:07:01.737Z</updated>
-        <content type="html"><![CDATA[<div class="resource">
-								<a href="https://www.armis.com/blog/priority-zero-patching-event-react2shell/">
-																			<div class="resource__category">
-											<ul>
-																									<li>
-														Attacks &amp; Vulnerabilities													</li>
-																							</ul>
-										</div><!-- /.resource__category -->
-									
-									<div class="resource__image image-fit">
-										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1765208835/hologram-bell-notifications-1761826682-thumbnail/hologram-bell-notifications-1761826682-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2568012 wp-post-2568011" alt="a hologram of a bell representing notifications" decoding="async" data-public-id="hologram-bell-notifications-1761826682-thumbnail/hologram-bell-notifications-1761826682-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1765208835" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1765208835/hologram-bell-notifications-1761826682-thumbnail/hologram-bell-notifications-1761826682-thumbnail.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1765208835/hologram-bell-notifications-1761826682-thumbnail/hologram-bell-notifications-1761826682-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
-
-									<div class="resource__content" style="height: 156.75px;">
-										<h5 style="height: 95.75px;">
-											Priority-Zero Patching Event: React2Shell										</h5>
-																					
-										<div class="article__author">
-											<div class="card-author">
-												<div class="card__image image-fit">
-													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA" class="attachment-small size-small wp-image-2555145" alt="Michael Freeman - blog author" decoding="async" data-public-id="Michael-Freeman-author/Michael-Freeman-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1733758808" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
-												<div class="card__content">
-													<h6>
-															By Michael Freeman													</h6>
-					
-													<p>Head of Threat Intelligence</p>
-												</div><!-- /.card__content -->
-											</div><!-- /.card-author -->
-										</div><!-- /.article__author -->
-									</div><!-- /.resource__content -->
-
-									<div class="resource__actions">
-										<span>
-											<i class="fa-solid fa-circle-arrow-right"></i>
-
-											Learn More										</span>
-									</div><!-- /.resource__actions -->
-								</a>
-							</div><!-- /.resource -->]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: Shai-Hulud and the npm Ecosystem: Why CTEM Must Extend Beyond Your Walls]]></title>
-        <id>https://www.armis.com/blog/update-shai-hulud-and-the-npm-ecosystem-why-ctem-must-extend-beyond-your-walls/</id>
-        <link href="https://www.armis.com/blog/update-shai-hulud-and-the-npm-ecosystem-why-ctem-must-extend-beyond-your-walls/"/>
-        <updated>2026-06-29T03:07:01.739Z</updated>
-        <content type="html"><![CDATA[<div class="resource">
-								<a href="https://www.armis.com/blog/update-shai-hulud-and-the-npm-ecosystem-why-ctem-must-extend-beyond-your-walls/">
-																			<div class="resource__category">
-											<ul>
-																									<li>
-														Attacks &amp; Vulnerabilities													</li>
-																							</ul>
-										</div><!-- /.resource__category -->
-									
-									<div class="resource__image image-fit">
-										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1764102467/3d-alert-icon-on-motherboard-2416078631-thumbnail/3d-alert-icon-on-motherboard-2416078631-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2567782 wp-post-2567774" alt="3d alert icon on a motherboard - cybersecurity alert concept" decoding="async" data-public-id="3d-alert-icon-on-motherboard-2416078631-thumbnail/3d-alert-icon-on-motherboard-2416078631-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1764102467" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1764102467/3d-alert-icon-on-motherboard-2416078631-thumbnail/3d-alert-icon-on-motherboard-2416078631-thumbnail.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1764102467/3d-alert-icon-on-motherboard-2416078631-thumbnail/3d-alert-icon-on-motherboard-2416078631-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
-
-									<div class="resource__content" style="height: 156.75px;">
-										<h5 style="height: 95.75px;">
-											Update: Shai-Hulud and the npm Ecosystem: Why CTEM Must Extend Beyond Your Walls										</h5>
-																					
-										<div class="article__author">
-											<div class="card-author">
-												<div class="card__image image-fit">
-													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA" class="attachment-small size-small wp-image-25595" alt="Blog Author" decoding="async" data-public-id="images/Nadir-Izrael-author/Nadir-Izrael-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1686859058" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
-												<div class="card__content">
-													<h6>
-															By Nadir Izrael													</h6>
-					
-													<p>CTO &amp; Co-Founder</p>
-												</div><!-- /.card__content -->
-											</div><!-- /.card-author -->
-										</div><!-- /.article__author -->
-									</div><!-- /.resource__content -->
-
-									<div class="resource__actions">
-										<span>
-											<i class="fa-solid fa-circle-arrow-right"></i>
-
-											Learn More										</span>
-									</div><!-- /.resource__actions -->
-								</a>
-							</div><!-- /.resource -->]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When the Defenders Get Hit: What the F5 Breach Means for Every Organization]]></title>
-        <id>https://www.armis.com/blog/when-the-defenders-get-hit-what-the-f5-breach-means-for-every-organization/</id>
-        <link href="https://www.armis.com/blog/when-the-defenders-get-hit-what-the-f5-breach-means-for-every-organization/"/>
-        <updated>2026-06-29T03:07:01.740Z</updated>
-        <content type="html"><![CDATA[<div class="resource">
-								<a href="https://www.armis.com/blog/when-the-defenders-get-hit-what-the-f5-breach-means-for-every-organization/">
-																			<div class="resource__category">
-											<ul>
-																									<li>
-														Attacks &amp; Vulnerabilities													</li>
-																							</ul>
-										</div><!-- /.resource__category -->
-									
-									<div class="resource__image image-fit">
-										<img width="1280" height="720" src="https://res.cloudinary.com/armis/images/w_1280,h_720,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2566664 wp-post-2566655" alt="attention danger symbol on dark red glitched background" decoding="async" data-public-id="alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1761057301" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_1280,h_720,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 1280w, https://res.cloudinary.com/armis/images/w_1248,h_702,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 1248w, https://res.cloudinary.com/armis/images/w_1048,h_589,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 1048w, https://res.cloudinary.com/armis/images/w_848,h_477,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 848w, https://res.cloudinary.com/armis/images/w_648,h_364,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 648w, https://res.cloudinary.com/armis/images/w_448,h_252,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_139,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 248w" sizes="(max-width: 1280px) 100vw, 1280px">									</div><!-- /.resource__image -->
-
-									<div class="resource__content" style="height: 156.75px;">
-										<h5 style="height: 95.75px;">
-											When the Defenders Get Hit: What the F5 Breach Means for Every Organization										</h5>
-																					
-										<div class="article__author">
-											<div class="card-author">
-												<div class="card__image image-fit">
-													<img width="525" height="525" src="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1711114867/images/MichaelR-MIchaelF-co-authors/MichaelR-MIchaelF-co-authors.png?_i=AA" class="attachment-small size-small wp-image-2543736" alt="Michael Rothschild &amp; Michael Freeman - Co-authors" decoding="async" data-public-id="images/MichaelR-MIchaelF-co-authors/MichaelR-MIchaelF-co-authors.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1711114867" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1711114867/images/MichaelR-MIchaelF-co-authors/MichaelR-MIchaelF-co-authors.png?_i=AA 525w, https://res.cloudinary.com/armis/images/w_448,h_448,c_fill,g_auto/f_auto,q_auto/v1711114867/images/MichaelR-MIchaelF-co-authors/MichaelR-MIchaelF-co-authors.png?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1711114867/images/MichaelR-MIchaelF-co-authors/MichaelR-MIchaelF-co-authors.png?_i=AA 248w" sizes="(max-width: 525px) 100vw, 525px">												</div><!-- /.card__image -->
-												<div class="card__content">
-													<h6>
-															By Michael Rothschild // Michael Freeman													</h6>
-					
-													<p>VP, Product Marketing // Head of Threat Intelligence</p>
-												</div><!-- /.card__content -->
-											</div><!-- /.card-author -->
-										</div><!-- /.article__author -->
-									</div><!-- /.resource__content -->
-
-									<div class="resource__actions">
-										<span>
-											<i class="fa-solid fa-circle-arrow-right"></i>
-
-											Learn More										</span>
-									</div><!-- /.resource__actions -->
-								</a>
-							</div><!-- /.resource -->]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shai-Hulud and the npm Ecosystem: Why CTEM Must Extend Beyond Your Walls]]></title>
-        <id>https://www.armis.com/blog/shai-hulud-and-the-npm-ecosystem-why-ctem-must-extend-beyond-your-walls/</id>
-        <link href="https://www.armis.com/blog/shai-hulud-and-the-npm-ecosystem-why-ctem-must-extend-beyond-your-walls/"/>
-        <updated>2026-06-29T03:07:01.741Z</updated>
-        <content type="html"><![CDATA[<div class="resource">
-								<a href="https://www.armis.com/blog/shai-hulud-and-the-npm-ecosystem-why-ctem-must-extend-beyond-your-walls/">
-																			<div class="resource__category">
-											<ul>
-																									<li>
-														Attacks &amp; Vulnerabilities													</li>
-																							</ul>
-										</div><!-- /.resource__category -->
-									
-									<div class="resource__image image-fit">
-										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1758729882/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail.png?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2566185 wp-post-2566184" alt="iris of eye with colorful binary code overlay" decoding="async" data-public-id="eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1758729882" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1758729882/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail.png?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1758729882/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail.png?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
-
-									<div class="resource__content" style="height: 156.75px;">
-										<h5 style="height: 95.75px;">
-											Shai-Hulud and the npm Ecosystem: Why CTEM Must Extend Beyond Your Walls										</h5>
-																					
-										<div class="article__author">
-											<div class="card-author">
-												<div class="card__image image-fit">
-													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA" class="attachment-small size-small wp-image-25595" alt="Blog Author" decoding="async" data-public-id="images/Nadir-Izrael-author/Nadir-Izrael-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1686859058" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
-												<div class="card__content">
-													<h6>
-															By Nadir Izrael													</h6>
-					
-													<p>CTO &amp; Co-Founder</p>
-												</div><!-- /.card__content -->
-											</div><!-- /.card-author -->
-										</div><!-- /.article__author -->
-									</div><!-- /.resource__content -->
-
-									<div class="resource__actions">
-										<span>
-											<i class="fa-solid fa-circle-arrow-right"></i>
-
-											Learn More										</span>
-									</div><!-- /.resource__actions -->
-								</a>
-							</div><!-- /.resource -->]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA’s 7 Latest ICS Advisories: What You Need To Know]]></title>
-        <id>https://www.armis.com/blog/cisas-7-latest-ics-advisories-what-you-need-to-know/</id>
-        <link href="https://www.armis.com/blog/cisas-7-latest-ics-advisories-what-you-need-to-know/"/>
-        <updated>2026-06-29T03:07:01.751Z</updated>
-        <content type="html"><![CDATA[<div class="resource">
-								<a href="https://www.armis.com/blog/cisas-7-latest-ics-advisories-what-you-need-to-know/">
-																			<div class="resource__category">
-											<ul>
-																									<li>
-														Attacks &amp; Vulnerabilities													</li>
-																							</ul>
-										</div><!-- /.resource__category -->
-									
-									<div class="resource__image image-fit">
-										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1740423819/cyber-security-data-protection-69139-thumbnail/cyber-security-data-protection-69139-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2557201 wp-post-2557114" alt="Cyber Security Data Protection" decoding="async" data-public-id="cyber-security-data-protection-69139-thumbnail/cyber-security-data-protection-69139-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1740423819" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1740423819/cyber-security-data-protection-69139-thumbnail/cyber-security-data-protection-69139-thumbnail.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1740423819/cyber-security-data-protection-69139-thumbnail/cyber-security-data-protection-69139-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
-
-									<div class="resource__content" style="height: 156.75px;">
-										<h5 style="height: 95.75px;">
-											CISA’s 7 Latest ICS Advisories: What You Need To Know										</h5>
+											Beyond the Scanner: Why AI-Native AppSec Must Evolve into Risk Management										</h5>
 																					
 										<div class="article__author">
 											<div class="card-author">
@@ -402,35 +50,35 @@
 							</div><!-- /.resource -->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Patient Monitor Vulnerabilities Threaten Healthcare Security, CISA Warns]]></title>
-        <id>https://www.armis.com/blog/patient-monitor-vulnerabilities-threaten-healthcare-security-cisa-warns/</id>
-        <link href="https://www.armis.com/blog/patient-monitor-vulnerabilities-threaten-healthcare-security-cisa-warns/"/>
-        <updated>2026-06-29T03:07:01.753Z</updated>
+        <title type="html"><![CDATA[How Financial Services Can Close the Exposure Window: 2026 Cyber Defense Strategies]]></title>
+        <id>https://www.armis.com/blog/how-financial-services-can-close-the-exposure-window-2026-cyber-defense-strategies/</id>
+        <link href="https://www.armis.com/blog/how-financial-services-can-close-the-exposure-window-2026-cyber-defense-strategies/"/>
+        <updated>2026-06-29T10:08:03.131Z</updated>
         <content type="html"><![CDATA[<div class="resource">
-								<a href="https://www.armis.com/blog/patient-monitor-vulnerabilities-threaten-healthcare-security-cisa-warns/">
+								<a href="https://www.armis.com/blog/how-financial-services-can-close-the-exposure-window-2026-cyber-defense-strategies/">
 																			<div class="resource__category">
 											<ul>
 																									<li>
-														Attacks &amp; Vulnerabilities													</li>
+														Armis Labs Research													</li>
 																							</ul>
 										</div><!-- /.resource__category -->
 									
 									<div class="resource__image image-fit">
-										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1738352187/vital-signs-monitor-23221/vital-signs-monitor-23221.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2556293 wp-post-2556292" alt="Medical vital signs monitor instrument in a hospital" decoding="async" data-public-id="vital-signs-monitor-23221/vital-signs-monitor-23221.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1738352187" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1738352187/vital-signs-monitor-23221/vital-signs-monitor-23221.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1738352187/vital-signs-monitor-23221/vital-signs-monitor-23221.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+										<img width="1280" height="720" src="https://res.cloudinary.com/armis/images/w_1280,h_720,c_scale/f_auto,q_auto/v1770750408/financial-stock-market-graph-on-technology-594782012-social/financial-stock-market-graph-on-technology-594782012-social.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2570158 wp-post-2570106" alt="armis labs report with financial stock market graph" decoding="async" data-public-id="financial-stock-market-graph-on-technology-594782012-social/financial-stock-market-graph-on-technology-594782012-social.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1770750408" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_1280,h_720,c_scale/f_auto,q_auto/v1770750408/financial-stock-market-graph-on-technology-594782012-social/financial-stock-market-graph-on-technology-594782012-social.jpg?_i=AA 1280w, https://res.cloudinary.com/armis/images/w_1248,h_702,c_scale/f_auto,q_auto/v1770750408/financial-stock-market-graph-on-technology-594782012-social/financial-stock-market-graph-on-technology-594782012-social.jpg?_i=AA 1248w, https://res.cloudinary.com/armis/images/w_1048,h_589,c_scale/f_auto,q_auto/v1770750408/financial-stock-market-graph-on-technology-594782012-social/financial-stock-market-graph-on-technology-594782012-social.jpg?_i=AA 1048w, https://res.cloudinary.com/armis/images/w_848,h_477,c_scale/f_auto,q_auto/v1770750408/financial-stock-market-graph-on-technology-594782012-social/financial-stock-market-graph-on-technology-594782012-social.jpg?_i=AA 848w, https://res.cloudinary.com/armis/images/w_648,h_364,c_scale/f_auto,q_auto/v1770750408/financial-stock-market-graph-on-technology-594782012-social/financial-stock-market-graph-on-technology-594782012-social.jpg?_i=AA 648w, https://res.cloudinary.com/armis/images/w_448,h_252,c_scale/f_auto,q_auto/v1770750408/financial-stock-market-graph-on-technology-594782012-social/financial-stock-market-graph-on-technology-594782012-social.jpg?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_139,c_scale/f_auto,q_auto/v1770750408/financial-stock-market-graph-on-technology-594782012-social/financial-stock-market-graph-on-technology-594782012-social.jpg?_i=AA 248w" sizes="(max-width: 1280px) 100vw, 1280px">									</div><!-- /.resource__image -->
 
 									<div class="resource__content" style="height: 188.667px;">
 										<h5 style="height: 127.667px;">
-											Patient Monitor Vulnerabilities Threaten Healthcare Security, CISA Warns										</h5>
+											How Financial Services Can Close the Exposure Window: 2026 Cyber Defense Strategies										</h5>
 																					
 										<div class="article__author">
 											<div class="card-author">
 												<div class="card__image image-fit">
-													<img width="525" height="525" src="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1738332903/Michael-Freeman-Moh-Waqas-co-authors/Michael-Freeman-Moh-Waqas-co-authors.png?_i=AA" class="attachment-small size-small wp-image-2556286" alt="Michael Freeman &amp; Moh Waqas co-authors blog headshot" decoding="async" data-public-id="Michael-Freeman-Moh-Waqas-co-authors/Michael-Freeman-Moh-Waqas-co-authors.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1738332903" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1738332903/Michael-Freeman-Moh-Waqas-co-authors/Michael-Freeman-Moh-Waqas-co-authors.png?_i=AA 525w, https://res.cloudinary.com/armis/images/w_448,h_448,c_fill,g_auto/f_auto,q_auto/v1738332903/Michael-Freeman-Moh-Waqas-co-authors/Michael-Freeman-Moh-Waqas-co-authors.png?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1738332903/Michael-Freeman-Moh-Waqas-co-authors/Michael-Freeman-Moh-Waqas-co-authors.png?_i=AA 248w" sizes="(max-width: 525px) 100vw, 525px">												</div><!-- /.card__image -->
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1729281525/maxime-chardome-author/maxime-chardome-author.jpg?_i=AA" class="attachment-small size-small wp-image-2553316" alt="Maxime Chardome - blog author headshot" decoding="async" data-public-id="maxime-chardome-author/maxime-chardome-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1729281525" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1729281525/maxime-chardome-author/maxime-chardome-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1729281525/maxime-chardome-author/maxime-chardome-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
 												<div class="card__content">
 													<h6>
-															By Michael Freeman // Mohammad Waqas													</h6>
+															By Maxime Chardome													</h6>
 					
-													<p>Head of Threat Intelligence // CTO for Medical, Armis</p>
+													<p>Product Marketing Director</p>
 												</div><!-- /.card__content -->
 											</div><!-- /.card-author -->
 										</div><!-- /.article__author -->
@@ -446,79 +94,431 @@
 							</div><!-- /.resource -->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[DORA Deadline Passes: Almost Half of UK Financial Institutions Fall Short of Compliance Requirements]]></title>
-        <id>https://www.armis.com/blog/dora-deadline-passes-almost-half-of-uk-financial-institutions-fall-short-of-compliance-requirements/</id>
-        <link href="https://www.armis.com/blog/dora-deadline-passes-almost-half-of-uk-financial-institutions-fall-short-of-compliance-requirements/"/>
-        <updated>2026-06-29T03:07:01.754Z</updated>
+        <title type="html"><![CDATA[Securing CPS: How Armis and Copeland Worked Together To Address E2 and E3 Controller Vulnerabilities]]></title>
+        <id>https://www.armis.com/blog/securing-cps-how-armis-and-copeland-worked-together-to-address-e2-and-e3-controller-vulnerabilities/</id>
+        <link href="https://www.armis.com/blog/securing-cps-how-armis-and-copeland-worked-together-to-address-e2-and-e3-controller-vulnerabilities/"/>
+        <updated>2026-06-29T10:08:03.138Z</updated>
         <content type="html"><![CDATA[<div class="resource">
-								<a href="https://www.armis.com/blog/dora-deadline-passes-almost-half-of-uk-financial-institutions-fall-short-of-compliance-requirements/">
+								<a href="https://www.armis.com/blog/securing-cps-how-armis-and-copeland-worked-together-to-address-e2-and-e3-controller-vulnerabilities/">
 																			<div class="resource__category">
 											<ul>
 																									<li>
-														Attacks &amp; Vulnerabilities													</li>
+														Armis Labs Research													</li>
 																							</ul>
 										</div><!-- /.resource__category -->
 									
 									<div class="resource__image image-fit">
-										<img width="1200" height="1200" src="https://res.cloudinary.com/armis/images/w_1200,h_1200,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2555972 wp-post-2555940" alt="thoughtful man looking at computer screen" decoding="async" data-public-id="thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1737561476" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_1200,h_1200,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA 1200w, https://res.cloudinary.com/armis/images/w_1048,h_1048,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA 1048w, https://res.cloudinary.com/armis/images/w_848,h_848,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA 848w, https://res.cloudinary.com/armis/images/w_648,h_648,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA 648w, https://res.cloudinary.com/armis/images/w_448,h_448,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA 248w" sizes="(max-width: 1200px) 100vw, 1200px">									</div><!-- /.resource__image -->
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1756127293/blog-frostbyte10-thumbnail/blog-frostbyte10-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2564805 wp-post-2564796" alt="technician with laptop near commercial freezer" decoding="async" data-public-id="blog-frostbyte10-thumbnail/blog-frostbyte10-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1756127293" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1756127293/blog-frostbyte10-thumbnail/blog-frostbyte10-thumbnail.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1756127293/blog-frostbyte10-thumbnail/blog-frostbyte10-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
 
 									<div class="resource__content" style="height: 188.667px;">
 										<h5 style="height: 127.667px;">
-											DORA Deadline Passes: Almost Half of UK Financial Institutions Fall Short of Compliance Requirements										</h5>
+											Securing CPS: How Armis and Copeland Worked Together To Address E2 and E3 Controller Vulnerabilities										</h5>
 																					
 										<div class="article__author">
 											<div class="card-author">
 												<div class="card__image image-fit">
-													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1730142988/olivia-o-shaughnessy-author/olivia-o-shaughnessy-author.jpg?_i=AA" class="attachment-small size-small wp-image-2553757" alt="Olivia O'Shaughnessy - blog author headshot" decoding="async" data-public-id="olivia-o-shaughnessy-author/olivia-o-shaughnessy-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1730142988" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1730142988/olivia-o-shaughnessy-author/olivia-o-shaughnessy-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1730142988/olivia-o-shaughnessy-author/olivia-o-shaughnessy-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1756129667/armis-labs-logo-white-on-purple-400-square/armis-labs-logo-white-on-purple-400-square.jpg?_i=AA" class="attachment-small size-small wp-image-2564811" alt="Armis Labs white logo on purple background" decoding="async" data-public-id="armis-labs-logo-white-on-purple-400-square/armis-labs-logo-white-on-purple-400-square.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1756129667" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1756129667/armis-labs-logo-white-on-purple-400-square/armis-labs-logo-white-on-purple-400-square.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1756129667/armis-labs-logo-white-on-purple-400-square/armis-labs-logo-white-on-purple-400-square.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
 												<div class="card__content">
 													<h6>
-															By Olivia O'Shaughnessy													</h6>
-					
-													<p>Sr. Product Marketing Manager</p>
-												</div><!-- /.card__content -->
-											</div><!-- /.card-author -->
-										</div><!-- /.article__author -->
-									</div><!-- /.resource__content -->
-
-									<div class="resource__actions">
-										<span>
-											<i class="fa-solid fa-circle-arrow-right"></i>
-
-											Learn More										</span>
-									</div><!-- /.resource__actions -->
-								</a>
-							</div><!-- /.resource -->]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Navigating The CrowdStrike and Microsoft Outages: Lessons For OT Industries]]></title>
-        <id>https://www.armis.com/blog/navigating-the-crowdstrike-and-microsoft-outages-lessons-for-ot-industries/</id>
-        <link href="https://www.armis.com/blog/navigating-the-crowdstrike-and-microsoft-outages-lessons-for-ot-industries/"/>
-        <updated>2026-06-29T03:07:01.756Z</updated>
-        <content type="html"><![CDATA[<div class="resource">
-								<a href="https://www.armis.com/blog/navigating-the-crowdstrike-and-microsoft-outages-lessons-for-ot-industries/">
-																			<div class="resource__category">
-											<ul>
-																									<li>
-														Attacks &amp; Vulnerabilities													</li>
-																							</ul>
-										</div><!-- /.resource__category -->
-									
-									<div class="resource__image image-fit">
-										<img width="360" height="160" src="https://www.armis.com/wp-content/uploads/2024/07/Armis-Web-Crowdstrike-Outage-2-360x160-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2550072 wp-post-2550070" alt="Armis labs tile image" decoding="async" srcset="https://www.armis.com/wp-content/uploads/2024/07/Armis-Web-Crowdstrike-Outage-2-360x160-1.jpg 360w, https://www.armis.com/wp-content/uploads/2024/07/Armis-Web-Crowdstrike-Outage-2-360x160-1-300x133.jpg 300w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
-
-									<div class="resource__content" style="height: 188.667px;">
-										<h5 style="height: 127.667px;">
-											Navigating The CrowdStrike and Microsoft Outages: Lessons For OT Industries										</h5>
-																					
-										<div class="article__author">
-											<div class="card-author">
-												<div class="card__image image-fit">
-													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686856163/images/Armis-Security-author/Armis-Security-author.jpg?_i=AA" class="attachment-small size-small wp-image-25421" alt="Armis Security Blog Author" decoding="async" data-public-id="images/Armis-Security-author/Armis-Security-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1686856163" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686856163/images/Armis-Security-author/Armis-Security-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1686856163/images/Armis-Security-author/Armis-Security-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
-												<div class="card__content">
-													<h6>
-															By Armis													</h6>
+															By Armis Labs													</h6>
 					
 																									</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Latest Armis Labs Report Uncovers New Security Risks of AI Coding]]></title>
+        <id>https://www.armis.com/blog/latest-armis-labs-report-uncovers-new-security-risks-of-ai-coding/</id>
+        <link href="https://www.armis.com/blog/latest-armis-labs-report-uncovers-new-security-risks-of-ai-coding/"/>
+        <updated>2026-06-29T10:08:03.138Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/latest-armis-labs-report-uncovers-new-security-risks-of-ai-coding/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Armis Labs Research													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1753708631/ai-processor-smart-microchip-2425803295-thumbnail/ai-processor-smart-microchip-2425803295-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2563803 wp-post-2563733" alt="Artificial intelligence processor, Smart microchip" decoding="async" data-public-id="ai-processor-smart-microchip-2425803295-thumbnail/ai-processor-smart-microchip-2425803295-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1753708631" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1753708631/ai-processor-smart-microchip-2425803295-thumbnail/ai-processor-smart-microchip-2425803295-thumbnail.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1753708631/ai-processor-smart-microchip-2425803295-thumbnail/ai-processor-smart-microchip-2425803295-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content" style="height: 156.75px;">
+										<h5 style="height: 95.75px;">
+											Latest Armis Labs Report Uncovers New Security Risks of AI Coding										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1729281525/maxime-chardome-author/maxime-chardome-author.jpg?_i=AA" class="attachment-small size-small wp-image-2553316" alt="Maxime Chardome - blog author headshot" decoding="async" data-public-id="maxime-chardome-author/maxime-chardome-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1729281525" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1729281525/maxime-chardome-author/maxime-chardome-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1729281525/maxime-chardome-author/maxime-chardome-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Maxime Chardome													</h6>
+					
+													<p>Product Marketing Director</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Breaking Down Medusa Ransomware]]></title>
+        <id>https://www.armis.com/blog/breaking-down-medusa-ransomware/</id>
+        <link href="https://www.armis.com/blog/breaking-down-medusa-ransomware/"/>
+        <updated>2026-06-29T10:08:03.139Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/breaking-down-medusa-ransomware/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Armis Labs Research													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="359" height="160" src="https://res.cloudinary.com/armis/images/w_359,h_160,c_scale/f_auto,q_auto/v1741987026/hacker-in-hoodie-on-computer-2477533867-thumbnail/hacker-in-hoodie-on-computer-2477533867-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2558510 wp-post-2558503" alt="back of hacker in a hoodie sitting at a computer" decoding="async" data-public-id="hacker-in-hoodie-on-computer-2477533867-thumbnail/hacker-in-hoodie-on-computer-2477533867-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1741987026" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_359,h_160,c_scale/f_auto,q_auto/v1741987026/hacker-in-hoodie-on-computer-2477533867-thumbnail/hacker-in-hoodie-on-computer-2477533867-thumbnail.jpg?_i=AA 359w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1741987026/hacker-in-hoodie-on-computer-2477533867-thumbnail/hacker-in-hoodie-on-computer-2477533867-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 359px) 100vw, 359px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content" style="height: 156.75px;">
+										<h5 style="height: 95.75px;">
+											Breaking Down Medusa Ransomware										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA" class="attachment-small size-small wp-image-2555145" alt="Michael Freeman - blog author" decoding="async" data-public-id="Michael-Freeman-author/Michael-Freeman-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1733758808" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Michael Freeman													</h6>
+					
+													<p>Head of Threat Intelligence</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unpacking the Black Basta Leak]]></title>
+        <id>https://www.armis.com/blog/unpacking-the-black-basta-leak/</id>
+        <link href="https://www.armis.com/blog/unpacking-the-black-basta-leak/"/>
+        <updated>2026-06-29T10:08:03.140Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/unpacking-the-black-basta-leak/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Armis Labs Research													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1741297090/hooded-hacker-breaking-into-corporate-data-servers-680078878-thumbnail/hooded-hacker-breaking-into-corporate-data-servers-680078878-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2558004 wp-post-2558003" alt="hooded hacker breaking into corporate data servers" decoding="async" data-public-id="hooded-hacker-breaking-into-corporate-data-servers-680078878-thumbnail/hooded-hacker-breaking-into-corporate-data-servers-680078878-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1741297090" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1741297090/hooded-hacker-breaking-into-corporate-data-servers-680078878-thumbnail/hooded-hacker-breaking-into-corporate-data-servers-680078878-thumbnail.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1741297090/hooded-hacker-breaking-into-corporate-data-servers-680078878-thumbnail/hooded-hacker-breaking-into-corporate-data-servers-680078878-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content" style="height: 156.75px;">
+										<h5 style="height: 95.75px;">
+											Unpacking the Black Basta Leak										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA" class="attachment-small size-small wp-image-2555145" alt="Michael Freeman - blog author" decoding="async" data-public-id="Michael-Freeman-author/Michael-Freeman-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1733758808" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Michael Freeman													</h6>
+					
+													<p>Head of Threat Intelligence</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[$1.5 Billion ByBit Crypto Heist and The Threat Actors Behind Escalating Geopolitical Cyberattacks]]></title>
+        <id>https://www.armis.com/blog/1-5-billion-bybit-crypto-heist-and-the-threat-actors-behind-escalating-geopolitical-cyberattacks/</id>
+        <link href="https://www.armis.com/blog/1-5-billion-bybit-crypto-heist-and-the-threat-actors-behind-escalating-geopolitical-cyberattacks/"/>
+        <updated>2026-06-29T10:08:03.142Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/1-5-billion-bybit-crypto-heist-and-the-threat-actors-behind-escalating-geopolitical-cyberattacks/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Armis Labs Research													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1740604434/hooded-figure-bitcoin-symbol-face-2521792537-thumbnail/hooded-figure-bitcoin-symbol-face-2521792537-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2557453 wp-post-2557452" alt="hooded figure with bitcoin symbol for a face" decoding="async" data-public-id="hooded-figure-bitcoin-symbol-face-2521792537-thumbnail/hooded-figure-bitcoin-symbol-face-2521792537-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1740604434" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1740604434/hooded-figure-bitcoin-symbol-face-2521792537-thumbnail/hooded-figure-bitcoin-symbol-face-2521792537-thumbnail.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1740604434/hooded-figure-bitcoin-symbol-face-2521792537-thumbnail/hooded-figure-bitcoin-symbol-face-2521792537-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content" style="height: 188.667px;">
+										<h5 style="height: 127.667px;">
+											$1.5 Billion ByBit Crypto Heist and The Threat Actors Behind Escalating Geopolitical Cyberattacks										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA" class="attachment-small size-small wp-image-2555145" alt="Michael Freeman - blog author" decoding="async" data-public-id="Michael-Freeman-author/Michael-Freeman-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1733758808" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Michael Freeman													</h6>
+					
+													<p>Head of Threat Intelligence</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeepSeek and the Security Risks, Part II: When Automation Goes Wrong]]></title>
+        <id>https://www.armis.com/blog/deepseek-and-the-security-risks-part-ii-when-automation-goes-wrong/</id>
+        <link href="https://www.armis.com/blog/deepseek-and-the-security-risks-part-ii-when-automation-goes-wrong/"/>
+        <updated>2026-06-29T10:08:03.143Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/deepseek-and-the-security-risks-part-ii-when-automation-goes-wrong/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Armis Labs Research													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1738786587/abstract-digital-communication-points-71335-thumbnail/abstract-digital-communication-points-71335-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2556441 wp-post-2556371" alt="abstract digital communication points" decoding="async" data-public-id="abstract-digital-communication-points-71335-thumbnail/abstract-digital-communication-points-71335-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1738786587" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1738786587/abstract-digital-communication-points-71335-thumbnail/abstract-digital-communication-points-71335-thumbnail.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1738786587/abstract-digital-communication-points-71335-thumbnail/abstract-digital-communication-points-71335-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content" style="height: 188.667px;">
+										<h5 style="height: 127.667px;">
+											DeepSeek and the Security Risks, Part II: When Automation Goes Wrong										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA" class="attachment-small size-small wp-image-2555145" alt="Michael Freeman - blog author" decoding="async" data-public-id="Michael-Freeman-author/Michael-Freeman-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1733758808" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Michael Freeman													</h6>
+					
+													<p>Head of Threat Intelligence</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeepSeek and the Security Risks, Part I: Low-Cost AI Disruption]]></title>
+        <id>https://www.armis.com/blog/deepseek-and-the-security-risks-part-i-low-cost-ai-disruption/</id>
+        <link href="https://www.armis.com/blog/deepseek-and-the-security-risks-part-i-low-cost-ai-disruption/"/>
+        <updated>2026-06-29T10:08:03.144Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/deepseek-and-the-security-risks-part-i-low-cost-ai-disruption/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Armis Labs Research													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1738680895/blog-deepseek-security-risks-thumbnail/blog-deepseek-security-risks-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2556344 wp-post-2556330" alt="DeepSeek app icon on a screen" decoding="async" data-public-id="blog-deepseek-security-risks-thumbnail/blog-deepseek-security-risks-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1738680895" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1738680895/blog-deepseek-security-risks-thumbnail/blog-deepseek-security-risks-thumbnail.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1738680895/blog-deepseek-security-risks-thumbnail/blog-deepseek-security-risks-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content" style="height: 188.667px;">
+										<h5 style="height: 127.667px;">
+											DeepSeek and the Security Risks, Part I: Low-Cost AI Disruption										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1709064955/images/Michael-Rothschild-author/Michael-Rothschild-author.jpg?_i=AA" class="attachment-small size-small wp-image-2542720" alt="Michael Rothschild" decoding="async" data-public-id="images/Michael-Rothschild-author/Michael-Rothschild-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1709064955" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1709064955/images/Michael-Rothschild-author/Michael-Rothschild-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1709064955/images/Michael-Rothschild-author/Michael-Rothschild-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Michael Rothschild													</h6>
+					
+													<p>VP, Product Marketing</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IOControl Malware: What’s New, What’s Not?]]></title>
+        <id>https://www.armis.com/blog/iocontrol-malware-whats-new-whats-not/</id>
+        <link href="https://www.armis.com/blog/iocontrol-malware-whats-new-whats-not/"/>
+        <updated>2026-06-29T10:08:03.146Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/iocontrol-malware-whats-new-whats-not/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Armis Labs Research													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="1200" height="1200" src="https://res.cloudinary.com/armis/images/w_1200,h_1200,c_fill,g_auto/f_auto,q_auto/v1734381842/hacker-coding-virus-ransomeware-with-computers-63546-sq1200/hacker-coding-virus-ransomeware-with-computers-63546-sq1200.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2555377 wp-post-2555355" alt="hacker coding malware using computers" decoding="async" data-public-id="hacker-coding-virus-ransomeware-with-computers-63546-sq1200/hacker-coding-virus-ransomeware-with-computers-63546-sq1200.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1734381842" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_1200,h_1200,c_fill,g_auto/f_auto,q_auto/v1734381842/hacker-coding-virus-ransomeware-with-computers-63546-sq1200/hacker-coding-virus-ransomeware-with-computers-63546-sq1200.jpg?_i=AA 1200w, https://res.cloudinary.com/armis/images/w_1048,h_1048,c_fill,g_auto/f_auto,q_auto/v1734381842/hacker-coding-virus-ransomeware-with-computers-63546-sq1200/hacker-coding-virus-ransomeware-with-computers-63546-sq1200.jpg?_i=AA 1048w, https://res.cloudinary.com/armis/images/w_848,h_848,c_fill,g_auto/f_auto,q_auto/v1734381842/hacker-coding-virus-ransomeware-with-computers-63546-sq1200/hacker-coding-virus-ransomeware-with-computers-63546-sq1200.jpg?_i=AA 848w, https://res.cloudinary.com/armis/images/w_648,h_648,c_fill,g_auto/f_auto,q_auto/v1734381842/hacker-coding-virus-ransomeware-with-computers-63546-sq1200/hacker-coding-virus-ransomeware-with-computers-63546-sq1200.jpg?_i=AA 648w, https://res.cloudinary.com/armis/images/w_448,h_448,c_fill,g_auto/f_auto,q_auto/v1734381842/hacker-coding-virus-ransomeware-with-computers-63546-sq1200/hacker-coding-virus-ransomeware-with-computers-63546-sq1200.jpg?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1734381842/hacker-coding-virus-ransomeware-with-computers-63546-sq1200/hacker-coding-virus-ransomeware-with-computers-63546-sq1200.jpg?_i=AA 248w" sizes="(max-width: 1200px) 100vw, 1200px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content" style="height: 252.5px;">
+										<h5 style="height: 191.5px;">
+											IOControl Malware: What’s New, What’s Not?										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA" class="attachment-small size-small wp-image-2555145" alt="Michael Freeman - blog author" decoding="async" data-public-id="Michael-Freeman-author/Michael-Freeman-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1733758808" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Michael Freeman													</h6>
+					
+													<p>Head of Threat Intelligence</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advancing Cybersecurity: The Significance of Armis Labs]]></title>
+        <id>https://www.armis.com/blog/advancing-cybersecurity-the-significance-of-armis-labs/</id>
+        <link href="https://www.armis.com/blog/advancing-cybersecurity-the-significance-of-armis-labs/"/>
+        <updated>2026-06-29T10:08:03.147Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/advancing-cybersecurity-the-significance-of-armis-labs/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Armis Labs Research													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="345" height="304" src="https://www.armis.com/wp-content/uploads/2024/04/blog-armis-labs-featured.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2545488 wp-post-2545475" alt="Armis Labs blog featured image" decoding="async" srcset="https://www.armis.com/wp-content/uploads/2024/04/blog-armis-labs-featured.jpg 345w, https://www.armis.com/wp-content/uploads/2024/04/blog-armis-labs-featured-300x264.jpg 300w" sizes="(max-width: 345px) 100vw, 345px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content" style="height: 252.5px;">
+										<h5 style="height: 191.5px;">
+											Advancing Cybersecurity: The Significance of Armis Labs										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1709064955/images/Michael-Rothschild-author/Michael-Rothschild-author.jpg?_i=AA" class="attachment-small size-small wp-image-2542720" alt="Michael Rothschild" decoding="async" data-public-id="images/Michael-Rothschild-author/Michael-Rothschild-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1709064955" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1709064955/images/Michael-Rothschild-author/Michael-Rothschild-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1709064955/images/Michael-Rothschild-author/Michael-Rothschild-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Michael Rothschild													</h6>
+					
+													<p>VP, Product Marketing</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Research Shows Global Organizations Fight Increasing Attack Surface with Fragmented Tools, Scattered Threat Intelligence and Manual Spreadsheets]]></title>
+        <id>https://www.armis.com/blog/new-research-shows-global-organizations-fight-increasing-attack-surface-with-fragmented-tools-scattered-threat-intelligence-and-manual-spreadsheets/</id>
+        <link href="https://www.armis.com/blog/new-research-shows-global-organizations-fight-increasing-attack-surface-with-fragmented-tools-scattered-threat-intelligence-and-manual-spreadsheets/"/>
+        <updated>2026-06-29T10:08:03.149Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/new-research-shows-global-organizations-fight-increasing-attack-surface-with-fragmented-tools-scattered-threat-intelligence-and-manual-spreadsheets/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Armis Labs Research													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1699034046/images/earth-from-space-thumbnail/earth-from-space-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-1276007 wp-post-1275812" alt="earth from space thumbnail 2" decoding="async" data-public-id="images/earth-from-space-thumbnail/earth-from-space-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1699034046" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1699034046/images/earth-from-space-thumbnail/earth-from-space-thumbnail.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1699034046/images/earth-from-space-thumbnail/earth-from-space-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content" style="height: 252.5px;">
+										<h5 style="height: 191.5px;">
+											New Research Shows Global Organizations Fight Increasing Attack Surface with Fragmented Tools, Scattered Threat Intelligence and Manual Spreadsheets										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686856924/images/Curtis-Simpson-author/Curtis-Simpson-author.jpg?_i=AA" class="attachment-small size-small wp-image-25457" alt="Blog Author" decoding="async" data-public-id="images/Curtis-Simpson-author/Curtis-Simpson-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1686856924" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686856924/images/Curtis-Simpson-author/Curtis-Simpson-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1686856924/images/Curtis-Simpson-author/Curtis-Simpson-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Curtis Simpson													</h6>
+					
+													<p>CISO and Chief Advocacy Officer</p>
+												</div><!-- /.card__content -->
 											</div><!-- /.card-author -->
 										</div><!-- /.article__author -->
 									</div><!-- /.resource__content -->
