@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lab.ctbb.show/research/all/</id>
     <title>ctbb_research</title>
-    <updated>2026-07-04T20:02:39.261Z</updated>
+    <updated>2026-07-05T20:45:31.358Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://lab.ctbb.show/research/all/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[postMessage targetOrigin bypass via IP normalizationNEW]]></title>
+        <id>https://lab.ctbb.show/research/postmessage-targetorigin-bypass-via-ip-normalization</id>
+        <link href="https://lab.ctbb.show/research/postmessage-targetorigin-bypass-via-ip-normalization"/>
+        <updated>2026-07-06T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/research/postmessage-targetorigin-bypass-via-ip-normalization">postMessage targetOrigin bypass via IP normalization<span class="new-badge">NEW</span></a>
+                </h3>
+                <div class="article-subtitle">How an integer IP host slips past a subdomain regex and redirects postMessage data to an attacker-controlled origin.</div>
+                <div class="article-meta">
+                    <span class="article-date">Jul 6, 2026</span> • <span class="article-author"><span>­Mathias Karlsson</span><img src="/assets/images/avlidienbrunn.jpg" alt="­Mathias Karlsson" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">The second argument to `postMessage` controls which origin is allowed to receive the data, the brows...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="postmessage">postmessage</span><span class="article-tag" data-tag="url-parsing">url-parsing</span><span class="article-tag" data-tag="origin-bypass">origin-bypass</span></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WAF Bypasses via h2 framing]]></title>
         <id>https://lab.ctbb.show/research/h2-WAF-Bypasses</id>
@@ -139,20 +154,5 @@
                 </div>
                 <div class="article-excerpt">This post will cover various ways to cancel or pause redirects in the browser, since I've recent...</div>
                 <div class="article-tags"><span class="article-tag" data-tag="browser">browser</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="oauth">oauth</span><span class="article-tag" data-tag="redirect">redirect</span></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vega CVE-2025-59840 - Unusual XSS Technique toString gadget chains]]></title>
-        <id>https://lab.ctbb.show/research/CVE-2025-59840-unusual-xss-technique-toString-gadget-chains</id>
-        <link href="https://lab.ctbb.show/research/CVE-2025-59840-unusual-xss-technique-toString-gadget-chains"/>
-        <updated>2025-12-01T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/research/CVE-2025-59840-unusual-xss-technique-toString-gadget-chains">Vega CVE-2025-59840 - Unusual XSS Technique toString gadget chains</a>
-                </h3>
-                <div class="article-subtitle">A writeup on the technical details of a Vega Visualization library XSS bug that uses interesting techniques to get controlled JS function execution.</div>
-                <div class="article-meta">
-                    <span class="article-date">Dec 1, 2025</span> • <span class="article-author"><span>Nick Copi</span><img src="/assets/images/7urb0pfp.png" alt="Nick Copi" class="author-avatar"></span>
-                </div>
-                <div class="article-excerpt">Vega is an open source visualization library with support for rich custom configurations, including ...</div>
-                <div class="article-tags"><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="client-side">client-side</span></div>]]></content>
     </entry>
 </feed>
