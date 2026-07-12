@@ -2,30 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://trainsec.net/library/</id>
     <title>trainsec</title>
-    <updated>2026-07-12T00:32:46.194Z</updated>
+    <updated>2026-07-12T22:23:43.800Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://trainsec.net/wp-content/uploads/2024/05/Icon-no-space@2x-100x100.png</icon>
     <entry>
-        <title type="html"><![CDATA[Why Malware Analysts Need to Think Like Attackers]]></title>
-        <id>https://trainsec.net/library/career-guides/why-malware-analysts-need-to-think-like-attackers/</id>
-        <link href="https://trainsec.net/library/career-guides/why-malware-analysts-need-to-think-like-attackers/"/>
-        <updated>2026-06-25T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="elementor-post__text">
+        <title type="html"><![CDATA[How Windows App Execution Aliases Work (and How to Read Them in C++)]]></title>
+        <id>https://trainsec.net/library/windows-internals/how-windows-app-execution-aliases-work-and-how-to-read-them-in-c/</id>
+        <link href="https://trainsec.net/library/windows-internals/how-windows-app-execution-aliases-work-and-how-to-read-them-in-c/"/>
+        <updated>2026-07-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/how-windows-app-execution-aliases-work-and-how-to-read-them-in-c/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault.jpg" class="attachment-full size-full wp-image-11823 entered lazyloaded" alt="How Windows App Execution Aliases Work (and How to Read Them in C++)" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-600x338.jpg 600w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault.jpg" data-ll-status="loaded" sizes="(max-width: 1280px) 100vw, 1280px" srcset="https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-600x338.jpg 600w"><noscript><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault.jpg" class="attachment-full size-full wp-image-11823" alt="How Windows App Execution Aliases Work (and How to Read Them in C++)" srcset="https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
+		</a>
+				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/career-guides/why-malware-analysts-need-to-think-like-attackers/">
-				Why Malware Analysts Need to Think Like Attackers&nbsp;			</a>
+			<a href="https://trainsec.net/library/windows-internals/how-windows-app-execution-aliases-work-and-how-to-read-them-in-c/">
+				How Windows App Execution Aliases Work (and How to Read Them in C++)			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
-			Uriel Kosayev		</span>
+			Pavel Yosifovich		</span>
 				<span class="elementor-post-date">
-			June 25, 2026		</span>
+			July 12, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-					</div>
+			<p>Pavel Yosifovich explains how Windows App Execution Aliases work, why the alias files are zero bytes, and how to enumerate them in C++ using NTFS reparse points and FSCTL_GET_REPARSE_POINT.</p>
+		</div>
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/career-guides/why-malware-analysts-need-to-think-like-attackers/" aria-label="Read more about Why Malware Analysts Need to Think Like Attackers&nbsp;" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/how-windows-app-execution-aliases-work-and-how-to-read-them-in-c/" aria-label="Read more about How Windows App Execution Aliases Work (and How to Read Them in C++)" tabindex="-1">
 			Dive in		</a>
+
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Windows App Execution Aliases Work (and How to Read Them in C++)]]></title>
+        <id>https://trainsec.net/library/windows-internals/how-windows-app-execution-aliases-work-and-how-to-read-them-in-c/</id>
+        <link href="https://trainsec.net/library/windows-internals/how-windows-app-execution-aliases-work-and-how-to-read-them-in-c/"/>
+        <updated>2026-07-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/how-windows-app-execution-aliases-work-and-how-to-read-them-in-c/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20720'%3E%3C/svg%3E" class="attachment-full size-full wp-image-11823" alt="How Windows App Execution Aliases Work (and How to Read Them in C++)" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-600x338.jpg 600w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault.jpg"><noscript><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault.jpg" class="attachment-full size-full wp-image-11823" alt="How Windows App Execution Aliases Work (and How to Read Them in C++)" srcset="https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/07/62v3BsdFt3Q-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/how-windows-app-execution-aliases-work-and-how-to-read-them-in-c/">
+				How Windows App Execution Aliases Work (and How to Read Them in C++)			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			July 12, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Pavel Yosifovich explains how Windows App Execution Aliases work, why the alias files are zero bytes, and how to enumerate them in C++ using NTFS		</p></div>
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/how-windows-app-execution-aliases-work-and-how-to-read-them-in-c/" aria-label="Read more about How Windows App Execution Aliases Work (and How to Read Them in C++)" tabindex="-1">
+			Read More 		</a>
 
 				</div>]]></content>
     </entry>
@@ -46,12 +77,14 @@
 			June 25, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>Malware analysts do not just need to understand what malicious code does. They also need to understand the intent behind it — what the attacker</p>
+			<p>Malware analysts do not just need to understand what malicious code does. They also need</p>
 		</div>
+					<div class="elementor-post__read-more-wrapper">
 		
 		<a class="elementor-post__read-more" href="https://trainsec.net/library/career-guides/why-malware-analysts-need-to-think-like-attackers/" aria-label="Read more about Why Malware Analysts Need to Think Like Attackers&nbsp;" tabindex="-1">
 			Read More 		</a>
 
+					</div>
 				</div>]]></content>
     </entry>
     <entry>
