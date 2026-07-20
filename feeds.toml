@@ -249,15 +249,6 @@ entrySelector = ".w-dyn-item"
 titleSelector = ".blog-item-title-h4-regular"
 linkSelector = "a"
 
-[awssecuritydigest]
-title = "awssecuritydigest"
-url = "https://awssecuritydigest.com/articles"
-entrySelector = ".card"
-titleSelector = "h2 a"
-linkSelector = "h2 a"
-dateSelector = ".date"
-dateFormat = "MMMM d, yyyy"
-
 [armosec]
 title = "armosec"
 url = "https://www.armosec.io/blog/"
@@ -1618,16 +1609,6 @@ linkSelector = "*"
 dateSelector = ".font-mono.text-xs.text-dim"
 dateFormat = "MMM dd, yyyy"
 
-[groupib]
-title = "groupib"
-url = "https://www.group-ib.com/blog/"
-entrySelector = ".blogpost-card"
-titleSelector = ".blogpost-card__title"
-linkSelector = "*"
-dateSelector = ".blogpost-card__meta"
-dateFormat = "MMMM d, yyyy"
-filters = ["Technologies ·"]
-
 [hhj4ck]
 title = "hhj4ck"
 url = "https://hhj4ck.github.io/"
@@ -1643,3 +1624,202 @@ url = "https://syntax-err0r.github.io/"
 entrySelector = ".markdown-body ul li"
 titleSelector = "a"
 linkSelector = "a"
+
+[capsulesecurity]
+title = "Capsule Security"
+url = "https://www.capsulesecurity.io/blog"
+entrySelector = ".blog__post-card"
+titleSelector = ".blog-title"
+linkSelector = "a"
+dateSelector = "[fs-list-field='date']"
+dateFormat = "MMMM dd, yyyy"
+
+[evokesecurity]
+title = "Evoke Security"
+url = "https://www.evokesecurity.com/blogs"
+entrySelector = "a[href^='./blogs/']"
+titleSelector = "h6"
+linkSelector = "*"
+dateSelector = "time"
+dateFormat = "MMM dd, yyyy"
+
+[mirrorsecurity]
+title = "Mirror Security"
+url = "https://mirrorsecurity.io/blog"
+entrySelector = "a.join-card"
+titleSelector = "h3"
+linkSelector = "*"
+dateSelector = ".p-5 span"
+dateFormat = "MMM yyyy"
+waitUntil = "networkidle"
+timeout = 90
+
+[onyxsecurity]
+title = "Onyx Security"
+url = "https://www.onyx.security/blog"
+entrySelector = ".blog-feature-w .w-dyn-item, .blog-grid-item"
+titleSelector = "h2, h3"
+linkSelector = "a"
+dateSelector = "div[class$='auth-c'] > div:first-child"
+dateFormat = "dd MMM yyyy"
+
+[getunbound]
+title = "Unbound"
+url = "https://getunbound.ai/blog"
+entrySelector = "a.group[href^='/blog/']"
+titleSelector = "h2, h3"
+linkSelector = "*"
+dateSelector = "span.text-xs, .mt-2 > span:first-child"
+dateFormat = "MMM d, yyyy"
+
+[aisy]
+title = "Aisy"
+url = "https://aisy.ai/blog"
+entrySelector = "a[href^='/blog/']"
+titleSelector = "p:nth-of-type(2)"
+linkSelector = "*"
+dateSelector = "p:nth-of-type(1)"
+dateFormat = "MMMM yyyy"
+waitUntil = "networkidle"
+timeout = 120
+
+[arcjet]
+title = "Arcjet"
+url = "https://blog.arcjet.com/"
+entrySelector = "article.post"
+titleSelector = "h3 a"
+linkSelector = "h3 a"
+dateSelector = "time"
+dateFormat = "yyyy-MM-dd"
+
+[pixee]
+title = "Pixee"
+url = "https://www.pixee.ai/resource-center"
+entrySelector = ".cms-resources_item"
+titleSelector = "[fs-list-field='title']"
+linkSelector = "a.g_clickable_link"
+
+[cloudfence]
+title = "CloudFence"
+url = "https://www.cloudfence.com/blog"
+entrySelector = "a.blog1_item-link"
+titleSelector = ".blog-item-heading"
+linkSelector = "*"
+dateSelector = ".published-at-item"
+dateFormat = "MMMM d, yyyy"
+
+[cyberseq]
+title = "CyberSeQ Research"
+url = "https://cyberseq.io/research"
+entrySelector = "a.csq-card"
+titleSelector = "h2"
+linkSelector = "*"
+dateSelector = "span.flex-shrink-0"
+dateFormat = "d MMM yyyy"
+waitUntil = "networkidle"
+waitForSelector = "a.csq-card"
+timeout = 120
+
+[nativesecurity]
+title = "Native Security"
+url = "https://native.security/blog"
+entrySelector = "a[href^='./blog/']:not([href*='/category/'])"
+titleSelector = "h2, div.framer-text"
+linkSelector = "*"
+dateSelector = "p.framer-text[class*='framer-styles-preset-']"
+dateFormat = "MMM d, yyyy"
+
+[prowler]
+title = "Prowler"
+url = "https://prowler.com/blog"
+entrySelector = "a.post"
+titleSelector = "h3"
+linkSelector = "*"
+dateSelector = ".post_info .text-size-regular"
+dateFormat = "MMMM d, yyyy"
+
+[jazzsecurity]
+title = "Jazz Security Blog"
+url = "https://www.jazz.security/blog"
+entrySelector = ".blog_collection-item"
+titleSelector = ".blog_name"
+linkSelector = "a.blog_card"
+dateSelector = ".featured_details > div:first-child"
+dateFormat = "MMMM d, yyyy"
+
+[orionsec]
+title = "ORION Security Blog"
+url = "https://www.orionsec.io/blog"
+entrySelector = "a.post-card"
+titleSelector = "h2"
+linkSelector = "*"
+dateSelector = "time"
+dateFormat = "MMM d, yyyy"
+waitUntil = "networkidle"
+
+[cognna]
+title = "Cognna Blog"
+url = "https://www.cognna.com/blog"
+entrySelector = '.blog-tab-pane[data-w-tab="Tab 1"] .w-dyn-item'
+titleSelector = ".blog-item-title"
+linkSelector = "a.blog-link-block"
+
+[matesecurity_blog]
+title = "Mate Security Blog"
+url = "https://mate.security/blog"
+entrySelector = ".news_collection-item"
+titleSelector = "h3"
+linkSelector = "a.news_collection-item-inner"
+dateSelector = ".news_details-inner > div:first-child"
+dateFormat = "MMMM d, yyyy"
+
+[matesecurity_labs]
+title = "Mate Security Labs"
+url = "https://mate.security/labs"
+entrySelector = ".news_collection-item"
+titleSelector = "h3"
+linkSelector = "a.news_collection-item-inner"
+dateSelector = ".news_details-inner > div:first-child"
+dateFormat = "MMMM d, yyyy"
+
+[nrdsnipe]
+title = "NRDSNIPE"
+url = "https://www.nrdsnipe.com/blog"
+entrySelector = "a[href*='articles/']"
+titleSelector = "h1"
+linkSelector = "*"
+dateSelector = "time"
+
+[tandemtrace]
+title = "TandemTrace"
+url = "https://www.tandemtrace.ai/blog/"
+entrySelector = "a.feed-row"
+titleSelector = ".feed-title"
+linkSelector = "*"
+dateSelector = ".date"
+dateFormat = "yyyy.MM.dd"
+
+[secroles]
+title = "SecRoles"
+url = "https://secroles.com/blog"
+entrySelector = "li:has(> a[href^='/blog/'])"
+titleSelector = "h3"
+linkSelector = "a"
+
+[viuleeenz]
+title = "Viuleeenz"
+url = "https://viuleeenz.github.io/posts/"
+entrySelector = "li.post-item"
+titleSelector = ".post-title"
+linkSelector = "a"
+waitUntil = "networkidle"
+waitForSelector = "li.post-item"
+
+[devtocash]
+title = "DevToCash"
+url = "https://devtocash.com/blog"
+entrySelector = "a:has(h3)"
+titleSelector = "h3"
+linkSelector = "*"
+dateSelector = "span.text-slate-500"
+dateFormat = "MMM dd, yyyy"
