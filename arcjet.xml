@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.arcjet.com/</id>
+    <title>Arcjet</title>
+    <updated>2026-07-20T15:46:57.820Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <icon>https://blog.arcjet.com/assets/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[SDK releases, security briefing improvements, new activity view]]></title>
+        <id>https://blog.arcjet.com/sdk-releases-security-briefing-improvements-new-activity-view/</id>
+        <link href="https://blog.arcjet.com/sdk-releases-security-briefing-improvements-new-activity-view/"/>
+        <updated>2026-07-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="overflow-hidden bg-white dark:bg-black rounded-2xl z-10 ">
+            <img src="https://storage.ghost.io/c/12/33/1233abe1-48eb-491c-96a8-edfeaee3a287/content/images/size/w632h355/2026/07/_Export---Artwork---Changelog-2.png" alt="SDK releases, security briefing improvements, new activity view" class="w-full object-cover">
+        </div>
+    <div class="md:order-first group-hover:border-opacity-20 group-hover:bg-opacity-5 dark:group-hover:border-opacity-20 dark:group-hover:bg-opacity-5 duration-300 ">
+        <div class="flex items-center space-x-2 mb-4 md:mb-6 font-2 text-xs leading-loose font-medium tracking-1 uppercase text-gray-4 dark:text-gray-1 duration-300">
+                <a href="/tag/changelog/" class="text-gray-4 dark:text-gray-1 block relative duration-300 z-30 hover:text-black dark:hover:text-white">
+                    Changelog
+                </a>
+                <div class="bg-purple-1 w-1 h-1 rounded-full"></div>
+            <time datetime="2026-07-03">Jul 03, 2026</time>
+            <div class="bg-purple-1 w-1 h-1 rounded-full"></div>
+            <div>2 min read</div>
+        </div> 
+        <h3><a href="/sdk-releases-security-briefing-improvements-new-activity-view/" class="text-2xl leading-tight md:text-2 md:leading-tight lg:text-1 lg:leading-tight block mb-4 md:mb-6 font-semibold text-black dark:text-white tracking-2 duration-300">SDK releases, security briefing improvements, new activity view</a></h3>
+        <p class="text-base leading-snug lg:text-lg lg:leading-snug text-black text-opacity-80 dark:text-gray-2 tracking-1 mb-6 duration-300">What's new in Arcjet (2026-07-03). New SDK updates, security briefing email improvements, Nosecone nonce API, and a new Console activity view.</p>
+        <div class="flex items-center mt-auto">
+            <ul class="flex mr-2">
+                    <li class="relative first:ml-0 -ml-2">
+                            <a href="/author/david/" class="block relative duration-300 z-30 hover:scale-125">
+                                <img class="w-6 h-6 rounded-full" src="https://www.gravatar.com/avatar/3ac471ec2d619f89647109046ee5ad9d?s=250&amp;r=x&amp;d=mp" alt="David Mytton">
+                            </a>
+                    </li>
+            </ul>
+            <div class="authors font-2 text-xs leading-loose font-light text-gray-4 dark:text-gray-1 tracking-1 uppercase block">
+                <a href="/author/david/">David Mytton</a>
+            </div>
+        </div>
+    </div>
+    <a href="/sdk-releases-security-briefing-improvements-new-activity-view/" class="absolute top-0 left-0 w-full h-full z-20"></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Running PII detection locally with the Rampart NER model]]></title>
+        <id>https://blog.arcjet.com/running-pii-detection-locally-with-the-rampart-ner-model/</id>
+        <link href="https://blog.arcjet.com/running-pii-detection-locally-with-the-rampart-ner-model/"/>
+        <updated>2026-07-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="overflow-hidden bg-white dark:bg-black rounded-2xl z-10 ">
+            <img src="https://storage.ghost.io/c/12/33/1233abe1-48eb-491c-96a8-edfeaee3a287/content/images/size/w632h355/2026/07/eng-art.png" alt="Running PII detection locally with the Rampart NER model" class="w-full object-cover">
+        </div>
+    <div class="flex flex-col items-start flex-1 p-6 md:p-8 pt-10 md:pt-12 -mt-4 bg-black bg-opacity-bo-1 dark:bg-white dark:bg-opacity-bo-1 border border-black border-opacity-10 dark:border-white dark:border-opacity-10 rounded-b-2xl group-hover:border-opacity-20 group-hover:bg-opacity-5 dark:group-hover:border-opacity-20 dark:group-hover:bg-opacity-5 duration-300 ">
+        <div class="flex items-center space-x-2 mb-4 md:mb-6 font-2 text-xs leading-loose font-medium tracking-1 uppercase text-gray-4 dark:text-gray-1 duration-300">
+                <a href="/tag/engineering/" class="text-gray-4 dark:text-gray-1 block relative duration-300 z-30 hover:text-black dark:hover:text-white">
+                    Engineering
+                </a>
+                <div class="bg-purple-1 w-1 h-1 rounded-full"></div>
+            <time datetime="2026-07-01">Jul 01, 2026</time>
+            <div class="bg-purple-1 w-1 h-1 rounded-full"></div>
+            <div>10 min read</div>
+        </div> 
+        <h3><a href="/running-pii-detection-locally-with-the-rampart-ner-model/" class="text-2xl leading-tight md:text-2 md:leading-tight block mb-4 md:mb-6 font-semibold text-black dark:text-white tracking-2 duration-300">Running PII detection locally with the Rampart NER model</a></h3>
+        <p class="text-base leading-snug lg:text-lg lg:leading-snug text-black text-opacity-80 dark:text-gray-2 tracking-1 mb-6 duration-300">How Arcjet added an optional on-device model backend for sensitive information detection: a pluggable rule interface, deterministic recognizers for structured data, offset reconstruction for token-classification output, and local ONNX inference in the request path.</p>
+        <div class="flex items-center mt-auto">
+            <ul class="flex mr-2">
+                    <li class="relative first:ml-0 -ml-2">
+                            <a href="/author/david/" class="block relative duration-300 z-30 hover:scale-125">
+                                <img class="w-6 h-6 rounded-full" src="https://www.gravatar.com/avatar/3ac471ec2d619f89647109046ee5ad9d?s=250&amp;r=x&amp;d=mp" alt="David Mytton">
+                            </a>
+                    </li>
+            </ul>
+            <div class="authors font-2 text-xs leading-loose font-light text-gray-4 dark:text-gray-1 tracking-1 uppercase block">
+                <a href="/author/david/">David Mytton</a>
+            </div>
+        </div>
+    </div>
+    <a href="/running-pii-detection-locally-with-the-rampart-ner-model/" class="absolute top-0 left-0 w-full h-full z-20"></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SDK performance releases and proxy detection]]></title>
+        <id>https://blog.arcjet.com/sdk-performance-releases-and-proxy-detection/</id>
+        <link href="https://blog.arcjet.com/sdk-performance-releases-and-proxy-detection/"/>
+        <updated>2026-06-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="overflow-hidden bg-white dark:bg-black rounded-2xl z-10 ">
+            <img src="https://storage.ghost.io/c/12/33/1233abe1-48eb-491c-96a8-edfeaee3a287/content/images/size/w632h355/2026/06/changelog-bg.png" alt="SDK performance releases and proxy detection" class="w-full object-cover">
+        </div>
+    <div class="flex flex-col items-start flex-1 p-6 md:p-8 pt-10 md:pt-12 -mt-4 bg-black bg-opacity-bo-1 dark:bg-white dark:bg-opacity-bo-1 border border-black border-opacity-10 dark:border-white dark:border-opacity-10 rounded-b-2xl group-hover:border-opacity-20 group-hover:bg-opacity-5 dark:group-hover:border-opacity-20 dark:group-hover:bg-opacity-5 duration-300 ">
+        <div class="flex items-center space-x-2 mb-4 md:mb-6 font-2 text-xs leading-loose font-medium tracking-1 uppercase text-gray-4 dark:text-gray-1 duration-300">
+                <a href="/tag/changelog/" class="text-gray-4 dark:text-gray-1 block relative duration-300 z-30 hover:text-black dark:hover:text-white">
+                    Changelog
+                </a>
+                <div class="bg-purple-1 w-1 h-1 rounded-full"></div>
+            <time datetime="2026-06-12">Jun 12, 2026</time>
+            <div class="bg-purple-1 w-1 h-1 rounded-full"></div>
+            <div>1 min read</div>
+        </div> 
+        <h3><a href="/sdk-performance-releases-and-proxy-detection/" class="text-2xl leading-tight md:text-2 md:leading-tight block mb-4 md:mb-6 font-semibold text-black dark:text-white tracking-2 duration-300">SDK performance releases and proxy detection</a></h3>
+        <p class="text-base leading-snug lg:text-lg lg:leading-snug text-black text-opacity-80 dark:text-gray-2 tracking-1 mb-6 duration-300">What's new in Arcjet (2026-06-12). New versions for each of our JS, Python, and Go SDKs to improve performance and detect proxies.</p>
+        <div class="flex items-center mt-auto">
+            <ul class="flex mr-2">
+                    <li class="relative first:ml-0 -ml-2">
+                            <a href="/author/david/" class="block relative duration-300 z-30 hover:scale-125">
+                                <img class="w-6 h-6 rounded-full" src="https://www.gravatar.com/avatar/3ac471ec2d619f89647109046ee5ad9d?s=250&amp;r=x&amp;d=mp" alt="David Mytton">
+                            </a>
+                    </li>
+            </ul>
+            <div class="authors font-2 text-xs leading-loose font-light text-gray-4 dark:text-gray-1 tracking-1 uppercase block">
+                <a href="/author/david/">David Mytton</a>
+            </div>
+        </div>
+    </div>
+    <a href="/sdk-performance-releases-and-proxy-detection/" class="absolute top-0 left-0 w-full h-full z-20"></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Arcjet's Wasm bot detector smaller and faster]]></title>
+        <id>https://blog.arcjet.com/making-arcjets-wasm-bot-detector-smaller-and-faster/</id>
+        <link href="https://blog.arcjet.com/making-arcjets-wasm-bot-detector-smaller-and-faster/"/>
+        <updated>2026-06-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="overflow-hidden bg-white dark:bg-black rounded-2xl z-10 ">
+            <img src="https://storage.ghost.io/c/12/33/1233abe1-48eb-491c-96a8-edfeaee3a287/content/images/size/w632h355/2026/06/engineering-wasm.png" alt="Making Arcjet's Wasm bot detector smaller and faster" class="w-full object-cover">
+        </div>
+    <div class="flex flex-col items-start flex-1 p-6 md:p-8 pt-10 md:pt-12 -mt-4 bg-black bg-opacity-bo-1 dark:bg-white dark:bg-opacity-bo-1 border border-black border-opacity-10 dark:border-white dark:border-opacity-10 rounded-b-2xl group-hover:border-opacity-20 group-hover:bg-opacity-5 dark:group-hover:border-opacity-20 dark:group-hover:bg-opacity-5 duration-300 ">
+        <div class="flex items-center space-x-2 mb-4 md:mb-6 font-2 text-xs leading-loose font-medium tracking-1 uppercase text-gray-4 dark:text-gray-1 duration-300">
+                <a href="/tag/engineering/" class="text-gray-4 dark:text-gray-1 block relative duration-300 z-30 hover:text-black dark:hover:text-white">
+                    Engineering
+                </a>
+                <div class="bg-purple-1 w-1 h-1 rounded-full"></div>
+            <time datetime="2026-06-11">Jun 11, 2026</time>
+            <div class="bg-purple-1 w-1 h-1 rounded-full"></div>
+            <div>7 min read</div>
+        </div> 
+        <h3><a href="/making-arcjets-wasm-bot-detector-smaller-and-faster/" class="text-2xl leading-tight block mb-4 md:mb-6 font-semibold text-black dark:text-white tracking-2 duration-300">Making Arcjet's Wasm bot detector smaller and faster</a></h3>
+        <p class="text-base leading-snug lg:text-lg lg:leading-snug text-black text-opacity-80 dark:text-gray-2 tracking-1 mb-6 duration-300">Reducing WebAssembly bundle size: how Arcjet shrank its Rust bot detector 27% with Aho-Corasick, keeping per-request memory isolation and using Wizer snapshots.</p>
+        <div class="flex items-center mt-auto">
+            <ul class="flex mr-2">
+                    <li class="relative first:ml-0 -ml-2">
+                            <a href="/author/david/" class="block relative duration-300 z-30 hover:scale-125">
+                                <img class="w-6 h-6 rounded-full" src="https://www.gravatar.com/avatar/3ac471ec2d619f89647109046ee5ad9d?s=250&amp;r=x&amp;d=mp" alt="David Mytton">
+                            </a>
+                    </li>
+            </ul>
+            <div class="authors font-2 text-xs leading-loose font-light text-gray-4 dark:text-gray-1 tracking-1 uppercase block">
+                <a href="/author/david/">David Mytton</a>
+            </div>
+        </div>
+    </div>
+    <a href="/making-arcjets-wasm-bot-detector-smaller-and-faster/" class="absolute top-0 left-0 w-full h-full z-20"></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing advanced bot signals to detect automation without CAPTCHAs]]></title>
+        <id>https://blog.arcjet.com/announcing-advanced-bot-signals-to-detect-automation-without-captchas/</id>
+        <link href="https://blog.arcjet.com/announcing-advanced-bot-signals-to-detect-automation-without-captchas/"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="overflow-hidden bg-white dark:bg-black rounded-2xl z-10 ">
+            <img src="https://storage.ghost.io/c/12/33/1233abe1-48eb-491c-96a8-edfeaee3a287/content/images/size/w632h355/2026/06/_Export---Artwork---Company-news-1.png" alt="Announcing advanced bot signals to detect automation without CAPTCHAs" class="w-full object-cover">
+        </div>
+    <div class="flex flex-col items-start flex-1 p-6 md:p-8 pt-10 md:pt-12 -mt-4 bg-black bg-opacity-bo-1 dark:bg-white dark:bg-opacity-bo-1 border border-black border-opacity-10 dark:border-white dark:border-opacity-10 rounded-b-2xl group-hover:border-opacity-20 group-hover:bg-opacity-5 dark:group-hover:border-opacity-20 dark:group-hover:bg-opacity-5 duration-300 ">
+        <div class="flex items-center space-x-2 mb-4 md:mb-6 font-2 text-xs leading-loose font-medium tracking-1 uppercase text-gray-4 dark:text-gray-1 duration-300">
+                <a href="/tag/company-news/" class="text-gray-4 dark:text-gray-1 block relative duration-300 z-30 hover:text-black dark:hover:text-white">
+                    Company News
+                </a>
+                <div class="bg-purple-1 w-1 h-1 rounded-full"></div>
+            <time datetime="2026-06-03">Jun 03, 2026</time>
+            <div class="bg-purple-1 w-1 h-1 rounded-full"></div>
+            <div>5 min read</div>
+        </div> 
+        <h3><a href="/announcing-advanced-bot-signals-to-detect-automation-without-captchas/" class="text-2xl leading-tight block mb-4 md:mb-6 font-semibold text-black dark:text-white tracking-2 duration-300">Announcing advanced bot signals to detect automation without CAPTCHAs</a></h3>
+        <p class="text-base leading-snug lg:text-lg lg:leading-snug text-black text-opacity-80 dark:text-gray-2 tracking-1 mb-6 duration-300">Arcjet Signals are evaluated without a CAPTCHA and enforced when the request passes through a critical flow. The browser gives us signals. The application gives us intent.</p>
+        <div class="flex items-center mt-auto">
+            <ul class="flex mr-2">
+                    <li class="relative first:ml-0 -ml-2">
+                            <a href="/author/david/" class="block relative duration-300 z-30 hover:scale-125">
+                                <img class="w-6 h-6 rounded-full" src="https://www.gravatar.com/avatar/3ac471ec2d619f89647109046ee5ad9d?s=250&amp;r=x&amp;d=mp" alt="David Mytton">
+                            </a>
+                    </li>
+            </ul>
+            <div class="authors font-2 text-xs leading-loose font-light text-gray-4 dark:text-gray-1 tracking-1 uppercase block">
+                <a href="/author/david/">David Mytton</a>
+            </div>
+        </div>
+    </div>
+    <a href="/announcing-advanced-bot-signals-to-detect-automation-without-captchas/" class="absolute top-0 left-0 w-full h-full z-20"></a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing a CLI for AI agents]]></title>
+        <id>https://blog.arcjet.com/designing-a-cli-for-ai-agents/</id>
+        <link href="https://blog.arcjet.com/designing-a-cli-for-ai-agents/"/>
+        <updated>2026-06-02T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="overflow-hidden bg-white dark:bg-black rounded-2xl z-10 ">
+            <img src="https://storage.ghost.io/c/12/33/1233abe1-48eb-491c-96a8-edfeaee3a287/content/images/size/w632h355/2026/06/_Export---Artwork---Engineering-1.png" alt="Designing a CLI for AI agents" class="w-full object-cover">
+        </div>
+    <div class="flex flex-col items-start flex-1 p-6 md:p-8 pt-10 md:pt-12 -mt-4 bg-black bg-opacity-bo-1 dark:bg-white dark:bg-opacity-bo-1 border border-black border-opacity-10 dark:border-white dark:border-opacity-10 rounded-b-2xl group-hover:border-opacity-20 group-hover:bg-opacity-5 dark:group-hover:border-opacity-20 dark:group-hover:bg-opacity-5 duration-300 ">
+        <div class="flex items-center space-x-2 mb-4 md:mb-6 font-2 text-xs leading-loose font-medium tracking-1 uppercase text-gray-4 dark:text-gray-1 duration-300">
+                <a href="/tag/engineering/" class="text-gray-4 dark:text-gray-1 block relative duration-300 z-30 hover:text-black dark:hover:text-white">
+                    Engineering
+                </a>
+                <div class="bg-purple-1 w-1 h-1 rounded-full"></div>
+            <time datetime="2026-06-02">Jun 02, 2026</time>
+            <div class="bg-purple-1 w-1 h-1 rounded-full"></div>
+            <div>9 min read</div>
+        </div> 
+        <h3><a href="/designing-a-cli-for-ai-agents/" class="text-2xl leading-tight block mb-4 md:mb-6 font-semibold text-black dark:text-white tracking-2 duration-300">Designing a CLI for AI agents</a></h3>
+        <p class="text-base leading-snug lg:text-lg lg:leading-snug text-black text-opacity-80 dark:text-gray-2 tracking-1 mb-6 duration-300">How we designed the Arcjet CLI in Go as a stable, defensive interface for humans and AI agents: predictable commands, machine-readable output, strict validation, and confirmation before production changes.</p>
+        <div class="flex items-center mt-auto">
+            <ul class="flex mr-2">
+                    <li class="relative first:ml-0 -ml-2">
+                            <a href="/author/rei/" class="block relative duration-300 z-30 hover:scale-125">
+                                <img class="w-6 h-6 rounded-full" src="https://storage.ghost.io/c/12/33/1233abe1-48eb-491c-96a8-edfeaee3a287/content/images/size/w48h48/2025/12/rei-desu.png" alt="Rei Norvell">
+                            </a>
+                    </li>
+                    <li class="relative first:ml-0 -ml-2">
+                            <a href="/author/david/" class="block relative duration-300 z-30 hover:scale-125">
+                                <img class="w-6 h-6 rounded-full" src="https://www.gravatar.com/avatar/3ac471ec2d619f89647109046ee5ad9d?s=250&amp;r=x&amp;d=mp" alt="David Mytton">
+                            </a>
+                    </li>
+            </ul>
+            <div class="authors font-2 text-xs leading-loose font-light text-gray-4 dark:text-gray-1 tracking-1 uppercase block">
+                <a href="/author/rei/">Rei Norvell</a>, <a href="/author/david/">David Mytton</a>
+            </div>
+        </div>
+    </div>
+    <a href="/designing-a-cli-for-ai-agents/" class="absolute top-0 left-0 w-full h-full z-20"></a>]]></content>
+    </entry>
+</feed>
