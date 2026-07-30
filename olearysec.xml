@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://olearysec.com/research/</id>
     <title>olearysec</title>
-    <updated>2026-07-30T20:52:03.569Z</updated>
+    <updated>2026-07-30T22:45:44.872Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://olearysec.com/favicon.svg</icon>
     <entry>
@@ -13,7 +13,7 @@
         <content type="html"><![CDATA[<a href="https://olearysec.com/research/config-connector-authorization-bypass/" class="research-card">
             <div class="research-card-content">
                 <h3>ConfigConfusion: GCP IAM Authorization Bypass — Google Said 'Nice Catch' Then Left It Unpatched</h3>
-                <p class="excerpt">GCP IAM authorization bypass via Config Connector confused deputy allows any Kubernetes user to escalate to GCP Organization Owner, bypassing all IAM controls. CVSS 10.0. Google's VRP acknowledged it, then refused the bounty by miscategorizing it as a Config Connector issue instead of an IAM bypass.</p>
+                <p class="excerpt">GCP IAM authorization bypass via Config Connector confused deputy allows any Kubernetes user to escalate to GCP Organization Owner, bypassing all IAM controls. CVSS 9.9. Google's VRP acknowledged it, then refused the bounty by miscategorizing it as a Config Connector issue instead of an IAM bypass.</p>
                 <div class="research-card-meta">
                     <span class="meta-item">Jun 18, 2026</span>
                     <span class="meta-item">Google</span>
@@ -25,7 +25,7 @@
                 <span class="severity severity-critical">Critical</span>
                 
                 
-                <span class="cvss">10.0</span>
+                <span class="cvss">9.9</span>
                 
             </div>
         </a>
@@ -33,7 +33,7 @@
         <a href="https://olearysec.com/research/azure-backup-aks-silent-patch/" class="research-card">
             <div class="research-card-content">
                 <h3>Microsoft Silently Patched a CVSS 9.9 Privilege Escalation in Azure Backup for AKS</h3>
-                <p class="excerpt">CERT/CC validated a critical privilege escalation in Azure Backup for AKS (VU#284781). Microsoft rejected it, then silently patched it without assigning a CVE or notifying customers.</p>
+                <p class="excerpt">CERT/CC opened a case and assigned VU#284781 for a critical privilege escalation in Azure Backup for AKS (CVSS 9.9, self-assessed). Microsoft rejected it, then silently patched without CVE or customer notification.</p>
                 <div class="research-card-meta">
                     <span class="meta-item">May 12, 2026</span>
                     <span class="meta-item">Microsoft</span>
