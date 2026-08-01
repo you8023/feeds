@@ -2,9 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://back.engineering/blog/</id>
     <title>Back Engineering</title>
-    <updated>2026-07-30T22:45:44.887Z</updated>
+    <updated>2026-08-01T04:58:14.582Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://back.engineering/images/favicon_hu_57c0f097a32a52cb.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Static Devirtualization of Tencent VM]]></title>
+        <id>https://back.engineering/blog/31/07/2026/</id>
+        <link href="https://back.engineering/blog/31/07/2026/"/>
+        <updated>2026-08-01T04:53:55.050Z</updated>
+        <content type="html"><![CDATA[<div class="bg-body dark:bg-darkmode-body"><h4 class="mb-3"><a href="/blog/31/07/2026/">Static Devirtualization of Tencent VM</a></h4><ul class="mb-4"><li class="mr-4 inline-block"><i class="fa-regular fa-folder mr-1"></i>
+<a href="/categories/windows/" class="ms-1">Windows</a></li></ul><p class="mb-6">Over the course of several months we have noticed an increased interest in Tencent VM obfuscation. We have had complete static devirtualization of this VM obfuscation for quite some time now and have noticed others have achieved similar deobfuscation results.</p><a class="btn btn-outline-primary btn-sm" href="/blog/31/07/2026/">Read More</a></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Static Devirtualization of Themida]]></title>
         <id>https://back.engineering/blog/09/05/2026/</id>
@@ -89,14 +97,5 @@
         <content type="html"><![CDATA[<div class="bg-body dark:bg-darkmode-body"><h4 class="mb-3"><a href="/blog/10/08/2021/">EasyAntiCheat Exploit to inject unsigned code into protected processes</a></h4><ul class="mb-4"><li class="mr-4 inline-block"><i class="fa-regular fa-circle-user mr-2"></i>
 <a href="/authors/bright/" class="ms-1">bright</a></li><li class="mr-4 inline-block"><i class="fa-regular fa-folder mr-1"></i>
 <a href="/categories/windows/" class="ms-1">Windows</a></li></ul><p class="mb-6">For an attacker, a vital piece of the puzzle is to understand how the anti-cheat operates. Therefore, gaining knowledge of what happens inside the anti-cheat makes it possible to hide your tracks. Let us look at how EasyAntiCheat makes the bridge between the kernel and the game with its set of modules. This will reveal how an overlooked design flaw in the driver can allow an attacker to execute dynamic code in any EasyAntiCheat protected game (or perhaps a game protected by other competitor services) with no restriction.</p><a class="btn btn-outline-primary btn-sm" href="/blog/10/08/2021/">Read More</a></div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VMProtect 2 - Part Two, Complete Static Analysis]]></title>
-        <id>https://back.engineering/blog/21/06/2021/</id>
-        <link href="https://back.engineering/blog/21/06/2021/"/>
-        <updated>2026-06-29T10:12:05.501Z</updated>
-        <content type="html"><![CDATA[<div class="bg-body dark:bg-darkmode-body"><h4 class="mb-3"><a href="/blog/21/06/2021/">VMProtect 2 - Part Two, Complete Static Analysis</a></h4><ul class="mb-4"><li class="mr-4 inline-block"><i class="fa-regular fa-circle-user mr-2"></i>
-<a href="/authors/idontcode/" class="ms-1">IDontCode</a></li><li class="mr-4 inline-block"><i class="fa-regular fa-folder mr-1"></i>
-<a href="/categories/windows/" class="ms-1">Windows</a></li></ul><p class="mb-6">The purpose of this article is to expound upon the prior work disclosed in the last article titled, VMProtect 2 - Detailed Analysis of the Virtual Machine Architecture, as well as correct a few mistakes. In addition, this post will focus primarily on the creation of static analysis tools using the knowledge disclosed in the prior post...</p><a class="btn btn-outline-primary btn-sm" href="/blog/21/06/2021/">Read More</a></div>]]></content>
     </entry>
 </feed>
