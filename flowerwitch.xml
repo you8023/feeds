@@ -2,9 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://flowerwitch.github.io/</id>
     <title>flowerwitch</title>
-    <updated>2026-08-01T19:58:30.973Z</updated>
+    <updated>2026-08-02T19:56:48.197Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://flowerwitch.github.io/images/favicon-light-32.png</icon>
+    <entry>
+        <title type="html"><![CDATA[【2025 泰山杯】数据安全赛道]]></title>
+        <id>https://flowerwitch.github.io/2026/08/01/ctf-taishancup-2025/</id>
+        <link href="https://flowerwitch.github.io/2026/08/01/ctf-taishancup-2025/"/>
+        <updated>2026-08-01T05:27:01.000Z</updated>
+        <content type="html"><![CDATA[<div class="article-inner">
+    <div class="article-main">
+      <header class="article-header">
+        
+<div class="main-title-bar">
+  <div class="main-title-dot"></div>
+  
+    
+      <h1 itemprop="name">
+        <a class="p-name article-title" href="/2026/08/01/ctf-taishancup-2025/">【2025 泰山杯】数据安全赛道</a>
+      </h1>
+    
+  
+</div>
+
+        <div class="meta-info-bar">
+          <div class="meta-info">
+  <time class="dt-published" datetime="2026-08-01T05:27:01.000Z" itemprop="datePublished">2026-08-01</time>
+</div>
+          <div class="need-seperator meta-info">
+            <div class="meta-cate-flex">
+  
+    Uncategorized 
+   
+</div>
+  
+          </div>
+          <div class="wordcount need-seperator meta-info">
+            3k words 
+          </div>
+        </div>
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wp/" rel="tag">wp</a></li></ul>
+
+      </header>
+      <div class="e-content article-entry" itemprop="articleBody">
+        
+          <div class="truncate-text">
+            
+              流量分析flag1
+题干找的上传是压缩包，筛选包内POST或PUT流量
+http.request.method==POST||http.request.method==PUT
+
+其中 No.13038 的key.png是 PK 头，但不是个加密的压缩包
+
+13110是个简单的shell，导出如下
+12345678910111213141516171819202122232425262728293031&lt;?php@session_start();@set_time_limit(0);@error_reporting(0);function encode($D,$K){    for($i=0;$i&lt;strlen($D);$i++) {        $c = $K[$i+1&amp;15];        $D[$i] = $D[$i]^$c;    }    return $D;}$pass='suger';$payloadName='payload';$key='a5717a6...
+            
+          </div>
+        
+      </div>
+      
+         
+    </div>
+    
+     
+    <a class="right-panel  with-pic  " style="background-image: url(/images/)" href="/2026/08/01/ctf-taishancup-2025/">
+       
+      <div class="overlay">
+        <i class="fa-solid fa-angle-right with-pic"></i>
+      </div>
+       
+    </a>
+     
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「花」铁线莲]]></title>
         <id>https://flowerwitch.github.io/2026/05/14/Azure/</id>
@@ -544,71 +615,7 @@ cms/src/SSCMS.Web/Controllers/Admin/Cms/Templates/TemplatesEditorController.Sett
     </div>
     
      
-    <a class="right-panel  with-pic  " style="background-image: url(https://cdn.cdnjson.com/pic.html?url=http://tvax2.sinaimg.cn/large/0065CzJOly1i3duq6754sj32bc334nmi.jpg)" href="/2025/07/14/htb-wp-Outbound/">
-       
-      <div class="overlay">
-        <i class="fa-solid fa-angle-right with-pic"></i>
-      </div>
-       
-    </a>
-     
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tracks-AD-Coder]]></title>
-        <id>https://flowerwitch.github.io/2025/07/11/Tracks-AD-Coder/</id>
-        <link href="https://flowerwitch.github.io/2025/07/11/Tracks-AD-Coder/"/>
-        <updated>2025-07-11T02:49:03.000Z</updated>
-        <content type="html"><![CDATA[<div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2025/07/11/Tracks-AD-Coder/">Tracks-AD-Coder</a>
-      </h1>
-    
-  
-</div>
-
-        <div class="meta-info-bar">
-          <div class="meta-info">
-  <time class="dt-published" datetime="2025-07-11T02:49:03.000Z" itemprop="datePublished">2025-07-11</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-  <a class="meta-cate-link" href="/categories/AD/">AD</a>
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            38k words 
-          </div>
-        </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/AD/" rel="tag">AD</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ADCS/" rel="tag">ADCS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C#</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CI-CD/" rel="tag">CI/CD</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CVE-2022-29623/" rel="tag">CVE-2022-29623</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CreateChild/" rel="tag">CreateChild</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/DACL/" rel="tag">DACL</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PKI-ADMIN/" rel="tag">PKI ADMIN</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TOTP/" rel="tag">TOTP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TeamCity/" rel="tag">TeamCity</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wp/" rel="tag">wp</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          <div class="truncate-text">
-            
-              Nmap1234567891011121314151617181920212223242526272829303132333435└─$ sudo nmap -sS 10.10.11.207 -p- --min-rate=3000Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-11 18:47 EDTWarning: 10.10.11.207 giving up on port because retransmission cap hit (10).Nmap scan report for 10.10.11.207Host is up (0.32s latency).Not shown: 65200 closed tcp ports (reset), 307 filtered tcp ports (no-response)PORT      STATE SERVICE53/tcp    open  domain80/tcp    open  http88/tcp    open  kerberos-sec135/tcp   o...
-            
-          </div>
-        
-      </div>
-      
-         
-    </div>
-    
-     
-    <a class="right-panel  with-pic  " style="background-image: url(https://i0.wp.com/tvax4.sinaimg.cn/mw690/0065CzJOly1i3bhthg68xj31k01601fo.jpg)" href="/2025/07/11/Tracks-AD-Coder/">
+    <a class="right-panel  with-pic  " style="background-image: url(https://i0.wp.com/tvax2.sinaimg.cn/large/0065CzJOly1i3duq6754sj32bc334nmi.jpg)" href="/2025/07/14/htb-wp-Outbound/">
        
       <div class="overlay">
         <i class="fa-solid fa-angle-right with-pic"></i>
