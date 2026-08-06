@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ssd-disclosure.com/advisories/</id>
     <title>ssd_disclosure</title>
-    <updated>2026-08-05T04:50:41.331Z</updated>
+    <updated>2026-08-06T11:10:37.282Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://ssd-disclosure.com/wp-content/uploads/2022/08/Group-36.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Linux Bridge STP Timer Use-After-Free]]></title>
+        <id>https://ssd-disclosure.com/linux-bridge-stp-timer-use-after-free/</id>
+        <link href="https://ssd-disclosure.com/linux-bridge-stp-timer-use-after-free/"/>
+        <updated>2026-08-06T10:59:35.449Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/linux-bridge-stp-timer-use-after-free/">
+				Linux Bridge STP Timer Use-After-Free			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary A use-after-free vulnerability in the Linux kernel bridge (net/bridge) Spanning Tree Protocol (STP) implementation. A bridge that is administratively down while kernel STP is enabled, together with a port driven into the LEARNING state,</p>
+		</div>
+				</div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[vBulletin Runtime Template runMaths Preauth RCE]]></title>
         <id>https://ssd-disclosure.com/vbulletin-runtime-template-runmaths-preauth-rce/</id>
@@ -167,21 +182,6 @@
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>Vendor Response The vendor has released a patch for Windows that addresses this vulnerability: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-55681 CVE CVE-2025-55681 Credit The vulnerability was disclosed during our TyphoonPWN Windows category and won second place. Vulnerability Details The bug</p>
-		</div>
-				</div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Filter Arbitrary File Creation EoP Patch Bypass LPE]]></title>
-        <id>https://ssd-disclosure.com/cloud-filter-arbitrary-file-creation-eop-patch-bypass-lpe/</id>
-        <link href="https://ssd-disclosure.com/cloud-filter-arbitrary-file-creation-eop-patch-bypass-lpe/"/>
-        <updated>2026-06-29T10:05:00.097Z</updated>
-        <content type="html"><![CDATA[<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="https://ssd-disclosure.com/cloud-filter-arbitrary-file-creation-eop-patch-bypass-lpe/">
-				Cloud Filter Arbitrary File Creation EoP Patch Bypass LPE			</a>
-		</h3>
-				<div class="elementor-post__excerpt">
-			<p>Vendor Response The vendor has released a patch for Windows that addresses this vulnerability: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-55680 CVE CVE-2025-55680 Credit The vulnerability was disclosed during our TyphoonPWN Windows category and won first place. Vulnerability Details A vulnerability</p>
 		</div>
 				</div>]]></content>
     </entry>
