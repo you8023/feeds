@@ -233,14 +233,14 @@ linkSelector = "a.article-title"
 dateSelector = ".meta-info time"
 dateFormat = "yyyy-MM-ddThh:mm:ss.SSSZ"
 
-[trimarcsecurity]
-title = "trimarcsecurity"
-url = "https://www.trimarcsecurity.com/hub"
-entrySelector = ".gallery-item-container"
-titleSelector = ".post-title h2"
-linkSelector = "a"
-dateSelector = ".post-metadata__date"
-dateFormat = "MMM d, yyyy"
+# [trimarcsecurity]
+# title = "trimarcsecurity"
+# url = "https://www.trimarcsecurity.com/hub"
+# entrySelector = ".gallery-item-container"
+# titleSelector = ".post-title h2"
+# linkSelector = "a"
+# dateSelector = ".post-metadata__date"
+# dateFormat = "MMM d, yyyy"
 
 [sweet_security]
 title = "sweet_security"
@@ -1909,17 +1909,17 @@ linkSelector = "*"
 dateSelector = ".psmall"
 dateFormat = "yyyy-MM-dd"
 
-[aisle]
-title = "AISLE Blog"
-url = "https://aisle.com/blog"
-timeout = 240
-entrySelector = "a.group.border-border"
-titleSelector = "h2, h3"
-linkSelector = "*"
-dateSelector = ".text-xs"
-dateFormat = "MMMM d, yyyy"
-waitUntil = "load"
-waitForSelector = "a.group.border-border"
+#[aisle]
+#title = "AISLE Blog"
+#url = "https://aisle.com/blog"
+#timeout = 240
+#entrySelector = "a.group.border-border"
+#titleSelector = "h2, h3"
+#linkSelector = "*"
+#dateSelector = ".text-xs"
+#dateFormat = "MMMM d, yyyy"
+#waitUntil = "load"
+#waitForSelector = "a.group.border-border"
 
 [xbow]
 title = "XBow Blog"
