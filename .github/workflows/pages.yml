@@ -15,13 +15,15 @@ env:
 jobs:
   publish-feeds:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 90
     steps:
-    - uses: actions/checkout@v2.3.4
+    - uses: actions/checkout@v4
     - run: npx playwright install --with-deps firefox
     # GitHub Actions unfortunately does not support retries;
-    # this is a cumbersome method of retrying twice in case of errors:
-    - run: npx feed-me-up-scotty || npx feed-me-up-scotty || npx feed-me-up-scotty
+    # this is a cumbersome method of retrying once in case of errors.
+    # Note: with onFail = "stale" in feeds.toml, individual feed failures
+    # do not fail the whole run anymore, so a single retry suffices.
+    - run: npx feed-me-up-scotty || npx feed-me-up-scotty
     - name: Deploy to GitHub Pages
       run: |
         git config user.name $GITHUB_ACTOR

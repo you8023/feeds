@@ -1,14 +1,14 @@
 [default]
-onFail = "skip"
+onFail = "exclude"
 
-# [pushsecurity]
-# title = "pushsecurity"
-# url = "https://pushsecurity.com/blog"
-# entrySelector = ".blog-card"
-# titleSelector = ".blog-title"
-# linkSelector = ".site-blog-card-cmp a"
-# dateSelector = ".date"
-# dateFormat = "MMM dd, yyyy"
+[pushsecurity]
+title = "pushsecurity"
+url = "https://pushsecurity.com/blog"
+entrySelector = ".blog-card"
+titleSelector = ".blog-title"
+linkSelector = ".site-blog-card-cmp a"
+dateSelector = ".date"
+dateFormat = "MMM dd, yyyy"
 
 [axonius]
 title = "axonius"
@@ -233,14 +233,14 @@ linkSelector = "a.article-title"
 dateSelector = ".meta-info time"
 dateFormat = "yyyy-MM-ddThh:mm:ss.SSSZ"
 
-# [trimarcsecurity]
-# title = "trimarcsecurity"
-# url = "https://www.trimarcsecurity.com/hub"
-# entrySelector = ".gallery-item-container"
-# titleSelector = ".post-title h2"
-# linkSelector = "a"
-# dateSelector = ".post-metadata__date"
-# dateFormat = "MMM d, yyyy"
+[trimarcsecurity]
+title = "trimarcsecurity"
+url = "https://www.trimarcsecurity.com/hub"
+entrySelector = ".gallery-item-container"
+titleSelector = ".post-title h2"
+linkSelector = "a"
+dateSelector = ".post-metadata__date"
+dateFormat = "MMM d, yyyy"
 
 [sweet_security]
 title = "sweet_security"
