@@ -24,6 +24,11 @@ jobs:
     # Note: with onFail = "exclude" in feeds.toml, individual feed failures
     # do not fail the whole run anymore, so a single retry suffices.
     - run: npx feed-me-up-scotty || npx feed-me-up-scotty
+    # feed-me-up-scotty <=1.10.0 writes feeds that failed with
+    # onFail=exclude/stale under the wrong file names (index bug, see
+    # .github/scripts/fix_feed_names.py). Repair before deploying.
+    - name: Repair misaligned feed files
+      run: python3 .github/scripts/fix_feed_names.py
     - name: Deploy to GitHub Pages
       run: |
         git config user.name $GITHUB_ACTOR
