@@ -21,7 +21,7 @@ jobs:
     - run: npx playwright install --with-deps firefox
     # GitHub Actions unfortunately does not support retries;
     # this is a cumbersome method of retrying once in case of errors.
-    # Note: with onFail = "stale" in feeds.toml, individual feed failures
+    # Note: with onFail = "exclude" in feeds.toml, individual feed failures
     # do not fail the whole run anymore, so a single retry suffices.
     - run: npx feed-me-up-scotty || npx feed-me-up-scotty
     - name: Deploy to GitHub Pages
