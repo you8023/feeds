@@ -1823,3 +1823,184 @@ titleSelector = "h3"
 linkSelector = "*"
 dateSelector = "span.text-slate-500"
 dateFormat = "MMM dd, yyyy"
+
+[aivillage]
+title = "AI Village Blog"
+url = "https://aivillage.org/blog/"
+entrySelector = "article.post-item"
+titleSelector = "h2 > a"
+linkSelector = "h2 > a"
+dateSelector = "time"
+dateFormat = "MMMM d, yyyy"
+
+[josephthacker]
+title = "Joseph Thacker (rez0)"
+url = "https://josephthacker.com/"
+timeout = 240
+entrySelector = "article.post-body"
+titleSelector = "h2 > a"
+linkSelector = "h2 > a"
+dateSelector = ".post-date"
+dateFormat = "dd MMM yyyy"
+
+[jackclark]
+title = "Import AI (Jack Clark)"
+url = "https://jack-clark.net/"
+entrySelector = "div.type-post"
+titleSelector = ".entry-title > a"
+linkSelector = ".entry-title > a"
+dateSelector = ".post-date"
+dateFormat = "MMMM d, yyyy"
+
+[carlini_writing]
+title = "Nicholas Carlini - Writing"
+url = "https://nicholas.carlini.com/writing"
+entrySelector = ".inner a[href^='/writing/']"
+titleSelector = "*"
+linkSelector = "*"
+
+[carlini_papers]
+title = "Nicholas Carlini - Papers"
+url = "https://nicholas.carlini.com/papers"
+entrySelector = "div.publication"
+titleSelector = "p:first-of-type > a"
+linkSelector = "p:first-of-type > a"
+
+[embracethered]
+title = "Embrace The Red"
+url = "https://embracethered.com/blog/index.html"
+timeout = 240
+entrySelector = "article.posts section:not(:last-of-type) ul li"
+titleSelector = "a"
+linkSelector = "a"
+
+[simonwillison]
+title = "Simon Willison"
+url = "https://simonwillison.net/"
+entrySelector = ":where(div.entry.segment, div.note.segment, div.quote.segment, div.beat.segment)"
+titleSelector = "h3 > a, h4, .beat-title a, blockquote"
+linkSelector = "h3 > a, .beat-title a, .date-and-tags a[rel='bookmark']"
+
+[runsybil]
+title = "RunSybil Blog"
+url = "https://www.runsybil.com/blog"
+timeout = 240
+entrySelector = "div.featured-blog_list-item"
+titleSelector = "h2"
+linkSelector = "a.global-link"
+dateSelector = ".rs-blog_featured-link .hflex-8 > div:last-child"
+dateFormat = "MMMM d, yyyy"
+
+[zeropath_wall]
+title = "ZeroPath Wall of Fame"
+url = "https://zeropath.com/wall"
+entrySelector = "div.group"
+titleSelector = "h3"
+linkSelector = "a"
+dateSelector = "div.flex.justify-between > span:last-child"
+dateFormat = "yyyy-MM-dd"
+
+[zeropath_blog]
+title = "ZeroPath Blog"
+url = "https://zeropath.com/blog"
+entrySelector = "a[href^='/blog/']:has(h2, h3)"
+titleSelector = "h2, h3"
+linkSelector = "*"
+dateSelector = ".psmall"
+dateFormat = "yyyy-MM-dd"
+
+[aisle]
+title = "AISLE Blog"
+url = "https://aisle.com/blog"
+timeout = 240
+entrySelector = "a.group.border-border"
+titleSelector = "h2, h3"
+linkSelector = "*"
+dateSelector = ".text-xs"
+dateFormat = "MMMM d, yyyy"
+waitUntil = "load"
+waitForSelector = "a.group.border-border"
+
+[xbow]
+title = "XBow Blog"
+url = "https://xbow.com/blog"
+entrySelector = ":where(a[data-card], a.group)"
+titleSelector = "h3"
+linkSelector = "*"
+dateSelector = "time"
+
+[tencent_matrix]
+title = "腾讯朱雀 Matrix 文章"
+url = ["https://matrix.tencent.com/zh/articles", "https://matrix.tencent.com/zh/articles?page=2"]
+entrySelector = "article.group"
+titleSelector = "h2 > a"
+linkSelector = "h2 > a"
+dateSelector = "span.text-slate-400"
+dateFormat = "yyyy年M月d日"
+
+[zenity]
+title = "Zenity Blog"
+url = "https://zenity.io/blog"
+entrySelector = "a.group.relative.snap-center"
+titleSelector = "h3"
+linkSelector = "*"
+
+[invariantlabs]
+title = "Invariant Labs Blog"
+url = "https://invariantlabs.ai/blog"
+entrySelector = "a[rel='bookmark']"
+titleSelector = ".entry-title"
+linkSelector = "*"
+dateSelector = ".date"
+dateFormat = "yyyy-MM-dd"
+
+[hiddenlayer]
+title = "HiddenLayer Reports & Guides"
+url = "https://www.hiddenlayer.com/innovation-hub/reports-and-guides"
+entrySelector = "div.cms-posts"
+titleSelector = "[fs-list-field='title']"
+linkSelector = "a.card_link"
+
+[deepmind]
+title = "Google DeepMind Blog"
+url = "https://deepmind.google/blog/"
+entrySelector = "article.card--is-link"
+titleSelector = ".card__title"
+linkSelector = "a.card__overlay-link"
+
+[anthropic_research]
+title = "Anthropic Research"
+url = "https://www.anthropic.com/research"
+entrySelector = "li > a[href^='/research/']"
+titleSelector = "div + span"
+linkSelector = "*"
+dateSelector = "time"
+dateFormat = "MMM d, yyyy"
+
+[openai_research]
+title = "OpenAI Research"
+url = "https://openai.com/zh-Hans-CN/research/index/"
+timeout = 60
+entrySelector = "div.group.relative.border-b.border-primary-12"
+titleSelector = ".text-h5"
+linkSelector = "a[aria-label]"
+dateSelector = "time"
+
+[mitigant]
+title = "Mitigant Blog"
+url = "https://mitigant.io/en/blog"
+timeout = 240
+entrySelector = "a.blog_card-wrapper"
+titleSelector = "[fs-cmsfilter-field='title']"
+linkSelector = "*"
+dateSelector = ".blog_title-wrapper > div:last-child"
+dateFormat = "MMMM d, yyyy"
+
+[foxit]
+title = "Fox-IT Blog"
+url = "https://blog.fox-it.com/"
+timeout = 240
+entrySelector = "article.type-post"
+titleSelector = ".entry-title > a"
+linkSelector = ".entry-title > a"
+dateSelector = "time.entry-date"
