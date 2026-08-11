@@ -1909,17 +1909,17 @@ linkSelector = "*"
 dateSelector = ".psmall"
 dateFormat = "yyyy-MM-dd"
 
-#[aisle]
-#title = "AISLE Blog"
-#url = "https://aisle.com/blog"
-#timeout = 240
-#entrySelector = "a.group.border-border"
-#titleSelector = "h2, h3"
-#linkSelector = "*"
-#dateSelector = ".text-xs"
-#dateFormat = "MMMM d, yyyy"
-#waitUntil = "load"
-#waitForSelector = "a.group.border-border"
+[aisle]
+title = "AISLE Blog"
+url = "https://aisle.com/blog"
+timeout = 240
+entrySelector = "a.group.border-border"
+titleSelector = "h2, h3"
+linkSelector = "*"
+dateSelector = ".text-xs"
+dateFormat = "MMMM d, yyyy"
+waitUntil = "load"
+waitForSelector = "a.group.border-border"
 
 [xbow]
 title = "XBow Blog"
