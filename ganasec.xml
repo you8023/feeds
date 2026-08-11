@@ -1,43 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://ganasec.com/blog</id>
-    <title>ganasec</title>
-    <updated>2026-08-10T17:35:30.586Z</updated>
+    <id>https://blog.ammaraskar.com/posts/</id>
+    <title>ammaraskar</title>
+    <updated>2026-08-11T06:54:11.171Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://ganasec.com/favicon.ico</icon>
+    <icon>https://blog.ammaraskar.com/posts/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[The 2017 Ghost in the Time Machine: Hunting IOTimeSyncFamily on macOS 26]]></title>
-        <id>https://ganasec.com/blog/the-2017-ghost-in-the-time-machine-hunting-iotimesyncfamily</id>
-        <link href="https://ganasec.com/blog/the-2017-ghost-in-the-time-machine-hunting-iotimesyncfamily"/>
-        <updated>2026-05-19T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="gs-blog-card-body"><div class="gs-blog-row-meta"><span class="gs-blog-tag">RESEARCH</span><span class="gs-mono gs-muted">2026-05-19</span><span class="gs-mono gs-muted">7 min</span></div><h3 class="gs-blog-row-title">The 2017 Ghost in the Time Machine: Hunting IOTimeSyncFamily on macOS 26</h3><p class="gs-blog-row-excerpt">A regression in Apple's IOTimeSyncFamily brought back a 2017 IOKit lifecycle race, leading to CVE-2026-28969 and a reliable macOS kernel panic.</p><span class="gs-blog-row-arrow">Read</span></div>]]></content>
+        <title type="html"><![CDATA[1-Click GitHub Token Stealing via a VSCode Bug]]></title>
+        <id>https://blog.ammaraskar.com/github-token-stealing/</id>
+        <link href="https://blog.ammaraskar.com/github-token-stealing/"/>
+        <updated>2026-08-11T06:51:32.611Z</updated>
+        <content type="html"><![CDATA[<a href="//blog.ammaraskar.com/github-token-stealing/" title="1-Click GitHub Token Stealing via a VSCode Bug">1-Click GitHub Token Stealing via a VSCode Bug</a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The 2017 Ghost in the Time Machine — Part 2: Exploitation Attempts]]></title>
-        <id>https://ganasec.com/blog/the-2017-ghost-in-the-time-machine-part-2-exploitation-attempts</id>
-        <link href="https://ganasec.com/blog/the-2017-ghost-in-the-time-machine-part-2-exploitation-attempts"/>
-        <updated>2026-05-25T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="gs-blog-card-body"><div class="gs-blog-row-meta"><span class="gs-blog-tag">RESEARCH</span><span class="gs-mono gs-muted">2026-04-30</span><span class="gs-mono gs-muted">10 min</span></div><h3 class="gs-blog-row-title">The 2017 Ghost in the Time Machine — Part 2: Exploitation Attempts</h3><p class="gs-blog-row-excerpt">A PAC-clean kernel write primitive hiding in plain sight, and five mitigations standing between it and a full exploit.</p><span class="gs-blog-row-arrow">Read</span></div>]]></content>
+        <title type="html"><![CDATA[VSCode Remote Code Execution advisory]]></title>
+        <id>https://blog.ammaraskar.com/vscode-rce/</id>
+        <link href="https://blog.ammaraskar.com/vscode-rce/"/>
+        <updated>2026-08-11T06:51:32.612Z</updated>
+        <content type="html"><![CDATA[<a href="//blog.ammaraskar.com/vscode-rce/" title="VSCode Remote Code Execution advisory">VSCode Remote Code Execution advisory</a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Chaining an SSO Misconfiguration into Organization Admin]]></title>
-        <id>https://ganasec.com/blog/sso-misconfig-orgadmin</id>
-        <link href="https://ganasec.com/blog/sso-misconfig-orgadmin"/>
-        <updated>2026-04-14T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="gs-blog-card-body"><div class="gs-blog-row-meta"><span class="gs-blog-tag">RESEARCH</span><span class="gs-mono gs-muted">2026-04-14</span><span class="gs-mono gs-muted">9 min</span></div><h3 class="gs-blog-row-title">Chaining an SSO Misconfiguration into Organization Admin</h3><p class="gs-blog-row-excerpt">An anonymized red-team case study showing how staging identity drift, weak SAML attribute assumptions, and environment trust boundaries can combine into organization-level compromise.</p><span class="gs-blog-row-arrow">Read</span></div>]]></content>
+        <title type="html"><![CDATA[Hacking a Roku TV to Control Lights]]></title>
+        <id>https://blog.ammaraskar.com/roku-tv-philips-hues/</id>
+        <link href="https://blog.ammaraskar.com/roku-tv-philips-hues/"/>
+        <updated>2026-08-11T06:51:32.613Z</updated>
+        <content type="html"><![CDATA[<a href="//blog.ammaraskar.com/roku-tv-philips-hues/" title="Hacking a Roku TV to Control Lights">Hacking a Roku TV to Control Lights</a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Why Your Pentest Report Became a Compliance Artifact]]></title>
-        <id>https://ganasec.com/blog/pentest-vs-compliance</id>
-        <link href="https://ganasec.com/blog/pentest-vs-compliance"/>
-        <updated>2026-03-12T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="gs-blog-card-body"><div class="gs-blog-row-meta"><span class="gs-blog-tag">OPINION</span><span class="gs-mono gs-muted">2026-03-12</span><span class="gs-mono gs-muted">8 min</span></div><h3 class="gs-blog-row-title">Why Your Pentest Report Became a Compliance Artifact</h3><p class="gs-blog-row-excerpt">Most penetration testing reports fail because they are bought for assurance but consumed by engineers. Here is how to make reports useful for auditors, leaders, and builders at the same time.</p><span class="gs-blog-row-arrow">Read</span></div>]]></content>
+        <title type="html"><![CDATA[Reverse Engineering the iClicker Base Station]]></title>
+        <id>https://blog.ammaraskar.com/iclicker-reverse-engineering/</id>
+        <link href="https://blog.ammaraskar.com/iclicker-reverse-engineering/"/>
+        <updated>2026-08-11T06:51:32.613Z</updated>
+        <content type="html"><![CDATA[<a href="//blog.ammaraskar.com/iclicker-reverse-engineering/" title="Reverse Engineering the iClicker Base Station">Reverse Engineering the iClicker Base Station</a>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Stack Spoofing on Windows 11 24H2: What EDR Telemetry Misses]]></title>
-        <id>https://ganasec.com/blog/edr-stack-spoofing</id>
-        <link href="https://ganasec.com/blog/edr-stack-spoofing"/>
-        <updated>2026-02-24T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="gs-blog-card-body"><div class="gs-blog-row-meta"><span class="gs-blog-tag">TRADECRAFT</span><span class="gs-mono gs-muted">2026-02-24</span><span class="gs-mono gs-muted">9 min</span></div><h3 class="gs-blog-row-title">Stack Spoofing on Windows 11 24H2: What EDR Telemetry Misses</h3><p class="gs-blog-row-excerpt">A defender-focused breakdown of stack spoofing, why shallow call-stack inspection fails, and how mature teams can hunt suspicious unwind behavior without relying on brittle IOCs.</p><span class="gs-blog-row-arrow">Read</span></div>]]></content>
+        <title type="html"><![CDATA[SwampCTF 2019 Future Fun (Reverse) Writeup]]></title>
+        <id>https://blog.ammaraskar.com/swampctf-future/</id>
+        <link href="https://blog.ammaraskar.com/swampctf-future/"/>
+        <updated>2026-08-11T06:51:32.628Z</updated>
+        <content type="html"><![CDATA[<a href="//blog.ammaraskar.com/swampctf-future/" title="SwampCTF 2019 Future Fun (Reverse) Writeup">SwampCTF 2019 Future Fun (Reverse) Writeup</a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SwampCTF 2019 Brainwallet (Crypto) Writeup]]></title>
+        <id>https://blog.ammaraskar.com/swampctf-brainwallet/</id>
+        <link href="https://blog.ammaraskar.com/swampctf-brainwallet/"/>
+        <updated>2026-08-11T06:51:32.629Z</updated>
+        <content type="html"><![CDATA[<a href="//blog.ammaraskar.com/swampctf-brainwallet/" title="SwampCTF 2019 Brainwallet (Crypto) Writeup">SwampCTF 2019 Brainwallet (Crypto) Writeup</a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Minecraft Vulnerability Advisory]]></title>
+        <id>https://blog.ammaraskar.com/minecraft-vulnerability-advisory/</id>
+        <link href="https://blog.ammaraskar.com/minecraft-vulnerability-advisory/"/>
+        <updated>2026-08-11T06:51:32.638Z</updated>
+        <content type="html"><![CDATA[<a href="//blog.ammaraskar.com/minecraft-vulnerability-advisory/" title="Minecraft Vulnerability Advisory">Minecraft Vulnerability Advisory</a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arduino Powered Room Temperature Graphs]]></title>
+        <id>https://blog.ammaraskar.com/arduino-powered-room-temperature-graphs/</id>
+        <link href="https://blog.ammaraskar.com/arduino-powered-room-temperature-graphs/"/>
+        <updated>2026-08-11T06:51:32.638Z</updated>
+        <content type="html"><![CDATA[<a href="//blog.ammaraskar.com/arduino-powered-room-temperature-graphs/" title="Arduino Powered Room Temperature Graphs">Arduino Powered Room Temperature Graphs</a>]]></content>
     </entry>
 </feed>

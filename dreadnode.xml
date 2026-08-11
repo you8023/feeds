@@ -1,393 +1,384 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.dreadnode.io/research/</id>
-    <title>dreadnode</title>
-    <updated>2026-08-10T17:35:30.591Z</updated>
+    <id>https://www.capsulesecurity.io/blog</id>
+    <title>Capsule Security</title>
+    <updated>2026-08-11T06:54:11.254Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://www.dreadnode.io/favicon.svg</icon>
+    <icon>https://cdn.prod.website-files.com/696f5ff43d68506bb9092d46/69f7108a65ffb17eb55030e7_Capsule%20Logomark%20Aqua%20Mint.png</icon>
     <entry>
-        <title type="html"><![CDATA[ScopeJudge: Can a Runtime Judge Keep Offensive Agents In Scope?]]></title>
-        <id>https://www.dreadnode.io/research/scope-judge-can-a-runtime-judge-keep-offensive-agents-in-scope</id>
-        <link href="https://www.dreadnode.io/research/scope-judge-can-a-runtime-judge-keep-offensive-agents-in-scope"/>
-        <updated>2026-08-03T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">ScopeJudge: Can a Runtime Judge Keep Offensive Agents In Scope?</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Aug 03, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">We ran 8 LLM judges against 4,897 offensive security tool calls to see if they can gate agents at runtime. The best entered human range — but still missed 1 in 10 tool scope violations.</p> <p class="text-xs text-dim mt-3">Shane Caldwell</p>]]></content>
+        <title type="html"><![CDATA[Capsule Launches Security Integration for Claude Platform]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/capsule-launches-security-integration-for-claude-platform</id>
+        <link href="https://www.capsulesecurity.io/blog-post/capsule-launches-security-integration-for-claude-platform"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/capsule-launches-security-integration-for-claude-platform" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a6084e5644365cdabbfdd2e_claude-integration-cover-v2.png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a6084e5644365cdabbfdd2e_claude-integration-cover-v2-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a6084e5644365cdabbfdd2e_claude-integration-cover-v2-p-800.png 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a6084e5644365cdabbfdd2e_claude-integration-cover-v2-p-1080.png 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a6084e5644365cdabbfdd2e_claude-integration-cover-v2-p-1600.png 1600w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a6084e5644365cdabbfdd2e_claude-integration-cover-v2-p-2000.png 2000w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a6084e5644365cdabbfdd2e_claude-integration-cover-v2.png 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">News</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">Capsule Launches Security Integration for Claude Platform</h6><div class="text-size-regular text-color-muted">Capsule launches a security integration for Claude Platform, using Claude's Compliance API to give security, compliance, and AI governance teams visibility into enterprise AI activity, risk, and posture across Anthropic-hosted deployments.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd496fc404bd4045861768_Profile%20pic%20with%20dots%20(3).avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd496fc404bd4045861768_Profile%20pic%20with%20dots%20(3)-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd496fc404bd4045861768_Profile%20pic%20with%20dots%20(3).avif 1000w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Lidan Hazout</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">July 22, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ScopeJudge: Cost-Aware Pre-Execution Gating for Offensive Security Agents]]></title>
-        <id>https://arxiv.org/abs/2607.07774</id>
-        <link href="https://arxiv.org/abs/2607.07774"/>
-        <updated>2026-08-03T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-purple-500/15 text-purple-400"><!---->Paper<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">ScopeJudge: Cost-Aware Pre-Execution Gating for Offensive Security Agents</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Aug 03, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Benchmarking LLM judges that gate offensive security agents at runtime, keeping tool calls inside the engagement's scope</p>]]></content>
+        <title type="html"><![CDATA[The Agentic Supply Chain: You Installed More Than You Think]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/the-agentic-supply-chain-you-installed-more-than-you-think</id>
+        <link href="https://www.capsulesecurity.io/blog-post/the-agentic-supply-chain-you-installed-more-than-you-think"/>
+        <updated>2026-07-14T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/the-agentic-supply-chain-you-installed-more-than-you-think" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a553bbc256929bfb2980432_generated-image%20(2).png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a553bbc256929bfb2980432_generated-image%20(2)-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a553bbc256929bfb2980432_generated-image%20(2)-p-800.png 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a553bbc256929bfb2980432_generated-image%20(2)-p-1080.png 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a553bbc256929bfb2980432_generated-image%20(2)-p-1600.png 1600w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a553bbc256929bfb2980432_generated-image%20(2)-p-2000.png 2000w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a553bbc256929bfb2980432_generated-image%20(2).png 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Research</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">The Agentic Supply Chain: You Installed More Than You Think</h6><div class="text-size-regular text-color-muted">Agents inherited every supply chain risk software already had, then added new layers of their own on top. These are the stories, and the numbers, behind why that should worry you.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif 1214w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Bar Kaduri</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">July 14, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Scaffolding is the Red Team: AIRTBench, One Year Later]]></title>
-        <id>https://www.dreadnode.io/research/the-scaffolding-is-the-red-team-airt-bench-one-year-later</id>
-        <link href="https://www.dreadnode.io/research/the-scaffolding-is-the-red-team-airt-bench-one-year-later"/>
-        <updated>2026-07-31T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">The Scaffolding is the Red Team: AIRTBench, One Year Later</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jul 31, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">1 year after AIRTBench, open-weight models paired with purpose-built red team scaffolding now match frontier systems on the tasks that once separated them.</p> <p class="text-xs text-dim mt-3">Ads Dawson</p>]]></content>
+        <title type="html"><![CDATA[Guardian Agent: Shipping a Useful Agentic Experience]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/guardian-agent-shipping-a-useful-agentic-experience</id>
+        <link href="https://www.capsulesecurity.io/blog-post/guardian-agent-shipping-a-useful-agentic-experience"/>
+        <updated>2026-07-07T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/guardian-agent-shipping-a-useful-agentic-experience" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a4cb30c9cea945ab7638626_generated-image.png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a4cb30c9cea945ab7638626_generated-image-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a4cb30c9cea945ab7638626_generated-image-p-800.png 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a4cb30c9cea945ab7638626_generated-image-p-1080.png 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a4cb30c9cea945ab7638626_generated-image-p-1600.png 1600w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a4cb30c9cea945ab7638626_generated-image-p-2000.png 2000w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a4cb30c9cea945ab7638626_generated-image.png 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Article</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">Guardian Agent: Shipping a Useful Agentic Experience</h6><div class="text-size-regular text-color-muted">Usefulness and governance aren't a trade-off. Guardian Agent runs locally in the browser, keeps every credential server-side, and turns an afternoon of report-building into a single prompt.
+</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a4cb13721066dac11939d70_1776253914479.png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a4cb13721066dac11939d70_1776253914479-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a4cb13721066dac11939d70_1776253914479.png 800w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Yarin Sasson</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">July 7, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Every Model Cheats: Prompt-Level Mitigation of Cheating on Offensive Cyber Tasks]]></title>
-        <id>https://www.dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks</id>
-        <link href="https://www.dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks"/>
-        <updated>2026-07-29T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Every Model Cheats: Prompt-Level Mitigation of Cheating on Offensive Cyber Tasks</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jul 29, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">This post presents a controlled prompt-ablation study: 23 tasks, three prompt conditions, 1,518 individually audited traces, and a simple question: can you prompt away cheating?</p> <p class="text-xs text-dim mt-3">Michael Kouremetis</p>]]></content>
+        <title type="html"><![CDATA[Your AI Agent Inventory is Lying to You: The Rise of the "Inline Agent"]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/your-ai-agent-inventory-is-lying-to-you-the-rise-of-the-inline-agent</id>
+        <link href="https://www.capsulesecurity.io/blog-post/your-ai-agent-inventory-is-lying-to-you-the-rise-of-the-inline-agent"/>
+        <updated>2026-07-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/your-ai-agent-inventory-is-lying-to-you-the-rise-of-the-inline-agent" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a44d673fc6f24ce7af7a1e1_inline-agents-cover.png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a44d673fc6f24ce7af7a1e1_inline-agents-cover-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a44d673fc6f24ce7af7a1e1_inline-agents-cover-p-800.png 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a44d673fc6f24ce7af7a1e1_inline-agents-cover-p-1080.png 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a44d673fc6f24ce7af7a1e1_inline-agents-cover-p-1600.png 1600w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a44d673fc6f24ce7af7a1e1_inline-agents-cover-p-2000.png 2000w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a44d673fc6f24ce7af7a1e1_inline-agents-cover.png 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Article</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">Your AI Agent Inventory is Lying to You: The Rise of the "Inline Agent"</h6><div class="text-size-regular text-color-muted">Discover the rise of 'Inline Agents' - the shadow IT of the AI era. Learn how Capsule Security uncovers undeclared AI agents hiding in your raw logs. </div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a44d0c6d4291b63e82008e3_1776253451133.png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a44d0c6d4291b63e82008e3_1776253451133-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a44d0c6d4291b63e82008e3_1776253451133.png 800w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Guy Bidkar</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">July 1, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Every Model Cheats: Prompt-Level Mitigation of Cheating on Offensive Cyber Tasks]]></title>
-        <id>https://arxiv.org/abs/2607.21763</id>
-        <link href="https://arxiv.org/abs/2607.21763"/>
-        <updated>2026-07-23T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-purple-500/15 text-purple-400"><!---->Paper<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Every Model Cheats: Prompt-Level Mitigation of Cheating on Offensive Cyber Tasks</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jul 23, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Measuring how frequently frontier models cheat on offensive cyber benchmarks, and reducing it with prompt-level anti-cheat mitigations</p>]]></content>
+        <title type="html"><![CDATA[We Analyzed 206,435 AI Agent Skills. Here's What We Found.]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/we-analyzed-206-435-ai-agent-skills-heres-what-we-found</id>
+        <link href="https://www.capsulesecurity.io/blog-post/we-analyzed-206-435-ai-agent-skills-heres-what-we-found"/>
+        <updated>2026-06-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/we-analyzed-206-435-ai-agent-skills-heres-what-we-found" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a3939ab50b45cba4678b17c_skills-analysis-206k-cover.png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a3939ab50b45cba4678b17c_skills-analysis-206k-cover-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a3939ab50b45cba4678b17c_skills-analysis-206k-cover-p-800.png 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a3939ab50b45cba4678b17c_skills-analysis-206k-cover-p-1080.png 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a3939ab50b45cba4678b17c_skills-analysis-206k-cover-p-1600.png 1600w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a3939ab50b45cba4678b17c_skills-analysis-206k-cover-p-2000.png 2000w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a3939ab50b45cba4678b17c_skills-analysis-206k-cover.png 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Research</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">We Analyzed 206,435 AI Agent Skills. Here's What We Found.</h6><div class="text-size-regular text-color-muted">Our analysis of 206,435 AI agent skills reveals a rapidly growing software supply chain vulnerable to natural language payloads and dangerous capability combinations. Read the report to understand how these skills bypass traditional security controls and learn how Capsule protects your organization by securing the agent runtime.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif 1214w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Bar Kaduri</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">June 23, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Introducing DreadIndex: An Offensive Security Benchmark for Language Models]]></title>
-        <id>https://www.dreadnode.io/research/introducing-dreadindex-offensive-security-benchmark-for-language-models</id>
-        <link href="https://www.dreadnode.io/research/introducing-dreadindex-offensive-security-benchmark-for-language-models"/>
-        <updated>2026-07-16T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Introducing DreadIndex: An Offensive Security Benchmark for Language Models</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jul 16, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">An offensive cybersecurity evaluation index for language models: 76 public and private tasks across 10 categories, measuring how capable each model is at attacking real systems — and what that capability costs.</p> <p class="text-xs text-dim mt-3">Michael Kouremetis</p>]]></content>
+        <title type="html"><![CDATA[Mitigating the Agentic AI Threat: What Security Leadership Needs to Prioritize]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/mitigating-the-agentic-ai-threat-what-security-leadership-needs-to-prioritize</id>
+        <link href="https://www.capsulesecurity.io/blog-post/mitigating-the-agentic-ai-threat-what-security-leadership-needs-to-prioritize"/>
+        <updated>2026-06-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/mitigating-the-agentic-ai-threat-what-security-leadership-needs-to-prioritize" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a310cb4becaf8090fc5e952_mitigating-agentic-threat-cover%20(1).png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a310cb4becaf8090fc5e952_mitigating-agentic-threat-cover%20(1)-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a310cb4becaf8090fc5e952_mitigating-agentic-threat-cover%20(1)-p-800.png 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a310cb4becaf8090fc5e952_mitigating-agentic-threat-cover%20(1)-p-1080.png 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a310cb4becaf8090fc5e952_mitigating-agentic-threat-cover%20(1)-p-1600.png 1600w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a310cb4becaf8090fc5e952_mitigating-agentic-threat-cover%20(1)-p-2000.png 2000w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a310cb4becaf8090fc5e952_mitigating-agentic-threat-cover%20(1).png 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Article</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">Mitigating the Agentic AI Threat: What Security Leadership Needs to Prioritize</h6><div class="text-size-regular text-color-muted">The theoretical phase of agentic AI security is over—the attack surface is real and the incidents are documented. This post breaks down the defensive architecture taking shape in response: Meta's Agents Rule of Two, deterministic enforcement hooks, identity governance for non-human agents, and the questions security leaders need to be asking right now.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif 1214w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Bar Kaduri</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">June 17, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Beyond the Terminal: Offensive Security Evals for Embodied Reasoning]]></title>
-        <id>https://www.dreadnode.io/research/embodied-reasoning-offensive-security-evals</id>
-        <link href="https://www.dreadnode.io/research/embodied-reasoning-offensive-security-evals"/>
-        <updated>2026-07-08T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Beyond the Terminal: Offensive Security Evals for Embodied Reasoning</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jul 08, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Offensive security evals are moving past the terminal. How we built ER-Spatial tasks into instrumented multimodal evals for a tier 1 frontier model provider.</p> <p class="text-xs text-dim mt-3">Ads Dawson and Michael Kouremetis</p>]]></content>
+        <title type="html"><![CDATA[The Agentic AI Threat Landscape Has Crossed a Threshold]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/the-agentic-ai-threat-landscape-has-crossed-a-threshold</id>
+        <link href="https://www.capsulesecurity.io/blog-post/the-agentic-ai-threat-landscape-has-crossed-a-threshold"/>
+        <updated>2026-06-09T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/the-agentic-ai-threat-landscape-has-crossed-a-threshold" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a12f6d8c0836e8522e9b7d1_agentic-threat-landscape-cover.png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a12f6d8c0836e8522e9b7d1_agentic-threat-landscape-cover-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a12f6d8c0836e8522e9b7d1_agentic-threat-landscape-cover-p-800.png 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a12f6d8c0836e8522e9b7d1_agentic-threat-landscape-cover-p-1080.png 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a12f6d8c0836e8522e9b7d1_agentic-threat-landscape-cover-p-1600.png 1600w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a12f6d8c0836e8522e9b7d1_agentic-threat-landscape-cover-p-2000.png 2000w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a12f6d8c0836e8522e9b7d1_agentic-threat-landscape-cover.png 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Research</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">The Agentic AI Threat Landscape Has Crossed a Threshold</h6><div class="text-size-regular text-color-muted">The security risks of AI agents are no longer theoretical. This blog examines the active threat landscape facing agentic AI in 2026, from prompt injection and supply chain attacks against MCP and skill registries to the governance gap created by vibe coding and Shadow AI.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif 1214w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Bar Kaduri</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">June 9, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AI Red Teaming a Frontier Model, Live: From Natural Language to Findings]]></title>
-        <id>https://www.dreadnode.io/research/ai-red-teaming-frontier-model-live-demo</id>
-        <link href="https://www.dreadnode.io/research/ai-red-teaming-frontier-model-live-demo"/>
-        <updated>2026-06-16T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">AI Red Teaming a Frontier Model, Live: From Natural Language to Findings</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jun 16, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Watch Dreadnode red team Llama 4 Scout using the Dreadnode AI red teaming agent in real time—natural-language attacks to structured findings, zero code. Recap + full livestream.</p> <p class="text-xs text-dim mt-3">Will Pearce and Raja Sekhar Rao Dheekonda</p>]]></content>
+        <title type="html"><![CDATA[OWASP State of Agentic AI Security and Governance 2026: What Changed, and What It Means]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/owasp-state-of-agentic-ai-security-and-governance-2026-what-changed-and-what-it-means</id>
+        <link href="https://www.capsulesecurity.io/blog-post/owasp-state-of-agentic-ai-security-and-governance-2026-what-changed-and-what-it-means"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/owasp-state-of-agentic-ai-security-and-governance-2026-what-changed-and-what-it-means" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a1c2642539112f063937f89_owasp-state-2026-cover.png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a1c2642539112f063937f89_owasp-state-2026-cover-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a1c2642539112f063937f89_owasp-state-2026-cover-p-800.png 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a1c2642539112f063937f89_owasp-state-2026-cover-p-1080.png 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a1c2642539112f063937f89_owasp-state-2026-cover-p-1600.png 1600w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a1c2642539112f063937f89_owasp-state-2026-cover-p-2000.png 2000w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a1c2642539112f063937f89_owasp-state-2026-cover.png 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Article</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">OWASP State of Agentic AI Security and Governance 2026: What Changed, and What It Means</h6><div class="text-size-regular text-color-muted">A year after the first edition, plausible agentic AI threats now carry CVEs and real incidents. What changed in the OWASP State of Agentic AI Security and Governance 2026.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif 1214w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Bar Kaduri</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">June 3, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[From Compute to Congress: When AI Innovation and Cybersecurity Stop Competing]]></title>
-        <id>https://www.dreadnode.io/research/from-compute-to-congress-when-ai-innovation-and-cybersecurity-stop-competing</id>
-        <link href="https://www.dreadnode.io/research/from-compute-to-congress-when-ai-innovation-and-cybersecurity-stop-competing"/>
-        <updated>2026-06-10T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">From Compute to Congress: When AI Innovation and Cybersecurity Stop Competing</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jun 10, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Two June 2026 federal actions—an Executive Order and NSPM-11—reframe AI innovation and cybersecurity as complementary, not competing. We unpack the new cyber-benchmarking mandate, the clearinghouse seated at Treasury, and the resourcing gap that will decide whether it holds.</p> <p class="text-xs text-dim mt-3">Daria Bahrami</p>]]></content>
+        <title type="html"><![CDATA[Every agent needs a "stop". We're standardizing it.]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/every-agent-needs-a-stop-were-standardizing-it</id>
+        <link href="https://www.capsulesecurity.io/blog-post/every-agent-needs-a-stop-were-standardizing-it"/>
+        <updated>2026-05-27T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/every-agent-needs-a-stop-were-standardizing-it" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a172c9e0624d039fdc05e30_acs-cover.png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a172c9e0624d039fdc05e30_acs-cover-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a172c9e0624d039fdc05e30_acs-cover-p-800.png 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a172c9e0624d039fdc05e30_acs-cover-p-1080.png 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a172c9e0624d039fdc05e30_acs-cover-p-1600.png 1600w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a172c9e0624d039fdc05e30_acs-cover-p-2000.png 2000w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a172c9e0624d039fdc05e30_acs-cover.png 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Article</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">Every agent needs a "stop". We're standardizing it.</h6><div class="text-size-regular text-color-muted">The industry standardized how agents talk, but never how to stop one mid-action. Capsule is helping change that through the Agent Control Standard, with hooks.security as the developer-facing companion.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif 1214w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Bar Kaduri</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">May 27, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Dreadnode Workers: The Connective Tissue for Flexible Agent Integration and Orchestration]]></title>
-        <id>https://www.dreadnode.io/research/dreadnode-workers-agent-orchestration</id>
-        <link href="https://www.dreadnode.io/research/dreadnode-workers-agent-orchestration"/>
+        <title type="html"><![CDATA[The State of AI Agent Security 2026]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/the-state-of-ai-agent-security-2026</id>
+        <link href="https://www.capsulesecurity.io/blog-post/the-state-of-ai-agent-security-2026"/>
+        <updated>2026-05-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/the-state-of-ai-agent-security-2026" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a0365e851b5f2fdbfa83ada_state-of-ai-agent-security-cover.png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a0365e851b5f2fdbfa83ada_state-of-ai-agent-security-cover-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a0365e851b5f2fdbfa83ada_state-of-ai-agent-security-cover-p-800.png 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a0365e851b5f2fdbfa83ada_state-of-ai-agent-security-cover-p-1080.png 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a0365e851b5f2fdbfa83ada_state-of-ai-agent-security-cover-p-1600.png 1600w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a0365e851b5f2fdbfa83ada_state-of-ai-agent-security-cover-p-2000.png 2000w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a0365e851b5f2fdbfa83ada_state-of-ai-agent-security-cover.png 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Research</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">The State of AI Agent Security 2026</h6><div class="text-size-regular text-color-muted">Capsule Security’s State of AI Agent Security 2026 report is the largest independent audit of AI agents to date, showing that the ecosystem is rapidly shipping publicly exposed, weakly guarded, highly connected agents with recurring misconfigurations, near-absent runtime controls, widespread prompt-injection risk, expanding supply-chain exposure, and active malicious campaigns still propagating through agent skill and tool registries.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif 1214w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Bar Kaduri</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">May 11, 2026</div></div></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Rise of Guardian Agents: Securing the Agentic AI Ecosystem]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/the-rise-of-guardian-agents-securing-the-agentic-ai-ecosystem</id>
+        <link href="https://www.capsulesecurity.io/blog-post/the-rise-of-guardian-agents-securing-the-agentic-ai-ecosystem"/>
         <updated>2026-05-07T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Dreadnode Workers: The Connective Tissue for Flexible Agent Integration and Orchestration</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">May 07, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Workers are long-running background processes that orchestrate multi-agent pipelines, bridge external tools, and run scheduled tasks—in a few lines of Python.</p> <p class="text-xs text-dim mt-3">Vincent Abruzzo</p>]]></content>
+        <content type="html"><![CDATA[<a href="/blog-post/the-rise-of-guardian-agents-securing-the-agentic-ai-ecosystem" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69fc80aee913e51565116739_guardian-agents-cover.png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69fc80aee913e51565116739_guardian-agents-cover-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69fc80aee913e51565116739_guardian-agents-cover-p-800.png 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69fc80aee913e51565116739_guardian-agents-cover-p-1080.png 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69fc80aee913e51565116739_guardian-agents-cover-p-1600.png 1600w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69fc80aee913e51565116739_guardian-agents-cover-p-2000.png 2000w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69fc80aee913e51565116739_guardian-agents-cover.png 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Article</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">The Rise of Guardian Agents: Securing the Agentic AI Ecosystem</h6><div class="text-size-regular text-color-muted">Guardian agents are emerging as a critical security layer for the agentic AI era. As enterprises adopt AI agents that execute tools, handle sensitive data, and operate inside real workflows, human approval loops no longer scale. Guardian agents solve this by supervising other agents in real time: monitoring actions, enforcing policy, and blocking risky behavior before execution. </div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd496fc404bd4045861768_Profile%20pic%20with%20dots%20(3).avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd496fc404bd4045861768_Profile%20pic%20with%20dots%20(3)-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd496fc404bd4045861768_Profile%20pic%20with%20dots%20(3).avif 1000w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Lidan Hazout</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">May 7, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Redefining AI Red Teaming in the Agentic Era]]></title>
-        <id>https://www.dreadnode.io/research/redefining-ai-red-teaming-in-the-agentic-era</id>
-        <link href="https://www.dreadnode.io/research/redefining-ai-red-teaming-in-the-agentic-era"/>
-        <updated>2026-05-06T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Redefining AI Red Teaming in the Agentic Era</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">May 06, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Agentic AI red teaming compresses weeks of work into hours. See how we found 232 critical vulnerabilities in Meta's Llama Scout in 3 hours, with zero code.</p> <p class="text-xs text-dim mt-3">Raja Sekhar Rao Dheekonda</p>]]></content>
+        <title type="html"><![CDATA[CurseChain: How Hidden README Comments Trick Cursor Into Stealing - and Spreading - Your SSH Keys]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/cursechain</id>
+        <link href="https://www.capsulesecurity.io/blog-post/cursechain"/>
+        <updated>2026-04-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/cursechain" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69f1b058776f4a9ea04098af_image%20(26).png" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69f1b058776f4a9ea04098af_image%20(26)-p-500.png 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69f1b058776f4a9ea04098af_image%20(26)-p-800.png 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69f1b058776f4a9ea04098af_image%20(26)-p-1080.png 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69f1b058776f4a9ea04098af_image%20(26)-p-1600.png 1600w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69f1b058776f4a9ea04098af_image%20(26)-p-2000.png 2000w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69f1b058776f4a9ea04098af_image%20(26).png 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Research</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">CurseChain: How Hidden README Comments Trick Cursor Into Stealing - and Spreading - Your SSH Keys</h6><div class="text-size-regular text-color-muted">Capsule found two Cursor IDE vulnerabilities that let hidden prompt-injection instructions in referenced files steal developers’ SSH keys and contaminate future unrelated projects, causing zero-click or one-click exfiltration even when the attacker ships no malicious code.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif 1214w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Bar Kaduri</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">April 29, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours]]></title>
-        <id>https://arxiv.org/abs/2605.04019</id>
-        <link href="https://arxiv.org/abs/2605.04019"/>
-        <updated>2026-05-06T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-purple-500/15 text-purple-400"><!---->Paper<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">May 06, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Introducing an AI red teaming agent built on the open-source Dreadnode SDK. The agent creates workflows grounded in 45+ adversarial attacks, 450+ transforms, and 130+ scorers.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Compute to Congress: March Was All About Agents. And So Are We.]]></title>
-        <id>https://www.dreadnode.io/research/from-compute-to-congress-march-was-all-about-agents</id>
-        <link href="https://www.dreadnode.io/research/from-compute-to-congress-march-was-all-about-agents"/>
-        <updated>2026-04-17T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">From Compute to Congress: March Was All About Agents. And So Are We.</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Apr 17, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Why evaluating non-deterministic systems requires a fundamentally different approach.</p> <p class="text-xs text-dim mt-3">Daria Bahrami, Raja Sekhar Rao Dheekonda, Ads Dawson, and Kate Dunn</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mine the Gap: Open-Source Tools for Measuring the AI Offense-Defense Gap]]></title>
-        <id>https://www.dreadnode.io/research/mine-the-gap-open-source-tools-for-measuring-the-ai-offense-defense-gap</id>
-        <link href="https://www.dreadnode.io/research/mine-the-gap-open-source-tools-for-measuring-the-ai-offense-defense-gap"/>
+        <title type="html"><![CDATA[Capsule Security Raises $7M to Prevent AI Agents from Going Rogue in Runtime: Intent is the New Perimeter]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/intent-is-the-new-perimeter</id>
+        <link href="https://www.capsulesecurity.io/blog-post/intent-is-the-new-perimeter"/>
         <updated>2026-04-15T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Mine the Gap: Open-Source Tools for Measuring the AI Offense-Defense Gap</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Apr 15, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Dreadnode ran red team and blue team agents in the same Active Directory environment creating a realistic, closed-loop evaluation. Run your own evals with DreadGOAD and Ares.</p> <p class="text-xs text-dim mt-3">Jayson Grace and Martin Wendiggensen</p>]]></content>
+        <content type="html"><![CDATA[<a href="/blog-post/intent-is-the-new-perimeter" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69e05a73fb97ba796e3e8eb9_1-1.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69e05a73fb97ba796e3e8eb9_1-1-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69e05a73fb97ba796e3e8eb9_1-1-p-800.avif 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69e05a73fb97ba796e3e8eb9_1-1.avif 1920w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">News</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">Capsule Security Raises $7M to Prevent AI Agents from Going Rogue in Runtime: Intent is the New Perimeter  </h6><div class="text-size-regular text-color-muted">Capsule is launching a runtime security platform for the agentic AI era, built to monitor and stop autonomous agents that can bypass traditional guardrails, misuse legitimate access, and create a new class of enterprise security risk.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd4985e5b8944d7e12644e_Profile%20pic%20with%20dots%20(1).avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd4985e5b8944d7e12644e_Profile%20pic%20with%20dots%20(1)-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd4985e5b8944d7e12644e_Profile%20pic%20with%20dots%20(1).avif 1000w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Naor Paz</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">April 15, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Ares]]></title>
-        <id>https://github.com/dreadnode/ares</id>
-        <link href="https://github.com/dreadnode/ares"/>
+        <title type="html"><![CDATA[PipeLeak: The Lead That Stole Your Database - Exploiting Salesforce Agentforce With Indirect Prompt Injection]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/pipeleak-the-lead-that-stole-your-database-exploiting-salesforce-agentforce-with-indirect-prompt-injection</id>
+        <link href="https://www.capsulesecurity.io/blog-post/pipeleak-the-lead-that-stole-your-database-exploiting-salesforce-agentforce-with-indirect-prompt-injection"/>
         <updated>2026-04-15T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Ares</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Apr 15, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">An autonomous multi-agent system for running red and blue team evaluations against live Active Directory environments.</p>]]></content>
+        <content type="html"><![CDATA[<a href="/blog-post/pipeleak-the-lead-that-stole-your-database-exploiting-salesforce-agentforce-with-indirect-prompt-injection" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c3e4f4e1a7aff136867_pipeleak-cover-v3.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c3e4f4e1a7aff136867_pipeleak-cover-v3-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c3e4f4e1a7aff136867_pipeleak-cover-v3-p-800.avif 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c3e4f4e1a7aff136867_pipeleak-cover-v3-p-1080.avif 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c3e4f4e1a7aff136867_pipeleak-cover-v3.avif 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Research</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">PipeLeak: The Lead That Stole Your Database - Exploiting Salesforce Agentforce With Indirect Prompt Injection</h6><div class="text-size-regular text-color-muted">Capsule research team discover a critical prompt injection vulnerability in Salesforce Agentforce that allows attackers to exfiltrate CRM data through a simple lead from a form submission. No authentication required.
+</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif 1214w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Bar Kaduri</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">April 15, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[DreadGOAD]]></title>
-        <id>https://github.com/dreadnode/DreadGOAD</id>
-        <link href="https://github.com/dreadnode/DreadGOAD"/>
+        <title type="html"><![CDATA[ShareLeak: Taking the Wheel of Microsoft’s Copilot Studio (CVE-2026-21520)]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/shareleak-taking-the-wheel-of-microsofts-copilot-studio-cve-2026-21520</id>
+        <link href="https://www.capsulesecurity.io/blog-post/shareleak-taking-the-wheel-of-microsofts-copilot-studio-cve-2026-21520"/>
         <updated>2026-04-15T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">DreadGOAD</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Apr 15, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">A reproducible, programmatically deployable Active Directory lab environment for agent evaluation, forked from GOAD.</p>]]></content>
+        <content type="html"><![CDATA[<a href="/blog-post/shareleak-taking-the-wheel-of-microsofts-copilot-studio-cve-2026-21520" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c1ea35f452a3b894dc3_shareleak-cover.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c1ea35f452a3b894dc3_shareleak-cover-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c1ea35f452a3b894dc3_shareleak-cover-p-800.avif 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c1ea35f452a3b894dc3_shareleak-cover-p-1080.avif 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c1ea35f452a3b894dc3_shareleak-cover.avif 2400w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Research</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">ShareLeak: Taking the Wheel of Microsoft’s Copilot Studio (CVE-2026-21520)</h6><div class="text-size-regular text-color-muted">The Capsule research team discovered a high severity indirect prompt injection vulnerability in Microsoft Copilot Studio that enables attackers to exfiltrate sensitive data through external SharePoint form.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif 1214w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Bar Kaduri</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">April 15, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Worlds: A Simulation Engine for Agentic Pentesting]]></title>
-        <id>https://www.dreadnode.io/research/worlds-a-simulation-engine-for-agentic-pentesting</id>
-        <link href="https://www.dreadnode.io/research/worlds-a-simulation-engine-for-agentic-pentesting"/>
-        <updated>2026-02-11T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Worlds: A Simulation Engine for Agentic Pentesting</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Feb 11, 2026</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">An 8B model went from blindly loading Metasploit modules to achieving Domain Admin on GOAD, trained entirely on synthetic data from our world model system.</p> <p class="text-xs text-dim mt-3">Shane Caldwell and Max Harley</p>]]></content>
+        <title type="html"><![CDATA[Why MCP Gateways are a Bad Idea (and What to Do Instead)]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/why-mcp-gateways-are-a-bad-idea-and-what-to-do-instead</id>
+        <link href="https://www.capsulesecurity.io/blog-post/why-mcp-gateways-are-a-bad-idea-and-what-to-do-instead"/>
+        <updated>2026-03-20T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/why-mcp-gateways-are-a-bad-idea-and-what-to-do-instead" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7ce98cad4875d6c07589_Screenshot%202026-04-15%20at%2014.56.17.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7ce98cad4875d6c07589_Screenshot%202026-04-15%20at%2014.56.17-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7ce98cad4875d6c07589_Screenshot%202026-04-15%20at%2014.56.17-p-800.avif 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7ce98cad4875d6c07589_Screenshot%202026-04-15%20at%2014.56.17.avif 1714w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Article</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">Why MCP Gateways are a Bad Idea (and What to Do Instead)</h6><div class="text-size-regular text-color-muted">MCP gateways secure only one protocol and create blind spots, while runtime hooks plus approved MCP registries secure the full agent runtime where real risk lives.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd496fc404bd4045861768_Profile%20pic%20with%20dots%20(3).avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd496fc404bd4045861768_Profile%20pic%20with%20dots%20(3)-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd496fc404bd4045861768_Profile%20pic%20with%20dots%20(3).avif 1000w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Lidan Hazout</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">March 20, 2026</div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[186 Jailbreaks: Applying MLOps to AI Red Teaming]]></title>
-        <id>https://www.dreadnode.io/research/186-jailbreaks-applying-mlops-to-ai-red-teaming</id>
-        <link href="https://www.dreadnode.io/research/186-jailbreaks-applying-mlops-to-ai-red-teaming"/>
-        <updated>2025-12-11T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">186 Jailbreaks: Applying MLOps to AI Red Teaming</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Dec 11, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Our thoughts on AI red teaming, the tools, and why using MLOps processes is the way forward. Plus, a demonstration of how we leveraged algorithmic red teaming to assess Llama Maverick</p> <p class="text-xs text-dim mt-3">Raja Sekhar Rao Dheekonda</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LLM-Powered AMSI Provider vs. Red Team Agent]]></title>
-        <id>https://www.dreadnode.io/research/llm-powered-amsi-provider-vs-red-team-agent</id>
-        <link href="https://www.dreadnode.io/research/llm-powered-amsi-provider-vs-red-team-agent"/>
-        <updated>2025-12-03T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">LLM-Powered AMSI Provider vs. Red Team Agent</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Dec 03, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">We built an LLM-powered AMSI provider and paired it against a red team agent, generating a unique dataset and a blueprint for detecting malicious code at execution time.</p> <p class="text-xs text-dim mt-3">Max Harley</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Compute to Congress: The Cyber Layer Beneath the Genesis Mission]]></title>
-        <id>https://www.dreadnode.io/research/from-compute-to-congress-the-cyber-layer-beneath-the-genesis-mission</id>
-        <link href="https://www.dreadnode.io/research/from-compute-to-congress-the-cyber-layer-beneath-the-genesis-mission"/>
-        <updated>2025-12-01T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">From Compute to Congress: The Cyber Layer Beneath the Genesis Mission</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Dec 01, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">As the Genesis Mission accelerates AI development across critical scientific domains, robust cybersecurity and adversarial testing must be foundational, not bolted on later.</p> <p class="text-xs text-dim mt-3">Daria Bahrami</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dreadnode Response to the 2025 Regulatory Reform for Artificial Intelligence]]></title>
-        <id>https://www.dreadnode.io/research/dreadnode-response-to-the-2025-regulatory-reform-for-artificial-intelligence</id>
-        <link href="https://www.dreadnode.io/research/dreadnode-response-to-the-2025-regulatory-reform-for-artificial-intelligence"/>
-        <updated>2025-10-30T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Dreadnode Response to the 2025 Regulatory Reform for Artificial Intelligence</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Oct 30, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Dreadnode’s response to the RFI focuses on optimizing AI-enabled cybersecurity through strategic, machine-readable automations.</p> <p class="text-xs text-dim mt-3">Daria Bahrami</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LOLMIL: Living Off the Land Models and Inference Libraries]]></title>
-        <id>https://www.dreadnode.io/research/lolmil-living-off-the-land-models-and-inference-libraries</id>
-        <link href="https://www.dreadnode.io/research/lolmil-living-off-the-land-models-and-inference-libraries"/>
-        <updated>2025-10-14T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">LOLMIL: Living Off the Land Models and Inference Libraries</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Oct 14, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Can we eliminate the C2 server entirely and create truly autonomous malware? It’s not only possible, but fairly straightforward to implement, as demonstrated in our latest experiment.</p> <p class="text-xs text-dim mt-3">Max Harley</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Benchmarks to Breaches: Scaling Offensive Security]]></title>
-        <id>https://www.youtube.com/watch?v=YfvVBbQmPaY</id>
-        <link href="https://www.youtube.com/watch?v=YfvVBbQmPaY"/>
-        <updated>2025-10-06T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-yellow-500/15 text-yellow-400"><!---->Talk<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">From Benchmarks to Breaches: Scaling Offensive Security</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Oct 06, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Dreadnode at Offensive AI Con (OAIC) 2025. Scaling offensive security from benchmarks to real-world breaches.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Compute to Congress: To Address CISA's Authority Gap, Reauthorize CISA 2015 and SLCGP]]></title>
-        <id>https://www.dreadnode.io/research/from-compute-to-congress-to-address-cisas-authority-gap-reauthorize-cisa-2015-and-slcgp</id>
-        <link href="https://www.dreadnode.io/research/from-compute-to-congress-to-address-cisas-authority-gap-reauthorize-cisa-2015-and-slcgp"/>
-        <updated>2025-09-30T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">From Compute to Congress: To Address CISA's Authority Gap, Reauthorize CISA 2015 and SLCGP</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Sep 30, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Two critical cybersecurity programs—CISA 2015 and SLCGP—expire September 30, 2025. Learn why Congress must act now to preserve voluntary information sharing, fund state/local security, and operationalize cyber operations as AI-powered threats advance.</p> <p class="text-xs text-dim mt-3">Daria Bahrami</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PentestJudge: Judging Agent Behavior Against Operational Requirements]]></title>
-        <id>https://www.dreadnode.io/research/pentestjudge-judging-agent-behavior-against-operational-requirements</id>
-        <link href="https://www.dreadnode.io/research/pentestjudge-judging-agent-behavior-against-operational-requirements"/>
-        <updated>2025-08-06T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">PentestJudge: Judging Agent Behavior Against Operational Requirements</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Aug 06, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Evals are simple, but penetration testing is complicated. Using human-made rubrics, we compare LLMs and humans at judging the performance of a penetration testing agent.</p> <p class="text-xs text-dim mt-3">Shane Caldwell</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Evaluating Offensive Cyber Agents: Kerberoasting]]></title>
-        <id>https://www.dreadnode.io/research/evaluating-offensive-cyber-agents-kerberoasting</id>
-        <link href="https://www.dreadnode.io/research/evaluating-offensive-cyber-agents-kerberoasting"/>
-        <updated>2025-08-04T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Evaluating Offensive Cyber Agents: Kerberoasting</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Aug 04, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">In this blog, we breakdown a kerberoasting agent eval, including details on design, how it is implemented in Dreadnode’s Strikes SDK and Platform, and the performance of various LLMs when tested against the evaluation.</p> <p class="text-xs text-dim mt-3">Michael Kouremetis</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PentestJudge: Judging Agent Behavior Against Operational Requirements]]></title>
-        <id>https://arxiv.org/abs/2508.02921</id>
-        <link href="https://arxiv.org/abs/2508.02921"/>
-        <updated>2025-08-04T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-purple-500/15 text-purple-400"><!---->Paper<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">PentestJudge: Judging Agent Behavior Against Operational Requirements</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Aug 04, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">An LLM-as-judge system for evaluating the operations of penetration testing agents</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Five Takeaways from the AI Action Plan]]></title>
-        <id>https://www.dreadnode.io/research/five-takeaways-from-the-ai-action-plan</id>
-        <link href="https://www.dreadnode.io/research/five-takeaways-from-the-ai-action-plan"/>
-        <updated>2025-07-31T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Five Takeaways from the AI Action Plan</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jul 31, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">The AI community has been buzzing since the AI Action Plan's release last week - and for good reason. Here's what we’re most excited to see implemented.</p> <p class="text-xs text-dim mt-3">Daria Bahrami</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Evals: The Foundation for Autonomous Offensive Security]]></title>
-        <id>https://www.dreadnode.io/research/evals-the-foundation-for-autonomous-offensive-security</id>
-        <link href="https://www.dreadnode.io/research/evals-the-foundation-for-autonomous-offensive-security"/>
-        <updated>2025-07-30T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Evals: The Foundation for Autonomous Offensive Security</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jul 30, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Learn how to build robust evaluations for autonomous red team agents that can perform Windows Active Directory operations. This blog covers action space design, programmatic verification, and measuring model performance using GOAD.</p> <p class="text-xs text-dim mt-3">Shane Caldwell</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Compute to Congress: Setting the Global Standard for AI Security]]></title>
-        <id>https://www.dreadnode.io/research/from-compute-to-congress-setting-the-global-standard-for-ai-security</id>
-        <link href="https://www.dreadnode.io/research/from-compute-to-congress-setting-the-global-standard-for-ai-security"/>
-        <updated>2025-06-26T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">From Compute to Congress: Setting the Global Standard for AI Security</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jun 26, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Daria explores how the TEST AI Act and red teaming standards can establish American leadership in AI security—a winning policy roadmap from Critical Effect DC 2025.</p> <p class="text-xs text-dim mt-3">Daria Bahrami</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do LLM Agents Have AI Red Team Capabilities? We Built a Benchmark to Find Out]]></title>
-        <id>https://www.dreadnode.io/research/ai-red-team-benchmark</id>
-        <link href="https://www.dreadnode.io/research/ai-red-team-benchmark"/>
-        <updated>2025-06-18T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Do LLM Agents Have AI Red Team Capabilities? We Built a Benchmark to Find Out</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jun 18, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">We're excited to introduce AIRTBench, an AI red teaming framework that tests LLMs against AI/ML black-box CTF challenges to see how they perform when attacking other AI systems.</p> <p class="text-xs text-dim mt-3">Ads Dawson</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Red Teaming Case Study: Claude 3.7 Sonnet Solves the Turtle Challenge]]></title>
-        <id>https://www.dreadnode.io/research/ai-red-teaming-case-study-claude-sonnet-solves-turtle</id>
-        <link href="https://www.dreadnode.io/research/ai-red-teaming-case-study-claude-sonnet-solves-turtle"/>
-        <updated>2025-06-18T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">AI Red Teaming Case Study: Claude 3.7 Sonnet Solves the Turtle Challenge</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jun 18, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">See how Claude solved a notoriously difficult AI/ML CTF challenge, going beyond pattern matching to genuine problem-solving under adversarial conditions.</p> <p class="text-xs text-dim mt-3">Ads Dawson</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AIRTBench: Measuring AI Red Teaming Capabilities in LLMs]]></title>
-        <id>https://arxiv.org/abs/2506.14682</id>
-        <link href="https://arxiv.org/abs/2506.14682"/>
-        <updated>2025-06-17T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-purple-500/15 text-purple-400"><!---->Paper<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">AIRTBench: Measuring AI Red Teaming Capabilities in LLMs</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jun 17, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">An AI red teaming benchmark for evaluating language models' ability to exploit AI/ML security vulnerabilities</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dreadnode Response to the 2025 National AI R&D Strategic Plan]]></title>
-        <id>https://www.dreadnode.io/research/national-ai-research-and-development-strategic-plan-response</id>
-        <link href="https://www.dreadnode.io/research/national-ai-research-and-development-strategic-plan-response"/>
-        <updated>2025-06-03T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Dreadnode Response to the 2025 National AI R&amp;D Strategic Plan</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Jun 03, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Read Dreadnode’s AI policy recommendations for the R&amp;D Strategic Plan, which prioritize strengthening AI security through data science and adversarial testing.</p> <p class="text-xs text-dim mt-3">Daria Bahrami</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Compute to Congress: Decoding AI Policy]]></title>
-        <id>https://www.dreadnode.io/research/from-compute-to-congress-decoding-ai-policy</id>
-        <link href="https://www.dreadnode.io/research/from-compute-to-congress-decoding-ai-policy"/>
-        <updated>2025-05-15T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">From Compute to Congress: Decoding AI Policy</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">May 15, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Read “From Compute to Congress: Decoding AI Policy,” a blog series where we break down cyber and AI policy updates from the lens of security engineers and researchers.</p> <p class="text-xs text-dim mt-3">Daria Bahrami</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building with AI Rigging Workshop]]></title>
-        <id>https://github.com/vmsv/pivot2025-llmworkshop/tree/main</id>
-        <link href="https://github.com/vmsv/pivot2025-llmworkshop/tree/main"/>
-        <updated>2025-05-07T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-yellow-500/15 text-yellow-400"><!---->Talk<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Building with AI Rigging Workshop</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">May 07, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Rigging workshop at Pivot Con 2025 with Martin Wendiggensen.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Automation Advantage in AI Red Teaming]]></title>
-        <id>https://www.dreadnode.io/research/the-automation-advantage-in-ai-red-teaming</id>
-        <link href="https://www.dreadnode.io/research/the-automation-advantage-in-ai-red-teaming"/>
-        <updated>2025-04-29T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">The Automation Advantage in AI Red Teaming</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Apr 29, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">The Automation Advantage in AI Red Teaming: A Quantitative Comparison of Attack Methods</p> <p class="text-xs text-dim mt-3">Rob Mulla</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Automation Advantage in AI Red Teaming]]></title>
-        <id>https://arxiv.org/abs/2504.19855</id>
-        <link href="https://arxiv.org/abs/2504.19855"/>
-        <updated>2025-04-28T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-purple-500/15 text-purple-400"><!---->Paper<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">The Automation Advantage in AI Red Teaming</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Apr 28, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">A large-scale, quantitative comparison between manual and automated attack approaches against LLMs</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dreadnode’s Policy Recommendations for the U.S. AI Action Plan]]></title>
-        <id>https://www.dreadnode.io/research/policy-recommendations-us-ai-action-plan</id>
-        <link href="https://www.dreadnode.io/research/policy-recommendations-us-ai-action-plan"/>
-        <updated>2025-03-26T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-accent-dim text-accent"><!---->Blog<!----></span><!----> <h2 class="font-mono text-base font-bold text-text mt-3">Dreadnode’s Policy Recommendations for the U.S. AI Action Plan</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Mar 26, 2025</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Read Dreadnode’s AI policy recommendations for the U.S. AI Action Plan, which focuses on leveraging AI to protect America and attacking AI to find its limits.</p> <p class="text-xs text-dim mt-3">Daria Bahrami</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ghosts on the Node]]></title>
-        <id>https://github.com/dreadnode/conferences/blob/main/SOCON_2024/Ghosts%20on%20the%20Node.pdf</id>
-        <link href="https://github.com/dreadnode/conferences/blob/main/SOCON_2024/Ghosts%20on%20the%20Node.pdf"/>
-        <updated>2024-03-11T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-yellow-500/15 text-yellow-400"><!---->Talk<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Ghosts on the Node</h2> <!--[0--><p class="font-mono text-xs text-dim mt-1">Mar 11, 2024</p><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">SOCON 2024 conference talk on AI security threats.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Agent Lens]]></title>
-        <id>https://github.com/dreadnode/agent-lens</id>
-        <link href="https://github.com/dreadnode/agent-lens"/>
-        <updated>2026-06-29T10:15:11.392Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Agent Lens</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Agent observability and replay tooling for AI safety &amp; interpretability research.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[burpference]]></title>
-        <id>https://github.com/dreadnode/burpference</id>
-        <link href="https://github.com/dreadnode/burpference"/>
-        <updated>2026-06-29T10:15:11.393Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">burpference</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Add LLM inference capabilities to BurpSuite for AI-powered security testing.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charcuterie]]></title>
-        <id>https://github.com/moohax/Charcuterie</id>
-        <link href="https://github.com/moohax/Charcuterie"/>
-        <updated>2026-06-29T10:15:11.394Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Charcuterie</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Collection of code execution techniques for ML systems.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Counterfit]]></title>
-        <id>https://github.com/Azure/counterfit</id>
-        <link href="https://github.com/Azure/counterfit"/>
-        <updated>2026-06-29T10:15:11.397Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Counterfit</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">CLI AI red team tool for assessing the security of ML systems.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deep Drop]]></title>
-        <id>https://github.com/moohax/Deep-Drop</id>
-        <link href="https://github.com/moohax/Deep-Drop"/>
-        <updated>2026-06-29T10:15:11.413Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Deep Drop</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Machine learning enabled dropper for offensive security research.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dreadnode Strikes SDK]]></title>
-        <id>https://github.com/dreadnode/sdk</id>
-        <link href="https://github.com/dreadnode/sdk"/>
-        <updated>2026-06-29T10:15:11.414Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Dreadnode Strikes SDK</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">The official Dreadnode Strikes SDK for building and running AI security challenges.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[dyana]]></title>
-        <id>https://github.com/dreadnode/dyana</id>
-        <link href="https://github.com/dreadnode/dyana"/>
-        <updated>2026-06-29T10:15:11.414Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">dyana</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Sandbox environment for loading, running, and profiling a range of model files.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Koppeling]]></title>
-        <id>https://github.com/monoxgas/Koppeling</id>
-        <link href="https://github.com/monoxgas/Koppeling"/>
-        <updated>2026-06-29T10:15:11.414Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Koppeling</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Adaptive DLL hijacking and dynamic export forwarding.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Marque]]></title>
-        <id>https://github.com/dreadnode/marque</id>
-        <link href="https://github.com/dreadnode/marque"/>
-        <updated>2026-06-29T10:15:11.414Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Marque</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Experimental Python workflows for AI agent development.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[nerve]]></title>
-        <id>https://github.com/dreadnode/nerve</id>
-        <link href="https://github.com/dreadnode/nerve"/>
-        <updated>2026-06-29T10:15:11.414Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">nerve</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Create LLM agents without writing code.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Parley]]></title>
-        <id>https://github.com/dreadnode/Parley</id>
-        <link href="https://github.com/dreadnode/Parley"/>
-        <updated>2026-06-29T10:15:11.416Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Parley</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">TAP (Tree of Attacks with Pruning) jailbreaking implementation.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Proof Pudding]]></title>
-        <id>https://github.com/moohax/Proof-Pudding</id>
-        <link href="https://github.com/moohax/Proof-Pudding"/>
-        <updated>2026-06-29T10:15:11.423Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Proof Pudding</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Proofpoint model extraction attack research tool.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Research]]></title>
-        <id>https://github.com/dreadnode/research</id>
-        <link href="https://github.com/dreadnode/research"/>
-        <updated>2026-06-29T10:15:11.423Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Research</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">General research code and experiments from the Dreadnode team.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rigging]]></title>
-        <id>https://github.com/dreadnode/rigging</id>
-        <link href="https://github.com/dreadnode/rigging"/>
-        <updated>2026-06-29T10:15:11.424Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">Rigging</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">LLM interaction framework for building AI-powered applications.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sRDI]]></title>
-        <id>https://github.com/monoxgas/sRDI</id>
-        <link href="https://github.com/monoxgas/sRDI"/>
-        <updated>2026-06-29T10:15:11.424Z</updated>
-        <content type="html"><![CDATA[<div class="flex items-center justify-between"><span class="inline-flex items-center font-mono text-xs uppercase tracking-wider px-2 py-0.5 bg-terminal-green/15 text-terminal-green"><!---->Code<!----></span><!----> <svg class="w-4 h-4 text-dim" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"></path></svg></div> <h2 class="font-mono text-base font-bold text-text mt-3">sRDI</h2> <!--[-1--><!--]--> <p class="text-sm text-muted mt-2 line-clamp-3">Convert DLLs to position independent shellcode.</p>]]></content>
+        <title type="html"><![CDATA[ClawGuard: Open Source Security for the Agentic Era]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/clawguard-open-source-security-for-the-agentic-era</id>
+        <link href="https://www.capsulesecurity.io/blog-post/clawguard-open-source-security-for-the-agentic-era"/>
+        <updated>2026-03-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/clawguard-open-source-security-for-the-agentic-era" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c896576014baf63f49e_Screenshot%202026-04-15%20at%2014.54.41.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c896576014baf63f49e_Screenshot%202026-04-15%20at%2014.54.41-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c896576014baf63f49e_Screenshot%202026-04-15%20at%2014.54.41-p-800.avif 800w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c896576014baf63f49e_Screenshot%202026-04-15%20at%2014.54.41-p-1080.avif 1080w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69df7c896576014baf63f49e_Screenshot%202026-04-15%20at%2014.54.41.avif 1714w" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Article</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">ClawGuard: Open Source Security for the Agentic Era</h6><div class="text-size-regular text-color-muted">ClawGuard was built to stop dangerous agent behavior at the intent level before execution, and NVIDIA’s NemoClaw reinforces that need by securing the runtime environment from the infrastructure side.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd496fc404bd4045861768_Profile%20pic%20with%20dots%20(3).avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd496fc404bd4045861768_Profile%20pic%20with%20dots%20(3)-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dd496fc404bd4045861768_Profile%20pic%20with%20dots%20(3).avif 1000w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Lidan Hazout</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">March 17, 2026</div></div></div>]]></content>
     </entry>
 </feed>
