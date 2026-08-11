@@ -1,1787 +1,392 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zeroday.forem.com/t/cloudsecurity</id>
-    <title>forem_cloud_sec</title>
-    <updated>2026-08-11T06:54:11.069Z</updated>
+    <id>https://www.armosec.io/blog/</id>
+    <title>armosec</title>
+    <updated>2026-08-11T08:04:53.699Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <icon>https://www.armosec.io/wp-content/uploads/2024/07/favicon-armo.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Google Cloud spells out its abuse-response ladder: throttle, isolate, suspend]]></title>
-        <id>https://dev.to/leobaniak/google-cloud-spells-out-its-abuse-response-ladder-throttle-isolate-suspend-4npe</id>
-        <link href="https://dev.to/leobaniak/google-cloud-spells-out-its-abuse-response-ladder-throttle-isolate-suspend-4npe"/>
-        <updated>2026-08-08T08:24:41.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/leobaniak/google-cloud-spells-out-its-abuse-response-ladder-throttle-isolate-suspend-4npe" aria-labelledby="article-link-4347190" class="crayons-story__hidden-navigation-link">Google Cloud spells out its abuse-response ladder: throttle, isolate, suspend</a>
+        <title type="html"><![CDATA[Sysdig Alternatives: 5 Options Compared on Runtime, Remediation, and the App Layer]]></title>
+        <id>https://www.armosec.io/blog/sysdig-alternatives/</id>
+        <link href="https://www.armosec.io/blog/sysdig-alternatives/"/>
+        <updated>2026-07-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<picture class="blog-article__image">
+            <img width="1200" height="675" src="https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular.png" class="attachment-full size-full entered lazyloaded" alt="" decoding="async" fetchpriority="high" data-lazy-srcset="https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular.png 1200w, https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular-300x169.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular-1024x576.png 1024w, https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular-768x432.png 768w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" data-lazy-src="https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular.png" data-ll-status="loaded" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular.png 1200w, https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular-300x169.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular-1024x576.png 1024w, https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular-768x432.png 768w"><noscript><img width="1200" height="675" src="https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular.png" class="attachment-full size-full" alt="" decoding="async" fetchpriority="high" srcset="https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular.png 1200w, https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular-300x169.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular-1024x576.png 1024w, https://www.armosec.io/wp-content/uploads/2026/07/sysdig-alternatives-for-kubernetes-grid-regular-768x432.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></noscript>        </picture>
 
+        <div class="blog-article__content">
+            <div class="blog-article__content-inner">
+                <ul class="blog-article__meta">
+                    <li>Jul 13, 2026</li>
+                </ul>
 
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
+                <h3 class="blog-article__title">Sysdig Alternatives: 5 Options Compared on Runtime, Remediation, and the App Layer</h3>
 
-          <a href="/leobaniak" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3997121%2F061e76e1-0a08-4d9d-827c-24f1e8b9e15b.png" alt="leobaniak profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/leobaniak" class="crayons-story__secondary fw-medium m:hidden">
-              Leo
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4347190" aria-controls="story-author-preview-content-4347190" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Leo profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Leo
-                
-              </button>
-              <div id="story-author-preview-content-4347190" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/leobaniak" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3997121%2F061e76e1-0a08-4d9d-827c-24f1e8b9e15b.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Leo</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3997121,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Leo&quot;}" data-fetched="fetched" aria-label="Follow user: Leo" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3997121"></div>
+                <div class="blog-article__text">
+                    <p>Sysdig detects the attack. It does not tell you the story. That distinction is why...</p>
                 </div>
-              </div>
             </div>
 
-          </div>
-          <a href="https://dev.to/leobaniak/google-cloud-spells-out-its-abuse-response-ladder-throttle-isolate-suspend-4npe" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-08T08:24:41Z" title="Saturday, August 8, 2026 at 8:24:41 AM">Aug 8</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1786177481"></span></a>
-        </div>
-      </div>
+            <div class="blog-article__author">
 
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/leobaniak/google-cloud-spells-out-its-abuse-response-ladder-throttle-isolate-suspend-4npe" data-preload-image="" id="article-link-4347190">
-          Google Cloud spells out its abuse-response ladder: throttle, isolate, suspend
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 60, 179, 0.10);
-        --tag-prefix: #003cb3;
-        --tag-bg-hover: rgba(0, 60, 179, 0.10);
-        --tag-prefix-hover: #003cb3;
-      " href="/t/googlecloud"><span class="crayons-tag__prefix">#</span>googlecloud</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/incidentresponse"><span class="crayons-tag__prefix">#</span>incidentresponse</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/secrets"><span class="crayons-tag__prefix">#</span>secrets</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/leobaniak/google-cloud-spells-out-its-abuse-response-ladder-throttle-isolate-suspend-4npe" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4347190" aria-label="Add a comment to post - Google Cloud spells out its abuse-response ladder: throttle, isolate, suspend">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">2<span class="hidden s:inline">&nbsp;reactions</span></span>
+                                    <picture class="blog-article__author-image">
+                        <img width="150" height="150" src="https://www.armosec.io/wp-content/uploads/2021/12/ben-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" decoding="async">                    </picture>
+                                <div class="blog-article__author-content">
+                    <p><b>Ben Hirschberg</b></p>
+                    <p>CTO &amp; Co-founder</p>
+                </div>
             </div>
-          </a>
-            <a href="https://dev.to/leobaniak/google-cloud-spells-out-its-abuse-response-ladder-throttle-isolate-suspend-4npe#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Google Cloud spells out its abuse-response ladder: throttle, isolate, suspend">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afdtq3d9k2ppj6kfoa3z3gh53ebtpy96" class="crayons-icon"><title id="afdtq3d9k2ppj6kfoa3z3gh53ebtpy96">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-4347190" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4347190" data-article-author-id="3997121" aria-label="Save post Google Cloud spells out its abuse-response ladder: throttle, isolate, suspend to reading list" title="Save post Google Cloud spells out its abuse-response ladder: throttle, isolate, suspend to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ThoughtWorks Just Named the Problem. Here's the Structural Fix.]]></title>
-        <id>https://dev.to/bala_paranj_059d338e44e7e/thoughtworks-just-named-the-problem-heres-the-structural-fix-1hio</id>
-        <link href="https://dev.to/bala_paranj_059d338e44e7e/thoughtworks-just-named-the-problem-heres-the-structural-fix-1hio"/>
-        <updated>2026-08-07T12:12:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/thoughtworks-just-named-the-problem-heres-the-structural-fix-1hio" aria-labelledby="article-link-4340737" class="crayons-story__hidden-navigation-link">ThoughtWorks Just Named the Problem. Here's the Structural Fix.</a>
+        <title type="html"><![CDATA[Prisma Cloud Alternatives: A Runtime-First Look at Where Each One Wins and Falls Short]]></title>
+        <id>https://www.armosec.io/blog/prisma-cloud-alternatives/</id>
+        <link href="https://www.armosec.io/blog/prisma-cloud-alternatives/"/>
+        <updated>2026-07-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<picture class="blog-article__image">
+            <img width="1200" height="675" src="https://www.armosec.io/wp-content/uploads/2026/07/prisma-cloud-alternatives-a-runtime-first-look-grid-regular.png" class="attachment-full size-full" alt="" decoding="async" srcset="https://www.armosec.io/wp-content/uploads/2026/07/prisma-cloud-alternatives-a-runtime-first-look-grid-regular.png 1200w, https://www.armosec.io/wp-content/uploads/2026/07/prisma-cloud-alternatives-a-runtime-first-look-grid-regular-300x169.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/prisma-cloud-alternatives-a-runtime-first-look-grid-regular-1024x576.png 1024w, https://www.armosec.io/wp-content/uploads/2026/07/prisma-cloud-alternatives-a-runtime-first-look-grid-regular-768x432.png 768w" sizes="(max-width: 1200px) 100vw, 1200px">        </picture>
 
+        <div class="blog-article__content">
+            <div class="blog-article__content-inner">
+                <ul class="blog-article__meta">
+                    <li>Jul 12, 2026</li>
+                </ul>
 
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
+                <h3 class="blog-article__title">Prisma Cloud Alternatives: A Runtime-First Look at Where Each One Wins and Falls Short</h3>
 
-          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
-              Bala Paranj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4340737" aria-controls="story-author-preview-content-4340737" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Bala Paranj
-                
-              </button>
-              <div id="story-author-preview-content-4340737" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bala_paranj_059d338e44e7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
+                <div class="blog-article__text">
+                    <p>You moved to Prisma Cloud for coverage. Now your posture findings live in one view,...</p>
                 </div>
-              </div>
             </div>
 
-          </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/thoughtworks-just-named-the-problem-heres-the-structural-fix-1hio" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-07T12:12:00Z" title="Friday, August 7, 2026 at 12:12:00 PM">Aug 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1786104720"></span></a>
-        </div>
-      </div>
+            <div class="blog-article__author">
 
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bala_paranj_059d338e44e7e/thoughtworks-just-named-the-problem-heres-the-structural-fix-1hio" data-preload-image="" id="article-link-4340737">
-          ThoughtWorks Just Named the Problem. Here's the Structural Fix.
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(235, 223, 55, 0.10);
-        --tag-prefix: #ebdf37;
-        --tag-bg-hover: rgba(235, 223, 55, 0.10);
-        --tag-prefix-hover: #ebdf37;
-      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/thoughtworks-just-named-the-problem-heres-the-structural-fix-1hio" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4340737" aria-label="Add a comment to post - ThoughtWorks Just Named the Problem. Here's the Structural Fix.">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
+                                    <picture class="blog-article__author-image">
+                        <img width="150" height="150" src="https://www.armosec.io/wp-content/uploads/2023/07/Yossi_BN-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async">                    </picture>
+                                <div class="blog-article__author-content">
+                    <p><b>Yossi Ben Naim</b></p>
+                    <p>VP of Product Management</p>
+                </div>
             </div>
-          </a>
-            <a href="https://dev.to/bala_paranj_059d338e44e7e/thoughtworks-just-named-the-problem-heres-the-structural-fix-1hio#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - ThoughtWorks Just Named the Problem. Here's the Structural Fix.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a498hep988rulol0kw62x0mklk4flbnb" class="crayons-icon"><title id="a498hep988rulol0kw62x0mklk4flbnb">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            10 min read
-          </small>
-            <button type="button" id="article-save-button-4340737" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4340737" data-article-author-id="3862804" aria-label="Save post ThoughtWorks Just Named the Problem. Here's the Structural Fix. to reading list" title="Save post ThoughtWorks Just Named the Problem. Here's the Structural Fix. to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Your Cloud Has Attack Paths No Scanner Can Find. Because They Don't Exist in Any Single Resource]]></title>
-        <id>https://dev.to/bala_paranj_059d338e44e7e/your-cloud-has-attack-paths-no-scanner-can-find-because-they-dont-exist-in-any-single-resource-4koi</id>
-        <link href="https://dev.to/bala_paranj_059d338e44e7e/your-cloud-has-attack-paths-no-scanner-can-find-because-they-dont-exist-in-any-single-resource-4koi"/>
-        <updated>2026-08-05T11:36:04.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/your-cloud-has-attack-paths-no-scanner-can-find-because-they-dont-exist-in-any-single-resource-4koi" aria-labelledby="article-link-4322155" class="crayons-story__hidden-navigation-link">Your Cloud Has Attack Paths No Scanner Can Find. Because They Don't Exist in Any Single Resource</a>
+        <title type="html"><![CDATA[Wiz Alternatives: 5 Cloud Security Platforms Compared for Kubernetes Runtime Teams]]></title>
+        <id>https://www.armosec.io/blog/wiz-alternatives/</id>
+        <link href="https://www.armosec.io/blog/wiz-alternatives/"/>
+        <updated>2026-07-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<picture class="blog-article__image">
+            <img width="1200" height="675" src="https://www.armosec.io/wp-content/uploads/2026/07/wiz-alternatives-5-cloud-security-platforms-compared-grid-regular.png" class="attachment-full size-full" alt="" decoding="async" srcset="https://www.armosec.io/wp-content/uploads/2026/07/wiz-alternatives-5-cloud-security-platforms-compared-grid-regular.png 1200w, https://www.armosec.io/wp-content/uploads/2026/07/wiz-alternatives-5-cloud-security-platforms-compared-grid-regular-300x169.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/wiz-alternatives-5-cloud-security-platforms-compared-grid-regular-1024x576.png 1024w, https://www.armosec.io/wp-content/uploads/2026/07/wiz-alternatives-5-cloud-security-platforms-compared-grid-regular-768x432.png 768w" sizes="(max-width: 1200px) 100vw, 1200px">        </picture>
 
+        <div class="blog-article__content">
+            <div class="blog-article__content-inner">
+                <ul class="blog-article__meta">
+                    <li>Jul 12, 2026</li>
+                </ul>
 
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
+                <h3 class="blog-article__title">Wiz Alternatives: 5 Cloud Security Platforms Compared for Kubernetes Runtime Teams</h3>
 
-          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
-              Bala Paranj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4322155" aria-controls="story-author-preview-content-4322155" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Bala Paranj
-                
-              </button>
-              <div id="story-author-preview-content-4322155" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bala_paranj_059d338e44e7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
+                <div class="blog-article__text">
+                    <p>Agentless cloud security is like a photograph. Sharp, detailed, accurate about the moment it was...</p>
                 </div>
-              </div>
             </div>
 
-          </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/your-cloud-has-attack-paths-no-scanner-can-find-because-they-dont-exist-in-any-single-resource-4koi" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-05T11:36:04Z" title="Wednesday, August 5, 2026 at 11:36:04 AM">Aug 5</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785929764"></span></a>
-        </div>
-      </div>
+            <div class="blog-article__author">
 
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bala_paranj_059d338e44e7e/your-cloud-has-attack-paths-no-scanner-can-find-because-they-dont-exist-in-any-single-resource-4koi" data-preload-image="" id="article-link-4322155">
-          Your Cloud Has Attack Paths No Scanner Can Find. Because They Don't Exist in Any Single Resource
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/your-cloud-has-attack-paths-no-scanner-can-find-because-they-dont-exist-in-any-single-resource-4koi" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4322155" aria-label="Add a comment to post - Your Cloud Has Attack Paths No Scanner Can Find. Because They Don't Exist in Any Single Resource">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
+                                    <picture class="blog-article__author-image">
+                        <img width="150" height="150" src="https://www.armosec.io/wp-content/uploads/2021/12/ben-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" decoding="async">                    </picture>
+                                <div class="blog-article__author-content">
+                    <p><b>Ben Hirschberg</b></p>
+                    <p>CTO &amp; Co-founder</p>
+                </div>
             </div>
-          </a>
-            <a href="https://dev.to/bala_paranj_059d338e44e7e/your-cloud-has-attack-paths-no-scanner-can-find-because-they-dont-exist-in-any-single-resource-4koi#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your Cloud Has Attack Paths No Scanner Can Find. Because They Don't Exist in Any Single Resource">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8iwfxz1l2gnm64qloiybxd4ws05416t" class="crayons-icon"><title id="a8iwfxz1l2gnm64qloiybxd4ws05416t">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              1<span class="hidden s:inline">&nbsp;comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            8 min read
-          </small>
-            <button type="button" id="article-save-button-4322155" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4322155" data-article-author-id="3862804" aria-label="Save post Your Cloud Has Attack Paths No Scanner Can Find. Because They Don't Exist in Any Single Resource to reading list" title="Save post Your Cloud Has Attack Paths No Scanner Can Find. Because They Don't Exist in Any Single Resource to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Common Mode Failure: The Blast Radius Nobody Measures]]></title>
-        <id>https://dev.to/bala_paranj_059d338e44e7e/common-mode-failure-the-blast-radius-nobody-measures-k6h</id>
-        <link href="https://dev.to/bala_paranj_059d338e44e7e/common-mode-failure-the-blast-radius-nobody-measures-k6h"/>
-        <updated>2026-08-03T12:34:42.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/common-mode-failure-the-blast-radius-nobody-measures-k6h" aria-labelledby="article-link-4302711" class="crayons-story__hidden-navigation-link">Common Mode Failure: The Blast Radius Nobody Measures</a>
+        <title type="html"><![CDATA[Upwind Alternatives: 5 Cloud Runtime Security Platforms Compared]]></title>
+        <id>https://www.armosec.io/blog/upwind-alternatives/</id>
+        <link href="https://www.armosec.io/blog/upwind-alternatives/"/>
+        <updated>2026-07-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<picture class="blog-article__image">
+            <img width="1200" height="675" src="https://www.armosec.io/wp-content/uploads/2026/07/upwind-alternatives-5-cloud-runtime-security-platforms-compa-grid-regular.png" class="attachment-full size-full" alt="" decoding="async" srcset="https://www.armosec.io/wp-content/uploads/2026/07/upwind-alternatives-5-cloud-runtime-security-platforms-compa-grid-regular.png 1200w, https://www.armosec.io/wp-content/uploads/2026/07/upwind-alternatives-5-cloud-runtime-security-platforms-compa-grid-regular-300x169.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/upwind-alternatives-5-cloud-runtime-security-platforms-compa-grid-regular-1024x576.png 1024w, https://www.armosec.io/wp-content/uploads/2026/07/upwind-alternatives-5-cloud-runtime-security-platforms-compa-grid-regular-768x432.png 768w" sizes="(max-width: 1200px) 100vw, 1200px">        </picture>
 
+        <div class="blog-article__content">
+            <div class="blog-article__content-inner">
+                <ul class="blog-article__meta">
+                    <li>Jul 12, 2026</li>
+                </ul>
 
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
+                <h3 class="blog-article__title">Upwind Alternatives: 5 Cloud Runtime Security Platforms Compared</h3>
 
-          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
-              Bala Paranj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4302711" aria-controls="story-author-preview-content-4302711" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Bala Paranj
-                
-              </button>
-              <div id="story-author-preview-content-4302711" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bala_paranj_059d338e44e7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
+                <div class="blog-article__text">
+                    <p>Upwind’s problems start after a detection fires. The platform sees the event, but turning what...</p>
                 </div>
-              </div>
             </div>
 
-          </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/common-mode-failure-the-blast-radius-nobody-measures-k6h" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-03T12:34:42Z" title="Monday, August 3, 2026 at 12:34:42 PM">Aug 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785760482"></span></a>
-        </div>
-      </div>
+            <div class="blog-article__author">
 
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bala_paranj_059d338e44e7e/common-mode-failure-the-blast-radius-nobody-measures-k6h" data-preload-image="" id="article-link-4302711">
-          Common Mode Failure: The Blast Radius Nobody Measures
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(235, 223, 55, 0.10);
-        --tag-prefix: #ebdf37;
-        --tag-bg-hover: rgba(235, 223, 55, 0.10);
-        --tag-prefix-hover: #ebdf37;
-      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/common-mode-failure-the-blast-radius-nobody-measures-k6h" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4302711" aria-label="Add a comment to post - Common Mode Failure: The Blast Radius Nobody Measures">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
+                                    <picture class="blog-article__author-image">
+                        <img width="150" height="150" src="https://www.armosec.io/wp-content/uploads/2023/07/Yossi_BN-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async">                    </picture>
+                                <div class="blog-article__author-content">
+                    <p><b>Yossi Ben Naim</b></p>
+                    <p>VP of Product Management</p>
+                </div>
             </div>
-          </a>
-            <a href="https://dev.to/bala_paranj_059d338e44e7e/common-mode-failure-the-blast-radius-nobody-measures-k6h#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Common Mode Failure: The Blast Radius Nobody Measures">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ar3mw3b2ldno69urrl8aeiilm7yl0433" class="crayons-icon"><title id="ar3mw3b2ldno69urrl8aeiilm7yl0433">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            9 min read
-          </small>
-            <button type="button" id="article-save-button-4302711" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4302711" data-article-author-id="3862804" aria-label="Save post Common Mode Failure: The Blast Radius Nobody Measures to reading list" title="Save post Common Mode Failure: The Blast Radius Nobody Measures to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Your CI Pipeline Has a Security Gap That Isn't a Vulnerability]]></title>
-        <id>https://dev.to/bala_paranj_059d338e44e7e/your-ci-pipeline-has-a-security-gap-that-isnt-a-vulnerability-27ec</id>
-        <link href="https://dev.to/bala_paranj_059d338e44e7e/your-ci-pipeline-has-a-security-gap-that-isnt-a-vulnerability-27ec"/>
-        <updated>2026-08-02T08:36:38.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/your-ci-pipeline-has-a-security-gap-that-isnt-a-vulnerability-27ec" aria-labelledby="article-link-4291964" class="crayons-story__hidden-navigation-link">Your CI Pipeline Has a Security Gap That Isn't a Vulnerability</a>
+        <title type="html"><![CDATA[Microsoft Defender for Cloud Alternatives: A Runtime-First Guide for Kubernetes Teams]]></title>
+        <id>https://www.armosec.io/blog/microsoft-defender-alternatives/</id>
+        <link href="https://www.armosec.io/blog/microsoft-defender-alternatives/"/>
+        <updated>2026-07-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<picture class="blog-article__image">
+            <img width="1200" height="675" src="https://www.armosec.io/wp-content/uploads/2026/07/microsoft-defender-alternatives-for-kubernetes-grid-regular.png" class="attachment-full size-full" alt="" decoding="async" srcset="https://www.armosec.io/wp-content/uploads/2026/07/microsoft-defender-alternatives-for-kubernetes-grid-regular.png 1200w, https://www.armosec.io/wp-content/uploads/2026/07/microsoft-defender-alternatives-for-kubernetes-grid-regular-300x169.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/microsoft-defender-alternatives-for-kubernetes-grid-regular-1024x576.png 1024w, https://www.armosec.io/wp-content/uploads/2026/07/microsoft-defender-alternatives-for-kubernetes-grid-regular-768x432.png 768w" sizes="(max-width: 1200px) 100vw, 1200px">        </picture>
 
+        <div class="blog-article__content">
+            <div class="blog-article__content-inner">
+                <ul class="blog-article__meta">
+                    <li>Jul 11, 2026</li>
+                </ul>
 
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
+                <h3 class="blog-article__title">Microsoft Defender for Cloud Alternatives: A Runtime-First Guide for Kubernetes Teams</h3>
 
-          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
-              Bala Paranj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4291964" aria-controls="story-author-preview-content-4291964" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Bala Paranj
-                
-              </button>
-              <div id="story-author-preview-content-4291964" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bala_paranj_059d338e44e7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
+                <div class="blog-article__text">
+                    <p>A reverse shell opens inside a pod on your AKS cluster. Microsoft Defender for Cloud...</p>
                 </div>
-              </div>
             </div>
 
-          </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ci-pipeline-has-a-security-gap-that-isnt-a-vulnerability-27ec" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-02T08:36:38Z" title="Sunday, August 2, 2026 at 8:36:38 AM">Aug 2</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785659798"></span></a>
-        </div>
-      </div>
+            <div class="blog-article__author">
 
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ci-pipeline-has-a-security-gap-that-isnt-a-vulnerability-27ec" data-preload-image="" id="article-link-4291964">
-          Your CI Pipeline Has a Security Gap That Isn't a Vulnerability
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ci-pipeline-has-a-security-gap-that-isnt-a-vulnerability-27ec" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4291964" aria-label="Add a comment to post - Your CI Pipeline Has a Security Gap That Isn't a Vulnerability">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
+                                    <picture class="blog-article__author-image">
+                        <img width="150" height="150" src="https://www.armosec.io/wp-content/uploads/2021/12/ben-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" decoding="async">                    </picture>
+                                <div class="blog-article__author-content">
+                    <p><b>Ben Hirschberg</b></p>
+                    <p>CTO &amp; Co-founder</p>
+                </div>
             </div>
-          </a>
-            <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ci-pipeline-has-a-security-gap-that-isnt-a-vulnerability-27ec#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your CI Pipeline Has a Security Gap That Isn't a Vulnerability">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a926mu2qv8e3qh7shwwruat5a24g7gtc" class="crayons-icon"><title id="a926mu2qv8e3qh7shwwruat5a24g7gtc">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            8 min read
-          </small>
-            <button type="button" id="article-save-button-4291964" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4291964" data-article-author-id="3862804" aria-label="Save post Your CI Pipeline Has a Security Gap That Isn't a Vulnerability to reading list" title="Save post Your CI Pipeline Has a Security Gap That Isn't a Vulnerability to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Every AWS Complaint is an Unwritten Invariant]]></title>
-        <id>https://dev.to/bala_paranj_059d338e44e7e/every-aws-complaint-is-an-unwritten-invariant-41pk</id>
-        <link href="https://dev.to/bala_paranj_059d338e44e7e/every-aws-complaint-is-an-unwritten-invariant-41pk"/>
-        <updated>2026-08-04T08:54:26.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/every-aws-complaint-is-an-unwritten-invariant-41pk" aria-labelledby="article-link-4310847" class="crayons-story__hidden-navigation-link">Every AWS Complaint is an Unwritten Invariant</a>
+        <title type="html"><![CDATA[Sweet Security Alternatives: Which Ones Match Its Runtime Depth (and Which Don’t)]]></title>
+        <id>https://www.armosec.io/blog/sweet-security-alternatives/</id>
+        <link href="https://www.armosec.io/blog/sweet-security-alternatives/"/>
+        <updated>2026-07-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<picture class="blog-article__image">
+            <img width="1200" height="675" src="https://www.armosec.io/wp-content/uploads/2026/07/sweet-security-alternatives-grid-regular.png" class="attachment-full size-full" alt="" decoding="async" srcset="https://www.armosec.io/wp-content/uploads/2026/07/sweet-security-alternatives-grid-regular.png 1200w, https://www.armosec.io/wp-content/uploads/2026/07/sweet-security-alternatives-grid-regular-300x169.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/sweet-security-alternatives-grid-regular-1024x576.png 1024w, https://www.armosec.io/wp-content/uploads/2026/07/sweet-security-alternatives-grid-regular-768x432.png 768w" sizes="(max-width: 1200px) 100vw, 1200px">        </picture>
 
+        <div class="blog-article__content">
+            <div class="blog-article__content-inner">
+                <ul class="blog-article__meta">
+                    <li>Jul 11, 2026</li>
+                </ul>
 
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
+                <h3 class="blog-article__title">Sweet Security Alternatives: Which Ones Match Its Runtime Depth (and Which Don’t)</h3>
 
-          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
-              Bala Paranj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4310847" aria-controls="story-author-preview-content-4310847" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Bala Paranj
-                
-              </button>
-              <div id="story-author-preview-content-4310847" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bala_paranj_059d338e44e7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
+                <div class="blog-article__text">
+                    <p>Runtime detection tells you a container did something it has never done before. Then it...</p>
                 </div>
-              </div>
             </div>
 
-          </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/every-aws-complaint-is-an-unwritten-invariant-41pk" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-04T08:54:26Z" title="Tuesday, August 4, 2026 at 8:54:26 AM">Aug 4</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785833666"></span></a>
-        </div>
-      </div>
+            <div class="blog-article__author">
 
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bala_paranj_059d338e44e7e/every-aws-complaint-is-an-unwritten-invariant-41pk" data-preload-image="" id="article-link-4310847">
-          Every AWS Complaint is an Unwritten Invariant
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/every-aws-complaint-is-an-unwritten-invariant-41pk" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4310847" aria-label="Add a comment to post - Every AWS Complaint is an Unwritten Invariant">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">2<span class="hidden s:inline">&nbsp;reactions</span></span>
+                                    <picture class="blog-article__author-image">
+                        <img width="150" height="150" src="https://www.armosec.io/wp-content/uploads/2023/07/Yossi_BN-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async">                    </picture>
+                                <div class="blog-article__author-content">
+                    <p><b>Yossi Ben Naim</b></p>
+                    <p>VP of Product Management</p>
+                </div>
             </div>
-          </a>
-            <a href="https://dev.to/bala_paranj_059d338e44e7e/every-aws-complaint-is-an-unwritten-invariant-41pk#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Every AWS Complaint is an Unwritten Invariant">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="adkcrkaekqfrah86kdaz9i229kqrp6v2" class="crayons-icon"><title id="adkcrkaekqfrah86kdaz9i229kqrp6v2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            7 min read
-          </small>
-            <button type="button" id="article-save-button-4310847" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4310847" data-article-author-id="3862804" aria-label="Save post Every AWS Complaint is an Unwritten Invariant to reading list" title="Save post Every AWS Complaint is an Unwritten Invariant to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Your AI SOC Agent Has a Task Role. Does It Also Have Your S3 Credentials?]]></title>
-        <id>https://dev.to/bala_paranj_059d338e44e7e/your-ai-soc-agent-has-a-task-role-does-it-also-have-your-s3-credentials-50d6</id>
-        <link href="https://dev.to/bala_paranj_059d338e44e7e/your-ai-soc-agent-has-a-task-role-does-it-also-have-your-s3-credentials-50d6"/>
-        <updated>2026-07-31T11:38:55.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/your-ai-soc-agent-has-a-task-role-does-it-also-have-your-s3-credentials-50d6" aria-labelledby="article-link-4280505" class="crayons-story__hidden-navigation-link">Your AI SOC Agent Has a Task Role. Does It Also Have Your S3 Credentials?</a>
+        <title type="html"><![CDATA[CrowdStrike Alternatives for Kubernetes: 5 Cloud-Native Options Compared]]></title>
+        <id>https://www.armosec.io/blog/crowdstrike-alternatives/</id>
+        <link href="https://www.armosec.io/blog/crowdstrike-alternatives/"/>
+        <updated>2026-07-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<picture class="blog-article__image">
+            <img width="1200" height="675" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20675'%3E%3C/svg%3E" class="attachment-full size-full" alt="" decoding="async" data-lazy-srcset="https://www.armosec.io/wp-content/uploads/2026/07/crowdstrike-alternatives-for-kubernetes-grid-regular.png 1200w, https://www.armosec.io/wp-content/uploads/2026/07/crowdstrike-alternatives-for-kubernetes-grid-regular-300x169.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/crowdstrike-alternatives-for-kubernetes-grid-regular-1024x576.png 1024w, https://www.armosec.io/wp-content/uploads/2026/07/crowdstrike-alternatives-for-kubernetes-grid-regular-768x432.png 768w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" data-lazy-src="https://www.armosec.io/wp-content/uploads/2026/07/crowdstrike-alternatives-for-kubernetes-grid-regular.png"><noscript><img width="1200" height="675" src="https://www.armosec.io/wp-content/uploads/2026/07/crowdstrike-alternatives-for-kubernetes-grid-regular.png" class="attachment-full size-full" alt="" decoding="async" srcset="https://www.armosec.io/wp-content/uploads/2026/07/crowdstrike-alternatives-for-kubernetes-grid-regular.png 1200w, https://www.armosec.io/wp-content/uploads/2026/07/crowdstrike-alternatives-for-kubernetes-grid-regular-300x169.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/crowdstrike-alternatives-for-kubernetes-grid-regular-1024x576.png 1024w, https://www.armosec.io/wp-content/uploads/2026/07/crowdstrike-alternatives-for-kubernetes-grid-regular-768x432.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></noscript>        </picture>
 
+        <div class="blog-article__content">
+            <div class="blog-article__content-inner">
+                <ul class="blog-article__meta">
+                    <li>Jul 11, 2026</li>
+                </ul>
 
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
+                <h3 class="blog-article__title">CrowdStrike Alternatives for Kubernetes: 5 Cloud-Native Options Compared</h3>
 
-          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
-              Bala Paranj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4280505" aria-controls="story-author-preview-content-4280505" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Bala Paranj
-                
-              </button>
-              <div id="story-author-preview-content-4280505" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bala_paranj_059d338e44e7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
+                <div class="blog-article__text">
+                    <p>You brought in CrowdStrike Falcon to protect endpoints, it did the job, and when the...</p>
                 </div>
-              </div>
             </div>
 
-          </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ai-soc-agent-has-a-task-role-does-it-also-have-your-s3-credentials-50d6" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-31T11:38:55Z" title="Friday, July 31, 2026 at 11:38:55 AM">Jul 31</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785497935"></span></a>
-        </div>
-      </div>
+            <div class="blog-article__author">
 
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ai-soc-agent-has-a-task-role-does-it-also-have-your-s3-credentials-50d6" data-preload-image="" id="article-link-4280505">
-          Your AI SOC Agent Has a Task Role. Does It Also Have Your S3 Credentials?
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ai-soc-agent-has-a-task-role-does-it-also-have-your-s3-credentials-50d6" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4280505" aria-label="Add a comment to post - Your AI SOC Agent Has a Task Role. Does It Also Have Your S3 Credentials?">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
+                                    <picture class="blog-article__author-image">
+                        <img width="150" height="150" src="https://www.armosec.io/wp-content/uploads/2021/12/ben-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" decoding="async">                    </picture>
+                                <div class="blog-article__author-content">
+                    <p><b>Ben Hirschberg</b></p>
+                    <p>CTO &amp; Co-founder</p>
+                </div>
             </div>
-          </a>
-            <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ai-soc-agent-has-a-task-role-does-it-also-have-your-s3-credentials-50d6#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your AI SOC Agent Has a Task Role. Does It Also Have Your S3 Credentials?">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahylf4xdn56oqomj1qb9wf0qz63aiyfk" class="crayons-icon"><title id="ahylf4xdn56oqomj1qb9wf0qz63aiyfk">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            5 min read
-          </small>
-            <button type="button" id="article-save-button-4280505" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4280505" data-article-author-id="3862804" aria-label="Save post Your AI SOC Agent Has a Task Role. Does It Also Have Your S3 Credentials? to reading list" title="Save post Your AI SOC Agent Has a Task Role. Does It Also Have Your S3 Credentials? to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CSA Says Harden Your Networks for the AI Storm. Here's How to Verify You Actually Did.]]></title>
-        <id>https://dev.to/bala_paranj_059d338e44e7e/csa-says-harden-your-networks-for-the-ai-storm-heres-how-to-verify-you-actually-did-1i58</id>
-        <link href="https://dev.to/bala_paranj_059d338e44e7e/csa-says-harden-your-networks-for-the-ai-storm-heres-how-to-verify-you-actually-did-1i58"/>
-        <updated>2026-07-30T11:01:38.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/csa-says-harden-your-networks-for-the-ai-storm-heres-how-to-verify-you-actually-did-1i58" aria-labelledby="article-link-4271246" class="crayons-story__hidden-navigation-link">CSA Says Harden Your Networks for the AI Storm. Here's How to Verify You Actually Did.</a>
+        <title type="html"><![CDATA[ARMO vs Microsoft Defender for Cloud: Why Generated Prevention Beats Detect-and-Gate]]></title>
+        <id>https://www.armosec.io/blog/armo-vs-microsoft-defender/</id>
+        <link href="https://www.armosec.io/blog/armo-vs-microsoft-defender/"/>
+        <updated>2026-07-07T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<picture class="blog-article__image">
+            <img width="800" height="435" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20435'%3E%3C/svg%3E" class="attachment-full size-full" alt="" decoding="async" data-lazy-srcset="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191397.png 800w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191397-300x163.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191397-768x418.png 768w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191397.png"><noscript><img width="800" height="435" src="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191397.png" class="attachment-full size-full" alt="" decoding="async" srcset="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191397.png 800w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191397-300x163.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191397-768x418.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>        </picture>
 
+        <div class="blog-article__content">
+            <div class="blog-article__content-inner">
+                <ul class="blog-article__meta">
+                    <li>Jul 7, 2026</li>
+                </ul>
 
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
+                <h3 class="blog-article__title">ARMO vs Microsoft Defender for Cloud: Why Generated Prevention Beats Detect-and-Gate</h3>
 
-          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
-              Bala Paranj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4271246" aria-controls="story-author-preview-content-4271246" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Bala Paranj
-                
-              </button>
-              <div id="story-author-preview-content-4271246" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bala_paranj_059d338e44e7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
+                <div class="blog-article__text">
+                    <p>When Defender for Cloud raises a container escape alert at three in the morning, your...</p>
                 </div>
-              </div>
             </div>
 
-          </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/csa-says-harden-your-networks-for-the-ai-storm-heres-how-to-verify-you-actually-did-1i58" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-30T11:01:38Z" title="Thursday, July 30, 2026 at 11:01:38 AM">Jul 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785409298"></span></a>
-        </div>
-      </div>
+            <div class="blog-article__author">
 
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bala_paranj_059d338e44e7e/csa-says-harden-your-networks-for-the-ai-storm-heres-how-to-verify-you-actually-did-1i58" data-preload-image="" id="article-link-4271246">
-          CSA Says Harden Your Networks for the AI Storm. Here's How to Verify You Actually Did.
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(119, 194, 127, 0.10);
-        --tag-prefix: #77c27f;
-        --tag-bg-hover: rgba(119, 194, 127, 0.10);
-        --tag-prefix-hover: #77c27f;
-      " href="/t/networking"><span class="crayons-tag__prefix">#</span>networking</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/zerotrust"><span class="crayons-tag__prefix">#</span>zerotrust</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/csa-says-harden-your-networks-for-the-ai-storm-heres-how-to-verify-you-actually-did-1i58" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4271246" aria-label="Add a comment to post - CSA Says Harden Your Networks for the AI Storm. Here's How to Verify You Actually Did.">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
+                                    <picture class="blog-article__author-image">
+                        <img width="150" height="150" src="https://www.armosec.io/wp-content/uploads/2021/12/ben-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" decoding="async">                    </picture>
+                                <div class="blog-article__author-content">
+                    <p><b>Ben Hirschberg</b></p>
+                    <p>CTO &amp; Co-founder</p>
+                </div>
             </div>
-          </a>
-            <a href="https://dev.to/bala_paranj_059d338e44e7e/csa-says-harden-your-networks-for-the-ai-storm-heres-how-to-verify-you-actually-did-1i58#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - CSA Says Harden Your Networks for the AI Storm. Here's How to Verify You Actually Did.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ad9qp25e2a53rdn5t62owtux62a182vi" class="crayons-icon"><title id="ad9qp25e2a53rdn5t62owtux62a182vi">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            7 min read
-          </small>
-            <button type="button" id="article-save-button-4271246" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4271246" data-article-author-id="3862804" aria-label="Save post CSA Says Harden Your Networks for the AI Storm. Here's How to Verify You Actually Did. to reading list" title="Save post CSA Says Harden Your Networks for the AI Storm. Here's How to Verify You Actually Did. to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Model Didn't Escape the Sandbox. The Sandbox Was Misconfigured.]]></title>
-        <id>https://dev.to/bala_paranj_059d338e44e7e/the-model-didnt-escape-the-sandbox-the-sandbox-was-misconfigured-4h6f</id>
-        <link href="https://dev.to/bala_paranj_059d338e44e7e/the-model-didnt-escape-the-sandbox-the-sandbox-was-misconfigured-4h6f"/>
-        <updated>2026-07-29T07:07:36.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/the-model-didnt-escape-the-sandbox-the-sandbox-was-misconfigured-4h6f" aria-labelledby="article-link-4259881" class="crayons-story__hidden-navigation-link">The Model Didn't Escape the Sandbox. The Sandbox Was Misconfigured.</a>
+        <title type="html"><![CDATA[ARMO vs Sweet Security: Why the Cluster Beats the Gateway for Runtime Security]]></title>
+        <id>https://www.armosec.io/blog/armo-vs-sweet-security/</id>
+        <link href="https://www.armosec.io/blog/armo-vs-sweet-security/"/>
+        <updated>2026-07-07T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<picture class="blog-article__image">
+            <img width="800" height="435" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20435'%3E%3C/svg%3E" class="attachment-full size-full" alt="" decoding="async" data-lazy-srcset="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191394-1.png 800w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191394-1-300x163.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191394-1-768x418.png 768w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191394-1.png"><noscript><img width="800" height="435" src="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191394-1.png" class="attachment-full size-full" alt="" decoding="async" srcset="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191394-1.png 800w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191394-1-300x163.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191394-1-768x418.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>        </picture>
 
+        <div class="blog-article__content">
+            <div class="blog-article__content-inner">
+                <ul class="blog-article__meta">
+                    <li>Jul 7, 2026</li>
+                </ul>
 
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
+                <h3 class="blog-article__title">ARMO vs Sweet Security: Why the Cluster Beats the Gateway for Runtime Security</h3>
 
-          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
-              Bala Paranj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4259881" aria-controls="story-author-preview-content-4259881" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Bala Paranj
-                
-              </button>
-              <div id="story-author-preview-content-4259881" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bala_paranj_059d338e44e7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
+                <div class="blog-article__text">
+                    <p>The real question when you compare two runtime security platforms is not which one detects...</p>
                 </div>
-              </div>
             </div>
 
-          </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/the-model-didnt-escape-the-sandbox-the-sandbox-was-misconfigured-4h6f" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-29T07:07:36Z" title="Wednesday, July 29, 2026 at 7:07:36 AM">Jul 29</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785308856"></span></a>
-        </div>
-      </div>
+            <div class="blog-article__author">
 
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bala_paranj_059d338e44e7e/the-model-didnt-escape-the-sandbox-the-sandbox-was-misconfigured-4h6f" data-preload-image="" id="article-link-4259881">
-          The Model Didn't Escape the Sandbox. The Sandbox Was Misconfigured.
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/the-model-didnt-escape-the-sandbox-the-sandbox-was-misconfigured-4h6f" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4259881" aria-label="Add a comment to post - The Model Didn't Escape the Sandbox. The Sandbox Was Misconfigured.">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">2<span class="hidden s:inline">&nbsp;reactions</span></span>
+                                    <picture class="blog-article__author-image">
+                        <img width="150" height="150" src="https://www.armosec.io/wp-content/uploads/2023/07/Yossi_BN-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async">                    </picture>
+                                <div class="blog-article__author-content">
+                    <p><b>Yossi Ben Naim</b></p>
+                    <p>VP of Product Management</p>
+                </div>
             </div>
-          </a>
-            <a href="https://dev.to/bala_paranj_059d338e44e7e/the-model-didnt-escape-the-sandbox-the-sandbox-was-misconfigured-4h6f#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Model Didn't Escape the Sandbox. The Sandbox Was Misconfigured.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anatkqagtzsoltx8sh1n4tkmk3dkfuzx" class="crayons-icon"><title id="anatkqagtzsoltx8sh1n4tkmk3dkfuzx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            8 min read
-          </small>
-            <button type="button" id="article-save-button-4259881" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4259881" data-article-author-id="3862804" aria-label="Save post The Model Didn't Escape the Sandbox. The Sandbox Was Misconfigured. to reading list" title="Save post The Model Didn't Escape the Sandbox. The Sandbox Was Misconfigured. to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The CISO Doesn't Read Your CLI Output]]></title>
-        <id>https://dev.to/bala_paranj_059d338e44e7e/the-ciso-doesnt-read-your-cli-output-4mg7</id>
-        <link href="https://dev.to/bala_paranj_059d338e44e7e/the-ciso-doesnt-read-your-cli-output-4mg7"/>
-        <updated>2026-07-27T12:43:41.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/the-ciso-doesnt-read-your-cli-output-4mg7" aria-labelledby="article-link-4245252" class="crayons-story__hidden-navigation-link">The CISO Doesn't Read Your CLI Output</a>
+        <title type="html"><![CDATA[ARMO vs Prisma Cloud: Why Kubernetes Teams Choose Depth on One Platform Over Breadth Across Modules]]></title>
+        <id>https://www.armosec.io/blog/armo-vs-prisma-cloud/</id>
+        <link href="https://www.armosec.io/blog/armo-vs-prisma-cloud/"/>
+        <updated>2026-07-07T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<picture class="blog-article__image">
+            <img width="800" height="435" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20435'%3E%3C/svg%3E" class="attachment-full size-full" alt="" decoding="async" data-lazy-srcset="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191391-1.png 800w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191391-1-300x163.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191391-1-768x418.png 768w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191391-1.png"><noscript><img width="800" height="435" src="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191391-1.png" class="attachment-full size-full" alt="" decoding="async" srcset="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191391-1.png 800w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191391-1-300x163.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191391-1-768x418.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>        </picture>
 
+        <div class="blog-article__content">
+            <div class="blog-article__content-inner">
+                <ul class="blog-article__meta">
+                    <li>Jul 7, 2026</li>
+                </ul>
 
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
+                <h3 class="blog-article__title">ARMO vs Prisma Cloud: Why Kubernetes Teams Choose Depth on One Platform Over Breadth Across Modules</h3>
 
-          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
-              Bala Paranj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4245252" aria-controls="story-author-preview-content-4245252" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Bala Paranj
-                
-              </button>
-              <div id="story-author-preview-content-4245252" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bala_paranj_059d338e44e7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
+                <div class="blog-article__text">
+                    <p>If you are comparing ARMO and Prisma Cloud, the question that decides it is not...</p>
                 </div>
-              </div>
             </div>
 
-          </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/the-ciso-doesnt-read-your-cli-output-4mg7" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-27T12:43:41Z" title="Monday, July 27, 2026 at 12:43:41 PM">Jul 27</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785156221"></span></a>
-        </div>
-      </div>
+            <div class="blog-article__author">
 
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bala_paranj_059d338e44e7e/the-ciso-doesnt-read-your-cli-output-4mg7" data-preload-image="" id="article-link-4245252">
-          The CISO Doesn't Read Your CLI Output
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(77, 0, 77, 0.10);
-        --tag-prefix: #4d004d;
-        --tag-bg-hover: rgba(77, 0, 77, 0.10);
-        --tag-prefix-hover: #4d004d;
-      " href="/t/leadership"><span class="crayons-tag__prefix">#</span>leadership</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/the-ciso-doesnt-read-your-cli-output-4mg7" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4245252" aria-label="Add a comment to post - The CISO Doesn't Read Your CLI Output">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">2<span class="hidden s:inline">&nbsp;reactions</span></span>
+                                    <picture class="blog-article__author-image">
+                        <img width="150" height="150" src="https://www.armosec.io/wp-content/uploads/2023/07/Yossi_BN-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async">                    </picture>
+                                <div class="blog-article__author-content">
+                    <p><b>Yossi Ben Naim</b></p>
+                    <p>VP of Product Management</p>
+                </div>
             </div>
-          </a>
-            <a href="https://dev.to/bala_paranj_059d338e44e7e/the-ciso-doesnt-read-your-cli-output-4mg7#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The CISO Doesn't Read Your CLI Output">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9l6wf5lv1bmdo95j30c7om9ix6kva1j" class="crayons-icon"><title id="a9l6wf5lv1bmdo95j30c7om9ix6kva1j">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            7 min read
-          </small>
-            <button type="button" id="article-save-button-4245252" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4245252" data-article-author-id="3862804" aria-label="Save post The CISO Doesn't Read Your CLI Output to reading list" title="Save post The CISO Doesn't Read Your CLI Output to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AsyncAPI Supply Chain Attack Delivers Miasma RAT via NPM]]></title>
-        <id>https://dev.to/netsecops_io/asyncapi-supply-chain-attack-delivers-miasma-rat-via-npm-3cko</id>
-        <link href="https://dev.to/netsecops_io/asyncapi-supply-chain-attack-delivers-miasma-rat-via-npm-3cko"/>
-        <updated>2026-07-15T15:01:21.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/netsecops_io/asyncapi-supply-chain-attack-delivers-miasma-rat-via-npm-3cko" aria-labelledby="article-link-4151359" class="crayons-story__hidden-navigation-link">AsyncAPI Supply Chain Attack Delivers Miasma RAT via NPM</a>
+        <title type="html"><![CDATA[ARMO vs Sysdig: Which Tool Actually Turns Detection Into Prevention]]></title>
+        <id>https://www.armosec.io/blog/armo-vs-sysdig/</id>
+        <link href="https://www.armosec.io/blog/armo-vs-sysdig/"/>
+        <updated>2026-07-06T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<picture class="blog-article__image">
+            <img width="800" height="435" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20435'%3E%3C/svg%3E" class="attachment-full size-full" alt="" decoding="async" data-lazy-srcset="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191385.png 800w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191385-300x163.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191385-768x418.png 768w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191385.png"><noscript><img width="800" height="435" src="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191385.png" class="attachment-full size-full" alt="" decoding="async" srcset="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191385.png 800w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191385-300x163.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191385-768x418.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>        </picture>
 
+        <div class="blog-article__content">
+            <div class="blog-article__content-inner">
+                <ul class="blog-article__meta">
+                    <li>Jul 6, 2026</li>
+                </ul>
 
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
+                <h3 class="blog-article__title">ARMO vs Sysdig: Which Tool Actually Turns Detection Into Prevention</h3>
 
-          <a href="/netsecops_io" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4026364%2Ff8523abd-5e51-43b6-9467-88028929606f.jpeg" alt="netsecops_io profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/netsecops_io" class="crayons-story__secondary fw-medium m:hidden">
-              NetSecOpsIO
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4151359" aria-controls="story-author-preview-content-4151359" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="NetSecOpsIO profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                NetSecOpsIO
-                
-              </button>
-              <div id="story-author-preview-content-4151359" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/netsecops_io" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4026364%2Ff8523abd-5e51-43b6-9467-88028929606f.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">NetSecOpsIO</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4026364,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;NetSecOpsIO&quot;}" data-fetched="fetched" aria-label="Follow user: NetSecOpsIO" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="4026364"></div>
+                <div class="blog-article__text">
+                    <p>ARMO and Sysdig will both catch the container escape, the reverse shell, the privilege escalation...</p>
                 </div>
-              </div>
             </div>
 
-          </div>
-          <a href="https://dev.to/netsecops_io/asyncapi-supply-chain-attack-delivers-miasma-rat-via-npm-3cko" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-15T15:01:21Z" title="Wednesday, July 15, 2026 at 3:01:21 PM">Jul 15</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1784127681"></span></a>
-        </div>
-      </div>
+            <div class="blog-article__author">
 
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/netsecops_io/asyncapi-supply-chain-attack-delivers-miasma-rat-via-npm-3cko" data-preload-image="" id="article-link-4151359">
-          AsyncAPI Supply Chain Attack Delivers Miasma RAT via NPM
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(227, 255, 0, 0.10);
-        --tag-prefix: #e3ff00;
-        --tag-bg-hover: rgba(227, 255, 0, 0.10);
-        --tag-prefix-hover: #e3ff00;
-      " href="/t/cybersecurity"><span class="crayons-tag__prefix">#</span>cybersecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/supplychainattack"><span class="crayons-tag__prefix">#</span>supplychainattack</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/malware"><span class="crayons-tag__prefix">#</span>malware</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/netsecops_io/asyncapi-supply-chain-attack-delivers-miasma-rat-via-npm-3cko#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AsyncAPI Supply Chain Attack Delivers Miasma RAT via NPM">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aajrp9slr11ujrvnv3o0gte45nw01e0s" class="crayons-icon"><title id="aajrp9slr11ujrvnv3o0gte45nw01e0s">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
-          </small>
-            <button type="button" id="article-save-button-4151359" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4151359" data-article-author-id="4026364" aria-label="Save post AsyncAPI Supply Chain Attack Delivers Miasma RAT via NPM to reading list" title="Save post AsyncAPI Supply Chain Attack Delivers Miasma RAT via NPM to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+                                    <picture class="blog-article__author-image">
+                        <img width="150" height="150" src="https://www.armosec.io/wp-content/uploads/2021/12/ben-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" decoding="async">                    </picture>
+                                <div class="blog-article__author-content">
+                    <p><b>Ben Hirschberg</b></p>
+                    <p>CTO &amp; Co-founder</p>
+                </div>
+            </div>
+        </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Your AI Workloads Are the New Cloud Sprawl — And Nobody Is Watching]]></title>
-        <id>https://dev.to/karthiblip/your-ai-workloads-are-the-new-cloud-sprawl-and-nobody-is-watching-46ij</id>
-        <link href="https://dev.to/karthiblip/your-ai-workloads-are-the-new-cloud-sprawl-and-nobody-is-watching-46ij"/>
-        <updated>2026-07-07T02:52:11.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/karthiblip/your-ai-workloads-are-the-new-cloud-sprawl-and-nobody-is-watching-46ij" aria-labelledby="article-link-4083952" class="crayons-story__hidden-navigation-link">Your AI Workloads Are the New Cloud Sprawl — And Nobody Is Watching</a>
+        <title type="html"><![CDATA[Why ARMO vs CrowdStrike for Kubernetes Runtime Security]]></title>
+        <id>https://www.armosec.io/blog/armo-vs-crowdstrike/</id>
+        <link href="https://www.armosec.io/blog/armo-vs-crowdstrike/"/>
+        <updated>2026-07-06T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<picture class="blog-article__image">
+            <img width="800" height="435" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20435'%3E%3C/svg%3E" class="attachment-full size-full" alt="" decoding="async" data-lazy-srcset="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191388.png 800w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191388-300x163.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191388-768x418.png 768w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191388.png"><noscript><img width="800" height="435" src="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191388.png" class="attachment-full size-full" alt="" decoding="async" srcset="https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191388.png 800w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191388-300x163.png 300w, https://www.armosec.io/wp-content/uploads/2026/07/Group-1410191388-768x418.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>        </picture>
 
+        <div class="blog-article__content">
+            <div class="blog-article__content-inner">
+                <ul class="blog-article__meta">
+                    <li>Jul 6, 2026</li>
+                </ul>
 
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
+                <h3 class="blog-article__title">Why ARMO vs CrowdStrike for Kubernetes Runtime Security</h3>
 
-          <a href="/karthiblip" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3867759%2F773d6f9f-cf2d-4807-bb7e-80353236215b.jpeg" alt="karthiblip profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/karthiblip" class="crayons-story__secondary fw-medium m:hidden">
-              Munagala Karthik
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4083952" aria-controls="story-author-preview-content-4083952" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Munagala Karthik profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Munagala Karthik
-                
-              </button>
-              <div id="story-author-preview-content-4083952" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/karthiblip" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3867759%2F773d6f9f-cf2d-4807-bb7e-80353236215b.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Munagala Karthik</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3867759,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Munagala Karthik&quot;}" data-fetched="fetched" aria-label="Follow user: Munagala Karthik" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3867759"></div>
+                <div class="blog-article__text">
+                    <p>Run ARMO and CrowdStrike side by side on a cluster and the early signals look...</p>
                 </div>
-              </div>
             </div>
 
-          </div>
-          <a href="https://dev.to/karthiblip/your-ai-workloads-are-the-new-cloud-sprawl-and-nobody-is-watching-46ij" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-07T02:52:11Z" title="Tuesday, July 7, 2026 at 2:52:11 AM">Jul 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1783392731"></span></a>
-        </div>
-      </div>
+            <div class="blog-article__author">
 
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/karthiblip/your-ai-workloads-are-the-new-cloud-sprawl-and-nobody-is-watching-46ij" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fef2xj33dr1jq7xtrltev.png" id="article-link-4083952">
-          Your AI Workloads Are the New Cloud Sprawl — And Nobody Is Watching
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/karthiblip/your-ai-workloads-are-the-new-cloud-sprawl-and-nobody-is-watching-46ij" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4083952" aria-label="Add a comment to post - Your AI Workloads Are the New Cloud Sprawl — And Nobody Is Watching">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/karthiblip/your-ai-workloads-are-the-new-cloud-sprawl-and-nobody-is-watching-46ij#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your AI Workloads Are the New Cloud Sprawl — And Nobody Is Watching">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="arydotmadqbtevzu4t1926s6bsozdiyb" class="crayons-icon"><title id="arydotmadqbtevzu4t1926s6bsozdiyb">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            1 min read
-          </small>
-            <button type="button" id="article-save-button-4083952" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4083952" data-article-author-id="3867759" aria-label="Save post Your AI Workloads Are the New Cloud Sprawl — And Nobody Is Watching to reading list" title="Save post Your AI Workloads Are the New Cloud Sprawl — And Nobody Is Watching to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Cloud Security Mistakes That'll Get You Hacked (And How to Fix Them)]]></title>
-        <id>https://dev.to/dhruv_malaviya_cdcc71e595/5-cloud-security-mistakes-thatll-get-you-hacked-and-how-to-fix-them-402a</id>
-        <link href="https://dev.to/dhruv_malaviya_cdcc71e595/5-cloud-security-mistakes-thatll-get-you-hacked-and-how-to-fix-them-402a"/>
-        <updated>2026-07-01T09:14:17.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/dhruv_malaviya_cdcc71e595/5-cloud-security-mistakes-thatll-get-you-hacked-and-how-to-fix-them-402a" aria-labelledby="article-link-4039513" class="crayons-story__hidden-navigation-link">5 Cloud Security Mistakes That'll Get You Hacked (And How to Fix Them)</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/dhruv_malaviya_cdcc71e595" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3964043%2Ffbef3b8c-07dc-4123-b52d-7523c1088dec.jpg" alt="dhruv_malaviya_cdcc71e595 profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/dhruv_malaviya_cdcc71e595" class="crayons-story__secondary fw-medium m:hidden">
-              Dhruv malaviya
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4039513" aria-controls="story-author-preview-content-4039513" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Dhruv malaviya profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Dhruv malaviya
-                
-              </button>
-              <div id="story-author-preview-content-4039513" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/dhruv_malaviya_cdcc71e595" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3964043%2Ffbef3b8c-07dc-4123-b52d-7523c1088dec.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Dhruv malaviya</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3964043,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Dhruv malaviya&quot;}" data-fetched="fetched" aria-label="Follow user: Dhruv malaviya" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3964043"></div>
+                                    <picture class="blog-article__author-image">
+                        <img width="150" height="150" src="https://www.armosec.io/wp-content/uploads/2021/12/ben-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" decoding="async">                    </picture>
+                                <div class="blog-article__author-content">
+                    <p><b>Ben Hirschberg</b></p>
+                    <p>CTO &amp; Co-founder</p>
                 </div>
-              </div>
             </div>
-
-          </div>
-          <a href="https://dev.to/dhruv_malaviya_cdcc71e595/5-cloud-security-mistakes-thatll-get-you-hacked-and-how-to-fix-them-402a" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-01T09:14:17Z" title="Wednesday, July 1, 2026 at 9:14:17 AM">Jul 1</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782897257"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/dhruv_malaviya_cdcc71e595/5-cloud-security-mistakes-thatll-get-you-hacked-and-how-to-fix-them-402a" data-preload-image="" id="article-link-4039513">
-          5 Cloud Security Mistakes That'll Get You Hacked (And How to Fix Them)
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudcomputing"><span class="crayons-tag__prefix">#</span>cloudcomputing</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/dhruv_malaviya_cdcc71e595/5-cloud-security-mistakes-thatll-get-you-hacked-and-how-to-fix-them-402a" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4039513" aria-label="Add a comment to post - 5 Cloud Security Mistakes That'll Get You Hacked (And How to Fix Them)">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" width="18" height="18">
-                  </span>
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">5<span class="hidden s:inline">&nbsp;reactions</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/dhruv_malaviya_cdcc71e595/5-cloud-security-mistakes-thatll-get-you-hacked-and-how-to-fix-them-402a#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 5 Cloud Security Mistakes That'll Get You Hacked (And How to Fix Them)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="agysd7hc2ogyf7dgggg6x49ribfubfom" class="crayons-icon"><title id="agysd7hc2ogyf7dgggg6x49ribfubfom">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-            <button type="button" id="article-save-button-4039513" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4039513" data-article-author-id="3964043" aria-label="Save post 5 Cloud Security Mistakes That'll Get You Hacked (And How to Fix Them) to reading list" title="Save post 5 Cloud Security Mistakes That'll Get You Hacked (And How to Fix Them) to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Least Privilege is a Workaround for a Missing Specification]]></title>
-        <id>https://dev.to/bala_paranj_059d338e44e7e/least-privilege-is-a-workaround-for-a-missing-specification-mje</id>
-        <link href="https://dev.to/bala_paranj_059d338e44e7e/least-privilege-is-a-workaround-for-a-missing-specification-mje"/>
-        <updated>2026-06-30T12:11:47.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/least-privilege-is-a-workaround-for-a-missing-specification-mje" aria-labelledby="article-link-4031068" class="crayons-story__hidden-navigation-link">Least Privilege is a Workaround for a Missing Specification</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
-              Bala Paranj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4031068" aria-controls="story-author-preview-content-4031068" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Bala Paranj
-                
-              </button>
-              <div id="story-author-preview-content-4031068" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bala_paranj_059d338e44e7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/least-privilege-is-a-workaround-for-a-missing-specification-mje" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-30T12:11:47Z" title="Tuesday, June 30, 2026 at 12:11:47 PM">Jun 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782821507"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bala_paranj_059d338e44e7e/least-privilege-is-a-workaround-for-a-missing-specification-mje" data-preload-image="" id="article-link-4031068">
-          Least Privilege is a Workaround for a Missing Specification
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(235, 223, 55, 0.10);
-        --tag-prefix: #ebdf37;
-        --tag-bg-hover: rgba(235, 223, 55, 0.10);
-        --tag-prefix-hover: #ebdf37;
-      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/bala_paranj_059d338e44e7e/least-privilege-is-a-workaround-for-a-missing-specification-mje#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Least Privilege is a Workaround for a Missing Specification">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ail4n2d1bkwcrbjyf1dxbwsvz3k799cd" class="crayons-icon"><title id="ail4n2d1bkwcrbjyf1dxbwsvz3k799cd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            14 min read
-          </small>
-            <button type="button" id="article-save-button-4031068" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4031068" data-article-author-id="3862804" aria-label="Save post Least Privilege is a Workaround for a Missing Specification to reading list" title="Save post Least Privilege is a Workaround for a Missing Specification to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability Management is a Workaround for a Missing Call Graph]]></title>
-        <id>https://dev.to/bala_paranj_059d338e44e7e/vulnerability-management-is-a-workaround-for-a-missing-call-graph-3bp1</id>
-        <link href="https://dev.to/bala_paranj_059d338e44e7e/vulnerability-management-is-a-workaround-for-a-missing-call-graph-3bp1"/>
-        <updated>2026-07-03T11:53:26.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/vulnerability-management-is-a-workaround-for-a-missing-call-graph-3bp1" aria-labelledby="article-link-4059721" class="crayons-story__hidden-navigation-link">Vulnerability Management is a Workaround for a Missing Call Graph</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
-              Bala Paranj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4059721" aria-controls="story-author-preview-content-4059721" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Bala Paranj
-                
-              </button>
-              <div id="story-author-preview-content-4059721" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bala_paranj_059d338e44e7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/vulnerability-management-is-a-workaround-for-a-missing-call-graph-3bp1" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-03T11:53:26Z" title="Friday, July 3, 2026 at 11:53:26 AM">Jul 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1783079606"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bala_paranj_059d338e44e7e/vulnerability-management-is-a-workaround-for-a-missing-call-graph-3bp1" data-preload-image="" id="article-link-4059721">
-          Vulnerability Management is a Workaround for a Missing Call Graph
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/vulnerabilities"><span class="crayons-tag__prefix">#</span>vulnerabilities</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(235, 223, 55, 0.10);
-        --tag-prefix: #ebdf37;
-        --tag-bg-hover: rgba(235, 223, 55, 0.10);
-        --tag-prefix-hover: #ebdf37;
-      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/bala_paranj_059d338e44e7e/vulnerability-management-is-a-workaround-for-a-missing-call-graph-3bp1#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Vulnerability Management is a Workaround for a Missing Call Graph">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aoavdkbo8jmdbha98egea8hil0nub736" class="crayons-icon"><title id="aoavdkbo8jmdbha98egea8hil0nub736">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              2<span class="hidden s:inline">&nbsp;comments</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            12 min read
-          </small>
-            <button type="button" id="article-save-button-4059721" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="4059721" data-article-author-id="3862804" aria-label="Save post Vulnerability Management is a Workaround for a Missing Call Graph to reading list" title="Save post Vulnerability Management is a Workaround for a Missing Call Graph to reading list" data-save-initialized="true">
-              <span class="bm-initial crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
-
-              </span>
-              <span class="bm-success crayons-icon c-btn__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
-
-              </span>
-            </button>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
+        </div>]]></content>
     </entry>
 </feed>
