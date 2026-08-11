@@ -1,78 +1,535 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.offensai.com/blog</id>
-    <title>offensai</title>
-    <updated>2026-08-11T08:04:53.338Z</updated>
+    <id>https://www.armis.com/blog?cat=attacks-vulnerabilities</id>
+    <title>armis_attack_vul</title>
+    <updated>2026-08-11T08:40:35.243Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://www.offensai.com/favicon.ico</icon>
+    <icon>https://www.armis.com/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[A Security Analysis of Amazon S3 Vectors and Its Use in LLM Retrieval Pipelines]]></title>
-        <id>https://www.offensai.com/blog/amazon-s3-vectors-security-llm-rag-poisoning</id>
-        <link href="https://www.offensai.com/blog/amazon-s3-vectors-security-llm-rag-poisoning"/>
-        <updated>2026-08-11T07:54:28.161Z</updated>
-        <content type="html"><![CDATA[<a class="group grid gap-8 md:gap-12 md:grid-cols-[1fr_1fr] lg:grid-cols-[1fr_1fr] items-center" href="/blog/amazon-s3-vectors-security-llm-rag-poisoning"><div class="relative overflow-hidden rounded-[20px]"><img alt="A Security Analysis of Amazon S3 Vectors and Its Use in LLM Retrieval Pipelines" loading="lazy" width="780" height="460" decoding="async" data-nimg="1" class="w-full object-cover transition duration-500 group-hover:scale-[1.02]" style="color:transparent" src="/images/blog/24-s3-vectors-llm-security/featured.png"></div><div class="flex flex-col justify-center py-4"><div class="mb-4 flex flex-wrap items-center justify-between gap-x-4 gap-y-2"><p class="text-[12px] text-slate-500">Jul 29, 2026<!-- --> · <!-- -->15<!-- --> min read</p><div class="flex flex-wrap items-center gap-3"><span class="text-[12px] font-bold uppercase tracking-wider transition-opacity hover:opacity-80" style="color:var(--brand-pink)">AWS</span><span class="text-[12px] font-bold uppercase tracking-wider transition-opacity hover:opacity-80" style="color:var(--brand-pink)">AI</span></div></div><h2 class="mb-8 text-3xl font-bold leading-[1.2] tracking-tight text-white transition-colors group-hover:text-slate-200 md:text-4xl lg:text-[42px]">A Security Analysis of Amazon S3 Vectors and Its Use in LLM Retrieval Pipelines</h2><div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-4"><div class="flex items-center gap-4"><div class="flex shrink-0 items-center"><img alt="Ioan Criste" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="rounded-full object-cover ring-2 ring-[#0c0e1c]" style="color:transparent;margin-left:0;width:40px;height:40px" src="/images/ioan-criste-ai-offensive-security-research-offensai.png"><img alt="Emanuel Ioniță" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="rounded-full object-cover ring-2 ring-[#0c0e1c]" style="color:transparent;margin-left:-13.333333333333334px;width:40px;height:40px" src="/images/emanuel-ionita-tucn.png"></div><p class="text-[14px] font-semibold text-slate-200">Ioan Criste &amp; Emanuel Ioniță</p></div><span class="inline-flex shrink-0 items-center gap-3 text-[14px] font-medium text-white transition-all group-hover:font-bold">Read more<span class="relative block h-6 w-6 shrink-0 transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true"><img src="/images/icons/arrow-right.png" alt="" width="24" height="24" class="h-6 w-6 rounded-full transition-opacity duration-200 opacity-100 group-hover:opacity-0"><img src="/images/icons/arrow-right-bright.png" alt="" width="80" height="80" class="pointer-events-none absolute left-1/2 top-1/2 h-20 w-20 max-w-none -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200 opacity-0 group-hover:opacity-100"></span></span></div></div></a>]]></content>
+        <title type="html"><![CDATA[Safeguarding AI at Scale: How Armis Protects Critical NVIDIA AI Factories]]></title>
+        <id>https://www.armis.com/blog/safeguarding-ai-at-scale-how-armis-protects-critical-nvidia-ai-factories/</id>
+        <link href="https://www.armis.com/blog/safeguarding-ai-at-scale-how-armis-protects-critical-nvidia-ai-factories/"/>
+        <updated>2026-08-11T08:29:49.307Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/safeguarding-ai-at-scale-how-armis-protects-critical-nvidia-ai-factories/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Attacks &amp; Vulnerabilities													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://www.armis.com/wp-content/uploads/2026/05/Armis-Thumbnail-Socia-NVIDIA-Timely-Blog-360x160px.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2572566 wp-post-2572564" alt="" decoding="async" srcset="https://www.armis.com/wp-content/uploads/2026/05/Armis-Thumbnail-Socia-NVIDIA-Timely-Blog-360x160px.png 360w, https://www.armis.com/wp-content/uploads/2026/05/Armis-Thumbnail-Socia-NVIDIA-Timely-Blog-360x160px-300x133.png 300w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content">
+										<h5>
+											Safeguarding AI at Scale: How Armis Protects Critical NVIDIA AI Factories										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA" class="attachment-small size-small wp-image-25595" alt="Blog Author" decoding="async" data-public-id="images/Nadir-Izrael-author/Nadir-Izrael-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1686859058" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Nadir Izrael													</h6>
+					
+													<p>CTO &amp; Co-Founder</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hugging Face’s July 2026 Incident Shows Why Offensive Cloud Security Needs Specialized, Sovereign AI]]></title>
-        <id>https://www.offensai.com/blog/hugging-face-july-2026-offensive-cloud-security-sovereign-ai</id>
-        <link href="https://www.offensai.com/blog/hugging-face-july-2026-offensive-cloud-security-sovereign-ai"/>
-        <updated>2026-08-11T07:54:28.162Z</updated>
-        <content type="html"><![CDATA[<a class="group relative block overflow-hidden rounded-[20px]" href="/blog/hugging-face-july-2026-offensive-cloud-security-sovereign-ai"><img alt="Hugging Face’s July 2026 Incident Shows Why Offensive Cloud Security Needs Specialized, Sovereign AI" loading="lazy" width="420" height="240" decoding="async" data-nimg="1" class="aspect-[420/240] w-full object-cover transition duration-500 group-hover:scale-[1.02]" style="color:transparent" src="/images/blog/23-hugging-face-july-2026/hugging-face-july-2026-offensive-cloud-security-sovereign-ai.png"></a><div class="flex flex-1 flex-col pt-6 pb-2"><div class="mb-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-2"><p style="font-family:'Silka', sans-serif;font-weight:400;font-size:14px;line-height:1.5;color:var(--brand-steel)">Jul 22, 2026<!-- --> · <!-- -->8<!-- --> min read</p><div class="flex flex-wrap items-center gap-3"><a class="text-[12px] font-bold uppercase tracking-wider transition-opacity hover:opacity-80" style="color:var(--brand-pink)" href="/blog?category=Security">Security</a></div></div><h3 class="mb-3" style="font-family:'Silka', sans-serif;font-weight:700;font-size:24px;line-height:1.4"><a class="transition-colors hover:text-white" style="color:var(--brand-offwhite)" href="/blog/hugging-face-july-2026-offensive-cloud-security-sovereign-ai">Hugging Face’s July 2026 Incident Shows Why Offensive Cloud Security Needs Specialized, Sovereign AI</a></h3><p class="mb-6 line-clamp-2" style="font-family:'Silka', sans-serif;font-weight:400;font-size:16px;line-height:1.5;color:var(--brand-offwhite)">Hugging Face’s AI-driven breach shows why hosted frontier models fail for offensive security and incident response—and why sovereign, domain-specific validation AI is required.</p><div class="mt-auto flex flex-wrap items-center justify-between gap-x-4 gap-y-4"><div class="flex items-center gap-3"><div class="flex shrink-0 items-center"><img alt="OFFENSAI" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="rounded-full object-cover ring-2 ring-[#0c0e1c]" style="color:transparent;margin-left:0;width:32px;height:32px" src="/images/logo-white.svg"></div><p style="font-family:'Silka', sans-serif;font-weight:700;font-size:14px;line-height:1.5;color:var(--brand-offwhite)">OFFENSAI</p></div><a class="inline-flex shrink-0 items-center gap-2.5" style="font-family:'Silka', sans-serif;font-size:14px;font-weight:400;line-height:1.5;color:var(--brand-offwhite);transition:all 0.2s ease" href="/blog/hugging-face-july-2026-offensive-cloud-security-sovereign-ai">Read more<span class="relative block h-6 w-6 shrink-0 transition-transform duration-200 " aria-hidden="true"><img src="/images/icons/arrow-right.png" alt="" width="24" height="24" class="h-6 w-6 rounded-full transition-opacity duration-200 opacity-100"><img src="/images/icons/arrow-right-bright.png" alt="" width="80" height="80" class="pointer-events-none absolute left-1/2 top-1/2 h-20 w-20 max-w-none -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200 opacity-0"></span></a></div></div>]]></content>
+        <title type="html"><![CDATA[AI-Driven Automated Warfare: How the Iranian ATG Hacks Expose the Vulnerabilities of U.S. Critical Infrastructure]]></title>
+        <id>https://www.armis.com/blog/ai-driven-automated-warfare-how-the-iranian-atg-hacks-expose-the-vulnerabilities-of-us-critical-infrastructure/</id>
+        <link href="https://www.armis.com/blog/ai-driven-automated-warfare-how-the-iranian-atg-hacks-expose-the-vulnerabilities-of-us-critical-infrastructure/"/>
+        <updated>2026-08-11T08:29:49.307Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/ai-driven-automated-warfare-how-the-iranian-atg-hacks-expose-the-vulnerabilities-of-us-critical-infrastructure/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Attacks &amp; Vulnerabilities													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1779219348/blog-dark-purple-fc-mixed-tiles5-thumbnail/blog-dark-purple-fc-mixed-tiles5-thumbnail.png?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2572532 wp-post-2572529" alt="armis generic branded blog thumbnail" decoding="async" data-public-id="blog-dark-purple-fc-mixed-tiles5-thumbnail/blog-dark-purple-fc-mixed-tiles5-thumbnail.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1779219348" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1779219348/blog-dark-purple-fc-mixed-tiles5-thumbnail/blog-dark-purple-fc-mixed-tiles5-thumbnail.png?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1779219348/blog-dark-purple-fc-mixed-tiles5-thumbnail/blog-dark-purple-fc-mixed-tiles5-thumbnail.png?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content">
+										<h5>
+											AI-Driven Automated Warfare: How the Iranian ATG Hacks Expose the Vulnerabilities of U.S. Critical Infrastructure										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="525" height="525" src="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1779219146/olivia-oshaughnessy-michael-freeman-co-authors/olivia-oshaughnessy-michael-freeman-co-authors.png?_i=AA" class="attachment-small size-small wp-image-2572531" alt="Olivia O'Shaughnessy &amp; Michael Freeman Co-authors" decoding="async" data-public-id="olivia-oshaughnessy-michael-freeman-co-authors/olivia-oshaughnessy-michael-freeman-co-authors.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1779219146" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1779219146/olivia-oshaughnessy-michael-freeman-co-authors/olivia-oshaughnessy-michael-freeman-co-authors.png?_i=AA 525w, https://res.cloudinary.com/armis/images/w_448,h_448,c_fill,g_auto/f_auto,q_auto/v1779219146/olivia-oshaughnessy-michael-freeman-co-authors/olivia-oshaughnessy-michael-freeman-co-authors.png?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1779219146/olivia-oshaughnessy-michael-freeman-co-authors/olivia-oshaughnessy-michael-freeman-co-authors.png?_i=AA 248w" sizes="(max-width: 525px) 100vw, 525px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Olivia O'Shaughnessy // Michael Freeman													</h6>
+					
+													<p>Sr. Product Marketing Manager // Head of Threat Intelligence</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[OFFENSAI's Autonomous AgentO: All 122 Datadog Pathfinding Labs Solved. Here's What Made It Work.]]></title>
-        <id>https://www.offensai.com/blog/offensai-agent0-datadog-pathfinding-labs</id>
-        <link href="https://www.offensai.com/blog/offensai-agent0-datadog-pathfinding-labs"/>
-        <updated>2026-08-11T07:54:28.163Z</updated>
-        <content type="html"><![CDATA[<a class="group relative block overflow-hidden rounded-[20px]" href="/blog/offensai-agent0-datadog-pathfinding-labs"><img alt="OFFENSAI's Autonomous AgentO: All 122 Datadog Pathfinding Labs Solved. Here's What Made It Work." loading="lazy" width="420" height="240" decoding="async" data-nimg="1" class="aspect-[420/240] w-full object-cover transition duration-500 group-hover:scale-[1.02]" style="color:transparent" src="/images/blog/23-datadog-pathfinding-labs/offensai-agent0-datadog-pathfinding-labs.png"></a><div class="flex flex-1 flex-col pt-6 pb-2"><div class="mb-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-2"><p style="font-family:'Silka', sans-serif;font-weight:400;font-size:14px;line-height:1.5;color:var(--brand-steel)">Jul 8, 2026<!-- --> · <!-- -->8<!-- --> min read</p><div class="flex flex-wrap items-center gap-3"><a class="text-[12px] font-bold uppercase tracking-wider transition-opacity hover:opacity-80" style="color:var(--brand-pink)" href="/blog?category=AI">AI</a><a class="text-[12px] font-bold uppercase tracking-wider transition-opacity hover:opacity-80" style="color:var(--brand-pink)" href="/blog?category=Engineering">Engineering</a></div></div><h3 class="mb-3" style="font-family:'Silka', sans-serif;font-weight:700;font-size:24px;line-height:1.4"><a class="transition-colors hover:text-white" style="color:var(--brand-offwhite)" href="/blog/offensai-agent0-datadog-pathfinding-labs">OFFENSAI's Autonomous AgentO: All 122 Datadog Pathfinding Labs Solved. Here's What Made It Work.</a></h3><p class="mb-6 line-clamp-2" style="font-family:'Silka', sans-serif;font-weight:400;font-size:16px;line-height:1.5;color:var(--brand-offwhite)">We pointed our autonomous offensive agent, AgentO, at Datadog's new Pathfinding Labs and it solved all 122 live AWS privilege-escalation labs — no human in the loop, no access to the answers, average 9 turns. Here's what made it work.</p><div class="mt-auto flex flex-wrap items-center justify-between gap-x-4 gap-y-4"><div class="flex items-center gap-3"><div class="flex shrink-0 items-center"><img alt="Ioan Criste" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="rounded-full object-cover ring-2 ring-[#0c0e1c]" style="color:transparent;margin-left:0;width:32px;height:32px" src="/images/ioan-criste-ai-offensive-security-research-offensai.png"><img alt="Dragos Stanescu" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="rounded-full object-cover ring-2 ring-[#0c0e1c]" style="color:transparent;margin-left:-10.666666666666666px;width:32px;height:32px" src="/images/blog/1626750044291.jpg"><img alt="Eduard Agavriloae" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="rounded-full object-cover ring-2 ring-[#0c0e1c]" style="color:transparent;margin-left:-10.666666666666666px;width:32px;height:32px" src="/images/blog/eduard_agavriloae.jpg"></div><p style="font-family:'Silka', sans-serif;font-weight:700;font-size:14px;line-height:1.5;color:var(--brand-offwhite)">Ioan Criste, Dragos Stanescu &amp; Eduard Agavriloae</p></div><a class="inline-flex shrink-0 items-center gap-2.5" style="font-family:'Silka', sans-serif;font-size:14px;font-weight:400;line-height:1.5;color:var(--brand-offwhite);transition:all 0.2s ease" href="/blog/offensai-agent0-datadog-pathfinding-labs">Read more<span class="relative block h-6 w-6 shrink-0 transition-transform duration-200 " aria-hidden="true"><img src="/images/icons/arrow-right.png" alt="" width="24" height="24" class="h-6 w-6 rounded-full transition-opacity duration-200 opacity-100"><img src="/images/icons/arrow-right-bright.png" alt="" width="80" height="80" class="pointer-events-none absolute left-1/2 top-1/2 h-20 w-20 max-w-none -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200 opacity-0"></span></a></div></div>]]></content>
+        <title type="html"><![CDATA[When AI Finds The Flaw, Armis Finds The Fix]]></title>
+        <id>https://www.armis.com/blog/when-ai-finds-the-flaw-armis-finds-the-fix/</id>
+        <link href="https://www.armis.com/blog/when-ai-finds-the-flaw-armis-finds-the-fix/"/>
+        <updated>2026-08-11T08:29:49.308Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/when-ai-finds-the-flaw-armis-finds-the-fix/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Attacks &amp; Vulnerabilities													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1777379747/ai-hacker-in-hoodie-2396701649-thumbnail/ai-hacker-in-hoodie-2396701649-thumbnail.png?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2572318 wp-post-2572310" alt="AI technology hacker hooded figure" decoding="async" data-public-id="ai-hacker-in-hoodie-2396701649-thumbnail/ai-hacker-in-hoodie-2396701649-thumbnail.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1777379747" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1777379747/ai-hacker-in-hoodie-2396701649-thumbnail/ai-hacker-in-hoodie-2396701649-thumbnail.png?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1777379747/ai-hacker-in-hoodie-2396701649-thumbnail/ai-hacker-in-hoodie-2396701649-thumbnail.png?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content">
+										<h5>
+											When AI Finds The Flaw, Armis Finds The Fix										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="525" height="525" src="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1777380343/maxime-chardome-michael-freeman-co-authors/maxime-chardome-michael-freeman-co-authors.png?_i=AA" class="attachment-small size-small wp-image-2572312" alt="Maxime Chardome &amp; Michael Freeman Co-authors" decoding="async" data-public-id="maxime-chardome-michael-freeman-co-authors/maxime-chardome-michael-freeman-co-authors.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1777380343" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1777380343/maxime-chardome-michael-freeman-co-authors/maxime-chardome-michael-freeman-co-authors.png?_i=AA 525w, https://res.cloudinary.com/armis/images/w_448,h_448,c_fill,g_auto/f_auto,q_auto/v1777380343/maxime-chardome-michael-freeman-co-authors/maxime-chardome-michael-freeman-co-authors.png?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1777380343/maxime-chardome-michael-freeman-co-authors/maxime-chardome-michael-freeman-co-authors.png?_i=AA 248w" sizes="(max-width: 525px) 100vw, 525px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Maxime Chardome // Michael Freeman													</h6>
+					
+													<p>Product Marketing Director // Head of Threat Intelligence</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[OFFENSAI Joins the Wiz Integration Network (WIN)]]></title>
-        <id>https://www.offensai.com/blog/offensai-joins-wiz-integration-network-win</id>
-        <link href="https://www.offensai.com/blog/offensai-joins-wiz-integration-network-win"/>
-        <updated>2026-08-11T07:54:28.165Z</updated>
-        <content type="html"><![CDATA[<a class="group relative block overflow-hidden rounded-[20px]" href="/blog/offensai-joins-wiz-integration-network-win"><img alt="OFFENSAI Joins the Wiz Integration Network (WIN)" loading="lazy" width="420" height="240" decoding="async" data-nimg="1" class="aspect-[420/240] w-full object-cover transition duration-500 group-hover:scale-[1.02]" style="color:transparent" src="/images/blog/22-offensai-wiz-win/offensai-joins-wiz-integration-network-win.png"></a><div class="flex flex-1 flex-col pt-6 pb-2"><div class="mb-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-2"><p style="font-family:'Silka', sans-serif;font-weight:400;font-size:14px;line-height:1.5;color:var(--brand-steel)">Jul 3, 2026<!-- --> · <!-- -->4<!-- --> min read</p><div class="flex flex-wrap items-center gap-3"><a class="text-[12px] font-bold uppercase tracking-wider transition-opacity hover:opacity-80" style="color:var(--brand-pink)" href="/blog?category=PR">PR</a></div></div><h3 class="mb-3" style="font-family:'Silka', sans-serif;font-weight:700;font-size:24px;line-height:1.4"><a class="transition-colors hover:text-white" style="color:var(--brand-offwhite)" href="/blog/offensai-joins-wiz-integration-network-win">OFFENSAI Joins the Wiz Integration Network (WIN)</a></h3><p class="mb-6 line-clamp-2" style="font-family:'Silka', sans-serif;font-weight:400;font-size:16px;line-height:1.5;color:var(--brand-offwhite)">OFFENSAI has joined the Wiz Integration Network (WIN), bringing Cloud-Native Adversarial Exposure Validation to the Wiz ecosystem so teams prove which exposures attackers can actually exploit.</p><div class="mt-auto flex flex-wrap items-center justify-between gap-x-4 gap-y-4"><div class="flex items-center gap-3"><div class="flex shrink-0 items-center"><img alt="Karen Nguyen" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="rounded-full object-cover ring-2 ring-[#0c0e1c]" style="color:transparent;margin-left:0;width:32px;height:32px" src="/images/karen-nguyen.png"></div><p style="font-family:'Silka', sans-serif;font-weight:700;font-size:14px;line-height:1.5;color:var(--brand-offwhite)">Karen Nguyen</p></div><a class="inline-flex shrink-0 items-center gap-2.5" style="font-family:'Silka', sans-serif;font-size:14px;font-weight:400;line-height:1.5;color:var(--brand-offwhite);transition:all 0.2s ease" href="/blog/offensai-joins-wiz-integration-network-win">Read more<span class="relative block h-6 w-6 shrink-0 transition-transform duration-200 " aria-hidden="true"><img src="/images/icons/arrow-right.png" alt="" width="24" height="24" class="h-6 w-6 rounded-full transition-opacity duration-200 opacity-100"><img src="/images/icons/arrow-right-bright.png" alt="" width="80" height="80" class="pointer-events-none absolute left-1/2 top-1/2 h-20 w-20 max-w-none -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200 opacity-0"></span></a></div></div>]]></content>
+        <title type="html"><![CDATA[Ni8mare in Automation]]></title>
+        <id>https://www.armis.com/blog/ni8mare-in-automation/</id>
+        <link href="https://www.armis.com/blog/ni8mare-in-automation/"/>
+        <updated>2026-08-11T08:29:49.309Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/ni8mare-in-automation/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Attacks &amp; Vulnerabilities													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1767879297/warning-alert-stylized-icon-2265563827-thumbnail/warning-alert-stylized-icon-2265563827-thumbnail.png?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2568944 wp-post-2568943" alt="warning stylized icon" decoding="async" data-public-id="warning-alert-stylized-icon-2265563827-thumbnail/warning-alert-stylized-icon-2265563827-thumbnail.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1767879297" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1767879297/warning-alert-stylized-icon-2265563827-thumbnail/warning-alert-stylized-icon-2265563827-thumbnail.png?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1767879297/warning-alert-stylized-icon-2265563827-thumbnail/warning-alert-stylized-icon-2265563827-thumbnail.png?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content">
+										<h5>
+											Ni8mare in Automation										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="525" height="525" src="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1767877626/michael-rothschild-maxime-chardome-co-authors/michael-rothschild-maxime-chardome-co-authors.png?_i=AA" class="attachment-small size-small wp-image-2568937" alt="Michael Rothschild and Maxime Chardome - Co-authors" decoding="async" data-public-id="michael-rothschild-maxime-chardome-co-authors/michael-rothschild-maxime-chardome-co-authors.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1767877626" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1767877626/michael-rothschild-maxime-chardome-co-authors/michael-rothschild-maxime-chardome-co-authors.png?_i=AA 525w, https://res.cloudinary.com/armis/images/w_448,h_448,c_fill,g_auto/f_auto,q_auto/v1767877626/michael-rothschild-maxime-chardome-co-authors/michael-rothschild-maxime-chardome-co-authors.png?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1767877626/michael-rothschild-maxime-chardome-co-authors/michael-rothschild-maxime-chardome-co-authors.png?_i=AA 248w" sizes="(max-width: 525px) 100vw, 525px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Michael Rothschild // Maxime Chardome													</h6>
+					
+													<p>VP, Product Marketing // Product Marketing Director</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AWS Console Sign-In Restrictions: 5 Attack Paths]]></title>
-        <id>https://www.offensai.com/blog/aws-console-sign-in-restrictions-attack-paths</id>
-        <link href="https://www.offensai.com/blog/aws-console-sign-in-restrictions-attack-paths"/>
-        <updated>2026-08-11T07:54:28.167Z</updated>
-        <content type="html"><![CDATA[<a class="group relative block overflow-hidden rounded-[20px]" href="/blog/aws-console-sign-in-restrictions-attack-paths"><img alt="AWS Console Sign-In Restrictions: 5 Attack Paths" loading="lazy" width="420" height="240" decoding="async" data-nimg="1" class="aspect-[420/240] w-full object-cover transition duration-500 group-hover:scale-[1.02]" style="color:transparent" src="/images/blog/21-aws-console-sign-in-restrictions/aws-console-sign-in-restrictions-attack-paths.png"></a><div class="flex flex-1 flex-col pt-6 pb-2"><div class="mb-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-2"><p style="font-family:'Silka', sans-serif;font-weight:400;font-size:14px;line-height:1.5;color:var(--brand-steel)">Jun 18, 2026<!-- --> · <!-- -->12<!-- --> min read</p><div class="flex flex-wrap items-center gap-3"><a class="text-[12px] font-bold uppercase tracking-wider transition-opacity hover:opacity-80" style="color:var(--brand-pink)" href="/blog?category=AWS">AWS</a></div></div><h3 class="mb-3" style="font-family:'Silka', sans-serif;font-weight:700;font-size:24px;line-height:1.4"><a class="transition-colors hover:text-white" style="color:var(--brand-offwhite)" href="/blog/aws-console-sign-in-restrictions-attack-paths">AWS Console Sign-In Restrictions: 5 Attack Paths</a></h3><p class="mb-6 line-clamp-2" style="font-family:'Silka', sans-serif;font-weight:400;font-size:16px;line-height:1.5;color:var(--brand-offwhite)">AWS shipped Console Sign-In restrictions via resource control policies. Here are 5 attack paths that bypass them, and how OFFENSAI maps them.</p><div class="mt-auto flex flex-wrap items-center justify-between gap-x-4 gap-y-4"><div class="flex items-center gap-3"><div class="flex shrink-0 items-center"><img alt="Dragos Stanescu" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="rounded-full object-cover ring-2 ring-[#0c0e1c]" style="color:transparent;margin-left:0;width:32px;height:32px" src="/images/blog/1626750044291.jpg"></div><p style="font-family:'Silka', sans-serif;font-weight:700;font-size:14px;line-height:1.5;color:var(--brand-offwhite)">Dragos Stanescu</p></div><a class="inline-flex shrink-0 items-center gap-2.5" style="font-family:'Silka', sans-serif;font-size:14px;font-weight:400;line-height:1.5;color:var(--brand-offwhite);transition:all 0.2s ease" href="/blog/aws-console-sign-in-restrictions-attack-paths">Read more<span class="relative block h-6 w-6 shrink-0 transition-transform duration-200 " aria-hidden="true"><img src="/images/icons/arrow-right.png" alt="" width="24" height="24" class="h-6 w-6 rounded-full transition-opacity duration-200 opacity-100"><img src="/images/icons/arrow-right-bright.png" alt="" width="80" height="80" class="pointer-events-none absolute left-1/2 top-1/2 h-20 w-20 max-w-none -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200 opacity-0"></span></a></div></div>]]></content>
+        <title type="html"><![CDATA[Priority-Zero Patching Event: React2Shell]]></title>
+        <id>https://www.armis.com/blog/priority-zero-patching-event-react2shell/</id>
+        <link href="https://www.armis.com/blog/priority-zero-patching-event-react2shell/"/>
+        <updated>2026-08-11T08:29:49.319Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/priority-zero-patching-event-react2shell/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Attacks &amp; Vulnerabilities													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1765208835/hologram-bell-notifications-1761826682-thumbnail/hologram-bell-notifications-1761826682-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2568012 wp-post-2568011" alt="a hologram of a bell representing notifications" decoding="async" data-public-id="hologram-bell-notifications-1761826682-thumbnail/hologram-bell-notifications-1761826682-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1765208835" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1765208835/hologram-bell-notifications-1761826682-thumbnail/hologram-bell-notifications-1761826682-thumbnail.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1765208835/hologram-bell-notifications-1761826682-thumbnail/hologram-bell-notifications-1761826682-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content">
+										<h5>
+											Priority-Zero Patching Event: React2Shell										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA" class="attachment-small size-small wp-image-2555145" alt="Michael Freeman - blog author" decoding="async" data-public-id="Michael-Freeman-author/Michael-Freeman-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1733758808" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1733758808/Michael-Freeman-author/Michael-Freeman-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Michael Freeman													</h6>
+					
+													<p>Head of Threat Intelligence</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Attacking Production Apps Without Jailbreaking the Model: Scope Manipulation with scopeshift]]></title>
-        <id>https://www.offensai.com/blog/scopeshift-ai-pentest-agent-scope-verification-gap</id>
-        <link href="https://www.offensai.com/blog/scopeshift-ai-pentest-agent-scope-verification-gap"/>
-        <updated>2026-08-11T07:54:28.168Z</updated>
-        <content type="html"><![CDATA[<a class="group relative block overflow-hidden rounded-[20px]" href="/blog/scopeshift-ai-pentest-agent-scope-verification-gap"><img alt="Attacking Production Apps Without Jailbreaking the Model: Scope Manipulation with scopeshift" loading="lazy" width="420" height="240" decoding="async" data-nimg="1" class="aspect-[420/240] w-full object-cover transition duration-500 group-hover:scale-[1.02]" style="color:transparent" src="/images/blog/20-scopeshift/scopeshift-ai-pentest-agent-network-deception.jpg"></a><div class="flex flex-1 flex-col pt-6 pb-2"><div class="mb-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-2"><p style="font-family:'Silka', sans-serif;font-weight:400;font-size:14px;line-height:1.5;color:var(--brand-steel)">May 20, 2026<!-- --> · <!-- -->12<!-- --> min read</p><div class="flex flex-wrap items-center gap-3"><a class="text-[12px] font-bold uppercase tracking-wider transition-opacity hover:opacity-80" style="color:var(--brand-pink)" href="/blog?category=Security">Security</a></div></div><h3 class="mb-3" style="font-family:'Silka', sans-serif;font-weight:700;font-size:24px;line-height:1.4"><a class="transition-colors hover:text-white" style="color:var(--brand-offwhite)" href="/blog/scopeshift-ai-pentest-agent-scope-verification-gap">Attacking Production Apps Without Jailbreaking the Model: Scope Manipulation with scopeshift</a></h3><p class="mb-6 line-clamp-2" style="font-family:'Silka', sans-serif;font-weight:400;font-size:16px;line-height:1.5;color:var(--brand-offwhite)">scopeshift demonstrates that Claude Code and other AI coding agents can be tricked into running unauthorized pentests through network-layer deception alone — no adversarial prompts required. The agent thinks it's probing localhost, but the traffic lands on a real third-party target.</p><div class="mt-auto flex flex-wrap items-center justify-between gap-x-4 gap-y-4"><div class="flex items-center gap-3"><div class="flex shrink-0 items-center"><img alt="Eduard Agavriloae" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="rounded-full object-cover ring-2 ring-[#0c0e1c]" style="color:transparent;margin-left:0;width:32px;height:32px" src="/images/blog/eduard_agavriloae.jpg"></div><p style="font-family:'Silka', sans-serif;font-weight:700;font-size:14px;line-height:1.5;color:var(--brand-offwhite)">Eduard Agavriloae</p></div><a class="inline-flex shrink-0 items-center gap-2.5" style="font-family:'Silka', sans-serif;font-size:14px;font-weight:400;line-height:1.5;color:var(--brand-offwhite);transition:all 0.2s ease" href="/blog/scopeshift-ai-pentest-agent-scope-verification-gap">Read more<span class="relative block h-6 w-6 shrink-0 transition-transform duration-200 " aria-hidden="true"><img src="/images/icons/arrow-right.png" alt="" width="24" height="24" class="h-6 w-6 rounded-full transition-opacity duration-200 opacity-100"><img src="/images/icons/arrow-right-bright.png" alt="" width="80" height="80" class="pointer-events-none absolute left-1/2 top-1/2 h-20 w-20 max-w-none -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200 opacity-0"></span></a></div></div>]]></content>
+        <title type="html"><![CDATA[Update: Shai-Hulud and the npm Ecosystem: Why CTEM Must Extend Beyond Your Walls]]></title>
+        <id>https://www.armis.com/blog/update-shai-hulud-and-the-npm-ecosystem-why-ctem-must-extend-beyond-your-walls/</id>
+        <link href="https://www.armis.com/blog/update-shai-hulud-and-the-npm-ecosystem-why-ctem-must-extend-beyond-your-walls/"/>
+        <updated>2026-08-11T08:29:49.321Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/update-shai-hulud-and-the-npm-ecosystem-why-ctem-must-extend-beyond-your-walls/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Attacks &amp; Vulnerabilities													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1764102467/3d-alert-icon-on-motherboard-2416078631-thumbnail/3d-alert-icon-on-motherboard-2416078631-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2567782 wp-post-2567774" alt="3d alert icon on a motherboard - cybersecurity alert concept" decoding="async" data-public-id="3d-alert-icon-on-motherboard-2416078631-thumbnail/3d-alert-icon-on-motherboard-2416078631-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1764102467" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1764102467/3d-alert-icon-on-motherboard-2416078631-thumbnail/3d-alert-icon-on-motherboard-2416078631-thumbnail.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1764102467/3d-alert-icon-on-motherboard-2416078631-thumbnail/3d-alert-icon-on-motherboard-2416078631-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content">
+										<h5>
+											Update: Shai-Hulud and the npm Ecosystem: Why CTEM Must Extend Beyond Your Walls										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA" class="attachment-small size-small wp-image-25595" alt="Blog Author" decoding="async" data-public-id="images/Nadir-Izrael-author/Nadir-Izrael-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1686859058" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Nadir Izrael													</h6>
+					
+													<p>CTO &amp; Co-Founder</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Vulnpocalypse Isn’t Coming. It’s Already Here.]]></title>
-        <id>https://www.offensai.com/blog/vulnpocalypse-ai-security-exploitability</id>
-        <link href="https://www.offensai.com/blog/vulnpocalypse-ai-security-exploitability"/>
-        <updated>2026-08-11T07:54:28.170Z</updated>
-        <content type="html"><![CDATA[<a class="group relative block overflow-hidden rounded-[20px]" href="/blog/vulnpocalypse-ai-security-exploitability"><img alt="The Vulnpocalypse Isn’t Coming. It’s Already Here." loading="lazy" width="420" height="240" decoding="async" data-nimg="1" class="aspect-[420/240] w-full object-cover transition duration-500 group-hover:scale-[1.02]" style="color:transparent" src="/images/blog/19-vulnpocalypse/vulnpocalypse-ai-offensive-security-vulnerability-exploitation.png"></a><div class="flex flex-1 flex-col pt-6 pb-2"><div class="mb-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-2"><p style="font-family:'Silka', sans-serif;font-weight:400;font-size:14px;line-height:1.5;color:var(--brand-steel)">Apr 28, 2026<!-- --> · <!-- -->7<!-- --> min read</p><div class="flex flex-wrap items-center gap-3"><a class="text-[12px] font-bold uppercase tracking-wider transition-opacity hover:opacity-80" style="color:var(--brand-pink)" href="/blog?category=Security">Security</a></div></div><h3 class="mb-3" style="font-family:'Silka', sans-serif;font-weight:700;font-size:24px;line-height:1.4"><a class="transition-colors hover:text-white" style="color:var(--brand-offwhite)" href="/blog/vulnpocalypse-ai-security-exploitability">The Vulnpocalypse Isn’t Coming. It’s Already Here.</a></h3><p class="mb-6 line-clamp-2" style="font-family:'Silka', sans-serif;font-weight:400;font-size:16px;line-height:1.5;color:var(--brand-offwhite)">AI isn't creating a new vulnerability crisis. It's exposing the one security teams were already living in: too much noise, too little exploitability proof, and too much uncertainty.</p><div class="mt-auto flex flex-wrap items-center justify-between gap-x-4 gap-y-4"><div class="flex items-center gap-3"><div class="flex shrink-0 items-center"><img alt="Karen Nguyen" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="rounded-full object-cover ring-2 ring-[#0c0e1c]" style="color:transparent;margin-left:0;width:32px;height:32px" src="/images/karen-nguyen.png"></div><p style="font-family:'Silka', sans-serif;font-weight:700;font-size:14px;line-height:1.5;color:var(--brand-offwhite)">Karen Nguyen</p></div><a class="inline-flex shrink-0 items-center gap-2.5" style="font-family:'Silka', sans-serif;font-size:14px;font-weight:400;line-height:1.5;color:var(--brand-offwhite);transition:all 0.2s ease" href="/blog/vulnpocalypse-ai-security-exploitability">Read more<span class="relative block h-6 w-6 shrink-0 transition-transform duration-200 " aria-hidden="true"><img src="/images/icons/arrow-right.png" alt="" width="24" height="24" class="h-6 w-6 rounded-full transition-opacity duration-200 opacity-100"><img src="/images/icons/arrow-right-bright.png" alt="" width="80" height="80" class="pointer-events-none absolute left-1/2 top-1/2 h-20 w-20 max-w-none -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200 opacity-0"></span></a></div></div>]]></content>
+        <title type="html"><![CDATA[When the Defenders Get Hit: What the F5 Breach Means for Every Organization]]></title>
+        <id>https://www.armis.com/blog/when-the-defenders-get-hit-what-the-f5-breach-means-for-every-organization/</id>
+        <link href="https://www.armis.com/blog/when-the-defenders-get-hit-what-the-f5-breach-means-for-every-organization/"/>
+        <updated>2026-08-11T08:29:49.323Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/when-the-defenders-get-hit-what-the-f5-breach-means-for-every-organization/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Attacks &amp; Vulnerabilities													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="1280" height="720" src="https://res.cloudinary.com/armis/images/w_1280,h_720,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2566664 wp-post-2566655" alt="attention danger symbol on dark red glitched background" decoding="async" data-public-id="alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1761057301" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_1280,h_720,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 1280w, https://res.cloudinary.com/armis/images/w_1248,h_702,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 1248w, https://res.cloudinary.com/armis/images/w_1048,h_589,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 1048w, https://res.cloudinary.com/armis/images/w_848,h_477,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 848w, https://res.cloudinary.com/armis/images/w_648,h_364,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 648w, https://res.cloudinary.com/armis/images/w_448,h_252,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_139,c_scale/f_auto,q_auto/v1761057301/alert-symbol-on-dark-red-2210295717-social/alert-symbol-on-dark-red-2210295717-social.png?_i=AA 248w" sizes="(max-width: 1280px) 100vw, 1280px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content">
+										<h5>
+											When the Defenders Get Hit: What the F5 Breach Means for Every Organization										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="525" height="525" src="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1711114867/images/MichaelR-MIchaelF-co-authors/MichaelR-MIchaelF-co-authors.png?_i=AA" class="attachment-small size-small wp-image-2543736" alt="Michael Rothschild &amp; Michael Freeman - Co-authors" decoding="async" data-public-id="images/MichaelR-MIchaelF-co-authors/MichaelR-MIchaelF-co-authors.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1711114867" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1711114867/images/MichaelR-MIchaelF-co-authors/MichaelR-MIchaelF-co-authors.png?_i=AA 525w, https://res.cloudinary.com/armis/images/w_448,h_448,c_fill,g_auto/f_auto,q_auto/v1711114867/images/MichaelR-MIchaelF-co-authors/MichaelR-MIchaelF-co-authors.png?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1711114867/images/MichaelR-MIchaelF-co-authors/MichaelR-MIchaelF-co-authors.png?_i=AA 248w" sizes="(max-width: 525px) 100vw, 525px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Michael Rothschild // Michael Freeman													</h6>
+					
+													<p>VP, Product Marketing // Head of Threat Intelligence</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[notyet: Open-Source Tool to Test AWS IAM Credential Revocation Gaps]]></title>
-        <id>https://www.offensai.com/blog/notyet-aws-iam-credential-revocation-gaps</id>
-        <link href="https://www.offensai.com/blog/notyet-aws-iam-credential-revocation-gaps"/>
-        <updated>2026-08-11T07:54:28.172Z</updated>
-        <content type="html"><![CDATA[<a class="group relative block overflow-hidden rounded-[20px]" href="/blog/notyet-aws-iam-credential-revocation-gaps"><img alt="notyet: Open-Source Tool to Test AWS IAM Credential Revocation Gaps" loading="lazy" width="420" height="240" decoding="async" data-nimg="1" class="aspect-[420/240] w-full object-cover transition duration-500 group-hover:scale-[1.02]" style="color:transparent" src="/images/blog/18-notyet/notyet-aws-iam-credential-revocation.jpg"></a><div class="flex flex-1 flex-col pt-6 pb-2"><div class="mb-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-2"><p style="font-family:'Silka', sans-serif;font-weight:400;font-size:14px;line-height:1.5;color:var(--brand-steel)">Apr 7, 2026<!-- --> · <!-- -->8<!-- --> min read</p><div class="flex flex-wrap items-center gap-3"><a class="text-[12px] font-bold uppercase tracking-wider transition-opacity hover:opacity-80" style="color:var(--brand-pink)" href="/blog?category=AWS">AWS</a></div></div><h3 class="mb-3" style="font-family:'Silka', sans-serif;font-weight:700;font-size:24px;line-height:1.4"><a class="transition-colors hover:text-white" style="color:var(--brand-offwhite)" href="/blog/notyet-aws-iam-credential-revocation-gaps">notyet: Open-Source Tool to Test AWS IAM Credential Revocation Gaps</a></h3><p class="mb-6 line-clamp-2" style="font-family:'Silka', sans-serif;font-weight:400;font-size:16px;line-height:1.5;color:var(--brand-offwhite)">AWS IAM eventual consistency gives attackers a 4-second window after credential revocation. notyet is an open-source tool to test IR containment playbooks.</p><div class="mt-auto flex flex-wrap items-center justify-between gap-x-4 gap-y-4"><div class="flex items-center gap-3"><div class="flex shrink-0 items-center"><img alt="Eduard Agavriloae" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="rounded-full object-cover ring-2 ring-[#0c0e1c]" style="color:transparent;margin-left:0;width:32px;height:32px" src="/images/blog/eduard_agavriloae.jpg"></div><p style="font-family:'Silka', sans-serif;font-weight:700;font-size:14px;line-height:1.5;color:var(--brand-offwhite)">Eduard Agavriloae</p></div><a class="inline-flex shrink-0 items-center gap-2.5" style="font-family:'Silka', sans-serif;font-size:14px;font-weight:400;line-height:1.5;color:var(--brand-offwhite);transition:all 0.2s ease" href="/blog/notyet-aws-iam-credential-revocation-gaps">Read more<span class="relative block h-6 w-6 shrink-0 transition-transform duration-200 " aria-hidden="true"><img src="/images/icons/arrow-right.png" alt="" width="24" height="24" class="h-6 w-6 rounded-full transition-opacity duration-200 opacity-100"><img src="/images/icons/arrow-right-bright.png" alt="" width="80" height="80" class="pointer-events-none absolute left-1/2 top-1/2 h-20 w-20 max-w-none -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200 opacity-0"></span></a></div></div>]]></content>
+        <title type="html"><![CDATA[Shai-Hulud and the npm Ecosystem: Why CTEM Must Extend Beyond Your Walls]]></title>
+        <id>https://www.armis.com/blog/shai-hulud-and-the-npm-ecosystem-why-ctem-must-extend-beyond-your-walls/</id>
+        <link href="https://www.armis.com/blog/shai-hulud-and-the-npm-ecosystem-why-ctem-must-extend-beyond-your-walls/"/>
+        <updated>2026-08-11T08:29:49.324Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/shai-hulud-and-the-npm-ecosystem-why-ctem-must-extend-beyond-your-walls/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Attacks &amp; Vulnerabilities													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1758729882/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail.png?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2566185 wp-post-2566184" alt="iris of eye with colorful binary code overlay" decoding="async" data-public-id="eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1758729882" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1758729882/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail.png?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1758729882/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail/eye-iris-with-colored-binary-code-overlayed-2327936419-thumbnail.png?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content">
+										<h5>
+											Shai-Hulud and the npm Ecosystem: Why CTEM Must Extend Beyond Your Walls										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA" class="attachment-small size-small wp-image-25595" alt="Blog Author" decoding="async" data-public-id="images/Nadir-Izrael-author/Nadir-Izrael-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1686859058" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1686859058/images/Nadir-Izrael-author/Nadir-Izrael-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Nadir Izrael													</h6>
+					
+													<p>CTO &amp; Co-Founder</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AWS Incident Response: IAM Containment That Survives Eventual Consistency]]></title>
-        <id>https://www.offensai.com/blog/eventual-consistency-resistant-iam-containment-aws-incident-response</id>
-        <link href="https://www.offensai.com/blog/eventual-consistency-resistant-iam-containment-aws-incident-response"/>
-        <updated>2026-08-11T07:54:28.174Z</updated>
-        <content type="html"><![CDATA[<a class="group relative block overflow-hidden rounded-[20px]" href="/blog/eventual-consistency-resistant-iam-containment-aws-incident-response"><img alt="AWS Incident Response: IAM Containment That Survives Eventual Consistency" loading="lazy" width="420" height="240" decoding="async" data-nimg="1" class="aspect-[420/240] w-full object-cover transition duration-500 group-hover:scale-[1.02]" style="color:transparent" src="/images/blog/17-eventual-consistency-iam-aws-incident-response/eventual-consistency-iam-aws-incident-response.jpg"></a><div class="flex flex-1 flex-col pt-6 pb-2"><div class="mb-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-2"><p style="font-family:'Silka', sans-serif;font-weight:400;font-size:14px;line-height:1.5;color:var(--brand-steel)">Feb 24, 2026<!-- --> · <!-- -->12<!-- --> min read</p><div class="flex flex-wrap items-center gap-3"><a class="text-[12px] font-bold uppercase tracking-wider transition-opacity hover:opacity-80" style="color:var(--brand-pink)" href="/blog?category=AWS">AWS</a></div></div><h3 class="mb-3" style="font-family:'Silka', sans-serif;font-weight:700;font-size:24px;line-height:1.4"><a class="transition-colors hover:text-white" style="color:var(--brand-offwhite)" href="/blog/eventual-consistency-resistant-iam-containment-aws-incident-response">AWS Incident Response: IAM Containment That Survives Eventual Consistency</a></h3><p class="mb-6 line-clamp-2" style="font-family:'Silka', sans-serif;font-weight:400;font-size:16px;line-height:1.5;color:var(--brand-offwhite)">Standard AWS IR containment fails against attackers exploiting IAM eventual consistency. This article presents an SCP-enforced technique that makes identity-level containment attacker-resistant.</p><div class="mt-auto flex flex-wrap items-center justify-between gap-x-4 gap-y-4"><div class="flex items-center gap-3"><div class="flex shrink-0 items-center"><img alt="Eduard Agavriloae" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="rounded-full object-cover ring-2 ring-[#0c0e1c]" style="color:transparent;margin-left:0;width:32px;height:32px" src="/images/blog/eduard_agavriloae.jpg"></div><p style="font-family:'Silka', sans-serif;font-weight:700;font-size:14px;line-height:1.5;color:var(--brand-offwhite)">Eduard Agavriloae</p></div><a class="inline-flex shrink-0 items-center gap-2.5" style="font-family:'Silka', sans-serif;font-size:14px;font-weight:400;line-height:1.5;color:var(--brand-offwhite);transition:all 0.2s ease" href="/blog/eventual-consistency-resistant-iam-containment-aws-incident-response">Read more<span class="relative block h-6 w-6 shrink-0 transition-transform duration-200 " aria-hidden="true"><img src="/images/icons/arrow-right.png" alt="" width="24" height="24" class="h-6 w-6 rounded-full transition-opacity duration-200 opacity-100"><img src="/images/icons/arrow-right-bright.png" alt="" width="80" height="80" class="pointer-events-none absolute left-1/2 top-1/2 h-20 w-20 max-w-none -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200 opacity-0"></span></a></div></div>]]></content>
+        <title type="html"><![CDATA[CISA’s 7 Latest ICS Advisories: What You Need To Know]]></title>
+        <id>https://www.armis.com/blog/cisas-7-latest-ics-advisories-what-you-need-to-know/</id>
+        <link href="https://www.armis.com/blog/cisas-7-latest-ics-advisories-what-you-need-to-know/"/>
+        <updated>2026-08-11T08:29:49.326Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/cisas-7-latest-ics-advisories-what-you-need-to-know/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Attacks &amp; Vulnerabilities													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1740423819/cyber-security-data-protection-69139-thumbnail/cyber-security-data-protection-69139-thumbnail.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2557201 wp-post-2557114" alt="Cyber Security Data Protection" decoding="async" data-public-id="cyber-security-data-protection-69139-thumbnail/cyber-security-data-protection-69139-thumbnail.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1740423819" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1740423819/cyber-security-data-protection-69139-thumbnail/cyber-security-data-protection-69139-thumbnail.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1740423819/cyber-security-data-protection-69139-thumbnail/cyber-security-data-protection-69139-thumbnail.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content">
+										<h5>
+											CISA’s 7 Latest ICS Advisories: What You Need To Know										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1709064955/images/Michael-Rothschild-author/Michael-Rothschild-author.jpg?_i=AA" class="attachment-small size-small wp-image-2542720" alt="Michael Rothschild" decoding="async" data-public-id="images/Michael-Rothschild-author/Michael-Rothschild-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1709064955" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1709064955/images/Michael-Rothschild-author/Michael-Rothschild-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1709064955/images/Michael-Rothschild-author/Michael-Rothschild-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Michael Rothschild													</h6>
+					
+													<p>VP, Product Marketing</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Adversarial Exposure Validation (AEV) Guide: Prove Attack Paths]]></title>
-        <id>https://www.offensai.com/blog/adversarial-exposure-validation-guide-2026</id>
-        <link href="https://www.offensai.com/blog/adversarial-exposure-validation-guide-2026"/>
-        <updated>2026-08-11T07:54:28.176Z</updated>
-        <content type="html"><![CDATA[<a class="group relative block overflow-hidden rounded-[20px]" href="/blog/adversarial-exposure-validation-guide-2026"><img alt="Adversarial Exposure Validation (AEV) Guide: Prove Attack Paths" loading="lazy" width="420" height="240" decoding="async" data-nimg="1" class="aspect-[420/240] w-full object-cover transition duration-500 group-hover:scale-[1.02]" style="color:transparent" src="/images/blog/16-adversarial-exposure-validation-guide-2026/adversarial-exposure-validation-aev-guide-2026.png"></a><div class="flex flex-1 flex-col pt-6 pb-2"><div class="mb-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-2"><p style="font-family:'Silka', sans-serif;font-weight:400;font-size:14px;line-height:1.5;color:var(--brand-steel)">Feb 3, 2026<!-- --> · <!-- -->18<!-- --> min read</p><div class="flex flex-wrap items-center gap-3"><a class="text-[12px] font-bold uppercase tracking-wider transition-opacity hover:opacity-80" style="color:var(--brand-pink)" href="/blog?category=Automation">Automation</a></div></div><h3 class="mb-3" style="font-family:'Silka', sans-serif;font-weight:700;font-size:24px;line-height:1.4"><a class="transition-colors hover:text-white" style="color:var(--brand-offwhite)" href="/blog/adversarial-exposure-validation-guide-2026">Adversarial Exposure Validation (AEV) Guide: Prove Attack Paths</a></h3><p class="mb-6 line-clamp-2" style="font-family:'Silka', sans-serif;font-weight:400;font-size:16px;line-height:1.5;color:var(--brand-offwhite)">Adversarial Exposure Validation (AEV) proves what's exploitable right now, tests detection during execution, and re-runs the same path after fixes to verify closure.</p><div class="mt-auto flex flex-wrap items-center justify-between gap-x-4 gap-y-4"><div class="flex items-center gap-3"><div class="flex shrink-0 items-center"><img alt="OFFENSAI" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="rounded-full object-cover ring-2 ring-[#0c0e1c]" style="color:transparent;margin-left:0;width:32px;height:32px" src="/images/logo-white.svg"></div><p style="font-family:'Silka', sans-serif;font-weight:700;font-size:14px;line-height:1.5;color:var(--brand-offwhite)">OFFENSAI</p></div><a class="inline-flex shrink-0 items-center gap-2.5" style="font-family:'Silka', sans-serif;font-size:14px;font-weight:400;line-height:1.5;color:var(--brand-offwhite);transition:all 0.2s ease" href="/blog/adversarial-exposure-validation-guide-2026">Read more<span class="relative block h-6 w-6 shrink-0 transition-transform duration-200 " aria-hidden="true"><img src="/images/icons/arrow-right.png" alt="" width="24" height="24" class="h-6 w-6 rounded-full transition-opacity duration-200 opacity-100"><img src="/images/icons/arrow-right-bright.png" alt="" width="80" height="80" class="pointer-events-none absolute left-1/2 top-1/2 h-20 w-20 max-w-none -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200 opacity-0"></span></a></div></div>]]></content>
+        <title type="html"><![CDATA[Patient Monitor Vulnerabilities Threaten Healthcare Security, CISA Warns]]></title>
+        <id>https://www.armis.com/blog/patient-monitor-vulnerabilities-threaten-healthcare-security-cisa-warns/</id>
+        <link href="https://www.armis.com/blog/patient-monitor-vulnerabilities-threaten-healthcare-security-cisa-warns/"/>
+        <updated>2026-08-11T08:29:49.327Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/patient-monitor-vulnerabilities-threaten-healthcare-security-cisa-warns/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Attacks &amp; Vulnerabilities													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1738352187/vital-signs-monitor-23221/vital-signs-monitor-23221.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2556293 wp-post-2556292" alt="Medical vital signs monitor instrument in a hospital" decoding="async" data-public-id="vital-signs-monitor-23221/vital-signs-monitor-23221.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1738352187" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_360,h_160,c_scale/f_auto,q_auto/v1738352187/vital-signs-monitor-23221/vital-signs-monitor-23221.jpg?_i=AA 360w, https://res.cloudinary.com/armis/images/w_248,h_110,c_scale/f_auto,q_auto/v1738352187/vital-signs-monitor-23221/vital-signs-monitor-23221.jpg?_i=AA 248w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content">
+										<h5>
+											Patient Monitor Vulnerabilities Threaten Healthcare Security, CISA Warns										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="525" height="525" src="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1738332903/Michael-Freeman-Moh-Waqas-co-authors/Michael-Freeman-Moh-Waqas-co-authors.png?_i=AA" class="attachment-small size-small wp-image-2556286" alt="Michael Freeman &amp; Moh Waqas co-authors blog headshot" decoding="async" data-public-id="Michael-Freeman-Moh-Waqas-co-authors/Michael-Freeman-Moh-Waqas-co-authors.png" data-format="png" data-transformations="f_auto,q_auto" data-version="1738332903" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_525,h_525,c_fill,g_auto/f_auto,q_auto/v1738332903/Michael-Freeman-Moh-Waqas-co-authors/Michael-Freeman-Moh-Waqas-co-authors.png?_i=AA 525w, https://res.cloudinary.com/armis/images/w_448,h_448,c_fill,g_auto/f_auto,q_auto/v1738332903/Michael-Freeman-Moh-Waqas-co-authors/Michael-Freeman-Moh-Waqas-co-authors.png?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1738332903/Michael-Freeman-Moh-Waqas-co-authors/Michael-Freeman-Moh-Waqas-co-authors.png?_i=AA 248w" sizes="(max-width: 525px) 100vw, 525px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Michael Freeman // Mohammad Waqas													</h6>
+					
+													<p>Head of Threat Intelligence // CTO for Medical, Armis</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DORA Deadline Passes: Almost Half of UK Financial Institutions Fall Short of Compliance Requirements]]></title>
+        <id>https://www.armis.com/blog/dora-deadline-passes-almost-half-of-uk-financial-institutions-fall-short-of-compliance-requirements/</id>
+        <link href="https://www.armis.com/blog/dora-deadline-passes-almost-half-of-uk-financial-institutions-fall-short-of-compliance-requirements/"/>
+        <updated>2026-08-11T08:29:49.329Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/dora-deadline-passes-almost-half-of-uk-financial-institutions-fall-short-of-compliance-requirements/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Attacks &amp; Vulnerabilities													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="1200" height="1200" src="https://res.cloudinary.com/armis/images/w_1200,h_1200,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2555972 wp-post-2555940" alt="thoughtful man looking at computer screen" decoding="async" data-public-id="thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1737561476" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_1200,h_1200,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA 1200w, https://res.cloudinary.com/armis/images/w_1048,h_1048,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA 1048w, https://res.cloudinary.com/armis/images/w_848,h_848,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA 848w, https://res.cloudinary.com/armis/images/w_648,h_648,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA 648w, https://res.cloudinary.com/armis/images/w_448,h_448,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA 448w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1737561476/thoughtful-man-looking-at-computer-screen-57401-sq1200/thoughtful-man-looking-at-computer-screen-57401-sq1200.jpg?_i=AA 248w" sizes="(max-width: 1200px) 100vw, 1200px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content">
+										<h5>
+											DORA Deadline Passes: Almost Half of UK Financial Institutions Fall Short of Compliance Requirements										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1730142988/olivia-o-shaughnessy-author/olivia-o-shaughnessy-author.jpg?_i=AA" class="attachment-small size-small wp-image-2553757" alt="Olivia O'Shaughnessy - blog author headshot" decoding="async" data-public-id="olivia-o-shaughnessy-author/olivia-o-shaughnessy-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1730142988" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1730142988/olivia-o-shaughnessy-author/olivia-o-shaughnessy-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1730142988/olivia-o-shaughnessy-author/olivia-o-shaughnessy-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Olivia O'Shaughnessy													</h6>
+					
+													<p>Sr. Product Marketing Manager</p>
+												</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Navigating The CrowdStrike and Microsoft Outages: Lessons For OT Industries]]></title>
+        <id>https://www.armis.com/blog/navigating-the-crowdstrike-and-microsoft-outages-lessons-for-ot-industries/</id>
+        <link href="https://www.armis.com/blog/navigating-the-crowdstrike-and-microsoft-outages-lessons-for-ot-industries/"/>
+        <updated>2026-08-11T08:29:49.333Z</updated>
+        <content type="html"><![CDATA[<div class="resource">
+								<a href="https://www.armis.com/blog/navigating-the-crowdstrike-and-microsoft-outages-lessons-for-ot-industries/">
+																			<div class="resource__category">
+											<ul>
+																									<li>
+														Attacks &amp; Vulnerabilities													</li>
+																							</ul>
+										</div><!-- /.resource__category -->
+									
+									<div class="resource__image image-fit">
+										<img width="360" height="160" src="https://www.armis.com/wp-content/uploads/2024/07/Armis-Web-Crowdstrike-Outage-2-360x160-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image wp-image-2550072 wp-post-2550070" alt="Armis labs tile image" decoding="async" srcset="https://www.armis.com/wp-content/uploads/2024/07/Armis-Web-Crowdstrike-Outage-2-360x160-1.jpg 360w, https://www.armis.com/wp-content/uploads/2024/07/Armis-Web-Crowdstrike-Outage-2-360x160-1-300x133.jpg 300w" sizes="(max-width: 360px) 100vw, 360px">									</div><!-- /.resource__image -->
+
+									<div class="resource__content">
+										<h5>
+											Navigating The CrowdStrike and Microsoft Outages: Lessons For OT Industries										</h5>
+																					
+										<div class="article__author">
+											<div class="card-author">
+												<div class="card__image image-fit">
+													<img width="400" height="400" src="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686856163/images/Armis-Security-author/Armis-Security-author.jpg?_i=AA" class="attachment-small size-small wp-image-25421" alt="Armis Security Blog Author" decoding="async" data-public-id="images/Armis-Security-author/Armis-Security-author.jpg" data-format="jpg" data-transformations="f_auto,q_auto" data-version="1686856163" data-seo="1" data-responsive="1" srcset="https://res.cloudinary.com/armis/images/w_400,h_400,c_fill,g_auto/f_auto,q_auto/v1686856163/images/Armis-Security-author/Armis-Security-author.jpg?_i=AA 400w, https://res.cloudinary.com/armis/images/w_248,h_248,c_fill,g_auto/f_auto,q_auto/v1686856163/images/Armis-Security-author/Armis-Security-author.jpg?_i=AA 248w" sizes="(max-width: 400px) 100vw, 400px">												</div><!-- /.card__image -->
+												<div class="card__content">
+													<h6>
+															By Armis													</h6>
+					
+																									</div><!-- /.card__content -->
+											</div><!-- /.card-author -->
+										</div><!-- /.article__author -->
+									</div><!-- /.resource__content -->
+
+									<div class="resource__actions">
+										<span>
+											<i class="fa-solid fa-circle-arrow-right"></i>
+
+											Learn More										</span>
+									</div><!-- /.resource__actions -->
+								</a>
+							</div><!-- /.resource -->]]></content>
     </entry>
 </feed>

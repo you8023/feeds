@@ -1,356 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://bugscale.ch/blog/</id>
-    <title>bugscale</title>
-    <updated>2026-08-11T08:04:53.602Z</updated>
+    <id>https://hhj4ck.github.io/</id>
+    <title>hhj4ck</title>
+    <updated>2026-08-11T08:40:35.261Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <icon>https://bugscale.ch/blog/favicon.ico</icon>
+    <icon>https://hhj4ck.github.io/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Here We Go Again: A Five-Bug Chain to Arbitrary APK Install on Samsung S25]]></title>
-        <id>https://bugscale.ch/blog/here-we-go-again-a-five-bug-chain-to-arbitrary-apk-install-on-samsung-s25/</id>
-        <link href="https://bugscale.ch/blog/here-we-go-again-a-five-bug-chain-to-arbitrary-apk-install-on-samsung-s25/"/>
-        <updated>2026-04-30T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="bg-white rounded-2xl shadow-lg border-2 border-gray-200 p-8 lg:p-10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-[var(--color-bugscale)]/30">
-              <a href="/blog/here-we-go-again-a-five-bug-chain-to-arbitrary-apk-install-on-samsung-s25/" class="block">
-                <!-- Meta Information -->
-                <div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-gray-500">
-                  <div class="flex items-center">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
-                      </path>
-                    </svg>
-                    <time datetime="30 April 2026">
-                      30 April 2026
-                    </time>
-                  </div>
-                  <span class="text-gray-300">•</span>
-                  <div class="flex items-center">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
-                      </path>
-                    </svg>
-                    Sacha Kozma, Yichen Chai
-                  </div>
-                  
-                    <span class="text-gray-300">•</span>
-                    <div class="flex items-center">
-                      <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
-                        </path>
-                      </svg>
-                      15 mins
-                    </div>
-                  
-                </div>
-                <!-- Title and Content -->
-                <div class="flex items-start justify-between gap-6">
-                  <div class="flex-1">
-                    <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                      Here We Go Again: A Five-Bug Chain to Arbitrary APK Install on Samsung S25
-                    </h2>
-                    <p class="text-gray-600 leading-relaxed mb-6 text-lg">This post breaks down a bug chain we found in Samsung Galaxy Store that leads to arbitrary local APK install on the Samsung S25, using weak signature verification, an unprotected exported receiver, path traversal, predictable randomness, and a denial-of-service bug.</p>
-                    <!-- Tags -->
-                    
-                      <div class="flex flex-wrap gap-2">
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Android
-                            </span>
-                          
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Samsung
-                            </span>
-                          
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Mobile Security
-                            </span>
-                          
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Exploit
-                            </span>
-                          
-                        
-                      </div>
-                    
-                  </div>
-                  <!-- Arrow Icon -->
-                  <div class="flex-shrink-0">
-                    <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-[var(--color-bugscale)] transition-all duration-300 group-hover:scale-105">
-                      <svg class="w-6 h-6 text-gray-600 group-hover:text-white transform transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
+        <title type="html"><![CDATA[Break the Trust Chain of the Ethereum Phone]]></title>
+        <id>https://hhj4ck.github.io/en/break-the-trust-chain-of-the-ethereum-phone.html</id>
+        <link href="https://hhj4ck.github.io/en/break-the-trust-chain-of-the-ethereum-phone.html"/>
+        <updated>2026-08-09T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<span class="post-meta">Aug 9, 2026</span>
+            <h3>
+              <a class="post-link" href="/en/break-the-trust-chain-of-the-ethereum-phone.html">
+                Break the Trust Chain of the Ethereum Phone
               </a>
-            </div>]]></content>
+            </h3>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Shoot for the Galaxies: Our Samsung S25 1-click RCE Journey]]></title>
-        <id>https://bugscale.ch/blog/shoot-for-the-galaxies-our-samsung-s25-1-click-rce-journey/</id>
-        <link href="https://bugscale.ch/blog/shoot-for-the-galaxies-our-samsung-s25-1-click-rce-journey/"/>
-        <updated>2026-03-20T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="bg-white rounded-2xl shadow-lg border-2 border-gray-200 p-8 lg:p-10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-[var(--color-bugscale)]/30">
-              <a href="/blog/shoot-for-the-galaxies-our-samsung-s25-1-click-rce-journey/" class="block">
-                <!-- Meta Information -->
-                <div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-gray-500">
-                  <div class="flex items-center">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
-                      </path>
-                    </svg>
-                    <time datetime="20 March 2026">
-                      20 March 2026
-                    </time>
-                  </div>
-                  <span class="text-gray-300">•</span>
-                  <div class="flex items-center">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
-                      </path>
-                    </svg>
-                    Yichen Chai, Sacha Kozma
-                  </div>
-                  
-                    <span class="text-gray-300">•</span>
-                    <div class="flex items-center">
-                      <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
-                        </path>
-                      </svg>
-                      30 mins
-                    </div>
-                  
-                </div>
-                <!-- Title and Content -->
-                <div class="flex items-start justify-between gap-6">
-                  <div class="flex-1">
-                    <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                      Shoot for the Galaxies: Our Samsung S25 1-click RCE Journey
-                    </h2>
-                    <p class="text-gray-600 leading-relaxed mb-6 text-lg">This article covers our journey for Pwn2Own Ireland 2025, where a chain of bugs in Smart Switch eventually gave us a way to install and launch arbitrary APKs from a single link. At the center of that chain was a migration component quietly listening on a socket and parsing commands from the network.</p>
-                    <!-- Tags -->
-                    
-                      <div class="flex flex-wrap gap-2">
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Android
-                            </span>
-                          
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Samsung
-                            </span>
-                          
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Mobile Security
-                            </span>
-                          
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Exploit
-                            </span>
-                          
-                        
-                      </div>
-                    
-                  </div>
-                  <!-- Arrow Icon -->
-                  <div class="flex-shrink-0">
-                    <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-[var(--color-bugscale)] transition-all duration-300 group-hover:scale-105">
-                      <svg class="w-6 h-6 text-gray-600 group-hover:text-white transform transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
+        <title type="html"><![CDATA[reset_handler as Input: Hard Brick & Code Execution on Ledger Stax]]></title>
+        <id>https://hhj4ck.github.io/en/ledger-lsb021-stax-ble-reset-handler.html</id>
+        <link href="https://hhj4ck.github.io/en/ledger-lsb021-stax-ble-reset-handler.html"/>
+        <updated>2026-04-07T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<span class="post-meta">Apr 7, 2026</span>
+            <h3>
+              <a class="post-link" href="/en/ledger-lsb021-stax-ble-reset-handler.html">
+                reset_handler as Input: Hard Brick &amp; Code Execution on Ledger Stax
               </a>
-            </div>]]></content>
+            </h3>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Defending Against Software Supply Chain Attacks: A Cross-Ecosystem Guide]]></title>
-        <id>https://bugscale.ch/blog/defending-against-software-supply-chain-attacks-a-cross-ecosystem-guide/</id>
-        <link href="https://bugscale.ch/blog/defending-against-software-supply-chain-attacks-a-cross-ecosystem-guide/"/>
-        <updated>2025-10-24T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="bg-white rounded-2xl shadow-lg border-2 border-gray-200 p-8 lg:p-10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-[var(--color-bugscale)]/30">
-              <a href="/blog/defending-against-software-supply-chain-attacks-a-cross-ecosystem-guide/" class="block">
-                <!-- Meta Information -->
-                <div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-gray-500">
-                  <div class="flex items-center">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
-                      </path>
-                    </svg>
-                    <time datetime="24 October 2025">
-                      24 October 2025
-                    </time>
-                  </div>
-                  <span class="text-gray-300">•</span>
-                  <div class="flex items-center">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
-                      </path>
-                    </svg>
-                    Florent Trupheme
-                  </div>
-                  
-                    <span class="text-gray-300">•</span>
-                    <div class="flex items-center">
-                      <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
-                        </path>
-                      </svg>
-                      30 mins
-                    </div>
-                  
-                </div>
-                <!-- Title and Content -->
-                <div class="flex items-start justify-between gap-6">
-                  <div class="flex-1">
-                    <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                      Defending Against Software Supply Chain Attacks: A Cross-Ecosystem Guide
-                    </h2>
-                    <p class="text-gray-600 leading-relaxed mb-6 text-lg">Objective is to provide a cross-ecosystem implementation guide for supply chain security, offering concrete and detailed configuration and command examples for npm, Python, Java, and Go. Recommendations are organized by maturity level with a risk comparison framework and control effectiveness analysis supporting the prioritization.</p>
-                    <!-- Tags -->
-                    
-                      <div class="flex flex-wrap gap-2">
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Software Supply Chain
-                            </span>
-                          
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Practical Remediation Guidance
-                            </span>
-                          
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Node
-                            </span>
-                          
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Java
-                            </span>
-                          
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Go
-                            </span>
-                          
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              Python
-                            </span>
-                          
-                        
-                      </div>
-                    
-                  </div>
-                  <!-- Arrow Icon -->
-                  <div class="flex-shrink-0">
-                    <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-[var(--color-bugscale)] transition-all duration-300 group-hover:scale-105">
-                      <svg class="w-6 h-6 text-gray-600 group-hover:text-white transform transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
+        <title type="html"><![CDATA[Bootloader to Iris: A Security Teardown of a Hardware Wallet]]></title>
+        <id>https://hhj4ck.github.io/en/iris-wallet-security-teardown.html</id>
+        <link href="https://hhj4ck.github.io/en/iris-wallet-security-teardown.html"/>
+        <updated>2025-10-07T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<span class="post-meta">Oct 7, 2025</span>
+            <h3>
+              <a class="post-link" href="/en/iris-wallet-security-teardown.html">
+                Bootloader to Iris: A Security Teardown of a Hardware Wallet
               </a>
-            </div>]]></content>
+            </h3>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Dissecting CVE-2024-12695: Exploiting Object.assign() in V8]]></title>
-        <id>https://bugscale.ch/blog/dissecting-cve-2024-12695-exploiting-object-assign-in-v8/</id>
-        <link href="https://bugscale.ch/blog/dissecting-cve-2024-12695-exploiting-object-assign-in-v8/"/>
-        <updated>2025-06-12T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="bg-white rounded-2xl shadow-lg border-2 border-gray-200 p-8 lg:p-10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-[var(--color-bugscale)]/30">
-              <a href="/blog/dissecting-cve-2024-12695-exploiting-object-assign-in-v8/" class="block">
-                <!-- Meta Information -->
-                <div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-gray-500">
-                  <div class="flex items-center">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
-                      </path>
-                    </svg>
-                    <time datetime="12 June 2025">
-                      12 June 2025
-                    </time>
-                  </div>
-                  <span class="text-gray-300">•</span>
-                  <div class="flex items-center">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
-                      </path>
-                    </svg>
-                    Dimitri Fourny
-                  </div>
-                  
-                    <span class="text-gray-300">•</span>
-                    <div class="flex items-center">
-                      <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
-                        </path>
-                      </svg>
-                      20 mins
-                    </div>
-                  
-                </div>
-                <!-- Title and Content -->
-                <div class="flex items-start justify-between gap-6">
-                  <div class="flex-1">
-                    <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                      Dissecting CVE-2024-12695: Exploiting Object.assign() in V8
-                    </h2>
-                    <p class="text-gray-600 leading-relaxed mb-6 text-lg">Bug 383647255 was reported to the Chromium bug tracker on December 12, 2024. In this article, we will look at the root cause of this vulnerability and walk through how it can be exploited to achieve arbitrary read/write access in V8, the JavaScript engine used by Chrome and other Chromium-based browsers.</p>
-                    <!-- Tags -->
-                    
-                      <div class="flex flex-wrap gap-2">
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              browser
-                            </span>
-                          
-                        
-                          
-                            <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium group-hover:bg-[var(--color-bugscale)]/10 group-hover:text-[var(--color-bugscale)] transition-colors duration-300">
-                              chrome
-                            </span>
-                          
-                        
-                      </div>
-                    
-                  </div>
-                  <!-- Arrow Icon -->
-                  <div class="flex-shrink-0">
-                    <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-[var(--color-bugscale)] transition-all duration-300 group-hover:scale-105">
-                      <svg class="w-6 h-6 text-gray-600 group-hover:text-white transform transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
+        <title type="html"><![CDATA[A Deep Dive into a Starknet Wallet Vulnerability: Abusing the Gasless Mechanism]]></title>
+        <id>https://hhj4ck.github.io/starknet-wallet-vulnerability-gasless-abuse.html</id>
+        <link href="https://hhj4ck.github.io/starknet-wallet-vulnerability-gasless-abuse.html"/>
+        <updated>2025-09-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<span class="post-meta">Sep 3, 2025</span>
+            <h3>
+              <a class="post-link" href="/starknet-wallet-vulnerability-gasless-abuse.html">
+                A Deep Dive into a Starknet Wallet Vulnerability: Abusing the Gasless Mechanism
               </a>
-            </div>]]></content>
+            </h3>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Full-Chain Exploit of an Unfused Qualcomm Device]]></title>
+        <id>https://hhj4ck.github.io/qualcomm/secboot-off-qcm2150.html</id>
+        <link href="https://hhj4ck.github.io/qualcomm/secboot-off-qcm2150.html"/>
+        <updated>2025-08-06T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<span class="post-meta">Aug 6, 2025</span>
+            <h3>
+              <a class="post-link" href="/qualcomm/secboot-off-qcm2150.html">
+                A Full-Chain Exploit of an Unfused Qualcomm Device
+              </a>
+            </h3>]]></content>
     </entry>
 </feed>
