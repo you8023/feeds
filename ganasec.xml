@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ganasec.com/blog</id>
+    <title>ganasec</title>
+    <updated>2026-08-12T21:24:16.828Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <icon>https://ganasec.com/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[The 2017 Ghost in the Time Machine: Hunting IOTimeSyncFamily on macOS 26]]></title>
+        <id>https://ganasec.com/blog/the-2017-ghost-in-the-time-machine-hunting-iotimesyncfamily</id>
+        <link href="https://ganasec.com/blog/the-2017-ghost-in-the-time-machine-hunting-iotimesyncfamily"/>
+        <updated>2026-05-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="gs-blog-card-body"><div class="gs-blog-row-meta"><span class="gs-blog-tag">RESEARCH</span><span class="gs-mono gs-muted">2026-05-19</span><span class="gs-mono gs-muted">7 min</span></div><h3 class="gs-blog-row-title">The 2017 Ghost in the Time Machine: Hunting IOTimeSyncFamily on macOS 26</h3><p class="gs-blog-row-excerpt">A regression in Apple's IOTimeSyncFamily brought back a 2017 IOKit lifecycle race, leading to CVE-2026-28969 and a reliable macOS kernel panic.</p><span class="gs-blog-row-arrow">Read</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 2017 Ghost in the Time Machine — Part 2: Exploitation Attempts]]></title>
+        <id>https://ganasec.com/blog/the-2017-ghost-in-the-time-machine-part-2-exploitation-attempts</id>
+        <link href="https://ganasec.com/blog/the-2017-ghost-in-the-time-machine-part-2-exploitation-attempts"/>
+        <updated>2026-04-30T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="gs-blog-card-body"><div class="gs-blog-row-meta"><span class="gs-blog-tag">RESEARCH</span><span class="gs-mono gs-muted">2026-04-30</span><span class="gs-mono gs-muted">10 min</span></div><h3 class="gs-blog-row-title">The 2017 Ghost in the Time Machine — Part 2: Exploitation Attempts</h3><p class="gs-blog-row-excerpt">A PAC-clean kernel write primitive hiding in plain sight, and five mitigations standing between it and a full exploit.</p><span class="gs-blog-row-arrow">Read</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chaining an SSO Misconfiguration into Organization Admin]]></title>
+        <id>https://ganasec.com/blog/sso-misconfig-orgadmin</id>
+        <link href="https://ganasec.com/blog/sso-misconfig-orgadmin"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="gs-blog-card-body"><div class="gs-blog-row-meta"><span class="gs-blog-tag">RESEARCH</span><span class="gs-mono gs-muted">2026-04-14</span><span class="gs-mono gs-muted">9 min</span></div><h3 class="gs-blog-row-title">Chaining an SSO Misconfiguration into Organization Admin</h3><p class="gs-blog-row-excerpt">An anonymized red-team case study showing how staging identity drift, weak SAML attribute assumptions, and environment trust boundaries can combine into organization-level compromise.</p><span class="gs-blog-row-arrow">Read</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Your Pentest Report Became a Compliance Artifact]]></title>
+        <id>https://ganasec.com/blog/pentest-vs-compliance</id>
+        <link href="https://ganasec.com/blog/pentest-vs-compliance"/>
+        <updated>2026-03-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="gs-blog-card-body"><div class="gs-blog-row-meta"><span class="gs-blog-tag">OPINION</span><span class="gs-mono gs-muted">2026-03-12</span><span class="gs-mono gs-muted">8 min</span></div><h3 class="gs-blog-row-title">Why Your Pentest Report Became a Compliance Artifact</h3><p class="gs-blog-row-excerpt">Most penetration testing reports fail because they are bought for assurance but consumed by engineers. Here is how to make reports useful for auditors, leaders, and builders at the same time.</p><span class="gs-blog-row-arrow">Read</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stack Spoofing on Windows 11 24H2: What EDR Telemetry Misses]]></title>
+        <id>https://ganasec.com/blog/edr-stack-spoofing</id>
+        <link href="https://ganasec.com/blog/edr-stack-spoofing"/>
+        <updated>2026-02-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="gs-blog-card-body"><div class="gs-blog-row-meta"><span class="gs-blog-tag">TRADECRAFT</span><span class="gs-mono gs-muted">2026-02-24</span><span class="gs-mono gs-muted">9 min</span></div><h3 class="gs-blog-row-title">Stack Spoofing on Windows 11 24H2: What EDR Telemetry Misses</h3><p class="gs-blog-row-excerpt">A defender-focused breakdown of stack spoofing, why shallow call-stack inspection fails, and how mature teams can hunt suspicious unwind behavior without relying on brittle IOCs.</p><span class="gs-blog-row-arrow">Read</span></div>]]></content>
+    </entry>
+</feed>
