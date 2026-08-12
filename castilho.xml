@@ -2,49 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://castilho.sh/</id>
     <title>castilho blog</title>
-    <updated>2026-08-12T18:28:21.396Z</updated>
+    <updated>2026-08-12T19:47:07.854Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://castilho.sh/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Stealing Salesforce OAuth Tokens using the WAF]]></title>
         <id>https://castilho.sh/salesforce-oauth-ato</id>
         <link href="https://castilho.sh/salesforce-oauth-ato"/>
-        <updated>2026-08-12T18:21:50.529Z</updated>
+        <updated>2026-08-12T19:40:49.989Z</updated>
         <content type="html"><![CDATA[<div class="border bg-card text-card-foreground relative flex flex-col md:flex-row overflow-hidden z-10 rounded-[5px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] w-full"><div class="relative w-full md:w-1/2 aspect-[2/1] md:aspect-auto md:order-last"><img alt="Stealing Salesforce OAuth Tokens using the WAF screenshot" style="position: absolute; inset: 0px; width: 100%; height: 100%; max-width: 100%;" class="object-cover" src="/banner.jpg"></div><div class="flex-1 p-0 w-full"><div class="flex flex-col space-y-1.5 p-6"><div class="flex items-center border-l-4 border-red-500 pl-[10px]"><div class="font-semibold leading-none tracking-tight">Stealing Salesforce OAuth Tokens using the WAF</div></div><div class="text-sm text-muted-foreground">Recently I was conducting a pentest on a Salesforce instance when I stumbled upon an XSS vulnerability. This writeup details that vulnerability and how  ...</div></div><div class="items-center p-6 pt-0 hidden md:flex gap-3 text-xs"><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">XSS</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">WAF</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">OAuth</button></div></div></div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Scream at it until it Escalates - XSS to ATO via Server Size Errors Gadgets]]></title>
         <id>https://castilho.sh/scream-until-escalates</id>
         <link href="https://castilho.sh/scream-until-escalates"/>
-        <updated>2026-08-12T18:21:50.531Z</updated>
+        <updated>2026-08-12T19:40:49.990Z</updated>
         <content type="html"><![CDATA[<div class="border bg-card text-card-foreground relative flex flex-col md:flex-row overflow-hidden z-10 rounded-[5px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] w-full"><div class="relative w-full md:w-1/2 aspect-[2/1] md:aspect-auto "><img alt="Scream at it until it Escalates - XSS to ATO via Server Size Errors Gadgets screenshot" style="position: absolute; inset: 0px; width: 100%; height: 100%; max-width: 100%;" class="object-cover" src="/research_size.png"></div><div class="flex-1 p-0 w-full"><div class="flex flex-col space-y-1.5 p-6"><div class="flex items-center border-l-4 border-red-500 pl-[10px]"><div class="font-semibold leading-none tracking-tight">Scream at it until it Escalates - XSS to ATO via Server Size Errors Gadgets</div></div><div class="text-sm text-muted-foreground">Servers and Frameworks, just like us humans, have their own limitations in terms of how much data they can handle at once. Maybe you're are familiar with ...</div></div><div class="items-center p-6 pt-0 hidden md:flex gap-3 text-xs"><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">XSS</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Server Errors</button></div></div></div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Bypass trustedOrigins Protection leads to ATO]]></title>
         <id>https://castilho.sh/better-auth</id>
         <link href="https://castilho.sh/better-auth"/>
-        <updated>2026-08-12T18:21:50.533Z</updated>
+        <updated>2026-08-12T19:40:49.992Z</updated>
         <content type="html"><![CDATA[<div class="border bg-card text-card-foreground relative flex flex-col md:flex-row overflow-hidden z-10 rounded-[5px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] w-full"><div class="relative w-full md:w-1/2 aspect-[2/1] md:aspect-auto md:order-last"><img alt="Bypass trustedOrigins Protection leads to ATO screenshot" style="position: absolute; inset: 0px; width: 100%; height: 100%; max-width: 100%;" class="object-cover" src="/better-auth.png"></div><div class="flex-1 p-0 w-full"><div class="flex flex-col space-y-1.5 p-6"><div class="flex items-center border-l-4 border-red-500 pl-[10px]"><div class="font-semibold leading-none tracking-tight">Bypass trustedOrigins Protection leads to ATO</div></div><div class="text-sm text-muted-foreground">Like starting recon scripts from scratch from time to time just because we feel like it, I decided to do that for my blog and it's design in general ...</div></div><div class="items-center p-6 pt-0 hidden md:flex gap-3 text-xs"><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Open Redirect</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Business Logic</button></div></div></div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Kanboard - Spraying Malicious Tasks]]></title>
         <id>https://castilho.sh/kanboard</id>
         <link href="https://castilho.sh/kanboard"/>
-        <updated>2026-08-12T18:21:50.534Z</updated>
+        <updated>2026-08-12T19:40:49.994Z</updated>
         <content type="html"><![CDATA[<div class="border bg-card text-card-foreground relative flex flex-col md:flex-row overflow-hidden z-10 rounded-[5px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] w-full"><div class="relative w-full md:w-1/2 aspect-[2/1] md:aspect-auto "><img alt="Kanboard - Spraying Malicious Tasks screenshot" style="position: absolute; inset: 0px; width: 100%; height: 100%; max-width: 100%;" class="object-cover" src="/board.png"></div><div class="flex-1 p-0 w-full"><div class="flex flex-col space-y-1.5 p-6"><div class="flex items-center border-l-4 border-red-500 pl-[10px]"><div class="font-semibold leading-none tracking-tight">Kanboard - Spraying Malicious Tasks</div></div><div class="text-sm text-muted-foreground">Kanboard is a widely used Kanban project management software with over 10 million downloads on Docker Hub. Today we're going explore how I found ...</div></div><div class="items-center p-6 pt-0 hidden md:flex gap-3 text-xs"><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Open Redirect</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Business Logic</button></div></div></div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Stealing Credit Card Info with CSS]]></title>
         <id>https://castilho.sh/css-injection-credit-card</id>
         <link href="https://castilho.sh/css-injection-credit-card"/>
-        <updated>2026-08-12T18:21:50.535Z</updated>
+        <updated>2026-08-12T19:40:49.995Z</updated>
         <content type="html"><![CDATA[<div class="border bg-card text-card-foreground relative flex flex-col md:flex-row overflow-hidden z-10 rounded-[5px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] w-full"><div class="relative w-full md:w-1/2 aspect-[2/1] md:aspect-auto md:order-last"><img alt="Stealing Credit Card Info with CSS screenshot" style="position: absolute; inset: 0px; width: 100%; height: 100%; max-width: 100%;" class="object-cover" src="/image.png"></div><div class="flex-1 p-0 w-full"><div class="flex flex-col space-y-1.5 p-6"><div class="flex items-center border-l-4 border-red-500 pl-[10px]"><div class="font-semibold leading-none tracking-tight">Stealing Credit Card Info with CSS</div></div><div class="text-sm text-muted-foreground">In this writeup I'll walk you through how I used CSS Injection to steal users Credit Card Info via Post-Messages ...</div></div><div class="items-center p-6 pt-0 hidden md:flex gap-3 text-xs"><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Web Sockets</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">CSS Injection</button></div></div></div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[CVE-2022-0478 Wordpress Event-Manager Plugin SQLI]]></title>
         <id>https://castilho.sh/cve-2022-0478</id>
         <link href="https://castilho.sh/cve-2022-0478"/>
-        <updated>2026-08-12T18:21:50.537Z</updated>
+        <updated>2026-08-12T19:40:49.997Z</updated>
         <content type="html"><![CDATA[<div class="border bg-card text-card-foreground relative flex flex-col md:flex-row overflow-hidden z-10 rounded-[5px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] w-full"><div class="relative w-full md:w-1/2 aspect-[2/1] md:aspect-auto "><img alt="CVE-2022-0478 Wordpress Event-Manager Plugin SQLI screenshot" style="position: absolute; inset: 0px; width: 100%; height: 100%; max-width: 100%;" class="object-cover" src="/wow.png"></div><div class="flex-1 p-0 w-full"><div class="flex flex-col space-y-1.5 p-6"><div class="flex items-center border-l-4 border-red-500 pl-[10px]"><div class="font-semibold leading-none tracking-tight">CVE-2022-0478 Wordpress Event-Manager Plugin SQLI</div></div><div class="text-sm text-muted-foreground">It's been a while since I posted something ... But I plan to bring new content into the blog and to get off on the right foot. We'll start with ...</div></div><div class="items-center p-6 pt-0 hidden md:flex gap-3 text-xs"><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">SQL Injection</button><button class="px-2 py-1 border-2 border-black dark:border-white bg-white text-black shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0)]">Business Logic</button></div></div></div>]]></content>
     </entry>
 </feed>
