@@ -2,9 +2,328 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-08-12T10:46:37.435Z</updated>
+    <updated>2026-08-12T12:22:04.375Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[The 403 that started Zero-Access: read-only by architecture, not trust]]></title>
+        <id>https://dev.to/ketan_kamble_d643aad66d22/the-403-that-started-zero-access-read-only-by-architecture-not-trust-439e</id>
+        <link href="https://dev.to/ketan_kamble_d643aad66d22/the-403-that-started-zero-access-read-only-by-architecture-not-trust-439e"/>
+        <updated>2026-08-12T10:58:54.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/ketan_kamble_d643aad66d22/the-403-that-started-zero-access-read-only-by-architecture-not-trust-439e" aria-labelledby="article-link-4377435" class="crayons-story__hidden-navigation-link">The 403 that started Zero-Access: read-only by architecture, not trust</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/ketan_kamble_d643aad66d22" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4074629%2F6f2a0f10-dfc7-41ab-8ddc-2aa185ac4f09.png" alt="ketan_kamble_d643aad66d22 profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/ketan_kamble_d643aad66d22" class="crayons-story__secondary fw-medium m:hidden">
+              Ketan Kamble
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4377435" aria-controls="story-author-preview-content-4377435" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Ketan Kamble profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Ketan Kamble
+                
+              </button>
+              <div id="story-author-preview-content-4377435" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/ketan_kamble_d643aad66d22" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4074629%2F6f2a0f10-dfc7-41ab-8ddc-2aa185ac4f09.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Ketan Kamble</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4074629,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Ketan Kamble&quot;}" data-fetched="fetched" aria-label="Follow user: Ketan Kamble" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="4074629"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/ketan_kamble_d643aad66d22/the-403-that-started-zero-access-read-only-by-architecture-not-trust-439e" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-12T10:58:54Z" title="Wednesday, August 12, 2026 at 10:58:54 AM">Aug 12</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1786532334"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/ketan_kamble_d643aad66d22/the-403-that-started-zero-access-read-only-by-architecture-not-trust-439e" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa2k4b6nrvlmyj2bjktv6.webp" id="article-link-4377435">
+          The 403 that started Zero-Access: read-only by architecture, not trust
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(10, 120, 230, 0.10);
+        --tag-prefix: #0a78e6;
+        --tag-bg-hover: rgba(10, 120, 230, 0.10);
+        --tag-prefix-hover: #0a78e6;
+      " href="/t/microsoftgraph"><span class="crayons-tag__prefix">#</span>microsoftgraph</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 127, 255, 0.10);
+        --tag-prefix: #007fff;
+        --tag-bg-hover: rgba(0, 127, 255, 0.10);
+        --tag-prefix-hover: #007fff;
+      " href="/t/azure"><span class="crayons-tag__prefix">#</span>azure</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/ketan_kamble_d643aad66d22/the-403-that-started-zero-access-read-only-by-architecture-not-trust-439e#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The 403 that started Zero-Access: read-only by architecture, not trust">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aiiutnhnhh266gs2n3xpcay5rt7uczi9" class="crayons-icon"><title id="aiiutnhnhh266gs2n3xpcay5rt7uczi9">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I Automated My Entire GitOps Security Stack. The First Thing It Blocked Was My Own Salary.]]></title>
+        <id>https://dev.to/le_beltagy/i-automated-my-entire-gitops-security-stack-the-first-thing-it-blocked-was-my-own-salary-227e</id>
+        <link href="https://dev.to/le_beltagy/i-automated-my-entire-gitops-security-stack-the-first-thing-it-blocked-was-my-own-salary-227e"/>
+        <updated>2026-08-12T10:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/le_beltagy/i-automated-my-entire-gitops-security-stack-the-first-thing-it-blocked-was-my-own-salary-227e" aria-labelledby="article-link-4376811" class="crayons-story__hidden-navigation-link">I Automated My Entire GitOps Security Stack. The First Thing It Blocked Was My Own Salary.</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/le_beltagy" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1898135%2F5ef7f7dd-7439-4956-856d-fc2c3a00f2ac.jpeg" alt="le_beltagy profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/le_beltagy" class="crayons-story__secondary fw-medium m:hidden">
+              Le Beltagy
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4376811" aria-controls="story-author-preview-content-4376811" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Le Beltagy profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Le Beltagy
+                
+              </button>
+              <div id="story-author-preview-content-4376811" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/le_beltagy" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1898135%2F5ef7f7dd-7439-4956-856d-fc2c3a00f2ac.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Le Beltagy</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1898135,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Le Beltagy&quot;}" data-fetched="fetched" aria-label="Follow user: Le Beltagy" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="1898135"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/le_beltagy/i-automated-my-entire-gitops-security-stack-the-first-thing-it-blocked-was-my-own-salary-227e" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-12T10:00:00Z" title="Wednesday, August 12, 2026 at 10:00:00 AM">Aug 12</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1786528800"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/le_beltagy/i-automated-my-entire-gitops-security-stack-the-first-thing-it-blocked-was-my-own-salary-227e" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frvjfi7ee0tmi1xp1mem5.png" id="article-link-4376811">
+          I Automated My Entire GitOps Security Stack. The First Thing It Blocked Was My Own Salary.
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/gitops"><span class="crayons-tag__prefix">#</span>gitops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/le_beltagy/i-automated-my-entire-gitops-security-stack-the-first-thing-it-blocked-was-my-own-salary-227e" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4376811" aria-label="Add a comment to post - I Automated My Entire GitOps Security Stack. The First Thing It Blocked Was My Own Salary.">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" width="18" height="18">
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18">
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">9<span class="hidden s:inline">&nbsp;reactions</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/le_beltagy/i-automated-my-entire-gitops-security-stack-the-first-thing-it-blocked-was-my-own-salary-227e#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I Automated My Entire GitOps Security Stack. The First Thing It Blocked Was My Own Salary.">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ag5emgxe9a1oh0ztqlk83ajlwk1dhpq5" class="crayons-icon"><title id="ag5emgxe9a1oh0ztqlk83ajlwk1dhpq5">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              1<span class="hidden s:inline">&nbsp;comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            10 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AIUC-1: what the first AI agent standard means before you ship assistant access]]></title>
+        <id>https://dev.to/apogeewatcher/aiuc-1-what-the-first-ai-agent-standard-means-before-you-ship-assistant-access-59aa</id>
+        <link href="https://dev.to/apogeewatcher/aiuc-1-what-the-first-ai-agent-standard-means-before-you-ship-assistant-access-59aa"/>
+        <updated>2026-08-12T11:20:28.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/apogeewatcher/aiuc-1-what-the-first-ai-agent-standard-means-before-you-ship-assistant-access-59aa" aria-labelledby="article-link-4377616" class="crayons-story__hidden-navigation-link">AIUC-1: what the first AI agent standard means before you ship assistant access</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/apogeewatcher" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3769723%2Fa33f1555-0cd4-4f44-b524-a9608ed39a2c.png" alt="apogeewatcher profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/apogeewatcher" class="crayons-story__secondary fw-medium m:hidden">
+              Apogee Watcher
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4377616" aria-controls="story-author-preview-content-4377616" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Apogee Watcher profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Apogee Watcher
+                
+              </button>
+              <div id="story-author-preview-content-4377616" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/apogeewatcher" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3769723%2Fa33f1555-0cd4-4f44-b524-a9608ed39a2c.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Apogee Watcher</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3769723,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Apogee Watcher&quot;}" data-fetched="fetched" aria-label="Follow user: Apogee Watcher" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3769723"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/apogeewatcher/aiuc-1-what-the-first-ai-agent-standard-means-before-you-ship-assistant-access-59aa" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-12T11:20:28Z" title="Wednesday, August 12, 2026 at 11:20:28 AM">Aug 12</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1786533628"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/apogeewatcher/aiuc-1-what-the-first-ai-agent-standard-means-before-you-ship-assistant-access-59aa" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fapogeewatcher.com%2Fhashnode-covers%2Faiuc-1-ai-agent-standard-saas-assistant-access_cover.png" id="article-link-4377616">
+          AIUC-1: what the first AI agent standard means before you ship assistant access
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(137, 6, 6, 0.10);
+        --tag-prefix: #890606;
+        --tag-bg-hover: rgba(137, 6, 6, 0.10);
+        --tag-prefix-hover: #890606;
+      " href="/t/programming"><span class="crayons-tag__prefix">#</span>programming</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/backend"><span class="crayons-tag__prefix">#</span>backend</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/apogeewatcher/aiuc-1-what-the-first-ai-agent-standard-means-before-you-ship-assistant-access-59aa#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AIUC-1: what the first AI agent standard means before you ship assistant access">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aablfoczrvb03k9phfmnj6osrizk8s70" class="crayons-icon"><title id="aablfoczrvb03k9phfmnj6osrizk8s70">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cloudflare OS คืออะไร — แพลตฟอร์มโอเพ่นซอร์สคุมสิทธิ์ AI Agent ที่เข้าถึงข้อมูลองค์กร]]></title>
         <id>https://dev.to/sarantoon/cloudflare-os-khuueaair-aephltfrmoephnchrskhumsiththi-ai-agent-thiiekhaathuengkhmuulngkhkr-2nd0</id>
@@ -92,7 +411,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/sarantoon/cloudflare-os-khuueaair-aephltfrmoephnchrskhumsiththi-ai-agent-thiiekhaathuengkhmuulngkhkr-2nd0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Cloudflare OS คืออะไร — แพลตฟอร์มโอเพ่นซอร์สคุมสิทธิ์ AI Agent ที่เข้าถึงข้อมูลองค์กร">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ai593po8xa2u7h34cvewu5g12dksepw0" class="crayons-icon"><title id="ai593po8xa2u7h34cvewu5g12dksepw0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1zkckmp3likixiv2cjywxei33wm2n2f" class="crayons-icon"><title id="a1zkckmp3likixiv2cjywxei33wm2n2f">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
