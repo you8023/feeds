@@ -2004,3 +2004,12 @@ entrySelector = "article.type-post"
 titleSelector = ".entry-title > a"
 linkSelector = ".entry-title > a"
 dateSelector = "time.entry-date"
+
+[kodem]
+title = "Kodem Security Blog"
+url = "https://www.kodemsecurity.com/resources"
+entrySelector = "div.all-blogs_cms-item"
+titleSelector = "[fs-list-field='title']"
+linkSelector = "a.all-blogs_item"
+dateSelector = "[mirror-value-identifier='publish-date']"
+dateFormat = "MMMM d, yyyy"
