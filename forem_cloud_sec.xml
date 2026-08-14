@@ -2,9 +2,111 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zeroday.forem.com/t/cloudsecurity</id>
     <title>forem_cloud_sec</title>
-    <updated>2026-08-14T22:02:29.949Z</updated>
+    <updated>2026-08-14T23:00:05.397Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[IAM Roles Anywhere: AWS Access With Zero Static Keys]]></title>
+        <id>https://dev.to/mariogongora/iam-roles-anywhere-aws-access-with-zero-static-keys-3kmd</id>
+        <link href="https://dev.to/mariogongora/iam-roles-anywhere-aws-access-with-zero-static-keys-3kmd"/>
+        <updated>2026-08-13T21:56:45.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/mariogongora/iam-roles-anywhere-aws-access-with-zero-static-keys-3kmd" aria-labelledby="article-link-4390983" class="crayons-story__hidden-navigation-link">IAM Roles Anywhere: AWS Access With Zero Static Keys</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/mariogongora" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3948275%2F1686ad70-9bfd-4283-96f5-f8b3e1c23e3f.jpg" alt="mariogongora profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/mariogongora" class="crayons-story__secondary fw-medium m:hidden">
+              Mario
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4390983" aria-controls="story-author-preview-content-4390983" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Mario profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Mario
+                
+                
+              </button>
+              <div id="story-author-preview-content-4390983" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/mariogongora" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3948275%2F1686ad70-9bfd-4283-96f5-f8b3e1c23e3f.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Mario</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3948275,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Mario&quot;}" data-fetched="fetched" aria-label="Follow user: Mario" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3948275"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/mariogongora/iam-roles-anywhere-aws-access-with-zero-static-keys-3kmd" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-13T21:56:45Z" data-localized="true" title="Thursday, August 13, 2026 at 9:56:45 PM">Aug 13</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1786658205"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/mariogongora/iam-roles-anywhere-aws-access-with-zero-static-keys-3kmd" data-preload-image="" id="article-link-4390983">
+          IAM Roles Anywhere: AWS Access With Zero Static Keys
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(33, 43, 58, 0.10);
+        --tag-prefix: #212b3a;
+        --tag-bg-hover: rgba(33, 43, 58, 0.10);
+        --tag-prefix-hover: #212b3a;
+      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/iam"><span class="crayons-tag__prefix">#</span>iam</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/mariogongora/iam-roles-anywhere-aws-access-with-zero-static-keys-3kmd#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - IAM Roles Anywhere: AWS Access With Zero Static Keys">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="am8gy1u4brghejxdnuc6ult0bqpkixiy" class="crayons-icon"><title id="am8gy1u4brghejxdnuc6ult0bqpkixiy">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              1<span class="hidden s:inline">&nbsp;comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            6 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[51 Findings in SadCloud: What a Verifier Sees That Scanners Frame Differently]]></title>
         <id>https://dev.to/bala_paranj_059d338e44e7e/992-findings-in-sadcloud-what-compound-analysis-sees-that-scanners-dont-376</id>
@@ -52,7 +154,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/992-findings-in-sadcloud-what-compound-analysis-sees-that-scanners-dont-376" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-12T12:59:19Z" title="Wednesday, August 12, 2026 at 12:59:19 PM">Aug 12</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1786539559"></span></a>
+          <a href="https://dev.to/bala_paranj_059d338e44e7e/992-findings-in-sadcloud-what-compound-analysis-sees-that-scanners-dont-376" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-12T12:59:19Z" data-localized="true" title="Wednesday, August 12, 2026 at 12:59:19 PM">Aug 12</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1786539559"></span></a>
         </div>
       </div>
 
@@ -93,7 +195,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/bala_paranj_059d338e44e7e/992-findings-in-sadcloud-what-compound-analysis-sees-that-scanners-dont-376#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 51 Findings in SadCloud: What a Verifier Sees That Scanners Frame Differently">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4a9a1ze2m0kezvtww7igur5r4noj505" class="crayons-icon"><title id="a4a9a1ze2m0kezvtww7igur5r4noj505">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abkwdsskogjbvbfkmaxtth8wku3nb7ch" class="crayons-icon"><title id="abkwdsskogjbvbfkmaxtth8wku3nb7ch">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -154,7 +256,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/leobaniak/google-cloud-spells-out-its-abuse-response-ladder-throttle-isolate-suspend-4npe" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-08T08:24:41Z" title="Saturday, August 8, 2026 at 8:24:41 AM">Aug 8</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1786177481"></span></a>
+          <a href="https://dev.to/leobaniak/google-cloud-spells-out-its-abuse-response-ladder-throttle-isolate-suspend-4npe" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-08T08:24:41Z" data-localized="true" title="Saturday, August 8, 2026 at 8:24:41 AM">Aug 8</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1786177481"></span></a>
         </div>
       </div>
 
@@ -205,7 +307,7 @@
             </div>
           </a>
             <a href="https://dev.to/leobaniak/google-cloud-spells-out-its-abuse-response-ladder-throttle-isolate-suspend-4npe#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Google Cloud spells out its abuse-response ladder: throttle, isolate, suspend">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="acqzuqhlcsdz0co42g0ixdbswe9p5akx" class="crayons-icon"><title id="acqzuqhlcsdz0co42g0ixdbswe9p5akx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aoz2l9zhijle3t9f22i9lgh6nzyqc3ax" class="crayons-icon"><title id="aoz2l9zhijle3t9f22i9lgh6nzyqc3ax">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -266,7 +368,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/thoughtworks-just-named-the-problem-heres-the-structural-fix-1hio" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-07T12:12:00Z" title="Friday, August 7, 2026 at 12:12:00 PM">Aug 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1786104720"></span></a>
+          <a href="https://dev.to/bala_paranj_059d338e44e7e/thoughtworks-just-named-the-problem-heres-the-structural-fix-1hio" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-07T12:12:00Z" data-localized="true" title="Friday, August 7, 2026 at 12:12:00 PM">Aug 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1786104720"></span></a>
         </div>
       </div>
 
@@ -317,7 +419,7 @@
             </div>
           </a>
             <a href="https://dev.to/bala_paranj_059d338e44e7e/thoughtworks-just-named-the-problem-heres-the-structural-fix-1hio#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - ThoughtWorks Just Named the Problem. Here's the Structural Fix.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a217h6gd3hov4p16x2c58ghu241n2cl2" class="crayons-icon"><title id="a217h6gd3hov4p16x2c58ghu241n2cl2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqhact6o58iud8ytnuum1fmz69u2b8wb" class="crayons-icon"><title id="aqhact6o58iud8ytnuum1fmz69u2b8wb">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -378,7 +480,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/your-cloud-has-attack-paths-no-scanner-can-find-because-they-dont-exist-in-any-single-resource-4koi" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-05T11:36:04Z" title="Wednesday, August 5, 2026 at 11:36:04 AM">Aug 5</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785929764"></span></a>
+          <a href="https://dev.to/bala_paranj_059d338e44e7e/your-cloud-has-attack-paths-no-scanner-can-find-because-they-dont-exist-in-any-single-resource-4koi" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-05T11:36:04Z" data-localized="true" title="Wednesday, August 5, 2026 at 11:36:04 AM">Aug 5</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785929764"></span></a>
         </div>
       </div>
 
@@ -429,7 +531,7 @@
             </div>
           </a>
             <a href="https://dev.to/bala_paranj_059d338e44e7e/your-cloud-has-attack-paths-no-scanner-can-find-because-they-dont-exist-in-any-single-resource-4koi#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your Cloud Has Attack Paths No Scanner Can Find. Because They Don't Exist in Any Single Resource">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="am2eyacfufjqtilg1kykuumd4cjygju6" class="crayons-icon"><title id="am2eyacfufjqtilg1kykuumd4cjygju6">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ak3juvb87akbujgvtdpenizrb4atzqfv" class="crayons-icon"><title id="ak3juvb87akbujgvtdpenizrb4atzqfv">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               1<span class="hidden s:inline">&nbsp;comment</span>
             </a>
@@ -490,7 +592,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/common-mode-failure-the-blast-radius-nobody-measures-k6h" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-03T12:34:42Z" title="Monday, August 3, 2026 at 12:34:42 PM">Aug 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785760482"></span></a>
+          <a href="https://dev.to/bala_paranj_059d338e44e7e/common-mode-failure-the-blast-radius-nobody-measures-k6h" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-03T12:34:42Z" data-localized="true" title="Monday, August 3, 2026 at 12:34:42 PM">Aug 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785760482"></span></a>
         </div>
       </div>
 
@@ -541,7 +643,7 @@
             </div>
           </a>
             <a href="https://dev.to/bala_paranj_059d338e44e7e/common-mode-failure-the-blast-radius-nobody-measures-k6h#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Common Mode Failure: The Blast Radius Nobody Measures">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqan09uyqfmmrdaou91vkzosi4kqhmj5" class="crayons-icon"><title id="aqan09uyqfmmrdaou91vkzosi4kqhmj5">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqihku644pd2p4pyebk2a52qxx0qnes6" class="crayons-icon"><title id="aqihku644pd2p4pyebk2a52qxx0qnes6">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -602,7 +704,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ci-pipeline-has-a-security-gap-that-isnt-a-vulnerability-27ec" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-02T08:36:38Z" title="Sunday, August 2, 2026 at 8:36:38 AM">Aug 2</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785659798"></span></a>
+          <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ci-pipeline-has-a-security-gap-that-isnt-a-vulnerability-27ec" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-02T08:36:38Z" data-localized="true" title="Sunday, August 2, 2026 at 8:36:38 AM">Aug 2</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785659798"></span></a>
         </div>
       </div>
 
@@ -653,7 +755,7 @@
             </div>
           </a>
             <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ci-pipeline-has-a-security-gap-that-isnt-a-vulnerability-27ec#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your CI Pipeline Has a Security Gap That Isn't a Vulnerability">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a6hf61nfxt4z03dfbgzc3u8cprqavf6n" class="crayons-icon"><title id="a6hf61nfxt4z03dfbgzc3u8cprqavf6n">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abaqif9n4bjcljps17qn0ecp5hiq5eeb" class="crayons-icon"><title id="abaqif9n4bjcljps17qn0ecp5hiq5eeb">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -714,7 +816,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/every-aws-complaint-is-an-unwritten-invariant-41pk" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-04T08:54:26Z" title="Tuesday, August 4, 2026 at 8:54:26 AM">Aug 4</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785833666"></span></a>
+          <a href="https://dev.to/bala_paranj_059d338e44e7e/every-aws-complaint-is-an-unwritten-invariant-41pk" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-04T08:54:26Z" data-localized="true" title="Tuesday, August 4, 2026 at 8:54:26 AM">Aug 4</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785833666"></span></a>
         </div>
       </div>
 
@@ -765,7 +867,7 @@
             </div>
           </a>
             <a href="https://dev.to/bala_paranj_059d338e44e7e/every-aws-complaint-is-an-unwritten-invariant-41pk#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Every AWS Complaint is an Unwritten Invariant">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="am5h03z00yowiv0yekbi2vbw7zfn8pjh" class="crayons-icon"><title id="am5h03z00yowiv0yekbi2vbw7zfn8pjh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ac1vjmk7sh0learduvh0rd5ks57p9pj3" class="crayons-icon"><title id="ac1vjmk7sh0learduvh0rd5ks57p9pj3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -826,7 +928,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ai-soc-agent-has-a-task-role-does-it-also-have-your-s3-credentials-50d6" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-31T11:38:55Z" title="Friday, July 31, 2026 at 11:38:55 AM">Jul 31</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785497935"></span></a>
+          <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ai-soc-agent-has-a-task-role-does-it-also-have-your-s3-credentials-50d6" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-31T11:38:55Z" data-localized="true" title="Friday, July 31, 2026 at 11:38:55 AM">Jul 31</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785497935"></span></a>
         </div>
       </div>
 
@@ -877,7 +979,7 @@
             </div>
           </a>
             <a href="https://dev.to/bala_paranj_059d338e44e7e/your-ai-soc-agent-has-a-task-role-does-it-also-have-your-s3-credentials-50d6#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your AI SOC Agent Has a Task Role. Does It Also Have Your S3 Credentials?">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ach1mznv6py00d78pbfelan3r7saa4rj" class="crayons-icon"><title id="ach1mznv6py00d78pbfelan3r7saa4rj">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="al3x3c6rijtw8kfnxd6wmfg6dubun9jq" class="crayons-icon"><title id="al3x3c6rijtw8kfnxd6wmfg6dubun9jq">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -938,7 +1040,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/csa-says-harden-your-networks-for-the-ai-storm-heres-how-to-verify-you-actually-did-1i58" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-30T11:01:38Z" title="Thursday, July 30, 2026 at 11:01:38 AM">Jul 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785409298"></span></a>
+          <a href="https://dev.to/bala_paranj_059d338e44e7e/csa-says-harden-your-networks-for-the-ai-storm-heres-how-to-verify-you-actually-did-1i58" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-30T11:01:38Z" data-localized="true" title="Thursday, July 30, 2026 at 11:01:38 AM">Jul 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785409298"></span></a>
         </div>
       </div>
 
@@ -989,7 +1091,7 @@
             </div>
           </a>
             <a href="https://dev.to/bala_paranj_059d338e44e7e/csa-says-harden-your-networks-for-the-ai-storm-heres-how-to-verify-you-actually-did-1i58#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - CSA Says Harden Your Networks for the AI Storm. Here's How to Verify You Actually Did.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a6r39oqx4o7tb199t2u1w7ovin6vru47" class="crayons-icon"><title id="a6r39oqx4o7tb199t2u1w7ovin6vru47">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a43t7nzhmtobr6zhqwbnjn4q4c7h654t" class="crayons-icon"><title id="a43t7nzhmtobr6zhqwbnjn4q4c7h654t">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -1050,7 +1152,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/the-model-didnt-escape-the-sandbox-the-sandbox-was-misconfigured-4h6f" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-29T07:07:36Z" title="Wednesday, July 29, 2026 at 7:07:36 AM">Jul 29</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785308856"></span></a>
+          <a href="https://dev.to/bala_paranj_059d338e44e7e/the-model-didnt-escape-the-sandbox-the-sandbox-was-misconfigured-4h6f" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-29T07:07:36Z" data-localized="true" title="Wednesday, July 29, 2026 at 7:07:36 AM">Jul 29</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785308856"></span></a>
         </div>
       </div>
 
@@ -1101,7 +1203,7 @@
             </div>
           </a>
             <a href="https://dev.to/bala_paranj_059d338e44e7e/the-model-didnt-escape-the-sandbox-the-sandbox-was-misconfigured-4h6f#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Model Didn't Escape the Sandbox. The Sandbox Was Misconfigured.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1kypfvjbehod8f1pd3xcp6auszk8u08" class="crayons-icon"><title id="a1kypfvjbehod8f1pd3xcp6auszk8u08">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="albr8379xh33by7okfz5lwabgvzjgs1c" class="crayons-icon"><title id="albr8379xh33by7okfz5lwabgvzjgs1c">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -1162,7 +1264,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/the-ciso-doesnt-read-your-cli-output-4mg7" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-27T12:43:41Z" title="Monday, July 27, 2026 at 12:43:41 PM">Jul 27</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785156221"></span></a>
+          <a href="https://dev.to/bala_paranj_059d338e44e7e/the-ciso-doesnt-read-your-cli-output-4mg7" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-27T12:43:41Z" data-localized="true" title="Monday, July 27, 2026 at 12:43:41 PM">Jul 27</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1785156221"></span></a>
         </div>
       </div>
 
@@ -1213,7 +1315,7 @@
             </div>
           </a>
             <a href="https://dev.to/bala_paranj_059d338e44e7e/the-ciso-doesnt-read-your-cli-output-4mg7#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The CISO Doesn't Read Your CLI Output">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aic0zy5q5bpc8m25ozhclm0aog8w5kyu" class="crayons-icon"><title id="aic0zy5q5bpc8m25ozhclm0aog8w5kyu">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2q1zu54wfhs0035f41mmk84sb862sfq" class="crayons-icon"><title id="a2q1zu54wfhs0035f41mmk84sb862sfq">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -1274,7 +1376,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/netsecops_io/asyncapi-supply-chain-attack-delivers-miasma-rat-via-npm-3cko" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-15T15:01:21Z" title="Wednesday, July 15, 2026 at 3:01:21 PM">Jul 15</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1784127681"></span></a>
+          <a href="https://dev.to/netsecops_io/asyncapi-supply-chain-attack-delivers-miasma-rat-via-npm-3cko" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-15T15:01:21Z" data-localized="true" title="Wednesday, July 15, 2026 at 3:01:21 PM">Jul 15</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1784127681"></span></a>
         </div>
       </div>
 
@@ -1315,7 +1417,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/netsecops_io/asyncapi-supply-chain-attack-delivers-miasma-rat-via-npm-3cko#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - AsyncAPI Supply Chain Attack Delivers Miasma RAT via NPM">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="af87d8b1t5s6vpyu6noyquj0mep368zp" class="crayons-icon"><title id="af87d8b1t5s6vpyu6noyquj0mep368zp">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alzd3piaqxztu2txmb6cecwtgok0iml7" class="crayons-icon"><title id="alzd3piaqxztu2txmb6cecwtgok0iml7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -1376,7 +1478,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/karthiblip/your-ai-workloads-are-the-new-cloud-sprawl-and-nobody-is-watching-46ij" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-07T02:52:11Z" title="Tuesday, July 7, 2026 at 2:52:11 AM">Jul 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1783392731"></span></a>
+          <a href="https://dev.to/karthiblip/your-ai-workloads-are-the-new-cloud-sprawl-and-nobody-is-watching-46ij" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-07T02:52:11Z" data-localized="true" title="Tuesday, July 7, 2026 at 2:52:11 AM">Jul 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1783392731"></span></a>
         </div>
       </div>
 
@@ -1415,7 +1517,7 @@
             </div>
           </a>
             <a href="https://dev.to/karthiblip/your-ai-workloads-are-the-new-cloud-sprawl-and-nobody-is-watching-46ij#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your AI Workloads Are the New Cloud Sprawl — And Nobody Is Watching">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akn1zn4d1pxajeky6n3b89g9w5ns0mdq" class="crayons-icon"><title id="akn1zn4d1pxajeky6n3b89g9w5ns0mdq">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ale93easznrdm8u1z3lypuxc0p83uapk" class="crayons-icon"><title id="ale93easznrdm8u1z3lypuxc0p83uapk">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -1476,7 +1578,7 @@
             </div>
 
           </div>
-          <a href="https://dev.to/dhruv_malaviya_cdcc71e595/5-cloud-security-mistakes-thatll-get-you-hacked-and-how-to-fix-them-402a" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-01T09:14:17Z" title="Wednesday, July 1, 2026 at 9:14:17 AM">Jul 1</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782897257"></span></a>
+          <a href="https://dev.to/dhruv_malaviya_cdcc71e595/5-cloud-security-mistakes-thatll-get-you-hacked-and-how-to-fix-them-402a" class="crayons-story__tertiary fs-xs"><time datetime="2026-07-01T09:14:17Z" data-localized="true" title="Wednesday, July 1, 2026 at 9:14:17 AM">Jul 1</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782897257"></span></a>
         </div>
       </div>
 
@@ -1533,7 +1635,7 @@
             </div>
           </a>
             <a href="https://dev.to/dhruv_malaviya_cdcc71e595/5-cloud-security-mistakes-thatll-get-you-hacked-and-how-to-fix-them-402a#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - 5 Cloud Security Mistakes That'll Get You Hacked (And How to Fix Them)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ai7vrhgupxp9vzoet9oxt4bk0hplhlkx" class="crayons-icon"><title id="ai7vrhgupxp9vzoet9oxt4bk0hplhlkx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afaan2a9w2wlwhcmzxdcgkxg0witrk01" class="crayons-icon"><title id="afaan2a9w2wlwhcmzxdcgkxg0witrk01">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -1541,108 +1643,6 @@
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
-          </small>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Least Privilege is a Workaround for a Missing Specification]]></title>
-        <id>https://dev.to/bala_paranj_059d338e44e7e/least-privilege-is-a-workaround-for-a-missing-specification-mje</id>
-        <link href="https://dev.to/bala_paranj_059d338e44e7e/least-privilege-is-a-workaround-for-a-missing-specification-mje"/>
-        <updated>2026-06-30T12:11:47.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/bala_paranj_059d338e44e7e/least-privilege-is-a-workaround-for-a-missing-specification-mje" aria-labelledby="article-link-4031068" class="crayons-story__hidden-navigation-link">Least Privilege is a Workaround for a Missing Specification</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/bala_paranj_059d338e44e7e" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" alt="bala_paranj_059d338e44e7e profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/bala_paranj_059d338e44e7e" class="crayons-story__secondary fw-medium m:hidden">
-              Bala Paranj
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4031068" aria-controls="story-author-preview-content-4031068" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Bala Paranj profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Bala Paranj
-                
-                
-              </button>
-              <div id="story-author-preview-content-4031068" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/bala_paranj_059d338e44e7e" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3862804%2F7ea6c560-63cb-4daf-a713-450532280b0a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Bala Paranj</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3862804,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Bala Paranj&quot;}" data-fetched="fetched" aria-label="Follow user: Bala Paranj" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3862804"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/bala_paranj_059d338e44e7e/least-privilege-is-a-workaround-for-a-missing-specification-mje" class="crayons-story__tertiary fs-xs"><time datetime="2026-06-30T12:11:47Z" title="Tuesday, June 30, 2026 at 12:11:47 PM">Jun 30</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1782821507"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/bala_paranj_059d338e44e7e/least-privilege-is-a-workaround-for-a-missing-specification-mje" data-preload-image="" id="article-link-4031068">
-          Least Privilege is a Workaround for a Missing Specification
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(235, 223, 55, 0.10);
-        --tag-prefix: #ebdf37;
-        --tag-bg-hover: rgba(235, 223, 55, 0.10);
-        --tag-prefix-hover: #ebdf37;
-      " href="/t/architecture"><span class="crayons-tag__prefix">#</span>architecture</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/bala_paranj_059d338e44e7e/least-privilege-is-a-workaround-for-a-missing-specification-mje#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Least Privilege is a Workaround for a Missing Specification">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4fgbuwrfnhrfuykopd9dulny947uq5m" class="crayons-icon"><title id="a4fgbuwrfnhrfuykopd9dulny947uq5m">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            14 min read
           </small>
         </div>
       </div>
