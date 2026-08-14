@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lab.ctbb.show/writeups/all/</id>
     <title>ctbb_writeups</title>
-    <updated>2026-08-14T07:09:26.550Z</updated>
+    <updated>2026-08-14T08:57:38.253Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://lab.ctbb.show/writeups/all/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[MathJax macro redefinition allows overriding built-in operatorsNEW]]></title>
+        <id>https://lab.ctbb.show/writeups/mathjax-macro-redefinition-overrides-builtin-operators</id>
+        <link href="https://lab.ctbb.show/writeups/mathjax-macro-redefinition-overrides-builtin-operators"/>
+        <updated>2026-08-14T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/writeups/mathjax-macro-redefinition-overrides-builtin-operators">MathJax macro redefinition allows overriding built-in operators<span class="new-badge">NEW</span></a>
+                </h3>
+                <div class="article-subtitle">Abusing the MathJax library in GitHub to override built-in operators. The library writes user-defined TeX macros into a persistent new-Command map that is consulted ahead of the built-ins, with no existence check, so a redefined sum macro shadows the native operator across every expression rendered by that input-jax instance.</div>
+                <div class="article-meta">
+                    <span class="article-date">August 14, 2026</span> • <span class="article-author"><span>Matt H</span><img src="/assets/images/matth.jpeg" alt="Matt H" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">MathJax macro redefinition allows overriding built-in operators Introduction GitHub extended Markdow...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="mathjax">mathjax</span><span class="article-tag" data-tag="github">github</span><span class="article-tag" data-tag="macro-shadowing">macro-shadowing</span></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Breaking SameSite=Strict in Chrome]]></title>
         <id>https://lab.ctbb.show/writeups/breaking-samesite-strict-in-chrome</id>
