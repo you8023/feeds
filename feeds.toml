@@ -947,11 +947,11 @@ dateFormat = "MMMM d, yyyy"
 [orchid_security]
 title = "Orchid Security"
 url = "https://www.orchid.security/resources/blog"
-entrySelector = ".collection-item-4, .blog-item"
-titleSelector = "h1.heading-69, h2.paragraph-41"
-linkSelector = "a.link-block-17, a.link-arrow"
-dateSelector = ".paragraph-61, .paragraph-66"
-dateFormat = "MMM d, yyyy"
+entrySelector = ":where(.collection_item-featured-post, .blog-item)"
+titleSelector = ":where(h1.heading-style-h4, .text_post-card-title)"
+linkSelector = "a.absolute_link-floater"
+dateSelector = ".featured_date-wrapp div"
+dateFormat = "MMMM d, yyyy"
 
 [zafran]
 title = "Zafran"
