@@ -1213,11 +1213,9 @@ dateFormat = "yyyy"
 [oasis_security_blog]
 title = "Oasis Security Blog"
 url = "https://www.oasis.security/blog"
-entrySelector = ".w-dyn-item"
-titleSelector = "h3"
-linkSelector = "a"
-dateSelector = ":where(.blog_small-meta-wrapper> .text-size-small:nth-child(3), .posts_small-meta-wrapper> .text-size-small:nth-child(3), .blog_meta:nth-child(3) > .text-size-small:nth-child(2))"
-dateFormat = "MMMM d, yyyy"
+entrySelector = ".resources-new_item"
+titleSelector = "[fs-list-field=title]"
+linkSelector = "a.resources_link"
 
 [commoncrawl_research]
 title = "Common Crawl Research Papers"
@@ -1296,10 +1294,8 @@ matchOneOf = ["Periphery Labs"]
 title = "xclow3n"
 url = "https://xclow3n.github.io/"
 entrySelector = "a[href^='/post/']"
-titleSelector = "h3"
+titleSelector = "*"
 linkSelector = "*"
-dateSelector = ".bg-black.border-2.border-white span"
-dateFormat = "MMMM yyyy"
 
 [kerbit]
 title = "kerbit"
