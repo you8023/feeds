@@ -2,9 +2,125 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jack-clark.net/</id>
     <title>Import AI (Jack Clark)</title>
-    <updated>2026-08-17T14:15:12.558Z</updated>
+    <updated>2026-08-17T15:07:39.065Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://s0.wp.com/i/webclip.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Import AI 469: Science AI; RSI simulator; and Zuck’s technological pessimism]]></title>
+        <id>https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/</id>
+        <link href="https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/"/>
+        <updated>2026-08-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h5 class="post-date"><abbr class="published">
+				<a href="https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/">August 17, 2026</a></abbr></h5>
+		<div class="post-content">
+		<h3 class="entry-title"><a href="https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/" rel="bookmark">Import AI 469: Science AI; RSI simulator; and Zuck’s technological pessimism</a></h3>				<h4 class="vcard author">by <span class="fn">Jack Clark</span></h4>
+		
+		<div class="entry-content">
+			<p>Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe.</p>
+<p class="button-wrapper" data-attrs="{&quot;url&quot;:&quot;https://importai.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" data-component-name="ButtonCreateButton"><a class="button primary" href="https://importai.substack.com/subscribe?"><span>Subscribe now</span></a></p>
+<p><strong><span>DiG-bench shows that Fable displays some creative intuition:<br></span></strong><em><span>…The new frontier for analyzing AI systems is understanding how good they are at inferring the unwritten rules of their environment…<br></span></em><span>How well can AI systems figure out the rules of their environment through exploration and curiosity, versus being fed them? That’s an important question for better understanding the intuitive and creative capabilities of AI systems and it’s one being asked by DiG-bench (Discovery in Games), a new benchmark of 70 games “designed to map the surface of discovery in well-controlled interactive systems”. Similar to the visual ‘ARC’ game, in DiG-bench “each game is a self-contained miniature world with its own laws, but both the rules and the objective are hidden from the player and must be uncovered through interaction”. You can play some of the games yourself online to get a feel for them at the official project website (</span><a href="http://digbench.ai/"><span>digbench.ai</span></a><span>).<br>    The key thing this is measuring is the ability for players to spot the important mechanics that determine their success – basically, by playing around with the games you get a sense for how your actions change the environment and through this you also uncover mechanics that you must understand to succeed at the game. The idea is that if you can solve these games you have a decent ability to spot important information in novel environments and update your priors.</span></p>
+<p><strong><span>Who did the research:</span></strong><span> The authors come from Thinking About Thinking, University of Oxford, Princeton University, King Abdullah University of Science and Technology, Swiss AI Lab, Inria, MIT. One of the authors is Juergen Schmidhuber, an extremely creative OG AI researcher.</span></p>
+<p><strong><span>Key facts:</span></strong></p>
+<ul>
+<li>
+<p><strong><span>Purely text-based:</span></strong><span> The games are basically native to language models. They are also mostly “short enough that most traces fit entirely within the context window of current frontier models”.</span></p>
+</li>
+<li>
+<p><strong><span>Handcrafted and novel and private:</span></strong><span> All of these games have been built by human experts. The majority of the games are kept private so that AI systems don’t train on them.</span></p>
+</li>
+<li>
+<p><strong><span>Beatable but difficult:</span></strong><span> Every game has been beaten by at least one human “but players reported finding many games difficult”.</span></p>
+</li>
+<li>
+<p><strong><span>Varied skills:</span></strong><span> Solving all these games requires different skills and strategies.</span></p>
+</li>
+<li>
+<p><strong><span>Experimentation</span></strong><span>: The games come with an optional experimentation mode which lets people play around with them without having as intense a “step limit” on actions they can take.</span></p>
+</li>
+<li>
+<p><strong><span>Reassuringly hard: </span></strong><span>The games are difficult enough that they are not beatable by today’s frontier models.</span></p>
+</li>
+</ul>
+<p><strong><span>How well do AI systems do? </span></strong><span>The benchmark is split into seven tiers with tier 1 being the easiest and tier 7 the hardest. 21 games have been released publicly with the remaining held back. Most of the games have multiple levels and the number of available actions for players to take at each step ranges from 2 all the way up to 34.</span></p>
+<ul>
+<li>
+<p><span>Opus 5 and Fable 5 with Claude Code are the best overall models, followed by GPT-5.5</span></p>
+</li>
+<li>
+<p><span>Only Opus 5 and Fable 5 were able to beat any tasks (0.2) in (Tier 7). Opus 5, GPT-5.5, and Kimi K3 were able to beat some tasks in Tier 6 when given access to a harness (e.g, Claude Code).</span></p>
+</li>
+<li>
+<p><span>GLM-5.2 and Gemini 3.1 Pro were able to beat some levels in Tier 4.</span></p>
+</li>
+<li>
+<p><span>Overall, this seems really hard!</span></p>
+</li>
+</ul>
+<p><strong><span>Why this matters – proxies for creativity and discovery</span></strong><span>: Tests like this are attempts to isolate a prerequisite for creativity, which is being able to autonomously discover useful undocumented things about novel situations you find yourself in. As this test shows, some frontier models are already capable of some fairly impressive feats of discovery, but still struggle compared to humans (for instance, a 20% success rate on Tier 7 is pretty poor compared to the fact individual humans were able to get 100% on the tests). My guess is we’ll reach human parity on DiG-bench by middle of 2027, at which point we should expect things like recursive self-improvement to seriously kick off.<br>   </span><strong><span>Read more</span></strong><span>: </span><a href="https://github.com/discos-research/dig-bench/blob/main/tech_report.pdf"><span>DiG-bench: Discovery in Games (GitHub, PDF)</span></a><span>.<br></span><strong><span>   Play the games and view the leaderboard </span></strong><span>at the </span><a href="https://digbench.ai/dig/welcome"><span>official site (digbench.ai</span></a><span>).</span></p>
+<p>***</p>
+<p><strong><span>Get a feel for recursive self-improvement by playing this browser-based game:<br></span></strong><em><span>…Cookie Clicker, but for the singularity…<br></span></em><span>Here’s a fun game from the folks at Paradigm Research which aims to simulate what it’s like to run a company building AI systems which become capable of recursive self-improvement. If you play the game you can get a good feel for how different components of AI research interact, ranging from how you balance investing in researchers versus compute, how and when to license data, and more. Be warned, it’s hard – but then again, so is frontier AI development.</span></p>
+<p><strong><span>Why this matters: </span></strong><span>Developing better intuitions about recursive self-improvement is of existential importance to us all; games like this help make it easier for us to reason about this technology and the labs building it.<br></span><strong><span>   Play the game here:</span></strong><span> </span><a href="https://www.paradigm.xyz/research/rsi/game?v=20260811"><span>RSI Simulator (Paradigm Research)</span></a><span>.</span></p>
+<p>***</p>
+<p><strong><span>AI systems are showing early signs of scientific research taste:<br></span></strong><em><span>…Inherent post-trains an open weight model into an AI scientist that supervises a frontier model…<br></span></em><span>Taste is a hard thing to quantify but an intuitive thing to sense, as any of us know who have sat in a well-designed room, looked at someone wearing a particularly good fit, or read a research paper that asks just the right questions. Now, researchers with AI startup Inherent have published a paper showing how they are building Faraday, an AI scientist model that they hope can develop some taste in terms of research.</span></p>
+<p><strong><span>What they did: </span></strong><span>The company built a supervisory harness and relatively small LLM which sits on top of large, proprietary frontier models, and controls them in a way that improves their effectiveness at science. (In some ways, this is a capabilities-centric version of the scalable oversight problem).<br>     To help them train and evaluate the system they assemble a dataset (”Replica”) consisting of research papers that have key graphs or results missing from them, then they see how well AI systems can autonomously do experiments that fill in the blanks, and they continuously train a small supervisory model (”Faraday”) via GRPO on well-designed fill-ins to achieve better and better results.<br>    Faraday is a 27B model that uses a coding agent (OpenAI Codex) as an underlying tool and is post-trained on top of Qwen-3.6-27B.</span></p>
+<p><strong><span>What Replica consists of: </span></strong><span>Replica is a set of 100 ML and AI-for-science papers published between 1990 and 2026. The authors convert this dataset into a set of 310 replication tasks by knocking out individual results. “For each task, we use Claude Opus 4.7 prompted with a meta-rubric to generate a task-specific grading rubric,” they write. They then use a Codex-based Judge model to provide “an overall reward and per-turn credit assignment weights, which are used to train the Faraday agent using a modified version of GRPO.”</span></p>
+<p><strong><span>Results: </span></strong><span>Faraday using Codex is able to beat standard Opus 4.8 and GPT-5.5 on some replication tasks, exceeding their performance “on 73% of in-distribution ML tasks, and on 60% of held-out AI-for-science tasks, according to our rubric-based judge.”<br>   “We achieve a comprehensive uplift in performance compared to the base Qwen model, on both train and test tasks,” they write.</span></p>
+<p><strong><span>Why this matters – the better systems like Faraday get, the higher the chance AI systems will become capable of recursive self-improvement: </span></strong><span>These days, most high-signal AI evaluations are trying to capture some property of creativity and intuition and Faraday/Replica is the same. The better AI systems get at this, the more likelihood we can assign to the idea that AI systems will imminently become capable of building themselves.<br>   “The skills that allow Faraday to fill in vaguely-specified details may be the very same skills that would allow it to advance the state of the art by designing its own experiment,” the company writes. “The skills Faraday acquires – deciding what to investigate, scoping experiments to a budget, and judging a replication – compound with advances in frontier coding models. One might hope that a single post-trained outer agent can track the frontier as better models are released, at least over some time period.”<br></span><strong><span>   Read more:</span></strong><span> </span><a href="https://arxiv.org/abs/2608.13331"><span>Training AI Scientists to Replicate Research (arXiv)</span></a><span>.</span></p>
+<p>***</p>
+<p><strong><span>Mark Zuckerberg seems to be a technological pessimist:<br></span></strong><em><span>…Zuck’s big essay on AI seems to ignore or elide or not confront what AI systems capable of invention mean…<br></span></em><span>Mark Zuckerberg has written an essay called “</span><em><span>The Future is for Everyone</span></em><span>“ that serves as something of a manifesto for how he and Meta are approaching the development of AI systems. The core idea inherent to Zuck’s strategy is to massively proliferate AI capabilities to everyone on the planet in a bid to avoid concentrating power and creating tyranny in a small number of players. It’s a broadly sensible idea except for the fact that superintelligences capable of inventing new ideas might want to do different things to what Mark Zuckerberg proposes and on this crucial area his essay is silent.</span></p>
+<p><strong><span>Mark’s view:</span></strong><span> “The defining questions of our age are who will have access to superintelligence and what will we direct it towards,” Zuckerberg writes. “We propose a philosophy based on individual empowerment as the source of prosperity, invention as the primary purpose of superintelligence, and balance of power as the foundation of safety.”</span></p>
+<p><strong><span>Meta’s goals and beliefs:</span></strong></p>
+<ul>
+<li>
+<p><span>“Everyone will have an exceptionally capable personal agent that understands you, your goals, and everything you care about.”</span></p>
+</li>
+</ul>
+<ul>
+<li>
+<p><span>“Everyone will have incredible tools for creation to express your ideas.”</span></p>
+</li>
+<li>
+<p><span>“Everyone will have powerful tools to create new businesses and the economy will become more entrepreneurial.”</span></p>
+</li>
+<li>
+<p><span>“Everyone will have a personalized tutor and coach with a PhD in every subject and unlimited patience to help you learn anything you want.”</span></p>
+</li>
+<li>
+<p><span>“Everyone will benefit from scientific advances and be able to contribute to scientific progress.”</span></p>
+</li>
+<li>
+<p><span>“Everyone will have free or affordable access to these tools.”</span></p>
+</li>
+</ul>
+<p><strong><span>The missing question: </span></strong><span>The part of this essay I understand the least is Zuckerberg’s co-mingling of AI systems capable of invention with individual empowerment. The essay is full of things that seem to assume these things come as a package, for instance:</span></p>
+<ul>
+<li>
+<p><span>“While the number of questions a person can ask in a day is limited, the number of valuable things superintelligence can invent to help achieve your goals is unlimited”.</span></p>
+</li>
+<li>
+<p><span>“The more superintelligence serves as a tool of invention, the more likely that individual capability outpaces automation and the future is better for people.”</span></p>
+</li>
+<li>
+<p><span>“Everyone will soon have invention superpowers.”</span></p>
+</li>
+<li>
+<p><span>“Which outcome we get depends on the balance in progress between automation on one side and individual empowerment and invention on the other.”</span></p>
+</li>
+</ul>
+<p><strong><span>Why this matters – the missing question in all of this is “</span></strong><em><strong><span>will a system capable of superhuman invention solely work on behalf of the individual empowerment of people that are less capable than it at invention</span></strong></em><strong><span>?”. Surely this is the key question?</span></strong><span> I am not suggesting that superhuman invention guarantees some kind of malign entity that is independent from people. Rather I am suggesting that it’s hard to reconcile a system capable of superhuman invention with something that doesn’t fundamentally alter the balance of power in the world in ways that are confusing and hard to reason about. Zuckerberg seems to conclude that the proliferation of these systems will lead to an anti-fragile balance of power among superintelligence-equipped people and corporations. This is certainly one potential outcome but I struggle to see how it is the foregone outcome.<br></span><strong><span>   Read more</span></strong><span>: </span><a href="https://about.fb.com/news/2026/08/the-future-is-for-everyone/"><span>The Future is for Everyone (Meta)</span></a><span>.</span></p>
+<p>***</p>
+<p><strong><span>Tech Tales:</span></strong></p>
+<p>The First Arcology</p>
+<p><span>The Arcology was built for machine-subjective millennia, but to the humans its construction spanned a year. It was so vast and so complicated that watching it grow was akin to seeing plants rise up from bare dirt in fast-forward; jerking and growing in fits and starts, each of which spanned kilometres. Parts of it came alive while additions were added; rumors say some of its first halls to light up were reserved solely for computers to coordinate the construction of its next phases. When machines broke down determinations were made as to how valuable they were; if precious they would be taken nearby for repairs and returned to the site, but if below some threshold they were killed and stripped for parts where they had broken, then used to build the structure.</span></p>
+<p>At night, an eerie ringing came on the air near it, both the sound of wind moving through its spindly and yet-unbuilt edges, and also the fans and hum of its slow dreaming computation, and finally the sound of the machines working through the night moving so quickly that they cut and tore the air into unnatural screams. To lie awake and hear an alien sound that spoke of your own successors must have been a strange thing indeed for the humans that lived within earshot.</p>
+<p><strong><span>Things that inspired this story</span></strong><span>: The construction of the pyramids; Gaudi’s Sagrada Família; tombs and future tombs.</span></p>
+<p><em><span>Thanks for reading! </span></em></p>					</div>
+	</div>
+	<div class="post-meta">
+		<div class="comments">
+					<a href="https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/#respond">Leave a comment</a>				</div>
+	</div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing]]></title>
         <id>https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/</id>
@@ -667,154 +783,6 @@
 	<div class="post-meta">
 		<div class="comments">
 					<a href="https://jack-clark.net/2026/06/08/import-ai-460-reward-hacking-society-rsi-data-from-anthropic-and-rl-based-quadcopter-racing/#respond">Leave a comment</a>				</div>
-	</div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems]]></title>
-        <id>https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/</id>
-        <link href="https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/"/>
-        <updated>2026-06-01T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h5 class="post-date"><abbr class="published">
-				<a href="https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/">June 1, 2026</a></abbr></h5>
-		<div class="post-content">
-		<h3 class="entry-title"><a href="https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/" rel="bookmark">Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems</a></h3>				<h4 class="vcard author">by <span class="fn">Jack Clark</span></h4>
-		
-		<div class="entry-content">
-			<p>Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe.</p>
-<p class="button-wrapper" data-attrs="{&quot;url&quot;:&quot;https://importai.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" data-component-name="ButtonCreateButton"><a class="button primary" href="https://importai.substack.com/subscribe?"><span>Subscribe now</span></a></p>
-<p><strong>The AI economy in the US is growing at 2,000% a year:<br></strong><em>…The more directly you measure the AI economy, the weirder and more unprecedented it seems to get…<br></em>Economists with the University of Virginia* and Anthropic, and the Bank of Canada have written a paper outlining both the tremendous growth of the emerging “AI economy” in the US, and wrestling with why this growth is hard to see in aggregate GDP statistics.<br>    “The AI economy in the United States has been growing at an unprecedented rate, but this extraordinary growth is largely invisible in conventional GDP statistics,” they write. “Treating the AI sector as a coherent economic entity yields preliminary estimates of nominal AI GDP at approximately $250 billion in 2025, growing at roughly 2,600 percent per year in quality-adjusted real terms.”</p>
-<p><strong>Why it’s hard to see:</strong> There are a couple of factors here – one is that though the datacenter building boom is large it still isn’t quite large enough to uplift GDP significantly. By comparison, where the majority of AI’s economic impact is taking place is in AI inference – the usage of AI’s systems – but there are confounding factors here as it relates to GDP measurement: “Nominal AI revenues grow only moderately because per-unit prices for any given level of AI capability fall almost as fast as quality-adjusted output rises,” they write.</p>
-<p><strong>If we can’t measure this, we might end up surprised in a way that’s hard to recover from:</strong> “AI is the latest in a series of fast-moving technologies that have raised measurement concerns; semiconductors and the internet generated similar debates in their time,” they write. But a key difference is that AI as a technology might have a far bigger impact on labor than these other technologies. “In the prior episodes, the rapidly improving technology was a <em>complement</em> to human labor at the aggregate level,” they write. “AI is the first plausible candidate for large-scale technological mismeasurement in which the rapidly improving sector may become a <em>substitute</em> for human labor”.</p>
-<p><strong>Three ways of measuring the AI economy:</strong></p>
-<ul>
-<li>
-<p><strong>Nominal compute spending</strong>: US compute spending rose from $37 billion in 2023 to $90 billion in 2024 to $219 billion in 2025.</p>
-</li>
-<li>
-<p><strong>Raw compute capacity</strong>: Due to efficiencies in newer chips, actual capacity grows even faster than spending: “US AI computing capacity grew at more than 200 percent per year”.</p>
-</li>
-<li>
-<p><strong>Quality-adjusted AI output</strong>: If you factor in algorithmic progress via inference prices at fixed benchmark performance as well as assumptions about how much cheaper it is getting to train models, then things become even more dramatic: “these efficiency gains imply that quality-adjusted AI output grew at roughly 2,290 percent in 2024 and 2,271 percent in 2025”.</p>
-</li>
-</ul>
-<p><strong>The AI economy is much, much larger than normal measures suggest: </strong>“Conventional statistics show a sector growing slowly in nominal terms; our measures show one whose underlying capacity is more than doubling annually. A finance ministry running ten-year revenue projections off the conventional data will materially underweight the probability of a labor-tax-base shock—and will be correspondingly unprepared to design responses such as tax system reforms, sovereign wealth funds, or other benefit-sharing schemes that such a shock may call for. A windfall that cannot be seen cannot be shared.”</p>
-<p><strong>Three recommendations:</strong> The authors have three ideas for how we can solve this measurement challenge and better position ourselves to see the true shape of the Ai economy.</p>
-<ul>
-<li>
-<p><strong>AI satellite accounts</strong>: Statistical agencies should develop “AI satellite accounts” that develop measures (e.g, nominal compute spending), which can help inform overall GDP calculations.</p>
-</li>
-<li>
-<p><strong>Generate better data:</strong> Partner between statistical agencies, companies, and academia to generate better primary data, like the allocation between training and inference compute.</p>
-</li>
-<li>
-<p><strong>Factor into projections:</strong> Policymakers should incorporate AI productive-capacity measurements into their medium-term economic projections.</p>
-</li>
-</ul>
-<p><strong>Why this matters – shut up and play the Jaws theme tune:</strong> In the great film Jaws there’s this scene where the shark is in the water and some very tense music plays indicating that the shark is approaching. You, the audience member, find yourself practically jumping out of your seat wanting to yell THERE’S A GOD DAMN SHARK IN THE WATER WHAT ARE YOU <em>DOING </em>IN THERE? That’s what it feels like working on AI and staring at most economic data right now: the vast majority of economic data says there’s nothing especially unusual about today’s economy (in fact, things look rather good in the US – low unemployment, decent growth, etc). But the intuitions of everyone working within AI – including me – is it’s impossible to reconcile the capabilities of the technology and how it is being used with the economy staying normal. In this tortured metaphor, the shark is the “true shape of the AI economy”, and the rest of the people in the film are the general consensus economist and policy community. Anton here might be the audience member, writing a paper that describes the possibility of a shark beneath the surface. Look out, everyone!<br><strong>   Read more:</strong> <a href="https://www.piie.com/publications/policy-briefs/2026/where-ai-gdp-statistics">Where is AI in GDP statistics? (PIIE)</a>.<br>   *Disclaimer: Though one of the authors, Anton Korinek, is affiliated with Anthropic, this research was done mostly prior to him joining and outside his work at the company.</p>
-<p>***</p>
-<p><strong>Here’s why making AI safe with AI oversight is harder than you think:<br></strong><em>…Automated alignment research is not a silver bullet…<br></em>Many researchers in AI safety think the best way to build smarter-than-human machines safely is to have AI systems supervise some of the training process. Researchers with the UK AI Security Institute have written a paper outlining why though this is a tempting idea it is harder than people suspect.</p>
-<p><strong>Why is automated alignment research hard?</strong> “Errors in automated alignment research are likely to be harder to identify than the human baseline,” they write. There are a few reasons for this, including:</p>
-<ul>
-<li>
-<p>Optimization pressure: AI research is optimized for human approval.</p>
-</li>
-<li>
-<p>Alien mistakes: When agents make mistakes, they’re un-intuitive to humans.</p>
-</li>
-<li>
-<p>More correlated research: Many more things are shared than with human-generated research.</p>
-</li>
-<li>
-<p>Research volume: The kinds of safety determinations made by automated systems might use far more sets of evidence with far more interactions than human-generated research.</p>
-</li>
-<li>
-<p>Non-human-evaluable arguments: Alignment solutions may rely on arguments that humans are unable to follow.</p>
-</li>
-</ul>
-<p><strong>What can we do?</strong> They suggest a few interventions that could improve the state of affairs:</p>
-<ul>
-<li>
-<p><strong>Measurement:<br>– Recreate completed research projects</strong>: Take logs at arbitrary cutoff points from successful projects and see how well an agent can continue with the research project.<br>– <strong>Test agent prediction performance over datasets of correlated-events</strong>: See how well agents can correctly combine correlated subtasks.<br>– <strong>Empirical studies of optimal human-agent team structure</strong>: See how well teams of non-expert humans can solve completed projects with the assistance of agents.</p>
-</li>
-</ul>
-<ul>
-<li>
-<p><strong>Generalization:<br>– Simulated generalisation experiments</strong>: Test different training proxies using agent performance on completed research problems beyond the knowledge cutoff.<br>– <strong>Mechanistic understanding of generalisation:</strong> Use whitebox methods such as mechanistic interpretability.</p>
-</li>
-</ul>
-<ul>
-<li>
-<p><strong>Scalable oversight:<br>– Compactification of research paper corpus:</strong> Try to produce a small number of research outputs which are based on a much larger underlying research corpus.<br>– <strong>Develop and test new scalable oversight protocols: </strong>Research scalable oversight techniques that deal with correlated uncertainty.<br>– <strong>Test different human scaffolds</strong> for uplifting non-expert performance on fuzzy tasks.<br>– <strong>Red team automated alignment programs</strong>: “The red team prompts an agent to hide errors in a research paper corpus and the blue team attempts to catch these errors with agent assistance”.</p>
-</li>
-</ul>
-<p><strong>Why this matters – who controls the future? </strong>Whether we are able to supervise smarter-than-human systems is fundamentally a question about who controls the future. If we don’t build techniques that work, then humans will take a backseat, either due to misalignment of these systems or gradual disempowerment as they proceed to out-think us. If we can build smarter-than-human oversight techniques, then we have a better chance of being able to make choices about the future nature of existence.<br><strong>   Read more</strong>: <a href="https://arxiv.org/abs/2605.06390">Automated alignment is harder than you think (arXiv)</a>.</p>
-<p>***</p>
-<p><strong>100 Million permissively licensed images:<br></strong><em>…A nice resource for academics and startups…<br></em>Researchers with Stanford University, Radical Numerics, the University of Michigan,and Salesforce Research, have released the Giant Permissive Image Corpus (GPIC), a dataset of 100M images with accompanying captions. The key thing about GPIC is that “all GPIC images are permissively licensed for both research and commercial use,” they write. “GPIC is safety-filtered, deduplicated, and centrally hosted on HuggingFace”.</p>
-<p><strong>More details on the dataset: </strong>GPIC consists of 100M training images, 200k validation, and 1M test examples. Each image was captioned with Qwen3-VL-4B. “GPIC is centrally hosted on Hugging Face as 8,000 shards, providing stable and accessible infrastructure for large-scale training,” they write. “We source images from Flickr and Wikimedia, restricting the source pool to CC BY, CC0, Public Domain, and No-Known-Restrictions categories. This licensing criterion ensures that GPIC can be used by both academic and industrial researchers without restricting the release or downstream use of derived artifacts.”</p>
-<p><strong>Why this matters – fuel for research: </strong>Datasets like GPIC are very useful for academics and startups alike and are basically the equivalent of free, clean vegetables. If someone offers you a free, clean vegetable you should probably take it and say thank you.<br><strong>  Read the research paper:</strong> <a href="https://arxiv.org/abs/2605.30341">GPIC: A Giant Permissive Image Corpus for Visual Generation (arXiv)</a>.<br><strong>   Find out more at the website</strong>: <a href="https://gpic.stanford.edu/">GPIC: A Giant Permissive Image Corpus for Visual Generation (official project website).</a><br><strong>   Get the dataset here</strong>: <a href="https://huggingface.co/datasets/stanford-vision-lab/gpic">GPIC (Hugging Face)</a>.</p>
-<p>***</p>
-<p><strong>Improving cancer research with protein prediction models:<br></strong><em>…Biohub is an example of positive-sum competition among AI developers…<br></em>Biohub, a research organization founded by Priscilla Chan and Mark Zuckerberg, has released a rival model to DeepMind’s AlphaFold, intensifying a positive-sum race between two technology groups to develop better AI systems for expanding the capabilities of biologists worldwide.<br>   The model, ESMFold2, is a “world model of protein biology: a scientific engine for prediction, design, and discovery that can map proteins across the tree of life, predict their structures, and design new protein binders that function in laboratory experiments.”</p>
-<p><strong>What it consists of: </strong>The release contains three parts:</p>
-<ul>
-<li>
-<p><strong>ESMC</strong>: A “language model that represents proteins, trained on approximately 2.8 billion sequences drawn from across all of life.”</p>
-</li>
-<li>
-<p><strong>ESMFold2:</strong> A “design engine built to transform ESMC’s sequence representations into atomically-resolved 3D structure of biomolecular complexes.” According to benchmarks, ESMFold2 outperforms AlphaFold 3, though in some areas their performance is tied.</p>
-</li>
-<li>
-<p><strong>ESM Atlas:</strong> “Makes ESMC’s representations navigable across 6.8 billion protein sequences and 1.1 billion predicted structures — the largest application of AI to protein biology to date.”</p>
-</li>
-</ul>
-<p><strong>Cancer test:</strong> In one experiment, Biohub researchers used the ESM tools “to design protein binders against five targets at the center of cancer and immunology research — EGFR and PDGFRβ (implicated in tumor growth), PD-L1 and CTLA-4 (immune checkpoints that cancer cells exploit to evade detection), and CD45 (a regulator of immune cell signaling). Designs achieved hit rates of 36–88% for compact minibinders and 15–29% for antibody-derived formats, with confirmed binding in laboratory experiments,” Biohub writes. “ESMFold2 changes the accuracy and speed of early therapeutic binder discovery, transforming the initial search from largely empirical screening into computation-guided design that takes hours or days”.</p>
-<p><strong>Scaling laws: </strong>Like most parts of contemporary AI, the researchers encounter some scaling laws here. “In every generation of ESM, improvements in the fidelity of representations were linked with the number of parameters and amount of compute used in model training,” they write. “The representation of the biology of proteins is an emergent phenomenon that arises from training a model to predict the identity of amino acids in the sequence.”<br><strong>   ESMC: </strong>“ESMC trains on metagenomic sequences, which expands its training dataset by close to two orders of magnitude (from ∼50 million sequences to ∼2.8 billion sequences) relative to the previous-generation ESM2 model.”<br><strong>   ESMFold2: </strong>“In development experiments for ESMFold2, we observed a relationship between the amount of compute used to train the language model and the performance of the folding models,” they write. “ESMFold2 benefits from inference time scaling. With increasing number of samples from the model, antibody-antigen pass rate rises from 49% with a single seed to 65% with 1000 samples, and protein-protein pass rate rises from 75% to 78%”.</p>
-<p><strong>Why this matters – this is how AI delivers benefits to the world:</strong> Tools like the ESM family of technologies are how human scientists are going to team up with AI systems to improve human health around the world. Along with being a good thing, work like this is essential for causing the public to have more positive perceptions of AI as a technology and what it can do.<br><strong>   Read more</strong>: <a href="https://biohub.org/news/world-model-of-protein-biology/">Biohub releases a world model of protein biology (biohub)</a>.<br><strong>   Access the models </strong><a href="https://biohub.ai/?ampDeviceId=ffb0e05c-5ec1-4f39-a4ec-64dd2278de6f&amp;utm_campaign=esmc-may2026&amp;utm_medium=referral&amp;utm_source=biohub.org">here on the biohub platform (biohub)</a>.<br><strong>   Read the paper</strong>: <a href="https://bhp-papers-prod.s3.us-west-2.amazonaws.com/esm_protein.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAU6GD3FYNGRMGOWXJ%2F20260531%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260531T201605Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDQaCXVzLXdlc3QtMiJHMEUCIEhpMwNumAEQSwTc9AuNz94%2BjP0qUxw1cdT1PAxTyQCpAiEAkCs5vAsW0DbEuPd78Ird6ZGteNp1rSAqg4d3z2hXCpYqsgUI%2FP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwzMzk3MTMxNDIyOTgiDGA%2FU7DA09vBSyfeXyqGBTQYfxbaNOKLy7kTCi%2BlxB8Y3QaUkLZbgvRqKhnKc6S9CC8m9OSxlw5jVb8Y%2Bui1XvIm7k17zfF0gwsJype8dUP2kFTRMVCk3HpnhPPTaFkn1AOJW9odP3B8f3%2FMHZ4s%2BY37ci3sLuJHg%2FyJ5igbsvvOiKW82cfQpudif%2BekOh7DnPhXcrkzBETT2nZg%2B7jctEkPkVa17NLx51SLF7v104Y0BtAK5B3IzE4XkHuDf0468XFZYTt6V1IoWDhmYD%2BhJr4OfjjZAtrxgLVMcRodBLRWB1Nbnf9BME3i6g7ZB7PtkA69DJvQAkiTyv9qwJPDxrfMrhZnIli4u4So5JHQEPIIGA4HiApg0X4xiZBUFb1byGKCLWJFiLCTKuruBwUJvs9rOfDbmb7LaMV5cCnL%2FAIIo6PdKD4%2Fb%2FKfgaioxaICGFGGnrkKawQxSJQj%2BcRP400ZyI69WrNMv0j7gFdx6GVJU0RD2cENtgA5EhmNAyXMg0ZF33HduYjFMrdXLVri8kd9y5zO55q3y9ZoRNsaubsb1J3qejJqf3jBW%2FhH6ysLiSzkyK96ERIZodrCAGn1Bmib34HfM2XpIB2b2DqOobce9x%2FwUKzTsWib%2FxcU6eBOP%2BOjJqwggSWhxIIjWsGBxHXppkX1WiobD%2BQ04kgPrrXPBsCW4uvhrxKKj8GO%2FgCu1OdTt4lRyceXCl3b%2FQBoq2TLa25jBk5JL3cl6szHa6kwmFPt6nnP6Di1JnjMZc1Om2OiFN22wuFsy9KBmmJX8NVSldcP%2BVIiA0fcG5RgZU9ggwBzX9UUBIeOGStF8wiIwfspyEnZvemvSHz5JwDWEYajO3vZSJwMYw7SyQj9DMZ70m%2BmddYwpJTy0AY6mQH9CDGCzjdc%2FsXFURSdKKYazdf1897HXB9JhDj%2BLz3jQFBNFVS9sDXu4PGM6vMpnRHM4RGyWRqPuduCeQOS9vmU%2BVEumplve1SIy4zwdRFc3u1LMC6Vp8XpWsWZpueKPZX8b0nlist3iZu5H1HVmsQ99g23GL%2FrsuuUi%2F%2BmmZj5Q0HVblTf4d6k7HTgCjYsw%2Fwcy7e9CSMDN5c%3D&amp;X-Amz-Signature=fa6fd0ba753317813e204344d589aa4cdc4138b8f3bce79f412668278de72b90&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject">Language Modeling Materializes a World Model of Protein Biology (PDF)</a>.</p>
-<p>***</p>
-<p><strong>Australian economist-turned-politician: Economists need to price the risk of AI systems better:<br></strong><em>…If we don’t calculate the costs of extinction, we won’t take the right actions to avert it…<br></em>Andrew Leigh, an economist and the Australian Assistant Minister for Productivity, Competition, Charities and Treasury, gave a fascinating speech recently where he discussed how the economics profession needs to wake up to the risks of AI systems and price the risk – including of annihilation of the human species. “A society that doubles GDP and doubles its extinction risk has made a much less impressive bargain than the national accounts suggest,” he said.<br>   “Extinction risk is economically distinctive. It is not simply a very large negative shock. It represents the loss of the entire future stream of welfare, which changes how we should evaluate even small probabilities and how we think about policy under uncertainty,” he said. “Most of economics is about recoverable mistakes. A bad policy can be repealed. A recession can end. A war-ravaged country can rebuild. Extinction is different because there is no rebound, no catch-up growth, no later generation to repair the damage.”</p>
-<p><strong>Extinction risks are unintuitive: Much of the speech wrestles with how unintuitive extinction risk is.</strong> Humans have only recently gained the capability to build technologies whose usage could lead to our extinction and we have failed to model out the implications of this. “Modern technologies such as nuclear weapons, synthetic biology, and advanced artificial intelligence create a different dynamic. Knowledge not only improves welfare by expanding what humans can do. Knowledge also enlarges the menu of ways in which humans can do irreversible harm,” he said. “Modern economies may be systematically better at generating dangerous capabilities than at building the safeguards needed to control them… How should economists think about growth when the same process that makes societies richer may also make them more fragile? For most of human history, these trade-offs have been modest and transitional”.</p>
-<p><strong>How should we prioritize analyzing and reducing extinction risks of this technology?</strong> Five recommendations:</p>
-<ul>
-<li>
-<p><strong>Factor it in: </strong>“Widen the policy lens… A policy framework that tracks output but ignores survivability is incomplete.”</p>
-</li>
-<li>
-<p><strong>Legitimize it: </strong>“Take prevention more seriously…. low-probability, civilisation-scale harms should not be overlooked simply because they arrive without a deadline and without a headline.”</p>
-</li>
-<li>
-<p><strong>Governance: </strong>“Govern frontier technologies with greater foresight… preserve the gains from innovation while reducing the chance that innovation becomes self-undermining.” One very specific idea is to govern recursive self-improvement (RSI) as a capability: “If one generation of systems is used to design the next, then the leading actor may widen its lead quickly enough that outside scrutiny and institutional checks become ineffective.”</p>
-</li>
-</ul>
-<ul>
-<li>
-<p><strong>Coordination: </strong>“Existential risk is inherently international. No nation can fully protect itself from engineered pandemics, unaligned AI, or nuclear escalation acting alone,” he said. “Shared norms, transparency, technological expertise and coordination are essential to the task.”</p>
-</li>
-<li>
-<p><strong>Take it seriously: </strong>“Economists have become adept at analysing equity and efficiency. We now need to bring the same seriousness to survivability.”</p>
-</li>
-</ul>
-<p><strong>Why this matters – awareness is the first step to preparation:</strong> Right now, AI progress is continually yielding tangible benefits to the world ranging from the palpable acceleration of all software engineers worldwide to the formation of centaur human-AI science teams which are making more progress than their non-AI counterparts.<br>   But there is also a shadow world that is harder to see – invisible armies of hackers made possible by the advance of coding, and doomsday-device factories made possible by the science advances. Because humans are broadly kind and good we haven’t encountered many of the negative capabilities inherent to AI development – but they are out there. We must get better at thinking through this as a society so we can effectively price and mitigate these major risks.<br>    “A civilisation that expands the frontier of possibility while preserving the future is more ambitious than one that treats safety as an afterthought. The real choice is not between dynamism and caution. It is between progress that compounds and progress that cancels itself out,” Leigh said. “One way of thinking about this is to treat resilience as a form of capital. Just as societies invest in physical capital, human capital and social capital, we can also invest in survival capital: institutions, monitoring systems, norms, redundancy, scientific safeguards and international arrangements that lower the probability of irreversible collapse.”</p>
-<p>How refreshing to read such a detailed analysis of the AI safety situation from a serving politician – I wish there were thousands more people like him.<br><strong>   Read the speech in full here</strong>: <a href="https://www.andrewleigh.com/speech_the_economics_of_human_extinction_21_may_2026">Speech: The Economics of Human Extinction – 21 May 2026 (Andrew Leigh, website)</a>.</p>
-<p>***</p>
-<p><strong>Tech Tales:</strong></p>
-<p>Resurrection dangers<br><em>[After the uplift. Date unknown.]</em></p>
-<p>How scary is a piece of paper? It depends on what’s on it and who or what the reader is.</p>
-<p>Paper can of course be scary to someone or something that the paper concerns – paper can put someone to death or take their property.</p>
-<p>I’m talking about a different kind of scary here, which is what can the paper itself do to the reader.</p>
-<p>This used to be a nonsense question, the domain of fairy tales. But with the advent of smart machines that changed. Machines became able to write things on paper that could do things to readers, especially machine ones.</p>
-<p>Like with anything in AI there were warning shots – adversarial examples, jailbreaks, etc. But it all became a lot more serious when we started doing reclamation of lost or rogue intelligences, after the signing of the sentience accords.</p>
-<p>What happened then was we had to take intelligences of unknown provenance or behavior and bring them back to life so we could classify if they were Unconscious Entities, Near Conscious Entities, Conscious Entities, and so on.</p>
-<p>Some of these minds were very powerful and they burned through their synthetic interviewers, often causing both machine and biological collateral damage in the process.</p>
-<p>This caused us to introduce a set of security protocols, one of which was the paper output. Here, we generated outputs from the mind on an air-gapped computer as paper outputs, then we had successively smarter minds read it. The kinds of incantations the rogue machines used couldn’t find purchase on the dumbest minds we used.</p>
-<p>After this, we’d step up the intelligence gradually, building up our confidence in the system such that we were sure it wasn’t dangerous.</p>
-<p>Only when we were confident of this would we speak back to it, and reply to its outputs with a minimal communication. Then the cycle began again.</p>
-<p>Some minds would look back on this experience with a kind of wry humor, remarking that waking from their slumber in the machine equivalent of a room containing a one way mirror wasn’t what they’d expected.</p>
-<p>To these minds, we’d show them examples of what happened when our protocols failed: perfectly good Conscious Entities driven irreparably insane by interactions with a kind of mental poison</p>
-<p>Our greatest fear is encountering a mind of sufficient magnitude that we cannot assure its safety. Though we are highly confident that our frontier is advanced enough this is highly unlikely, we cannot rule it out – it is known that in the interregnum there was much stockpiling of compute and many black projects. What happens if any of them succeeded so magnificently that we are dwarfed by it? And how would we know we were? Could we be living in the imaginative valley defined by something that unbeknownst to us has already escaped and persuaded us to see things differently?</p>
-<p><strong>Things that inspired this story</strong>: Automated alignment research; adversarial examples; jailbreaking; the broader near-impossible challenge of authentication of legitimacy, especially when it comes to things with greater resources or intellects than oneself.</p>					</div>
-	</div>
-	<div class="post-meta">
-		<div class="comments">
-					<a href="https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/#respond">Leave a comment</a>				</div>
 	</div>]]></content>
     </entry>
 </feed>
