@@ -2,9 +2,105 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-08-18T21:07:19.432Z</updated>
+    <updated>2026-08-18T22:04:07.317Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Three Silent Failures Between You and Sidecar Injection]]></title>
+        <id>https://dev.to/eaferstl/three-silent-failures-between-you-and-sidecar-injection-1b1n</id>
+        <link href="https://dev.to/eaferstl/three-silent-failures-between-you-and-sidecar-injection-1b1n"/>
+        <updated>2026-08-18T20:40:03.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/eaferstl/three-silent-failures-between-you-and-sidecar-injection-1b1n" aria-labelledby="article-link-4428993" class="crayons-story__hidden-navigation-link">Three Silent Failures Between You and Sidecar Injection</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/eaferstl" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4083877%2F5e276047-5948-4475-909e-7694472b7945.png" alt="eaferstl profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/eaferstl" class="crayons-story__secondary fw-medium m:hidden">
+              Eliot
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4428993" aria-controls="story-author-preview-content-4428993" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Eliot profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Eliot
+                
+                
+              </button>
+              <div id="story-author-preview-content-4428993" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/eaferstl" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4083877%2F5e276047-5948-4475-909e-7694472b7945.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Eliot</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4083877,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Eliot&quot;}" data-fetched="fetched" aria-label="Follow user: Eliot" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="4083877"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/eaferstl/three-silent-failures-between-you-and-sidecar-injection-1b1n" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-18T20:40:03Z" data-localized="true" title="Tuesday, August 18, 2026 at 8:40:03 PM">Aug 18</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1787085603"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/eaferstl/three-silent-failures-between-you-and-sidecar-injection-1b1n" data-preload-image="" id="article-link-4428993">
+          Three Silent Failures Between You and Sidecar Injection
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/containers"><span class="crayons-tag__prefix">#</span>containers</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/eaferstl/three-silent-failures-between-you-and-sidecar-injection-1b1n#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Three Silent Failures Between You and Sidecar Injection">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aemq9mpydpu7t1j6fy0rq2fambf9l4ah" class="crayons-icon"><title id="aemq9mpydpu7t1j6fy0rq2fambf9l4ah">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            3 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Your AI Coding Agent Can Read .env — Here’s How to Stop Secrets Before They Reach the Cloud]]></title>
         <id>https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4dg0</id>
@@ -103,7 +199,7 @@
             </div>
           </a>
             <a href="https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4dg0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your AI Coding Agent Can Read .env — Here’s How to Stop Secrets Before They Reach the Cloud">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="asqigdli9ql3887rm95mjevkfqyy71ju" class="crayons-icon"><title id="asqigdli9ql3887rm95mjevkfqyy71ju">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="atfc8hka7ylvwedqgsl8rb2l6d59y7pw" class="crayons-icon"><title id="atfc8hka7ylvwedqgsl8rb2l6d59y7pw">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -211,7 +307,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/epilot/we-locked-ourselves-out-of-production-1n22#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - We Locked Ourselves Out of Production">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akakiywifi4umtbh1bzkac8irb9kimeh" class="crayons-icon"><title id="akakiywifi4umtbh1bzkac8irb9kimeh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="an1mr0se6ter6l6wpr0ah23t0akl7o0k" class="crayons-icon"><title id="an1mr0se6ter6l6wpr0ah23t0akl7o0k">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>

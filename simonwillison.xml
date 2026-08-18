@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-08-18T21:07:19.537Z</updated>
+    <updated>2026-08-18T22:04:07.495Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
     <entry>
@@ -520,30 +520,6 @@ I’m aiming for professionalism. I’m performing live in front of an audience�
     <div class="beat-note blogmark-body"><p>Upgraded for compatibility with `sqlite-utils 4.</p></div>
     <div class="beat-meta beat-row2">
       <a href="/2026/Aug/6/datasette-auth-tokens/" rel="bookmark">6th Aug 2026, 11:07 pm</a> · <a href="/tags/datasette/">datasette</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette 1.0a38]]></title>
-        <id>https://github.com/simonw/datasette/releases/tag/1.0a38</id>
-        <link href="https://github.com/simonw/datasette/releases/tag/1.0a38"/>
-        <updated>2026-08-17T05:55:07.908Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/datasette/releases/tag/1.0a38">datasette 1.0a38</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><blockquote>
-<p>This release fixes a <strong>SQL injection</strong> security issue that affects Datasette instances that serve a <strong>mixture of public and private tables</strong> in the same database, with access configured using the <a href="https://docs.datasette.io/en/latest/authentication.html">Datasette permissions system</a>.</p>
-<p>Site administrators who serve private tables in this way are advised to disable the <a href="https://docs.datasette.io/en/latest/authentication.html#execute-sql">execute-sql permission</a> <actions_execute_sql>` on that database to prevent users from accessing private tables using raw SQL queries. The bug that has been fixed would have allowed users with access to any public table to execute SQL injection attacks despite that restriction, giving them read-only access to data in private tables in the same database.</actions_execute_sql></p>
-<p>This fix is also available in <a href="https://simonwillison.net/2026/Aug/6/datasette-2/">Datasette 0.65.3</a>.</p>
-</blockquote>
-<p>Thankfully this particular configuration - private tables and public tables exposed for the same database within the same instance - is likely to be rare. I've not encountered an instance like that myself.</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Aug/6/datasette/" rel="bookmark">6th Aug 2026, 6:24 pm</a> · <a href="/tags/sql-injection/">sql-injection</a>, <a href="/tags/security/">security</a>, <a href="/tags/datasette/">datasette</a>
     </div>
   </div>]]></content>
     </entry>
