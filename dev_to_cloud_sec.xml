@@ -2,9 +2,117 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-08-18T13:35:48.167Z</updated>
+    <updated>2026-08-18T14:19:36.655Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Read-Only Kubernetes Access for AI Agents: Why "Please Don't Delete Anything" Isn't a Security Boundary]]></title>
+        <id>https://dev.to/granite-so/read-only-kubernetes-access-for-ai-agents-why-please-dont-delete-anything-isnt-a-security-2cem</id>
+        <link href="https://dev.to/granite-so/read-only-kubernetes-access-for-ai-agents-why-please-dont-delete-anything-isnt-a-security-2cem"/>
+        <updated>2026-08-18T13:36:09.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/granite-so/read-only-kubernetes-access-for-ai-agents-why-please-dont-delete-anything-isnt-a-security-2cem" aria-labelledby="article-link-4426765" class="crayons-story__hidden-navigation-link">Read-Only Kubernetes Access for AI Agents: Why "Please Don't Delete Anything" Isn't a Security Boundary</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/granite-so">
+            <img alt="Granite logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F14307%2F1bade391-52e7-41a8-b485-21d4e2e1251c.jpeg" class="crayons-logo__image" loading="lazy">
+          </a>
+
+          <a href="/alex_gorshkov" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4068129%2F2e98d995-9e3e-48d1-a774-dd7695b063d2.jpeg" alt="alex_gorshkov profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/alex_gorshkov" class="crayons-story__secondary fw-medium m:hidden">
+              Alex Gorshkov
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4426765" aria-controls="story-author-preview-content-4426765" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Alex Gorshkov profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Alex Gorshkov
+                
+                
+              </button>
+              <div id="story-author-preview-content-4426765" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/alex_gorshkov" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4068129%2F2e98d995-9e3e-48d1-a774-dd7695b063d2.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Alex Gorshkov</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4068129,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Alex Gorshkov&quot;}" data-fetched="fetched" aria-label="Follow user: Alex Gorshkov" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="4068129"></div>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/granite-so" class="crayons-story__secondary fw-medium">Granite</a>
+            </span>
+          </div>
+          <a href="https://dev.to/granite-so/read-only-kubernetes-access-for-ai-agents-why-please-dont-delete-anything-isnt-a-security-2cem" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-18T13:36:09Z" data-localized="true" title="Tuesday, August 18, 2026 at 1:36:09 PM">Aug 18</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1787060169"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/granite-so/read-only-kubernetes-access-for-ai-agents-why-please-dont-delete-anything-isnt-a-security-2cem" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F106y9gmplie65vxp9i31.jpg" id="article-link-4426765">
+          Read-Only Kubernetes Access for AI Agents: Why "Please Don't Delete Anything" Isn't a Security Boundary
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(11, 226, 245, 0.10);
+        --tag-prefix: #0be2f5;
+        --tag-bg-hover: rgba(11, 226, 245, 0.10);
+        --tag-prefix-hover: #0be2f5;
+      " href="/t/agents"><span class="crayons-tag__prefix">#</span>agents</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/granite-so/read-only-kubernetes-access-for-ai-agents-why-please-dont-delete-anything-isnt-a-security-2cem#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Read-Only Kubernetes Access for AI Agents: Why &quot;Please Don't Delete Anything&quot; Isn't a Security Boundary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5njwumpkt3gdycunwzblpigvcjcv6e7" class="crayons-icon"><title id="a5njwumpkt3gdycunwzblpigvcjcv6e7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We Locked Ourselves Out of Production]]></title>
         <id>https://dev.to/epilot/we-locked-ourselves-out-of-production-1n22</id>
@@ -99,7 +207,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/epilot/we-locked-ourselves-out-of-production-1n22#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - We Locked Ourselves Out of Production">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="an2qgos0r96trshr8p1hjh8fr3mudyzq" class="crayons-icon"><title id="an2qgos0r96trshr8p1hjh8fr3mudyzq">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akukbxpqkqmxmtwxqdqo0efnu07mewds" class="crayons-icon"><title id="akukbxpqkqmxmtwxqdqo0efnu07mewds">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -201,7 +309,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/ayinedjimi-consultants/building-a-kubernetes-security-audit-tool-with-go-4dnm#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building a Kubernetes Security Audit Tool with Go">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9ck9cj0yr3wcfrq6acu2oi0u5jxdg5b" class="crayons-icon"><title id="a9ck9cj0yr3wcfrq6acu2oi0u5jxdg5b">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3pfum9jtqwgsjrvg6kq7dl0fcqqv360" class="crayons-icon"><title id="a3pfum9jtqwgsjrvg6kq7dl0fcqqv360">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -209,108 +317,6 @@
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
             5 min read
-          </small>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We Built a Security Scanner That Automates Itself — and Never Touches the Cloud]]></title>
-        <id>https://dev.to/jomynn/we-built-a-security-scanner-that-automates-itself-and-never-touches-the-cloud-48h6</id>
-        <link href="https://dev.to/jomynn/we-built-a-security-scanner-that-automates-itself-and-never-touches-the-cloud-48h6"/>
-        <updated>2026-08-18T07:51:55.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/jomynn/we-built-a-security-scanner-that-automates-itself-and-never-touches-the-cloud-48h6" aria-labelledby="article-link-4424037" class="crayons-story__hidden-navigation-link">We Built a Security Scanner That Automates Itself — and Never Touches the Cloud</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/jomynn" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1281364%2F43541c24-85d1-4bb3-8236-e7ef7b1821b7.png" alt="jomynn profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/jomynn" class="crayons-story__secondary fw-medium m:hidden">
-              jomynn
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4424037" aria-controls="story-author-preview-content-4424037" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="jomynn profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                jomynn
-                
-                
-              </button>
-              <div id="story-author-preview-content-4424037" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/jomynn" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1281364%2F43541c24-85d1-4bb3-8236-e7ef7b1821b7.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">jomynn</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1281364,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;jomynn&quot;}" data-fetched="fetched" aria-label="Follow user: jomynn" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="1281364"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/jomynn/we-built-a-security-scanner-that-automates-itself-and-never-touches-the-cloud-48h6" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-18T07:51:55Z" data-localized="true" title="Tuesday, August 18, 2026 at 7:51:55 AM">Aug 18</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1787039515"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/jomynn/we-built-a-security-scanner-that-automates-itself-and-never-touches-the-cloud-48h6" data-preload-image="" id="article-link-4424037">
-          We Built a Security Scanner That Automates Itself — and Never Touches the Cloud
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/automation"><span class="crayons-tag__prefix">#</span>automation</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(38, 190, 0, 0.10);
-        --tag-prefix: #26BE00;
-        --tag-bg-hover: rgba(38, 190, 0, 0.10);
-        --tag-prefix-hover: #26BE00;
-      " href="/t/opensource"><span class="crayons-tag__prefix">#</span>opensource</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/jomynn/we-built-a-security-scanner-that-automates-itself-and-never-touches-the-cloud-48h6#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - We Built a Security Scanner That Automates Itself — and Never Touches the Cloud">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ajw731t0ywda1t19t8fg2uhdsbo1966f" class="crayons-icon"><title id="ajw731t0ywda1t19t8fg2uhdsbo1966f">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            3 min read
           </small>
         </div>
       </div>
