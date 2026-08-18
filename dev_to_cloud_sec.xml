@@ -2,9 +2,121 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-08-18T17:13:06.640Z</updated>
+    <updated>2026-08-18T18:05:47.571Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Your AI Coding Agent Can Read .env — Here’s How to Stop Secrets Before They Reach the Cloud]]></title>
+        <id>https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4dg0</id>
+        <link href="https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4dg0"/>
+        <updated>2026-08-18T14:50:30.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4dg0" aria-labelledby="article-link-4427228" class="crayons-story__hidden-navigation-link">Your AI Coding Agent Can Read .env — Here’s How to Stop Secrets Before They Reach the Cloud</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/3mre0s" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4080447%2F72e994c3-c843-47fe-bc23-ea5244151728.png" alt="3mre0s profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/3mre0s" class="crayons-story__secondary fw-medium m:hidden">
+              3mre0s
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4427228" aria-controls="story-author-preview-content-4427228" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="3mre0s profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                3mre0s
+                
+                
+              </button>
+              <div id="story-author-preview-content-4427228" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/3mre0s" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4080447%2F72e994c3-c843-47fe-bc23-ea5244151728.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">3mre0s</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4080447,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;3mre0s&quot;}" data-fetched="fetched" aria-label="Follow user: 3mre0s" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="4080447"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4dg0" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-18T14:50:30Z" data-localized="true" title="Tuesday, August 18, 2026 at 2:50:30 PM">Aug 18</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1787064630"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4dg0" data-preload-image="" id="article-link-4427228">
+          Your AI Coding Agent Can Read .env — Here’s How to Stop Secrets Before They Reach the Cloud
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(41, 190, 176, 0.10);
+        --tag-prefix: #29BEB0;
+        --tag-bg-hover: rgba(41, 190, 176, 0.10);
+        --tag-prefix-hover: #29BEB0;
+      " href="/t/go"><span class="crayons-tag__prefix">#</span>go</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(38, 190, 0, 0.10);
+        --tag-prefix: #26BE00;
+        --tag-bg-hover: rgba(38, 190, 0, 0.10);
+        --tag-prefix-hover: #26BE00;
+      " href="/t/opensource"><span class="crayons-tag__prefix">#</span>opensource</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4dg0" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4427228" aria-label="Add a comment to post - Your AI Coding Agent Can Read .env — Here’s How to Stop Secrets Before They Reach the Cloud">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4dg0#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your AI Coding Agent Can Read .env — Here’s How to Stop Secrets Before They Reach the Cloud">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ah7hunnh7sfqspastz5ytuvle6ai6caf" class="crayons-icon"><title id="ah7hunnh7sfqspastz5ytuvle6ai6caf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Read-Only Kubernetes Access for AI Agents: Why "Please Don't Delete Anything" Isn't a Security Boundary]]></title>
         <id>https://dev.to/granite-so/read-only-kubernetes-access-for-ai-agents-why-please-dont-delete-anything-isnt-a-security-2cem</id>
@@ -99,7 +211,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/granite-so/read-only-kubernetes-access-for-ai-agents-why-please-dont-delete-anything-isnt-a-security-2cem#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Read-Only Kubernetes Access for AI Agents: Why &quot;Please Don't Delete Anything&quot; Isn't a Security Boundary">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5njwumpkt3gdycunwzblpigvcjcv6e7" class="crayons-icon"><title id="a5njwumpkt3gdycunwzblpigvcjcv6e7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ab3g132vyy7hjsz54t5h9922umyochne" class="crayons-icon"><title id="ab3g132vyy7hjsz54t5h9922umyochne">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -207,7 +319,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/epilot/we-locked-ourselves-out-of-production-1n22#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - We Locked Ourselves Out of Production">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akukbxpqkqmxmtwxqdqo0efnu07mewds" class="crayons-icon"><title id="akukbxpqkqmxmtwxqdqo0efnu07mewds">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqbntcjgxc3uydj0tu5rptkg42zauelx" class="crayons-icon"><title id="aqbntcjgxc3uydj0tu5rptkg42zauelx">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -222,11 +334,11 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Building a Kubernetes Security Audit Tool with Go]]></title>
-        <id>https://dev.to/ayinedjimi-consultants/building-a-kubernetes-security-audit-tool-with-go-4dnm</id>
-        <link href="https://dev.to/ayinedjimi-consultants/building-a-kubernetes-security-audit-tool-with-go-4dnm"/>
-        <updated>2026-08-18T10:05:28.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/ayinedjimi-consultants/building-a-kubernetes-security-audit-tool-with-go-4dnm" aria-labelledby="article-link-4425196" class="crayons-story__hidden-navigation-link">Building a Kubernetes Security Audit Tool with Go</a>
+        <title type="html"><![CDATA[Your AI Coding Agent Can Read .env — Here’s How to Stop Secrets Before They Reach the Cloud]]></title>
+        <id>https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4ao4</id>
+        <link href="https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4ao4"/>
+        <updated>2026-08-18T13:43:13.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4ao4" aria-labelledby="article-link-4426811" class="crayons-story__hidden-navigation-link">Your AI Coding Agent Can Read .env — Here’s How to Stop Secrets Before They Reach the Cloud</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
@@ -234,41 +346,41 @@
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
 
-          <a href="/ayinedjimi-consultants" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3944946%2Fd4fe3b16-5ce2-4120-8cb6-84fdeb9e3f23.png" alt="ayinedjimi-consultants profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/3mre0s" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4080447%2F72e994c3-c843-47fe-bc23-ea5244151728.png" alt="3mre0s profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/ayinedjimi-consultants" class="crayons-story__secondary fw-medium m:hidden">
-              Ayi NEDJIMI
+            <a href="/3mre0s" class="crayons-story__secondary fw-medium m:hidden">
+              3mre0s
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4425196" aria-controls="story-author-preview-content-4425196" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Ayi NEDJIMI profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Ayi NEDJIMI
+              <button id="story-author-preview-trigger-4426811" aria-controls="story-author-preview-content-4426811" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="3mre0s profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                3mre0s
                 
                 
               </button>
-              <div id="story-author-preview-content-4425196" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-4426811" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/ayinedjimi-consultants" class="flex">
+                    <a href="/3mre0s" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3944946%2Fd4fe3b16-5ce2-4120-8cb6-84fdeb9e3f23.png" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4080447%2F72e994c3-c843-47fe-bc23-ea5244151728.png" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Ayi NEDJIMI</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">3mre0s</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3944946,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Ayi NEDJIMI&quot;}" data-fetched="fetched" aria-label="Follow user: Ayi NEDJIMI" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4080447,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;3mre0s&quot;}" data-fetched="fetched" aria-label="Follow user: 3mre0s" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="3944946"></div>
+                  <div class="author-preview-metadata-container" data-author-id="4080447"></div>
                 </div>
               </div>
             </div>
 
           </div>
-          <a href="https://dev.to/ayinedjimi-consultants/building-a-kubernetes-security-audit-tool-with-go-4dnm" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-18T10:05:28Z" data-localized="true" title="Tuesday, August 18, 2026 at 10:05:28 AM">Aug 18</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1787047528"></span></a>
+          <a href="https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4ao4" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-18T13:43:13Z" data-localized="true" title="Tuesday, August 18, 2026 at 1:43:13 PM">Aug 18</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1787060593"></span></a>
         </div>
       </div>
 
@@ -276,17 +388,23 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/ayinedjimi-consultants/building-a-kubernetes-security-audit-tool-with-go-4dnm" data-preload-image="" id="article-link-4425196">
-          Building a Kubernetes Security Audit Tool with Go
+        <a href="https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4ao4" data-preload-image="" id="article-link-4426811">
+          Your AI Coding Agent Can Read .env — Here’s How to Stop Secrets Before They Reach the Cloud
         </a>
       </h2>
         <div class="crayons-story__tags">
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(41, 190, 176, 0.10);
-        --tag-prefix: #29BEB0;
-        --tag-bg-hover: rgba(41, 190, 176, 0.10);
-        --tag-prefix-hover: #29BEB0;
-      " href="/t/go"><span class="crayons-tag__prefix">#</span>go</a>
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(137, 6, 6, 0.10);
+        --tag-prefix: #890606;
+        --tag-bg-hover: rgba(137, 6, 6, 0.10);
+        --tag-prefix-hover: #890606;
+      " href="/t/programming"><span class="crayons-tag__prefix">#</span>programming</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(27, 172, 128, 0.10);
         --tag-prefix: #1bac80;
@@ -294,24 +412,28 @@
         --tag-prefix-hover: #1bac80;
       " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(254, 255, 165, 0.10);
-        --tag-prefix: #FEFFA5;
-        --tag-bg-hover: rgba(254, 255, 165, 0.10);
-        --tag-prefix-hover: #FEFFA5;
-      " href="/t/tutorial"><span class="crayons-tag__prefix">#</span>tutorial</a>
+        --tag-bg: rgba(38, 190, 0, 0.10);
+        --tag-prefix: #26BE00;
+        --tag-bg-hover: rgba(38, 190, 0, 0.10);
+        --tag-prefix-hover: #26BE00;
+      " href="/t/opensource"><span class="crayons-tag__prefix">#</span>opensource</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-            <a href="https://dev.to/ayinedjimi-consultants/building-a-kubernetes-security-audit-tool-with-go-4dnm#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Building a Kubernetes Security Audit Tool with Go">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3pfum9jtqwgsjrvg6kq7dl0fcqqv360" class="crayons-icon"><title id="a3pfum9jtqwgsjrvg6kq7dl0fcqqv360">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+          <a href="https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4ao4" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4426811" aria-label="Add a comment to post - Your AI Coding Agent Can Read .env — Here’s How to Stop Secrets Before They Reach the Cloud">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/3mre0s/your-ai-coding-agent-can-read-env-heres-how-to-stop-secrets-before-they-reach-the-cloud-4ao4#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your AI Coding Agent Can Read .env — Here’s How to Stop Secrets Before They Reach the Cloud">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="amee862ewpxibqizfnxhxrxxpaspdn95" class="crayons-icon"><title id="amee862ewpxibqizfnxhxrxxpaspdn95">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
+              2<span class="hidden s:inline">&nbsp;comments</span>
             </a>
         </div>
         <div class="crayons-story__save">
