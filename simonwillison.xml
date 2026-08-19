@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-08-19T22:04:26.646Z</updated>
+    <updated>2026-08-19T23:02:08.776Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[0]]></title>
+        <title type="html"><![CDATA[My hypothesis is that there is a new opportunity for Extensible Software on the web. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. We can give our users super powers.]]></title>
+        <id>https://simonwillison.net/2026/Aug/19/jeremy-morrell/</id>
+        <link href="https://simonwillison.net/2026/Aug/19/jeremy-morrell/"/>
+        <updated>2026-08-19T23:00:41.875Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/"><p>My hypothesis is that&nbsp;<strong>there is a new opportunity for Extensible Software on the web</strong>. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces.&nbsp;<strong>We can give our users super powers.</strong></p></blockquote>
+  <p class="cite">— <a href="https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/">Jeremy Morrell</a>, <span class="context">Extensible Software in the age of LLMs</span></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Aug/19/jeremy-morrell/" rel="bookmark">#</a>
+    <a href="/2026/Aug/19/jeremy-morrell/">10:56 pm</a>
+     / <a href="/tags/sandboxing/">sandboxing</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/generative-ai/">generative-ai</a>
+  </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Conceptual integrity and counting lines of code]]></title>
+        <id>https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/</id>
+        <link href="https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/"/>
+        <updated>2026-08-19T23:00:41.877Z</updated>
+        <content type="html"><![CDATA[<h3><a href="/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/" rel="bookmark">Conceptual integrity and counting lines of code</a></h3>
+  
+  <p>
+    </p><p>Last week I recorded <a href="https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison">an episode of the Talking Postgres podcast</a> with Claire Giordano on the subject of “How AI is changing software development”. We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: “very minor edits to remove disfluencies”).</p>
+
+    <span style="font-size: 0.9em">[... <a href="/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/">610 words</a>]</span>
+  <p></p>
+  <div class="entryFooter">
+  <a href="/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/" title="Permalink for &quot;Conceptual integrity and counting lines of code&quot;">10:46 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/podcast-appearances/">podcast-appearances</a>, <a href="/tags/coding-agents/">coding-agents</a>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2]]></title>
         <id>https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/</id>
         <link href="https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/"/>
         <updated>2026-08-17T05:55:07.809Z</updated>
@@ -502,25 +532,6 @@ I’m aiming for professionalism. I’m performing live in front of an audience�
   <p></p>
   <div class="entryFooter">
   <a href="/2026/Aug/7/openai-timeline/" title="Permalink for &quot;Now we have a timeline of the OpenAI accidental attack against Hugging Face&quot;">11:55 pm</a> / <a href="/tags/security/">security</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/hugging-face/">hugging-face</a>, <a href="/tags/ai-security-research/">ai-security-research</a>, <a href="/tags/openai-hugging-face-incident/">openai-hugging-face-incident</a>, <a href="/tags/accidental-cyberattacks/">accidental-cyberattacks</a>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-auth-tokens 0.4a13]]></title>
-        <id>https://github.com/simonw/datasette-auth-tokens/releases/tag/0.4a13</id>
-        <link href="https://github.com/simonw/datasette-auth-tokens/releases/tag/0.4a13"/>
-        <updated>2026-08-17T05:55:07.907Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/datasette-auth-tokens/releases/tag/0.4a13">datasette-auth-tokens 0.4a13</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>Upgraded for compatibility with `sqlite-utils 4.</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Aug/6/datasette-auth-tokens/" rel="bookmark">6th Aug 2026, 11:07 pm</a> · <a href="/tags/datasette/">datasette</a>
-    </div>
   </div>]]></content>
     </entry>
 </feed>
