@@ -1862,13 +1862,14 @@ entrySelector = "div.publication"
 titleSelector = "p:first-of-type > a"
 linkSelector = "p:first-of-type > a"
 
-[embracethered]
-title = "Embrace The Red"
-url = "https://embracethered.com/blog/index.html"
-timeout = 240
-entrySelector = "article.posts section:not(:last-of-type) ul li"
-titleSelector = "a"
-linkSelector = "a"
+# exists official feed http://embracethered.com/blog/index.xml
+# [embracethered]
+# title = "Embrace The Red"
+# url = "https://embracethered.com/blog/index.html"
+# timeout = 240
+# entrySelector = "article.posts section:not(:last-of-type) ul li"
+# titleSelector = "a"
+# linkSelector = "a"
 
 [simonwillison]
 title = "Simon Willison"
