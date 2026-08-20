@@ -2,15 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://olearysec.com/research/</id>
     <title>olearysec</title>
-    <updated>2026-08-20T12:03:57.438Z</updated>
+    <updated>2026-08-20T13:39:46.430Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://olearysec.com/favicon.svg</icon>
     <entry>
-        <title type="html"><![CDATA[ConfigConfusion: GCP IAM Authorization Bypass — Google Said 'Nice Catch' Then Left It Unpatched]]></title>
-        <id>https://olearysec.com/research/config-connector-authorization-bypass/</id>
-        <link href="https://olearysec.com/research/config-connector-authorization-bypass/"/>
-        <updated>2026-06-18T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://olearysec.com/research/config-connector-authorization-bypass/" class="research-card">
+        <title type="html"><![CDATA[PrometheusUnbound: Cross-Namespace Secret Theft in Google Managed Prometheus]]></title>
+        <id>https://olearysec.com/research/gmp-confused-deputy-chain/</id>
+        <link href="https://olearysec.com/research/gmp-confused-deputy-chain/"/>
+        <updated>2026-08-20T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://olearysec.com/research/gmp-confused-deputy-chain/" class="research-card">
+            <div class="research-card-content">
+                <h3>PrometheusUnbound: Cross-Namespace Secret Theft in Google Managed Prometheus</h3>
+                <p class="excerpt">Two confused deputy vulnerabilities in Google Cloud Managed Service for Prometheus allow cluster-wide metrics exfiltration and cross-namespace secret theft. PodMonitoring has CEL validation blocking cross-namespace secret references. ClusterPodMonitoring doesn't.</p>
+                <div class="research-card-meta">
+                    <span class="meta-item">Aug 20, 2026</span>
+                    <span class="meta-item">Google</span>
+                    <span class="meta-item">None (vendor declined)</span>
+                </div>
+            </div>
+            <div class="research-card-side">
+                
+                <span class="severity severity-high">High</span>
+                
+                
+                <span class="cvss">8.6</span>
+                
+            </div>
+        </a>
+        
+        <a href="https://olearysec.com/research/config-connector-authorization-bypass/" class="research-card">
             <div class="research-card-content">
                 <h3>ConfigConfusion: GCP IAM Authorization Bypass — Google Said 'Nice Catch' Then Left It Unpatched</h3>
                 <p class="excerpt">GCP IAM authorization bypass via Config Connector confused deputy allows any Kubernetes user to escalate to GCP Organization Owner, bypassing all IAM controls. CVSS 9.9. Google's VRP acknowledged it, then refused the bounty by miscategorizing it as a Config Connector issue instead of an IAM bypass.</p>
