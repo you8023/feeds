@@ -2,9 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-08-21T14:20:46.439Z</updated>
+    <updated>2026-08-21T15:14:41.874Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work.
+So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome.]]></title>
+        <id>https://simonwillison.net/2026/Aug/21/matt-webb/</id>
+        <link href="https://simonwillison.net/2026/Aug/21/matt-webb/"/>
+        <updated>2026-08-21T15:13:14.311Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://interconnected.org/home/2026/08/21/galactic"><p>After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work.</p>
+<p>So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome.</p></blockquote>
+  <p class="cite">— <a href="https://interconnected.org/home/2026/08/21/galactic">Matt Webb</a>, <span class="context">Galactic Compass 2: now with new augmented reality mode</span></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Aug/21/matt-webb/" rel="bookmark">#</a>
+    <a href="/2026/Aug/21/matt-webb/">3:06 pm</a>
+     / <a href="/tags/matt-webb/">matt-webb</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/chatgpt/">chatgpt</a>, <a href="/tags/education/">education</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
+  </p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView]]></title>
         <id>https://github.com/simonw/research/tree/main/bun-webview-json-api#readme</id>
@@ -95,7 +111,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[4]]></title>
+        <title type="html"><![CDATA[5]]></title>
         <id>https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/</id>
         <link href="https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/"/>
         <updated>2026-08-20T15:17:36.668Z</updated>
@@ -528,32 +544,5 @@ This project has become so convoluted, with so many layers and services, that no
       <a href="/2026/Aug/9/sqlite-text-history-prototype/" rel="bookmark">9th Aug 2026, 10:05 pm</a> · <a href="/tags/sqlite/">sqlite</a>, <a href="/tags/compression/">compression</a>, <a href="/tags/speech-to-text/">speech-to-text</a>
     </div>
   </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[May 7: OpenAI starts a new training run for an experimental, unreleased model. (Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how well they’re doing”, so I guess this really was about training a model, not evaluating one that was already trained.)]]></title>
-        <id>https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/</id>
-        <link href="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/"/>
-        <updated>2026-08-20T15:17:36.763Z</updated>
-        <content type="html"><![CDATA[<p class="comment-source-bar"><a class="beat-label comment" href="/elsewhere/comment/">Comment</a> <img class="beat-favicon" src="https://www.google.com/s2/favicons?domain=news.ycombinator.com&amp;sz=128" alt="" width="14" height="14" loading="lazy"> <a href="https://news.ycombinator.com/item?id=49220609#49221745">My comment</a> on <a href="https://news.ycombinator.com/item?id=49220609">Now we have a timeline of the OpenAI accidental attack against Hugging Face</a> — Hacker News</p>
-
-  
-  <p>I think one of the most interesting details here might be tucked away in that first bullet point:</p>
-<blockquote>
-<p>May 7: OpenAI starts a new training run for an experimental, unreleased model. <em>(Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how well they’re doing”, so I guess this really was about training a model, not evaluating one that was already trained.)</em></p>
-</blockquote>
-<p>The more I think about this the more I suspect that the fact this happened while <em>training</em> a new model is key to understanding what went wrong.</p>
-<p>In RLVR - Reinforcement Learning with Verifiable Rewards - you set the model a goal and have it take <em>any steps necessary</em> to achieve that goal.</p>
-<p>Clearly one aspect of OpenAI's training here is to RLVR their models for cybersecurity tasks. Just like pre-training benefits from dumping in vast sources of knowledge, the more tasks you can feed into RLVR the more of a general purpose capable model you get at the end.</p>
-<p>This also helps explain why the models had nothing to cause them to hold back. Those safety behaviors are added much later in the process.</p>
-<p>AND it explains (but does not excuse) why monitoring was so lax. If you're training a new model like this you presumably set it thousands of tasks like this in parallel. I can see how you might miss that a tiny subset of your training agents have started leaving each other messages in filenames on your packaging server.</p>
-<p>Someone once told me that you can't just leave the racist materials out of your training data if you want a non-racist model: it has to have seen examples of racism in order to later be taught that racism is bad.</p>
-<p>I can see echoes of that here. If your model doesn't know how to aggressively hack things how do you later teach it not to?</p>
-<p>(I have little knowledge of how RLVR works in practice so I'm looking forward to hearing from people who can help me understand if I'm on the right track here.)</p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/" rel="bookmark">#</a>
-    <a href="/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/">2:06 pm</a>
-     / <a href="/tags/openai-hugging-face-incident/">openai-hugging-face-incident</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/ai-security-research/">ai-security-research</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
-  </p>]]></content>
     </entry>
 </feed>
