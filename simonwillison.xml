@@ -2,9 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-08-21T21:00:39.487Z</updated>
+    <updated>2026-08-21T22:05:24.873Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[llm 0.32.1]]></title>
+        <id>https://github.com/simonw/llm/releases/tag/0.32.1</id>
+        <link href="https://github.com/simonw/llm/releases/tag/0.32.1"/>
+        <updated>2026-08-21T22:03:58.403Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/llm/releases/tag/0.32.1">llm 0.32.1</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p>
+<p>This dot-release fixes that for the moment by pinning to <code>openai&lt;3</code>, and a soon-to-drop 0.33 release will switch from <code>httpx</code> to <a href="https://github.com/pydantic/httpx2">httpx2</a>.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Aug/21/llm/" rel="bookmark">21st Aug 2026, 5:16 pm</a> · <a href="/tags/httpx/">httpx</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/llm/">llm</a>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-openrouter 0.7]]></title>
+        <id>https://github.com/simonw/llm-openrouter/releases/tag/0.7</id>
+        <link href="https://github.com/simonw/llm-openrouter/releases/tag/0.7"/>
+        <updated>2026-08-21T22:03:58.407Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/llm-openrouter/releases/tag/0.7">llm-openrouter 0.7</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>Now that this plugin is compatible with <a href="https://simonwillison.net/2026/Aug/4/new-release-of-llm/">LLM 0.32</a> it works much better with reasoning LLMs available through OpenRouter.</p>
+<blockquote>
+<ul>
+<li>Updated for compatibility with <a href="https://llm.datasette.io/en/stable/changelog.html#v0-32">LLM 0.32</a>.</li>
+<li>Models now use OpenRouter's implementation of the <a href="https://openrouter.ai/docs/api_reference/responses/overview">Responses API</a>.</li>
+<li>Three new server-side tools: <a href="https://github.com/simonw/llm-openrouter#shell">Shell</a>, <a href="https://github.com/simonw/llm-openrouter#web-fetch">WebFetch</a>, and <a href="https://github.com/simonw/llm-openrouter#web-search">WebSearch</a>. Enable these with options like <code>-T WebSearch</code>.</li>
+</ul>
+</blockquote></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Aug/21/llm-openrouter/" rel="bookmark">21st Aug 2026, 4:58 pm</a> · <a href="/tags/openrouter/">openrouter</a>, <a href="/tags/llm/">llm</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work.
 So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome.]]></title>
@@ -151,7 +197,7 @@ So learning doesn’t stop just because I outsource a bunch of thinking to AI. I
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[7]]></title>
+        <title type="html"><![CDATA[9]]></title>
         <id>https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/</id>
         <link href="https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/"/>
         <updated>2026-08-20T15:17:36.668Z</updated>
