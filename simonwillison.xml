@@ -2,9 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-08-20T23:05:39.459Z</updated>
+    <updated>2026-08-21T00:00:59.249Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView]]></title>
+        <id>https://github.com/simonw/research/tree/main/bun-webview-json-api#readme</id>
+        <link href="https://github.com/simonw/research/tree/main/bun-webview-json-api#readme"/>
+        <updated>2026-08-20T23:59:36.405Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label research" href="/elsewhere/research/">Research</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/research/tree/main/bun-webview-json-api#readme">A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>Today saw the long awaited <a href="https://bun.com/blog/bun-v1.4">release of Bun 1.4</a>, the first stable version since the infamous Rust rewrite <a href="https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/">a few months ago</a>.</p>
+<p>Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and claimed 2,900 additional bug fixes:</p>
+<blockquote>
+<p>Bun 1.4 adds +1,517 tests from the Node.js test suite - our biggest jump in Node.js compatibility since Bun 1.0. Bun v1.4 also fixes over 2,900 issues. It reduces idle CPU usage by 5x, reduces memory usage by up to 35%, and starts 50% faster on Linux. It adds&nbsp;<a href="https://bun.com/blog/bun-v1.4#bun-image"><code>Bun.Image</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-webview"><code>Bun.WebView</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-markdown"><code>Bun.markdown</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-cron"><code>Bun.cron()</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-terminal"><code>Bun.Terminal</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-run-parallel"><code>bun run --parallel</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-test-parallel"><code>bun test --parallel</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-audit-fix"><code>bun audit fix</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-dedupe"><code>bun dedupe</code></a>, and&nbsp;<a href="https://bun.com/blog/bun-v1.4#bun-prune"><code>bun prune</code></a>. And it rewrites Bun from Zig to Rust.</p>
+</blockquote>
+<p>Of these the one that most caught my eye was <code>Bun.WebView</code>, which adds first class support for browser automation to Bun core using either macOS WebKit or control of a local Chromium process via the Chrome DevTools Protocol (CDP).</p>
+<p>I had Claude Code for web build a prototype of a web API providing the ability to load a web page and then execute JavaScript against it, inspired by my <a href="https://shot-scraper.datasette.io/en/stable/javascript.html">shot-scraper javascript</a> CLI tool - partly to see how much RAM would be needed by such a service.</p>
+<p>Here's <a href="https://github.com/simonw/research/blob/main/bun-webview-json-api/server.ts">that TypeScript server implementation</a>, which appears to need a 192MB-256MB container to run a full Chrome against complex web pages - tested using cgroups.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Aug/20/bun-webview-json-api/" rel="bookmark">20th Aug 2026, 3:37 pm</a> · <a href="/tags/bun/">bun</a>, <a href="/tags/javascript/">javascript</a>, <a href="/tags/browsers/">browsers</a>, <a href="/tags/rust/">rust</a>, <a href="/tags/coding-agents/">coding-agents</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/typescript/">typescript</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[smolmachines / smolvm as a sandbox for untrusted Python & JavaScript]]></title>
         <id>https://github.com/simonw/research/tree/main/smolmachines-untrusted-sandbox#readme</id>
@@ -69,7 +95,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[3]]></title>
+        <title type="html"><![CDATA[4]]></title>
         <id>https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/</id>
         <link href="https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/"/>
         <updated>2026-08-20T15:17:36.668Z</updated>
@@ -545,26 +571,5 @@ I’m aiming for professionalism. I’m performing live in front of an audience�
     <a href="/2026/Aug/8/john-gruber/">12:10 am</a>
      / <a href="/tags/john-gruber/">john-gruber</a>, <a href="/tags/blogging/">blogging</a>
   </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Now we have a timeline of the OpenAI accidental attack against Hugging Face]]></title>
-        <id>https://simonwillison.net/2026/Aug/7/openai-timeline/</id>
-        <link href="https://simonwillison.net/2026/Aug/7/openai-timeline/"/>
-        <updated>2026-08-20T15:17:36.767Z</updated>
-        <content type="html"><![CDATA[<h3><a href="/2026/Aug/7/openai-timeline/" rel="bookmark">Now we have a timeline of the OpenAI accidental attack against Hugging Face</a></h3>
-  
-    <div class="card-container">
-      <a href="/2026/Aug/7/openai-timeline/"><img src="https://img.youtube.com/vi/87DyyMV0kCY/maxresdefault.jpg" alt="Visit Now we have a timeline of the OpenAI accidental attack against Hugging Face"></a>
-    </div>
-  
-  <p>
-    </p><p>OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about “the Hugging Face Incident” (<a href="https://simonwillison.net/2026/Jul/22/openai-cyberattack/">previously</a> on this blog). <a href="https://www.youtube.com/watch?v=87DyyMV0kCY">The video</a> was published yesterday. It’s short and information dense and well worth watching, in particular because it provides full details of what happened and how things played out inside OpenAI. I’ve used the video to construct the timeline below.</p>
-
-
-    <span style="font-size: 0.9em">[... <a href="/2026/Aug/7/openai-timeline/">916 words</a>]</span>
-  <p></p>
-  <div class="entryFooter">
-  <a href="/2026/Aug/7/openai-timeline/" title="Permalink for &quot;Now we have a timeline of the OpenAI accidental attack against Hugging Face&quot;">11:55 pm</a> / <a href="/tags/security/">security</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/hugging-face/">hugging-face</a>, <a href="/tags/ai-security-research/">ai-security-research</a>, <a href="/tags/openai-hugging-face-incident/">openai-hugging-face-incident</a>, <a href="/tags/accidental-cyberattacks/">accidental-cyberattacks</a>
-  </div>]]></content>
     </entry>
 </feed>
