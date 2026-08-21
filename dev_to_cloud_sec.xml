@@ -2,111 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-08-21T17:13:50.926Z</updated>
+    <updated>2026-08-21T18:07:58.178Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
-    <entry>
-        <title type="html"><![CDATA[How I run a full AWS-powered website for less than $1/month]]></title>
-        <id>https://dev.to/tomascody-web333/how-i-run-a-full-aws-powered-website-for-less-than-1month-313a</id>
-        <link href="https://dev.to/tomascody-web333/how-i-run-a-full-aws-powered-website-for-less-than-1month-313a"/>
-        <updated>2026-08-21T15:28:28.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/tomascody-web333/how-i-run-a-full-aws-powered-website-for-less-than-1month-313a" aria-labelledby="article-link-4455119" class="crayons-story__hidden-navigation-link">How I run a full AWS-powered website for less than $1/month</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/tomascody-web333" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4088517%2Fc5223df1-b8ef-4751-845a-bb3503fab7df.png" alt="tomascody-web333 profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/tomascody-web333" class="crayons-story__secondary fw-medium m:hidden">
-              Tomascody-web333
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4455119" aria-controls="story-author-preview-content-4455119" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Tomascody-web333 profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Tomascody-web333
-                
-                
-              </button>
-              <div id="story-author-preview-content-4455119" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/tomascody-web333" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4088517%2Fc5223df1-b8ef-4751-845a-bb3503fab7df.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Tomascody-web333</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4088517,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Tomascody-web333&quot;}" data-fetched="fetched" aria-label="Follow user: Tomascody-web333" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="4088517"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/tomascody-web333/how-i-run-a-full-aws-powered-website-for-less-than-1month-313a" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-21T15:28:28Z" data-localized="true" title="Friday, August 21, 2026 at 3:28:28 PM">Aug 21</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1787326108"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/tomascody-web333/how-i-run-a-full-aws-powered-website-for-less-than-1month-313a" data-preload-image="" id="article-link-4455119">
-          How I run a full AWS-powered website for less than $1/month
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 4, 241, 0.10);
-        --tag-prefix: #0004f1;
-        --tag-bg-hover: rgba(0, 4, 241, 0.10);
-        --tag-prefix-hover: #0004f1;
-      " href="/t/website"><span class="crayons-tag__prefix">#</span>website</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/tomascody-web333/how-i-run-a-full-aws-powered-website-for-less-than-1month-313a#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How I run a full AWS-powered website for less than $1/month">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8z439du7h6bi2rqlditq2mhxgyl16dc" class="crayons-icon"><title id="a8z439du7h6bi2rqlditq2mhxgyl16dc">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Docker Compose merges your ports, it doesn't replace them]]></title>
         <id>https://dev.to/nancy_ad2c2b600230bab88f0/docker-compose-merges-your-ports-it-doesnt-replace-them-3k0d</id>
@@ -195,7 +93,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/nancy_ad2c2b600230bab88f0/docker-compose-merges-your-ports-it-doesnt-replace-them-3k0d#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Docker Compose merges your ports, it doesn't replace them">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aa6ekod0s5ks7tjtq9eji8rbr9a80nzk" class="crayons-icon"><title id="aa6ekod0s5ks7tjtq9eji8rbr9a80nzk">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ai3tpqlhqdu0l0oq3v2krjahomse0y5r" class="crayons-icon"><title id="ai3tpqlhqdu0l0oq3v2krjahomse0y5r">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
