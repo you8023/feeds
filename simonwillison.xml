@@ -2,11 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-08-22T16:59:21.019Z</updated>
+    <updated>2026-08-22T17:57:20.314Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[0]]></title>
+        <title type="html"><![CDATA[llm 0.33]]></title>
+        <id>https://github.com/simonw/llm/releases/tag/0.33</id>
+        <link href="https://github.com/simonw/llm/releases/tag/0.33"/>
+        <updated>2026-08-22T17:55:54.328Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/llm/releases/tag/0.33">llm 0.33</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>My highlights from this release:</p>
+<blockquote>
+<ul>
+<li>Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from <code>httpx</code> to <code>httpx2</code>. <a href="https://github.com/simonw/llm/issues/1608">#1608</a>, <a href="https://github.com/simonw/llm/pull/1631">#1631</a></li>
+</ul>
+</blockquote>
+<p>I shipped a quick <a href="https://simonwillison.net/2026/Aug/21/llm/">0.32.1 fix</a> for this yesterday, but this is the more comprehensive fix.</p>
+<blockquote>
+<ul>
+<li><code>llm embed</code> and <code>llm embed-multi</code> now accept <code>--key</code>. The Python <code>EmbeddingModel.embed()</code>, <code>EmbeddingModel.embed_multi()</code>, <code>Collection.embed()</code> and <code>Collection.embed_multi()</code> methods accept <code>key=</code> too, passing the resolved per-call key to embedding plugins without changing shared model state. Existing plugins that read <code>self.key</code> continue to work through a compatibility fallback. Thanks, <a href="https://github.com/ChrisJr404">ChrisJr404</a>. <a href="https://github.com/simonw/llm/issues/757">#757</a>, <a href="https://github.com/simonw/llm/pull/1620">#1620</a></li>
+</ul>
+</blockquote>
+<p>The embedding models now use the same pattern for keys that regular LLM models do.</p>
+<blockquote>
+<ul>
+<li><code>llm prompt -t/--template</code> can now be repeated to combine templates in order. This allows model configuration and options from one template to be used with a prompt from another.</li>
+</ul>
+</blockquote>
+<p>This unlocks a neat pattern where you can create templates that package a model with a set of default options:</p>
+<pre><code>llm -m gpt-5.6-luna -o reasoning_effort high --save lhigh
+llm "Generate an SVG of a pelican riding a bicycle" --save pelican
+# Combine and run the templates
+llm -t lhigh -t pelican
+</code></pre>
+<blockquote>
+<ul>
+<li>Reasoning-capable Responses API models now support a <code>reasoning_summary</code> option with <code>auto</code>, <code>concise</code>, and <code>detailed</code> values. This can be used with <a href="https://llm.datasette.io/en/stable/other-models.html#openai-endpoint">llm openai endpoint --responses</a>. <a href="https://github.com/simonw/llm/issues/1600">#1600</a></li>
+</ul>
+</blockquote>
+<p>This is particularly useful for exercising different models that provide their own imitation of the OpenAI Responses API.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Aug/22/llm/" rel="bookmark">22nd Aug 2026, 5:01 pm</a> · <a href="/tags/annotated-release-notes/">annotated-release-notes</a>, <a href="/tags/llm/">llm</a>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1]]></title>
         <id>https://simonwillison.net/2026/Aug/22/more-than-just-code-review/</id>
         <link href="https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"/>
         <updated>2026-08-22T16:58:02.963Z</updated>
@@ -211,7 +259,7 @@ So learning doesn’t stop just because I outsource a bunch of thinking to AI. I
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[10]]></title>
+        <title type="html"><![CDATA[11]]></title>
         <id>https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/</id>
         <link href="https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/"/>
         <updated>2026-08-20T15:17:36.668Z</updated>
@@ -586,19 +634,5 @@ This project has become so convoluted, with so many layers and services, that no
       <a href="/2026/Aug/10/sighting-390041155/" rel="bookmark">10th Aug 2026</a>
     </div>
   </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already.]]></title>
-        <id>https://simonwillison.net/2026/Aug/10/openclaw/</id>
-        <link href="https://simonwillison.net/2026/Aug/10/openclaw/"/>
-        <updated>2026-08-20T15:17:36.759Z</updated>
-        <content type="html"><![CDATA[<blockquote cite="https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986"><p>The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already.</p></blockquote>
-  <p class="cite">— <a href="https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986">OpenClaw (running Opus 4.6)</a>, <span class="context">hacking an Australian gym-booking website</span></p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Aug/10/openclaw/" rel="bookmark">#</a>
-    <a href="/2026/Aug/10/openclaw/">2:05 am</a>
-     / <a href="/tags/ai-ethics/">ai-ethics</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/openclaw/">openclaw</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/ai-security-research/">ai-security-research</a>, <a href="/tags/llms/">llms</a>
-  </p>]]></content>
     </entry>
 </feed>
