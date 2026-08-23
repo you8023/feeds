@@ -2,9 +2,111 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-08-23T21:56:59.879Z</updated>
+    <updated>2026-08-23T22:59:25.272Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Catch MCP Tool-Poisoning and Prompt-Injection Regressions on Every PR (GitHub Actions + pre-commit)]]></title>
+        <id>https://dev.to/ventrova/catch-mcp-tool-poisoning-and-prompt-injection-regressions-on-every-pr-github-actions-pre-commit-24fb</id>
+        <link href="https://dev.to/ventrova/catch-mcp-tool-poisoning-and-prompt-injection-regressions-on-every-pr-github-actions-pre-commit-24fb"/>
+        <updated>2026-08-23T21:52:38.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/ventrova/catch-mcp-tool-poisoning-and-prompt-injection-regressions-on-every-pr-github-actions-pre-commit-24fb" aria-labelledby="article-link-4469981" class="crayons-story__hidden-navigation-link">Catch MCP Tool-Poisoning and Prompt-Injection Regressions on Every PR (GitHub Actions + pre-commit)</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/ventrova" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4087129%2Ff8366ae5-190a-43c9-82b0-7f280f6f3238.png" alt="ventrova profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/ventrova" class="crayons-story__secondary fw-medium m:hidden">
+              Ventrova
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4469981" aria-controls="story-author-preview-content-4469981" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Ventrova profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Ventrova
+                
+                
+              </button>
+              <div id="story-author-preview-content-4469981" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/ventrova" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4087129%2Ff8366ae5-190a-43c9-82b0-7f280f6f3238.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Ventrova</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4087129,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Ventrova&quot;}" data-fetched="fetched" aria-label="Follow user: Ventrova" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="4087129"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/ventrova/catch-mcp-tool-poisoning-and-prompt-injection-regressions-on-every-pr-github-actions-pre-commit-24fb" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-23T21:52:38Z" data-localized="true" title="Sunday, August 23, 2026 at 9:52:38 PM">Aug 23</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1787521958"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/ventrova/catch-mcp-tool-poisoning-and-prompt-injection-regressions-on-every-pr-github-actions-pre-commit-24fb" data-preload-image="" id="article-link-4469981">
+          Catch MCP Tool-Poisoning and Prompt-Injection Regressions on Every PR (GitHub Actions + pre-commit)
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/mcp"><span class="crayons-tag__prefix">#</span>mcp</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/llm"><span class="crayons-tag__prefix">#</span>llm</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/ventrova/catch-mcp-tool-poisoning-and-prompt-injection-regressions-on-every-pr-github-actions-pre-commit-24fb#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Catch MCP Tool-Poisoning and Prompt-Injection Regressions on Every PR (GitHub Actions + pre-commit)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2wd7ilcbsrey7vs5r9lu69z3eysq9dn" class="crayons-icon"><title id="a2wd7ilcbsrey7vs5r9lu69z3eysq9dn">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            6 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I Built an Open-Source AWS Cloud Security tool for solo devs & founders !]]></title>
         <id>https://dev.to/kavee-dev/i-built-an-open-source-aws-cloud-security-tool-for-solo-devs-founders--58f7</id>
@@ -93,7 +195,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/kavee-dev/i-built-an-open-source-aws-cloud-security-tool-for-solo-devs-founders--58f7#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I Built an Open-Source AWS Cloud Security tool for solo devs &amp; founders !">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akzvmvvvzxfg9xzefixx4w6p49wvwf7g" class="crayons-icon"><title id="akzvmvvvzxfg9xzefixx4w6p49wvwf7g">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apmgkuq7bjwiv4xh9vxy7npyijk4o26y" class="crayons-icon"><title id="apmgkuq7bjwiv4xh9vxy7npyijk4o26y">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -101,108 +203,6 @@
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
             2 min read
-          </small>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A prompt-injection guardrail passed a hostile card because we batched the fields]]></title>
-        <id>https://dev.to/ochinimus/a-prompt-injection-guardrail-passed-a-hostile-card-because-we-batched-the-fields-1dfk</id>
-        <link href="https://dev.to/ochinimus/a-prompt-injection-guardrail-passed-a-hostile-card-because-we-batched-the-fields-1dfk"/>
-        <updated>2026-08-23T13:18:42.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/ochinimus/a-prompt-injection-guardrail-passed-a-hostile-card-because-we-batched-the-fields-1dfk" aria-labelledby="article-link-4467970" class="crayons-story__hidden-navigation-link">A prompt-injection guardrail passed a hostile card because we batched the fields</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/ochinimus" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4090838%2Fc176314c-8482-4e0c-bad3-1694a7131756.jpg" alt="ochinimus profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/ochinimus" class="crayons-story__secondary fw-medium m:hidden">
-              Sergiu O
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4467970" aria-controls="story-author-preview-content-4467970" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Sergiu O profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Sergiu O
-                
-                
-              </button>
-              <div id="story-author-preview-content-4467970" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/ochinimus" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4090838%2Fc176314c-8482-4e0c-bad3-1694a7131756.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Sergiu O</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4090838,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Sergiu O&quot;}" data-fetched="fetched" aria-label="Follow user: Sergiu O" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="4090838"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/ochinimus/a-prompt-injection-guardrail-passed-a-hostile-card-because-we-batched-the-fields-1dfk" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-23T13:18:42Z" data-localized="true" title="Sunday, August 23, 2026 at 1:18:42 PM">Aug 23</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1787491122"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/ochinimus/a-prompt-injection-guardrail-passed-a-hostile-card-because-we-batched-the-fields-1dfk" data-preload-image="" id="article-link-4467970">
-          A prompt-injection guardrail passed a hostile card because we batched the fields
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag crayons-tag--filled  " style="
-        --tag-bg: rgba(9, 27, 71, 0.10);
-        --tag-prefix: #091b47;
-        --tag-bg-hover: rgba(9, 27, 71, 0.10);
-        --tag-prefix-hover: #091b47;
-      " href="/t/showdev"><span class="crayons-tag__prefix">#</span>showdev</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 60, 179, 0.10);
-        --tag-prefix: #003cb3;
-        --tag-bg-hover: rgba(0, 60, 179, 0.10);
-        --tag-prefix-hover: #003cb3;
-      " href="/t/googlecloud"><span class="crayons-tag__prefix">#</span>googlecloud</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/ochinimus/a-prompt-injection-guardrail-passed-a-hostile-card-because-we-batched-the-fields-1dfk#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - A prompt-injection guardrail passed a hostile card because we batched the fields">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abhfpk7bzllyrgichwn3vp5wo0aqr8p2" class="crayons-icon"><title id="abhfpk7bzllyrgichwn3vp5wo0aqr8p2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              1<span class="hidden s:inline">&nbsp;comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
           </small>
         </div>
       </div>
