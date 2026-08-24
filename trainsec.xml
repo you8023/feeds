@@ -2,34 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://trainsec.net/library/</id>
     <title>trainsec</title>
-    <updated>2026-08-24T15:23:56.536Z</updated>
+    <updated>2026-08-24T16:21:32.569Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://trainsec.net/wp-content/uploads/2024/05/Icon-no-space@2x-100x100.png</icon>
     <entry>
-        <title type="html"><![CDATA[Process Memory Map in Code (Part 1): Walking Process Virtual Address Space]]></title>
-        <id>https://trainsec.net/library/windows-internals/process-memory-map-in-code-walking-virtualqueryex-and-finding-the-peb-part-1/</id>
-        <link href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-walking-virtualqueryex-and-finding-the-peb-part-1/"/>
-        <updated>2026-08-16T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-walking-virtualqueryex-and-finding-the-peb-part-1/" tabindex="-1">
-			<div class="elementor-post__thumbnail elementor-fit-height"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault.jpg" class="attachment-full size-full wp-image-11929" alt="Process Memory Map in Code: Walking VirtualQueryEx and Finding the PEB (Part 1)" srcset="https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px"></div>
+        <title type="html"><![CDATA[Process Memory Map in Code: Mapped Files and DOS Paths (Part 2)]]></title>
+        <id>https://trainsec.net/library/windows-internals/process-memory-map-in-code-mapped-files-and-dos-paths-part-2/</id>
+        <link href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-mapped-files-and-dos-paths-part-2/"/>
+        <updated>2026-08-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-mapped-files-and-dos-paths-part-2/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/08/Gb1Y1jIYL5c-maxresdefault.jpg" class="attachment-full size-full wp-image-11979" alt="Process Memory Map in Code: Mapped Files and DOS Paths (Part 2)" srcset="https://trainsec.net/wp-content/uploads/2026/08/Gb1Y1jIYL5c-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/08/Gb1Y1jIYL5c-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/08/Gb1Y1jIYL5c-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/08/Gb1Y1jIYL5c-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/08/Gb1Y1jIYL5c-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-walking-virtualqueryex-and-finding-the-peb-part-1/">
-				Process Memory Map in Code (Part 1): Walking Process Virtual Address Space			</a>
+			<a href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-mapped-files-and-dos-paths-part-2/">
+				Process Memory Map in Code: Mapped Files and DOS Paths (Part 2)			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
 			Pavel Yosifovich		</span>
 				<span class="elementor-post-date">
-			August 16, 2026		</span>
+			August 24, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>Pavel Yosifovich writes a C++ tool that reads a Windows process’s memory map with VirtualQueryEx, matching VMMap in code and locating the PEB.</p>
+			<p>Pavel Yosifovich extends his MemMap tool with GetMappedFileName, then converts raw NT device paths into ordinary drive-letter paths.</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-walking-virtualqueryex-and-finding-the-peb-part-1/" aria-label="Read more about Process Memory Map in Code (Part 1): Walking Process Virtual Address Space" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-mapped-files-and-dos-paths-part-2/" aria-label="Read more about Process Memory Map in Code: Mapped Files and DOS Paths (Part 2)" tabindex="-1">
 			Dive in		</a>
+
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Process Memory Map in Code: Mapped Files and DOS Paths (Part 2)]]></title>
+        <id>https://trainsec.net/library/windows-internals/process-memory-map-in-code-mapped-files-and-dos-paths-part-2/</id>
+        <link href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-mapped-files-and-dos-paths-part-2/"/>
+        <updated>2026-08-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-mapped-files-and-dos-paths-part-2/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/08/Gb1Y1jIYL5c-maxresdefault.jpg" class="attachment-full size-full wp-image-11979" alt="Process Memory Map in Code: Mapped Files and DOS Paths (Part 2)" srcset="https://trainsec.net/wp-content/uploads/2026/08/Gb1Y1jIYL5c-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/08/Gb1Y1jIYL5c-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/08/Gb1Y1jIYL5c-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/08/Gb1Y1jIYL5c-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/08/Gb1Y1jIYL5c-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-mapped-files-and-dos-paths-part-2/">
+				Process Memory Map in Code: Mapped Files and DOS Paths (Part 2)			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			August 24, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Pavel Yosifovich extends his MemMap tool with GetMappedFileName, then converts raw NT device paths into ordinary drive-letter paths.</p>		</div>
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-mapped-files-and-dos-paths-part-2/" aria-label="Read more about Process Memory Map in Code: Mapped Files and DOS Paths (Part 2)" tabindex="-1">
+			Read More 		</a>
 
 				</div>]]></content>
     </entry>
@@ -39,7 +66,7 @@
         <link href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-walking-virtualqueryex-and-finding-the-peb-part-1/"/>
         <updated>2026-08-16T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-walking-virtualqueryex-and-finding-the-peb-part-1/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault.jpg" class="attachment-full size-full wp-image-11929" alt="Process Memory Map in Code: Walking VirtualQueryEx and Finding the PEB (Part 1)" srcset="https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px"></div>
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault.jpg" class="attachment-full size-full wp-image-11929" alt="Process Memory Map in Code: Walking VirtualQueryEx and Finding the PEB (Part 1)" srcset="https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/08/IGdLi3XSvpA-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
@@ -53,11 +80,13 @@
 			August 16, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>Pavel Yosifovich writes a C++ tool that reads a Windows process’s memory map with VirtualQueryEx, matching VMMap in code and locating the PEB.</p>		</div>
+			<p>Pavel Yosifovich writes a C++ tool that reads a Windows process’s memory map with VirtualQueryEx,		</p></div>
+					<div class="elementor-post__read-more-wrapper">
 		
 		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-walking-virtualqueryex-and-finding-the-peb-part-1/" aria-label="Read more about Process Memory Map in Code (Part 1): Walking Process Virtual Address Space" tabindex="-1">
 			Read More 		</a>
 
+					</div>
 				</div>]]></content>
     </entry>
     <entry>
