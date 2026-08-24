@@ -2,9 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-08-24T19:22:08.487Z</updated>
+    <updated>2026-08-24T20:05:46.605Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[llm-anthropic 0.27]]></title>
+        <id>https://github.com/simonw/llm-anthropic/releases/tag/0.27</id>
+        <link href="https://github.com/simonw/llm-anthropic/releases/tag/0.27"/>
+        <updated>2026-08-24T20:04:21.287Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/llm-anthropic/releases/tag/0.27">llm-anthropic 0.27</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>This release of the Anthropic plugin for <a href="https://llm.datasette.io/">LLM</a> mainly provides compatibility with the recently released <a href="https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0">anthropic v1.0.0</a> Python library, which switches from <code>httpx</code> to <a href="https://github.com/pydantic/httpx2">httpx2</a>. OpenAI made the same change in their <a href="https://github.com/openai/openai-python/releases/tag/v3.0.0">v3.0.0 release</a> two weeks ago.</p>
+<p>Anthropic provide this <a href="https://github.com/anthropics/anthropic-sdk-python/blob/v1.0.0/MIGRATION.md">migration guide</a> for upgrading to 1.0, so I prompted Fable 5 in Claude Code with:</p>
+<blockquote>
+<p><code>Upgrade to anthropic&gt;=1 - read https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/refs/heads/main/MIGRATION.md and get the tests passing</code></p>
+</blockquote>
+<p>Here's <a href="https://github.com/simonw/llm-anthropic/pull/84">the resulting PR</a>.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Aug/24/llm-anthropic/" rel="bookmark">24th Aug 2026, 4:27 pm</a> · <a href="/tags/httpx/">httpx</a>, <a href="/tags/llm/">llm</a>, <a href="/tags/anthropic/">anthropic</a>, <a href="/tags/claude/">claude</a>, <a href="/tags/python/">python</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[10:47 AM – 11:33 AM]]></title>
         <id>https://simonwillison.net/2026/Aug/24/sighting-394071393/</id>
@@ -132,7 +156,7 @@ llm -t lhigh -t pelican
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[5]]></title>
+        <title type="html"><![CDATA[6]]></title>
         <id>https://simonwillison.net/2026/Aug/22/more-than-just-code-review/</id>
         <link href="https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"/>
         <updated>2026-08-23T09:07:54.787Z</updated>
@@ -337,7 +361,7 @@ So learning doesn’t stop just because I outsource a bunch of thinking to AI. I
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[15]]></title>
+        <title type="html"><![CDATA[16]]></title>
         <id>https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/</id>
         <link href="https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/"/>
         <updated>2026-08-23T09:07:54.799Z</updated>
@@ -619,29 +643,5 @@ So learning doesn’t stop just because I outsource a bunch of thinking to AI. I
       <a href="/2026/Aug/12/alchemy-utils/" rel="bookmark">12th Aug 2026, 7:51 pm</a> · <a href="/tags/sqlite-utils/">sqlite-utils</a>, <a href="/tags/sql/">sql</a>, <a href="/tags/sqlalchemy/">sqlalchemy</a>, <a href="/tags/sqlite/">sqlite</a>, <a href="/tags/duckdb/">duckdb</a>, <a href="/tags/postgresql/">postgresql</a>, <a href="/tags/python/">python</a>, <a href="/tags/projects/">projects</a>, <a href="/tags/databases/">databases</a>, <a href="/tags/codex/">codex</a>, <a href="/tags/coding-agents/">coding-agents</a>
     </div>
   </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.
-You go talk to the person who worked on this feature.
-"So where does the data come from?"
-"Hmm... actually I don't know. Let me ask Claude."
-You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confident. [...]
-This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on.]]></title>
-        <id>https://simonwillison.net/2026/Aug/12/florian-herrengt/</id>
-        <link href="https://simonwillison.net/2026/Aug/12/florian-herrengt/"/>
-        <updated>2026-08-23T09:07:54.890Z</updated>
-        <content type="html"><![CDATA[<blockquote cite="https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html"><p>But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.</p>
-<p>You go talk to the person who worked on this feature.</p>
-<p>"So where does the data come from?"</p>
-<p>"Hmm... actually I don't know. Let me ask Claude."</p>
-<p>You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confident. [...]</p>
-<p>This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on.</p></blockquote>
-  <p class="cite">— <a href="https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html">Florian Herrengt</a>, <span class="context">AI is removing the middle class of software engineering</span></p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Aug/12/florian-herrengt/" rel="bookmark">#</a>
-    <a href="/2026/Aug/12/florian-herrengt/">3:08 pm</a>
-     / <a href="/tags/ai-misuse/">ai-misuse</a>, <a href="/tags/cognitive-debt/">cognitive-debt</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/ai-assisted-programming/">ai-assisted-programming</a>
-  </p>]]></content>
     </entry>
 </feed>
