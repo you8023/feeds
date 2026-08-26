@@ -2,9 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-08-26T07:37:23.291Z</updated>
+    <updated>2026-08-26T08:20:05.788Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works.]]></title>
+        <id>https://simonwillison.net/2026/Aug/26/paul-dix/</id>
+        <link href="https://simonwillison.net/2026/Aug/26/paul-dix/"/>
+        <updated>2026-08-26T08:18:40.379Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://pauldix.com/the-end-of-programming"><p>The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works.</p></blockquote>
+  <p class="cite">— <a href="https://pauldix.com/the-end-of-programming">Paul Dix</a>, <span class="context">The end of programming</span></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Aug/26/paul-dix/" rel="bookmark">#</a>
+    <a href="/2026/Aug/26/paul-dix/">8:07 am</a>
+     / <a href="/tags/coding-agents/">coding-agents</a>, <a href="/tags/ai-assisted-programming/">ai-assisted-programming</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/bun/">bun</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
+  </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[12:27 PM]]></title>
+        <id>https://simonwillison.net/2026/Aug/25/sighting-394363840/</id>
+        <link href="https://simonwillison.net/2026/Aug/25/sighting-394363840/"/>
+        <updated>2026-08-26T08:18:40.380Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      <a class="beat-label sighting" href="/elsewhere/sighting/">Sighting</a>
+      <span class="beat-title"><a href="/2026/Aug/25/sighting-394363840/">12:27 PM</a></span>
+      <span class="beat-commit">— Common Wood-Pigeon, in Devon, England, GB</span>
+    </div>
+    <captioned-image-gallery data-count="2">
+      <figure style="width: 360.088px; height: 240px;"><a href="https://static.inaturalist.org/photos/722970873/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/722970873/small.jpg" alt="Common Wood-Pigeon" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/394363840" title="View observation on iNaturalist">Common Wood-Pigeon</a></figcaption></figure><figure style="width: 159.961px; height: 240px;"><a href="https://static.inaturalist.org/photos/722970905/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/722970905/small.jpg" alt="Common Wood-Pigeon" loading="lazy" data-width="1365" data-height="2048"></a><figcaption><a href="https://www.inaturalist.org/observations/394363840" title="View observation on iNaturalist">Common Wood-Pigeon</a></figcaption></figure>
+    </captioned-image-gallery>
+    
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Aug/25/sighting-394363840/" rel="bookmark">25th Aug 2026</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[llm-anthropic 0.27]]></title>
         <id>https://github.com/simonw/llm-anthropic/releases/tag/0.27</id>
@@ -156,7 +190,7 @@ llm -t lhigh -t pelican
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[6]]></title>
+        <title type="html"><![CDATA[8]]></title>
         <id>https://simonwillison.net/2026/Aug/22/more-than-just-code-review/</id>
         <link href="https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"/>
         <updated>2026-08-23T09:07:54.787Z</updated>
@@ -361,7 +395,7 @@ So learning doesn’t stop just because I outsource a bunch of thinking to AI. I
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[16]]></title>
+        <title type="html"><![CDATA[18]]></title>
         <id>https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/</id>
         <link href="https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/"/>
         <updated>2026-08-23T09:07:54.799Z</updated>
@@ -574,25 +608,6 @@ So learning doesn’t stop just because I outsource a bunch of thinking to AI. I
 <p><strong>Update 14th August 2026</strong>: I had originally said that the SVG <a href="https://static.simonwillison.net/static/2026/broken-pelican-safari.jpg">rendered incorrectly</a> in Chrome and Firefox, and blamed Gemini 3.7 Flash for producing invalid SVG. That was entirely incorrect: the rendering glitch was my fault, caused by <a href="https://github.com/simonw/tools/commit/78fca0e647a9e20eff16900cf4485a6d622087e9">a bug In my rendering tool</a>. I've now fixed that bug.</p></div>
     <div class="beat-meta beat-row2">
       <a href="/2026/Aug/13/llm-gemini/" rel="bookmark">13th Aug 2026, 7:37 pm</a> · <a href="/tags/gemini/">gemini</a>, <a href="/tags/llm/">llm</a>, <a href="/tags/llm-release/">llm-release</a>, <a href="/tags/pelican-riding-a-bicycle/">pelican-riding-a-bicycle</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/google/">google</a>, <a href="/tags/generative-ai/">generative-ai</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[alchemy-utils 0.1a1]]></title>
-        <id>https://github.com/simonw/alchemy-utils/releases/tag/0.1a1</id>
-        <link href="https://github.com/simonw/alchemy-utils/releases/tag/0.1a1"/>
-        <updated>2026-08-23T09:07:54.886Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/alchemy-utils/releases/tag/0.1a1">alchemy-utils 0.1a1</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>Performance boost for DuckDB exports and CSV imports, <a href="https://simonwillison.net/2026/Aug/12/alchemy-utils/">see here</a>.</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Aug/13/alchemy-utils/" rel="bookmark">13th Aug 2026, 3:03 am</a>
     </div>
   </div>]]></content>
     </entry>
