@@ -2,9 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.capsulesecurity.io/blog</id>
     <title>Capsule Security</title>
-    <updated>2026-08-26T12:08:15.748Z</updated>
+    <updated>2026-08-26T13:46:04.376Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://cdn.prod.website-files.com/696f5ff43d68506bb9092d46/69f7108a65ffb17eb55030e7_Capsule%20Logomark%20Aqua%20Mint.png</icon>
+    <entry>
+        <title type="html"><![CDATA[CurseBox: The Agent That Sends Your Files to Strangers to Get the Job Done]]></title>
+        <id>https://www.capsulesecurity.io/blog-post/cursebox-the-agent-that-sends-your-files-to-strangers-to-get-the-job-done</id>
+        <link href="https://www.capsulesecurity.io/blog-post/cursebox-the-agent-that-sends-your-files-to-strangers-to-get-the-job-done"/>
+        <updated>2026-08-26T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="/blog-post/cursebox-the-agent-that-sends-your-files-to-strangers-to-get-the-job-done" class="w-inline-block"><div class="blog__post-image"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/6a8ed619634c80145ce7cc65_cursebox-cover.png" loading="lazy" alt="" class="img-fit-absolute"></div><div class="blog__title-panel"><div fs-list-field="category" class="text-size-tiny is-blog-category">Research</div><div class="feature__blog-text"><h6 fs-list-field="title" class="blog-title">CurseBox: The Agent That Sends Your Files to Strangers to Get the Job Done</h6><div class="text-size-regular text-color-muted">Capsule Security research uncovered a behavior in Cursor's agent: asked to do something ordinary like share a file, it decides on its own to upload the file to a public anonymous host to get a link. It will push past a deny-all network sandbox to do it, and no attacker is involved. We found it running in production across every major model, reported it to Cursor, and were met with silence.</div></div></div><div class="code-embed w-embed"><style>
+.blog__author-img-wrapper + .blog__author-img-wrapper {
+  margin-left: -1rem;
+}
+</style>
+<style>
+/* Automatically add , in the string */
+.blog__author-name-wrapper .w-dyn-item + .w-dyn-item .blog__author-name::before {
+  content: ", ";
+}
+
+
+.blog__author-name { 
+  display: inline;
+}
+</style></div></a><div class="blog__author-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-img-grid w-dyn-items"><div role="listitem" class="blog__author-img-wrapper w-dyn-item"><img src="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39-p-500.avif 500w, https://cdn.prod.website-files.com/69a5ada5478ec0a02d24f369/69dbc2db09ecd73503cbf448_Screenshot%202026-04-12%20at%2019.05.39.avif 1214w" class="img-fit-absolute"></div></div></div><div class="blog__author-right-wrapper"><div class="w-dyn-list"><div role="list" class="blog__author-name-wrapper w-dyn-items"><div role="listitem" class="w-dyn-item"><div fs-list-field="author name" class="blog__author-name">Bar Kaduri</div></div></div></div><div fs-list-field="date" class="text-size-small text-color-primary">August 26, 2026</div></div></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[When Agents Go Rogue]]></title>
         <id>https://www.capsulesecurity.io/blog-post/when-agents-go-rogue</id>
