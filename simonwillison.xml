@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-08-26T20:36:37.889Z</updated>
+    <updated>2026-08-27T00:07:14.391Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
     <entry>
@@ -582,32 +582,6 @@ So learning doesn’t stop just because I outsource a bunch of thinking to AI. I
 <p>(It later turned out 4.2 had <a href="https://github.com/simonw/sqlite-utils/issues/842">a crashing bug</a>, fixed in <a href="https://sqlite-utils.datasette.io/en/stable/changelog.html#v4-2-1">4.2.1</a>.)</p></div>
     <div class="beat-meta beat-row2">
       <a href="/2026/Aug/13/sqlite-utils/" rel="bookmark">13th Aug 2026, 8:11 pm</a> · <a href="/tags/sqlite-utils/">sqlite-utils</a>, <a href="/tags/releases/">releases</a>, <a href="/tags/sqlite/">sqlite</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-gemini 0.33]]></title>
-        <id>https://github.com/simonw/llm-gemini/releases/tag/0.33</id>
-        <link href="https://github.com/simonw/llm-gemini/releases/tag/0.33"/>
-        <updated>2026-08-23T09:07:54.885Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/llm-gemini/releases/tag/0.33">llm-gemini 0.33</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>It's been a while since the last <code>llm-gemini</code> release. This version of the plugin adds support for today's <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/">Gemini 3.7 Flash</a> release, plus <code>gemini-3.6-flash</code>, <code>gemini-3.5-flash-lite</code> and two embedding models <code>gemini-embedding-2</code> and <code>gemini-embedding-001</code>.</p>
-<p>The plugin is also upgraded for compatibility with LLM 0.32, which means you can now see reasoning traces and you can also enable server-side tools using this pattern:</p>
-<pre><code>llm -m gemini-3.7-flash -T CodeExecution \
-  'use python to calculate (factorial of 13) * 3'
-</code></pre>
-<p>I had Gemini 3.7 Flash <a href="https://tools.simonwillison.net/markdown-svg-renderer.html#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6779a22d5e7bb6bdf29936f1600a5259">draw me some pelicans riding bicycles</a> at high, medium, and low thinking efforts (minimal, which was an option in 3.6 Flash, has been removed in 3.7.) Here's the high level one, which is pretty great:</p>
-<p><img alt="This pelican has  a very cool curved green bicycle, a fish in its basket, a lovely red and white spotted scarf and a captain's hat" src="https://static.simonwillison.net/static/2026/gemini-3.7-flash-high-pelican.jpg"></p>
-<p><strong>Update 14th August 2026</strong>: I had originally said that the SVG <a href="https://static.simonwillison.net/static/2026/broken-pelican-safari.jpg">rendered incorrectly</a> in Chrome and Firefox, and blamed Gemini 3.7 Flash for producing invalid SVG. That was entirely incorrect: the rendering glitch was my fault, caused by <a href="https://github.com/simonw/tools/commit/78fca0e647a9e20eff16900cf4485a6d622087e9">a bug In my rendering tool</a>. I've now fixed that bug.</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Aug/13/llm-gemini/" rel="bookmark">13th Aug 2026, 7:37 pm</a> · <a href="/tags/gemini/">gemini</a>, <a href="/tags/llm/">llm</a>, <a href="/tags/llm-release/">llm-release</a>, <a href="/tags/pelican-riding-a-bicycle/">pelican-riding-a-bicycle</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/google/">google</a>, <a href="/tags/generative-ai/">generative-ai</a>
     </div>
   </div>]]></content>
     </entry>

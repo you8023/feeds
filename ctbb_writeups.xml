@@ -2,7 +2,127 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lab.ctbb.show/writeups/all/</id>
     <title>ctbb_writeups</title>
-    <updated>2026-08-26T20:36:37.791Z</updated>
+    <updated>2026-08-27T00:07:14.193Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://lab.ctbb.show/writeups/all/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[MathJax macro redefinition allows overriding built-in operatorsNEW]]></title>
+        <id>https://lab.ctbb.show/writeups/mathjax-macro-redefinition-overrides-builtin-operators</id>
+        <link href="https://lab.ctbb.show/writeups/mathjax-macro-redefinition-overrides-builtin-operators"/>
+        <updated>2026-08-14T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/writeups/mathjax-macro-redefinition-overrides-builtin-operators">MathJax macro redefinition allows overriding built-in operators<span class="new-badge">NEW</span></a>
+                </h3>
+                <div class="article-subtitle">Abusing the MathJax library in GitHub to override built-in operators. The library writes user-defined TeX macros into a persistent new-Command map that is consulted ahead of the built-ins, with no existence check, so a redefined sum macro shadows the native operator across every expression rendered by that input-jax instance.</div>
+                <div class="article-meta">
+                    <span class="article-date">August 14, 2026</span> • <span class="article-author"><span>Matt H</span><img src="/assets/images/matth.jpeg" alt="Matt H" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">MathJax macro redefinition allows overriding built-in operators Introduction GitHub extended Markdow...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="mathjax">mathjax</span><span class="article-tag" data-tag="github">github</span><span class="article-tag" data-tag="macro-shadowing">macro-shadowing</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Breaking SameSite=Strict in Chrome]]></title>
+        <id>https://lab.ctbb.show/writeups/breaking-samesite-strict-in-chrome</id>
+        <link href="https://lab.ctbb.show/writeups/breaking-samesite-strict-in-chrome"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/writeups/breaking-samesite-strict-in-chrome">Breaking SameSite=Strict in Chrome</a>
+                </h3>
+                <div class="article-subtitle">How opening Chrome DevTools on a cross-site POST response can bypass SameSite=Strict cookie protections when a service worker is present.</div>
+                <div class="article-meta">
+                    <span class="article-date">May 6, 2026</span> • <span class="article-author"><span>Mian</span><img src="/assets/images/mian.png" alt="Mian" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">Breaking SameSite=Strict in Chrome Hello Hackers. Me and bug_blitzer found a Chrome bug that lets yo...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="cookies">cookies</span><span class="article-tag" data-tag="csrf">csrf</span><span class="article-tag" data-tag="service-workers">service-workers</span><span class="article-tag" data-tag="chrome">chrome</span><span class="article-tag" data-tag="devtools">devtools</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero-Click RCE in Figma Desktop: A Race-Conditioned Prototype Pollution Chain That Escapes the Plugin Sandbox]]></title>
+        <id>https://lab.ctbb.show/research/figma-desktop-zero-click-rce/</id>
+        <link href="https://lab.ctbb.show/research/figma-desktop-zero-click-rce/"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/research/figma-desktop-zero-click-rce/">Zero-Click RCE in Figma Desktop: A Race-Conditioned Prototype Pollution Chain That Escapes the Plugin Sandbox</a>
+                </h3>
+                <div class="article-subtitle">A prototype pollution bug in Figma's variant counter, chained through a plugin-context race against $INTERNAL_DO_NOT_USE$RERUN_PLUGIN$, a jsx_debugging feature-flag flip, and a forgotten writeFileToPath IPC in the Electron desktop app, to achieve zero-click cross-platform RCE from a published plugin. Reported to Figma and patched within hours.</div>
+                <div class="article-meta">
+                    <span class="article-date">April 27, 2026</span> • <span class="article-author"><span>Benjamin Mamoud (DavenSec)</span><img src="/assets/images/davensec.jpg" alt="Benjamin Mamoud (DavenSec)" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">Important Note : Before getting into the details, I want to note upfront that Figma responded and fi...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="client-side">client-side</span><span class="article-tag" data-tag="prototype-pollution">prototype-pollution</span><span class="article-tag" data-tag="race-condition">race-condition</span><span class="article-tag" data-tag="rce">rce</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Authenticated Arbitrary File Read via Race Condition leads to 0-Click Account Take Over on n8n]]></title>
+        <id>https://lab.ctbb.show/writeups/toctou-leads-to-ato-on-n8n</id>
+        <link href="https://lab.ctbb.show/writeups/toctou-leads-to-ato-on-n8n"/>
+        <updated>2026-03-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/writeups/toctou-leads-to-ato-on-n8n">Authenticated Arbitrary File Read via Race Condition leads to 0-Click Account Take Over on n8n</a>
+                </h3>
+                <div class="article-subtitle">TOCTOU race condition leads to full ATO on popular open source automation platform n8n</div>
+                <div class="article-meta">
+                    <span class="article-date">March 19, 2026</span> • <span class="article-author"><span>Théo Lelasseux</span><img src="/assets/images/theoL.jpg" alt="Théo Lelasseux" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">Overview This is the write up of a n8n vulnerability I found, patched January 14 2026. Here is the g...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="n8n">n8n</span><span class="article-tag" data-tag="TOCTOU">TOCTOU</span><span class="article-tag" data-tag="ATO">ATO</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chaining service key leakage and path confusion in LangSmith (Resolved)]]></title>
+        <id>https://lab.ctbb.show/writeups/chaining-service-key-leakage-and-path-confusion-in-langsmith</id>
+        <link href="https://lab.ctbb.show/writeups/chaining-service-key-leakage-and-path-confusion-in-langsmith"/>
+        <updated>2026-03-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/writeups/chaining-service-key-leakage-and-path-confusion-in-langsmith">Chaining service key leakage and path confusion in LangSmith (Resolved)</a>
+                </h3>
+                <div class="article-subtitle">Unauthorised access across LangSmith agent deployments and path normalisation differences between Nginx and GCP LB</div>
+                <div class="article-meta">
+                    <span class="article-date">March 16, 2026</span> • <span class="article-author"><span>Vladislav Nechakhin</span><img src="/assets/images/0xn3va_logo.png" alt="Vladislav Nechakhin" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">Introduction This post continues my exploration of LangSmith, which began with a high-level overview...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="path confusion">path confusion</span><span class="article-tag" data-tag="path normalization">path normalization</span><span class="article-tag" data-tag="nginx">nginx</span><span class="article-tag" data-tag="gcp load balancer">gcp load balancer</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Challenge Two - Writeup For Stranger XSS]]></title>
+        <id>https://lab.ctbb.show/writeups/challenge-two-stranger-xss</id>
+        <link href="https://lab.ctbb.show/writeups/challenge-two-stranger-xss"/>
+        <updated>2025-12-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/writeups/challenge-two-stranger-xss">Challenge Two - Writeup For Stranger XSS</a>
+                </h3>
+                <div class="article-subtitle">A writeup on the second strange XSS challenge in this miniseries.</div>
+                <div class="article-meta">
+                    <span class="article-date">December 1, 2025</span> • <span class="article-author"><span>Nick Copi</span><img src="/assets/images/7urb0pfp.png" alt="Nick Copi" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">This challenge has two pages, a fairly functionless outer page, and an inner page with a postMessage...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="challenge">challenge</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="client-side">client-side</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Challenge One - Strange XSS Writeup]]></title>
+        <id>https://lab.ctbb.show/writeups/challenge-one-strange-xss</id>
+        <link href="https://lab.ctbb.show/writeups/challenge-one-strange-xss"/>
+        <updated>2025-11-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/writeups/challenge-one-strange-xss">Challenge One - Strange XSS Writeup</a>
+                </h3>
+                <div class="article-subtitle">A writeup on the first strange XSS challenge in this miniseries.</div>
+                <div class="article-meta">
+                    <span class="article-date">November 24, 2025</span> • <span class="article-author"><span>Nick Copi</span><img src="/assets/images/7urb0pfp.png" alt="Nick Copi" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">This challenge has two pages, a fairly functionless outer page, and an inner page with a postMessage...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="challenge">challenge</span><span class="article-tag" data-tag="xss">xss</span><span class="article-tag" data-tag="javascript">javascript</span><span class="article-tag" data-tag="client-side">client-side</span></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bypassing CSP with New Relic Custom Events]]></title>
+        <id>https://lab.ctbb.show/writeups/bypassing-csp-new-relic-custom-events-cspt</id>
+        <link href="https://lab.ctbb.show/writeups/bypassing-csp-new-relic-custom-events-cspt"/>
+        <updated>2025-10-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 class="article-title">
+                    <a href="/writeups/bypassing-csp-new-relic-custom-events-cspt">Bypassing CSP with New Relic Custom Events</a>
+                </h3>
+                <div class="article-subtitle">One of my favorite bugs I've ever found because of the sheer volume of unexpected solutions to chain-ending problems. The end result was an ATO!</div>
+                <div class="article-meta">
+                    <span class="article-date">October 31, 2025</span> • <span class="article-author"><span>Justin Gardner</span><img src="/assets/images/Rhyno.jpg" alt="Justin Gardner" class="author-avatar"></span>
+                </div>
+                <div class="article-excerpt">This writeup outlines one of my favorite bugs I’ve ever found because of the sheer volume of unexpec...</div>
+                <div class="article-tags"><span class="article-tag" data-tag="csp">csp</span><span class="article-tag" data-tag="auth-token">auth-token</span><span class="article-tag" data-tag="ato">ato</span><span class="article-tag" data-tag="post-request-hijack">post-request-hijack</span></div>]]></content>
+    </entry>
 </feed>
