@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-08-27T20:53:51.272Z</updated>
+    <updated>2026-08-28T05:45:21.171Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
     <entry>
@@ -559,29 +559,6 @@ So learning doesn’t stop just because I outsource a bunch of thinking to AI. I
 <p>The <code>--no-default-groups</code> argument prevents it from installing that default <code>dev</code> group, and <code>--isolated</code> means that even if there is a <code>.venv/</code> folder containing extra dependencies they will be ignored for the duration of that <code>uv run</code> command.</p></div>
     <div class="beat-meta beat-row2">
       <a href="/2026/Aug/13/sqlite-utils-2/" rel="bookmark">13th Aug 2026, 11:53 pm</a> · <a href="/tags/uv/">uv</a>, <a href="/tags/sqlite-utils/">sqlite-utils</a>, <a href="/tags/packaging/">packaging</a>, <a href="/tags/python/">python</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sqlite-utils 4.2]]></title>
-        <id>https://github.com/simonw/sqlite-utils/releases/tag/4.2</id>
-        <link href="https://github.com/simonw/sqlite-utils/releases/tag/4.2"/>
-        <updated>2026-08-23T09:07:54.883Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/sqlite-utils/releases/tag/4.2">sqlite-utils 4.2</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>Lots of improvements in this one relating to the <a href="https://sqlite-utils.datasette.io/en/stable/python-api.html#transforming-a-table">table.transform() feature</a>, which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one.</p>
-<p><code>transform()</code> now preserves a much larger array of edge-case schema definitions, including check constraints, unique constraints and even comments describing the columns.</p>
-<p>There are also <a href="https://sqlite-utils.datasette.io/en/stable/python-api.html#checks">new introspection properties</a> for check constraints, and a whole lot of other smaller changes.</p>
-<p>Includes contributions from <a href="https://github.com/bunlongheng">Bunlong Heng</a>, <a href="https://github.com/ethanhawkes-gif">ethanhawkes-gif</a>, <a href="https://github.com/RamiNoodle733">Rami Abdelrazzaq</a>, <a href="https://github.com/nyxst4ck">nyxst4ck</a>, and <a href="https://github.com/ikatyal2110">ikatyal2110</a>.</p>
-<p>(It later turned out 4.2 had <a href="https://github.com/simonw/sqlite-utils/issues/842">a crashing bug</a>, fixed in <a href="https://sqlite-utils.datasette.io/en/stable/changelog.html#v4-2-1">4.2.1</a>.)</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Aug/13/sqlite-utils/" rel="bookmark">13th Aug 2026, 8:11 pm</a> · <a href="/tags/sqlite-utils/">sqlite-utils</a>, <a href="/tags/releases/">releases</a>, <a href="/tags/sqlite/">sqlite</a>
     </div>
   </div>]]></content>
     </entry>

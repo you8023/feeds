@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lab.ctbb.show/writeups/all/</id>
     <title>ctbb_writeups</title>
-    <updated>2026-08-27T20:53:51.147Z</updated>
+    <updated>2026-08-28T05:45:20.935Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://lab.ctbb.show/writeups/all/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[MathJax macro redefinition allows overriding built-in operatorsNEW]]></title>
+        <title type="html"><![CDATA[MathJax macro redefinition allows overriding built-in operators]]></title>
         <id>https://lab.ctbb.show/writeups/mathjax-macro-redefinition-overrides-builtin-operators</id>
         <link href="https://lab.ctbb.show/writeups/mathjax-macro-redefinition-overrides-builtin-operators"/>
         <updated>2026-08-14T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 class="article-title">
-                    <a href="/writeups/mathjax-macro-redefinition-overrides-builtin-operators">MathJax macro redefinition allows overriding built-in operators<span class="new-badge">NEW</span></a>
+                    <a href="/writeups/mathjax-macro-redefinition-overrides-builtin-operators">MathJax macro redefinition allows overriding built-in operators</a>
                 </h3>
                 <div class="article-subtitle">Abusing the MathJax library in GitHub to override built-in operators. The library writes user-defined TeX macros into a persistent new-Command map that is consulted ahead of the built-ins, with no existence check, so a redefined sum macro shadows the native operator across every expression rendered by that input-jax instance.</div>
                 <div class="article-meta">
