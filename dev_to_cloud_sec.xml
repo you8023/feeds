@@ -2,9 +2,121 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-08-31T07:24:08.500Z</updated>
+    <updated>2026-08-31T15:29:43.450Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[SOC 2, CRA, NIS2: they all ask your cluster the same five questions]]></title>
+        <id>https://dev.to/arifkurnaz/soc-2-cra-nis2-they-all-ask-your-cluster-the-same-five-questions-4169</id>
+        <link href="https://dev.to/arifkurnaz/soc-2-cra-nis2-they-all-ask-your-cluster-the-same-five-questions-4169"/>
+        <updated>2026-08-31T12:52:22.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/arifkurnaz/soc-2-cra-nis2-they-all-ask-your-cluster-the-same-five-questions-4169" aria-labelledby="article-link-4537383" class="crayons-story__hidden-navigation-link">SOC 2, CRA, NIS2: they all ask your cluster the same five questions</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/arifkurnaz" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4019981%2F021bb17e-1333-4c76-b185-db1eac85db59.jpeg" alt="arifkurnaz profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/arifkurnaz" class="crayons-story__secondary fw-medium m:hidden">
+              Arif Kurnaz
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4537383" aria-controls="story-author-preview-content-4537383" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Arif Kurnaz profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Arif Kurnaz
+                
+                
+              </button>
+              <div id="story-author-preview-content-4537383" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/arifkurnaz" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4019981%2F021bb17e-1333-4c76-b185-db1eac85db59.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Arif Kurnaz</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4019981,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Arif Kurnaz&quot;}" data-fetched="fetched" aria-label="Follow user: Arif Kurnaz" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="4019981"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/arifkurnaz/soc-2-cra-nis2-they-all-ask-your-cluster-the-same-five-questions-4169" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-31T12:52:22Z" data-localized="true" title="Monday, August 31, 2026 at 12:52:22 PM">Aug 31</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1788180742"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/arifkurnaz/soc-2-cra-nis2-they-all-ask-your-cluster-the-same-five-questions-4169" data-preload-image="" id="article-link-4537383">
+          SOC 2, CRA, NIS2: they all ask your cluster the same five questions
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/compliance"><span class="crayons-tag__prefix">#</span>compliance</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/arifkurnaz/soc-2-cra-nis2-they-all-ask-your-cluster-the-same-five-questions-4169" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4537383" aria-label="Add a comment to post - SOC 2, CRA, NIS2: they all ask your cluster the same five questions">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/arifkurnaz/soc-2-cra-nis2-they-all-ask-your-cluster-the-same-five-questions-4169#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - SOC 2, CRA, NIS2: they all ask your cluster the same five questions">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aeiocfgzw1o9qf8b7043f4v6yc2x45na" class="crayons-icon"><title id="aeiocfgzw1o9qf8b7043f4v6yc2x45na">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              3<span class="hidden s:inline">&nbsp;comments</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            12 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Custody: your agent's memory knows who wrote it, not whether it can be trusted]]></title>
         <id>https://dev.to/yatsuiii/custody-your-agents-memory-knows-who-wrote-it-not-whether-it-can-be-trusted-39h</id>
@@ -93,7 +205,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/yatsuiii/custody-your-agents-memory-knows-who-wrote-it-not-whether-it-can-be-trusted-39h#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Custody: your agent's memory knows who wrote it, not whether it can be trusted">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abu9zei3jei571cojhrfteoz8276lgti" class="crayons-icon"><title id="abu9zei3jei571cojhrfteoz8276lgti">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7y8nd1ah4dmgr6uovv1w438cqsi19cv" class="crayons-icon"><title id="a7y8nd1ah4dmgr6uovv1w438cqsi19cv">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -101,220 +213,6 @@
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
-          </small>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Phishing Site Tried to Talk to My AI. That Became the Evidence.]]></title>
-        <id>https://dev.to/johnnyg1212/the-phishing-site-tried-to-talk-to-my-ai-that-became-the-evidence-2mi</id>
-        <link href="https://dev.to/johnnyg1212/the-phishing-site-tried-to-talk-to-my-ai-that-became-the-evidence-2mi"/>
-        <updated>2026-08-31T01:42:04.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/johnnyg1212/the-phishing-site-tried-to-talk-to-my-ai-that-became-the-evidence-2mi" aria-labelledby="article-link-4531900" class="crayons-story__hidden-navigation-link">The Phishing Site Tried to Talk to My AI. That Became the Evidence.</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/johnnyg1212" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4101954%2Faba99de2-284c-413f-aad8-d15f9bba28c5.jpg" alt="johnnyg1212 profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/johnnyg1212" class="crayons-story__secondary fw-medium m:hidden">
-              João Guilherme Fernandes Frota
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4531900" aria-controls="story-author-preview-content-4531900" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="João Guilherme Fernandes Frota profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                João Guilherme Fernandes Frota
-                
-                
-              </button>
-              <div id="story-author-preview-content-4531900" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/johnnyg1212" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4101954%2Faba99de2-284c-413f-aad8-d15f9bba28c5.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">João Guilherme Fernandes Frota</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4101954,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;João Guilherme Fernandes Frota&quot;}" data-fetched="fetched" aria-label="Follow user: João Guilherme Fernandes Frota" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="4101954"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/johnnyg1212/the-phishing-site-tried-to-talk-to-my-ai-that-became-the-evidence-2mi" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-31T01:42:04Z" data-localized="true" title="Monday, August 31, 2026 at 1:42:04 AM">Aug 31</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1788140524"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/johnnyg1212/the-phishing-site-tried-to-talk-to-my-ai-that-became-the-evidence-2mi" data-preload-image="" id="article-link-4531900">
-          The Phishing Site Tried to Talk to My AI. That Became the Evidence.
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 60, 179, 0.10);
-        --tag-prefix: #003cb3;
-        --tag-bg-hover: rgba(0, 60, 179, 0.10);
-        --tag-prefix-hover: #003cb3;
-      " href="/t/googlecloud"><span class="crayons-tag__prefix">#</span>googlecloud</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/hackathon"><span class="crayons-tag__prefix">#</span>hackathon</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/johnnyg1212/the-phishing-site-tried-to-talk-to-my-ai-that-became-the-evidence-2mi" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4531900" aria-label="Add a comment to post - The Phishing Site Tried to Talk to My AI. That Became the Evidence.">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/johnnyg1212/the-phishing-site-tried-to-talk-to-my-ai-that-became-the-evidence-2mi#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Phishing Site Tried to Talk to My AI. That Became the Evidence.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqhy86xw2g7r5x1b3l44fr5c3li8enwg" class="crayons-icon"><title id="aqhy86xw2g7r5x1b3l44fr5c3li8enwg">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            7 min read
-          </small>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Self-Hosted IAM: Roles, Policies, and Instance Profiles Without AWS]]></title>
-        <id>https://dev.to/toddyholiday/self-hosted-iam-roles-policies-and-instance-profiles-without-aws-1c5g</id>
-        <link href="https://dev.to/toddyholiday/self-hosted-iam-roles-policies-and-instance-profiles-without-aws-1c5g"/>
-        <updated>2026-08-31T01:32:57.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/toddyholiday/self-hosted-iam-roles-policies-and-instance-profiles-without-aws-1c5g" aria-labelledby="article-link-4531883" class="crayons-story__hidden-navigation-link">Self-Hosted IAM: Roles, Policies, and Instance Profiles Without AWS</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/toddyholiday" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4087630%2Fae5695ed-6f93-4de6-ac01-4ff5a4d167ce.png" alt="toddyholiday profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/toddyholiday" class="crayons-story__secondary fw-medium m:hidden">
-              Tom
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4531883" aria-controls="story-author-preview-content-4531883" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Tom profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Tom
-                
-                
-              </button>
-              <div id="story-author-preview-content-4531883" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/toddyholiday" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4087630%2Fae5695ed-6f93-4de6-ac01-4ff5a4d167ce.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Tom</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4087630,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Tom&quot;}" data-fetched="fetched" aria-label="Follow user: Tom" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="4087630"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/toddyholiday/self-hosted-iam-roles-policies-and-instance-profiles-without-aws-1c5g" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-31T01:32:57Z" data-localized="true" title="Monday, August 31, 2026 at 1:32:57 AM">Aug 31</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1788139977"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/toddyholiday/self-hosted-iam-roles-policies-and-instance-profiles-without-aws-1c5g" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuhb4e37fgvfmy7wnepop.jpg" id="article-link-4531883">
-          Self-Hosted IAM: Roles, Policies, and Instance Profiles Without AWS
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/iam"><span class="crayons-tag__prefix">#</span>iam</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/selfhosted"><span class="crayons-tag__prefix">#</span>selfhosted</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/toddyholiday/self-hosted-iam-roles-policies-and-instance-profiles-without-aws-1c5g#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Self-Hosted IAM: Roles, Policies, and Instance Profiles Without AWS">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="atli53kigbh7x5eia5y5bu6y7waak7bq" class="crayons-icon"><title id="atli53kigbh7x5eia5y5bu6y7waak7bq">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            5 min read
           </small>
         </div>
       </div>

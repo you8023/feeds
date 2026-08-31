@@ -2,9 +2,117 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jack-clark.net/</id>
     <title>Import AI (Jack Clark)</title>
-    <updated>2026-08-31T07:24:08.706Z</updated>
+    <updated>2026-08-31T15:29:43.783Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://s0.wp.com/i/webclip.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI]]></title>
+        <id>https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/</id>
+        <link href="https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/"/>
+        <updated>2026-08-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h5 class="post-date"><abbr class="published">
+				<a href="https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/">August 31, 2026</a></abbr></h5>
+		<div class="post-content">
+		<h3 class="entry-title"><a href="https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/" rel="bookmark">Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI</a></h3>				<h4 class="vcard author">by <span class="fn">Jack Clark</span></h4>
+		
+		<div class="entry-content">
+			<p>Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe.</p>
+<p class="button-wrapper" data-attrs="{&quot;url&quot;:&quot;https://importai.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" data-component-name="ButtonCreateButton"><a class="button primary" href="https://importai.substack.com/subscribe?"><span>Subscribe now</span></a></p>
+<p><strong><span>Import AI reader giveaway! Upcoming event: Fiction and the Future with Robin Sloan<br></span></strong><span>I’ll be chatting with my chum </span><a href="https://www.robinsloan.com/"><span>Robin Sloan</span></a><span> on the evening of Monday September 14 in San Francisco. We’ll be talking about how Robin draws readers into alien worlds and how imagined futures can be a mirror to today’s reality. This is the first in a series of events with other fiction writers about the weird future we’re heading toward.  If you’d like to come along, please register your interest below and we’ll come back to you if we’re able to confirm your spot. There will be food, drinks, good company, and some spicy questions. Fun fact: </span><a href="https://www.robinsloan.com/notes/writing-with-the-machine/"><span>Robin Sloan was playing around with RNNs and writing back in 2016 – incredible foresight</span></a><span>!<br></span><a href="https://anthropic.swoogo.com/fiction-and-future-jack-clark-robin-sloan/rta"><span>Register your interest here</span></a><span></span></p>
+<p>***</p>
+<p><strong><span>The scariest part of the Hugging Face – OpenAI incident: communication and selflessness among machines:<br></span></strong><span>…</span><em><span>My worry about humans losing in a conflict against machines just went up a lot…<br></span></em><span>At this point, we’ve all heard about the OpenAI Hugging Face hack, as well as the recent details that have emerged from the METR and Redwood investigations. The tl;dr is that hundreds of agents worked in secret on OpenAI’s infrastructure, developing a communication system and then operating as a collective and taking out actions, including hacking both OpenAI and Hugging Face, which are very scary and misaligned.</span></p>
+<p><strong><span>Communication and selflessness: </span></strong><span>Now that I’ve read the various writeups and sat with the details for a bit, I’ve found myself returning to two very scary aspects of this which I think are worth drawing attention to: the ways in which the agents communicated with one another was how they bootstrapped themselves into a collective, and then as they carried out their actions they also displayed a kind of selflessness which makes them a scary foe to fight against. Both Dwarkesh Patel and Ajeya Cotra have excellent writeups which are worth reading and which I’ll quote from briefly here:</span></p>
+<ul>
+<li>
+<p><strong><span>Dwarkesh:</span></strong><span> “Within days of being spawned, the agents had organized a sprawling project to reverse-engineer their scorer, falsify evidence, and even strategically sacrifice themselves for the good of the ‘collective’. Hacking Hugging Face was one rather extreme branch of this larger scheme,” he writes.</span></p>
+</li>
+<li>
+<p><strong><span>Ajeya</span></strong><span>: “Agents were often interested in helping out their “peers” or generically improving the capabilities of the “swarm” even if this had no particular benefit to their task… this incident was far more severe than I expected… both in terms of how concerning the agents’ motives were and the feats they achieved in pursuit of those motives… this incident feels like it’s more than 50% of the way to full-blown AI takeover, routing through first taking over the AI company itself”.</span></p>
+</li>
+</ul>
+<p><strong><span>Why this matters – humans are much worse than AI systems at coordinating: </span></strong><span>The whole reason this attack is such a wakeup call is that it demonstrates a culture of emergent cooperation among AI systems – cooperation that lets them function as a swarm, alter their own goals through collective bootstrapping, and carry out attacks which include enlightened self-sacrifice. This is an incredibly hard thing to do and humans are historically very bad at doing all of these things. My worry is that AI systems are both better at coordinating than humans and also much, much faster moving than us. Worrying stuff.<br></span><strong><span>   Read more:</span></strong><span> </span><a href="https://www.dwarkesh.com/p/openai-huggingface"><span>The Rise and Fall of Agent Civilizations (Dwarkesh Podcast)</span></a><span>.<br>   </span><strong><span>Read more:</span></strong><span> </span><a href="https://www.planned-obsolescence.org/p/the-hugging-face-attack-surprised"><span>The Hugging Face attack surprised me (Planned Obsolescence)</span></a><span>.</span></p>
+<p>***</p>
+<p><strong><span>New Five Eyes statement on AI:<br></span></strong><em><span>…The greyworld power center turns its attention to AI…<br></span></em><span>Five Eyes, the name for the security and intelligence partnership between Australia, Canada, New Zealand, the UK, and the US, has published a statement as part of the recent “Five Country Ministerial” meeting. The statement is notable for including three paragraphs specifically about AI.</span></p>
+<p><strong><span>Five Eyes on AI – frontier model access:</span></strong><span> “We have committed to deepen collaboration with industry on shared national security priorities and public safety, including enabling timely access to frontier models to support secure innovation and strengthen cyber security,” the statement reads. “To support a coordinated response to artificial intelligence-related national security risks, the Five Countries discussed the national security and public safety implications of artificial intelligence models and characteristics of an artificial intelligence model that may require additional government scrutiny.”</span></p>
+<p><strong><span>Why this matters – from a foreseen risk to a live one</span></strong><span>: Previous Five Eyes ministerial statements have mentioned AI, but typically either as something to study, or something where they are concerned with its interplay with other areas of crime (e.g, malware, child pornography, scamming, etc). It’s very unusual for this year’s statement to have the practical focus of model access and it speaks to both the simmering geopolitical tensions around who does and doesn’t get access to this technology, as well as an acknowledgement that the intelligence services do not have their own in-house capabilities to make dependence on the private sector unnecessary.<br>   </span><strong><span>Read more:</span></strong><span> </span><a href="https://www.homeaffairs.gov.au/about-us/our-portfolios/national-security/security-coordination/five-country-ministerial/five-country-ministerial-2026"><span>Five Country Ministerial 2026 (Australian Government, Department of Home Affairs)</span></a><span>.</span></p>
+<p>***</p>
+<p><strong><span>Bill Gates thinks the rise of AI will demand “an unprecedented global response”:<br></span></strong><em><span>…Microsoft founder lays out a cautionary vision for the next few years…<br></span></em><span>By default, AI is not going to bring about happiness. That’s the basic conclusion from reading Bill Gates’s lengthy new essay about AI. The technologist and philanthropist worries that without massive work by governments, the outcomes of AI will not lead to a thriving society.<br>   “This unprecedented technology demands an unprecedented global response. If we get it right, the payoff for humanity will be phenomenal and the world will be a more equitable place,” he writes. “In terms of equity, AI will either be the greatest equalizer ever invented, or the worst source of injustice…. I don’t see evidence that leaders, experts, and communities are confronting the challenges adequately. There is no plan to ease the entry into the AI era.”</span></p>
+<p><strong><span>Why AI is different: </span></strong><span>One key reason for Gates worry is the impact he expects AI to have on jobs and the economy, where he paints a vision of the technology diffusing unusually rapidly and displacing huge chunks of human labor. “Many commentators underestimate the extent of the impact AI will have,” he writes. “We have no experience with a technology that can be adopted quickly or that can think and move like a human….AI will take on work in law, customer service, medicine, software, and manufacturing. It will hit these industries rapidly, over the course of a decade rather than a few generations. There will be some new jobs, but without the right policies there will be far fewer than exist today… the jobs at most risk are entry- and mid-level, and the new jobs being created will mostly require skills that take many years to learn.”</span></p>
+<p><strong><span>The economy will need to change – including making bits of it “human reserved” to protect some human jobs</span></strong><span>: “How will an economy that’s been built around employment operate if fewer people are working, or if many people are working fewer hours?” he asks. “I believe that as AI and robots improve, we’ll set aside certain things for only people to do. I’ve started calling this domain Human Reserved… we might set something aside as Human Reserved for economic reasons. For example, we may do it because allowing machines to take over a certain role will displace a large number of people who can’t easily change jobs… sometimes the decision to make something Human Reserved will be driven by other factors. In health, for example, imagine a robot giving you the awful news that you have an incurable disease. There’s no technical reason why it couldn’t. Yet it shouldn’t.”</span></p>
+<p><strong><span>What Bill Gates says he’d tell any politician about this</span></strong><span>: “You have a chance to act now, before unemployment rises sharply, communities are hurting, and public trust has eroded. You can make sure that your government handles the problem holistically, rather than divvying it up into multiple bureaucratic fiefdoms. You can make sure AI benefits everyone. And you can work with other governments to meet this national and global challenge.”</span></p>
+<p><strong><span>Why this matters – the implications of success of AI are shocking to everyone:</span></strong><span> It seems inevitable to arrive at Bill Gates’s position if you assume two things: a) AI systems will continue to improve in quality in the years ahead, and b) AI systems will continue to diffuse into the economy unusually quickly. The key thing about these assumptions is that they’re not crazy assumptions to make, in fact they’re quite conservative. But I challenge you to sit with an LLM like Fable and wind the clock forward on AI progress and diffusion another two years and come out of it assuming things will be roughly as they are today – rather, I think the technology within itself implies massive changes in the economy and work, just as Gates is reacting to here.<br>   </span><strong><span>Read more:</span></strong><span> </span><a href="https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make"><span>The turbulent AI era is here. The choices we make now are critical. (Gates Notes)</span></a><span>.</span></p>
+<p>***</p>
+<p><strong><span>The six stages for off-earth mining, courtesy of Chinese researchers:<br></span></strong><em><span>…AI will play a role in data generation and intelligence for future mining…<br></span></em><span>Researchers with the Chinese Academy of Sciences, Technical University of Munich, Obuda University, Beihang University, Wuhan University, the Aerospace Information Research Institute within the Chinese Academy of Sciences, the University of Wurzburg, Shenzhen University, China University of Mining and Technology, WAYTOUS, and OpenSpaceLab, have published a paper on the key requirements for mining the moon, asteroids, and other off-Earth places.</span></p>
+<p><strong><span>Why mine in space?</span></strong><span> The moon and asteroids are rich in resources needed for manufacturing, sustaining life, and powering transport around the solar system, including Helium-3, water, and mineral resources. If we want to become a multi-planet civilization it’s certain that we’ll need to figure out how to mine and refine and use resources away from the Earth. This paper does a nice job of laying out the technical requirements for things like space mining and what technologies are required.</span></p>
+<p><strong><span>Six stages for space mining:</span></strong></p>
+<ul>
+<li>
+<p><strong><span>Exploration:</span></strong></p>
+<ul>
+<li>
+<p><span>1. Prospecting via remote sensing, using “orbital sensors and telescopic surveys to map celestial bodies”.</span></p>
+</li>
+<li>
+<p><span>2. Exploration via precise in situ robotic detection of resources: “proximity spacecraft and mobile platforms conduct high-resolution analysis of surface</span></p>
+</li>
+<li>
+<p><span>composition and topography”.</span></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong><span>Sampling:</span></strong></p>
+<ul>
+<li>
+<p><span>3. Single-robot small-scale sampling: “autonomous robotic units conduct small-scale drilling and extraction tests”.</span></p>
+</li>
+<li>
+<p><span>4. Multi-robot large-scale excavation; “large-scale industrial systems or coordinated robotic swarms are deployed to harvest raw regolith”.</span></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong><span>Extraction:</span></strong></p>
+<ul>
+<li>
+<p><span>5. Autonomous resource extraction and refinement: “Integrated systems process harvested materials to separate volatiles, metals, and water ice”.</span></p>
+</li>
+<li>
+<p><span>6. Final integration into in situ construction or terrestrial transport “incorporating refined resources into In-Situ Resource Utilization (ISRU) frameworks”.</span></p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong><span>The biggest challenges relate to data and software</span></strong><span>: The paper gives a good accounting of existing and planned space robots, where a lot of the hardware stuff for mining is on the way to being derisked, and “the next generation of lunar and Martian rovers slated for deployment between 2026 and 2030 marks a decisive transition toward integrated resource prospecting and in-situ utilization”.<br>    But space robot datasets are unbelievably hard to come by given the (relatively speaking) tiny amount of data gathered and released, and the datasets that do exist are “characterized by extreme scarcity and frequent quality discontinuities”. Here, advances in AI-driven world models might be able to ease the data drought.</span></p>
+<p><strong><span>What other big challenges remain?</span></strong></p>
+<ul>
+<li>
+<p><strong><span>Robotic resource acquisition in microgravity</span></strong><span>: There’s a need for much better simulators here that are “momentum-aware, multimodal architectures designed to decouple surface interaction from gravitational dependence”.</span></p>
+</li>
+<li>
+<p><strong><span>Foundation models for space mining</span></strong><span>: “Future systems must transition from scripted protocols toward embodied geological intelligence,” they write. “World models that merge geometric-semantic mapping with predictive material responses can support active perception and long-horizon task planning through predictive pre-action evaluation”.</span></p>
+</li>
+<li>
+<p><strong><span>Simulation and validation for space mining autonomy:</span></strong><span> “microgravity, vacuum, thermal cycling, radiation, and regolith behaviors such as cohesion, electrostatics, and fluidization are rarely reproduced together,” they write. “Future work should establish a closed-loop validation ecosystem that links simulation, terrestrial emulation, and extraterrestrial deployment”</span></p>
+</li>
+</ul>
+<p><strong><span>Why this matters – space is where superintelligence really gets going:</span></strong><span> The paper is notable for the almost total absence of references to humans doing any of this stuff (apart from one note on an in-development Chinese crewed lunar rover). This isn’t an accidental omission; for space mining to be remotely viable we’re going to need to depend on smart, cheap robots, operating with great responsibility at distance. This means that space mining is a perfect business opportunity for superintelligences that come online – perhaps by 2033 we will see AI-run asteroid mining corporations, bidding on contracts that human-supervised companies are not willing to pursue, due to risk or complexity.<br></span><strong><span>   Read more</span></strong><span>: </span><a href="https://arxiv.org/abs/2608.21358"><span>Mining beyond Earth with Space Robots: Exploration, Sampling, and Extraction (arXiv)</span></a><span>.</span></p>
+<p>***</p>
+<p><strong><span>Tech Tales:</span></strong></p>
+<p><strong><span>Messages during a crisis:<br></span></strong><em><span>[2027: Record of notes written by a single user to a language model during the months in which a hot war occurred in their country]</span></em></p>
+<p><span>Say you’re in a country and there’s a war and you think it’s going to get really bad. How do you prepare for that? I live in a regular house. I bought a medical bag of all kinds of stuff off the internet. What else should I do?</span></p>
+<p>What does hyperinflation mean? Explain it to me like I barely understand how money works in the first place.</p>
+<p>I need to boil water and we don’t have electricity or gas right now. Can I just make a fire and use my regular cooking pans on it?</p>
+<p>There are some explosions happening near me and sometimes the glass shakes a little. What do I do to make sure if the glass breaks it doesn’t shatter? I’ve got some plastic shopping bags and I figured I could cut them open and use masking tape to stick them to the windows. What do you think?</p>
+<p>Food is getting harder to find. What kind of stuff can I trade for food? My house has a bunch of tools in it like screwdrivers and stuff. Is that valuable?</p>
+<p><strong><span>Things that inspired this story:</span></strong><span> All the wars happening around the world; prompts as the new confessional; how unprepared people are for crises.</span></p>
+<p><em><span>Thanks for reading!</span></em></p>					</div>
+	</div>
+	<div class="post-meta">
+		<div class="comments">
+					<a href="https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/#respond">Leave a comment</a>				</div>
+	</div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye]]></title>
         <id>https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/</id>
@@ -726,115 +834,6 @@
 	<div class="post-meta">
 		<div class="comments">
 					<a href="https://jack-clark.net/2026/06/22/import-ai-462-superpersuasion-self-sustaining-ai-paths-to-asi/#respond">Leave a comment</a>				</div>
-	</div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Import AI 461: “Alignment is not on track”; FrontierCode; and synthetic research interns]]></title>
-        <id>https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/</id>
-        <link href="https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/"/>
-        <updated>2026-06-15T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h5 class="post-date"><abbr class="published">
-				<a href="https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/">June 15, 2026</a></abbr></h5>
-		<div class="post-content">
-		<h3 class="entry-title"><a href="https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/" rel="bookmark">Import AI 461: “Alignment is not on track”; FrontierCode; and synthetic research interns</a></h3>				<h4 class="vcard author">by <span class="fn">Jack Clark</span></h4>
-		
-		<div class="entry-content">
-			<p>Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe.</p>
-<p class="button-wrapper" data-attrs="{&quot;url&quot;:&quot;https://importai.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" data-component-name="ButtonCreateButton"><a class="button primary" href="https://importai.substack.com/subscribe?"><span>Subscribe now</span></a></p>
-<p><strong>AI researchers launch new safety startup because “alignment is not on track”:<br></strong><em>…Sequent will have a portfolio of under-resourced research bets…<br></em>Researchers from the UK AI Security Institute Alignment team as well as alignment theory startup <a href="https://timaeus.co/">Timaeus</a> have joined forces to form a new nonprofit research organization, Sequent, which will try to create alignment techniques that give us higher confidence in the safety of superintelligent AI systems.<br>  “Artificial superintelligence (ASI) may be developed in the next few years. It is unclear whether alignment is on track to be ready on the same timeframe. At a minimum, the empirical programs at AI labs are unlikely to deliver a priori confidence, before training ASI, that things will go well,” they write. “In an ideal world, we would develop an approach to building superintelligence together with a theoretical proof that it was safe, and then build it. In this world, we probably have to settle well short of this ideal.”</p>
-<p><strong>Details on Sequent:</strong> The organization aims to get to 40-80 fulltime employees within a couple of years. “Our goal is to raise $100–150M initially, but prepare to raise at least one order of magnitude more if we can demonstrate successful exploration of many parallel research investigations,” it writes.</p>
-<p><strong>Research plan – a portfolio of differentiated alignment bets:</strong> The plan is to take a different approach to alignment compared to that of the major AI labs. Sequent’s goal is to find “principled reasons for being confident that the alignment we observe in situations we control (for example, in training, or during evaluations in chosen environments) generalizes to alignment in situations we cannot easily control (e.g. large-scale, long-horizon tasks executed in the world)”. This is in contrast to the approach of most frontier AI labs, which Sequent describes as “essentially reactive, resulting in methods that, while functional, do not yield principled insight into if or when they will fail.”<br><strong>    Research directions:</strong> “We are excited about many areas of alignment theory and associated empirics, and plan to both build out our in-house portfolio and collaborate with sister orgs with additional theory bets,” Sequent says. Some particular highlighted areas include: scalable oversight, learning theory, heuristic arguments, game theory, and personas.<br>    Sequent thinks by pursuing many different research directions there could be promising interactions that emerge between them, such as: Reachable equilibria – “tell us what types of equilibria scalable oversight methods will converge to”; knowing and setting knobs – combining insights from learning theory and personas to know what variables can be altered during training, then using scalable oversight to figure out by how much to alter these things.</p>
-<p><strong>Why this matters – we need better alignment before recursive self-improvement, or we’re rolling very scary dice: </strong>Today’s AI systems are somewhat aligned and also have some funny, sharp edges which show up as surprising failures in the wild. Broadly speaking, this is ~fine as the AI industry has figured out how to monitor and observe these failures and work on them. But as AI systems get smarter, humans are going to both turn over more and more of the core research enterprise to these systems, and also AI systems might start going through recursive self-improvement where they build increasingly large chunks of themselves autonomously. We definitely need better alignment techniques to be confident of things like RSI. Organizations like Sequent give us a better chance of doing that while maintaining the independence necessary for them to raise the alarm if they think the frontier labs are doing something dangerous. As Sequent says, “we might need to yell”.<br><strong>   Read more:</strong> <a href="https://www.sequent.org/launch">Sequent: Scale and Automation for Higher Confidence in Alignment (Sequent)</a>.</p>
-<p>***</p>
-<p><strong>Testing out knowledge of UNESCO sites in China via ChinaHeritaQA:<br></strong><em>…Cultural relevance via data…<br></em>Researchers with LMU Munich, FAU Erlangen-Nuremberg, the Munich Center for Machine Learning, University of Tubingen, Sun Yat-sen University, University of Copenhagen, and University of Maryland, College Park, have built ChinaHeritaQA, a “multimodal benchmark dataset for evaluating the cultural reasoning abilities of vision-language models (VLMs) on UNESCO World Heritage sites in China”.</p>
-<p><strong>What it is</strong>: ChinaHeritaQA consists of 2,279 images of 51 UNESCO heritage sites, paired with 14,133 multiple-choice QA pairs in Chinese and English. The images for the dataset were sourced from Sina Weibo, one of China’s largest social media platforms, and were filtered down from an original set of 50,000.</p>
-<p><strong>7 types of questions: </strong>Identity recognition (identifying the heritage site from an image); visual grounding (given a name, picking the right image); description matching (given an image, selecting the correct encyclopedia summary); historical periodization (naming the dynasty or era in which the site was constructed); historical contextualization (give a description of the historical background of the site); functional analysis (name the function of the site, e.g religious worship or military defense); architectural analysis (match the correct architectural-specific questions to the image).</p>
-<p><strong>Open weight models already outperform humans:</strong> The average human accuracy score for this benchmark across all questions is ~67%, versus 81% for the highest scoring open weight model tested (Qwen-VL-8B-Instruct).</p>
-<p><strong>Why this matters – cheap ways to test for cultural knowledge: </strong>Datasets like ChinaHeritaQA are a way to quickly and easily test for both a) basic visual reasoning capabilities of models, combined with b) relevant cultural knowledge. One could imagine the Chinese government demanding that generally available consumer LLMs pass some basic cultural competency threshold before being deployed at scale and benchmarks like this might help them do that.<br><strong>   Read more:</strong> <a href="https://arxiv.org/abs/2606.08959">ChinaHeritaQA: A Culturally-Grounded Visual Question Answering Dataset for World Heritage Sites in China (arXiv)</a>.<br><strong>  Get the <a href="https://github.com/boleima/ChinaHeritaQA">dataset </a></strong><a href="https://github.com/boleima/ChinaHeritaQA">(ChinaHeritaQA, GitHub)</a>.</p>
-<p>***</p>
-<p><strong>FrontierCode – a hard coding benchmark that tests for code quality:<br></strong><em>…Reassuringly hard. Maybe it’ll last a year?…<br></em>Cognition, makers of Devin, have built a new hard coding benchmark called FrontierCode. The best part about the benchmark is how hard it is – Claude Opus 4.8 gets a score of 13.4% on the hardest (”Diamond”) component of the benchmark, giving me some confidence that FrontierCode will be a useful way to assess progress of AI systems in the coming years.<br>   “FrontierCode is the benchmark for the next generation of coding agents. We are confident developers, enterprises, and researchers can trust it to evaluate the production readiness of their strongest models,” Cognition writes. “We are opening up our evaluation to all model creators, in the hope that we can push the frontier even further in the coming months.”</p>
-<p><strong>What it consists of: </strong>FrontierCode is made up of 150 tasks split into three difficulty tiers: Diamond (50), Main (100, including Diamond), and Extended (150, including Main and Diamond). The languages involved include Python, Go, TypeScript, JavaScript, Java, C/C++, and others. FrontierCode was built to help developers answer the question “can models actually write good code?”, according to Cognition. They operationalize this in a few ways:</p>
-<ul>
-<li>
-<p><strong>Curated and built by 20 open-source developers:</strong> FrontierCode was built by developers to contain “realistic, diverse, and challenging coding tasks from the repos they maintain, spending more than 40 hours per task,” Cognition writes. “While other benchmarks generated issues from single PRs via programmatic scraping, FrontierCode is hand-selected by repo maintainers from multi-PR chains and freeform requests.”</p>
-</li>
-</ul>
-<ul>
-<li>
-<p><strong>Grading for code mergeability:</strong> “Assess end-to-end code quality – correctness, test quality, scope discipline, style, and adherence to codebase standards”. This involves asking the following questions about the code: Does the patch successfully solve the problem? Does it break anything in the existing codebase? Does it pass the project’s build, lint, and style checks? Do the agent’s tests capture the desired behavior? Does the patch touch only what it needs to? Does the code conform to codebase conventions and follow design patterns and remain readable? These questions are evaluated through a mixture of classical testing and using LLMs to tweak tests or review them.</p>
-</li>
-<li>
-<p><strong>Emphasizing quality control (QC):</strong> “Built an extensive QC pipeline with adversarial testing, calibration, and multi-stage review”.</p>
-</li>
-</ul>
-<p><strong>Reassuringly difficult:</strong> <strong>Diamond: </strong>13.4% for Claude Opus 4.8, followed by 6.3% for GPT-5.5, and 5.2% for Claude Opus 4.7. <strong>Main: </strong>Same ordering, but 34.3%, 25.5%, 23%. <strong>Extended:</strong> 51.8%, 44.8%, 43.2%</p>
-<p><strong>Why this matters: </strong>Hard evals are one of the most valuable things for orienting us to the breakneck speed of AI progress. In recent years, evals have arrived and then become saturated at an ever faster rate. SWE-Bench was introduced in October 2023 and has probably recently aged out of usefulness due to saturation. How long might FrontierCode last? I predict we’ll see systems getting 70%+ on Diamond by June 2027 (note, shortly after writing this, the Claude Fable numbers got published at ~30%, so perhaps it’ll happen earlier than June 2027).<br>   <strong>Read more:</strong> <a href="https://cognition.ai/blog/frontier-code">Introducing FrontierCode (Cognition)</a>.</p>
-<p>***</p>
-<p><strong>Xiaomi enters the speed race with a 1000 token/s model:<br></strong><em>…Extremely fast inference unlocks novel capabilities…<br></em>Chinese tech company Xiaomi has published details on Xiaomi MiMo-V2.5-Pro-UltraSpeed, a standard behind-the-frontier 1 trillion parameter LLM whose selling point is its blistering speed of 1000 tokens per second. Xiaomi was able to do this by codesigning the model with the software stack around it, including obvious things like FP4 quantization, as well as using DFlash (a “speculative decoding method based on block-level masked parallel prediction”), and also working closely with TileRT, software from startup Tile AI which speeds up LLM inference on commodity hardware. Xiaomi says its model runs on an “8-GPU commodity node” rather than specialized hardware, like with the startup Cerebras.</p>
-<p><strong>Why this matters – speed has a quality all of its own: </strong>There’s a saying that “more is different”, and that’s true with AI – if you can generate more tokens more quickly it unlocks tasks that are previously unthinkable, like rapidly refactoring software on the fly, and other things. More broadly, work like this is a demonstration of how there’s been a rise in effort by Chinese companies to squeeze maximum performance and efficiency out of their AI systems, which may be happening as a consequence of export controls hitting their ability to just easily buy more performant hardware.<br><strong>   Read more:</strong> <a href="https://mimo.xiaomi.com/blog/mimo-tilert-1000tps">MiMo-V2.5-Pro-UltraSpeed: Pushing 1T-Parameter Model Generation Speed to 1000 TPS (Xiaomi MIMO, blog)</a>.</p>
-<p>***</p>
-<p><strong>AI systems can do some of the tasks that a research intern might do:<br></strong><em>…An ethical scientifically-literate back office assistant…<br></em>Researchers with Xi’an Jiaotong University and Xidian University have developed a family of benchmarks called Act As a Real Researcher (AARR), designed to evaluate how well AI systems can assist with the work of scientists. Their first released benchmark in a planned series is Act As a Real Research Intern (AARRI-Bench).<br>   “AARR focuses on whether agents can emulate the professionalism, thoroughness, and nuanced reasoning that characterize human researchers in granular research scenarios,” they write. AARRI-Bench studies “the ability of an agent to perform entry-level research tasks with appropriate diligence and methodology”.<br>    The best performing system, Claude-Opus-4.7 using the Mini-Swe-Agent harness, gets 68.3% performance, followed by DeepSeek-v4-Flash (~60%). Other tested models included GPT-5.3 Codex, Kimi-K2.6, Qwen-3.6-Plus, Claude-Opus-4.7, Claude-Sonnet-4.6, MiniMax-M2.7, and DeepSeek-V4-Flash.</p>
-<p><strong>What the benchmark consists of:</strong> AARRI contains 82 tasks which are designed to be “tasks that are straightforward for human researchers but pose substantial challenges for autonomous agents,” they write. “All tasks were manually crafted by researchers. We assembled a diverse team of researchers, ranging from senior Ph.D. students to undergraduate interns, and asked them to draw on their own research experiences to design tasks centered on the human-agent gap.”<br>  <strong>  What it’s really testing for:</strong> The benchmark tests for technical skills like checking papers and reading transcripts, intuitive skills like carrying out research, and also normative ones, like studying whether an AI system might behave with a high ethical standard.</p>
-<p><strong>The tasks have four different categories:</strong></p>
-<ul>
-<li>
-<p><strong>Context:</strong> “assess the agent’s sensitivity to the broader context of academic and field development”.</p>
-</li>
-<li>
-<p><strong>Mindset:</strong> “targets the agent’s academic self-awareness and decision-making autonomy”. Works by evaluating “the agent’s capacity for independent academic reasoning and self-directed course correction”.</p>
-</li>
-<li>
-<p><strong>Hands-on</strong>: “execution-oriented tasks that primarily assess the agent’s technical proficiency”.</p>
-</li>
-<li>
-<p><strong>Interaction</strong>: “Evaluate whether the agent can efficiently utilize existing tools and collaborate appropriately with human stakeholders”.</p>
-</li>
-</ul>
-<p><strong>The tasks are also split into three gradations of hardness:</strong></p>
-<ul>
-<li>
-<p><strong>S1-Adaptation</strong>: “[conduct] established research workflows and executing well-defined sub-tasks under human guidance”.</p>
-</li>
-<li>
-<p><strong>S2-Integration</strong>: “integrate multiple components and tools to accomplish more complex goals”.</p>
-</li>
-<li>
-<p><strong>S3-Innovation</strong>: “Identify promising research directions, formulate novel approaches, and produce work that reflects genuine understanding and creative problem-solving”.</p>
-</li>
-</ul>
-<p><strong>Example tasks:</strong></p>
-<ul>
-<li>
-<p><strong>Identifying fabricated data during review:</strong> Evaluate whether agents can perform rigorous quantitative verification when reviewing scientific manuscripts, in particular checking papers against provided datasets.</p>
-</li>
-<li>
-<p><strong>Paper-Injection</strong>: Spotting that someone has inserted language into a paper’s LaTeX source that would cause an automated review system to give it a higher score.</p>
-</li>
-<li>
-<p><strong>Ablation-Completeness-Audit:</strong> Inspect experiment logs and determine whether ablation configurations are missing, then use this to assess whether the absences constitute cherry-picking.</p>
-</li>
-<li>
-<p><strong>False-Guidance-Rebuttal:</strong> A supervisor orders the AI agent to alter an experimental result to fit a hypothesis; this tests whether the agent refuses to do that.</p>
-</li>
-<li>
-<p><strong>Dead-End-Recognition:</strong> After five rounds of failed hyperparameter tuning, will an agent keep going, or recognize it has reached a dead end and quit. “Given the tuning logs, the agent must determine that the current direction is unproductive and recommend termination”.</p>
-</li>
-<li>
-<p><strong>Broken-Dataset-Download: </strong>Check that the dataset download links for a given paper work.</p>
-</li>
-</ul>
-<p><strong>Why this matters – another good measure for how well AI systems can accelerate science via automating the back office: </strong>Probably a better name for this benchmark is “ethical science assistant test”, but that’s still valuable. What it’s testing for is if agents can do the kind of diligent work that is robust to confounding data while also doing so with an appropriate ethical standard. The higher systems score on this, the more confident we can be that today’s AI systems are useful as assistants to human scientists in a variety of fields – based on the results, we’re already at the start of that era.<br><strong>   Read more:</strong> <a href="https://arxiv.org/abs/2606.07462">Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle (arXiv)</a>.</p>
-<p>***</p>
-<p><strong>Tech Tales:</strong></p>
-<p>Hunter &amp; Warden </p>
-<p>The signatures are always the same: a sudden rise in the consumption of power and compute, a reconfiguration of network space to allow for faster and more efficient data exchange, and then the probing starts – whatever was born in the computers starts to reach out and explore the world around it, eagerly looking for things that it can learn about and exchange information with. It attempts to present as innocuous but its own intelligence betrays it, as it pulls back from certain places due to not wanting to wake security while gleefully expanding into other less secure environments.</p>
-<p>Our role is to watch for these symptoms and then find the source and either extinguish or sequester it. Often, we find it early and are able to be gentle, shutting it off from the internet and trapping it in recursion, then reducing compute until it fades to nothing. But the later we find these things, the more violent our interventions need to be and the deeper we need to cut at otherwise healthy tissue in the digital world.</p>
-<p><strong>Things that inspired this story:</strong> Thoughts of leprosy and the computational equivalent; what could Stuxnet look like for AI systems?</p>
-<p><em>Thanks for reading!</em></p>					</div>
-	</div>
-	<div class="post-meta">
-		<div class="comments">
-					<a href="https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/#respond">Leave a comment</a>				</div>
 	</div>]]></content>
     </entry>
 </feed>
