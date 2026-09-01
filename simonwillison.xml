@@ -2,9 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-01T17:02:53.800Z</updated>
+    <updated>2026-09-01T20:16:18.819Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[0]]></title>
+        <id>https://simonwillison.net/2026/Sep/1/codex-libreoffice/</id>
+        <link href="https://simonwillison.net/2026/Sep/1/codex-libreoffice/"/>
+        <updated>2026-09-01T20:14:51.545Z</updated>
+        <content type="html"><![CDATA[<p>I was poking around in my <code>~/.cache/</code> folder using <a href="https://www.omnigroup.com/more">OmniDiskSweeper</a> when I spotted something interesting. The OpenAI Codex desktop app (since <a href="https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app">rebranded</a> to just ChatGPT) has 1.7GB of stuff in there in a folder called <code>codex-primary-runtime</code>, including a full Python installation, a full Node.js installation, and native binaries for <a href="https://poppler.freedesktop.org">Poppler</a>, git, and the <a href="https://en.wikipedia.org/wiki/LibreOffice">LibreOffice</a> open source office suite (which forked from OpenOffice.org in 2010):</p>
+<p><img alt="Screenshot of a macOS disk usage app window in column view, titled &quot;/Users/simon/.cache - 442.1 GB&quot;. First column: 356.8 GB huggingface, 82.5 GB uv, 1.7 GB codex-runtimes (selected), 609.0 MB datasette-sqlite, 298.8 MB rod. Second column: 1.7 GB codex-primary-runtime (selected). Third column: 1.7 GB dependencies (selected), 6.3 MB plugins, 4.1 kB runtime.json. Fourth column: 771.0 MB native (selected), 446.4 MB node, 440.6 MB python, 28.7 kB bin. Fifth column: 429.7 MB libreoffice-headless (selected), 187.9 MB poppler, 148.1 MB git, 4.7 MB libheif, 679.9 kB jxrlib." src="https://static.simonwillison.net/static/2026/codex-primay-runtime.webp"></p>
+<p>The <code>~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents</code> folder includes skills which tell Codex how to find and use those binaries.</p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Sep/1/codex-libreoffice/" rel="bookmark">#</a>
+    <a href="/2026/Sep/1/codex-libreoffice/">7:03 pm</a>
+     / <a href="/tags/codex/">codex</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/openoffice/">openoffice</a>, <a href="/tags/open-source/">open-source</a>
+  </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior, and they misbehave sometimes]]></title>
+        <id>https://simonwillison.net/2026/Sep/1/tarn-adams/</id>
+        <link href="https://simonwillison.net/2026/Sep/1/tarn-adams/"/>
+        <updated>2026-09-01T20:14:51.601Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/"><p>They took the letters from me! I have to talk about&nbsp;<em>dwarf behavior</em>&nbsp;now. I can't even talk about dwarf AI. It doesn't exist. It's&nbsp;<em>dwarf behavior</em>, and they misbehave sometimes</p></blockquote>
+  <p class="cite">— <a href="https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/">Tarn Adams</a>, <span class="context">co-creator of Dwarf Fortress</span></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Sep/1/tarn-adams/" rel="bookmark">#</a>
+    <a href="/2026/Sep/1/tarn-adams/">5:01 pm</a>
+     / <a href="/tags/ai/">ai</a>, <a href="/tags/game-design/">game-design</a>
+  </p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species is possible with sustained effort.]]></title>
         <id>https://simonwillison.net/2026/Aug/31/andrew-digby/</id>
@@ -50,8 +79,8 @@
       <span class="beat-title"><a href="/2026/Aug/30/sighting-395988569/">4:59 PM – 5:16 PM</a></span>
       <span class="beat-commit">— California Brown Pelican, House Sparrow, in Monterey Bay National Marine Sanctuary, CA, US, CA</span>
     </div>
-    <captioned-image-gallery data-count="2">
-      <figure style="width: 270.5px; height: 180.289px;"><a href="https://static.inaturalist.org/photos/726145345/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/726145345/small.jpg" alt="California Brown Pelican" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/395988633" title="View observation on iNaturalist">California Brown Pelican</a></figcaption></figure><figure style="width: 270.5px; height: 180.289px;"><a href="https://static.inaturalist.org/photos/726145199/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/726145199/small.jpg" alt="House Sparrow" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/395988569" title="View observation on iNaturalist">House Sparrow</a></figcaption></figure>
+    <captioned-image-gallery>
+      <figure><a href="https://static.inaturalist.org/photos/726145345/large.jpg"><img src="https://static.inaturalist.org/photos/726145345/small.jpg" alt="California Brown Pelican" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/395988633" title="View observation on iNaturalist">California Brown Pelican</a></figcaption></figure><figure><a href="https://static.inaturalist.org/photos/726145199/large.jpg"><img src="https://static.inaturalist.org/photos/726145199/small.jpg" alt="House Sparrow" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/395988569" title="View observation on iNaturalist">House Sparrow</a></figcaption></figure>
     </captioned-image-gallery>
     
     <div class="beat-meta beat-row2">
@@ -84,8 +113,8 @@
       <span class="beat-title"><a href="/2026/Aug/25/sighting-394363840/">12:27 PM</a></span>
       <span class="beat-commit">— Common Wood-Pigeon, in Devon, England, GB</span>
     </div>
-    <captioned-image-gallery data-count="2">
-      <figure style="width: 360.088px; height: 240px;"><a href="https://static.inaturalist.org/photos/722970873/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/722970873/small.jpg" alt="Common Wood-Pigeon" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/394363840" title="View observation on iNaturalist">Common Wood-Pigeon</a></figcaption></figure><figure style="width: 159.961px; height: 240px;"><a href="https://static.inaturalist.org/photos/722970905/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/722970905/small.jpg" alt="Common Wood-Pigeon" loading="lazy" data-width="1365" data-height="2048"></a><figcaption><a href="https://www.inaturalist.org/observations/394363840" title="View observation on iNaturalist">Common Wood-Pigeon</a></figcaption></figure>
+    <captioned-image-gallery>
+      <figure><a href="https://static.inaturalist.org/photos/722970873/large.jpg"><img src="https://static.inaturalist.org/photos/722970873/small.jpg" alt="Common Wood-Pigeon" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/394363840" title="View observation on iNaturalist">Common Wood-Pigeon</a></figcaption></figure><figure><a href="https://static.inaturalist.org/photos/722970905/large.jpg"><img src="https://static.inaturalist.org/photos/722970905/small.jpg" alt="Common Wood-Pigeon" loading="lazy" data-width="1365" data-height="2048"></a><figcaption><a href="https://www.inaturalist.org/observations/394363840" title="View observation on iNaturalist">Common Wood-Pigeon</a></figcaption></figure>
     </captioned-image-gallery>
     
     <div class="beat-meta beat-row2">
@@ -128,8 +157,8 @@
       <span class="beat-title"><a href="/2026/Aug/24/sighting-394071393/">10:47 AM – 11:33 AM</a></span>
       <span class="beat-commit">— Great Cormorant, Grey Heron, in Devon, England, GB</span>
     </div>
-    <captioned-image-gallery data-count="3">
-      <figure style="width: 125.85px; height: 188.821px;"><a href="https://static.inaturalist.org/photos/722391830/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/722391830/small.jpg" alt="Great Cormorant" loading="lazy" data-width="1365" data-height="2048"></a><figcaption><a href="https://www.inaturalist.org/observations/394071393" title="View observation on iNaturalist">Great Cormorant</a></figcaption></figure><figure style="width: 283.3px; height: 188.821px;"><a href="https://static.inaturalist.org/photos/722391867/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/722391867/small.jpg" alt="Great Cormorant" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/394071393" title="View observation on iNaturalist">Great Cormorant</a></figcaption></figure><figure style="width: 125.85px; height: 188.821px;"><a href="https://static.inaturalist.org/photos/722397714/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/722397714/small.jpg" alt="Grey Heron" loading="lazy" data-width="1365" data-height="2048"></a><figcaption><a href="https://www.inaturalist.org/observations/394073868" title="View observation on iNaturalist">Grey Heron</a></figcaption></figure>
+    <captioned-image-gallery>
+      <figure><a href="https://static.inaturalist.org/photos/722391830/large.jpg"><img src="https://static.inaturalist.org/photos/722391830/small.jpg" alt="Great Cormorant" loading="lazy" data-width="1365" data-height="2048"></a><figcaption><a href="https://www.inaturalist.org/observations/394071393" title="View observation on iNaturalist">Great Cormorant</a></figcaption></figure><figure><a href="https://static.inaturalist.org/photos/722391867/large.jpg"><img src="https://static.inaturalist.org/photos/722391867/small.jpg" alt="Great Cormorant" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/394071393" title="View observation on iNaturalist">Great Cormorant</a></figcaption></figure><figure><a href="https://static.inaturalist.org/photos/722397714/large.jpg"><img src="https://static.inaturalist.org/photos/722397714/small.jpg" alt="Grey Heron" loading="lazy" data-width="1365" data-height="2048"></a><figcaption><a href="https://www.inaturalist.org/observations/394073868" title="View observation on iNaturalist">Grey Heron</a></figcaption></figure>
     </captioned-image-gallery>
     
     <div class="beat-meta beat-row2">
@@ -166,8 +195,8 @@ So we started to think about what work went where.]]></title>
       <span class="beat-title"><a href="/2026/Aug/23/sighting-393763247/">1:52 PM – 1:57 PM</a></span>
       <span class="beat-commit">— European Herring Gull, Eurasian Jackdaw, in Devon, England, GB</span>
     </div>
-    <captioned-image-gallery data-count="2">
-      <figure style="width: 270.5px; height: 180.289px;"><a href="https://static.inaturalist.org/photos/721786008/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/721786008/small.jpg" alt="European Herring Gull" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/393763309" title="View observation on iNaturalist">European Herring Gull</a></figcaption></figure><figure style="width: 270.5px; height: 180.289px;"><a href="https://static.inaturalist.org/photos/721785815/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/721785815/small.jpg" alt="Eurasian Jackdaw" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/393763247" title="View observation on iNaturalist">Eurasian Jackdaw</a></figcaption></figure>
+    <captioned-image-gallery>
+      <figure><a href="https://static.inaturalist.org/photos/721786008/large.jpg"><img src="https://static.inaturalist.org/photos/721786008/small.jpg" alt="European Herring Gull" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/393763309" title="View observation on iNaturalist">European Herring Gull</a></figcaption></figure><figure><a href="https://static.inaturalist.org/photos/721785815/large.jpg"><img src="https://static.inaturalist.org/photos/721785815/small.jpg" alt="Eurasian Jackdaw" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/393763247" title="View observation on iNaturalist">Eurasian Jackdaw</a></figcaption></figure>
     </captioned-image-gallery>
     
     <div class="beat-meta beat-row2">
@@ -244,7 +273,7 @@ llm -t lhigh -t pelican
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[11]]></title>
+        <title type="html"><![CDATA[13]]></title>
         <id>https://simonwillison.net/2026/Aug/22/more-than-just-code-review/</id>
         <link href="https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"/>
         <updated>2026-08-23T09:07:54.787Z</updated>
@@ -330,8 +359,8 @@ So learning doesn’t stop just because I outsource a bunch of thinking to AI. I
       <span class="beat-title"><a href="/2026/Aug/21/sighting-393274664/">1:58 PM – 2:08 PM</a></span>
       <span class="beat-commit">— Great Cormorant, Grey Heron, in Devon, England, GB</span>
     </div>
-    <captioned-image-gallery data-count="2">
-      <figure style="width: 270.5px; height: 180.289px;"><a href="https://static.inaturalist.org/photos/720825944/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/720825944/small.jpg" alt="Great Cormorant" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/393274664" title="View observation on iNaturalist">Great Cormorant</a></figcaption></figure><figure style="width: 270.5px; height: 180.289px;"><a href="https://static.inaturalist.org/photos/720827986/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/720827986/small.jpg" alt="Grey Heron" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/393275569" title="View observation on iNaturalist">Grey Heron</a></figcaption></figure>
+    <captioned-image-gallery>
+      <figure><a href="https://static.inaturalist.org/photos/720825944/large.jpg"><img src="https://static.inaturalist.org/photos/720825944/small.jpg" alt="Great Cormorant" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/393274664" title="View observation on iNaturalist">Great Cormorant</a></figcaption></figure><figure><a href="https://static.inaturalist.org/photos/720827986/large.jpg"><img src="https://static.inaturalist.org/photos/720827986/small.jpg" alt="Grey Heron" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/393275569" title="View observation on iNaturalist">Grey Heron</a></figcaption></figure>
     </captioned-image-gallery>
     
     <div class="beat-meta beat-row2">
@@ -439,37 +468,13 @@ So learning doesn’t stop just because I outsource a bunch of thinking to AI. I
       <span class="beat-title"><a href="/2026/Aug/19/sighting-393259092/">2:16 PM – 2:25 PM</a></span>
       <span class="beat-commit">— Carrion Crow, European Fallow Deer, in Hackney, England, GB</span>
     </div>
-    <captioned-image-gallery data-count="2">
-      <figure style="width: 320px; height: 240px;"><a href="https://static.inaturalist.org/photos/720795182/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/720795182/small.jpg" alt="Carrion Crow" loading="lazy" data-width="2048" data-height="1536"></a><figcaption><a href="https://www.inaturalist.org/observations/393259092" title="View observation on iNaturalist">Carrion Crow</a></figcaption></figure><figure style="width: 180px; height: 240px;"><a href="https://static.inaturalist.org/photos/720795339/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/720795339/small.jpg" alt="European Fallow Deer" loading="lazy" data-width="1536" data-height="2048"></a><figcaption><a href="https://www.inaturalist.org/observations/393259182" title="View observation on iNaturalist">European Fallow Deer</a></figcaption></figure>
+    <captioned-image-gallery>
+      <figure><a href="https://static.inaturalist.org/photos/720795182/large.jpg"><img src="https://static.inaturalist.org/photos/720795182/small.jpg" alt="Carrion Crow" loading="lazy" data-width="2048" data-height="1536"></a><figcaption><a href="https://www.inaturalist.org/observations/393259092" title="View observation on iNaturalist">Carrion Crow</a></figcaption></figure><figure><a href="https://static.inaturalist.org/photos/720795339/large.jpg"><img src="https://static.inaturalist.org/photos/720795339/small.jpg" alt="European Fallow Deer" loading="lazy" data-width="1536" data-height="2048"></a><figcaption><a href="https://www.inaturalist.org/observations/393259182" title="View observation on iNaturalist">European Fallow Deer</a></figcaption></figure>
     </captioned-image-gallery>
     
     <div class="beat-meta beat-row2">
       <a href="/2026/Aug/19/sighting-393259092/" rel="bookmark">19th Aug 2026</a>
     </div>
   </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[21]]></title>
-        <id>https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/</id>
-        <link href="https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/"/>
-        <updated>2026-08-23T09:07:54.799Z</updated>
-        <content type="html"><![CDATA[<p>I started building my <a href="https://tools.simonwillison.net/markdown-svg-renderer">markdown-svg-renderer</a> tool <a href="https://tools.simonwillison.net/colophon#markdown-svg-renderer.html">in May</a>, but I've since added enough features to it that it's worth talking about here again.</p>
-<p>It's evolved into my ideal tool for sharing Markdown transcripts that include SVG documents. Given my <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle/">proclivity for drawing pelicans riding bicycles</a> this is a problem that I needed to solve!</p>
-<p>The tool is very simple. Navigate to <a href="https://tools.simonwillison.net/markdown-svg-renderer">markdown-svg-renderer</a> in your browser and paste in some Markdown to see it rendered... or save that Markdown to a CORS-friendly URL or a GitHub Gist and paste in a URL to that document.</p>
-<p>The URL option will give you a bookmarkable page, for example <a style="overflow-wrap: anywhere;" href="https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657">https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657</a> - which bakes in the URL to <a href="https://gist.github.com/simonw/6f9e48293be5c916652d29f0dc0b0657">this Gist</a>.</p>
-<p>If you visit <a href="https://gist.github.com/simonw/6f9e48293be5c916652d29f0dc0b0657">the Gist</a> you'll see raw SVG:</p>
-<p><img alt="beautiful-circle.md. Here's a self-contained SVG — a &quot;compass study&quot; of a circle with construction lines, a slowly rotating tick ring, and an orbiting accent dot: a block of SVG code" src="https://static.simonwillison.net/static/2026/raw-svg.webp"></p>
-<p>In the rendered tool that <a href="https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657">looks like this</a> instead:</p>
-<p><img alt="The same text, but now the code block has been replaced by a tabbed panel. The selected tab reads &quot;Rendered&quot; and shows the rendered PNG. The other tabs are PNG, JPEG, MP4, and Code" src="https://static.simonwillison.net/static/2026/rendered-svg.webp"></p>
-<p>As you can see, that SVG block in the Markdown has been transformed into a rendered SVG (in this case animated) plus several tabs.</p>
-<p>The tabs are the really fun bit. The PNG and JPEG tabs render that SVG to those image formats in the browser and lets you copy or download them - useful for sharing on platforms that don't support SVG directly.</p>
-<p>The MP4 tab is <a href="https://github.com/simonw/tools/commit/73e0327f6df9887ba2a9f9f16a2d06a45451d248">new today</a> - it examines the SVG to see if it contains any animations, attempts to guess how long the looped video should be, then renders a whole bunch of frames of the animation and loads 30+MB of <a href="https://github.com/ffmpegwasm/ffmpeg.wasm">ffmpeg.wasm</a> so it can compile those frames into an MP4 video using the full power of FFMPEG compiled to WebAssembly and running in the browser.</p>
-<p>Being able to turn an animated SVG into a MP4 again makes it easy to share on platforms that can't support SVG animation natively. It's a neat trick!</p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Aug/16/markdown-svg-upgrades/" rel="bookmark">#</a>
-    <a href="/2026/Aug/16/markdown-svg-upgrades/">11:59 pm</a>
-     / <a href="/tags/svg/">svg</a>, <a href="/tags/markdown/">markdown</a>, <a href="/tags/tools/">tools</a>
-  </p>]]></content>
     </entry>
 </feed>
