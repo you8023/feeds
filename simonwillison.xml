@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-01T22:55:43.984Z</updated>
+    <updated>2026-09-02T01:21:16.261Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[0]]></title>
+        <title type="html"><![CDATA[Claude Fable 5.1 made me a really nice animated pelican]]></title>
+        <id>https://simonwillison.net/2026/Sep/1/claude-fable-5-1/</id>
+        <link href="https://simonwillison.net/2026/Sep/1/claude-fable-5-1/"/>
+        <updated>2026-09-02T01:19:59.183Z</updated>
+        <content type="html"><![CDATA[<h3><a href="/2026/Sep/1/claude-fable-5-1/" rel="bookmark">Claude Fable 5.1 made me a really nice animated pelican</a></h3>
+  
+    <div class="card-container">
+      <a href="/2026/Sep/1/claude-fable-5-1/"><img src="https://static.simonwillison.net/static/2026/fable-5.1-max.webp" alt="Visit Claude Fable 5.1 made me a really nice animated pelican"></a>
+    </div>
+  
+  <p>
+    </p><p>Today is <a href="https://www.anthropic.com/claude-fable-and-mythos-5-1">Claude Fable (and Mythos) 5.1 day</a>. Anthropic say that Fable 5.1 “sets a new standard for coding, knowledge work, and long-running problem-solving tasks”. Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new <a href="https://www.terminal-bench-science.ai">Terminal-Bench-Science 0.1</a> benchmark (first announced <a href="https://www.tbench.ai/news/terminal-bench-science-0-1">on August 27th</a>), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol. Other benchmarks show slightly improved scores, but none as impressive as the Science one.</p>
+
+    <span style="font-size: 0.9em">[... <a href="/2026/Sep/1/claude-fable-5-1/">1,203 words</a>]</span>
+  <p></p>
+  <div class="entryFooter">
+  <a href="/2026/Sep/1/claude-fable-5-1/" title="Permalink for &quot;Claude Fable 5.1 made me a really nice animated pelican&quot;">11:57 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/anthropic/">anthropic</a>, <a href="/tags/claude/">claude</a>, <a href="/tags/pelican-riding-a-bicycle/">pelican-riding-a-bicycle</a>, <a href="/tags/llm-reasoning/">llm-reasoning</a>, <a href="/tags/llm-release/">llm-release</a>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1]]></title>
         <id>https://simonwillison.net/2026/Sep/1/codex-libreoffice/</id>
         <link href="https://simonwillison.net/2026/Sep/1/codex-libreoffice/"/>
         <updated>2026-09-01T20:14:51.545Z</updated>
@@ -19,6 +39,36 @@
     <a href="/2026/Sep/1/codex-libreoffice/">7:03 pm</a>
      / <a href="/tags/codex/">codex</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/openoffice/">openoffice</a>, <a href="/tags/open-source/">open-source</a>
   </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GeoJSON Map Viewer]]></title>
+        <id>https://tools.simonwillison.net/geojson</id>
+        <link href="https://tools.simonwillison.net/geojson"/>
+        <updated>2026-09-02T01:19:59.187Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label tool" href="/elsewhere/tool/">Tool</a>
+      
+      <span class="beat-title"><a href="https://tools.simonwillison.net/geojson">GeoJSON Map Viewer</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>I was helping Natalie gather some maps of local political boundaries (for the <a href="https://granada.ca.gov">Granada Community Services District</a> and the <a href="https://midcoastcommunitycouncil.org">Midcoast Community Council</a> and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After <a href="https://tools.simonwillison.net/colophon#geojson.html">some iterations</a> using Claude Code for web and Fable 5.1 we got to this finished tool.</p>
+<p>As for the GeoJSON.. it turns out if you ask ChatGPT Work to provide boundaries for almost anything it will churn away extracting and combining files from different Government data sources and build exactly what you need.</p>
+<p>I got <a href="https://gist.github.com/simonw/27d243c9d1cb5d9047fff7360dd49d3c">this polygon</a> from:</p>
+<blockquote>
+<p><code>I want a polygon that represents the exact boundary of the El Granada GCSD</code></p>
+</blockquote>
+<p>And <a href="https://gist.github.com/simonw/b51f9e0190a13932ac64a0cb407a709d">this one</a> from:</p>
+<blockquote>
+<p><code>Get me a GeoJSON file for the boundary (or boundaries if that makes sense) for the MCC - Midcoast Community Council - that operates near Half Moon Bay CA</code></p>
+</blockquote>
+<p><a href="https://tools.simonwillison.net/geojson#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fb51f9e0190a13932ac64a0cb407a709d&amp;color=%23028FC3&amp;opacity=50&amp;url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F27d243c9d1cb5d9047fff7360dd49d3c&amp;color=%23E4572E&amp;opacity=50&amp;preset=map&amp;resolution=2&amp;lat=37.52640&amp;lng=-122.48297&amp;zoom=13">Here's a link</a> that displays both of them at the same time on the new GeoJSON map viewing tool.</p>
+<p><img alt="Screenshot of a web app with a left sidebar of controls and a large map on the right. Top left: OPENSTREETMAP OVERLAY GeoJSON Map Viewer. Top right: Your GeoJSON stays in this browser. Sidebar Shape 1 panel with blue accent: Shape 1, Remove button, URL https://gist.github.com/simonw/b51f9 with Load button, textarea containing { &quot;type&quot;: &quot;FeatureCollection&quot;, &quot;bbox&quot;: -122.51951044732655, 37.47967619478576, -122.44141365271285, 37.55146379902639, Fill colour #028FC3 with blue swatch, Opacity slider at 50%. Shape 2 panel with red accent: Shape 2, Remove button, URL https://gist.github.com/simonw/27d24 with Load button, textarea containing { &quot;type&quot;: &quot;FeatureCollection&quot;, &quot;name&quot;: &quot;Granada Community Services District boundary&quot;, &quot;bbox&quot;: -122.500791193774, 37.4803905345399, Fill colour #E4572E with red swatch, Opacity slider at 50%. Buttons: Render map, Add shape, Load example, Clear. The map shows the coast around Montara, Moss Beach, El Granada and Half Moon Bay with a large semi-transparent blue polygon covering Montara, Moss Beach and Rancho Corral de Tierra extending into the ocean, and an overlapping red polygon covering El Granada and Quarry Park. Map labels include Cabrillo Highway, San Pedro Mountain 325 m, Peak Mountain 545 m, South Peak, CA 1, Montara, Rancho Corral de Tierra, Golden Gate National Recreation Area, 489 m, Scarper Ridge, 552 m, Moss Beach, Montara State Marine Reserve, Ox Hill 542 m, 512 m, Fitzgerald Marine Reserve, Airport Street, Pillar Point Bluff, Quarry Park, El Granada, Pillar Point State Marine Conservation Area, Ox Mountain Landfill, Half Moon Bay State Beach, plus and minus zoom buttons, and attribution Leaflet | © OpenStreetMap contributors." src="https://static.simonwillison.net/static/2026/geojson-tool.webp"></p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/1/geojson/" rel="bookmark">1st Sep 2026, 6:05 pm</a> · <a href="/tags/geojson/">geojson</a>, <a href="/tags/tools/">tools</a>, <a href="/tags/geospatial/">geospatial</a>, <a href="/tags/chatgpt/">chatgpt</a>
+    </div>
+  </div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior, and they misbehave sometimes]]></title>
@@ -273,7 +323,7 @@ llm -t lhigh -t pelican
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[13]]></title>
+        <title type="html"><![CDATA[15]]></title>
         <id>https://simonwillison.net/2026/Aug/22/more-than-just-code-review/</id>
         <link href="https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"/>
         <updated>2026-08-23T09:07:54.787Z</updated>
