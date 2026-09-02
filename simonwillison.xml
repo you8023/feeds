@@ -2,9 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-02T11:47:13.742Z</updated>
+    <updated>2026-09-02T17:02:36.758Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Claude’s new system prompt really doesn’t want to reproduce song lyrics]]></title>
+        <id>https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/</id>
+        <link href="https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/"/>
+        <updated>2026-09-02T17:01:09.339Z</updated>
+        <content type="html"><![CDATA[<h3><a href="/2026/Sep/2/claudes-new-system-prompt/" rel="bookmark">Claude’s new system prompt really doesn’t want to reproduce song lyrics</a></h3>
+  
+    <div class="card-container">
+      <a href="/2026/Sep/2/claudes-new-system-prompt/"><img src="https://static.simonwillison.net/static/2026-09-01/IMG_7797.jpeg" alt="Visit Claude's new system prompt really doesn't want to reproduce song lyrics"></a>
+    </div>
+  
+  <p>
+    </p><p>Anthropic <a href="https://platform.claude.com/docs/en/release-notes/system-prompts/overview">publish the system prompts</a> for their Claude consumer applications (<a href="https://claude.ai/">Claude.ai</a> and the Claude mobile apps—sadly not for Claude Cowork or Claude Code). I <em>love</em> that they do this, and that they share not just the current prompts but historic changes to their prompts as well.</p>
+
+
+    <span style="font-size: 0.9em">[... <a href="/2026/Sep/2/claudes-new-system-prompt/">2,270 words</a>]</span>
+  <p></p>
+  <div class="entryFooter">
+  <a href="/2026/Sep/2/claudes-new-system-prompt/" title="Permalink for &quot;Claude's new system prompt really doesn't want to reproduce song lyrics&quot;">2:16 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/git-scraping/">git-scraping</a>, <a href="/tags/prompt-engineering/">prompt-engineering</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/claude/">claude</a>, <a href="/tags/ai-ethics/">ai-ethics</a>, <a href="/tags/system-prompts/">system-prompts</a>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just "disable" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine). It lives in PaintDotNet.Windows.Direct2D1.Managed.dll. This was written by our good friend Claude, without whom this would NOT have been possible and would NEVER have happened. [...]
 Most of this code is, as they say, "vibe coded." By that I mean that it has not been thoroughly reviewed, it's more "trust me bro" style. I cannot possibly review 180,000 lines of code, it's just way way way too much. For reference, the rest of Paint.NET is about 700,000 lines of code and I've been working on it for over 20 years. [...]
@@ -44,7 +65,7 @@ At times, Claude was working with the fury of 10 freshly unshackled Einstein gen
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2]]></title>
+        <title type="html"><![CDATA[3]]></title>
         <id>https://simonwillison.net/2026/Sep/1/codex-libreoffice/</id>
         <link href="https://simonwillison.net/2026/Sep/1/codex-libreoffice/"/>
         <updated>2026-09-01T20:14:51.545Z</updated>
@@ -366,7 +387,7 @@ llm -t lhigh -t pelican
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[17]]></title>
+        <title type="html"><![CDATA[18]]></title>
         <id>https://simonwillison.net/2026/Aug/22/more-than-just-code-review/</id>
         <link href="https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"/>
         <updated>2026-08-23T09:07:54.787Z</updated>
@@ -484,39 +505,6 @@ So learning doesn’t stop just because I outsource a bunch of thinking to AI. I
 <p>Here's <a href="https://github.com/simonw/research/blob/main/bun-webview-json-api/server.ts">that TypeScript server implementation</a>, which appears to need a 192MB-256MB container to run a full Chrome against complex web pages - tested using cgroups.</p></div>
     <div class="beat-meta beat-row2">
       <a href="/2026/Aug/20/bun-webview-json-api/" rel="bookmark">20th Aug 2026, 3:37 pm</a> · <a href="/tags/bun/">bun</a>, <a href="/tags/javascript/">javascript</a>, <a href="/tags/browsers/">browsers</a>, <a href="/tags/rust/">rust</a>, <a href="/tags/coding-agents/">coding-agents</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/typescript/">typescript</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[smolmachines / smolvm as a sandbox for untrusted Python & JavaScript]]></title>
-        <id>https://github.com/simonw/research/tree/main/smolmachines-untrusted-sandbox#readme</id>
-        <link href="https://github.com/simonw/research/tree/main/smolmachines-untrusted-sandbox#readme"/>
-        <updated>2026-08-23T09:07:54.868Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label research" href="/elsewhere/research/">Research</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/research/tree/main/smolmachines-untrusted-sandbox#readme">smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>I tasked Claude Fable 5 running in Claude Code for web with the following research task:</p>
-<blockquote>
-<p><code>Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against "while true") with no network access and filesystem access only to designated files</code></p>
-<p><code>Goal is to be able to use this to execute user-provided tasks for things like data transformations</code></p>
-</blockquote>
-<p>It quickly ran into a problem: the Claude Code for web environment can't run <a href="https://smolmachines.com">smol machines</a>. Quoting the <a href="https://github.com/simonw/research/blob/5e6861e54441472d194de96b49b901fd99ebc153/smolmachines-untrusted-sandbox/notes.md#environment-check">notes it wrote</a>:</p>
-<blockquote>
-<ul>
-<li>This Claude Code container: Linux 6.18.5-fc-v20 (itself a Firecracker guest), 4 vCPU, 15GB RAM. <strong>No /dev/kvm, no vmx/svm CPU flags</strong> → no nested virt.</li>
-<li><code>smolvm machine run</code> fails as expected: "kvm not available".</li>
-<li>Plan B: GitHub Actions ubuntu runners DO expose /dev/kvm → run the real test battery via a temporary workflow on this branch, collect logs, remove workflow in final commit.</li>
-</ul>
-</blockquote>
-<p>And Plan B is <a href="https://github.com/simonw/research/blob/5e6861e54441472d194de96b49b901fd99ebc153/.github/workflows/smolvm-sandbox-test.yml">what it did</a>, installing smolvm and running <a href="https://github.com/simonw/research/blob/5e6861e54441472d194de96b49b901fd99ebc153/smolmachines-untrusted-sandbox/run-tests.sh">these tests</a> directly in a GitHub Actions runner against that branch.</p>
-<p>That was a creative solution to the environmental limits posed by Claude Code for web. Another example of Fable being <a href="https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/">relentlessly proactive</a>.</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Aug/19/smolmachines-untrusted-sandbox/" rel="bookmark">19th Aug 2026, 11:16 pm</a> · <a href="/tags/research/">research</a>, <a href="/tags/github-actions/">github-actions</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/sandboxing/">sandboxing</a>, <a href="/tags/claude-mythos-fable/">claude-mythos-fable</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/coding-agents/">coding-agents</a>
     </div>
   </div>]]></content>
     </entry>
