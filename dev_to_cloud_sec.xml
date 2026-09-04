@@ -2,57 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-09-04T00:33:33.105Z</updated>
+    <updated>2026-09-04T05:14:56.915Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
-        <title type="html"><![CDATA[“I’m not excited by what AI can do. I’m excited by what I can do.” AI and security takeaways from ContainerDays Hamburg]]></title>
-        <id>https://dev.to/fortune-ndlovu/im-not-excited-by-what-ai-can-do-im-excited-by-what-i-can-do-ai-and-security-takeaways-from-5cag</id>
-        <link href="https://dev.to/fortune-ndlovu/im-not-excited-by-what-ai-can-do-im-excited-by-what-i-can-do-ai-and-security-takeaways-from-5cag"/>
-        <updated>2026-09-03T13:06:33.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/fortune-ndlovu/im-not-excited-by-what-ai-can-do-im-excited-by-what-i-can-do-ai-and-security-takeaways-from-5cag" aria-labelledby="article-link-4566018" class="crayons-story__hidden-navigation-link">“I’m not excited by what AI can do. I’m excited by what I can do.” AI and security takeaways from ContainerDays Hamburg</a>
+        <title type="html"><![CDATA[Kong AI Gateway 2.0 on Google Cloud: Securing GKE, Cloud Run, and Vertex AI(Agent Platform)]]></title>
+        <id>https://dev.to/gde/kong-ai-gateway-20-on-google-cloud-securing-gke-cloud-run-and-vertex-ai-219o</id>
+        <link href="https://dev.to/gde/kong-ai-gateway-20-on-google-cloud-securing-gke-cloud-run-and-vertex-ai-219o"/>
+        <updated>2026-09-04T01:59:20.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/gde/kong-ai-gateway-20-on-google-cloud-securing-gke-cloud-run-and-vertex-ai-219o" aria-labelledby="article-link-4569398" class="crayons-story__hidden-navigation-link">Kong AI Gateway 2.0 on Google Cloud: Securing GKE, Cloud Run, and Vertex AI(Agent Platform)</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
     <div class="crayons-story__top">
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/gde">
+            <img alt="Google Developer Experts logo" src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F11939%2Fe3080d5b-ecde-42a8-b089-bafecc31fa97.png" class="crayons-logo__image" loading="lazy">
+          </a>
 
-          <a href="/fortune-ndlovu" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3012108%2Fad6c843b-cf84-4cd6-b9d0-a4bb16d0082c.jpeg" alt="fortune-ndlovu profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/saurabhmi" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1150046%2F9eb9c423-db61-4ab6-80d9-1d7c038cb029.jpg" alt="saurabhmi profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/fortune-ndlovu" class="crayons-story__secondary fw-medium m:hidden">
-              Fortune Ndlovu
+            <a href="/saurabhmi" class="crayons-story__secondary fw-medium m:hidden">
+              Saurabh Mishra
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4566018" aria-controls="story-author-preview-content-4566018" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Fortune Ndlovu profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Fortune Ndlovu
+              <button id="story-author-preview-trigger-4569398" aria-controls="story-author-preview-content-4569398" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Saurabh Mishra profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Saurabh Mishra
                 
                 
               </button>
-              <div id="story-author-preview-content-4566018" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-4569398" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/fortune-ndlovu" class="flex">
+                    <a href="/saurabhmi" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3012108%2Fad6c843b-cf84-4cd6-b9d0-a4bb16d0082c.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1150046%2F9eb9c423-db61-4ab6-80d9-1d7c038cb029.jpg" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Fortune Ndlovu</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Saurabh Mishra</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3012108,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Fortune Ndlovu&quot;}" data-fetched="fetched" aria-label="Follow user: Fortune Ndlovu" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1150046,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Saurabh Mishra&quot;}" data-fetched="fetched" aria-label="Follow user: Saurabh Mishra" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="3012108"></div>
+                  <div class="author-preview-metadata-container" data-author-id="1150046"></div>
                 </div>
               </div>
             </div>
 
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/gde" class="crayons-story__secondary fw-medium">Google Developer Experts</a>
+            </span>
           </div>
-          <a href="https://dev.to/fortune-ndlovu/im-not-excited-by-what-ai-can-do-im-excited-by-what-i-can-do-ai-and-security-takeaways-from-5cag" class="crayons-story__tertiary fs-xs"><time datetime="2026-09-03T13:06:33Z" data-localized="true" title="Thursday, September 3, 2026 at 1:06:33 PM">Sep 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1788440793"></span></a>
+          <a href="https://dev.to/gde/kong-ai-gateway-20-on-google-cloud-securing-gke-cloud-run-and-vertex-ai-219o" class="crayons-story__tertiary fs-xs"><time datetime="2026-09-04T01:59:20Z" data-localized="true" title="Friday, September 4, 2026 at 1:59:20 AM">Sep 4</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1788487160"></span></a>
         </div>
       </div>
 
@@ -60,11 +66,23 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/fortune-ndlovu/im-not-excited-by-what-ai-can-do-im-excited-by-what-i-can-do-ai-and-security-takeaways-from-5cag" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F86birqshf373askd3u23.jpeg" id="article-link-4566018">
-          “I’m not excited by what AI can do. I’m excited by what I can do.” AI and security takeaways from ContainerDays Hamburg
+        <a href="https://dev.to/gde/kong-ai-gateway-20-on-google-cloud-securing-gke-cloud-run-and-vertex-ai-219o" data-preload-image="" id="article-link-4569398">
+          Kong AI Gateway 2.0 on Google Cloud: Securing GKE, Cloud Run, and Vertex AI(Agent Platform)
         </a>
       </h2>
         <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 60, 179, 0.10);
+        --tag-prefix: #003cb3;
+        --tag-bg-hover: rgba(0, 60, 179, 0.10);
+        --tag-prefix-hover: #003cb3;
+      " href="/t/googlecloud"><span class="crayons-tag__prefix">#</span>googlecloud</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(50, 109, 230, 0.10);
         --tag-prefix: #326de6;
@@ -77,40 +95,34 @@
         --tag-bg-hover: rgba(27, 172, 128, 0.10);
         --tag-prefix-hover: #1bac80;
       " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-          <a href="https://dev.to/fortune-ndlovu/im-not-excited-by-what-ai-can-do-im-excited-by-what-i-can-do-ai-and-security-takeaways-from-5cag" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4566018" aria-label="Add a comment to post - “I’m not excited by what AI can do. I’m excited by what I can do.” AI and security takeaways from ContainerDays Hamburg">
+          <a href="https://dev.to/gde/kong-ai-gateway-20-on-google-cloud-securing-gke-cloud-run-and-vertex-ai-219o" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4569398" aria-label="Add a comment to post - Kong AI Gateway 2.0 on Google Cloud: Securing GKE, Cloud Run, and Vertex AI(Agent Platform)">
             <div class="multiple_reactions_aggregate">
               <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" width="18" height="18">
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" width="18" height="18">
+                  </span>
                   <span class="crayons_icon_container">
                     <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
                   </span>
               </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
+              <span class="aggregate_reactions_counter">9<span class="hidden s:inline">&nbsp;reactions</span></span>
             </div>
           </a>
-            <a href="https://dev.to/fortune-ndlovu/im-not-excited-by-what-ai-can-do-im-excited-by-what-i-can-do-ai-and-security-takeaways-from-5cag#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - “I’m not excited by what AI can do. I’m excited by what I can do.” AI and security takeaways from ContainerDays Hamburg">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqe9w9qcgqvdv8bbh863zins90u6s078" class="crayons-icon"><title id="aqe9w9qcgqvdv8bbh863zins90u6s078">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/gde/kong-ai-gateway-20-on-google-cloud-securing-gke-cloud-run-and-vertex-ai-219o#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Kong AI Gateway 2.0 on Google Cloud: Securing GKE, Cloud Run, and Vertex AI(Agent Platform)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1sr5jr8hd1mo8gy6h1mgmf9e6963gmy" class="crayons-icon"><title id="a1sr5jr8hd1mo8gy6h1mgmf9e6963gmy">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            16 min read
+            4 min read
           </small>
         </div>
       </div>
@@ -118,11 +130,11 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Using Claude on AWS: Why Your Integration Choice Matters]]></title>
-        <id>https://dev.to/xdevisch/using-claude-on-aws-why-your-integration-choice-matters-3h4p</id>
-        <link href="https://dev.to/xdevisch/using-claude-on-aws-why-your-integration-choice-matters-3h4p"/>
-        <updated>2026-09-03T17:38:29.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/xdevisch/using-claude-on-aws-why-your-integration-choice-matters-3h4p" aria-labelledby="article-link-4567509" class="crayons-story__hidden-navigation-link">Using Claude on AWS: Why Your Integration Choice Matters</a>
+        <title type="html"><![CDATA[Copy Files Between a Mac and AWS EC2 with SCP]]></title>
+        <id>https://dev.to/mike_anderson_d01f52129fb/copy-files-between-a-mac-and-aws-ec2-with-scp-3gem</id>
+        <link href="https://dev.to/mike_anderson_d01f52129fb/copy-files-between-a-mac-and-aws-ec2-with-scp-3gem"/>
+        <updated>2026-09-04T03:59:55.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/mike_anderson_d01f52129fb/copy-files-between-a-mac-and-aws-ec2-with-scp-3gem" aria-labelledby="article-link-4569956" class="crayons-story__hidden-navigation-link">Copy Files Between a Mac and AWS EC2 with SCP</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
@@ -130,41 +142,41 @@
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
 
-          <a href="/xdevisch" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4108003%2F29b5822f-3d38-45ae-9f41-e0ae7512a8af.jpg" alt="xdevisch profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/mike_anderson_d01f52129fb" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3932577%2F7a35e2bb-d2d6-4419-9e8b-1ca4a99fc1ca.png" alt="mike_anderson_d01f52129fb profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/xdevisch" class="crayons-story__secondary fw-medium m:hidden">
-              Xander De Visch
+            <a href="/mike_anderson_d01f52129fb" class="crayons-story__secondary fw-medium m:hidden">
+              Mike Anderson
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4567509" aria-controls="story-author-preview-content-4567509" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Xander De Visch profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Xander De Visch
+              <button id="story-author-preview-trigger-4569956" aria-controls="story-author-preview-content-4569956" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Mike Anderson profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Mike Anderson
                 
                 
               </button>
-              <div id="story-author-preview-content-4567509" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-4569956" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/xdevisch" class="flex">
+                    <a href="/mike_anderson_d01f52129fb" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4108003%2F29b5822f-3d38-45ae-9f41-e0ae7512a8af.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3932577%2F7a35e2bb-d2d6-4419-9e8b-1ca4a99fc1ca.png" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Xander De Visch</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Mike Anderson</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4108003,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Xander De Visch&quot;}" data-fetched="fetched" aria-label="Follow user: Xander De Visch" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3932577,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Mike Anderson&quot;}" data-fetched="fetched" aria-label="Follow user: Mike Anderson" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="4108003"></div>
+                  <div class="author-preview-metadata-container" data-author-id="3932577"></div>
                 </div>
               </div>
             </div>
 
           </div>
-          <a href="https://dev.to/xdevisch/using-claude-on-aws-why-your-integration-choice-matters-3h4p" class="crayons-story__tertiary fs-xs"><time datetime="2026-09-03T17:38:29Z" data-localized="true" title="Thursday, September 3, 2026 at 5:38:29 PM">Sep 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1788457109"></span></a>
+          <a href="https://dev.to/mike_anderson_d01f52129fb/copy-files-between-a-mac-and-aws-ec2-with-scp-3gem" class="crayons-story__tertiary fs-xs"><time datetime="2026-09-04T03:59:55Z" data-localized="true" title="Friday, September 4, 2026 at 3:59:55 AM">Sep 4</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1788494395"></span></a>
         </div>
       </div>
 
@@ -172,29 +184,29 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/xdevisch/using-claude-on-aws-why-your-integration-choice-matters-3h4p" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F69tvqfu927ow58pea17y.jpg" id="article-link-4567509">
-          Using Claude on AWS: Why Your Integration Choice Matters
+        <a href="https://dev.to/mike_anderson_d01f52129fb/copy-files-between-a-mac-and-aws-ec2-with-scp-3gem" data-preload-image="" id="article-link-4569956">
+          Copy Files Between a Mac and AWS EC2 with SCP
         </a>
       </h2>
         <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(194, 0, 0, 0.10);
-        --tag-prefix: #c20000;
-        --tag-bg-hover: rgba(194, 0, 0, 0.10);
-        --tag-prefix-hover: #c20000;
-      " href="/t/claude"><span class="crayons-tag__prefix">#</span>claude</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(33, 43, 58, 0.10);
         --tag-prefix: #212b3a;
         --tag-bg-hover: rgba(33, 43, 58, 0.10);
         --tag-prefix-hover: #212b3a;
       " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(254, 255, 165, 0.10);
+        --tag-prefix: #FEFFA5;
+        --tag-bg-hover: rgba(254, 255, 165, 0.10);
+        --tag-prefix-hover: #FEFFA5;
+      " href="/t/tutorial"><span class="crayons-tag__prefix">#</span>tutorial</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(27, 172, 128, 0.10);
         --tag-prefix: #1bac80;
@@ -204,15 +216,15 @@
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-            <a href="https://dev.to/xdevisch/using-claude-on-aws-why-your-integration-choice-matters-3h4p#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Using Claude on AWS: Why Your Integration Choice Matters">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afwre0b594p7h2oboyydaf32f5d090wo" class="crayons-icon"><title id="afwre0b594p7h2oboyydaf32f5d090wo">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/mike_anderson_d01f52129fb/copy-files-between-a-mac-and-aws-ec2-with-scp-3gem#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Copy Files Between a Mac and AWS EC2 with SCP">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afjvhqpt5jb9nuax0l110db2angc9mil" class="crayons-icon"><title id="afjvhqpt5jb9nuax0l110db2angc9mil">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            4 min read
+            3 min read
           </small>
         </div>
       </div>
