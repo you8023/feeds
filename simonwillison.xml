@@ -2,9 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-04T23:20:45.806Z</updated>
+    <updated>2026-09-05T01:31:28.544Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[The Pelican comparison grid for Astra is pretty interesting]]></title>
+        <id>https://simonwillison.net/2026/Sep/4/astra-pelicans/</id>
+        <link href="https://simonwillison.net/2026/Sep/4/astra-pelicans/"/>
+        <updated>2026-09-05T01:30:05.014Z</updated>
+        <content type="html"><![CDATA[<h3><a href="/2026/Sep/4/astra-pelicans/" rel="bookmark">The Pelican comparison grid for Astra is pretty interesting</a></h3>
+  
+    <div class="card-container">
+      <a href="/2026/Sep/4/astra-pelicans/"><img src="https://static.simonwillison.net/static/2026/astra-grid-card.jpg" alt="Visit The Pelican comparison grid for Astra is pretty interesting"></a>
+    </div>
+  
+  <p>
+    </p><p>I got access to GPT-6 Astra this afternoon, so naturally I used it to generate <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle/">SVGs of pelicans riding bicycles</a>—at low, medium, high, xhigh and max reasoning levels (Astra doesn’t support reasoning=none). Then I rendered those pelicans in <a href="https://static.simonwillison.net/static/2026/gpt-6-and-5.6-pelicans.html">a comparison grid</a> with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful.</p>
+
+    <span style="font-size: 0.9em">[... <a href="/2026/Sep/4/astra-pelicans/">297 words</a>]</span>
+  <p></p>
+  <div class="entryFooter">
+  <a href="/2026/Sep/4/astra-pelicans/" title="Permalink for &quot;The Pelican comparison grid for Astra is pretty interesting&quot;">11:59 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/pelican-riding-a-bicycle/">pelican-riding-a-bicycle</a>, <a href="/tags/gpt-6-astra/">gpt-6-astra</a>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenAI’s rogue agents were caught communicating via public wikis]]></title>
         <id>https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/</id>
@@ -22,7 +42,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[1]]></title>
+        <title type="html"><![CDATA[2]]></title>
         <id>https://simonwillison.net/2026/Sep/4/august-newsletter/</id>
         <link href="https://simonwillison.net/2026/Sep/4/august-newsletter/"/>
         <updated>2026-09-04T10:14:27.641Z</updated>
@@ -164,7 +184,7 @@ At times, Claude was working with the fury of 10 freshly unshackled Einstein gen
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[7]]></title>
+        <title type="html"><![CDATA[8]]></title>
         <id>https://simonwillison.net/2026/Sep/1/codex-libreoffice/</id>
         <link href="https://simonwillison.net/2026/Sep/1/codex-libreoffice/"/>
         <updated>2026-09-01T20:14:51.545Z</updated>
@@ -486,7 +506,7 @@ llm -t lhigh -t pelican
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[22]]></title>
+        <title type="html"><![CDATA[23]]></title>
         <id>https://simonwillison.net/2026/Aug/22/more-than-just-code-review/</id>
         <link href="https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"/>
         <updated>2026-08-23T09:07:54.787Z</updated>
@@ -516,32 +536,6 @@ llm -t lhigh -t pelican
 <p>This dot-release fixes that for the moment by pinning to <code>openai&lt;3</code>, and a soon-to-drop 0.33 release will switch from <code>httpx</code> to <a href="https://github.com/pydantic/httpx2">httpx2</a>.</p></div>
     <div class="beat-meta beat-row2">
       <a href="/2026/Aug/21/llm/" rel="bookmark">21st Aug 2026, 5:16 pm</a> · <a href="/tags/httpx/">httpx</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/llm/">llm</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-openrouter 0.7]]></title>
-        <id>https://github.com/simonw/llm-openrouter/releases/tag/0.7</id>
-        <link href="https://github.com/simonw/llm-openrouter/releases/tag/0.7"/>
-        <updated>2026-08-23T09:07:54.861Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/llm-openrouter/releases/tag/0.7">llm-openrouter 0.7</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>Now that this plugin is compatible with <a href="https://simonwillison.net/2026/Aug/4/new-release-of-llm/">LLM 0.32</a> it can display the reasoning traces for LLMs available through OpenRouter.</p>
-<blockquote>
-<ul>
-<li>Updated for compatibility with <a href="https://llm.datasette.io/en/stable/changelog.html#v0-32">LLM 0.32</a>.</li>
-<li>Models now use OpenRouter's implementation of the <a href="https://openrouter.ai/docs/api_reference/responses/overview">Responses API</a>.</li>
-<li>Three new server-side tools: <a href="https://github.com/simonw/llm-openrouter#shell">Shell</a>, <a href="https://github.com/simonw/llm-openrouter#web-fetch">WebFetch</a>, and <a href="https://github.com/simonw/llm-openrouter#web-search">WebSearch</a>. Enable these with options like <code>-T WebSearch</code>.</li>
-</ul>
-</blockquote></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Aug/21/llm-openrouter/" rel="bookmark">21st Aug 2026, 4:58 pm</a> · <a href="/tags/openrouter/">openrouter</a>, <a href="/tags/llm/">llm</a>
     </div>
   </div>]]></content>
     </entry>
