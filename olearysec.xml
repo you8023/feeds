@@ -2,15 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://olearysec.com/research/</id>
     <title>olearysec</title>
-    <updated>2026-09-05T19:26:46.053Z</updated>
+    <updated>2026-09-05T21:42:25.579Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://olearysec.com/favicon.svg</icon>
     <entry>
-        <title type="html"><![CDATA[PrometheusUnbound: Cross-Namespace Secret Theft in Google Managed Prometheus]]></title>
-        <id>https://olearysec.com/research/gmp-confused-deputy-chain/</id>
-        <link href="https://olearysec.com/research/gmp-confused-deputy-chain/"/>
-        <updated>2026-08-20T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://olearysec.com/research/gmp-confused-deputy-chain/" class="research-card">
+        <title type="html"><![CDATA[Cache Me Outside: Cross-Tenant Side-Channel on Azure Hyper-V]]></title>
+        <id>https://olearysec.com/research/azure-hyper-v-cache-side-channel/</id>
+        <link href="https://olearysec.com/research/azure-hyper-v-cache-side-channel/"/>
+        <updated>2026-09-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://olearysec.com/research/azure-hyper-v-cache-side-channel/" class="research-card">
+            <div class="research-card-content">
+                <h3>Cache Me Outside: Cross-Tenant Side-Channel on Azure Hyper-V</h3>
+                <p class="excerpt">I extracted 234 keystroke-like timing intervals from unknown Azure co-tenants in 45 seconds. Microsoft called it 'moderate severity.'</p>
+                <div class="research-card-meta">
+                    <span class="meta-item">Sep 5, 2026</span>
+                    <span class="meta-item">Microsoft</span>
+                    <span class="meta-item">None (vendor rejected)</span>
+                </div>
+            </div>
+            <div class="research-card-side">
+                
+                <span class="severity severity-medium">Medium</span>
+                
+                
+                <span class="cvss">5.6</span>
+                
+            </div>
+        </a>
+        
+        <a href="https://olearysec.com/research/gmp-confused-deputy-chain/" class="research-card">
             <div class="research-card-content">
                 <h3>PrometheusUnbound: Cross-Namespace Secret Theft in Google Managed Prometheus</h3>
                 <p class="excerpt">Two confused deputy vulnerabilities in Google Cloud Managed Service for Prometheus allow cluster-wide metrics exfiltration and cross-namespace secret theft. PodMonitoring has CEL validation blocking cross-namespace secret references. ClusterPodMonitoring doesn't.</p>
