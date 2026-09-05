@@ -2,9 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-05T14:11:17.170Z</updated>
+    <updated>2026-09-05T17:09:42.842Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Using Blender with coding agents on macOS]]></title>
+        <id>https://til.simonwillison.net/llms/blender-coding-agents-macos</id>
+        <link href="https://til.simonwillison.net/llms/blender-coding-agents-macos"/>
+        <updated>2026-09-05T17:08:19.300Z</updated>
+        <content type="html"><![CDATA[<a href="https://til.simonwillison.net/llms/blender-coding-agents-macos" class="beat-image-link"><img class="beat-image" src="https://s3.amazonaws.com/til.simonwillison.net/06a8afba27ca49ee8734d84e9fd951a2.jpg" alt="None" loading="lazy"></a>
+  
+  <div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label til" href="/elsewhere/til/">TIL</a>
+      
+      <span class="beat-title"><a href="https://til.simonwillison.net/llms/blender-coding-agents-macos">Using Blender with coding agents on macOS</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from <a href="https://www.blender.org">blender.org</a> and run a prompt like this:</p>
+<blockquote>
+<p><code>Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle</code></p>
+</blockquote>
+<p>In this case I followed that up with these two prompts:</p>
+<blockquote>
+<p><code>OK add a background and a lot of flair</code></p>
+</blockquote>
+<p>Then:</p>
+<blockquote>
+<p><code>OK make it a whole lot better</code></p>
+</blockquote>
+<p>And got this image, generated <a href="https://github.com/simonw/gpt-6-astra-blender-pelican-bicycle/blob/main/work/pelican_final.py">using Blender's Python API</a>:</p>
+<p><img alt="A 3D illustration of a white pelican cycling along a seaside boardwalk at sunset. It wears a cream boater hat and a coral scarf, with wings on the handlebars and long orange legs reaching the pedals of a turquoise bicycle. A wicker front basket holds pink and white flowers, and three balloons float behind. Pastel bunting stretches overhead between palm trees. Striped beach huts stand beside a teal sea with a small sailboat, beneath a large peach-colored sun. The scene has a softly lit, toy-like style." src="https://static.simonwillison.net/static/2026/astra-blender-pelican.jpg"></p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/5/blender-coding-agents-macos/" rel="bookmark">5th Sep 2026, 3:51 pm</a> · <a href="/tags/gpt-6-astra/">gpt-6-astra</a>, <a href="/tags/coding-agents/">coding-agents</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/pelican-riding-a-bicycle/">pelican-riding-a-bicycle</a>, <a href="/tags/blender/">blender</a>, <a href="/tags/llms/">llms</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[8:24 PM]]></title>
         <id>https://simonwillison.net/2026/Sep/5/sighting-397339887/</id>
@@ -62,7 +96,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[3]]></title>
+        <title type="html"><![CDATA[4]]></title>
         <id>https://simonwillison.net/2026/Sep/4/august-newsletter/</id>
         <link href="https://simonwillison.net/2026/Sep/4/august-newsletter/"/>
         <updated>2026-09-04T10:14:27.641Z</updated>
@@ -204,7 +238,7 @@ At times, Claude was working with the fury of 10 freshly unshackled Einstein gen
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[9]]></title>
+        <title type="html"><![CDATA[10]]></title>
         <id>https://simonwillison.net/2026/Sep/1/codex-libreoffice/</id>
         <link href="https://simonwillison.net/2026/Sep/1/codex-libreoffice/"/>
         <updated>2026-09-01T20:14:51.545Z</updated>
@@ -526,7 +560,7 @@ llm -t lhigh -t pelican
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[24]]></title>
+        <title type="html"><![CDATA[25]]></title>
         <id>https://simonwillison.net/2026/Aug/22/more-than-just-code-review/</id>
         <link href="https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"/>
         <updated>2026-08-23T09:07:54.787Z</updated>
@@ -538,25 +572,5 @@ llm -t lhigh -t pelican
     <a href="/2026/Aug/22/more-than-just-code-review/">3:56 pm</a>
      / <a href="/tags/code-review/">code-review</a>, <a href="/tags/coding-agents/">coding-agents</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/agentic-engineering/">agentic-engineering</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
   </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm 0.32.1]]></title>
-        <id>https://github.com/simonw/llm/releases/tag/0.32.1</id>
-        <link href="https://github.com/simonw/llm/releases/tag/0.32.1"/>
-        <updated>2026-08-23T09:07:54.860Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/llm/releases/tag/0.32.1">llm 0.32.1</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p>
-<p>This dot-release fixes that for the moment by pinning to <code>openai&lt;3</code>, and a soon-to-drop 0.33 release will switch from <code>httpx</code> to <a href="https://github.com/pydantic/httpx2">httpx2</a>.</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Aug/21/llm/" rel="bookmark">21st Aug 2026, 5:16 pm</a> · <a href="/tags/httpx/">httpx</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/llm/">llm</a>
-    </div>
-  </div>]]></content>
     </entry>
 </feed>
