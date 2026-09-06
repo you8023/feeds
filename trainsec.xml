@@ -2,34 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://trainsec.net/library/</id>
     <title>trainsec</title>
-    <updated>2026-09-06T11:25:27.081Z</updated>
+    <updated>2026-09-06T14:30:59.731Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://trainsec.net/wp-content/uploads/2024/05/Icon-no-space@2x-100x100.png</icon>
     <entry>
-        <title type="html"><![CDATA[Process Memory Map in Code: Thread Stacks and TEBs (Part 3)]]></title>
-        <id>https://trainsec.net/library/windows-internals/process-memory-map-in-code-thread-stacks-and-tebs-part-3/</id>
-        <link href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-thread-stacks-and-tebs-part-3/"/>
-        <updated>2026-08-30T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-thread-stacks-and-tebs-part-3/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault.jpg" class="attachment-full size-full wp-image-11995" alt="Process Memory Map in Code: Thread Stacks and TEBs (Part 3)" srcset="https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px"></div>
+        <title type="html"><![CDATA[Process Memory Map in Code: PE Sections and Image Blocks (Part 4)]]></title>
+        <id>https://trainsec.net/library/windows-internals/process-memory-map-in-code-pe-sections-and-image-blocks-part-4/</id>
+        <link href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-pe-sections-and-image-blocks-part-4/"/>
+        <updated>2026-09-06T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-pe-sections-and-image-blocks-part-4/" tabindex="-1">
+			<div class="elementor-post__thumbnail elementor-fit-height"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/09/iKg52HlJWp8-maxresdefault.jpg" class="attachment-full size-full wp-image-12302" alt="Process Memory Map in Code: PE Sections and Image Blocks (Part 4)" srcset="https://trainsec.net/wp-content/uploads/2026/09/iKg52HlJWp8-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/09/iKg52HlJWp8-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/09/iKg52HlJWp8-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/09/iKg52HlJWp8-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/09/iKg52HlJWp8-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-thread-stacks-and-tebs-part-3/">
-				Process Memory Map in Code: Thread Stacks and TEBs (Part 3)			</a>
+			<a href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-pe-sections-and-image-blocks-part-4/">
+				Process Memory Map in Code: PE Sections and Image Blocks (Part 4)			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
 			Pavel Yosifovich		</span>
 				<span class="elementor-post-date">
-			August 30, 2026		</span>
+			September 6, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>Pavel Yosifovich extends his MemMap tool to enumerate threads, locate each Thread Environment Block, and read thread stack limits with ReadProcessMemory.</p>
+			<p>Pavel Yosifovich parses PE headers in a remote process to name the section behind every image block, and explains why VirtualQueryEx hides some of them.</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-thread-stacks-and-tebs-part-3/" aria-label="Read more about Process Memory Map in Code: Thread Stacks and TEBs (Part 3)" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-pe-sections-and-image-blocks-part-4/" aria-label="Read more about Process Memory Map in Code: PE Sections and Image Blocks (Part 4)" tabindex="-1">
 			Dive in		</a>
+
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Process Memory Map in Code: PE Sections and Image Blocks (Part 4)]]></title>
+        <id>https://trainsec.net/library/windows-internals/process-memory-map-in-code-pe-sections-and-image-blocks-part-4/</id>
+        <link href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-pe-sections-and-image-blocks-part-4/"/>
+        <updated>2026-09-06T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-pe-sections-and-image-blocks-part-4/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/09/iKg52HlJWp8-maxresdefault.jpg" class="attachment-full size-full wp-image-12302" alt="Process Memory Map in Code: PE Sections and Image Blocks (Part 4)" srcset="https://trainsec.net/wp-content/uploads/2026/09/iKg52HlJWp8-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/09/iKg52HlJWp8-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/09/iKg52HlJWp8-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/09/iKg52HlJWp8-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/09/iKg52HlJWp8-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-pe-sections-and-image-blocks-part-4/">
+				Process Memory Map in Code: PE Sections and Image Blocks (Part 4)			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			September 6, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Pavel Yosifovich parses PE headers in a remote process to name the section behind every image block, and explains why VirtualQueryEx hides some of them.</p>		</div>
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-pe-sections-and-image-blocks-part-4/" aria-label="Read more about Process Memory Map in Code: PE Sections and Image Blocks (Part 4)" tabindex="-1">
+			Read More 		</a>
 
 				</div>]]></content>
     </entry>
@@ -39,7 +66,7 @@
         <link href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-thread-stacks-and-tebs-part-3/"/>
         <updated>2026-08-30T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-thread-stacks-and-tebs-part-3/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault.jpg" class="attachment-full size-full wp-image-11995" alt="Process Memory Map in Code: Thread Stacks and TEBs (Part 3)" srcset="https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px"></div>
+			<div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault.jpg" class="attachment-full size-full wp-image-11995" alt="Process Memory Map in Code: Thread Stacks and TEBs (Part 3)" srcset="https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/08/ncTnZy0LF4-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px"></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
@@ -53,11 +80,13 @@
 			August 30, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>Pavel Yosifovich extends his MemMap tool to enumerate threads, locate each Thread Environment Block, and read thread stack limits with ReadProcessMemory.</p>		</div>
+			<p>Pavel Yosifovich extends his MemMap tool to enumerate threads, locate each Thread Environment Block, and		</p></div>
+					<div class="elementor-post__read-more-wrapper">
 		
 		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/process-memory-map-in-code-thread-stacks-and-tebs-part-3/" aria-label="Read more about Process Memory Map in Code: Thread Stacks and TEBs (Part 3)" tabindex="-1">
 			Read More 		</a>
 
+					</div>
 				</div>]]></content>
     </entry>
     <entry>
