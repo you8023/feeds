@@ -2,9 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-06T17:27:36.096Z</updated>
+    <updated>2026-09-06T19:36:39.249Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[0]]></title>
+        <id>https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/</id>
+        <link href="https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/"/>
+        <updated>2026-09-06T19:35:10.591Z</updated>
+        <content type="html"><![CDATA[<p class="comment-source-bar"><a class="beat-label comment" href="/elsewhere/comment/">Comment</a> <img class="beat-favicon" src="https://www.google.com/s2/favicons?domain=lobste.rs&amp;sz=128" alt="" width="14" height="14" loading="lazy"> <a href="https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get#c_8kdtaw">My comment</a> on <a href="https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get">There's No Limit to How Bad Code Can Get</a> — Lobste.rs</p>
+
+  
+  <p><em>[In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming]</em></p>
+<p>In my experience it's&nbsp;<em>so rare</em>&nbsp;for that to work.</p>
+<p>You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins.</p>
+<p>Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary. The developers working on it know that it's going to be made obsolete by the new thing soon, so they don't have any incentive to go beyond the smallest effort possible to add the new features. Technical debt continues to mount.</p>
+<p>Meanwhile, the team working on the new thing are ambitious and probably a little naive. They start out at a great pace - it's greenfield after all - but as time progresses it becomes apparent that nobody fully understands the behavior and scope of the thing they are replacing. If it was well documented and tested it wouldn't&nbsp;<em>need</em>&nbsp;to be replaced, after all...</p>
+<p>After months (or even years) without delivering value, the pressure is on to "ship it", so the new system is launched to handle a subset of what the old system handled - or often for some new feature that was too hard to build with the now mostly unmaintained old system.</p>
+<p>... so now you have TWO systems in production - the janky old system that nobody wants to touch, and a new system which handles just a few production features and is 80% inactive code that is meant to replace the old system, eventually.</p>
+<p>If you're&nbsp;<em>really lucky</em>&nbsp;the company won't have lost patience with the new system and will allow that work to continue. The longer this all takes, and the longer the old system stays in production and stubbornly continues to work, the higher the risk that "priorities have changed" and the new system total replacement work is abandoned, leaving you with two systems where you used to have one.</p>
+<p>The best article I've read about completing this process responsibly is&nbsp;<a href="https://lethain.com/migrations/">Migrations: the sole scalable fix to tech debt</a>&nbsp;by Will Larson.</p>
+<p>If I run into a situation like this in the future, my strong recommendation will be to shore up the old system with as much automated testing as possible and then seeing if targeted refactors can get it to the desired shape. My hunch is that in many cases that will have a much higher chance of success than the siren call of a greenfield replacement.</p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/" rel="bookmark">#</a>
+    <a href="/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/">9:08 am</a>
+     / <a href="/tags/technical-debt/">technical-debt</a>, <a href="/tags/migrations/">migrations</a>
+  </p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance.]]></title>
         <id>https://simonwillison.net/2026/Sep/6/zach-kehs/</id>
@@ -47,7 +72,8 @@
 <p><code>OK make it a whole lot better</code></p>
 </blockquote>
 <p>And got this image, generated <a href="https://github.com/simonw/gpt-6-astra-blender-pelican-bicycle/blob/main/work/pelican_final.py">using Blender's Python API</a>:</p>
-<p><img alt="A 3D illustration of a white pelican cycling along a seaside boardwalk at sunset. It wears a cream boater hat and a coral scarf, with wings on the handlebars and long orange legs reaching the pedals of a turquoise bicycle. A wicker front basket holds pink and white flowers, and three balloons float behind. Pastel bunting stretches overhead between palm trees. Striped beach huts stand beside a teal sea with a small sailboat, beneath a large peach-colored sun. The scene has a softly lit, toy-like style." src="https://static.simonwillison.net/static/2026/astra-blender-pelican.jpg"></p></div>
+<p><img alt="A 3D illustration of a white pelican cycling along a seaside boardwalk at sunset. It wears a cream boater hat and a coral scarf, with wings on the handlebars and long orange legs reaching the pedals of a turquoise bicycle. A wicker front basket holds pink and white flowers, and three balloons float behind. Pastel bunting stretches overhead between palm trees. Striped beach huts stand beside a teal sea with a small sailboat, beneath a large peach-colored sun. The scene has a softly lit, toy-like style." src="https://static.simonwillison.net/static/2026/astra-blender-pelican.jpg"></p>
+<p>This was covered by my existing Codex subscription, but according to <a href="https://github.com/kenn-io/agentsview">AgentsView</a> it would have cost $4.24 at API prices for <code>gpt-6-astra</code>.</p></div>
     <div class="beat-meta beat-row2">
       <a href="/2026/Sep/5/blender-coding-agents-macos/" rel="bookmark">5th Sep 2026, 3:51 pm</a> · <a href="/tags/gpt-6-astra/">gpt-6-astra</a>, <a href="/tags/coding-agents/">coding-agents</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/pelican-riding-a-bicycle/">pelican-riding-a-bicycle</a>, <a href="/tags/blender/">blender</a>, <a href="/tags/llms/">llms</a>
     </div>
@@ -110,7 +136,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[5]]></title>
+        <title type="html"><![CDATA[6]]></title>
         <id>https://simonwillison.net/2026/Sep/4/august-newsletter/</id>
         <link href="https://simonwillison.net/2026/Sep/4/august-newsletter/"/>
         <updated>2026-09-04T10:14:27.641Z</updated>
@@ -252,7 +278,7 @@ At times, Claude was working with the fury of 10 freshly unshackled Einstein gen
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[11]]></title>
+        <title type="html"><![CDATA[12]]></title>
         <id>https://simonwillison.net/2026/Sep/1/codex-libreoffice/</id>
         <link href="https://simonwillison.net/2026/Sep/1/codex-libreoffice/"/>
         <updated>2026-09-01T20:14:51.545Z</updated>
@@ -466,23 +492,5 @@ At times, Claude was working with the fury of 10 freshly unshackled Einstein gen
       <a href="/2026/Aug/24/sighting-394071393/" rel="bookmark">24th Aug 2026</a>
     </div>
   </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.
-But then Fable landed. It was (and still is!) incredible. But the cost was so high and Opus was good enough (as was 5.6, K3, and even GLM) for most of the code we needed.
-So we started to think about what work went where.]]></title>
-        <id>https://simonwillison.net/2026/Aug/23/drew-breunig/</id>
-        <link href="https://simonwillison.net/2026/Aug/23/drew-breunig/"/>
-        <updated>2026-08-23T20:58:48.833Z</updated>
-        <content type="html"><![CDATA[<blockquote cite="https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html"><p>Prior to Fable, it felt silly to waste&nbsp;<em>too</em>&nbsp;much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.</p>
-<p>But then Fable landed. It was (and still is!)&nbsp;<em>incredible</em>. But the cost was so high and Opus was&nbsp;<em>good enough</em>&nbsp;(as was 5.6, K3, and even GLM) for&nbsp;<em>most</em>&nbsp;of the code we needed.</p>
-<p><em>So we started to think about what work went where.</em></p></blockquote>
-  <p class="cite">— <a href="https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html">Drew Breunig</a>, <span class="context">Fable &amp; The End of the Free Lunch</span></p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Aug/23/drew-breunig/" rel="bookmark">#</a>
-    <a href="/2026/Aug/23/drew-breunig/">7:55 pm</a>
-     / <a href="/tags/drew-breunig/">drew-breunig</a>, <a href="/tags/anthropic/">anthropic</a>, <a href="/tags/claude/">claude</a>, <a href="/tags/llm-pricing/">llm-pricing</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/claude-mythos-fable/">claude-mythos-fable</a>
-  </p>]]></content>
     </entry>
 </feed>
