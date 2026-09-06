@@ -2,9 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-06T06:25:12.220Z</updated>
+    <updated>2026-09-06T11:25:27.035Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance.]]></title>
+        <id>https://simonwillison.net/2026/Sep/6/zach-kehs/</id>
+        <link href="https://simonwillison.net/2026/Sep/6/zach-kehs/"/>
+        <updated>2026-09-06T11:23:58.792Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref"><p>If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can&nbsp;<em>always</em>&nbsp;get worse. There can&nbsp;<em>always</em>&nbsp;be a new layer of indirection or a reduction in performance.</p></blockquote>
+  <p class="cite">— <a href="https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref">Zach Kehs</a>, <span class="context">There's No Limit to How Bad Code Can Get</span></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Sep/6/zach-kehs/" rel="bookmark">#</a>
+    <a href="/2026/Sep/6/zach-kehs/">8:42 am</a>
+     / <a href="/tags/technical-debt/">technical-debt</a>
+  </p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Using Blender with coding agents on macOS]]></title>
         <id>https://til.simonwillison.net/llms/blender-coding-agents-macos</id>
@@ -96,7 +110,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[4]]></title>
+        <title type="html"><![CDATA[5]]></title>
         <id>https://simonwillison.net/2026/Sep/4/august-newsletter/</id>
         <link href="https://simonwillison.net/2026/Sep/4/august-newsletter/"/>
         <updated>2026-09-04T10:14:27.641Z</updated>
@@ -238,7 +252,7 @@ At times, Claude was working with the fury of 10 freshly unshackled Einstein gen
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[10]]></title>
+        <title type="html"><![CDATA[11]]></title>
         <id>https://simonwillison.net/2026/Sep/1/codex-libreoffice/</id>
         <link href="https://simonwillison.net/2026/Sep/1/codex-libreoffice/"/>
         <updated>2026-09-01T20:14:51.545Z</updated>
@@ -488,74 +502,6 @@ So we started to think about what work went where.]]></title>
     
     <div class="beat-meta beat-row2">
       <a href="/2026/Aug/23/sighting-393763247/" rel="bookmark">23rd Aug 2026</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.
-I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it.
-I suspect those things have been trained by people who may not be quite as stubborn as I am.
-But while the AI was ready to give up several times, it did keep adding debug code and analyzing it faithfully when I pushed. So credit where credit is due and I let the AI write the commit message above.]]></title>
-        <id>https://simonwillison.net/2026/Aug/22/linus-torvalds/</id>
-        <link href="https://simonwillison.net/2026/Aug/22/linus-torvalds/"/>
-        <updated>2026-08-23T09:07:54.860Z</updated>
-        <content type="html"><![CDATA[<blockquote cite="https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c"><p>And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.</p>
-<p>I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it.</p>
-<p>I suspect those things have been trained by people who may not be quite as stubborn as I am.</p>
-<p>But while the AI was ready to give up several times, it did keep adding debug code and analyzing it faithfully when I pushed. So credit where credit is due and I let the AI write the commit message above.</p></blockquote>
-  <p class="cite">— <a href="https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c">Linus Torvalds</a>, <span class="context">drm/xe: Don't hand out the flat CCS storage as usable VRAM</span></p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Aug/22/linus-torvalds/" rel="bookmark">#</a>
-    <a href="/2026/Aug/22/linus-torvalds/">9:04 pm</a>
-     / <a href="/tags/linus-torvalds/">linus-torvalds</a>, <a href="/tags/linux/">linux</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/ai-assisted-programming/">ai-assisted-programming</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
-  </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm 0.33]]></title>
-        <id>https://github.com/simonw/llm/releases/tag/0.33</id>
-        <link href="https://github.com/simonw/llm/releases/tag/0.33"/>
-        <updated>2026-08-23T09:07:54.860Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/llm/releases/tag/0.33">llm 0.33</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>My highlights from this release:</p>
-<blockquote>
-<ul>
-<li>Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from <code>httpx</code> to <code>httpx2</code>. <a href="https://github.com/simonw/llm/issues/1608">#1608</a>, <a href="https://github.com/simonw/llm/pull/1631">#1631</a></li>
-</ul>
-</blockquote>
-<p>I shipped a quick <a href="https://simonwillison.net/2026/Aug/21/llm/">0.32.1 fix</a> for this yesterday, but this is the more comprehensive fix.</p>
-<blockquote>
-<ul>
-<li><code>llm embed</code> and <code>llm embed-multi</code> now accept <code>--key</code>. The Python <code>EmbeddingModel.embed()</code>, <code>EmbeddingModel.embed_multi()</code>, <code>Collection.embed()</code> and <code>Collection.embed_multi()</code> methods accept <code>key=</code> too, passing the resolved per-call key to embedding plugins without changing shared model state. Existing plugins that read <code>self.key</code> continue to work through a compatibility fallback. Thanks, <a href="https://github.com/ChrisJr404">ChrisJr404</a>. <a href="https://github.com/simonw/llm/issues/757">#757</a>, <a href="https://github.com/simonw/llm/pull/1620">#1620</a></li>
-</ul>
-</blockquote>
-<p>The embedding models now use the same pattern for keys that regular LLM models do.</p>
-<blockquote>
-<ul>
-<li><code>llm prompt -t/--template</code> can now be repeated to combine templates in order. This allows model configuration and options from one template to be used with a prompt from another.</li>
-</ul>
-</blockquote>
-<p>This unlocks a neat pattern where you can create templates that package a model with a set of default options:</p>
-<pre><code>llm -m gpt-5.6-luna -o reasoning_effort high --save lhigh
-llm "Generate an SVG of a pelican riding a bicycle" --save pelican
-# Combine and run the templates
-llm -t lhigh -t pelican
-</code></pre>
-<blockquote>
-<ul>
-<li>Reasoning-capable Responses API models now support a <code>reasoning_summary</code> option with <code>auto</code>, <code>concise</code>, and <code>detailed</code> values. This can be used with <a href="https://llm.datasette.io/en/stable/other-models.html#openai-endpoint">llm openai endpoint --responses</a>. <a href="https://github.com/simonw/llm/issues/1600">#1600</a></li>
-</ul>
-</blockquote>
-<p>This is particularly useful for exercising different models that provide their own imitation of the OpenAI Responses API.</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Aug/22/llm/" rel="bookmark">22nd Aug 2026, 5:01 pm</a> · <a href="/tags/annotated-release-notes/">annotated-release-notes</a>, <a href="/tags/llm/">llm</a>
     </div>
   </div>]]></content>
     </entry>
