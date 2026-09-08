@@ -2,7 +2,211 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-09-08T06:23:14.729Z</updated>
+    <updated>2026-09-08T11:46:59.734Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Always Encrypt in Transit: The Gap Between TLS Everywhere and Actual Transport Security]]></title>
+        <id>https://dev.to/aloknecessary/always-encrypt-in-transit-the-gap-between-tls-everywhere-and-actual-transport-security-2mib</id>
+        <link href="https://dev.to/aloknecessary/always-encrypt-in-transit-the-gap-between-tls-everywhere-and-actual-transport-security-2mib"/>
+        <updated>2026-09-08T07:26:21.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/aloknecessary/always-encrypt-in-transit-the-gap-between-tls-everywhere-and-actual-transport-security-2mib" aria-labelledby="article-link-4604141" class="crayons-story__hidden-navigation-link">Always Encrypt in Transit: The Gap Between TLS Everywhere and Actual Transport Security</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/aloknecessary" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3791551%2F62fbfeb5-1fba-4e79-bc4b-780b7ce52748.jpg" alt="aloknecessary profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/aloknecessary" class="crayons-story__secondary fw-medium m:hidden">
+              Alok Ranjan Daftuar
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4604141" aria-controls="story-author-preview-content-4604141" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Alok Ranjan Daftuar profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Alok Ranjan Daftuar
+                
+                
+              </button>
+              <div id="story-author-preview-content-4604141" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/aloknecessary" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3791551%2F62fbfeb5-1fba-4e79-bc4b-780b7ce52748.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Alok Ranjan Daftuar</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3791551,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Alok Ranjan Daftuar&quot;}" data-fetched="fetched" aria-label="Follow user: Alok Ranjan Daftuar" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3791551"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/aloknecessary/always-encrypt-in-transit-the-gap-between-tls-everywhere-and-actual-transport-security-2mib" class="crayons-story__tertiary fs-xs"><time datetime="2026-09-08T07:26:21Z" data-localized="true" title="Tuesday, September 8, 2026 at 7:26:21 AM">Sep 8</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1788852381"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/aloknecessary/always-encrypt-in-transit-the-gap-between-tls-everywhere-and-actual-transport-security-2mib" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fujxxe6r96o5306bl4fi5.png" id="article-link-4604141">
+          Always Encrypt in Transit: The Gap Between TLS Everywhere and Actual Transport Security
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/cloudnative"><span class="crayons-tag__prefix">#</span>cloudnative</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/aloknecessary/always-encrypt-in-transit-the-gap-between-tls-everywhere-and-actual-transport-security-2mib#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Always Encrypt in Transit: The Gap Between TLS Everywhere and Actual Transport Security">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afy5x2g854y1n83mypn9787e235tkssw" class="crayons-icon"><title id="afy5x2g854y1n83mypn9787e235tkssw">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are You Shipping a Data Warehouse or a Malware Delivery Vehicle?]]></title>
+        <id>https://dev.to/aniketsoni/are-you-shipping-a-data-warehouse-or-a-malware-delivery-vehicle-1a5k</id>
+        <link href="https://dev.to/aniketsoni/are-you-shipping-a-data-warehouse-or-a-malware-delivery-vehicle-1a5k"/>
+        <updated>2026-09-08T06:48:35.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/aniketsoni/are-you-shipping-a-data-warehouse-or-a-malware-delivery-vehicle-1a5k" aria-labelledby="article-link-4584225" class="crayons-story__hidden-navigation-link">Are You Shipping a Data Warehouse or a Malware Delivery Vehicle?</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/aniketsoni" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3954381%2Fc17f147f-e19b-4160-be20-e2d4dd2af1dd.png" alt="aniketsoni profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/aniketsoni" class="crayons-story__secondary fw-medium m:hidden">
+              Aniket Abhishek Soni
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4584225" aria-controls="story-author-preview-content-4584225" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Aniket Abhishek Soni profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Aniket Abhishek Soni
+                
+                
+              </button>
+              <div id="story-author-preview-content-4584225" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/aniketsoni" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3954381%2Fc17f147f-e19b-4160-be20-e2d4dd2af1dd.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Aniket Abhishek Soni</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3954381,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Aniket Abhishek Soni&quot;}" data-fetched="fetched" aria-label="Follow user: Aniket Abhishek Soni" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3954381"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/aniketsoni/are-you-shipping-a-data-warehouse-or-a-malware-delivery-vehicle-1a5k" class="crayons-story__tertiary fs-xs"><time datetime="2026-09-08T06:48:35Z" data-localized="true" title="Tuesday, September 8, 2026 at 6:48:35 AM">Sep 8</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1788850115"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/aniketsoni/are-you-shipping-a-data-warehouse-or-a-malware-delivery-vehicle-1a5k" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1774019883172-a89730a86500%3Fcrop%3Dentropy%26cs%3Dtinysrgb%26fit%3Dmax%26fm%3Djpg%26ixid%3DM3w5NzU0MjJ8MHwxfHNlYXJjaHw4fHxydXN0JTIwbWV0YWwlMjBnZWFyc3xlbnwwfDB8fHwxNzg4NjM5MjA1fDA%26ixlib%3Drb-4.1.0%26q%3D80%26w%3D1080" id="article-link-4584225">
+          Are You Shipping a Data Warehouse or a Malware Delivery Vehicle?
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/containers"><span class="crayons-tag__prefix">#</span>containers</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/aniketsoni/are-you-shipping-a-data-warehouse-or-a-malware-delivery-vehicle-1a5k#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Are You Shipping a Data Warehouse or a Malware Delivery Vehicle?">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a21qul1wt6a29cwz4wqk16as83l0tq0v" class="crayons-icon"><title id="a21qul1wt6a29cwz4wqk16as83l0tq0v">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
 </feed>
