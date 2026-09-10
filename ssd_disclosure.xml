@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ssd-disclosure.com/advisories/</id>
     <title>ssd_disclosure</title>
-    <updated>2026-09-10T06:26:50.302Z</updated>
+    <updated>2026-09-10T11:50:18.245Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://ssd-disclosure.com/wp-content/uploads/2022/08/Group-36.png</icon>
+    <entry>
+        <title type="html"><![CDATA[DCOM Service PsmServiceExtHost LPE]]></title>
+        <id>https://ssd-disclosure.com/dcom-service-psmserviceexthost-lpe/</id>
+        <link href="https://ssd-disclosure.com/dcom-service-psmserviceexthost-lpe/"/>
+        <updated>2026-09-10T11:36:19.246Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/dcom-service-psmserviceexthost-lpe/">
+				DCOM Service PsmServiceExtHost LPE			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary Threre is a heap buffer overflow vulnerability in a DCOM service that can be leveraged to achieve LPE from a Medium IL standard user to System IL. This was tested on Windows 11 25H2</p>
+		</div>
+				</div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[UNISOC T612 LPE]]></title>
         <id>https://ssd-disclosure.com/unisoc-t612-lpe/</id>
@@ -167,21 +182,6 @@
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>Summary A local user under the CentOS 9 operating system can trigger an use-after-free, which in turn can be used to elevate to root privileges. Vendor Response The vendor has been notified more than 90</p>
-		</div>
-				</div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ISPConfig Multiple Post Auth Privilege Escalation Vulnerabilities]]></title>
-        <id>https://ssd-disclosure.com/ispconfig-multiple-post-auth-privilege-escalation-vulnerabilities/</id>
-        <link href="https://ssd-disclosure.com/ispconfig-multiple-post-auth-privilege-escalation-vulnerabilities/"/>
-        <updated>2026-09-04T17:42:54.281Z</updated>
-        <content type="html"><![CDATA[<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="https://ssd-disclosure.com/ispconfig-multiple-post-auth-privilege-escalation-vulnerabilities/">
-				ISPConfig Multiple Post Auth Privilege Escalation Vulnerabilities			</a>
-		</h3>
-				<div class="elementor-post__excerpt">
-			<p>Summary Three post authentication vulnerabilities have been found in ISPConfig, these vulnerabilities allow attackers who are either a Reseller or Client account to escalate to root level access. Vendor Response ISPConfig version 3.3.1 was released:</p>
 		</div>
 				</div>]]></content>
     </entry>
