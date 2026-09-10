@@ -2,9 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-09T22:54:44.863Z</updated>
+    <updated>2026-09-10T01:29:46.980Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...]
+The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...]
+Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week.
+A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely.]]></title>
+        <id>https://simonwillison.net/2026/Sep/10/calif-research/</id>
+        <link href="https://simonwillison.net/2026/Sep/10/calif-research/"/>
+        <updated>2026-09-10T01:28:18.042Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://calif.io/research/weworm"><p>Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...]</p>
+<p>The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...]</p>
+<p>Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week.</p>
+<p>A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely.</p></blockquote>
+  <p class="cite">— <a href="https://calif.io/research/weworm">Calif Research</a>, <span class="context">WeWorm</span></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Sep/10/calif-research/" rel="bookmark">#</a>
+    <a href="/2026/Sep/10/calif-research/">12:56 am</a>
+     / <a href="/tags/ai-security-research/">ai-security-research</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/security/">security</a>, <a href="/tags/generative-ai/">generative-ai</a>
+  </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[.blend URL Viewer]]></title>
+        <id>https://tools.simonwillison.net/blender-viewer</id>
+        <link href="https://tools.simonwillison.net/blender-viewer"/>
+        <updated>2026-09-10T01:28:18.043Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label tool" href="/elsewhere/tool/">Tool</a>
+      
+      <span class="beat-title"><a href="https://tools.simonwillison.net/blender-viewer">.blend URL Viewer</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see <a href="https://til.simonwillison.net/llms/blender-coding-agents-macos">my TIL</a>).</p>
+<p>As a big fan of the <a href="https://en.wikipedia.org/wiki/Faberg%C3%A9_egg">Imperial Fabergé Easter eggs</a>, I've always thought it would be fun to make some new ones that celebrate popular culture.</p>
+<p>Yesterday I decided to try out the new <a href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/">ChatGPT Images 2.5</a> by <a href="https://chatgpt.com/share/6aa1f6d2-a7d8-83ea-92ec-0daeb8422617">running this prompt</a>:</p>
+<blockquote>
+<p><code>Generate a photo of a faberge egg that's themed after the TV show Pluribus - research first</code></p>
+</blockquote>
+<p>It gave me this - honestly not bad for a first attempt!</p>
+<p><img alt="It's a yellow Fabergé egg, half open. Inside you can clearly see Carol in her black outfit facing off against a choir of creepy white-faced joined humans. There are cacti and it has an Albuquerque New Mexico feel to it. The egg stand has a Pluribus plaque." src="https://static.simonwillison.net/static/2026/pluribus-egg.jpg"></p>
+<p>Then, just to see what would happen, I pasted that image into Codex running GPT-6 Astra (high) and prompted:</p>
+<blockquote>
+<p><code>Use your blender local skill to create a blender model of this faverge egg</code></p>
+</blockquote>
+<p>(Here's <a href="https://github.com/simonw/gpt-6-astra-blender-pelican-bicycle/blob/main/outputs/blender-local/SKILL.md">the skill file</a>, which I created <a href="https://til.simonwillison.net/llms/blender-coding-agents-macos#creating-a-skill">like this</a>.)</p>
+<p>It churned away for 17m51s and built me <a href="https://github.com/simonw/vibe-coded-blender-projects/tree/main/pluribus-faberge-egg/deliverables">several <code>.blend</code> files</a>. I already had this vibe-coded Blender viewing experiment lying around, so I added that to my <a href="https://tools.simonwillison.net/">tools collection</a> and now you can use it to <a href="https://tools.simonwillison.net/blender-viewer?url=https%3A%2F%2Fgithub.com%2Fsimonw%2Fvibe-coded-blender-projects%2Fblob%2Fmain%2Fpluribus-faberge-egg%2Fdeliverables%2FPluribus_Jeweled_Egg_v1.blend">see my Pluribus blender model in your browser</a>:</p>
+<p><img alt="Screenshot of a web-based 3D Blender file viewer showing a rendered gold Fabergé-style jeweled egg. The top of the egg is lifted open, revealing a miniature desert diorama inside with green cacti, brown rocks, and a small black-suited figure standing in the center. The egg's shell is decorated with green gems, pearls, ornate scrollwork, a ring of smiling white egg-shaped faces, and oval medallions painted with a cactus and desert scene. The egg stands on four gold legs over a black marbled base with a gold plaque reading PLURIBUS. The URL bar reads https://github.com/simonw/vibe-coded-blender-projects/blob/main/pluribus-faberge-egg/deliverables/Pluribus_Jeweled_Egg_v1.blend with a View button; top-right buttons read Fit, Wireframe, Clear. A bottom-left info panel reads: Loaded Blender 05.01 · 7.2 MB / 387 meshes · 1099 curves · 1 text · 783,764 vertices · 1,446,560 triangles · 17 materials / Preview: approximate materials and text; unapplied modifiers are omitted. / GitHub URL resolved through jsDelivr" src="https://static.simonwillison.net/static/2026/pluribus-blender-viewer.webp"></p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/9/blender-viewer/" rel="bookmark">9th Sep 2026, 11:58 pm</a> · <a href="/tags/gpt-6-astra/">gpt-6-astra</a>, <a href="/tags/tools/">tools</a>, <a href="/tags/javascript/">javascript</a>, <a href="/tags/3d/">3d</a>, <a href="/tags/blender/">blender</a>, <a href="/tags/codex/">codex</a>, <a href="/tags/coding-agents/">coding-agents</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...]
 We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential.  The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field.]]></title>
@@ -105,7 +158,7 @@ At the same time, even with the uncertainty that comes from anticipated broad AI
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[5]]></title>
+        <title type="html"><![CDATA[7]]></title>
         <id>https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/</id>
         <link href="https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/"/>
         <updated>2026-09-06T19:35:10.591Z</updated>
@@ -235,7 +288,7 @@ At the same time, even with the uncertainty that comes from anticipated broad AI
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[11]]></title>
+        <title type="html"><![CDATA[13]]></title>
         <id>https://simonwillison.net/2026/Sep/4/august-newsletter/</id>
         <link href="https://simonwillison.net/2026/Sep/4/august-newsletter/"/>
         <updated>2026-09-04T10:14:27.641Z</updated>
@@ -444,7 +497,7 @@ At times, Claude was working with the fury of 10 freshly unshackled Einstein gen
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[20]]></title>
+        <title type="html"><![CDATA[22]]></title>
         <id>https://simonwillison.net/2026/Sep/1/codex-libreoffice/</id>
         <link href="https://simonwillison.net/2026/Sep/1/codex-libreoffice/"/>
         <updated>2026-09-01T20:14:51.545Z</updated>
