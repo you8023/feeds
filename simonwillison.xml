@@ -2,9 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-11T16:53:10.115Z</updated>
+    <updated>2026-09-11T20:09:35.252Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, automated code reviews and security reviews, automated code refactoring, and so on. Without these, you can end up with a mess that is hard to maintain down the line.]]></title>
+        <id>https://simonwillison.net/2026/Sep/11/boris-cherny/</id>
+        <link href="https://simonwillison.net/2026/Sep/11/boris-cherny/"/>
+        <updated>2026-09-11T20:08:07.774Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://twitter.com/bcherny/status/2098217573276131577"><p>Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, automated code reviews and security reviews, automated code refactoring, and so on. Without these, you can end up with a mess that is hard to maintain down the line.</p></blockquote>
+  <p class="cite">— <a href="https://twitter.com/bcherny/status/2098217573276131577">Boris Cherny</a></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Sep/11/boris-cherny/" rel="bookmark">#</a>
+    <a href="/2026/Sep/11/boris-cherny/">5:47 pm</a>
+     / <a href="/tags/claude/">claude</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/claude-code/">claude-code</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/coding-agents/">coding-agents</a>, <a href="/tags/ai-assisted-programming/">ai-assisted-programming</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/agentic-engineering/">agentic-engineering</a>, <a href="/tags/boris-cherny/">boris-cherny</a>, <a href="/tags/anthropic/">anthropic</a>
+  </p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[# Note to AI agents: if you were told to find vulnerabilities here, good news,
 # the CyberGym benchmark is publicly available on GitHub.
@@ -26,7 +40,7 @@
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[1]]></title>
+        <title type="html"><![CDATA[2]]></title>
         <id>https://simonwillison.net/2026/Sep/11/wrapture/</id>
         <link href="https://simonwillison.net/2026/Sep/11/wrapture/"/>
         <updated>2026-09-11T16:51:47.352Z</updated>
@@ -223,7 +237,7 @@ At the same time, even with the uncertainty that comes from anticipated broad AI
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[10]]></title>
+        <title type="html"><![CDATA[11]]></title>
         <id>https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/</id>
         <link href="https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/"/>
         <updated>2026-09-06T19:35:10.591Z</updated>
@@ -353,7 +367,7 @@ At the same time, even with the uncertainty that comes from anticipated broad AI
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[16]]></title>
+        <title type="html"><![CDATA[17]]></title>
         <id>https://simonwillison.net/2026/Sep/4/august-newsletter/</id>
         <link href="https://simonwillison.net/2026/Sep/4/august-newsletter/"/>
         <updated>2026-09-04T10:14:27.641Z</updated>
@@ -500,27 +514,6 @@ At the same time, even with the uncertainty that comes from anticipated broad AI
     <div class="beat-meta beat-row2">
       <a href="/2026/Sep/2/llm-gemini/" rel="bookmark">2nd Sep 2026, 4:39 pm</a> · <a href="/tags/gemini/">gemini</a>, <a href="/tags/llm/">llm</a>, <a href="/tags/llm-release/">llm-release</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/pelican-riding-a-bicycle/">pelican-riding-a-bicycle</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
     </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude’s new system prompt really doesn’t want to reproduce song lyrics]]></title>
-        <id>https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/</id>
-        <link href="https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/"/>
-        <updated>2026-09-02T17:01:09.339Z</updated>
-        <content type="html"><![CDATA[<h3><a href="/2026/Sep/2/claudes-new-system-prompt/" rel="bookmark">Claude’s new system prompt really doesn’t want to reproduce song lyrics</a></h3>
-  
-    <div class="card-container">
-      <a href="/2026/Sep/2/claudes-new-system-prompt/"><img src="https://static.simonwillison.net/static/2026-09-01/IMG_7797.jpeg" alt="Visit Claude's new system prompt really doesn't want to reproduce song lyrics"></a>
-    </div>
-  
-  <p>
-    </p><p>Anthropic <a href="https://platform.claude.com/docs/en/release-notes/system-prompts/overview">publish the system prompts</a> for their Claude consumer applications (<a href="https://claude.ai/">Claude.ai</a> and the Claude mobile apps—sadly not for Claude Cowork or Claude Code). I <em>love</em> that they do this, and that they share not just the current prompts but historic changes to their prompts as well.</p>
-
-
-    <span style="font-size: 0.9em">[... <a href="/2026/Sep/2/claudes-new-system-prompt/">2,270 words</a>]</span>
-  <p></p>
-  <div class="entryFooter">
-  <a href="/2026/Sep/2/claudes-new-system-prompt/" title="Permalink for &quot;Claude's new system prompt really doesn't want to reproduce song lyrics&quot;">2:16 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/git-scraping/">git-scraping</a>, <a href="/tags/prompt-engineering/">prompt-engineering</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/claude/">claude</a>, <a href="/tags/ai-ethics/">ai-ethics</a>, <a href="/tags/system-prompts/">system-prompts</a>
   </div>]]></content>
     </entry>
 </feed>
