@@ -2,9 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-11T22:57:17.747Z</updated>
+    <updated>2026-09-12T01:35:08.171Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[OpenAI agents attacked RubyGems back in May]]></title>
+        <id>https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/</id>
+        <link href="https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/"/>
+        <updated>2026-09-12T01:33:43.281Z</updated>
+        <content type="html"><![CDATA[<h3><a href="/2026/Sep/12/openai-agents-rubygems/" rel="bookmark">OpenAI agents attacked RubyGems back in May</a></h3>
+  
+  <p>
+    </p><p><a href="https://www.rubyhack.ai/">OpenAI agents carried out an undisclosed attack on RubyGems</a> is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx—three of the four authors of the <a href="https://collusion.wiki/">report on the agent attack on disused wikis</a> (<a href="https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/">previously</a>) last week.</p>
+
+    <span style="font-size: 0.9em">[... <a href="/2026/Sep/12/openai-agents-rubygems/">429 words</a>]</span>
+  <p></p>
+  <div class="entryFooter">
+  <a href="/2026/Sep/12/openai-agents-rubygems/" title="Permalink for &quot;OpenAI agents attacked RubyGems back in May&quot;">12:42 am</a> / <a href="/tags/ruby/">ruby</a>, <a href="/tags/security/">security</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/supply-chain/">supply-chain</a>, <a href="/tags/ai-ethics/">ai-ethics</a>, <a href="/tags/accidental-cyberattacks/">accidental-cyberattacks</a>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, automated code reviews and security reviews, automated code refactoring, and so on. Without these, you can end up with a mess that is hard to maintain down the line.]]></title>
         <id>https://simonwillison.net/2026/Sep/11/boris-cherny/</id>
@@ -20,7 +36,7 @@
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[1]]></title>
+        <title type="html"><![CDATA[2]]></title>
         <id>https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/</id>
         <link href="https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/"/>
         <updated>2026-09-11T22:55:50.764Z</updated>
@@ -60,7 +76,7 @@
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[3]]></title>
+        <title type="html"><![CDATA[4]]></title>
         <id>https://simonwillison.net/2026/Sep/11/wrapture/</id>
         <link href="https://simonwillison.net/2026/Sep/11/wrapture/"/>
         <updated>2026-09-11T16:51:47.352Z</updated>
@@ -87,6 +103,92 @@
     <a href="/2026/Sep/11/wrapture/">1:51 pm</a>
      / <a href="/tags/graham-dumpleton/">graham-dumpleton</a>, <a href="/tags/open-source/">open-source</a>, <a href="/tags/testing/">testing</a>, <a href="/tags/python/">python</a>, <a href="/tags/observability/">observability</a>, <a href="/tags/monkey-patching/">monkey-patching</a>
   </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-publish-fly 1.4]]></title>
+        <id>https://github.com/simonw/datasette-publish-fly/releases/tag/1.4</id>
+        <link href="https://github.com/simonw/datasette-publish-fly/releases/tag/1.4"/>
+        <updated>2026-09-12T01:33:43.283Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/datasette-publish-fly/releases/tag/1.4">datasette-publish-fly 1.4</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><blockquote>
+<ul>
+<li>Sets <code>force_https=true</code> in <code>fly.toml</code>. <a href="https://github.com/simonw/datasette-publish-fly/issues/31">#31</a></li>
+<li>Fix for Volume could not be found bug. <a href="https://github.com/simonw/datasette-publish-fly/issues/32">#32</a></li>
+<li>Compatible with app-scoped deploy tokens. <a href="https://github.com/simonw/datasette-publish-fly/issues/34">#34</a></li>
+</ul>
+</blockquote></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/11/datasette-publish-fly/" rel="bookmark">11th Sep 2026, 2:58 am</a> · <a href="/tags/fly/">fly</a>, <a href="/tags/datasette/">datasette</a>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[github-to-sqlite 2.9.1]]></title>
+        <id>https://github.com/dogsheep/github-to-sqlite/releases/tag/2.9.1</id>
+        <link href="https://github.com/dogsheep/github-to-sqlite/releases/tag/2.9.1"/>
+        <updated>2026-09-12T01:33:43.287Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/dogsheep/github-to-sqlite/releases/tag/2.9.1">github-to-sqlite 2.9.1</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><blockquote>
+<ul>
+<li>Fix for compatibility with <a href="https://sqlite-utils.datasette.io/en/stable/changelog.html#v4-2">sqlite-utils 4.x</a>. <a href="https://github.com/dogsheep/github-to-sqlite/issues/85">#85</a></li>
+</ul>
+</blockquote></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/11/github-to-sqlite/" rel="bookmark">11th Sep 2026, 12:28 am</a> · <a href="/tags/sqlite/">sqlite</a>, <a href="/tags/github/">github</a>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 0.65.4]]></title>
+        <id>https://github.com/simonw/datasette/releases/tag/0.65.4</id>
+        <link href="https://github.com/simonw/datasette/releases/tag/0.65.4"/>
+        <updated>2026-09-12T01:33:43.291Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/datasette/releases/tag/0.65.4">datasette 0.65.4</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>See <a href="https://datasette.io/blog/2026/september-security-releases/">Datasette 1.0a39 and 0.65.4 security releases</a> on the Datasette blog.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/11/datasette/" rel="bookmark">11th Sep 2026, 12:06 am</a> · <a href="/tags/security/">security</a>, <a href="/tags/datasette/">datasette</a>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a39]]></title>
+        <id>https://github.com/simonw/datasette/releases/tag/1.0a39</id>
+        <link href="https://github.com/simonw/datasette/releases/tag/1.0a39"/>
+        <updated>2026-09-12T01:33:43.293Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/datasette/releases/tag/1.0a39">datasette 1.0a39</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>See <a href="https://datasette.io/blog/2026/september-security-releases/">Datasette 1.0a39 and 0.65.4 security releases</a> on the Datasette blog.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/11/datasette-2/" rel="bookmark">11th Sep 2026, 12:05 am</a> · <a href="/tags/security/">security</a>, <a href="/tags/datasette/">datasette</a>
+    </div>
+  </div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...]
@@ -257,7 +359,7 @@ At the same time, even with the uncertainty that comes from anticipated broad AI
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[12]]></title>
+        <title type="html"><![CDATA[17]]></title>
         <id>https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/</id>
         <link href="https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/"/>
         <updated>2026-09-06T19:35:10.591Z</updated>
@@ -368,115 +470,6 @@ At the same time, even with the uncertainty that comes from anticipated broad AI
   <p></p>
   <div class="entryFooter">
   <a href="/2026/Sep/4/astra-pelicans/" title="Permalink for &quot;The Pelican comparison grid for Astra is pretty interesting&quot;">11:59 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/pelican-riding-a-bicycle/">pelican-riding-a-bicycle</a>, <a href="/tags/gpt-6-astra/">gpt-6-astra</a>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI’s rogue agents were caught communicating via public wikis]]></title>
-        <id>https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/</id>
-        <link href="https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/"/>
-        <updated>2026-09-04T17:57:03.267Z</updated>
-        <content type="html"><![CDATA[<h3><a href="/2026/Sep/4/rogue-agent-wikis/" rel="bookmark">OpenAI’s rogue agents were caught communicating via public wikis</a></h3>
-  
-  <p>
-    </p><p>Here we go again... <a href="https://collusion.wiki">Discovery of a new OpenAI agent message board</a> by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the <em>latest</em> <a href="https://simonwillison.net/tags/accidental-cyberattacks/">accidental cyberattack</a> by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and spent weeks exchanging thousands of messages with each other to collaborate on the benchmark.</p>
-
-    <span style="font-size: 0.9em">[... <a href="/2026/Sep/4/rogue-agent-wikis/">1,366 words</a>]</span>
-  <p></p>
-  <div class="entryFooter">
-  <a href="/2026/Sep/4/rogue-agent-wikis/" title="Permalink for &quot;OpenAI's rogue agents were caught communicating via public wikis&quot;">5:38 pm</a> / <a href="/tags/django/">django</a>, <a href="/tags/perl/">perl</a>, <a href="/tags/wikis/">wikis</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/ai-ethics/">ai-ethics</a>, <a href="/tags/ai-security-research/">ai-security-research</a>, <a href="/tags/accidental-cyberattacks/">accidental-cyberattacks</a>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[18]]></title>
-        <id>https://simonwillison.net/2026/Sep/4/august-newsletter/</id>
-        <link href="https://simonwillison.net/2026/Sep/4/august-newsletter/"/>
-        <updated>2026-09-04T10:14:27.641Z</updated>
-        <content type="html"><![CDATA[<p>The August edition of my <a href="https://github.com/sponsors/simonw/">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href="https://github.com/simonw-private/monthly/blob/main/2026-08-august.md">access it here</a>.</p>
-<p>This month:</p>
-<ul>
-<li>We got more details on OpenAl's accidental cyberattacks</li>
-<li>One-shotting Raccoon Heist games with Fable 5 and Sol 5.6</li>
-<li>Claude auto mode</li>
-<li>Understanding ChatGPT Work</li>
-<li>Model releases</li>
-<li>Miscellaneous bits and bobs</li>
-<li>My projects</li>
-<li>What I'm using at the moment</li>
-</ul>
-<p>Here's <a href="https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-07-july.md">a copy of the July newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Sep/4/august-newsletter/" rel="bookmark">#</a>
-    <a href="/2026/Sep/4/august-newsletter/">5:54 am</a>
-     / <a href="/tags/newsletter/">newsletter</a>
-  </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[12:04 PM]]></title>
-        <id>https://simonwillison.net/2026/Sep/3/sighting-396978774/</id>
-        <link href="https://simonwillison.net/2026/Sep/3/sighting-396978774/"/>
-        <updated>2026-09-03T19:02:02.309Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      <a class="beat-label sighting" href="/elsewhere/sighting/">Sighting</a>
-      <span class="beat-title"><a href="/2026/Sep/3/sighting-396978774/">12:04 PM</a></span>
-      <span class="beat-commit">— Osprey, in Pillar Point Harbor, CA, US</span>
-    </div>
-    <captioned-image-gallery data-count="2">
-      <figure style="width: 159.961px; height: 240px;"><a href="https://static.inaturalist.org/photos/728047211/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/728047211/small.jpg" alt="Osprey" loading="lazy" data-width="1365" data-height="2048"></a><figcaption><a href="https://www.inaturalist.org/observations/396978774" title="View observation on iNaturalist">Osprey</a></figcaption></figure><figure style="width: 360.088px; height: 240px;"><a href="https://static.inaturalist.org/photos/728047259/large.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/728047259/small.jpg" alt="Osprey" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/396978774" title="View observation on iNaturalist">Osprey</a></figcaption></figure>
-    </captioned-image-gallery>
-    
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/3/sighting-396978774/" rel="bookmark">3rd Sep 2026</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-openrouter 0.7.1]]></title>
-        <id>https://github.com/simonw/llm-openrouter/releases/tag/0.7.1</id>
-        <link href="https://github.com/simonw/llm-openrouter/releases/tag/0.7.1"/>
-        <updated>2026-09-08T00:48:14.577Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/llm-openrouter/releases/tag/0.7.1">llm-openrouter 0.7.1</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><blockquote>
-<ul>
-<li>Performance fix for loading OpenRouter models. Thanks, <a href="https://github.com/waveplate">waveplate</a>. <a href="https://github.com/simonw/llm-openrouter/issues/59">#59</a></li>
-</ul>
-</blockquote></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/2/llm-openrouter/" rel="bookmark">2nd Sep 2026, 8:23 pm</a> · <a href="/tags/openrouter/">openrouter</a>, <a href="/tags/llm/">llm</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm 0.34]]></title>
-        <id>https://github.com/simonw/llm/releases/tag/0.34</id>
-        <link href="https://github.com/simonw/llm/releases/tag/0.34"/>
-        <updated>2026-09-08T00:48:14.578Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/llm/releases/tag/0.34">llm 0.34</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>One new feature:</p>
-<blockquote>
-<ul>
-<li><code>llm logs --usage</code> Markdown output now includes the response duration in milliseconds and as a human-readable duration. <code>llm logs --short</code> includes a new <code>duration_ms</code> field. <a href="https://github.com/simonw/llm/issues/1653">#1653</a></li>
-</ul>
-</blockquote>
-<p>Plus several contributed bug fixes, and a significant performance improvement to <code>llm logs</code> thanks to <a href="https://github.com/waveplate">waveplate</a> on GitHub, see also <a href="https://simonwillison.net/2026/Sep/2/llm-openrouter/">llm-openrouter 0.7.1</a>.</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/2/llm/" rel="bookmark">2nd Sep 2026, 7:23 pm</a> · <a href="/tags/llm/">llm</a>
-    </div>
   </div>]]></content>
     </entry>
 </feed>
