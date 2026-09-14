@@ -2,9 +2,111 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-09-14T14:32:49.227Z</updated>
+    <updated>2026-09-14T19:44:39.239Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Upgrading a Locked-Down Linux Fleet with Nothing but kubectl]]></title>
+        <id>https://dev.to/sidharth_cp/upgrading-a-locked-down-linux-fleet-with-nothing-but-kubectl-3d7k</id>
+        <link href="https://dev.to/sidharth_cp/upgrading-a-locked-down-linux-fleet-with-nothing-but-kubectl-3d7k"/>
+        <updated>2026-09-14T18:39:04.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/sidharth_cp/upgrading-a-locked-down-linux-fleet-with-nothing-but-kubectl-3d7k" aria-labelledby="article-link-4652418" class="crayons-story__hidden-navigation-link">Upgrading a Locked-Down Linux Fleet with Nothing but kubectl</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/sidharth_cp" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4117298%2F41526b34-5be0-4044-8597-3c1e0cee6172.png" alt="sidharth_cp profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/sidharth_cp" class="crayons-story__secondary fw-medium m:hidden">
+              Sidharth C P
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4652418" aria-controls="story-author-preview-content-4652418" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Sidharth C P profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Sidharth C P
+                
+                
+              </button>
+              <div id="story-author-preview-content-4652418" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/sidharth_cp" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4117298%2F41526b34-5be0-4044-8597-3c1e0cee6172.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Sidharth C P</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4117298,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Sidharth C P&quot;}" data-fetched="fetched" aria-label="Follow user: Sidharth C P" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="4117298"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/sidharth_cp/upgrading-a-locked-down-linux-fleet-with-nothing-but-kubectl-3d7k" class="crayons-story__tertiary fs-xs"><time datetime="2026-09-14T18:39:04Z" data-localized="true" title="Monday, September 14, 2026 at 6:39:04 PM">Sep 14</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1789411144"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/sidharth_cp/upgrading-a-locked-down-linux-fleet-with-nothing-but-kubectl-3d7k" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3gco4xzo0t0ebgdzbk7c.png" id="article-link-4652418">
+          Upgrading a Locked-Down Linux Fleet with Nothing but kubectl
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 0, 0, 0.10);
+        --tag-prefix: #000000;
+        --tag-bg-hover: rgba(0, 0, 0, 0.10);
+        --tag-prefix-hover: #000000;
+      " href="/t/linux"><span class="crayons-tag__prefix">#</span>linux</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/sidharth_cp/upgrading-a-locked-down-linux-fleet-with-nothing-but-kubectl-3d7k#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Upgrading a Locked-Down Linux Fleet with Nothing but kubectl">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1k2v5q4h76rrduxiw0rpcbbjioqacg0" class="crayons-icon"><title id="a1k2v5q4h76rrduxiw0rpcbbjioqacg0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              1<span class="hidden s:inline">&nbsp;comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cloudflare Just Shipped Post-Quantum at Internet Scale. Do You Need to Change Your Tools?]]></title>
         <id>https://dev.to/devenquan/cloudflare-just-shipped-post-quantum-at-internet-scale-do-you-need-to-change-your-tools-p38</id>
@@ -93,111 +195,9 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/devenquan/cloudflare-just-shipped-post-quantum-at-internet-scale-do-you-need-to-change-your-tools-p38#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Cloudflare Just Shipped Post-Quantum at Internet Scale. Do You Need to Change Your Tools?">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afhrzwjbrm52z3eak4zaz2i7dcw43ta5" class="crayons-icon"><title id="afhrzwjbrm52z3eak4zaz2i7dcw43ta5">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="arzrrk4einic4do1cf33n0t2lf7wkvhj" class="crayons-icon"><title id="arzrrk4einic4do1cf33n0t2lf7wkvhj">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               2<span class="hidden s:inline">&nbsp;comments</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            6 min read
-          </small>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Segurança na AWS Inicia com como criar identidade: IAM, além de usuários e roles.]]></title>
-        <id>https://dev.to/rogeriofontes/seguranca-na-aws-inicia-com-como-criar-identidade-iam-alem-de-usuarios-e-roles-34bm</id>
-        <link href="https://dev.to/rogeriofontes/seguranca-na-aws-inicia-com-como-criar-identidade-iam-alem-de-usuarios-e-roles-34bm"/>
-        <updated>2026-09-14T12:49:28.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/rogeriofontes/seguranca-na-aws-inicia-com-como-criar-identidade-iam-alem-de-usuarios-e-roles-34bm" aria-labelledby="article-link-4649285" class="crayons-story__hidden-navigation-link">Segurança na AWS Inicia com como criar identidade: IAM, além de usuários e roles.</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/rogeriofontes" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1356440%2F90403ea9-3412-4c81-b7d6-45cd15baf0a7.png" alt="rogeriofontes profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/rogeriofontes" class="crayons-story__secondary fw-medium m:hidden">
-              Rogério Fontes
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4649285" aria-controls="story-author-preview-content-4649285" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Rogério Fontes profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Rogério Fontes
-                
-                
-              </button>
-              <div id="story-author-preview-content-4649285" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/rogeriofontes" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1356440%2F90403ea9-3412-4c81-b7d6-45cd15baf0a7.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Rogério Fontes</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:1356440,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Rogério Fontes&quot;}" data-fetched="fetched" aria-label="Follow user: Rogério Fontes" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="1356440"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/rogeriofontes/seguranca-na-aws-inicia-com-como-criar-identidade-iam-alem-de-usuarios-e-roles-34bm" class="crayons-story__tertiary fs-xs"><time datetime="2026-09-14T12:49:28Z" data-localized="true" title="Monday, September 14, 2026 at 12:49:28 PM">Sep 14</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1789390168"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/rogeriofontes/seguranca-na-aws-inicia-com-como-criar-identidade-iam-alem-de-usuarios-e-roles-34bm" data-preload-image="" id="article-link-4649285">
-          Segurança na AWS Inicia com como criar identidade: IAM, além de usuários e roles.
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/iam"><span class="crayons-tag__prefix">#</span>iam</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/zerotrust"><span class="crayons-tag__prefix">#</span>zerotrust</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/rogeriofontes/seguranca-na-aws-inicia-com-como-criar-identidade-iam-alem-de-usuarios-e-roles-34bm#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Segurança na AWS Inicia com como criar identidade: IAM, além de usuários e roles.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1zorxtwpix6ymswoin573vz3jjufs27" class="crayons-icon"><title id="a1zorxtwpix6ymswoin573vz3jjufs27">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
