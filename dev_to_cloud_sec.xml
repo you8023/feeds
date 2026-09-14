@@ -2,7 +2,109 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-09-13T23:31:44.039Z</updated>
+    <updated>2026-09-14T01:32:48.956Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Harden & Lockdown RKE2 Cluster with a 4-Layer DevSecOps Stack]]></title>
+        <id>https://dev.to/ezejioforog/harden-lockdown-rke2-cluster-with-a-4-layer-devsecops-stack-iop</id>
+        <link href="https://dev.to/ezejioforog/harden-lockdown-rke2-cluster-with-a-4-layer-devsecops-stack-iop"/>
+        <updated>2026-09-13T23:56:31.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/ezejioforog/harden-lockdown-rke2-cluster-with-a-4-layer-devsecops-stack-iop" aria-labelledby="article-link-4190147" class="crayons-story__hidden-navigation-link">Harden &amp; Lockdown RKE2 Cluster with a 4-Layer DevSecOps Stack</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/ezejioforog" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F989441%2Fa7a14354-4598-4802-93ab-1a4c95ff90f7.jpeg" alt="ezejioforog profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/ezejioforog" class="crayons-story__secondary fw-medium m:hidden">
+              George Ezejiofor
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4190147" aria-controls="story-author-preview-content-4190147" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="George Ezejiofor profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                George Ezejiofor
+                
+                
+              </button>
+              <div id="story-author-preview-content-4190147" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/ezejioforog" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F989441%2Fa7a14354-4598-4802-93ab-1a4c95ff90f7.jpeg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">George Ezejiofor</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:989441,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;George Ezejiofor&quot;}" data-fetched="fetched" aria-label="Follow user: George Ezejiofor" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="989441"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/ezejioforog/harden-lockdown-rke2-cluster-with-a-4-layer-devsecops-stack-iop" class="crayons-story__tertiary fs-xs"><time datetime="2026-09-13T23:56:31Z" data-localized="true" title="Sunday, September 13, 2026 at 11:56:31 PM">Sep 13</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1789343791"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/ezejioforog/harden-lockdown-rke2-cluster-with-a-4-layer-devsecops-stack-iop" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8sc3q2pp4msm7d1gg82y.gif" id="article-link-4190147">
+          Harden &amp; Lockdown RKE2 Cluster with a 4-Layer DevSecOps Stack
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/devsecops"><span class="crayons-tag__prefix">#</span>devsecops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/ezejioforog/harden-lockdown-rke2-cluster-with-a-4-layer-devsecops-stack-iop#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Harden &amp; Lockdown RKE2 Cluster with a 4-Layer DevSecOps Stack">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2is8qnvdob1lvtsxx3cfrs4dse3jg0y" class="crayons-icon"><title id="a2is8qnvdob1lvtsxx3cfrs4dse3jg0y">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            20 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
 </feed>
