@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-09-16T06:31:03.681Z</updated>
+    <updated>2026-09-16T12:05:46.598Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
-        <title type="html"><![CDATA[An AI Agent Found Admin Access to a $13B Startup in 25 Minutes. Here's the Free Tool It Used, and the Docker Mistake That Made It Possible]]></title>
-        <id>https://dev.to/jamilxt/an-ai-agent-found-admin-access-to-a-13b-startup-in-25-minutes-heres-the-free-tool-it-used-and-337a</id>
-        <link href="https://dev.to/jamilxt/an-ai-agent-found-admin-access-to-a-13b-startup-in-25-minutes-heres-the-free-tool-it-used-and-337a"/>
-        <updated>2026-09-16T03:05:28.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/jamilxt/an-ai-agent-found-admin-access-to-a-13b-startup-in-25-minutes-heres-the-free-tool-it-used-and-337a" aria-labelledby="article-link-4663160" class="crayons-story__hidden-navigation-link">An AI Agent Found Admin Access to a $13B Startup in 25 Minutes. Here's the Free Tool It Used, and the Docker Mistake That Made It Possible</a>
+        <title type="html"><![CDATA[Part 1: Least-privilege Kubernetes, generated from what eBPF saw]]></title>
+        <id>https://dev.to/maheshrayas/part-1-least-privilege-kubernetes-generated-from-what-ebpf-saw-21ma</id>
+        <link href="https://dev.to/maheshrayas/part-1-least-privilege-kubernetes-generated-from-what-ebpf-saw-21ma"/>
+        <updated>2026-09-16T09:37:57.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/maheshrayas/part-1-least-privilege-kubernetes-generated-from-what-ebpf-saw-21ma" aria-labelledby="article-link-4663150" class="crayons-story__hidden-navigation-link">Part 1: Least-privilege Kubernetes, generated from what eBPF saw</a>
 
 
   <div class="crayons-story__body crayons-story__body-full_post">
@@ -18,41 +18,41 @@
       <div class="crayons-story__meta">
         <div class="crayons-story__author-pic">
 
-          <a href="/jamilxt" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F167939%2F60b3c2ea-09de-43fc-9ad4-2487fc12faf2.png" alt="jamilxt profile" class="crayons-avatar__image" loading="lazy">
+          <a href="/maheshrayas" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3324179%2F5559c37b-fa57-4aa0-9e57-c6501cdc2030.jpg" alt="maheshrayas profile" class="crayons-avatar__image" loading="lazy">
           </a>
         </div>
         <div>
           <div>
-            <a href="/jamilxt" class="crayons-story__secondary fw-medium m:hidden">
-              jamilxt
+            <a href="/maheshrayas" class="crayons-story__secondary fw-medium m:hidden">
+              Mahesh Rayas
             </a>
             <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4663160" aria-controls="story-author-preview-content-4663160" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="jamilxt profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                jamilxt
+              <button id="story-author-preview-trigger-4663150" aria-controls="story-author-preview-content-4663150" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Mahesh Rayas profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Mahesh Rayas
                 
                 
               </button>
-              <div id="story-author-preview-content-4663160" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+              <div id="story-author-preview-content-4663150" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
                 <div class="gap-4 grid">
                   <div class="-mt-4">
-                    <a href="/jamilxt" class="flex">
+                    <a href="/maheshrayas" class="flex">
                       <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F167939%2F60b3c2ea-09de-43fc-9ad4-2487fc12faf2.png" class="crayons-avatar__image" alt="" loading="lazy">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3324179%2F5559c37b-fa57-4aa0-9e57-c6501cdc2030.jpg" class="crayons-avatar__image" alt="" loading="lazy">
                       </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">jamilxt</span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Mahesh Rayas</span>
                     </a>
                   </div>
                   <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:167939,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;jamilxt&quot;}" data-fetched="fetched" aria-label="Follow user: jamilxt" aria-pressed="false">Follow</button>
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3324179,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Mahesh Rayas&quot;}" data-fetched="fetched" aria-label="Follow user: Mahesh Rayas" aria-pressed="false">Follow</button>
                   </div>
-                  <div class="author-preview-metadata-container" data-author-id="167939"></div>
+                  <div class="author-preview-metadata-container" data-author-id="3324179"></div>
                 </div>
               </div>
             </div>
 
           </div>
-          <a href="https://dev.to/jamilxt/an-ai-agent-found-admin-access-to-a-13b-startup-in-25-minutes-heres-the-free-tool-it-used-and-337a" class="crayons-story__tertiary fs-xs"><time datetime="2026-09-16T03:05:28Z" data-localized="true" title="Wednesday, September 16, 2026 at 3:05:28 AM">Sep 16</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1789527928"></span></a>
+          <a href="https://dev.to/maheshrayas/part-1-least-privilege-kubernetes-generated-from-what-ebpf-saw-21ma" class="crayons-story__tertiary fs-xs"><time datetime="2026-09-16T09:37:57Z" data-localized="true" title="Wednesday, September 16, 2026 at 9:37:57 AM">Sep 16</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1789551477"></span></a>
         </div>
       </div>
 
@@ -60,8 +60,110 @@
 
     <div class="crayons-story__indention">
       <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/jamilxt/an-ai-agent-found-admin-access-to-a-13b-startup-in-25-minutes-heres-the-free-tool-it-used-and-337a" data-preload-image="" id="article-link-4663160">
-          An AI Agent Found Admin Access to a $13B Startup in 25 Minutes. Here's the Free Tool It Used, and the Docker Mistake That Made It Possible
+        <a href="https://dev.to/maheshrayas/part-1-least-privilege-kubernetes-generated-from-what-ebpf-saw-21ma" data-preload-image="" id="article-link-4663150">
+          Part 1: Least-privilege Kubernetes, generated from what eBPF saw
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/ebpf"><span class="crayons-tag__prefix">#</span>ebpf</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/maheshrayas/part-1-least-privilege-kubernetes-generated-from-what-ebpf-saw-21ma#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Part 1: Least-privilege Kubernetes, generated from what eBPF saw">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="askpnfq3p5l6pjkrylvlg23isjbbkd3g" class="crayons-icon"><title id="askpnfq3p5l6pjkrylvlg23isjbbkd3g">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            10 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Bot Found Admin Access to a $13B Startup's GitHub in 25 Minutes. Here's Exactly How.]]></title>
+        <id>https://dev.to/ashraf_chowdury09/a-bot-found-admin-access-to-a-13b-startups-github-in-25-minutes-heres-exactly-how-40pf</id>
+        <link href="https://dev.to/ashraf_chowdury09/a-bot-found-admin-access-to-a-13b-startups-github-in-25-minutes-heres-exactly-how-40pf"/>
+        <updated>2026-09-16T09:02:47.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/ashraf_chowdury09/a-bot-found-admin-access-to-a-13b-startups-github-in-25-minutes-heres-exactly-how-40pf" aria-labelledby="article-link-4666281" class="crayons-story__hidden-navigation-link">A Bot Found Admin Access to a $13B Startup's GitHub in 25 Minutes. Here's Exactly How.</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/ashraf_chowdury09" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4021599%2Fd99d9b82-ae9c-4b19-bdcb-83dea0d1b1df.jpg" alt="ashraf_chowdury09 profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/ashraf_chowdury09" class="crayons-story__secondary fw-medium m:hidden">
+              Ashraf
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4666281" aria-controls="story-author-preview-content-4666281" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Ashraf profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Ashraf
+                
+                
+              </button>
+              <div id="story-author-preview-content-4666281" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/ashraf_chowdury09" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4021599%2Fd99d9b82-ae9c-4b19-bdcb-83dea0d1b1df.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Ashraf</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4021599,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Ashraf&quot;}" data-fetched="fetched" aria-label="Follow user: Ashraf" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="4021599"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/ashraf_chowdury09/a-bot-found-admin-access-to-a-13b-startups-github-in-25-minutes-heres-exactly-how-40pf" class="crayons-story__tertiary fs-xs"><time datetime="2026-09-16T09:02:47Z" data-localized="true" title="Wednesday, September 16, 2026 at 9:02:47 AM">Sep 16</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1789549367"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/ashraf_chowdury09/a-bot-found-admin-access-to-a-13b-startups-github-in-25-minutes-heres-exactly-how-40pf" data-preload-image="" id="article-link-4666281">
+          A Bot Found Admin Access to a $13B Startup's GitHub in 25 Minutes. Here's Exactly How.
         </a>
       </h2>
         <div class="crayons-story__tags">
@@ -78,29 +180,29 @@
         --tag-prefix-hover: #1D63ED;
       " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
             <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(23, 253, 26, 0.10);
-        --tag-prefix: #17fd1a;
-        --tag-bg-hover: rgba(23, 253, 26, 0.10);
-        --tag-prefix-hover: #17fd1a;
-      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
         --tag-bg: rgba(6, 181, 0, 0.10);
         --tag-prefix: #06B500;
         --tag-bg-hover: rgba(6, 181, 0, 0.10);
         --tag-prefix-hover: #06B500;
       " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(23, 253, 26, 0.10);
+        --tag-prefix: #17fd1a;
+        --tag-bg-hover: rgba(23, 253, 26, 0.10);
+        --tag-prefix-hover: #17fd1a;
+      " href="/t/ai"><span class="crayons-tag__prefix">#</span>ai</a>
         </div>
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
-            <a href="https://dev.to/jamilxt/an-ai-agent-found-admin-access-to-a-13b-startup-in-25-minutes-heres-the-free-tool-it-used-and-337a#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - An AI Agent Found Admin Access to a $13B Startup in 25 Minutes. Here's the Free Tool It Used, and the Docker Mistake That Made It Possible">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aldmcm7ldib3jzuphkqto0w7ch2rg2qr" class="crayons-icon"><title id="aldmcm7ldib3jzuphkqto0w7ch2rg2qr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+            <a href="https://dev.to/ashraf_chowdury09/a-bot-found-admin-access-to-a-13b-startups-github-in-25-minutes-heres-exactly-how-40pf#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - A Bot Found Admin Access to a $13B Startup's GitHub in 25 Minutes. Here's Exactly How.">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ad06yfe5kqjr7sa1hmy84z27i46lozlh" class="crayons-icon"><title id="ad06yfe5kqjr7sa1hmy84z27i46lozlh">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
         </div>
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
-            7 min read
+            4 min read
           </small>
         </div>
       </div>
