@@ -2,9 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-16T12:05:46.813Z</updated>
+    <updated>2026-09-16T17:22:26.088Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder.]]></title>
+        <id>https://simonwillison.net/2026/Sep/16/mustafa-suleyman/</id>
+        <link href="https://simonwillison.net/2026/Sep/16/mustafa-suleyman/"/>
+        <updated>2026-09-16T17:21:40.248Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://mustafa-suleyman.ai/a-warning-about-model-welfare"><p>We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder.</p></blockquote>
+  <p class="cite">— <a href="https://mustafa-suleyman.ai/a-warning-about-model-welfare">Mustafa Suleyman</a>, <span class="context">A warning about ‘model welfare’</span></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Sep/16/mustafa-suleyman/" rel="bookmark">#</a>
+    <a href="/2026/Sep/16/mustafa-suleyman/">4 pm</a>
+     / <a href="/tags/ai-ethics/">ai-ethics</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/microsoft/">microsoft</a>, <a href="/tags/llms/">llms</a>
+  </p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gemini Live audio]]></title>
         <id>https://tools.simonwillison.net/gemini-live</id>
@@ -29,7 +43,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[1]]></title>
+        <title type="html"><![CDATA[2]]></title>
         <id>https://simonwillison.net/2026/Sep/14/influences/</id>
         <link href="https://simonwillison.net/2026/Sep/14/influences/"/>
         <updated>2026-09-14T22:52:44.895Z</updated>
@@ -215,7 +229,7 @@
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[11]]></title>
+        <title type="html"><![CDATA[12]]></title>
         <id>https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/</id>
         <link href="https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/"/>
         <updated>2026-09-11T22:55:50.764Z</updated>
@@ -255,7 +269,7 @@
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[13]]></title>
+        <title type="html"><![CDATA[14]]></title>
         <id>https://simonwillison.net/2026/Sep/11/wrapture/</id>
         <link href="https://simonwillison.net/2026/Sep/11/wrapture/"/>
         <updated>2026-09-11T16:51:47.352Z</updated>
@@ -494,25 +508,5 @@ At the same time, even with the uncertainty that comes from anticipated broad AI
     <a href="/2026/Sep/7/jakub-pachocki/">10:26 pm</a>
      / <a href="/tags/ai-ethics/">ai-ethics</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/ai/">ai</a>
   </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Video compressor]]></title>
-        <id>https://tools.simonwillison.net/video-compressor</id>
-        <link href="https://tools.simonwillison.net/video-compressor"/>
-        <updated>2026-09-07T21:53:27.525Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label tool" href="/elsewhere/tool/">Tool</a>
-      
-      <span class="beat-title"><a href="https://tools.simonwillison.net/video-compressor">Video compressor</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>I recorded a short demo video of <a href="https://simonwillison.net/2026/Sep/7/equal-earth/">my Equal Earth</a> animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web <a href="https://claude.ai/code/session_01QHTdJZ4xg6TZfDXCmuvAE9">build me this tool</a> using the WebAssembly build of FFMPEG.</p>
-<p><img alt="Screenshot of a video compression web tool. Under &quot;Versions to generate&quot; is a table of five presets (Largest, Large, Medium, Small, Smallest) with output sizes of 854×370 or 640×276, CRF quality settings from 22 to 28, and audio bitrates from 128 to 64 kbps, plus options for encoder speed, H.264 profile, 30 fps limit, stripping metadata, dropping audio, and encoding only the first 10 seconds. A green &quot;Generate versions&quot; button reads &quot;Done: 5 versions in 11.8s.&quot; Below, &quot;Results, smallest first&quot; shows three video players: Smallest at 145 KB (48% of original), Medium at 241 KB (79%), and Small at 264 KB (87%), each with a Download .mp4 button and a collapsible ffmpeg command." src="https://static.simonwillison.net/static/2026-09-07/video-compressor.webp"></p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/7/video-compressor/" rel="bookmark">7th Sep 2026, 6:29 pm</a> · <a href="/tags/claude/">claude</a>, <a href="/tags/claude-code/">claude-code</a>, <a href="/tags/claude-mythos-fable/">claude-mythos-fable</a>, <a href="/tags/ffmpeg/">ffmpeg</a>, <a href="/tags/video/">video</a>, <a href="/tags/webassembly/">webassembly</a>
-    </div>
-  </div>]]></content>
     </entry>
 </feed>
