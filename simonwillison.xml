@@ -2,11 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-15T21:45:31.146Z</updated>
+    <updated>2026-09-16T00:50:17.159Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[0]]></title>
+        <title type="html"><![CDATA[Gemini Live audio]]></title>
+        <id>https://tools.simonwillison.net/gemini-live</id>
+        <link href="https://tools.simonwillison.net/gemini-live"/>
+        <updated>2026-09-16T00:48:51.432Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label tool" href="/elsewhere/tool/">Tool</a>
+      
+      <span class="beat-title"><a href="https://tools.simonwillison.net/gemini-live">Gemini Live audio</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>Google released <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/">Gemini 3.8 Live and 3.8 Live Extended Thinking</a> today - two new speech-to-speech models that are a similar shape to OpenAI's <a href="https://openai.com/index/introducing-gpt-live/">GPT-Live</a> family.</p>
+<p>I pointed GPT-6 Astra Extra High at the documentation and <a href="https://gist.github.com/simonw/067b7430c5b1f743af9419b0184c38ef">had it build me this web UI</a> for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking.</p>
+<p><img alt="Screenshot of a voice chat web interface with a transcript. Top buttons: Start session, End session, Mute mic, plus a Mic level meter and a timer showing 0:33. Status: Listening. Use headphones to reduce echo. Starting a session asks for microphone access. Transcript (with Download transcript and Clear buttons). Gemini: Yes, it's working perfectly. I can hear you clearly. How can I help you today? You: Okay, this is pretty good. Tell me some interesting facts about the California brown pelican. Gemini: They're famous for their spectacular plunge-dives to catch fish and have huge throat pouches that can hold up to three gallons of water and fish. They also made a great recovery after being endangered — marked as Interrupted. You: No, tell me different facts actually. Gemini: They nest in colonies on offshore islands and can hold up to three gallons of water in their throat pouches. At the bottom is a text input reading Or type a message… with a Send button, and the note: Sending a message interrupts the current response. Transcripts may include speech interrupted before playback." src="https://static.simonwillison.net/static/2026/gemini-live-tool.webp"></p>
+<p>The <a href="https://github.com/simonw/tools/blob/main/gemini-live.html">implementation</a> uses no libraries. It connects to the <code>wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=...</code> WebSocket endpoint and uses a Web Audio API <code>AudioContext</code> for both capture and playback.</p>
+<p>Here's <a href="https://ai.google.dev/gemini-api/docs/live-api/get-started-websocket">the Gemini Live tutorial</a> for getting started with that WebSockets API.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/15/gemini-live/" rel="bookmark">15th Sep 2026, 10:47 pm</a> · <a href="/tags/llm-release/">llm-release</a>, <a href="/tags/gemini/">gemini</a>, <a href="/tags/tools/">tools</a>, <a href="/tags/speech-to-text/">speech-to-text</a>, <a href="/tags/google/">google</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/websockets/">websockets</a>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1]]></title>
         <id>https://simonwillison.net/2026/Sep/14/influences/</id>
         <link href="https://simonwillison.net/2026/Sep/14/influences/"/>
         <updated>2026-09-14T22:52:44.895Z</updated>
@@ -192,7 +215,7 @@
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[10]]></title>
+        <title type="html"><![CDATA[11]]></title>
         <id>https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/</id>
         <link href="https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/"/>
         <updated>2026-09-11T22:55:50.764Z</updated>
@@ -232,7 +255,7 @@
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[12]]></title>
+        <title type="html"><![CDATA[13]]></title>
         <id>https://simonwillison.net/2026/Sep/11/wrapture/</id>
         <link href="https://simonwillison.net/2026/Sep/11/wrapture/"/>
         <updated>2026-09-11T16:51:47.352Z</updated>
@@ -489,28 +512,6 @@ At the same time, even with the uncertainty that comes from anticipated broad AI
 <p><img alt="Screenshot of a video compression web tool. Under &quot;Versions to generate&quot; is a table of five presets (Largest, Large, Medium, Small, Smallest) with output sizes of 854×370 or 640×276, CRF quality settings from 22 to 28, and audio bitrates from 128 to 64 kbps, plus options for encoder speed, H.264 profile, 30 fps limit, stripping metadata, dropping audio, and encoding only the first 10 seconds. A green &quot;Generate versions&quot; button reads &quot;Done: 5 versions in 11.8s.&quot; Below, &quot;Results, smallest first&quot; shows three video players: Smallest at 145 KB (48% of original), Medium at 241 KB (79%), and Small at 264 KB (87%), each with a Download .mp4 button and a collapsible ffmpeg command." src="https://static.simonwillison.net/static/2026-09-07/video-compressor.webp"></p></div>
     <div class="beat-meta beat-row2">
       <a href="/2026/Sep/7/video-compressor/" rel="bookmark">7th Sep 2026, 6:29 pm</a> · <a href="/tags/claude/">claude</a>, <a href="/tags/claude-code/">claude-code</a>, <a href="/tags/claude-mythos-fable/">claude-mythos-fable</a>, <a href="/tags/ffmpeg/">ffmpeg</a>, <a href="/tags/video/">video</a>, <a href="/tags/webassembly/">webassembly</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mercator ↔ Equal Earth]]></title>
-        <id>https://tools.simonwillison.net/equal-earth</id>
-        <link href="https://tools.simonwillison.net/equal-earth"/>
-        <updated>2026-09-07T21:53:27.525Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label tool" href="/elsewhere/tool/">Tool</a>
-      
-      <span class="beat-title"><a href="https://tools.simonwillison.net/equal-earth">Mercator ↔ Equal Earth</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>I got curious about the Equal Earth map projection that was recently <a href="https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa">voted on at the UN</a> so I had GPT-6 Astra (medium) in ChatGPT Work <a href="https://chatgpt.com/share/6a9ee520-c82c-83ea-8111-2f7050c08638">build me</a> this animated transition between Mercator and Equal Earth using D3.</p>
-<center><video controls="" playsinline="" preload="none" width="360" height="476" poster="https://static.simonwillison.net/static/2026-09-07/equal-earth.jpg">
-  <source src="https://static.simonwillison.net/static/2026-09-07/equal-earth-medium.mp4" type="video/mp4">
-</video></center></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/7/equal-earth/" rel="bookmark">7th Sep 2026, 4:24 pm</a> · <a href="/tags/gpt-6-astra/">gpt-6-astra</a>, <a href="/tags/d3/">d3</a>, <a href="/tags/geospatial/">geospatial</a>, <a href="/tags/vibe-coding/">vibe-coding</a>
     </div>
   </div>]]></content>
     </entry>
