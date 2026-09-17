@@ -2,9 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-16T23:20:07.716Z</updated>
+    <updated>2026-09-17T01:47:32.482Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a40]]></title>
+        <id>https://github.com/simonw/datasette/releases/tag/1.0a40</id>
+        <link href="https://github.com/simonw/datasette/releases/tag/1.0a40"/>
+        <updated>2026-09-17T01:46:09.416Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/datasette/releases/tag/1.0a40">datasette 1.0a40</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>Same security fix as <a href="https://simonwillison.net/2026/Sep/16/datasette-2/">0.65.5</a>, plus some neat new features and bug fixes:</p>
+<ul>
+<li>Plugins can now launch and manage <strong>background tasks</strong> using the new <a href="https://docs.datasette.io/en/latest/internals.html#datasette-add-background-task">datasette.add_background_task()</a> method. Thanks, <a href="https://alexgarcia.xyz/">Alex Garcia</a>.</li>
+<li>I've migrated Datasette to <a href="https://github.com/pydantic/httpx2">httpx2</a> for features like the internal <code>datasette.client.get()</code> method.</li>
+<li>A whole lot of <a href="https://docs.datasette.io/en/latest/changelog.html#a40-2026-09-16">bug fixes</a>, many of them stemming from a recent effort to triage issues for a 1.0 stable release.</li>
+</ul></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/16/datasette/" rel="bookmark">16th Sep 2026, 11:51 pm</a> · <a href="/tags/security/">security</a>, <a href="/tags/datasette/">datasette</a>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 0.65.5]]></title>
+        <id>https://github.com/simonw/datasette/releases/tag/0.65.5</id>
+        <link href="https://github.com/simonw/datasette/releases/tag/0.65.5"/>
+        <updated>2026-09-17T01:46:09.417Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/datasette/releases/tag/0.65.5">datasette 0.65.5</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by <a href="https://github.com/dpfkdlemtp">dpfkdlemtp</a> in <a href="https://github.com/simonw/datasette/security/advisories/GHSA-h547-rmjf-5m2m">GHSA-h547-rmjf-5m2m</a>.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/16/datasette-2/" rel="bookmark">16th Sep 2026, 11:51 pm</a> · <a href="/tags/security/">security</a>, <a href="/tags/datasette/">datasette</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder.]]></title>
         <id>https://simonwillison.net/2026/Sep/16/mustafa-suleyman/</id>
@@ -43,7 +86,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2]]></title>
+        <title type="html"><![CDATA[4]]></title>
         <id>https://simonwillison.net/2026/Sep/14/influences/</id>
         <link href="https://simonwillison.net/2026/Sep/14/influences/"/>
         <updated>2026-09-14T22:52:44.895Z</updated>
@@ -229,7 +272,7 @@
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[12]]></title>
+        <title type="html"><![CDATA[14]]></title>
         <id>https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/</id>
         <link href="https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/"/>
         <updated>2026-09-11T22:55:50.764Z</updated>
@@ -269,7 +312,7 @@
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[14]]></title>
+        <title type="html"><![CDATA[16]]></title>
         <id>https://simonwillison.net/2026/Sep/11/wrapture/</id>
         <link href="https://simonwillison.net/2026/Sep/11/wrapture/"/>
         <updated>2026-09-11T16:51:47.352Z</updated>
@@ -466,29 +509,6 @@ We have now seen that even the rumor of someone working on a problem can trigger
   <p></p>
   <div class="entryFooter">
   <a href="/2026/Sep/8/on-navier-stokes/" title="Permalink for &quot;Some thoughts on the Navier–Stokes Millennium Prize Problem&quot;">11:55 pm</a> / <a href="/tags/mathematics/">mathematics</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/training-data/">training-data</a>, <a href="/tags/ai-ethics/">ai-ethics</a>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm 0.35]]></title>
-        <id>https://github.com/simonw/llm/releases/tag/0.35</id>
-        <link href="https://github.com/simonw/llm/releases/tag/0.35"/>
-        <updated>2026-09-08T06:21:47.433Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/llm/releases/tag/0.35">llm 0.35</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><blockquote>
-<ul>
-<li>New OpenAI model: <code>gpt-6-astra</code> for <a href="https://openai.com/index/gpt-6-astra/">GPT-6 Astra</a>.</li>
-</ul>
-</blockquote></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/7/llm/" rel="bookmark">7th Sep 2026, 11:54 pm</a> · <a href="/tags/gpt-6-astra/">gpt-6-astra</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/llm/">llm</a>
-    </div>
   </div>]]></content>
     </entry>
 </feed>
