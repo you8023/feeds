@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://devtocash.com/blog</id>
     <title>DevToCash</title>
-    <updated>2026-09-19T14:49:29.550Z</updated>
+    <updated>2026-09-19T18:21:50.727Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://devtocash.com/favicon.svg</icon>
     <entry>
@@ -11,6 +11,13 @@
         <link href="https://devtocash.com/blog/2026-09-19-ai-agent-sandbox-kubernetes-gvisor-code-execution"/>
         <updated>2026-09-19T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<div class="flex-1 flex flex-col gap-2.5"><div class="flex items-center gap-2.5 flex-wrap"><span class="text-xs font-semibold uppercase tracking-wider px-2.5 py-0.5 rounded-full border text-blue-400 bg-blue-400/10 border-blue-400/20">devops</span><span class="w-1 h-1 rounded-full bg-slate-600"></span><span class="text-xs text-slate-500">Sep 19, 2026</span><span class="w-1 h-1 rounded-full bg-slate-600"></span><span class="text-xs text-slate-500">12 min read</span></div><h3 class="text-base font-semibold text-white group-hover:text-emerald-400 transition-colors duration-200 leading-snug">AI Agent Sandbox on Kubernetes: Run LLM-Written Code in gVisor Jobs with No Network and No Credentials</h3><p class="text-sm text-slate-400 leading-relaxed line-clamp-2">Build an AI agent sandbox on Kubernetes: run LLM-written scripts in ephemeral gVisor Jobs with no credentials, default-deny egress, hard timeouts, and quotas.</p></div><div class="hidden sm:flex items-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#34d399" class="w-5 h-5"><path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"></path></svg></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cosign Keyless Signing in GitHub Actions: Sign Images, Attest SBOMs, and Enforce It with Kyverno]]></title>
+        <id>https://devtocash.com/blog/2026-09-19-cosign-keyless-signing-github-actions-sbom-kyverno-verify</id>
+        <link href="https://devtocash.com/blog/2026-09-19-cosign-keyless-signing-github-actions-sbom-kyverno-verify"/>
+        <updated>2026-09-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<div class="flex-1 flex flex-col gap-2.5"><div class="flex items-center gap-2.5 flex-wrap"><span class="text-xs font-semibold uppercase tracking-wider px-2.5 py-0.5 rounded-full border text-blue-400 bg-blue-400/10 border-blue-400/20">devops</span><span class="w-1 h-1 rounded-full bg-slate-600"></span><span class="text-xs text-slate-500">Sep 19, 2026</span><span class="w-1 h-1 rounded-full bg-slate-600"></span><span class="text-xs text-slate-500">10 min read</span></div><h3 class="text-base font-semibold text-white group-hover:text-emerald-400 transition-colors duration-200 leading-snug">Cosign Keyless Signing in GitHub Actions: Sign Images, Attest SBOMs, and Enforce It with Kyverno</h3><p class="text-sm text-slate-400 leading-relaxed line-clamp-2">Cosign keyless signing in GitHub Actions, end to end: sign images by digest, attach SBOM attestations, and enforce verification at admission with Kyverno.</p></div><div class="hidden sm:flex items-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#34d399" class="w-5 h-5"><path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"></path></svg></div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Kubernetes Pod Stuck in ContainerCreating (FailedCreatePodSandBox): How to Fix It]]></title>
