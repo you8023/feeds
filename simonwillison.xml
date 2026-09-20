@@ -2,9 +2,78 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-20T19:50:18.426Z</updated>
+    <updated>2026-09-20T22:47:54.038Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude.]]></title>
+        <id>https://simonwillison.net/2026/Sep/20/voxium/</id>
+        <link href="https://simonwillison.net/2026/Sep/20/voxium/"/>
+        <updated>2026-09-20T22:46:33.881Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://twitter.com/v0xium/status/2101526107128529120"><p>It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude.</p></blockquote>
+  <p class="cite">— <a href="https://twitter.com/v0xium/status/2101526107128529120">voxium</a></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Sep/20/voxium/" rel="bookmark">#</a>
+    <a href="/2026/Sep/20/voxium/">9:06 pm</a>
+     / <a href="/tags/ai-misuse/">ai-misuse</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/generative-ai/">generative-ai</a>
+  </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-keys-ui 0.1]]></title>
+        <id>https://github.com/simonw/llm-keys-ui/releases/tag/0.1</id>
+        <link href="https://github.com/simonw/llm-keys-ui/releases/tag/0.1"/>
+        <updated>2026-09-20T22:46:33.882Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/llm-keys-ui/releases/tag/0.1">llm-keys-ui 0.1</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>This plugin solves a very specific problem.</p>
+<p>I've started using <a href="https://learn.chatgpt.com/docs/remote">Codex Remote</a> to run coding agents on various machines while controlling them from my phone. </p>
+<p>Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key.</p>
+<p>I don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly.</p>
+<p>With this plugin, I can tell Codex to run:</p>
+<pre><code>uvx --with llm-keys-ui llm keys-ui --all
+</code></pre>
+<p>Then have it tell me the URL - including local network or Tailscale device IPs - for an interface to save additional API keys.</p>
+<p>Then later it can use a command like <code>llm keys get anthropic</code> as part of a shell command when it needs to use a key.</p>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; align-items: start; width: 100%;">
+  <img src="https://static.simonwillison.net/static/2026-09-20/IMG_8166.jpeg" alt="Chat conversation requesting uvx --with llm-keys-ui llm keys-ui --all, with a response listing four server URLs on port 8010 and confirming the server is still running." style="display: block; width: 100%; height: auto;">
+  <img src="https://static.simonwillison.net/static/2026-09-20/IMG_8167.jpeg" alt="LLM keys web interface listing anthropic, openai, openrouter, and qwen-dummy as stored keys, with a form containing Key name and New value fields and a Save key button. Existing key values are never displayed." style="display: block; width: 100%; height: auto;">
+</div></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/20/llm-keys-ui/" rel="bookmark">20th Sep 2026, 7:22 pm</a> · <a href="/tags/llm/">llm</a>, <a href="/tags/codex/">codex</a>, <a href="/tags/coding-agents/">coding-agents</a>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-explain 0.2.2]]></title>
+        <id>https://github.com/simonw/datasette-explain/releases/tag/0.2.2</id>
+        <link href="https://github.com/simonw/datasette-explain/releases/tag/0.2.2"/>
+        <updated>2026-09-20T22:46:33.887Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/datasette-explain/releases/tag/0.2.2">datasette-explain 0.2.2</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><blockquote>
+<ul>
+<li>Explain plans now work on read-only stored-query pages.</li>
+</ul>
+</blockquote>
+<p>I upgraded <a href="https://datasette.simonwillison.net">datasette.simonwillison.net</a> to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/20/datasette-explain/" rel="bookmark">20th Sep 2026, 12:22 am</a> · <a href="/tags/datasette/">datasette</a>, <a href="/tags/sqlite/">sqlite</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[datasette-auth-github 1.0]]></title>
         <id>https://github.com/simonw/datasette-auth-github/releases/tag/1.0</id>
@@ -66,7 +135,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[3]]></title>
+        <title type="html"><![CDATA[6]]></title>
         <id>https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/</id>
         <link href="https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/"/>
         <updated>2026-09-18T20:01:24.024Z</updated>
@@ -182,7 +251,7 @@ You can see the source for the mod here!]]></title>
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[9]]></title>
+        <title type="html"><![CDATA[12]]></title>
         <id>https://simonwillison.net/2026/Sep/14/influences/</id>
         <link href="https://simonwillison.net/2026/Sep/14/influences/"/>
         <updated>2026-09-14T22:52:44.895Z</updated>
@@ -368,7 +437,7 @@ You can see the source for the mod here!]]></title>
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[19]]></title>
+        <title type="html"><![CDATA[22]]></title>
         <id>https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/</id>
         <link href="https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/"/>
         <updated>2026-09-11T22:55:50.764Z</updated>
@@ -406,59 +475,5 @@ You can see the source for the mod here!]]></title>
     <a href="/2026/Sep/11/hugging-face-security/">4:04 pm</a>
      / <a href="/tags/ai-security-research/">ai-security-research</a>, <a href="/tags/security/">security</a>, <a href="/tags/hugging-face/">hugging-face</a>, <a href="/tags/openai-hugging-face-incident/">openai-hugging-face-incident</a>, <a href="/tags/accidental-cyberattacks/">accidental-cyberattacks</a>
   </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[21]]></title>
-        <id>https://simonwillison.net/2026/Sep/11/wrapture/</id>
-        <link href="https://simonwillison.net/2026/Sep/11/wrapture/"/>
-        <updated>2026-09-11T16:51:47.352Z</updated>
-        <content type="html"><![CDATA[<p>Graham Dumpleton's new monkey patching package <a href="https://wrapture.readthedocs.io/">wrapture</a> is shaping up to be an indispensable tool for Python developers. I'm not sure why I've seen so little buzz about it!</p>
-<p>Graham has been posting new tutorials for it almost daily since <a href="https://simonwillison.net/2026/Aug/31/introducing-wrapture/">the initial release</a> on August 31st. Here's everything he's published so far:</p>
-<ul>
-<li><a href="https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/">Introducing wrapture</a> - a new monkey patching library that serves both testing and observability (think New Relic style tracing) at the same time.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/unit-testing-with-wrapture/">Unit testing with wrapture</a> - how to use it for the same kinds of thing as <code>unittest.mock</code>.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/recording-calls-with-wrapture/">Recording calls with wrapture</a>  - recording method calls as timelines and processing and displaying them as trees.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/phased-behaviour-in-wrapture/">Phased behaviour in wrapture</a>  - arranging patched methods to change behavior across multiple calls.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/beyond-callables-in-wrapture/">Beyond callables in wrapture</a> - monkey patching attributes, dictionaries, generators.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/live-tracing-with-wrapture/">Live tracing with wrapture</a>  - tracing a live application to see exactly how it works.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/zero-code-tracing-with-wrapture/">Zero-code tracing with wrapture</a>  - configuring tracing in a separate TOML file without modifying Python code at all.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/tracing-flask-with-wrapture/">Tracing Flask with wrapture</a>  - using the separate <a href="https://github.com/GrahamDumpleton/wrapture-instrumentation">wrapture-instrumenation</a> package to instrument a Flask application. That package also provides instrumentation for <code>aiohttp.client</code>, <code>aiohttp.web</code>, <code>django</code>, <code>fastapi</code>, <code>flask</code>, <code>grpc</code>, <code>http.client</code>, <code>httpx</code>, <code>jinja2</code>, <code>requests</code>, <code>sqlalchemy</code>, <code>sqlite3</code>, <code>starlette</code>, <code>urllib.request</code>, <code>urllib3</code>, <code>uvicorn</code>, <code>werkzeug.serving</code>, <code>wsgiref.simple_server</code>, <code>xmlrpc.client</code>, <code>xmlrpc.server</code>.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/">Finding slow code with wrapture</a> - wrapture's tools for recording timing information, both individually and aggregated across multiple calls.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/opentelemetry-export-in-wrapture/">OpenTelemetry export in wrapture</a> - exporting traces to OpenTelemetry.</li>
-</ul>
-<p>Graham also has a <a href="https://github.com/GrahamDumpleton/wrapture-workshops">set of interactive workshops</a> for wrapture, implemented as JupyterLab notebooks.</p>
-<p>Wrapture is still alpha software but it's already very usable - especially given you can configure and try it out with a TOML file without modifying any Python code at all.</p>
-<p>This feels like one of those Swiss Army Knife packages that, once mastered, will provide value against all sorts of problems for years to come.</p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Sep/11/wrapture/" rel="bookmark">#</a>
-    <a href="/2026/Sep/11/wrapture/">1:51 pm</a>
-     / <a href="/tags/graham-dumpleton/">graham-dumpleton</a>, <a href="/tags/open-source/">open-source</a>, <a href="/tags/testing/">testing</a>, <a href="/tags/python/">python</a>, <a href="/tags/observability/">observability</a>, <a href="/tags/monkey-patching/">monkey-patching</a>
-  </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-publish-fly 1.4]]></title>
-        <id>https://github.com/simonw/datasette-publish-fly/releases/tag/1.4</id>
-        <link href="https://github.com/simonw/datasette-publish-fly/releases/tag/1.4"/>
-        <updated>2026-09-12T01:33:43.283Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/datasette-publish-fly/releases/tag/1.4">datasette-publish-fly 1.4</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><blockquote>
-<ul>
-<li>Sets <code>force_https=true</code> in <code>fly.toml</code>. <a href="https://github.com/simonw/datasette-publish-fly/issues/31">#31</a></li>
-<li>Fix for Volume could not be found bug. <a href="https://github.com/simonw/datasette-publish-fly/issues/32">#32</a></li>
-<li>Compatible with app-scoped deploy tokens. <a href="https://github.com/simonw/datasette-publish-fly/issues/34">#34</a></li>
-</ul>
-</blockquote></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/11/datasette-publish-fly/" rel="bookmark">11th Sep 2026, 2:58 am</a> · <a href="/tags/fly/">fly</a>, <a href="/tags/datasette/">datasette</a>
-    </div>
-  </div>]]></content>
     </entry>
 </feed>
