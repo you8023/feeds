@@ -1,0 +1,30 @@
+# 官方 RSS 源记录（站点自带 RSS，本项目不爬取生成，第二部分直接订阅 rss 地址）
+#
+# 格式（每个站点一段）:
+#   url = 页面/书签 URL（用于书签归档匹配）
+#   rss = 官方 RSS 地址（folo-subscribe 订阅用）
+#
+# 登记要求（见 rss-feed-finder「第 0.5 步」）：必须用
+#   node .agents/skills/rss-feed-finder/scripts/find_official_rss.mjs <页面URL>
+# 核实过 feed 与页面文章对应、且页面最新文章已在 feed 中（VERDICT: 可用）；
+# 对不上 / 更新滞后 / 无法核实的一律走 feeds.toml 爬取流程，不要登记到这里。
+
+[quirso_de]
+title = "QUIRSO GmbH – Medium"
+url = "https://medium.com/@quirso_de"
+rss = "https://medium.com/feed/@quirso_de"
+
+[dbgman]
+title = "DbgMan"
+url = "https://0xdbgman.github.io/"
+rss = "https://0xdbgman.github.io/feed"
+
+[muellermh]
+title = "Manuel Müller – Gedanken, Visionen und sonstiges Zeug"
+url = "https://muellermh.blog/"
+rss = "https://muellermh.blog/feed/"
+
+[accomplish]
+title = "Accomplish Blog"
+url = "https://www.accomplish.ai/blog/"
+rss = "https://accomplish.ai/blog/rss.xml"
