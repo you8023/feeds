@@ -2010,3 +2010,68 @@ titleSelector = "[fs-list-field='title']"
 linkSelector = "a.all-blogs_item"
 dateSelector = "[mirror-value-identifier='publish-date']"
 dateFormat = "MMMM d, yyyy"
+
+[act_security_research]
+title = "Act Security — Research"
+url = "https://act.security/resources?resources-category=research"
+# 分类过滤由页面前端 JS（Finsweet List）完成，需等 load 事件后再抓取；
+# matchOneOf 作为兜底，保证即使 JS 过滤未生效也只保留 Research 分类条目。
+waitUntil = "load"
+timeout = 120
+matchOneOf = ['fs-list-field="category">Research']
+entrySelector = "div.resources_list-item:not(.is-featured)"
+titleSelector = "h3"
+linkSelector = "a.link_abs"
+dateSelector = "div[fs-list-field='date']"
+dateFormat = "MMMM d, yyyy"
+
+[act_security_blog]
+title = "Act Security — Blog"
+url = "https://act.security/resources?resources-category=blog"
+# 同上：load 后抓取 + matchOneOf 兜底，避免抓到 News/Webinars 等其它分类条目。
+waitUntil = "load"
+timeout = 120
+matchOneOf = ['fs-list-field="category">Blog']
+entrySelector = "div.resources_list-item:not(.is-featured)"
+titleSelector = "h3"
+linkSelector = "a.link_abs"
+dateSelector = "div[fs-list-field='date']"
+dateFormat = "MMMM d, yyyy"
+
+[quirso_de]
+title = "QUIRSO GmbH – Medium"
+url = "https://medium.com/@quirso_de"
+# Medium 页面套 Cloudflare 托管控件，抓取会被间歇性拦下（拦下时条目数为 0）。
+# 不用 waitForSelector 做门控：30s 超时会直接导致抓取失败、发布缺失；
+# 不加门控则拦下时生成空 feed（流水线认可空 feed，后续运行时自动补上内容）。
+timeout = 240
+entrySelector = "article[data-testid='post-preview']"
+titleSelector = "h2"
+linkSelector = "a[href^='/@quirso_de/']"
+dateSelector = "p > span"
+dateFormat = "MMM d"
+
+[dbgman]
+title = "DbgMan"
+url = "https://0xdbgman.github.io/"
+entrySelector = "article.card-wrapper"
+titleSelector = "h1.card-title"
+linkSelector = "a.post-preview"
+dateSelector = "time"
+dateFormat = "MMM d, yyyy"
+
+[muellermh]
+title = "Manuel Müller – Gedanken, Visionen und sonstiges Zeug"
+url = "https://muellermh.blog/"
+entrySelector = "li.wp-block-post"
+titleSelector = "h2.wp-block-post-title"
+linkSelector = "h2.wp-block-post-title > a"
+dateSelector = "time[datetime]"
+
+[accomplish]
+title = "Accomplish Blog"
+url = "https://www.accomplish.ai/blog/"
+entrySelector = "article.card"
+titleSelector = "h2.title"
+linkSelector = "a.title-link"
+dateSelector = "time[datetime]"
