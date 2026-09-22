@@ -2,9 +2,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-22T13:46:24.566Z</updated>
+    <updated>2026-09-22T18:26:41.357Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of "it's not X, it's Y", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.
+It's the lack of anything. It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about.]]></title>
+        <id>https://simonwillison.net/2026/Sep/22/therealcornpop/</id>
+        <link href="https://simonwillison.net/2026/Sep/22/therealcornpop/"/>
+        <updated>2026-09-22T18:24:58.908Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://www.tiktok.com/@therealcornpop/video/7687243097801051422"><p>Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of "it's not X, it's Y", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.</p>
+<p>It's the lack of <em>anything</em>. It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about.</p></blockquote>
+  <p class="cite">— <a href="https://www.tiktok.com/@therealcornpop/video/7687243097801051422">@therealcornpop</a>, <span class="context">on TikTok</span></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Sep/22/therealcornpop/" rel="bookmark">#</a>
+    <a href="/2026/Sep/22/therealcornpop/">6:03 pm</a>
+     / <a href="/tags/tiktok/">tiktok</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/ai-misuse/">ai-misuse</a>
+  </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-typesafe 0.1a0]]></title>
+        <id>https://github.com/simonw/llm-typesafe/releases/tag/0.1a0</id>
+        <link href="https://github.com/simonw/llm-typesafe/releases/tag/0.1a0"/>
+        <updated>2026-09-22T18:24:58.908Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/llm-typesafe/releases/tag/0.1a0">llm-typesafe 0.1a0</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>I built this new plugin for <a href="https://llm.datasette.io/">LLM</a> to add support for <a href="https://simonwillison.net/2026/Sep/21/jev/">TypeSafe AI's new Jev model</a>. Install it like this:</p>
+<pre><code>llm install llm-typesafe
+</code></pre>
+<p>Then set an API key (<a href="https://console.typesafe.ai/">get one here</a>, the waitlist seems to move pretty fast):</p>
+<pre><code>llm keys set typesafe
+# Paste key
+</code></pre>
+<p>And now you can ask yes/no "noul" questions like this:</p>
+<pre><code>llm -m jev 'Please refund my last payment.' \
+  -s 'Does this message explicitly request a refund?'
+</code></pre>
+<p>Output:</p>
+<pre><code>{"type": "noul", "noul": 0.99}
+</code></pre>
+<p>Or choice questions like this:</p>
+<div class="highlight highlight-source-shell"><pre>cat message.txt <span class="pl-k">|</span> llm -m jev \
+  -s <span class="pl-s"><span class="pl-pds">'</span>Which team should handle this message? If billing and technical issues both occur, choose billing.<span class="pl-pds">'</span></span> \
+  -o answer_type choice \
+  -o criteria <span class="pl-s"><span class="pl-pds">'</span>{</span>
+<span class="pl-s">    "billing":"Charges, invoices, payments, or refunds",</span>
+<span class="pl-s">    "technical":"Problems installing or using the product",</span>
+<span class="pl-s">    "other":"Neither category fits"</span>
+<span class="pl-s">  }<span class="pl-pds">'</span></span></pre></div>
+<p>Or scoring questions like this:</p>
+<div class="highlight highlight-source-shell"><pre>cat report.txt <span class="pl-k">|</span> llm -m jev \
+  -s <span class="pl-s"><span class="pl-pds">'</span>How reproducible is the problem described in this report?<span class="pl-pds">'</span></span> \
+  -o answer_type score \
+  -o criteria <span class="pl-s"><span class="pl-pds">'</span>[</span>
+<span class="pl-s">    "No reproduction instructions",</span>
+<span class="pl-s">    "Some instructions, but important steps are missing",</span>
+<span class="pl-s">    "Complete steps with expected and actual results"</span>
+<span class="pl-s">  ]<span class="pl-pds">'</span></span></pre></div>
+<p>See <a href="https://github.com/simonw/llm-typesafe/blob/main/README.md">the README</a> for more details.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/22/llm-typesafe/" rel="bookmark">22nd Sep 2026, 3:54 pm</a> · <a href="/tags/projects/">projects</a>, <a href="/tags/llm/">llm</a>, <a href="/tags/jev/">jev</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Jev introduces a new shape of LLM—System One, aka Decision Models]]></title>
         <id>https://simonwillison.net/2026/Sep/21/jev/</id>
@@ -15,10 +82,10 @@
   <p>
     </p><p>Last week <a href="https://typesafe.ai/">TypeSafe AI</a> unveiled <a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">Jev</a>, their first example of a new category of model that they are calling “System One models” (I’m with Maggie Appleton, I think “decision models” is <a href="https://twitter.com/Mappletons/status/2101560333441610133">a better name</a> for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers corresponding to categories, yes/no questions, ratings, and associated confidence scores.</p>
 
-    <span style="font-size: 0.9em">[... <a href="/2026/Sep/21/jev/">889 words</a>]</span>
+    <span style="font-size: 0.9em">[... <a href="/2026/Sep/21/jev/">914 words</a>]</span>
   <p></p>
   <div class="entryFooter">
-  <a href="/2026/Sep/21/jev/" title="Permalink for &quot;Jev introduces a new shape of LLM - System One, aka Decision Models&quot;">11:09 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>
+  <a href="/2026/Sep/21/jev/" title="Permalink for &quot;Jev introduces a new shape of LLM - System One, aka Decision Models&quot;">11:09 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/evals/">evals</a>, <a href="/tags/ai-bias/">ai-bias</a>, <a href="/tags/jev/">jev</a>
   </div>]]></content>
     </entry>
     <entry>
@@ -36,7 +103,7 @@
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2]]></title>
+        <title type="html"><![CDATA[4]]></title>
         <id>https://simonwillison.net/2026/Sep/20/hn-49779718/</id>
         <link href="https://simonwillison.net/2026/Sep/20/hn-49779718/"/>
         <updated>2026-09-21T19:48:11.600Z</updated>
@@ -177,7 +244,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[8]]></title>
+        <title type="html"><![CDATA[10]]></title>
         <id>https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/</id>
         <link href="https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/"/>
         <updated>2026-09-18T20:01:24.024Z</updated>
@@ -293,7 +360,7 @@ You can see the source for the mod here!]]></title>
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[14]]></title>
+        <title type="html"><![CDATA[16]]></title>
         <id>https://simonwillison.net/2026/Sep/14/influences/</id>
         <link href="https://simonwillison.net/2026/Sep/14/influences/"/>
         <updated>2026-09-14T22:52:44.895Z</updated>
@@ -463,39 +530,5 @@ You can see the source for the mod here!]]></title>
   <div class="entryFooter">
   <a href="/2026/Sep/12/openai-agents-rubygems/" title="Permalink for &quot;OpenAI agents attacked RubyGems back in May&quot;">12:42 am</a> / <a href="/tags/ruby/">ruby</a>, <a href="/tags/security/">security</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/supply-chain/">supply-chain</a>, <a href="/tags/ai-ethics/">ai-ethics</a>, <a href="/tags/accidental-cyberattacks/">accidental-cyberattacks</a>
   </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, automated code reviews and security reviews, automated code refactoring, and so on. Without these, you can end up with a mess that is hard to maintain down the line.]]></title>
-        <id>https://simonwillison.net/2026/Sep/11/boris-cherny/</id>
-        <link href="https://simonwillison.net/2026/Sep/11/boris-cherny/"/>
-        <updated>2026-09-11T20:08:07.774Z</updated>
-        <content type="html"><![CDATA[<blockquote cite="https://twitter.com/bcherny/status/2098217573276131577"><p>Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, automated code reviews and security reviews, automated code refactoring, and so on. Without these, you can end up with a mess that is hard to maintain down the line.</p></blockquote>
-  <p class="cite">— <a href="https://twitter.com/bcherny/status/2098217573276131577">Boris Cherny</a></p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Sep/11/boris-cherny/" rel="bookmark">#</a>
-    <a href="/2026/Sep/11/boris-cherny/">5:47 pm</a>
-     / <a href="/tags/claude/">claude</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/claude-code/">claude-code</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/coding-agents/">coding-agents</a>, <a href="/tags/ai-assisted-programming/">ai-assisted-programming</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/agentic-engineering/">agentic-engineering</a>, <a href="/tags/boris-cherny/">boris-cherny</a>, <a href="/tags/anthropic/">anthropic</a>
-  </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[24]]></title>
-        <id>https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/</id>
-        <link href="https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/"/>
-        <updated>2026-09-11T22:55:50.764Z</updated>
-        <content type="html"><![CDATA[<p class="comment-source-bar"><a class="beat-label comment" href="/elsewhere/comment/">Comment</a> <img class="beat-favicon" src="https://www.google.com/s2/favicons?domain=news.ycombinator.com&amp;sz=128" alt="" width="14" height="14" loading="lazy"> <a href="https://news.ycombinator.com/item?id=49661506#49662090">My comment</a> on <a href="https://news.ycombinator.com/item?id=49661506">Feeling sad about AI</a> — Hacker News</p>
-
-  
-  <p>I'm not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been through this moment of existential crisis and come out the other side.</p>
-<p>The initial reaction, when some coding agent does a piece of work that would have taken you a week in an hour and does it&nbsp;<em>well</em>, is to be very disheartened by it.</p>
-<p>Once you come to terms with the idea that translating an exact specification into decent code isn't a unique skill any more, you can start looking at the larger set of problems that you face as a software engineer and realize that there is&nbsp;<em>so much left</em>, and your existing skill and experience mean you can master these new tools, provide value, and execute at a level far greater than anyone who is just getting started building software using agents without any of your depth.</p>
-<p>If you don't want your profession to change at all then you're going to have a tough time with this - but that's surely been true for the history of software engineering? Has there ever been any stability to the tools and language we use beyond about a five year time horizon?</p>
-<p>These changes are happening a bit faster, but if you chose software development as a passion you've opted into pretty frequent radical change from the start.</p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Sep/11/feeling-sad-about-ai/" rel="bookmark">#</a>
-    <a href="/2026/Sep/11/feeling-sad-about-ai/">5:28 pm</a>
-     / <a href="/tags/deep-blue/">deep-blue</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/generative-ai/">generative-ai</a>
-  </p>]]></content>
     </entry>
 </feed>
