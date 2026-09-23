@@ -2,9 +2,111 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zeroday.forem.com/t/cloudsecurity</id>
     <title>forem_cloud_sec</title>
-    <updated>2026-09-23T01:00:59.065Z</updated>
+    <updated>2026-09-23T06:29:11.202Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Reading Your Own Kubernetes RBAC: A Least-Privilege Audit That Finds Real Grants]]></title>
+        <id>https://dev.to/kozhevniko/reading-your-own-kubernetes-rbac-a-least-privilege-audit-that-finds-real-grants-27gn</id>
+        <link href="https://dev.to/kozhevniko/reading-your-own-kubernetes-rbac-a-least-privilege-audit-that-finds-real-grants-27gn"/>
+        <updated>2026-09-23T02:20:07.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/kozhevniko/reading-your-own-kubernetes-rbac-a-least-privilege-audit-that-finds-real-grants-27gn" aria-labelledby="article-link-4720441" class="crayons-story__hidden-navigation-link">Reading Your Own Kubernetes RBAC: A Least-Privilege Audit That Finds Real Grants</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/kozhevniko" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4125316%2Ffd669e89-7ad5-4a22-8b23-6e0990d00d7f.png" alt="kozhevniko profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/kozhevniko" class="crayons-story__secondary fw-medium m:hidden">
+              kozhevniko
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4720441" aria-controls="story-author-preview-content-4720441" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="kozhevniko profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                kozhevniko
+                
+                
+              </button>
+              <div id="story-author-preview-content-4720441" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/kozhevniko" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4125316%2Ffd669e89-7ad5-4a22-8b23-6e0990d00d7f.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">kozhevniko</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4125316,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;kozhevniko&quot;}" data-fetched="fetched" aria-label="Follow user: kozhevniko" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="4125316"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/kozhevniko/reading-your-own-kubernetes-rbac-a-least-privilege-audit-that-finds-real-grants-27gn" class="crayons-story__tertiary fs-xs"><time datetime="2026-09-23T02:20:07Z" data-localized="true" title="Wednesday, September 23, 2026 at 2:20:07 AM">Sep 23</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1790130007"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/kozhevniko/reading-your-own-kubernetes-rbac-a-least-privilege-audit-that-finds-real-grants-27gn" data-preload-image="" id="article-link-4720441">
+          Reading Your Own Kubernetes RBAC: A Least-Privilege Audit That Finds Real Grants
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(50, 109, 230, 0.10);
+        --tag-prefix: #326de6;
+        --tag-bg-hover: rgba(50, 109, 230, 0.10);
+        --tag-prefix-hover: #326de6;
+      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/rbac"><span class="crayons-tag__prefix">#</span>rbac</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/leastprivilege"><span class="crayons-tag__prefix">#</span>leastprivilege</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/kozhevniko/reading-your-own-kubernetes-rbac-a-least-privilege-audit-that-finds-real-grants-27gn#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Reading Your Own Kubernetes RBAC: A Least-Privilege Audit That Finds Real Grants">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aems1zl1xno5l2yhqevyge7d39syj9u7" class="crayons-icon"><title id="aems1zl1xno5l2yhqevyge7d39syj9u7">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            4 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Architecting HIPAA-Compliant Cloud: Encryption, RBAC, and Audit Logs for 2026]]></title>
         <id>https://dev.to/mtahir27/architecting-hipaa-compliant-cloud-encryption-rbac-and-audit-logs-for-2026-4oac</id>
@@ -93,7 +195,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/mtahir27/architecting-hipaa-compliant-cloud-encryption-rbac-and-audit-logs-for-2026-4oac#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Architecting HIPAA-Compliant Cloud: Encryption, RBAC, and Audit Logs for 2026">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1f85y5w8cq2hieb5cv53p1zop3gknc4" class="crayons-icon"><title id="a1f85y5w8cq2hieb5cv53p1zop3gknc4">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4do9khnbvze5ogy241huydur2tzne0p" class="crayons-icon"><title id="a4do9khnbvze5ogy241huydur2tzne0p">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -211,7 +313,7 @@
             </div>
           </a>
             <a href="https://dev.to/dhruv_malaviya_cdcc71e595/i-deleted-my-entire-security-stack-my-apps-got-safer-3png#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I Deleted My Entire Security Stack. My Apps Got Safer.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7h45wrz56qglg224v33xndnuoax0r1r" class="crayons-icon"><title id="a7h45wrz56qglg224v33xndnuoax0r1r">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aryu2lhkkcffrn5l03ce1dxhg1q53ir5" class="crayons-icon"><title id="aryu2lhkkcffrn5l03ce1dxhg1q53ir5">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -313,7 +415,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/yvan_saf_ffc94f53623480b1/i-attacked-my-own-aws-api-four-times-then-fixed-it-and-wrote-down-everything-3a52#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I Attacked My Own AWS API Four Times, Then Fixed It, and Wrote Down Everything">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ac1yu8b2nq09ux2ip9q88mwh5evxqekz" class="crayons-icon"><title id="ac1yu8b2nq09ux2ip9q88mwh5evxqekz">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7sio3u20wlb5o644byexeepvm8wj5bf" class="crayons-icon"><title id="a7sio3u20wlb5o644byexeepvm8wj5bf">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               3<span class="hidden s:inline">&nbsp;comments</span>
             </a>
@@ -415,7 +517,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/vaibhav_shakya_e6b352bfc4/how-attackers-abuse-firebase-misconfigurations-in-production-apps-3j23#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - How Attackers Abuse Firebase Misconfigurations in Production Apps">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aipy7qx03yifbdo1z0q0tg3magz7qpvb" class="crayons-icon"><title id="aipy7qx03yifbdo1z0q0tg3magz7qpvb">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqbhvmmwb6kkisfw6b3ww7b1hobgnr7t" class="crayons-icon"><title id="aqbhvmmwb6kkisfw6b3ww7b1hobgnr7t">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -533,7 +635,7 @@
             </div>
           </a>
             <a href="https://dev.to/dhruv_malaviya_cdcc71e595/i-deleted-production-at-6-pm-on-a-friday-heres-why-it-was-fine-akj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I Deleted Production at 6 PM on a Friday. Here's Why It Was Fine.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apz7yq9ow5w6i0ynjwk6sp564frabh1e" class="crayons-icon"><title id="apz7yq9ow5w6i0ynjwk6sp564frabh1e">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ak1ggzlg154shkz2ro1rw79ce5m3m62n" class="crayons-icon"><title id="ak1ggzlg154shkz2ro1rw79ce5m3m62n">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -645,7 +747,7 @@
             </div>
           </a>
             <a href="https://dev.to/bala_paranj_059d338e44e7e/the-finding-that-hasnt-fired-yet-56km#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Finding That Hasn't Fired Yet">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a5hn8rys0cz2f8a3p9xuao8s9c9swa23" class="crayons-icon"><title id="a5hn8rys0cz2f8a3p9xuao8s9c9swa23">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a1ot98z32w2jhv93ib8pwxqi3bsangjb" class="crayons-icon"><title id="a1ot98z32w2jhv93ib8pwxqi3bsangjb">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -747,7 +849,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/abhishek_kadlii_9ef4ca8bc/stopping-rogue-deployments-how-i-programmed-azure-api-guardrails-to-protect-the-cloud-wallet-340m#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Stopping Rogue Deployments: How I Programmed Azure API Guardrails to Protect the Cloud Wallet">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afmqh6yyxmg1kdhckwh3c12mzco24wwd" class="crayons-icon"><title id="afmqh6yyxmg1kdhckwh3c12mzco24wwd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="atapnste82gczkvlex4jonh0mp9fjc9i" class="crayons-icon"><title id="atapnste82gczkvlex4jonh0mp9fjc9i">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               1<span class="hidden s:inline">&nbsp;comment</span>
             </a>
@@ -849,7 +951,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/abhishek_kadlii_9ef4ca8bc/finding-the-needle-in-the-cloud-haystack-real-time-observability-log-diagnostics-with-kql-328j#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Finding the Needle in the Cloud Haystack: Real-Time Observability &amp; Log Diagnostics with KQL">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2w7v2n82wqdd8p6033wrd24gwl4pvp0" class="crayons-icon"><title id="a2w7v2n82wqdd8p6033wrd24gwl4pvp0">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a6oyhj3jm2w1b54ukvqp4628ymscj2r3" class="crayons-icon"><title id="a6oyhj3jm2w1b54ukvqp4628ymscj2r3">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -951,7 +1053,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/humzakt/i-audited-our-ai-platform-and-found-critical-security-gaps-2gnf#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I Audited Our AI Platform and Found Critical Security Gaps">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9wphgfu6jmz1ukffy42kob80ams2nw2" class="crayons-icon"><title id="a9wphgfu6jmz1ukffy42kob80ams2nw2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="akkaw8uivcqiko62yj48204xkj6ou815" class="crayons-icon"><title id="akkaw8uivcqiko62yj48204xkj6ou815">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -1053,7 +1155,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/rockyyy/your-detection-rules-have-ten-years-of-windows-logic-and-zero-lines-for-a-stolen-iam-key-1daj#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your Detection Rules Have Ten Years of Windows Logic and Zero Lines for a Stolen IAM Key">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3uodvfgryc9seeih94gfcj6ikgf9131" class="crayons-icon"><title id="a3uodvfgryc9seeih94gfcj6ikgf9131">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9ruzi9bu38et05yu5vej5lp0fe2g0cd" class="crayons-icon"><title id="a9ruzi9bu38et05yu5vej5lp0fe2g0cd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -1165,7 +1267,7 @@
             </div>
           </a>
             <a href="https://dev.to/bala_paranj_059d338e44e7e/the-sandbox-had-one-allowed-egress-path-the-model-used-it-to-escape-3ll6#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - The Sandbox Had One Allowed Egress Path. The Model Used it to Escape.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="afsdpny5dlgkxmb4nx9xov7xd7n294ub" class="crayons-icon"><title id="afsdpny5dlgkxmb4nx9xov7xd7n294ub">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8nop1xxvlmrlxlxcgfuay44ba7sopsg" class="crayons-icon"><title id="a8nop1xxvlmrlxlxcgfuay44ba7sopsg">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -1261,7 +1363,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/ronak_sharma_913570f6e215/cloud-security-misconfigurations-common-problems-and-how-to-prevent-them-10el#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Cloud Security Misconfigurations: Common Problems and How to Prevent Them">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="abault2r0vkt4mc8foosctrr123yp2e2" class="crayons-icon"><title id="abault2r0vkt4mc8foosctrr123yp2e2">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a29rxcxrwgabuyh2ivzuhhrebq0ulxn4" class="crayons-icon"><title id="a29rxcxrwgabuyh2ivzuhhrebq0ulxn4">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -1379,7 +1481,7 @@
             </div>
           </a>
             <a href="https://dev.to/dhruv_malaviya_cdcc71e595/i-gave-my-ai-assistant-the-keys-to-my-cloud-heres-why-im-not-worried-2b46#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - I Gave My AI Assistant the Keys to My Cloud. Here's Why I'm Not Worried.">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3yqdkin98vrgmkx695lrlrccrjqcx02" class="crayons-icon"><title id="a3yqdkin98vrgmkx695lrlrccrjqcx02">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="apo9gzlu6vhqoo0bjqn3bkyhp08lzzmr" class="crayons-icon"><title id="apo9gzlu6vhqoo0bjqn3bkyhp08lzzmr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               6<span class="hidden s:inline">&nbsp;comments</span>
             </a>
@@ -1481,7 +1583,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/spidgorny/try-greenops-scan-safely-create-a-read-only-aws-profile-first-3nle#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Try GreenOps Scan Safely: Create a Read-Only AWS Profile First">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aary3pshk2qkuicdo9qgqhfr0wl7pn5n" class="crayons-icon"><title id="aary3pshk2qkuicdo9qgqhfr0wl7pn5n">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aisel41a5oslirq559zrsjb5gm7w5qjd" class="crayons-icon"><title id="aisel41a5oslirq559zrsjb5gm7w5qjd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -1489,108 +1591,6 @@
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
-          </small>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Writing an IAM Policy That's Actually Least Privilege]]></title>
-        <id>https://dev.to/mariogongora/writing-an-iam-policy-thats-actually-least-privilege-386k</id>
-        <link href="https://dev.to/mariogongora/writing-an-iam-policy-thats-actually-least-privilege-386k"/>
-        <updated>2026-08-15T17:23:33.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/mariogongora/writing-an-iam-policy-thats-actually-least-privilege-386k" aria-labelledby="article-link-4405614" class="crayons-story__hidden-navigation-link">Writing an IAM Policy That's Actually Least Privilege</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/mariogongora" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3948275%2F1686ad70-9bfd-4283-96f5-f8b3e1c23e3f.jpg" alt="mariogongora profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/mariogongora" class="crayons-story__secondary fw-medium m:hidden">
-              Mario
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4405614" aria-controls="story-author-preview-content-4405614" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Mario profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Mario
-                
-                
-              </button>
-              <div id="story-author-preview-content-4405614" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/mariogongora" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3948275%2F1686ad70-9bfd-4283-96f5-f8b3e1c23e3f.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Mario</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3948275,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Mario&quot;}" data-fetched="fetched" aria-label="Follow user: Mario" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3948275"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/mariogongora/writing-an-iam-policy-thats-actually-least-privilege-386k" class="crayons-story__tertiary fs-xs"><time datetime="2026-08-15T17:23:33Z" data-localized="true" title="Saturday, August 15, 2026 at 5:23:33 PM">Aug 15</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1786814613"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/mariogongora/writing-an-iam-policy-thats-actually-least-privilege-386k" data-preload-image="" id="article-link-4405614">
-          Writing an IAM Policy That's Actually Least Privilege
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(33, 43, 58, 0.10);
-        --tag-prefix: #212b3a;
-        --tag-bg-hover: rgba(33, 43, 58, 0.10);
-        --tag-prefix-hover: #212b3a;
-      " href="/t/aws"><span class="crayons-tag__prefix">#</span>aws</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cloudsecurity"><span class="crayons-tag__prefix">#</span>cloudsecurity</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/iam"><span class="crayons-tag__prefix">#</span>iam</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/mariogongora/writing-an-iam-policy-thats-actually-least-privilege-386k#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Writing an IAM Policy That's Actually Least Privilege">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aj6un6et1hmk1p7gnv0clmz5wk7l0awb" class="crayons-icon"><title id="aj6un6et1hmk1p7gnv0clmz5wk7l0awb">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            8 min read
           </small>
         </div>
       </div>
