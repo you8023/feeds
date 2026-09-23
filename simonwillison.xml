@@ -2,9 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-22T21:45:32.124Z</updated>
+    <updated>2026-09-23T01:00:59.070Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war]]></title>
+        <id>https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/</id>
+        <link href="https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"/>
+        <updated>2026-09-23T00:59:21.004Z</updated>
+        <content type="html"><![CDATA[<h3><a href="/2026/Sep/22/opus-and-sol-and-luna/" rel="bookmark">Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war</a></h3>
+  
+    <div class="card-container">
+      <a href="/2026/Sep/22/opus-and-sol-and-luna/"><img src="https://static.simonwillison.net/static/2026/gpt-grid-card.jpg" alt="Visit Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war"></a>
+    </div>
+  
+  <p>
+    </p><p>Yesterday was <a href="https://x.ai/news/grok-4-7">Grok 4.7</a> (<a href="https://news.ycombinator.com/item?id=49788838#49790209">pelicans</a>) and <a href="https://mimo.xiaomi.com/mimo-v2-6">MiMo v2.6 Flash/Pro</a> (<a href="https://news.ycombinator.com/item?id=49792730#49793480">more pelicans</a>). Today Anthropic <a href="https://www.anthropic.com/claude-opus-5-5">released Claude Opus 5.5</a>, and around an hour later OpenAI <a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/">released GPT-6 Sol and GPT-6 Luna</a>. It’s going to take a while to get a good read on all of these new models, but here are my impressions so far.</p>
+
+    <span style="font-size: 0.9em">[... <a href="/2026/Sep/22/opus-and-sol-and-luna/">1,153 words</a>]</span>
+  <p></p>
+  <div class="entryFooter">
+  <a href="/2026/Sep/22/opus-and-sol-and-luna/" title="Permalink for &quot;Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war&quot;">11:46 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/anthropic/">anthropic</a>, <a href="/tags/claude/">claude</a>, <a href="/tags/llm-pricing/">llm-pricing</a>, <a href="/tags/pelican-riding-a-bicycle/">pelican-riding-a-bicycle</a>, <a href="/tags/gpt/">gpt</a>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm 0.36]]></title>
+        <id>https://github.com/simonw/llm/releases/tag/0.36</id>
+        <link href="https://github.com/simonw/llm/releases/tag/0.36"/>
+        <updated>2026-09-23T00:59:21.004Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/llm/releases/tag/0.36">llm 0.36</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><blockquote>
+<ul>
+<li>New OpenAI models: <code>gpt-6-sol</code> for <a href="https://developers.openai.com/api/docs/models/gpt-6-sol">GPT-6 Sol</a> and <code>gpt-6-luna</code> for <a href="https://developers.openai.com/api/docs/models/gpt-6-luna">GPT-6 Luna</a>. <a href="https://github.com/simonw/llm/issues/1702">#1702</a></li>
+<li>Model plugins can now declare <code>supports_conversation = False</code> for models that only accept single-turn prompts. LLM raises <code>llm.ConversationNotSupported</code> when these models receive assistant or tool history, and <code>llm chat</code> rejects them before starting a session. See <a href="https://llm.datasette.io/en/stable/plugins/advanced-model-plugins.html#advanced-model-plugins-conversations">Models that do not support conversations</a>. The first plugin to use this is <a href="https://github.com/simonw/llm-typesafe">llm-typesafe</a>. <a href="https://github.com/simonw/llm/issues/1692">#1692</a></li>
+<li>Reasoning traces in the Markdown output of <code>llm logs</code> are now wrapped in <code>&lt;details&gt;&lt;summary&gt;</code> tags. <a href="https://github.com/simonw/llm/issues/1701">#1701</a></li>
+</ul>
+</blockquote>
+<p>Plus <a href="https://llm.datasette.io/en/stable/changelog.html#v0-36">bug fixes from five new contributors</a>.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/22/llm/" rel="bookmark">22nd Sep 2026, 6:48 pm</a> · <a href="/tags/openai/">openai</a>, <a href="/tags/llm/">llm</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of "it's not X, it's Y", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.
 It's the lack of anything. It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about.]]></title>
@@ -20,6 +66,27 @@ It's the lack of anything. It's the lack of a definitive sort of spear of your v
     <a href="/2026/Sep/22/therealcornpop/">6:03 pm</a>
      / <a href="/tags/tiktok/">tiktok</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/ai-misuse/">ai-misuse</a>
   </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-anthropic 0.29]]></title>
+        <id>https://github.com/simonw/llm-anthropic/releases/tag/0.29</id>
+        <link href="https://github.com/simonw/llm-anthropic/releases/tag/0.29"/>
+        <updated>2026-09-23T00:59:21.013Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/llm-anthropic/releases/tag/0.29">llm-anthropic 0.29</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>Adds support for <a href="https://www.anthropic.com/claude-opus-5-5">Claude Opus 5.5</a>:</p>
+<pre><code>llm -m claude-opus-5.5 "prompt goes here"
+</code></pre></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/22/llm-anthropic/" rel="bookmark">22nd Sep 2026, 5:14 pm</a> · <a href="/tags/llm/">llm</a>, <a href="/tags/anthropic/">anthropic</a>
+    </div>
+  </div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[llm-typesafe 0.1a0]]></title>
@@ -82,7 +149,7 @@ It's the lack of anything. It's the lack of a definitive sort of spear of your v
   <p>
     </p><p>Last week <a href="https://typesafe.ai/">TypeSafe AI</a> unveiled <a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">Jev</a>, their first example of a new category of model that they are calling “System One models” (I’m with Maggie Appleton, I think “decision models” is <a href="https://twitter.com/Mappletons/status/2101560333441610133">a better name</a> for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers corresponding to categories, yes/no questions, ratings, and associated confidence scores.</p>
 
-    <span style="font-size: 0.9em">[... <a href="/2026/Sep/21/jev/">914 words</a>]</span>
+    <span style="font-size: 0.9em">[... <a href="/2026/Sep/21/jev/">983 words</a>]</span>
   <p></p>
   <div class="entryFooter">
   <a href="/2026/Sep/21/jev/" title="Permalink for &quot;Jev introduces a new shape of LLM - System One, aka Decision Models&quot;">11:09 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/evals/">evals</a>, <a href="/tags/ai-bias/">ai-bias</a>, <a href="/tags/jev/">jev</a>
@@ -103,7 +170,7 @@ It's the lack of anything. It's the lack of a definitive sort of spear of your v
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[4]]></title>
+        <title type="html"><![CDATA[7]]></title>
         <id>https://simonwillison.net/2026/Sep/20/hn-49779718/</id>
         <link href="https://simonwillison.net/2026/Sep/20/hn-49779718/"/>
         <updated>2026-09-21T19:48:11.600Z</updated>
@@ -244,7 +311,7 @@ It's the lack of anything. It's the lack of a definitive sort of spear of your v
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[10]]></title>
+        <title type="html"><![CDATA[13]]></title>
         <id>https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/</id>
         <link href="https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/"/>
         <updated>2026-09-18T20:01:24.024Z</updated>
@@ -360,7 +427,7 @@ You can see the source for the mod here!]]></title>
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[16]]></title>
+        <title type="html"><![CDATA[19]]></title>
         <id>https://simonwillison.net/2026/Sep/14/influences/</id>
         <link href="https://simonwillison.net/2026/Sep/14/influences/"/>
         <updated>2026-09-14T22:52:44.895Z</updated>
@@ -499,36 +566,6 @@ You can see the source for the mod here!]]></title>
     <div class="beat-meta beat-row2">
       <a href="/2026/Sep/12/sighting-399708714/" rel="bookmark">12th Sep 2026</a> · <a href="/tags/wildlife/">wildlife</a>
     </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to practice their respective crafts. A.I. can write very good software, but it also makes it easy to do someone else’s job badly, which is part of why all those projects fail. Now that everyone can code, it’s become clearer why many shouldn’t.]]></title>
-        <id>https://simonwillison.net/2026/Sep/12/paul-ford/</id>
-        <link href="https://simonwillison.net/2026/Sep/12/paul-ford/"/>
-        <updated>2026-09-12T19:44:22.247Z</updated>
-        <content type="html"><![CDATA[<blockquote cite="https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html"><p>For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to practice their respective crafts. A.I. can write very good software, but it also makes it easy to do someone else’s job badly, which is part of why all those projects fail. Now that everyone can code, it’s become clearer why many shouldn’t.</p></blockquote>
-  <p class="cite">— <a href="https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html">Paul Ford</a>, <span class="context">A.I. Was Supposed to Give Us New Killer Apps. What Happened?</span></p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Sep/12/paul-ford/" rel="bookmark">#</a>
-    <a href="/2026/Sep/12/paul-ford/">6 pm</a>
-     / <a href="/tags/paul-ford/">paul-ford</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/deep-blue/">deep-blue</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
-  </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI agents attacked RubyGems back in May]]></title>
-        <id>https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/</id>
-        <link href="https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/"/>
-        <updated>2026-09-12T01:33:43.281Z</updated>
-        <content type="html"><![CDATA[<h3><a href="/2026/Sep/12/openai-agents-rubygems/" rel="bookmark">OpenAI agents attacked RubyGems back in May</a></h3>
-  
-  <p>
-    </p><p><a href="https://www.rubyhack.ai/">OpenAI agents carried out an undisclosed attack on RubyGems</a> is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx—three of the four authors of the <a href="https://collusion.wiki/">report on the agent attack on disused wikis</a> (<a href="https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/">previously</a>) last week.</p>
-
-    <span style="font-size: 0.9em">[... <a href="/2026/Sep/12/openai-agents-rubygems/">584 words</a>]</span>
-  <p></p>
-  <div class="entryFooter">
-  <a href="/2026/Sep/12/openai-agents-rubygems/" title="Permalink for &quot;OpenAI agents attacked RubyGems back in May&quot;">12:42 am</a> / <a href="/tags/ruby/">ruby</a>, <a href="/tags/security/">security</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/supply-chain/">supply-chain</a>, <a href="/tags/ai-ethics/">ai-ethics</a>, <a href="/tags/accidental-cyberattacks/">accidental-cyberattacks</a>
   </div>]]></content>
     </entry>
 </feed>
