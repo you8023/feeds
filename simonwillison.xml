@@ -2,9 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-24T19:35:11.013Z</updated>
+    <updated>2026-09-24T22:48:37.763Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[commit-rewriter 0.2]]></title>
+        <id>https://github.com/simonw/commit-rewriter/releases/tag/0.2</id>
+        <link href="https://github.com/simonw/commit-rewriter/releases/tag/0.2"/>
+        <updated>2026-09-24T22:47:02.829Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/commit-rewriter/releases/tag/0.2">commit-rewriter 0.2</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><blockquote>
+<p>Support for branches other than the default branch. Use <code>uvx commit-rewriter --branch other</code> to run against another branch. <a href="https://github.com/simonw/commit-rewriter/issues/3">#3</a></p>
+</blockquote></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/24/commit-rewriter/" rel="bookmark">24th Sep 2026, 8:06 pm</a> · <a href="/tags/git/">git</a>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a41]]></title>
+        <id>https://github.com/simonw/datasette/releases/tag/1.0a41</id>
+        <link href="https://github.com/simonw/datasette/releases/tag/1.0a41"/>
+        <updated>2026-09-24T22:47:02.829Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/datasette/releases/tag/1.0a41">datasette 1.0a41</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>Alec Garcia added <a href="https://docs.datasette.io/en/latest/internals.html#internals-telemetry">support for OpenTelemetry</a> to Datasette in this release.</p>
+<p>I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now <a href="https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modals">documented for other plugins to use</a>.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/24/datasette/" rel="bookmark">24th Sep 2026, 7:15 pm</a> · <a href="/tags/datasette/">datasette</a>, <a href="/tags/web-components/">web-components</a>, <a href="/tags/opentelemetry/">opentelemetry</a>, <a href="/tags/alex-garcia/">alex-garcia</a>, <a href="/tags/javascript/">javascript</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gemini 3.8 TTS Playground]]></title>
         <id>https://tools.simonwillison.net/gemini-tts-playground</id>
@@ -241,7 +282,7 @@ It's the lack of anything. It's the lack of a definitive sort of spear of your v
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[10]]></title>
+        <title type="html"><![CDATA[12]]></title>
         <id>https://simonwillison.net/2026/Sep/20/hn-49779718/</id>
         <link href="https://simonwillison.net/2026/Sep/20/hn-49779718/"/>
         <updated>2026-09-21T19:48:11.600Z</updated>
@@ -382,7 +423,7 @@ It's the lack of anything. It's the lack of a definitive sort of spear of your v
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[16]]></title>
+        <title type="html"><![CDATA[18]]></title>
         <id>https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/</id>
         <link href="https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/"/>
         <updated>2026-09-18T20:01:24.024Z</updated>
@@ -498,7 +539,7 @@ You can see the source for the mod here!]]></title>
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[22]]></title>
+        <title type="html"><![CDATA[24]]></title>
         <id>https://simonwillison.net/2026/Sep/14/influences/</id>
         <link href="https://simonwillison.net/2026/Sep/14/influences/"/>
         <updated>2026-09-14T22:52:44.895Z</updated>
@@ -514,44 +555,5 @@ You can see the source for the mod here!]]></title>
     <a href="/2026/Sep/14/influences/">8:21 pm</a>
      / <a href="/tags/software-engineering/">software-engineering</a>, <a href="/tags/charity-majors/">charity-majors</a>, <a href="/tags/joel-spolsky/">joel-spolsky</a>, <a href="/tags/will-larson/">will-larson</a>
   </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no ceiling on demand, that cost becomes the whole job.]]></title>
-        <id>https://simonwillison.net/2026/Sep/14/laurie-voss/</id>
-        <link href="https://simonwillison.net/2026/Sep/14/laurie-voss/"/>
-        <updated>2026-09-14T19:43:14.008Z</updated>
-        <content type="html"><![CDATA[<blockquote cite="https://seldo.com/posts/we-are-all-product-engineers-now/"><p>The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no ceiling on demand, that cost becomes the whole job.</p></blockquote>
-  <p class="cite">— <a href="https://seldo.com/posts/we-are-all-product-engineers-now/">Laurie Voss</a>, <span class="context">We are all Product Engineers now</span></p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Sep/14/laurie-voss/" rel="bookmark">#</a>
-    <a href="/2026/Sep/14/laurie-voss/">2:34 pm</a>
-     / <a href="/tags/laurie-voss/">laurie-voss</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/agentic-engineering/">agentic-engineering</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/deep-blue/">deep-blue</a>, <a href="/tags/careers/">careers</a>
-  </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[commit-rewriter 0.1]]></title>
-        <id>https://github.com/simonw/commit-rewriter/releases/tag/0.1</id>
-        <link href="https://github.com/simonw/commit-rewriter/releases/tag/0.1"/>
-        <updated>2026-09-14T01:31:25.859Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/commit-rewriter/releases/tag/0.1">commit-rewriter 0.1</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>I built this little web app the other day to help edit the commit messages for the <a href="https://datasette.io/blog/2026/september-security-releases/">Datasette security releases</a>. The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication.</p>
-<p>If you want to edit the commit messages for a repository you can run it like this:</p>
-<pre><code>uvx commit-rewriter path/to/repo
-</code></pre>
-<p>Omit the path if you are already in the directory for that repo.</p>
-<p><img alt="Screenshot of the commit-rewriter web interface. A heading reads commit-rewriter above the repository path and current branch and commit hash, with a short description of the tool. A toolbar shows a pending edits count with Discard drafts and Rewrite commit messages buttons, followed by a search box for message, author, or hash and an Edited only checkbox. A left sidebar titled Navigate commits lists recent commit messages with their short hashes. The main panel shows a card for each commit with its hash, author and timestamp, an editable text area containing the commit message, and a View full formatted diff toggle." src="https://static.simonwillison.net/static/2026/commit-rewriter.webp"></p>
-<p>When you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need to - and then rewrites every commit from the first one you edited to the most recent.</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/14/commit-rewriter/" rel="bookmark">14th Sep 2026, 12:28 am</a> · <a href="/tags/projects/">projects</a>, <a href="/tags/git/">git</a>, <a href="/tags/python/">python</a>, <a href="/tags/ai-assisted-programming/">ai-assisted-programming</a>
-    </div>
-  </div>]]></content>
     </entry>
 </feed>
