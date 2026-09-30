@@ -2,9 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-29T21:07:01.511Z</updated>
+    <updated>2026-09-30T00:52:21.151Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them.]]></title>
+        <id>https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/</id>
+        <link href="https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"/>
+        <updated>2026-09-30T00:50:43.807Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"><p>We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them.</p></blockquote>
+  <p class="cite">— <a href="https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities">Anthropic Frontier Red Team</a>, <span class="context">GLM-5.3 and the spread of advanced cyber capabilities</span></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Sep/29/anthropic-frontier-red-team/" rel="bookmark">#</a>
+    <a href="/2026/Sep/29/anthropic-frontier-red-team/">10:20 pm</a>
+     / <a href="/tags/anthropic/">anthropic</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/ai-security-research/">ai-security-research</a>, <a href="/tags/glm/">glm</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/ai-in-china/">ai-in-china</a>, <a href="/tags/llms/">llms</a>
+  </p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[12:47 PM]]></title>
         <id>https://simonwillison.net/2026/Sep/29/sighting-404551608/</id>
@@ -26,6 +40,24 @@
   </div>]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[2]]></title>
+        <id>https://simonwillison.net/2026/Sep/29/hn-49898129/</id>
+        <link href="https://simonwillison.net/2026/Sep/29/hn-49898129/"/>
+        <updated>2026-09-30T00:50:43.694Z</updated>
+        <content type="html"><![CDATA[<p class="comment-source-bar"><a class="beat-label comment" href="/elsewhere/comment/">Comment</a> <img class="beat-favicon" src="https://www.google.com/s2/favicons?domain=news.ycombinator.com&amp;sz=128" alt="" width="14" height="14" loading="lazy"> <a href="https://news.ycombinator.com/item?id=49896586#49898129">My comment</a> on <a href="https://news.ycombinator.com/item?id=49896586">GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price</a> — Hacker News</p>
+
+  
+  <p>I'm a bit late with the pelicans because I was live-blogging the keynote: <a href="https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/">https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv...</a></p>
+<p>Here they are for GPT-6.1-Sol: <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F4aa871683dae5c566129a6028fbc7f21">https://tools.simonwillison.net/markdown-svg-renderer?url=ht...</a></p>
+<p>They're not notably different from the GPT-6 family pelicans: <a href="https://static.simonwillison.net/static/2026/gpt-pelicans-grid.html">https://static.simonwillison.net/static/2026/gpt-pelicans-gr...</a></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Sep/29/hn-49898129/" rel="bookmark">#</a>
+    <a href="/2026/Sep/29/hn-49898129/">6:27 pm</a>
+     / <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/gpt/">gpt</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/pelican-riding-a-bicycle/">pelican-riding-a-bicycle</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
+  </p>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[OpenAI DevDay 2026 live blog]]></title>
         <id>https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/</id>
         <link href="https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"/>
@@ -43,7 +75,7 @@
     <span style="font-size: 0.9em">[... <a href="/2026/Sep/29/openai-devday-2026-live-blog/">45 words</a>]</span>
   <p></p>
   <div class="entryFooter">
-  <a href="/2026/Sep/29/openai-devday-2026-live-blog/" title="Permalink for &quot;OpenAI DevDay 2026 live blog&quot;">3:55 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/coding-agents/">coding-agents</a>, <a href="/tags/live-blog/">live-blog</a>
+  <a href="/2026/Sep/29/openai-devday-2026-live-blog/" title="Permalink for &quot;OpenAI DevDay 2026 live blog&quot;">3:55 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/coding-agents/">coding-agents</a>, <a href="/tags/live-blog/">live-blog</a>, <a href="/tags/openai-devday/">openai-devday</a>
   </div>]]></content>
     </entry>
     <entry>
@@ -124,7 +156,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[6]]></title>
+        <title type="html"><![CDATA[8]]></title>
         <id>https://simonwillison.net/2026/Sep/27/hn-49871741/</id>
         <link href="https://simonwillison.net/2026/Sep/27/hn-49871741/"/>
         <updated>2026-09-28T07:23:30.164Z</updated>
@@ -276,7 +308,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[11]]></title>
+        <title type="html"><![CDATA[13]]></title>
         <id>https://simonwillison.net/2026/Sep/24/harder/</id>
         <link href="https://simonwillison.net/2026/Sep/24/harder/"/>
         <updated>2026-09-25T18:59:02.302Z</updated>
@@ -331,7 +363,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[14]]></title>
+        <title type="html"><![CDATA[16]]></title>
         <id>https://simonwillison.net/2026/Sep/23/hn-49823961/</id>
         <link href="https://simonwillison.net/2026/Sep/23/hn-49823961/"/>
         <updated>2026-09-28T07:23:30.174Z</updated>
@@ -585,7 +617,7 @@ It's the lack of anything. It's the lack of a definitive sort of spear of your v
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[25]]></title>
+        <title type="html"><![CDATA[27]]></title>
         <id>https://simonwillison.net/2026/Sep/20/hn-49779718/</id>
         <link href="https://simonwillison.net/2026/Sep/20/hn-49779718/"/>
         <updated>2026-09-21T19:48:11.600Z</updated>
@@ -724,19 +756,5 @@ It's the lack of anything. It's the lack of a definitive sort of spear of your v
       <a href="/2026/Sep/19/sighting-401435273/" rel="bookmark">19th Sep 2026</a>
     </div>
   </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[31]]></title>
-        <id>https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/</id>
-        <link href="https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/"/>
-        <updated>2026-09-18T20:01:24.024Z</updated>
-        <content type="html"><![CDATA[<p>Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park.</p>
-<p>Skeptical geneticist: "pfft, it's just frog DNA. And they deliberately let them eat people for the marketing."</p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Sep/18/probably-gonna-eat-you/" rel="bookmark">#</a>
-    <a href="/2026/Sep/18/probably-gonna-eat-you/">7:21 pm</a>
-     / <a href="/tags/llms/">llms</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/generative-ai/">generative-ai</a>
-  </p>]]></content>
     </entry>
 </feed>
