@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-09-30T07:11:52.366Z</updated>
+    <updated>2026-09-30T14:13:47.591Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
     <entry>
@@ -56,6 +56,26 @@
     <a href="/2026/Sep/29/hn-49898129/">6:27 pm</a>
      / <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/gpt/">gpt</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/pelican-riding-a-bicycle/">pelican-riding-a-bicycle</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
   </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Photo Scrubber — local face blur & metadata removal]]></title>
+        <id>https://tools.simonwillison.net/photo-scrubber</id>
+        <link href="https://tools.simonwillison.net/photo-scrubber"/>
+        <updated>2026-09-30T14:12:16.019Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label tool" href="/elsewhere/tool/">Tool</a>
+      
+      <span class="beat-title"><a href="https://tools.simonwillison.net/photo-scrubber">Photo Scrubber — local face blur &amp; metadata removal</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I <a href="https://github.com/simonw/tools/commit/aa733ecc3458d5703e3b40c84507ae362f5fb294">had GPT-6 Astra build</a> this experimental tool that would identify faces and automatically blur them out.</p>
+<p>It uses Google's <a href="https://developers.google.com/edge/mediapipe/solutions/guide">MediaPipe</a> C++ library, compiled to WebAssembly via <a href="https://www.npmjs.com/package/@mediapipe/tasks-vision">@mediapipe/tasks-vision</a>, plus the <a href="https://sites.google.com/view/perception-cv4arvr/blazeface">BlazeFace</a> face detection model.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/29/photo-scrubber/" rel="bookmark">29th Sep 2026, 4:45 pm</a> · <a href="/tags/tools/">tools</a>, <a href="/tags/photography/">photography</a>
+    </div>
+  </div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[OpenAI DevDay 2026 live blog]]></title>
@@ -156,7 +176,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[8]]></title>
+        <title type="html"><![CDATA[9]]></title>
         <id>https://simonwillison.net/2026/Sep/27/hn-49871741/</id>
         <link href="https://simonwillison.net/2026/Sep/27/hn-49871741/"/>
         <updated>2026-09-28T07:23:30.164Z</updated>
@@ -308,7 +328,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[13]]></title>
+        <title type="html"><![CDATA[14]]></title>
         <id>https://simonwillison.net/2026/Sep/24/harder/</id>
         <link href="https://simonwillison.net/2026/Sep/24/harder/"/>
         <updated>2026-09-25T18:59:02.302Z</updated>
@@ -363,7 +383,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[16]]></title>
+        <title type="html"><![CDATA[17]]></title>
         <id>https://simonwillison.net/2026/Sep/23/hn-49823961/</id>
         <link href="https://simonwillison.net/2026/Sep/23/hn-49823961/"/>
         <updated>2026-09-28T07:23:30.174Z</updated>
@@ -617,7 +637,7 @@ It's the lack of anything. It's the lack of a definitive sort of spear of your v
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[27]]></title>
+        <title type="html"><![CDATA[28]]></title>
         <id>https://simonwillison.net/2026/Sep/20/hn-49779718/</id>
         <link href="https://simonwillison.net/2026/Sep/20/hn-49779718/"/>
         <updated>2026-09-21T19:48:11.600Z</updated>
@@ -734,26 +754,6 @@ It's the lack of anything. It's the lack of a definitive sort of spear of your v
     <div class="beat-note blogmark-body"><p>I only noticed this after I had taken the photo: Morris <a href="https://simonwillison.net/2026/Aug/15/sighting-391300422/">the Northern Gannet</a> is peeking out from behind the base of the sign.</p></div>
     <div class="beat-meta beat-row2">
       <a href="/2026/Sep/19/sighting-401567341/" rel="bookmark">19th Sep 2026</a> · <a href="/tags/wildlife/">wildlife</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5:06 PM – 5:06 PM]]></title>
-        <id>https://simonwillison.net/2026/Sep/19/sighting-401435273/</id>
-        <link href="https://simonwillison.net/2026/Sep/19/sighting-401435273/"/>
-        <updated>2026-09-19T06:19:03.503Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      <a class="beat-label sighting" href="/elsewhere/sighting/">Sighting</a>
-      <span class="beat-title"><a href="/2026/Sep/19/sighting-401435273/">5:06 PM – 5:06 PM</a></span>
-      <span class="beat-commit">— California Ground Squirrel, White-crowned Sparrow, in San Mateo County, CA, US</span>
-    </div>
-    <captioned-image-gallery data-count="2">
-      <figure style="width: 360.088px; height: 240px;"><a href="https://static.inaturalist.org/photos/736803362/original.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/736803362/small.jpg" alt="California Ground Squirrel" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/401435334" title="View observation on iNaturalist">California Ground Squirrel</a></figcaption></figure><figure style="width: 160.078px; height: 240px;"><a href="https://static.inaturalist.org/photos/736803199/original.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/736803199/small.jpg" alt="White-crowned Sparrow" loading="lazy" data-width="1366" data-height="2048"></a><figcaption><a href="https://www.inaturalist.org/observations/401435273" title="View observation on iNaturalist">White-crowned Sparrow</a></figcaption></figure>
-    </captioned-image-gallery>
-    
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/19/sighting-401435273/" rel="bookmark">19th Sep 2026</a>
     </div>
   </div>]]></content>
     </entry>
