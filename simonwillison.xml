@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-10-01T06:31:12.008Z</updated>
+    <updated>2026-10-01T13:51:52.576Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[0]]></title>
+        <title type="html"><![CDATA[[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache with email, Slack and shared documents or WhatsApp, and replace independently-sandboxed training runs with independently-deployed personal agents like Muse, and you have exactly the ingredients that a worm needs.]]></title>
+        <id>https://simonwillison.net/2026/Oct/1/matthew-green/</id>
+        <link href="https://simonwillison.net/2026/Oct/1/matthew-green/"/>
+        <updated>2026-10-01T13:50:16.590Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/"><p>[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache with email, Slack and shared documents or WhatsApp, and replace independently-sandboxed training runs with independently-deployed personal agents like Muse, and you have exactly the ingredients that a worm needs.</p></blockquote>
+  <p class="cite">— <a href="https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/">Matthew Green</a>, <span class="context">Is sandboxing sufficient to contain rogue agents?</span></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Oct/1/matthew-green/" rel="bookmark">#</a>
+    <a href="/2026/Oct/1/matthew-green/">6:29 am</a>
+     / <a href="/tags/accidental-cyberattacks/">accidental-cyberattacks</a>, <a href="/tags/ai-misuse/">ai-misuse</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/ai-security-research/">ai-security-research</a>, <a href="/tags/sandboxing/">sandboxing</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
+  </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1]]></title>
         <id>https://simonwillison.net/2026/Sep/30/he-built-this-city/</id>
         <link href="https://simonwillison.net/2026/Sep/30/he-built-this-city/"/>
         <updated>2026-10-01T00:15:36.687Z</updated>
@@ -75,7 +89,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[4]]></title>
+        <title type="html"><![CDATA[5]]></title>
         <id>https://simonwillison.net/2026/Sep/29/hn-49898129/</id>
         <link href="https://simonwillison.net/2026/Sep/29/hn-49898129/"/>
         <updated>2026-09-30T00:50:43.694Z</updated>
@@ -211,7 +225,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[11]]></title>
+        <title type="html"><![CDATA[12]]></title>
         <id>https://simonwillison.net/2026/Sep/27/hn-49871741/</id>
         <link href="https://simonwillison.net/2026/Sep/27/hn-49871741/"/>
         <updated>2026-09-28T07:23:30.164Z</updated>
@@ -363,7 +377,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[16]]></title>
+        <title type="html"><![CDATA[17]]></title>
         <id>https://simonwillison.net/2026/Sep/24/harder/</id>
         <link href="https://simonwillison.net/2026/Sep/24/harder/"/>
         <updated>2026-09-25T18:59:02.302Z</updated>
@@ -418,7 +432,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[19]]></title>
+        <title type="html"><![CDATA[20]]></title>
         <id>https://simonwillison.net/2026/Sep/23/hn-49823961/</id>
         <link href="https://simonwillison.net/2026/Sep/23/hn-49823961/"/>
         <updated>2026-09-28T07:23:30.174Z</updated>
@@ -672,7 +686,7 @@ It's the lack of anything. It's the lack of a definitive sort of spear of your v
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[30]]></title>
+        <title type="html"><![CDATA[31]]></title>
         <id>https://simonwillison.net/2026/Sep/20/hn-49779718/</id>
         <link href="https://simonwillison.net/2026/Sep/20/hn-49779718/"/>
         <updated>2026-09-21T19:48:11.600Z</updated>
@@ -725,30 +739,6 @@ It's the lack of anything. It's the lack of a definitive sort of spear of your v
 </div></div>
     <div class="beat-meta beat-row2">
       <a href="/2026/Sep/20/llm-keys-ui/" rel="bookmark">20th Sep 2026, 7:22 pm</a> · <a href="/tags/llm/">llm</a>, <a href="/tags/codex/">codex</a>, <a href="/tags/coding-agents/">coding-agents</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-explain 0.2.2]]></title>
-        <id>https://github.com/simonw/datasette-explain/releases/tag/0.2.2</id>
-        <link href="https://github.com/simonw/datasette-explain/releases/tag/0.2.2"/>
-        <updated>2026-09-20T22:46:33.887Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/datasette-explain/releases/tag/0.2.2">datasette-explain 0.2.2</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><blockquote>
-<ul>
-<li>Explain plans now work on read-only stored-query pages.</li>
-</ul>
-</blockquote>
-<p>I upgraded <a href="https://datasette.simonwillison.net">datasette.simonwillison.net</a> to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin.</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/20/datasette-explain/" rel="bookmark">20th Sep 2026, 12:22 am</a> · <a href="/tags/datasette/">datasette</a>, <a href="/tags/sqlite/">sqlite</a>
     </div>
   </div>]]></content>
     </entry>
