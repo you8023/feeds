@@ -2,9 +2,121 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-10-03T13:47:17.782Z</updated>
+    <updated>2026-10-03T18:19:36.980Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Part 2: Securing Azure Container Registry with Managed Identity and Private Endpoints]]></title>
+        <id>https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1</id>
+        <link href="https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1"/>
+        <updated>2026-10-03T15:13:17.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1" aria-labelledby="article-link-4710643" class="crayons-story__hidden-navigation-link">Part 2: Securing Azure Container Registry with Managed Identity and Private Endpoints</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/rahimah_dev" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3673037%2Fd084c1b1-6c80-43de-8b42-c48bd0cad2f8.png" alt="rahimah_dev profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/rahimah_dev" class="crayons-story__secondary fw-medium m:hidden">
+              Rahimah Sulayman
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4710643" aria-controls="story-author-preview-content-4710643" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Rahimah Sulayman profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Rahimah Sulayman
+                
+                
+              </button>
+              <div id="story-author-preview-content-4710643" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/rahimah_dev" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3673037%2Fd084c1b1-6c80-43de-8b42-c48bd0cad2f8.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Rahimah Sulayman</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3673037,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Rahimah Sulayman&quot;}" data-fetched="fetched" aria-label="Follow user: Rahimah Sulayman" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="3673037"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1" class="crayons-story__tertiary fs-xs"><time datetime="2026-10-03T15:13:17Z" data-localized="true" title="Saturday, October 3, 2026 at 3:13:17 PM">Oct 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1791040397"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpfkqgywbiz8rkzrvow73.png" id="article-link-4710643">
+          Part 2: Securing Azure Container Registry with Managed Identity and Private Endpoints
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 127, 255, 0.10);
+        --tag-prefix: #007fff;
+        --tag-bg-hover: rgba(0, 127, 255, 0.10);
+        --tag-prefix-hover: #007fff;
+      " href="/t/azure"><span class="crayons-tag__prefix">#</span>azure</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(6, 181, 0, 0.10);
+        --tag-prefix: #06B500;
+        --tag-bg-hover: rgba(6, 181, 0, 0.10);
+        --tag-prefix-hover: #06B500;
+      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(29, 99, 237, 0.10);
+        --tag-prefix: #1D63ED;
+        --tag-bg-hover: rgba(29, 99, 237, 0.10);
+        --tag-prefix-hover: #1D63ED;
+      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4710643" aria-label="Add a comment to post - Part 2: Securing Azure Container Registry with Managed Identity and Private Endpoints">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Part 2: Securing Azure Container Registry with Managed Identity and Private Endpoints">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqmvcubcwwk5gk45vzuoet86bxg6ec0r" class="crayons-icon"><title id="aqmvcubcwwk5gk45vzuoet86bxg6ec0r">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              2<span class="hidden s:inline">&nbsp;comments</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Your Lambda Has Admin on S3 and Doesn't Know It]]></title>
         <id>https://dev.to/bala_paranj_059d338e44e7e/your-lambda-has-admin-on-s3-and-doesnt-know-it-251i</id>
@@ -93,7 +205,7 @@
       <div class="crayons-story__bottom">
         <div class="crayons-story__details">
             <a href="https://dev.to/bala_paranj_059d338e44e7e/your-lambda-has-admin-on-s3-and-doesnt-know-it-251i#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Your Lambda Has Admin on S3 and Doesn't Know It">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="atsoabrqab0f819b4w3i4os6zbyx5lq6" class="crayons-icon"><title id="atsoabrqab0f819b4w3i4os6zbyx5lq6">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="atljf82rgymn8e1yiitmn7hdvz7gttzz" class="crayons-icon"><title id="atljf82rgymn8e1yiitmn7hdvz7gttzz">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               <span class="hidden s:inline">Add&nbsp;Comment</span>
             </a>
@@ -101,210 +213,6 @@
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
             9 min read
-          </small>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daily Dose of DevOps — Kubernetes security: for platform reliability engineering]]></title>
-        <id>https://dev.to/marco13moo/daily-dose-of-devops-kubernetes-security-for-platform-reliability-engineering-4h95</id>
-        <link href="https://dev.to/marco13moo/daily-dose-of-devops-kubernetes-security-for-platform-reliability-engineering-4h95"/>
-        <updated>2026-10-03T12:10:18.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/marco13moo/daily-dose-of-devops-kubernetes-security-for-platform-reliability-engineering-4h95" aria-labelledby="article-link-4791961" class="crayons-story__hidden-navigation-link">Daily Dose of DevOps — Kubernetes security: for platform reliability engineering</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/marco13moo" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4075032%2Fa20d9ca5-581a-4a78-a7f5-ee6aad8134f5.jpg" alt="marco13moo profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/marco13moo" class="crayons-story__secondary fw-medium m:hidden">
-              Marco
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4791961" aria-controls="story-author-preview-content-4791961" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Marco profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Marco
-                
-                
-              </button>
-              <div id="story-author-preview-content-4791961" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/marco13moo" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4075032%2Fa20d9ca5-581a-4a78-a7f5-ee6aad8134f5.jpg" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Marco</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4075032,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Marco&quot;}" data-fetched="fetched" aria-label="Follow user: Marco" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="4075032"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/marco13moo/daily-dose-of-devops-kubernetes-security-for-platform-reliability-engineering-4h95" class="crayons-story__tertiary fs-xs"><time datetime="2026-10-03T12:10:18Z" data-localized="true" title="Saturday, October 3, 2026 at 12:10:18 PM">Oct 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1791029418"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/marco13moo/daily-dose-of-devops-kubernetes-security-for-platform-reliability-engineering-4h95" data-preload-image="" id="article-link-4791961">
-          Daily Dose of DevOps — Kubernetes security: for platform reliability engineering
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(50, 109, 230, 0.10);
-        --tag-prefix: #326de6;
-        --tag-bg-hover: rgba(50, 109, 230, 0.10);
-        --tag-prefix-hover: #326de6;
-      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(60, 149, 89, 0.10);
-        --tag-prefix: #3C9559;
-        --tag-bg-hover: rgba(60, 149, 89, 0.10);
-        --tag-prefix-hover: #3C9559;
-      " href="/t/sre"><span class="crayons-tag__prefix">#</span>sre</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/marco13moo/daily-dose-of-devops-kubernetes-security-for-platform-reliability-engineering-4h95#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Daily Dose of DevOps — Kubernetes security: for platform reliability engineering">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="adyn6uqoah8zsqwrxl8d7twg7uvqez9t" class="crayons-icon"><title id="adyn6uqoah8zsqwrxl8d7twg7uvqez9t">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            2 min read
-          </small>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A green boot does not prove your key manager is being used]]></title>
-        <id>https://dev.to/marc_kumiko/a-green-boot-does-not-prove-your-key-manager-is-being-used-3g7b</id>
-        <link href="https://dev.to/marc_kumiko/a-green-boot-does-not-prove-your-key-manager-is-being-used-3g7b"/>
-        <updated>2026-10-03T06:15:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/marc_kumiko/a-green-boot-does-not-prove-your-key-manager-is-being-used-3g7b" aria-labelledby="article-link-4726388" class="crayons-story__hidden-navigation-link">A green boot does not prove your key manager is being used</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/marc_kumiko" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4001120%2F74d319bd-196a-45cb-843d-d70b2e6a54c5.png" alt="marc_kumiko profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/marc_kumiko" class="crayons-story__secondary fw-medium m:hidden">
-              Marc
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4726388" aria-controls="story-author-preview-content-4726388" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Marc profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Marc
-                
-                
-              </button>
-              <div id="story-author-preview-content-4726388" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/marc_kumiko" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4001120%2F74d319bd-196a-45cb-843d-d70b2e6a54c5.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Marc</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4001120,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Marc&quot;}" data-fetched="fetched" aria-label="Follow user: Marc" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="4001120"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/marc_kumiko/a-green-boot-does-not-prove-your-key-manager-is-being-used-3g7b" class="crayons-story__tertiary fs-xs"><time datetime="2026-10-03T06:15:00Z" data-localized="true" title="Saturday, October 3, 2026 at 6:15:00 AM">Oct 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1791008100"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/marc_kumiko/a-green-boot-does-not-prove-your-key-manager-is-being-used-3g7b" data-preload-image="" id="article-link-4726388">
-          A green boot does not prove your key manager is being used
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(50, 109, 230, 0.10);
-        --tag-prefix: #326de6;
-        --tag-bg-hover: rgba(50, 109, 230, 0.10);
-        --tag-prefix-hover: #326de6;
-      " href="/t/kubernetes"><span class="crayons-tag__prefix">#</span>kubernetes</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(35, 74, 132, 0.10);
-        --tag-prefix: #234A84;
-        --tag-bg-hover: rgba(35, 74, 132, 0.10);
-        --tag-prefix-hover: #234A84;
-      " href="/t/typescript"><span class="crayons-tag__prefix">#</span>typescript</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/marc_kumiko/a-green-boot-does-not-prove-your-key-manager-is-being-used-3g7b#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - A green boot does not prove your key manager is being used">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aotz2alf6pqsrugxp1smcncqtcgh0dzd" class="crayons-icon"><title id="aotz2alf6pqsrugxp1smcncqtcgh0dzd">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            6 min read
           </small>
         </div>
       </div>
