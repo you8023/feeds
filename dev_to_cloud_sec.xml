@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-10-03T21:49:29.259Z</updated>
+    <updated>2026-10-04T01:59:22.994Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
     <entry>
@@ -99,11 +99,11 @@
                     <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
                   </span>
               </span>
-              <span class="aggregate_reactions_counter">2<span class="hidden s:inline">&nbsp;reactions</span></span>
+              <span class="aggregate_reactions_counter">3<span class="hidden s:inline">&nbsp;reactions</span></span>
             </div>
           </a>
             <a href="https://dev.to/reidmarlow/auditing-50-petabytes-of-agent-logs-costs-more-than-sandboxing-egress-3822#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Auditing 50 Petabytes of Agent Logs Costs More Than Sandboxing Egress">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="alw9oymdkzo2njbgefc4wqjaii79d704" class="crayons-icon"><title id="alw9oymdkzo2njbgefc4wqjaii79d704">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3bdygc6ag2d4dhgpfapf0ign156di5a" class="crayons-icon"><title id="a3bdygc6ag2d4dhgpfapf0ign156di5a">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
 
               3<span class="hidden s:inline">&nbsp;comments</span>
             </a>
@@ -111,220 +111,6 @@
         <div class="crayons-story__save">
           <small class="crayons-story__tertiary fs-xs mr-2">
             4 min read
-          </small>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An SBOM is a tool output, not a fact about your software]]></title>
-        <id>https://dev.to/kalikys/an-sbom-is-a-tool-output-not-a-fact-about-your-software-3j2g</id>
-        <link href="https://dev.to/kalikys/an-sbom-is-a-tool-output-not-a-fact-about-your-software-3j2g"/>
-        <updated>2026-10-03T16:40:20.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/kalikys/an-sbom-is-a-tool-output-not-a-fact-about-your-software-3j2g" aria-labelledby="article-link-4792810" class="crayons-story__hidden-navigation-link">An SBOM is a tool output, not a fact about your software</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/kalikys" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4149547%2F2abd2af8-3d43-4eb8-b303-e4f353e27c11.png" alt="kalikys profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/kalikys" class="crayons-story__secondary fw-medium m:hidden">
-              Kalislav Smirnov
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4792810" aria-controls="story-author-preview-content-4792810" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Kalislav Smirnov profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Kalislav Smirnov
-                
-                
-              </button>
-              <div id="story-author-preview-content-4792810" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/kalikys" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4149547%2F2abd2af8-3d43-4eb8-b303-e4f353e27c11.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Kalislav Smirnov</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4149547,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Kalislav Smirnov&quot;}" data-fetched="fetched" aria-label="Follow user: Kalislav Smirnov" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="4149547"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/kalikys/an-sbom-is-a-tool-output-not-a-fact-about-your-software-3j2g" class="crayons-story__tertiary fs-xs"><time datetime="2026-10-03T16:40:20Z" data-localized="true" title="Saturday, October 3, 2026 at 4:40:20 PM">Oct 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1791045620"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/kalikys/an-sbom-is-a-tool-output-not-a-fact-about-your-software-3j2g" data-preload-image="" id="article-link-4792810">
-          An SBOM is a tool output, not a fact about your software
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(64, 78, 211, 0.10);
-        --tag-prefix: #404ED3;
-        --tag-bg-hover: rgba(64, 78, 211, 0.10);
-        --tag-prefix-hover: #404ED3;
-      " href="/t/cicd"><span class="crayons-tag__prefix">#</span>cicd</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(60, 149, 89, 0.10);
-        --tag-prefix: #3C9559;
-        --tag-bg-hover: rgba(60, 149, 89, 0.10);
-        --tag-prefix-hover: #3C9559;
-      " href="/t/sre"><span class="crayons-tag__prefix">#</span>sre</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-            <a href="https://dev.to/kalikys/an-sbom-is-a-tool-output-not-a-fact-about-your-software-3j2g#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - An SBOM is a tool output, not a fact about your software">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a3960z9bq3l4oakor55cv9hl60eq1pdr" class="crayons-icon"><title id="a3960z9bq3l4oakor55cv9hl60eq1pdr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              <span class="hidden s:inline">Add&nbsp;Comment</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            7 min read
-          </small>
-        </div>
-      </div>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Part 2: Securing Azure Container Registry with Managed Identity and Private Endpoints]]></title>
-        <id>https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1</id>
-        <link href="https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1"/>
-        <updated>2026-10-03T15:13:17.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1" aria-labelledby="article-link-4710643" class="crayons-story__hidden-navigation-link">Part 2: Securing Azure Container Registry with Managed Identity and Private Endpoints</a>
-
-
-  <div class="crayons-story__body crayons-story__body-full_post">
-    <div class="crayons-story__top">
-      <div class="crayons-story__meta">
-        <div class="crayons-story__author-pic">
-
-          <a href="/rahimah_dev" class="crayons-avatar  crayons-avatar--l  ">
-            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3673037%2Fd084c1b1-6c80-43de-8b42-c48bd0cad2f8.png" alt="rahimah_dev profile" class="crayons-avatar__image" loading="lazy">
-          </a>
-        </div>
-        <div>
-          <div>
-            <a href="/rahimah_dev" class="crayons-story__secondary fw-medium m:hidden">
-              Rahimah Sulayman
-            </a>
-            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
-              <button id="story-author-preview-trigger-4710643" aria-controls="story-author-preview-content-4710643" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Rahimah Sulayman profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
-                Rahimah Sulayman
-                
-                
-              </button>
-              <div id="story-author-preview-content-4710643" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
-                <div class="gap-4 grid">
-                  <div class="-mt-4">
-                    <a href="/rahimah_dev" class="flex">
-                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
-                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3673037%2Fd084c1b1-6c80-43de-8b42-c48bd0cad2f8.png" class="crayons-avatar__image" alt="" loading="lazy">
-                      </span>
-                      <span class="crayons-link crayons-subtitle-2 mt-5">Rahimah Sulayman</span>
-                    </a>
-                  </div>
-                  <div class="print-hidden">
-                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:3673037,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Rahimah Sulayman&quot;}" data-fetched="fetched" aria-label="Follow user: Rahimah Sulayman" aria-pressed="false">Follow</button>
-                  </div>
-                  <div class="author-preview-metadata-container" data-author-id="3673037"></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a href="https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1" class="crayons-story__tertiary fs-xs"><time datetime="2026-10-03T15:13:17Z" data-localized="true" title="Saturday, October 3, 2026 at 3:13:17 PM">Oct 3</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1791040397"></span></a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="crayons-story__indention">
-      <h2 class="crayons-story__title crayons-story__title-full_post">
-        <a href="https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpfkqgywbiz8rkzrvow73.png" id="article-link-4710643">
-          Part 2: Securing Azure Container Registry with Managed Identity and Private Endpoints
-        </a>
-      </h2>
-        <div class="crayons-story__tags">
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(0, 127, 255, 0.10);
-        --tag-prefix: #007fff;
-        --tag-bg-hover: rgba(0, 127, 255, 0.10);
-        --tag-prefix-hover: #007fff;
-      " href="/t/azure"><span class="crayons-tag__prefix">#</span>azure</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(6, 181, 0, 0.10);
-        --tag-prefix: #06B500;
-        --tag-bg-hover: rgba(6, 181, 0, 0.10);
-        --tag-prefix-hover: #06B500;
-      " href="/t/devops"><span class="crayons-tag__prefix">#</span>devops</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(27, 172, 128, 0.10);
-        --tag-prefix: #1bac80;
-        --tag-bg-hover: rgba(27, 172, 128, 0.10);
-        --tag-prefix-hover: #1bac80;
-      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
-            <a class="crayons-tag  crayons-tag--monochrome " style="
-        --tag-bg: rgba(29, 99, 237, 0.10);
-        --tag-prefix: #1D63ED;
-        --tag-bg-hover: rgba(29, 99, 237, 0.10);
-        --tag-prefix-hover: #1D63ED;
-      " href="/t/docker"><span class="crayons-tag__prefix">#</span>docker</a>
-        </div>
-      <div class="crayons-story__bottom">
-        <div class="crayons-story__details">
-          <a href="https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="4710643" aria-label="Add a comment to post - Part 2: Securing Azure Container Registry with Managed Identity and Private Endpoints">
-            <div class="multiple_reactions_aggregate">
-              <span class="multiple_reactions_icons_container" dir="rtl">
-                  <span class="crayons_icon_container">
-                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
-                  </span>
-              </span>
-              <span class="aggregate_reactions_counter">1<span class="hidden s:inline">&nbsp;reaction</span></span>
-            </div>
-          </a>
-            <a href="https://dev.to/rahimah_dev/part-2-securing-azure-container-registry-with-managed-identity-and-private-endpoints-9b1#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Part 2: Securing Azure Container Registry with Managed Identity and Private Endpoints">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7ls59kg5et0o73ea3qmie8whn6p0hky" class="crayons-icon"><title id="a7ls59kg5et0o73ea3qmie8whn6p0hky">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-
-              2<span class="hidden s:inline">&nbsp;comments</span>
-            </a>
-        </div>
-        <div class="crayons-story__save">
-          <small class="crayons-story__tertiary fs-xs mr-2">
-            5 min read
           </small>
         </div>
       </div>
