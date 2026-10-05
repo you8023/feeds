@@ -2,34 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://trainsec.net/library/</id>
     <title>trainsec</title>
-    <updated>2026-10-04T22:38:40.050Z</updated>
+    <updated>2026-10-05T01:18:41.523Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://trainsec.net/wp-content/uploads/2024/05/Icon-no-space@2x-100x100.png</icon>
     <entry>
-        <title type="html"><![CDATA[OBJECT_ATTRIBUTES Explained: How the Native API Opens Kernel Objects]]></title>
-        <id>https://trainsec.net/library/windows-internals/object-attributes-explained-how-the-native-api-opens-kernel-objects/</id>
-        <link href="https://trainsec.net/library/windows-internals/object-attributes-explained-how-the-native-api-opens-kernel-objects/"/>
-        <updated>2026-09-23T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/object-attributes-explained-how-the-native-api-opens-kernel-objects/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/09/Wse2cfYb51Y-maxresdefault.jpg" class="attachment-full size-full wp-image-12470" alt="OBJECT_ATTRIBUTES Explained: How the Native API Opens Kernel Objects" srcset="https://trainsec.net/wp-content/uploads/2026/09/Wse2cfYb51Y-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/09/Wse2cfYb51Y-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/09/Wse2cfYb51Y-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/09/Wse2cfYb51Y-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/09/Wse2cfYb51Y-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px"></div>
+        <title type="html"><![CDATA[Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode]]></title>
+        <id>https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/</id>
+        <link href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/"/>
+        <updated>2026-10-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg" class="attachment-full size-full wp-image-12517 entered lazyloaded" alt="Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-768x432.jpg 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg" data-ll-status="loaded" sizes="(max-width: 1280px) 100vw, 1280px" srcset="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-768x432.jpg 768w"><noscript><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg" class="attachment-full size-full wp-image-12517" alt="Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" srcset="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/windows-internals/object-attributes-explained-how-the-native-api-opens-kernel-objects/">
-				OBJECT_ATTRIBUTES Explained: How the Native API Opens Kernel Objects			</a>
+			<a href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/">
+				Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
 			Pavel Yosifovich		</span>
 				<span class="elementor-post-date">
-			September 23, 2026		</span>
+			October 4, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>Pavel Yosifovich explains the OBJECT_ATTRIBUTES structure behind every native and kernel create or open call, opening \Device\Beep with NtOpenFile.</p>
+			<p>Pavel Yosifovich reverses the new WESP driver with the registry, WinObj, !drvobj and PE imports, and finds a filter communication port instead of devices.</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/object-attributes-explained-how-the-native-api-opens-kernel-objects/" aria-label="Read more about OBJECT_ATTRIBUTES Explained: How the Native API Opens Kernel Objects" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/" aria-label="Read more about Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" tabindex="-1">
 			Dive in		</a>
+
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode]]></title>
+        <id>https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/</id>
+        <link href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/"/>
+        <updated>2026-10-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20720'%3E%3C/svg%3E" class="attachment-full size-full wp-image-12517" alt="Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-768x432.jpg 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg"><noscript><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg" class="attachment-full size-full wp-image-12517" alt="Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" srcset="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/">
+				Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			October 4, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Pavel Yosifovich reverses the new WESP driver with the registry, WinObj, !drvobj and PE imports, and finds a filter communication port instead of devices.</p>		</div>
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/" aria-label="Read more about Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" tabindex="-1">
+			Read More 		</a>
 
 				</div>]]></content>
     </entry>
@@ -53,11 +80,13 @@
 			September 23, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>Pavel Yosifovich explains the OBJECT_ATTRIBUTES structure behind every native and kernel create or open call, opening \Device\Beep with NtOpenFile.</p>		</div>
+			<p>Pavel Yosifovich explains the OBJECT_ATTRIBUTES structure behind every native and kernel create or open call,		</p></div>
+					<div class="elementor-post__read-more-wrapper">
 		
 		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/object-attributes-explained-how-the-native-api-opens-kernel-objects/" aria-label="Read more about OBJECT_ATTRIBUTES Explained: How the Native API Opens Kernel Objects" tabindex="-1">
 			Read More 		</a>
 
+					</div>
 				</div>]]></content>
     </entry>
     <entry>
