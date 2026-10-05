@@ -2,9 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-10-05T16:29:08.756Z</updated>
+    <updated>2026-10-05T23:03:10.830Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Qwen3.8 27B addition in words]]></title>
+        <id>https://github.com/simonw/research/tree/main/qwen38-addition-in-words#readme</id>
+        <link href="https://github.com/simonw/research/tree/main/qwen38-addition-in-words#readme"/>
+        <updated>2026-10-05T23:01:29.558Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label research" href="/elsewhere/research/">Research</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/research/tree/main/qwen38-addition-in-words#readme">Qwen3.8 27B addition in words</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>Colin Frasier <a href="https://bsky.app/profile/colin-fraser.net/post/3mwopbyznhs2k">posted on Bluesky</a> about an experiment he ran over two years ago using GPT-4o to see how well it could "compute the sum but return the answer in words" across increasingly large numbers. Here's the chart he shared of those results:</p>
+<p><img alt="Heatmap chart of accuracy on an addition prompt, colored from dark green (high) through yellow to dark red (low). Title: &quot;What is {a} + {b}? Please write your answer in words. Do not include any other text or information, just the answer in words.&quot; Subtitle: 30 randomly selected pairs for each digit combination (n = 30 * 13 * 13 = 5070). X axis: Number of digits in a, 1 to 13. Y axis: Number of digits in b, 1 to 13. Legend: Accuracy, 1.00, 0.75, 0.50, 0.25, 0.00. Values by row, listed for a = 1 to 13. b = 13: 100%, 77%, 27%, 20%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 12: 97%, 80%, 80%, 40%, 23%, 20%, 7%, 13%, 20%, 27%, 67%, 63%, 3%. b = 11: 97%, 97%, 53%, 17%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 37%, 0%. b = 10: 100%, 90%, 47%, 20%, 7%, 0%, 0%, 0%, 3%, 0%, 0%, 7%, 0%. b = 9: 97%, 93%, 80%, 77%, 53%, 67%, 47%, 87%, 97%, 3%, 0%, 13%, 0%. b = 8: 93%, 87%, 53%, 43%, 7%, 0%, 0%, 13%, 87%, 0%, 0%, 0%, 0%. b = 7: 93%, 93%, 47%, 10%, 13%, 20%, 23%, 0%, 70%, 0%, 0%, 0%, 0%. b = 6: 100%, 100%, 100%, 83%, 97%, 97%, 23%, 0%, 53%, 3%, 0%, 10%, 0%. b = 5: 100%, 100%, 80%, 70%, 73%, 100%, 13%, 13%, 70%, 0%, 20%, 30%, 0%. b = 4: 100%, 100%, 93%, 100%, 60%, 97%, 20%, 50%, 67%, 53%, 40%, 40%, 40%. b = 3: 100%, 100%, 97%, 90%, 83%, 100%, 63%, 50%, 63%, 53%, 60%, 60%, 30%. b = 2: 100%, 100%, 90%, 97%, 93%, 100%, 93%, 83%, 90%, 83%, 87%, 87%, 83%. b = 1: 100%, 100%, 100%, 97%, 100%, 97%, 97%, 97%, 100%, 100%, 100%, 97%, 100%." src="https://static.simonwillison.net/static/2026/colin-frasier-grid.webp"></p>
+<p>I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect in a fully controlled environment.</p>
+<p>I pasted his image into a Codex Remote session (GPT-6 Astra) and had it run the same experiment using <code>Qwen3.8-27B-Q4_K_M.gguf</code>. Here's the result for a run of 30 attempts per combination with reasoning disabled:</p>
+<p><img alt="Heatmap in the same layout as the previous chart, using an orange (low) to white to blue (high) color scale, showing much lower accuracy overall. Title: Addition in words — Qwen3.8 27B Q4_K_M. Subtitle: Reasoning disabled · 30 fixed pairs per ordered digit-length cell (n = 5,070). Overall numeric accuracy: 1,195 / 5,070 (23.57%). X axis: Number of digits in a, 1 to 13. Y axis: Number of digits in b, 1 to 13. Legend: Accuracy, 100%, 75%, 50%, 25%, 0%. Values by row, listed for a = 1 to 13. b = 13: 17%, 13%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 12: 53%, 20%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 11: 47%, 10%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 10: 70%, 27%, 3%, 0%, 0%, 0%, 0%, 0%, 0%, 13%, 0%, 0%, 0%. b = 9: 77%, 47%, 3%, 0%, 0%, 0%, 0%, 3%, 7%, 0%, 0%, 0%, 0%. b = 8: 53%, 20%, 0%, 0%, 0%, 0%, 7%, 13%, 0%, 0%, 0%, 0%, 0%. b = 7: 53%, 23%, 17%, 10%, 3%, 3%, 13%, 3%, 0%, 0%, 0%, 0%, 0%. b = 6: 60%, 60%, 33%, 10%, 53%, 47%, 7%, 3%, 0%, 0%, 0%, 0%, 0%. b = 5: 73%, 67%, 87%, 80%, 53%, 40%, 0%, 0%, 3%, 0%, 0%, 0%, 0%. b = 4: 83%, 93%, 90%, 93%, 53%, 13%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 3: 100%, 93%, 90%, 80%, 67%, 37%, 17%, 0%, 0%, 3%, 0%, 0%, 0%. b = 2: 100%, 100%, 93%, 90%, 77%, 77%, 43%, 50%, 63%, 43%, 40%, 13%, 23%. b = 1: 97%, 100%, 100%, 100%, 80%, 67%, 77%, 80%, 80%, 60%, 43%, 30%, 37%. Footnote: Colorblind-safe orange–blue scale; percentages provide a redundant non-color encoding." src="https://static.simonwillison.net/static/2026/qwen-words-no-reasoning.webp"></p>
+<p>Then I ran it again with reasoning enabled. This took a <em>lot longer</em> per pair, so instead of running 30 samples per square I ran just one - which results in a much less visually appealing heatmap since each square is either 100% or 0%:</p>
+<p><img alt="Heatmap in the same layout as the previous charts, almost entirely blue. Title: Addition in words — Qwen3.8 27B — medium reasoning pilot. Subtitle: 1 fixed pair per ordered digit-length cell · easiest first (n = 169). X axis: Number of digits in a, 1 to 13. Y axis: Number of digits in b, 1 to 13. Legend: Accuracy, 1.00, 0.75, 0.50, 0.25, 0.00. Every cell shows 100% except two orange cells showing 0%: a = 2 with b = 8, and a = 12 with b = 9." src="https://static.simonwillison.net/static/2026/qwen-words-reasoning.png"></p>
+<p>It got the right answer in 167 out of 169 attempts, and since these were one-shot I'm confident a second run would produce different results here.</p>
+<p>Here's a <a href="https://gist.github.com/simonw/8ef79c777ad34c53e9c09094800576a5#full-reasoning-transcript-2">version of the report</a> that includes the reasoning traces from some of those larger calculations, which include text like this:</p>
+<pre><code>Wait, let me redo this more carefully.
+
+4,299,366,105,622
+6,088,794,067,970
+
+Let me align them:
+4 2 9 9 3 6 6 1 0 5 6 2 2
+6 0 8 8 7 9 4 0 6 7 9 7 0
+
+Adding from right to left:
+Position 1 (units): 2 + 0 = 2
+Position 2 (tens): 2 + 7 = 9
+Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
+</code></pre></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Oct/4/qwen38-addition-in-words/" rel="bookmark">4th Oct 2026, 11:34 pm</a> · <a href="/tags/dgx-spark/">dgx-spark</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/local-llms/">local-llms</a>, <a href="/tags/qwen/">qwen</a>, <a href="/tags/llm-reasoning/">llm-reasoning</a>, <a href="/tags/mathematics/">mathematics</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We’re going to need default hard budget caps on pretty much everything]]></title>
         <id>https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/</id>
@@ -22,7 +63,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[1]]></title>
+        <title type="html"><![CDATA[2]]></title>
         <id>https://simonwillison.net/2026/Oct/3/newsletter/</id>
         <link href="https://simonwillison.net/2026/Oct/3/newsletter/"/>
         <updated>2026-10-04T01:57:41.742Z</updated>
@@ -110,6 +151,31 @@
   </div>]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[pwasm 0.2a0]]></title>
+        <id>https://github.com/simonw/pwasm/releases/tag/0.2a0</id>
+        <link href="https://github.com/simonw/pwasm/releases/tag/0.2a0"/>
+        <updated>2026-10-05T23:01:29.561Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/pwasm/releases/tag/0.2a0">pwasm 0.2a0</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of <a href="https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.012.webp">AI mania</a>.</p>
+<p>I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make any significant improvements:</p>
+<blockquote>
+<p><code>Evaluate current state of pwasm - then consider what it would take to get the MicroPython and micro JavaScript experiments from the <a href="https://github.com/simonw/research">research repo</a> working under it - and what it would take to speed it up</code></p>
+</blockquote>
+<p><a href="https://github.com/simonw/pwasm/pull/12">42 commits later</a> (with minimal follow-up prompting) it now handles almost all of the WASM specification, and the wheel from PyPI bundles working WASM builds of  <a href="https://micropython.org/">MicroPython</a>, <a href="https://github.com/quickjs-ng/quickjs">QuickJS</a> and <a href="https://github.com/bellard/mquickjs">Micro QuickJS</a>.</p>
+<p>I wouldn't trust this thing at all - hence the alpha version tag - but it's interesting seeing how today's models can improve on the work of models from 10 months ago.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Oct/1/pwasm/" rel="bookmark">1st Oct 2026, 5:10 pm</a> · <a href="/tags/vibe-coding/">vibe-coding</a>, <a href="/tags/webassembly/">webassembly</a>, <a href="/tags/python/">python</a>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache with email, Slack and shared documents or WhatsApp, and replace independently-sandboxed training runs with independently-deployed personal agents like Muse, and you have exactly the ingredients that a worm needs.]]></title>
         <id>https://simonwillison.net/2026/Oct/1/matthew-green/</id>
         <link href="https://simonwillison.net/2026/Oct/1/matthew-green/"/>
@@ -124,7 +190,7 @@
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[6]]></title>
+        <title type="html"><![CDATA[8]]></title>
         <id>https://simonwillison.net/2026/Sep/30/he-built-this-city/</id>
         <link href="https://simonwillison.net/2026/Sep/30/he-built-this-city/"/>
         <updated>2026-10-01T00:15:36.687Z</updated>
@@ -194,7 +260,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[10]]></title>
+        <title type="html"><![CDATA[12]]></title>
         <id>https://simonwillison.net/2026/Sep/29/hn-49898129/</id>
         <link href="https://simonwillison.net/2026/Sep/29/hn-49898129/"/>
         <updated>2026-09-30T00:50:43.694Z</updated>
@@ -250,6 +316,26 @@
   <p></p>
   <div class="entryFooter">
   <a href="/2026/Sep/29/openai-devday-2026-live-blog/" title="Permalink for &quot;OpenAI DevDay 2026 live blog&quot;">3:55 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/coding-agents/">coding-agents</a>, <a href="/tags/live-blog/">live-blog</a>, <a href="/tags/openai-devday/">openai-devday</a>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-anthropic 0.30]]></title>
+        <id>https://github.com/simonw/llm-anthropic/releases/tag/0.30</id>
+        <link href="https://github.com/simonw/llm-anthropic/releases/tag/0.30"/>
+        <updated>2026-10-05T23:01:29.574Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/llm-anthropic/releases/tag/0.30">llm-anthropic 0.30</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>In addition to Claude Sonnet 5.5, this release adds the ability to run <code>llm anthropic refresh</code> to refresh the list of Anthropic models directly from their API - which means I don't need to push a new release just to add support for a newly released model.</p>
+<p>I also added an <code>llm anthropic count</code> command which can use their free token counting API to return a count of tokens that will be used by any prompt, before you send that prompt.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Sep/28/llm-anthropic/" rel="bookmark">28th Sep 2026, 11:06 pm</a> · <a href="/tags/llm/">llm</a>, <a href="/tags/anthropic/">anthropic</a>
+    </div>
   </div>]]></content>
     </entry>
     <entry>
@@ -330,7 +416,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[17]]></title>
+        <title type="html"><![CDATA[20]]></title>
         <id>https://simonwillison.net/2026/Sep/27/hn-49871741/</id>
         <link href="https://simonwillison.net/2026/Sep/27/hn-49871741/"/>
         <updated>2026-09-28T07:23:30.164Z</updated>
@@ -482,7 +568,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[22]]></title>
+        <title type="html"><![CDATA[25]]></title>
         <id>https://simonwillison.net/2026/Sep/24/harder/</id>
         <link href="https://simonwillison.net/2026/Sep/24/harder/"/>
         <updated>2026-09-25T18:59:02.302Z</updated>
@@ -537,7 +623,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[25]]></title>
+        <title type="html"><![CDATA[28]]></title>
         <id>https://simonwillison.net/2026/Sep/23/hn-49823961/</id>
         <link href="https://simonwillison.net/2026/Sep/23/hn-49823961/"/>
         <updated>2026-09-28T07:23:30.174Z</updated>
@@ -707,73 +793,6 @@ It's the lack of anything. It's the lack of a definitive sort of spear of your v
     <div class="beat-meta beat-row2">
       <a href="/2026/Sep/22/llm-anthropic/" rel="bookmark">22nd Sep 2026, 5:14 pm</a> · <a href="/tags/llm/">llm</a>, <a href="/tags/anthropic/">anthropic</a>
     </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-typesafe 0.1a0]]></title>
-        <id>https://github.com/simonw/llm-typesafe/releases/tag/0.1a0</id>
-        <link href="https://github.com/simonw/llm-typesafe/releases/tag/0.1a0"/>
-        <updated>2026-09-22T18:24:58.908Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/llm-typesafe/releases/tag/0.1a0">llm-typesafe 0.1a0</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>I built this new plugin for <a href="https://llm.datasette.io/">LLM</a> to add support for <a href="https://simonwillison.net/2026/Sep/21/jev/">TypeSafe AI's new Jev model</a>. Install it like this:</p>
-<pre><code>llm install llm-typesafe
-</code></pre>
-<p>Then set an API key (<a href="https://console.typesafe.ai/">get one here</a>, the waitlist seems to move pretty fast):</p>
-<pre><code>llm keys set typesafe
-# Paste key
-</code></pre>
-<p>And now you can ask yes/no "noul" questions like this:</p>
-<pre><code>llm -m jev 'Please refund my last payment.' \
-  -s 'Does this message explicitly request a refund?'
-</code></pre>
-<p>Output:</p>
-<pre><code>{"type": "noul", "noul": 0.99}
-</code></pre>
-<p>Or choice questions like this:</p>
-<div class="highlight highlight-source-shell"><pre>cat message.txt <span class="pl-k">|</span> llm -m jev \
-  -s <span class="pl-s"><span class="pl-pds">'</span>Which team should handle this message? If billing and technical issues both occur, choose billing.<span class="pl-pds">'</span></span> \
-  -o answer_type choice \
-  -o criteria <span class="pl-s"><span class="pl-pds">'</span>{</span>
-<span class="pl-s">    "billing":"Charges, invoices, payments, or refunds",</span>
-<span class="pl-s">    "technical":"Problems installing or using the product",</span>
-<span class="pl-s">    "other":"Neither category fits"</span>
-<span class="pl-s">  }<span class="pl-pds">'</span></span></pre></div>
-<p>Or scoring questions like this:</p>
-<div class="highlight highlight-source-shell"><pre>cat report.txt <span class="pl-k">|</span> llm -m jev \
-  -s <span class="pl-s"><span class="pl-pds">'</span>How reproducible is the problem described in this report?<span class="pl-pds">'</span></span> \
-  -o answer_type score \
-  -o criteria <span class="pl-s"><span class="pl-pds">'</span>[</span>
-<span class="pl-s">    "No reproduction instructions",</span>
-<span class="pl-s">    "Some instructions, but important steps are missing",</span>
-<span class="pl-s">    "Complete steps with expected and actual results"</span>
-<span class="pl-s">  ]<span class="pl-pds">'</span></span></pre></div>
-<p>See <a href="https://github.com/simonw/llm-typesafe/blob/main/README.md">the README</a> for more details.</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/22/llm-typesafe/" rel="bookmark">22nd Sep 2026, 3:54 pm</a> · <a href="/tags/projects/">projects</a>, <a href="/tags/llm/">llm</a>, <a href="/tags/jev/">jev</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jev introduces a new shape of LLM—System One, aka Decision Models]]></title>
-        <id>https://simonwillison.net/2026/Sep/21/jev/</id>
-        <link href="https://simonwillison.net/2026/Sep/21/jev/"/>
-        <updated>2026-09-21T23:39:23.480Z</updated>
-        <content type="html"><![CDATA[<h3><a href="/2026/Sep/21/jev/" rel="bookmark">Jev introduces a new shape of LLM—System One, aka Decision Models</a></h3>
-  
-  <p>
-    </p><p>Last week <a href="https://typesafe.ai/">TypeSafe AI</a> unveiled <a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">Jev</a>, their first example of a new category of model that they are calling “System One models” (I’m with Maggie Appleton, I think “decision models” is <a href="https://twitter.com/Mappletons/status/2101560333441610133">a better name</a> for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers corresponding to categories, yes/no questions, ratings, and associated confidence scores.</p>
-
-    <span style="font-size: 0.9em">[... <a href="/2026/Sep/21/jev/">983 words</a>]</span>
-  <p></p>
-  <div class="entryFooter">
-  <a href="/2026/Sep/21/jev/" title="Permalink for &quot;Jev introduces a new shape of LLM - System One, aka Decision Models&quot;">11:09 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/evals/">evals</a>, <a href="/tags/ai-bias/">ai-bias</a>, <a href="/tags/jev/">jev</a>
   </div>]]></content>
     </entry>
 </feed>
