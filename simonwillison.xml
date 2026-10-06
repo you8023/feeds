@@ -2,9 +2,117 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-10-06T17:34:04.230Z</updated>
+    <updated>2026-10-06T22:00:19.900Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[llm-mistral 0.16]]></title>
+        <id>https://github.com/simonw/llm-mistral/releases/tag/0.16</id>
+        <link href="https://github.com/simonw/llm-mistral/releases/tag/0.16"/>
+        <updated>2026-10-06T21:58:41.680Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/llm-mistral/releases/tag/0.16">llm-mistral 0.16</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>Adds support for reasoning models, such as the newly released <a href="https://simonwillison.net/2026/Oct/6/le-chonk/">Mistral Large 4</a>.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Oct/6/llm-mistral/" rel="bookmark">6th Oct 2026, 9:32 pm</a> · <a href="/tags/llm-reasoning/">llm-reasoning</a>, <a href="/tags/mistral/">mistral</a>, <a href="/tags/llm/">llm</a>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1]]></title>
+        <id>https://simonwillison.net/2026/Oct/6/hn-49983751/</id>
+        <link href="https://simonwillison.net/2026/Oct/6/hn-49983751/"/>
+        <updated>2026-10-06T21:58:41.599Z</updated>
+        <content type="html"><![CDATA[<p class="comment-source-bar"><a class="beat-label comment" href="/elsewhere/comment/">Comment</a> <img class="beat-favicon" src="https://www.google.com/s2/favicons?domain=news.ycombinator.com&amp;sz=128" alt="" width="14" height="14" loading="lazy"> <a href="https://news.ycombinator.com/item?id=49980487#49983751">My comment</a> on <a href="https://news.ycombinator.com/item?id=49980487">EmbeddingGemma 2</a> — Hacker News</p>
+
+  
+  <p>I really appreciate that <a href="https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/">EmbeddingGemma 2</a> is under the Apache 2.0 license.</p>
+<p>For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model.</p>
+<p>Most applications of embedding models involve calculating thousands or even millions of embedding vectors and storing them for later comparison.</p>
+<p>If your model is proprietary, the vendor is likely someday going to decide to stop offering that model. They'll have a better model to replace it, but you still need to pay to re-calculate those millions of stored existing vectors.</p>
+<p>(In April 2024 OpenAI offered to "cover the financial cost of users re-embedding content with these new models" - <a href="https://openai.com/index/gpt-4-api-general-availability/">https://openai.com/index/gpt-4-api-general-availability/</a> - but I don't think that's something we can rely on from every provider.)</p>
+<p>Notably, I <em>don't want to host the model myself</em>. I'd much rather pay a provider for a hosted model while knowing that if they ever stop hosting it I can run the open weights version myself - or find another vendor who can do that for me.</p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Oct/6/hn-49983751/" rel="bookmark">#</a>
+    <a href="/2026/Oct/6/hn-49983751/">8:37 pm</a>
+     / <a href="/tags/google/">google</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/gemma/">gemma</a>, <a href="/tags/embeddings/">embeddings</a>
+  </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using Parseable with Datasette for OpenTelemetry traces]]></title>
+        <id>https://til.simonwillison.net/datasette/datasette-parseable-opentelemetry</id>
+        <link href="https://til.simonwillison.net/datasette/datasette-parseable-opentelemetry"/>
+        <updated>2026-10-06T21:58:41.680Z</updated>
+        <content type="html"><![CDATA[<a href="https://til.simonwillison.net/datasette/datasette-parseable-opentelemetry" class="beat-image-link"><img class="beat-image" src="https://s3.amazonaws.com/til.simonwillison.net/e9a57965786659e60073c5d26b83d268.jpg" alt="None" loading="lazy"></a>
+  
+  <div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label til" href="/elsewhere/til/">TIL</a>
+      
+      <span class="beat-title"><a href="https://til.simonwillison.net/datasette/datasette-parseable-opentelemetry">Using Parseable with Datasette for OpenTelemetry traces</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>I <a href="https://news.ycombinator.com/item?id=49978171">saw Parseable in a Show HN</a> today - it's a new observability platform with both an <a href="https://github.com/parseablehq/parseable">open source (AGPL)</a> Rust implementation (a single ~180MB binary), an "Enterprise" version with extra features and a cloud hosted option.</p>
+<p>Since <a href="https://docs.datasette.io/en/latest/changelog.html#a41-2026-09-24">Datasette 1.0a41 added OpenTelemetry support</a> (thanks, Alex Garcia), I decided to fire up Codex and have it figure out how to run Parseable and feed it traces from Datasette.</p>
+<p>Here's my (human-written) TIL showing the patterns that worked, and here's a screenshot of a Datasette trace displayed within the Parseable localhost web application:</p>
+<p><img alt="Screenshot of a trace detail view in an observability web app, with a span waterfall overlaid on a dimmed navigation sidebar and filter column. Dimmed sidebar: breadcrumb &quot;Community &gt; Traces &gt; datas&quot; (cut off), search box &quot;Search... ⌘K&quot;, nav items &quot;Home&quot;, &quot;Ingest telemetry&quot;, section &quot;ANALYZE&quot;: &quot;Keystone&quot;, &quot;Dashboards&quot;, &quot;SQL Editor&quot;, section &quot;OBSERVE&quot;: &quot;Logs&quot;, &quot;Metrics&quot;, &quot;Traces&quot; (selected), &quot;APM&quot;, &quot;Agents&quot;, section &quot;MONITOR&quot;: &quot;Alerts&quot;, &quot;Errors&quot;, section &quot;DATA&quot;: &quot;Datasets&quot;, and at the bottom &quot;Settings&quot;, &quot;Book a call&quot;, &quot;Support&quot;. Dimmed filter column, cut off at the right edge: &quot;Search fi&quot;, &quot;Core&quot;, &quot;Log format&quot;, &quot;User agent&quot;, &quot;Source IPs&quot;, &quot;Error&quot;, &quot;Service&quot;, &quot;service.ins&quot;, &quot;service.na&quot;, &quot;datasett&quot; (checked), &quot;Span&quot;, &quot;Database&quot;, &quot;HTTP&quot;, &quot;http.reque&quot;, &quot;NULL&quot; (unchecked), &quot;GET&quot; (checked), &quot;http.respo&quot;, &quot;http.route&quot;, &quot;Server&quot;, &quot;server.add&quot;, &quot;Telemetry&quot;, &quot;URL&quot;, &quot;All fields&quot;. Trace panel header: &quot;Trace detail &gt; 6f819a2170bcd1e91c6ea3ae236ec60b&quot; with a copy icon, a &quot;Related logs&quot; button and a close X. Summary: &quot;Start time 6:56 PM, Oct 6, 2026 UTC&quot;, &quot;Duration 40.9 ms&quot;, &quot;Spans 247&quot;. A minimap with axis &quot;0ns 10.2ms 20.5ms 30.7ms 40.9ms&quot; shows many short span bars cascading diagonally from top left toward the lower middle, with a few longer bars. Below is a span table with a &quot;Span name&quot; header, a &quot;Search spans...&quot; box, collapse and expand buttons, and a timeline axis &quot;0ns 10.2ms 20.5ms 30.7ms 40.9ms&quot;. Rows (name, service, duration): root span with collapse toggle &quot;123&quot;, &quot;GET /...&quot; &quot;datasette...&quot; 40.9ms spanning the full timeline; then alternating rows where each &quot;db.query&quot; has a collapse toggle &quot;1&quot;: db.query datasette-local 679µs, db.query.execute datasette-local 278µs, db.query datasette-local 341µs, db.query.execute datasette-local 55µs, db.query datasette-local 357µs, db.query.execute datasette-local 197µs, db.query datasette-local 330µs, db.query.execute datasette-local 73µs, db.query datasette-local 2.26ms, db.query.execute datasette-local 2.02ms, db.query datasette-local 232µs, db.query.execute datasette-local 64µs, db.query datasette-local 207µs, db.query.execute datasette-local 71µs, db.query datasette-local 6.11ms. The child span bars start progressively later across the early part of the timeline." src="https://raw.githubusercontent.com/simonw/til/refs/heads/main/datasette/datasette-parsable.webp"></p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Oct/6/datasette-parseable-opentelemetry/" rel="bookmark">6th Oct 2026, 7:07 pm</a> · <a href="/tags/datasette/">datasette</a>, <a href="/tags/opentelemetry/">opentelemetry</a>, <a href="/tags/observability/">observability</a>, <a href="/tags/alex-garcia/">alex-garcia</a>
+    </div>
+  </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[wren6991: The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars.]]></title>
+        <id>https://simonwillison.net/2026/Oct/6/hn-49982139/</id>
+        <link href="https://simonwillison.net/2026/Oct/6/hn-49982139/"/>
+        <updated>2026-10-06T21:58:41.681Z</updated>
+        <content type="html"><![CDATA[<p class="comment-source-bar"><a class="beat-label comment" href="/elsewhere/comment/">Comment</a> <img class="beat-favicon" src="https://www.google.com/s2/favicons?domain=news.ycombinator.com&amp;sz=128" alt="" width="14" height="14" loading="lazy"> <a href="https://news.ycombinator.com/item?id=49977979#49982139">My comment</a> on <a href="https://news.ycombinator.com/item?id=49977979">Mistral Large 4</a> — Hacker News</p>
+
+  
+  <blockquote>
+<p><a href="https://news.ycombinator.com/item?id=49977979#49979658">wren6991</a>: The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars.</p>
+</blockquote>
+<p>OK well I couldn't resist this one:</p>
+<pre><code>llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars'
+llm -m gpt-6.1-sol 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars'
+llm -m gemini-3.8-flash 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars'
+llm -m mistral/mistral-large-4 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars'
+</code></pre>
+<p>Default reasoning levels for each: <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F18c9f7fc3b3705cf88514cb9170ec246">https://tools.simonwillison.net/markdown-svg-renderer?url=ht...</a></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Oct/6/hn-49982139/" rel="bookmark">#</a>
+    <a href="/2026/Oct/6/hn-49982139/">6:20 pm</a>
+    
+  </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-atom 0.11a0]]></title>
+        <id>https://github.com/simonw/datasette-atom/releases/tag/0.11a0</id>
+        <link href="https://github.com/simonw/datasette-atom/releases/tag/0.11a0"/>
+        <updated>2026-10-06T21:58:41.683Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/datasette-atom/releases/tag/0.11a0">datasette-atom 0.11a0</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>A minor fix for compatibility with the latest Datasette alphas. This meant we could upgrade the <a href="https://datasette.io/">datasette.io</a> site to Datasette 1.0a41.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Oct/6/datasette-atom/" rel="bookmark">6th Oct 2026, 5:35 pm</a> · <a href="/tags/atom/">atom</a>, <a href="/tags/datasette/">datasette</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scrimshaw Jukebox]]></title>
         <id>https://tools.simonwillison.net/scrimshaw-jukebox</id>
@@ -128,7 +236,7 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[5]]></title>
+        <title type="html"><![CDATA[10]]></title>
         <id>https://simonwillison.net/2026/Oct/3/newsletter/</id>
         <link href="https://simonwillison.net/2026/Oct/3/newsletter/"/>
         <updated>2026-10-04T01:57:41.742Z</updated>
@@ -255,7 +363,7 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[11]]></title>
+        <title type="html"><![CDATA[16]]></title>
         <id>https://simonwillison.net/2026/Sep/30/he-built-this-city/</id>
         <link href="https://simonwillison.net/2026/Sep/30/he-built-this-city/"/>
         <updated>2026-10-01T00:15:36.687Z</updated>
@@ -325,7 +433,7 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[15]]></title>
+        <title type="html"><![CDATA[20]]></title>
         <id>https://simonwillison.net/2026/Sep/29/hn-49898129/</id>
         <link href="https://simonwillison.net/2026/Sep/29/hn-49898129/"/>
         <updated>2026-09-30T00:50:43.694Z</updated>
@@ -481,7 +589,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[23]]></title>
+        <title type="html"><![CDATA[28]]></title>
         <id>https://simonwillison.net/2026/Sep/27/hn-49871741/</id>
         <link href="https://simonwillison.net/2026/Sep/27/hn-49871741/"/>
         <updated>2026-09-28T07:23:30.164Z</updated>
@@ -633,7 +741,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[28]]></title>
+        <title type="html"><![CDATA[33]]></title>
         <id>https://simonwillison.net/2026/Sep/24/harder/</id>
         <link href="https://simonwillison.net/2026/Sep/24/harder/"/>
         <updated>2026-09-25T18:59:02.302Z</updated>
@@ -685,116 +793,6 @@ I've sent him an apology from your account owning it and offering to try again a
     <div class="beat-meta beat-row2">
       <a href="/2026/Sep/24/datasette/" rel="bookmark">24th Sep 2026, 7:15 pm</a> · <a href="/tags/datasette/">datasette</a>, <a href="/tags/web-components/">web-components</a>, <a href="/tags/opentelemetry/">opentelemetry</a>, <a href="/tags/alex-garcia/">alex-garcia</a>, <a href="/tags/javascript/">javascript</a>
     </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[31]]></title>
-        <id>https://simonwillison.net/2026/Sep/23/hn-49823961/</id>
-        <link href="https://simonwillison.net/2026/Sep/23/hn-49823961/"/>
-        <updated>2026-09-28T07:23:30.174Z</updated>
-        <content type="html"><![CDATA[<p class="comment-source-bar"><a class="beat-label comment" href="/elsewhere/comment/">Comment</a> <img class="beat-favicon" src="https://www.google.com/s2/favicons?domain=news.ycombinator.com&amp;sz=128" alt="" width="14" height="14" loading="lazy"> <a href="https://news.ycombinator.com/item?id=49823195#49823961">My comment</a> on <a href="https://news.ycombinator.com/item?id=49823195">We just shipped support for the ugliest part of HTTP: Vary</a> — Hacker News</p>
-
-  
-  <p>I've been wanting this from Cloudflare <em>for years</em>.</p>
-<p>The classic problem here is if you do that thing where user agents that send "accept: text/html" get HTML, while user agents that don't get JSON or some other format.</p>
-<p>This used to be impossible to deploy behind Cloudflare caching, because they ignored the Vary header on anything other than images - so you risked caching the JSON version and then serving it up to someone who was expecting HTML.</p>
-<p>(Independent of the Cloudflare feature I ended up deciding never to use that pattern, because I prefer having URL that predictably returns HTML or JSON - I add a .json suffix to my apps to serve JSON instead.)</p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Sep/23/hn-49823961/" rel="bookmark">#</a>
-    <a href="/2026/Sep/23/hn-49823961/">11:14 pm</a>
-     / <a href="/tags/http/">http</a>, <a href="/tags/cloudflare/">cloudflare</a>
-  </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemini 3.8 TTS Playground]]></title>
-        <id>https://tools.simonwillison.net/gemini-tts-playground</id>
-        <link href="https://tools.simonwillison.net/gemini-tts-playground"/>
-        <updated>2026-09-23T20:48:43.759Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label tool" href="/elsewhere/tool/">Tool</a>
-      
-      <span class="beat-title"><a href="https://tools.simonwillison.net/gemini-tts-playground">Gemini 3.8 TTS Playground</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>Google <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/">released two new Gemini text-to-speech models</a> today - <code>gemini-3.8-flash-tts</code> and <code>gemini-3.8-flash-lite-tts</code>.</p>
-<p>They come with a library of over 2,000 voices, plus the ability to create a custom voice with "just a 30-second audio sample of your voice or a voice you have the rights to use".</p>
-<p>I <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fa82f3aef2677c623d1776092d6b21224">vibe coded</a> this bring-your-own-key playground interface with GPT-6 Astra, taking advantage of the open CORS policy of the underlying Gemini API.</p>
-<p><img alt="Screenshot of a web app for composing multi-speaker text-to-speech conversations, with a Compose panel on the left and Connection and Under the hood panels on the right. Left panel: &quot;01 Compose&quot; with a &quot;Load example&quot; button. &quot;Compose settings are saved in the URL for bookmarking or sharing. Your API key is excluded.&quot; Toggle with &quot;Single voice&quot; and &quot;Conversation&quot; (Conversation selected). &quot;Cast&quot; section with &quot;+ Add speaker&quot; button. Speaker &quot;Gus&quot;, Voice &quot;Puck&quot;, with a remove × button. Speaker &quot;Pearl&quot;, Voice &quot;Kore&quot;, with a remove × button. &quot;Give each speaker a unique name and a voice. Type to search the loaded catalog by voice ID, name, or language.&quot; &quot;Dialogue&quot; section with &quot;+ Add line&quot; button. &quot;LINE 01&quot; with up, down and × buttons; Speaker dropdown &quot;Gus&quot;; Delivery style &quot;excited and gossipy&quot;; text &quot;Pearl, have you heard? Half the flock just packed up and moved to the Pacifica pier!&quot; &quot;LINE 02&quot; with up, down and × buttons; Speaker dropdown &quot;Pearl&quot;; Delivery style &quot;calm and unimpressed&quot;; text &quot;I heard. Honestly, Gus, I don't see the appeal. We've got everything we need right here at Pillar Point Harbor.&quot; Right panel: &quot;Connection&quot; with a &quot;DIRECT API&quot; badge. &quot;Gemini API key&quot; field showing masked dots with a &quot;Show&quot; button. &quot;2,089 voices loaded. Type in any Voice field to search.&quot; &quot;Your key stays in this page's memory and is sent directly to Google. It is never saved to browser storage.&quot; &quot;Model&quot; dropdown &quot;gemini-3.8-flash-tts&quot;. &quot;Uses your Gemini API account and quota.&quot; &quot;Under the hood&quot; panel with an expanded &quot;▼ Request JSON&quot; section showing a JSON code excerpt, a &quot;Copy JSON&quot; button, and an expanded &quot;▼ Response details&quot; section showing a JSON code excerpt." src="https://static.simonwillison.net/static/2026/tts-playground.webp"></p>
-<p>A notable feature of the API is that it makes it easy to define a full conversation between multiple characters, each with different voices and voice style instructions.</p>
-<p>Here's a short demo clip of a conversation between two pelicans debating if they should move to <a href="https://simonwillison.net/2026/Sep/12/sighting-399708714/">the Pacifica Pier</a>. I had Claude 4.5 Opus <a href="https://claude.ai/share/3597fc77-9323-4583-aeb9-b0e4c3f654a3">write the script</a> and generate <a href="https://simonwillison.net/u/vj">a URL to render it using the tool</a>.</p>
-<p><audio controls="" style="width: 100%">
-  <source src="https://static.simonwillison.net/static/2026/pelicans-pacifica-pier.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio></p>
-<p>It took ~20 seconds to generate 1m 18s of audio using Gemini 3.8 Flash TTS (not the cheaper Flash-Lite), at a cost of 2.74 cents.</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/23/gemini-tts-playground/" rel="bookmark">23rd Sep 2026, 5:12 pm</a> · <a href="/tags/text-to-speech/">text-to-speech</a>, <a href="/tags/gemini/">gemini</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shadow roots, explained with live examples]]></title>
-        <id>https://tools.simonwillison.net/shadow-roots</id>
-        <link href="https://tools.simonwillison.net/shadow-roots"/>
-        <updated>2026-09-23T20:48:43.760Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label tool" href="/elsewhere/tool/">Tool</a>
-      
-      <span class="beat-title"><a href="https://tools.simonwillison.net/shadow-roots">Shadow roots, explained with live examples</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>Prompt to Fable 5.1 Medium:</p>
-<blockquote>
-<p><code>Build an artifact to explain shadow roots in CSS with interactive examples</code></p>
-</blockquote></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/23/shadow-roots/" rel="bookmark">23rd Sep 2026, 4:37 pm</a> · <a href="/tags/css/">css</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7:08 PM]]></title>
-        <id>https://simonwillison.net/2026/Sep/23/sighting-402786744/</id>
-        <link href="https://simonwillison.net/2026/Sep/23/sighting-402786744/"/>
-        <updated>2026-09-23T20:48:43.763Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      <a class="beat-label sighting" href="/elsewhere/sighting/">Sighting</a>
-      <span class="beat-title"><a href="/2026/Sep/23/sighting-402786744/">7:08 PM</a></span>
-      <span class="beat-commit">— California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA</span>
-    </div>
-    <captioned-image-gallery data-count="2">
-      <figure style="width: 270.5px; height: 180.289px;"><a href="https://static.inaturalist.org/photos/739462090/original.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/739462090/small.jpg" alt="California Brown Pelican" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/402786744" title="View observation on iNaturalist">California Brown Pelican</a></figcaption></figure><figure style="width: 270.5px; height: 180.289px;"><a href="https://static.inaturalist.org/photos/739462134/original.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/739462134/small.jpg" alt="California Brown Pelican" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/402786744" title="View observation on iNaturalist">California Brown Pelican</a></figcaption></figure>
-    </captioned-image-gallery>
-    
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/23/sighting-402786744/" rel="bookmark">23rd Sep 2026</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war]]></title>
-        <id>https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/</id>
-        <link href="https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"/>
-        <updated>2026-09-23T00:59:21.004Z</updated>
-        <content type="html"><![CDATA[<h3><a href="/2026/Sep/22/opus-and-sol-and-luna/" rel="bookmark">Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war</a></h3>
-  
-    <div class="card-container">
-      <a href="/2026/Sep/22/opus-and-sol-and-luna/"><img src="https://static.simonwillison.net/static/2026/gpt-grid-card.jpg" alt="Visit Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war"></a>
-    </div>
-  
-  <p>
-    </p><p>Yesterday was <a href="https://x.ai/news/grok-4-7">Grok 4.7</a> (<a href="https://news.ycombinator.com/item?id=49788838#49790209">pelicans</a>) and <a href="https://mimo.xiaomi.com/mimo-v2-6">MiMo v2.6 Flash/Pro</a> (<a href="https://news.ycombinator.com/item?id=49792730#49793480">more pelicans</a>). Today Anthropic <a href="https://www.anthropic.com/claude-opus-5-5">released Claude Opus 5.5</a>, and around an hour later OpenAI <a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/">released GPT-6 Sol and GPT-6 Luna</a>. It’s going to take a while to get a good read on all of these new models, but here are my impressions so far.</p>
-
-    <span style="font-size: 0.9em">[... <a href="/2026/Sep/22/opus-and-sol-and-luna/">1,153 words</a>]</span>
-  <p></p>
-  <div class="entryFooter">
-  <a href="/2026/Sep/22/opus-and-sol-and-luna/" title="Permalink for &quot;Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war&quot;">11:46 pm</a> / <a href="/tags/ai/">ai</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/llms/">llms</a>, <a href="/tags/anthropic/">anthropic</a>, <a href="/tags/claude/">claude</a>, <a href="/tags/llm-pricing/">llm-pricing</a>, <a href="/tags/pelican-riding-a-bicycle/">pelican-riding-a-bicycle</a>, <a href="/tags/llm-release/">llm-release</a>, <a href="/tags/gpt/">gpt</a>, <a href="/tags/gpt-6-astra/">gpt-6-astra</a>
   </div>]]></content>
     </entry>
 </feed>

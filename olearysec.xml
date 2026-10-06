@@ -2,15 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://olearysec.com/research/</id>
     <title>olearysec</title>
-    <updated>2026-10-06T17:34:04.301Z</updated>
+    <updated>2026-10-06T22:00:19.682Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://olearysec.com/favicon.svg</icon>
     <entry>
-        <title type="html"><![CDATA[Think Different (About Bounds Checking)]]></title>
-        <id>https://olearysec.com/research/apple-imageio-heap-disclosure/</id>
-        <link href="https://olearysec.com/research/apple-imageio-heap-disclosure/"/>
-        <updated>2026-09-19T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a href="https://olearysec.com/research/apple-imageio-heap-disclosure/" class="research-card">
+        <title type="html"><![CDATA[TrustFall: AWS ACK IAM Controller Lets Any Namespace User Own Your Entire AWS Account]]></title>
+        <id>https://olearysec.com/research/aws-ack-iam-trust-policy-injection/</id>
+        <link href="https://olearysec.com/research/aws-ack-iam-trust-policy-injection/"/>
+        <updated>2026-10-06T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://olearysec.com/research/aws-ack-iam-trust-policy-injection/" class="research-card">
+            <div class="research-card-content">
+                <h3>TrustFall: AWS ACK IAM Controller Lets Any Namespace User Own Your Entire AWS Account</h3>
+                <p class="excerpt">TrustFall: A trust policy injection bug in AWS Controllers for Kubernetes grants namespace developers full AWS account access. CVSS 9.9. AWS excludes ACK from their vulnerability program.</p>
+                <div class="research-card-meta">
+                    <span class="meta-item">Oct 6, 2026</span>
+                    <span class="meta-item">Amazon Web Services</span>
+                    <span class="meta-item">None (AWS VDP excludes ACK)</span>
+                </div>
+            </div>
+            <div class="research-card-side">
+                
+                <span class="severity severity-critical">Critical</span>
+                
+                
+                <span class="cvss">9.9</span>
+                
+            </div>
+        </a>
+        
+        <a href="https://olearysec.com/research/apple-imageio-heap-disclosure/" class="research-card">
             <div class="research-card-content">
                 <h3>Think Different (About Bounds Checking)</h3>
                 <p class="excerpt">CVE-2026-84564: A logic bug in CGImageDestinationAddAuxiliaryDataInfo exposes uninitialized heap memory when auxiliary data dimensions don't match declared values. Apple fixed both bugs but only credited one.</p>
