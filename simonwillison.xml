@@ -2,9 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-10-05T23:03:10.830Z</updated>
+    <updated>2026-10-06T03:24:43.023Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[The "old" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops.
+The "new" version of Cowork runs model inference and the VM in the cloud. Each session gets its own sandbox, not sharing state with other sessions. When the VM needs something on the users' device (like a file), the desktop app is responsible for that file access tool call. [...]
+We think this solves a lot of problems we've heard about  (like using Cowork from a phone, keeping work running, or getting all the same power without losing battery to the VM)]]></title>
+        <id>https://simonwillison.net/2026/Oct/5/felix-rieseberg/</id>
+        <link href="https://simonwillison.net/2026/Oct/5/felix-rieseberg/"/>
+        <updated>2026-10-06T03:23:03.393Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://twitter.com/felixrieseberg/status/2107206431376334975"><p>The "old" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops.</p>
+<p>The "new" version of Cowork runs model inference and the VM in the cloud. Each session gets its own sandbox, not sharing state with other sessions. When the VM needs something on the users' device (like a file), the desktop app is responsible for that file access tool call. [...]</p>
+<p>We think this solves a lot of problems we've heard about  (like using Cowork from a phone, keeping work running, or getting all the same power without losing battery to the VM)</p></blockquote>
+  <p class="cite">— <a href="https://twitter.com/felixrieseberg/status/2107206431376334975">Felix Rieseberg</a>, <span class="context">Anthropic, see also <a href="https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile#h_f951c27c48">this help page</a></span></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Oct/5/felix-rieseberg/" rel="bookmark">#</a>
+    <a href="/2026/Oct/5/felix-rieseberg/">11:56 pm</a>
+     / <a href="/tags/claude-cowork/">claude-cowork</a>, <a href="/tags/anthropic/">anthropic</a>, <a href="/tags/claude/">claude</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/general-agents/">general-agents</a>, <a href="/tags/llms/">llms</a>
+  </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[6:15 PM – 6:31 PM]]></title>
+        <id>https://simonwillison.net/2026/Oct/5/sighting-406203789/</id>
+        <link href="https://simonwillison.net/2026/Oct/5/sighting-406203789/"/>
+        <updated>2026-10-06T03:23:03.393Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      <a class="beat-label sighting" href="/elsewhere/sighting/">Sighting</a>
+      <span class="beat-title"><a href="/2026/Oct/5/sighting-406203789/">6:15 PM – 6:31 PM</a></span>
+      <span class="beat-commit">— Brewer's Blackbird, California Brown Pelican, Common Raven, in Monterey Bay National Marine Sanctuary, CA, US, CA</span>
+    </div>
+    <captioned-image-gallery data-count="3">
+      <figure style="width: 218.883px; height: 145.886px;"><a href="https://static.inaturalist.org/photos/746259127/original.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/746259127/small.jpg" alt="Brewer's Blackbird" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/406203970" title="View observation on iNaturalist">Brewer's Blackbird</a></figcaption></figure><figure style="width: 218.883px; height: 145.886px;"><a href="https://static.inaturalist.org/photos/746261390/original.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/746261390/small.jpg" alt="California Brown Pelican" loading="lazy" data-width="2048" data-height="1365"></a><figcaption><a href="https://www.inaturalist.org/observations/406205013" title="View observation on iNaturalist">California Brown Pelican</a></figcaption></figure><figure style="width: 97.2339px; height: 145.886px;"><a href="https://static.inaturalist.org/photos/746258621/original.jpg" data-captioned-gallery-wired="1"><img src="https://static.inaturalist.org/photos/746258621/small.jpg" alt="Common Raven" loading="lazy" data-width="1365" data-height="2048"></a><figcaption><a href="https://www.inaturalist.org/observations/406203789" title="View observation on iNaturalist">Common Raven</a></figcaption></figure>
+    </captioned-image-gallery>
+    
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Oct/5/sighting-406203789/" rel="bookmark">5th Oct 2026</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Qwen3.8 27B addition in words]]></title>
         <id>https://github.com/simonw/research/tree/main/qwen38-addition-in-words#readme</id>
@@ -63,7 +101,7 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2]]></title>
+        <title type="html"><![CDATA[4]]></title>
         <id>https://simonwillison.net/2026/Oct/3/newsletter/</id>
         <link href="https://simonwillison.net/2026/Oct/3/newsletter/"/>
         <updated>2026-10-04T01:57:41.742Z</updated>
@@ -190,7 +228,7 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[8]]></title>
+        <title type="html"><![CDATA[10]]></title>
         <id>https://simonwillison.net/2026/Sep/30/he-built-this-city/</id>
         <link href="https://simonwillison.net/2026/Sep/30/he-built-this-city/"/>
         <updated>2026-10-01T00:15:36.687Z</updated>
@@ -260,7 +298,7 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[12]]></title>
+        <title type="html"><![CDATA[14]]></title>
         <id>https://simonwillison.net/2026/Sep/29/hn-49898129/</id>
         <link href="https://simonwillison.net/2026/Sep/29/hn-49898129/"/>
         <updated>2026-09-30T00:50:43.694Z</updated>
@@ -416,7 +454,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[20]]></title>
+        <title type="html"><![CDATA[22]]></title>
         <id>https://simonwillison.net/2026/Sep/27/hn-49871741/</id>
         <link href="https://simonwillison.net/2026/Sep/27/hn-49871741/"/>
         <updated>2026-09-28T07:23:30.164Z</updated>
@@ -568,7 +606,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[25]]></title>
+        <title type="html"><![CDATA[27]]></title>
         <id>https://simonwillison.net/2026/Sep/24/harder/</id>
         <link href="https://simonwillison.net/2026/Sep/24/harder/"/>
         <updated>2026-09-25T18:59:02.302Z</updated>
@@ -623,7 +661,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[28]]></title>
+        <title type="html"><![CDATA[30]]></title>
         <id>https://simonwillison.net/2026/Sep/23/hn-49823961/</id>
         <link href="https://simonwillison.net/2026/Sep/23/hn-49823961/"/>
         <updated>2026-09-28T07:23:30.174Z</updated>
@@ -755,43 +793,6 @@ I've sent him an apology from your account owning it and offering to try again a
 <p>Plus <a href="https://llm.datasette.io/en/stable/changelog.html#v0-36">bug fixes from five new contributors</a>.</p></div>
     <div class="beat-meta beat-row2">
       <a href="/2026/Sep/22/llm/" rel="bookmark">22nd Sep 2026, 6:48 pm</a> · <a href="/tags/openai/">openai</a>, <a href="/tags/llm/">llm</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of "it's not X, it's Y", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.
-It's the lack of anything. It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about.]]></title>
-        <id>https://simonwillison.net/2026/Sep/22/therealcornpop/</id>
-        <link href="https://simonwillison.net/2026/Sep/22/therealcornpop/"/>
-        <updated>2026-09-22T18:24:58.908Z</updated>
-        <content type="html"><![CDATA[<blockquote cite="https://www.tiktok.com/@therealcornpop/video/7687243097801051422"><p>Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of "it's not X, it's Y", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.</p>
-<p>It's the lack of <em>anything</em>. It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about.</p></blockquote>
-  <p class="cite">— <a href="https://www.tiktok.com/@therealcornpop/video/7687243097801051422">@therealcornpop</a>, <span class="context">on TikTok</span></p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Sep/22/therealcornpop/" rel="bookmark">#</a>
-    <a href="/2026/Sep/22/therealcornpop/">6:03 pm</a>
-     / <a href="/tags/tiktok/">tiktok</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/ai-misuse/">ai-misuse</a>
-  </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-anthropic 0.29]]></title>
-        <id>https://github.com/simonw/llm-anthropic/releases/tag/0.29</id>
-        <link href="https://github.com/simonw/llm-anthropic/releases/tag/0.29"/>
-        <updated>2026-09-23T00:59:21.013Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/llm-anthropic/releases/tag/0.29">llm-anthropic 0.29</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>Adds support for <a href="https://www.anthropic.com/claude-opus-5-5">Claude Opus 5.5</a>:</p>
-<pre><code>llm -m claude-opus-5.5 "prompt goes here"
-</code></pre></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/22/llm-anthropic/" rel="bookmark">22nd Sep 2026, 5:14 pm</a> · <a href="/tags/llm/">llm</a>, <a href="/tags/anthropic/">anthropic</a>
     </div>
   </div>]]></content>
     </entry>
