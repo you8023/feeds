@@ -2,7 +2,109 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.to/t/security</id>
     <title>dev_to_cloud_sec</title>
-    <updated>2026-10-07T01:52:32.182Z</updated>
+    <updated>2026-10-07T09:11:10.443Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Demystifying Django's ORM: Solving the N+1 Query Problem for Good]]></title>
+        <id>https://dev.to/moznu/demystifying-djangos-orm-solving-the-n1-query-problem-for-good-2i0o</id>
+        <link href="https://dev.to/moznu/demystifying-djangos-orm-solving-the-n1-query-problem-for-good-2i0o"/>
+        <updated>2026-10-07T08:05:01.000Z</updated>
+        <content type="html"><![CDATA[<a href="https://dev.to/moznu/demystifying-djangos-orm-solving-the-n1-query-problem-for-good-2i0o" aria-labelledby="article-link-4810906" class="crayons-story__hidden-navigation-link">Demystifying Django's ORM: Solving the N+1 Query Problem for Good</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="/moznu" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4154750%2Ff9ba6847-ae72-4a9e-a241-402ace477ae6.png" alt="moznu profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/moznu" class="crayons-story__secondary fw-medium m:hidden">
+              Moznu
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-4810906" aria-controls="story-author-preview-content-4810906" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Moznu profile details" aria-expanded="false" aria-haspopup="true" data-dropdown-initialized="true" data-initialized="true">
+                Moznu
+                
+                
+              </button>
+              <div id="story-author-preview-content-4810906" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0" style="border-top-color: var(--card-color);" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/moznu" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4154750%2Ff9ba6847-ae72-4a9e-a241-402ace477ae6.png" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Moznu</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:4154750,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Moznu&quot;}" data-fetched="fetched" aria-label="Follow user: Moznu" aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="author-preview-metadata-container" data-author-id="4154750"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/moznu/demystifying-djangos-orm-solving-the-n1-query-problem-for-good-2i0o" class="crayons-story__tertiary fs-xs"><time datetime="2026-10-07T08:05:01Z" data-localized="true" title="Wednesday, October 7, 2026 at 8:05:01 AM">Oct 7</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1791360301"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/moznu/demystifying-djangos-orm-solving-the-n1-query-problem-for-good-2i0o" data-preload-image="" id="article-link-4810906">
+          Demystifying Django's ORM: Solving the N+1 Query Problem for Good
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(27, 172, 128, 0.10);
+        --tag-prefix: #1bac80;
+        --tag-bg-hover: rgba(27, 172, 128, 0.10);
+        --tag-prefix-hover: #1bac80;
+      " href="/t/security"><span class="crayons-tag__prefix">#</span>security</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="/t/comptia"><span class="crayons-tag__prefix">#</span>comptia</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 153, 0, 0.10);
+        --tag-prefix: #FF9900;
+        --tag-bg-hover: rgba(255, 153, 0, 0.10);
+        --tag-prefix-hover: #FF9900;
+      " href="/t/cloud"><span class="crayons-tag__prefix">#</span>cloud</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(86, 39, 101, 0.10);
+        --tag-prefix: #562765;
+        --tag-bg-hover: rgba(86, 39, 101, 0.10);
+        --tag-prefix-hover: #562765;
+      " href="/t/webdev"><span class="crayons-tag__prefix">#</span>webdev</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+            <a href="https://dev.to/moznu/demystifying-djangos-orm-solving-the-n1-query-problem-for-good-2i0o#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Demystifying Django's ORM: Solving the N+1 Query Problem for Good">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aklz8ujuphj0364rmhmi8mm1778xwr4q" class="crayons-icon"><title id="aklz8ujuphj0364rmhmi8mm1778xwr4q">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              <span class="hidden s:inline">Add&nbsp;Comment</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            3 min read
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>]]></content>
+    </entry>
 </feed>
