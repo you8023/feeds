@@ -2,9 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://simonwillison.net/</id>
     <title>Simon Willison</title>
-    <updated>2026-10-06T22:00:19.900Z</updated>
+    <updated>2026-10-07T01:52:32.409Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://simonwillison.net/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said.]]></title>
+        <id>https://simonwillison.net/2026/Oct/6/victoria-kim/</id>
+        <link href="https://simonwillison.net/2026/Oct/6/victoria-kim/"/>
+        <updated>2026-10-07T01:51:14.560Z</updated>
+        <content type="html"><![CDATA[<blockquote cite="https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a"><p>Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said.</p></blockquote>
+  <p class="cite">— <a href="https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a">Victoria Kim</a>, <span class="context">Reporting from the Australian parliament</span></p>
+  
+  <p class="date-and-tags">
+    <a href="/2026/Oct/6/victoria-kim/" rel="bookmark">#</a>
+    <a href="/2026/Oct/6/victoria-kim/">11:58 pm</a>
+     / <a href="/tags/accidental-cyberattacks/">accidental-cyberattacks</a>, <a href="/tags/generative-ai/">generative-ai</a>, <a href="/tags/ai-security-research/">ai-security-research</a>, <a href="/tags/openai/">openai</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
+  </p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-openai-decisions 0.1a0]]></title>
+        <id>https://github.com/simonw/llm-openai-decisions/releases/tag/0.1a0</id>
+        <link href="https://github.com/simonw/llm-openai-decisions/releases/tag/0.1a0"/>
+        <updated>2026-10-07T01:51:14.562Z</updated>
+        <content type="html"><![CDATA[<div class="beat-content">
+    <div class="beat-row1">
+      
+        <a class="beat-label release" href="/elsewhere/release/">Release</a>
+      
+      <span class="beat-title"><a href="https://github.com/simonw/llm-openai-decisions/releases/tag/0.1a0">llm-openai-decisions 0.1a0</a></span>
+      
+    </div>
+    <div class="beat-note blogmark-body"><p>OpenAI released their new Jev-style <a href="https://developers.openai.com/api/docs/guides/decisions">Decisions API</a>, as previously announced at last week's DevDay.</p>
+<p>Since I already have an <a href="https://github.com/simonw/llm-typesafe">llm-typesafe</a> plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an <code>llm-openai-decisions</code> plugin inspired by <code>llm-typesafe</code>.</p>
+<p>Unlike Jev, the new <code>gpt-6-luna</code> decision model supports image input in addition to text. Both models charge for input it and not for output: OpenAI's is 10 cents per million input tokens, Jev's is 4.2 cents per million.</p>
+<p>Otherwise the API shape is <em>very</em> similar to Jev, at least conceptually. Jev <a href="https://simonwillison.net/2026/Sep/21/jev/#three-types">supports three question types</a> for yes/no, choices, or scores. OpenAI Decisions supports the same three types.</p>
+<p>Install the plugin like this:</p>
+<pre><code>llm install llm-openai-decisions
+</code></pre>
+<p>Here's an example query against an image attachment:</p>
+<div class="highlight highlight-source-shell"><pre>llm -m openai-decisions/gpt-6-luna \
+  -a https://static.simonwillison.net/static/2025/two-pelicans.jpg \
+  -s <span class="pl-s"><span class="pl-pds">'</span>Does this image contain any mammals?<span class="pl-pds">'</span></span></pre></div>
+<p>And example output:</p>
+<div class="highlight highlight-source-json"><pre>{<span class="pl-ent">"type"</span>: <span class="pl-s"><span class="pl-pds">"</span>predicate<span class="pl-pds">"</span></span>, <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>evaluation<span class="pl-pds">"</span></span>, <span class="pl-ent">"probability"</span>: <span class="pl-c1">0.0</span>}</pre></div>
+
+<p>Consult <a href="https://github.com/simonw/llm-openai-decisions/blob/main/README.md">the README</a> for full details of how to run the other types of questions.</p></div>
+    <div class="beat-meta beat-row2">
+      <a href="/2026/Oct/6/llm-openai-decisions/" rel="bookmark">6th Oct 2026, 11:04 pm</a> · <a href="/tags/openai/">openai</a>, <a href="/tags/llm/">llm</a>, <a href="/tags/jev/">jev</a>, <a href="/tags/coding-agents/">coding-agents</a>
+    </div>
+  </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[llm-mistral 0.16]]></title>
         <id>https://github.com/simonw/llm-mistral/releases/tag/0.16</id>
@@ -25,7 +72,7 @@
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[1]]></title>
+        <title type="html"><![CDATA[3]]></title>
         <id>https://simonwillison.net/2026/Oct/6/hn-49983751/</id>
         <link href="https://simonwillison.net/2026/Oct/6/hn-49983751/"/>
         <updated>2026-10-06T21:58:41.599Z</updated>
@@ -236,7 +283,7 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[10]]></title>
+        <title type="html"><![CDATA[12]]></title>
         <id>https://simonwillison.net/2026/Oct/3/newsletter/</id>
         <link href="https://simonwillison.net/2026/Oct/3/newsletter/"/>
         <updated>2026-10-04T01:57:41.742Z</updated>
@@ -363,7 +410,7 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
   </p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[16]]></title>
+        <title type="html"><![CDATA[18]]></title>
         <id>https://simonwillison.net/2026/Sep/30/he-built-this-city/</id>
         <link href="https://simonwillison.net/2026/Sep/30/he-built-this-city/"/>
         <updated>2026-10-01T00:15:36.687Z</updated>
@@ -433,7 +480,7 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[20]]></title>
+        <title type="html"><![CDATA[22]]></title>
         <id>https://simonwillison.net/2026/Sep/29/hn-49898129/</id>
         <link href="https://simonwillison.net/2026/Sep/29/hn-49898129/"/>
         <updated>2026-09-30T00:50:43.694Z</updated>
@@ -589,7 +636,7 @@ I've sent him an apology from your account owning it and offering to try again a
   </div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[28]]></title>
+        <title type="html"><![CDATA[30]]></title>
         <id>https://simonwillison.net/2026/Sep/27/hn-49871741/</id>
         <link href="https://simonwillison.net/2026/Sep/27/hn-49871741/"/>
         <updated>2026-09-28T07:23:30.164Z</updated>
@@ -737,61 +784,6 @@ I've sent him an apology from your account owning it and offering to try again a
     <div class="beat-note blogmark-body"><p>New 200-800mm Canon EF lens got me my best photo of <a href="https://simonwillison.net/2026/Aug/15/sighting-391300422/">Morris</a> yet. They really like hanging out under that sign in the harbor!</p></div>
     <div class="beat-meta beat-row2">
       <a href="/2026/Sep/25/sighting-403293902/" rel="bookmark">25th Sep 2026</a> · <a href="/tags/photography/">photography</a>, <a href="/tags/wildlife/">wildlife</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[33]]></title>
-        <id>https://simonwillison.net/2026/Sep/24/harder/</id>
-        <link href="https://simonwillison.net/2026/Sep/24/harder/"/>
-        <updated>2026-09-25T18:59:02.302Z</updated>
-        <content type="html"><![CDATA[<p>The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder.</p>
-<p>We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge.</p>
-  
-  <p class="date-and-tags">
-    <a href="/2026/Sep/24/harder/" rel="bookmark">#</a>
-    <a href="/2026/Sep/24/harder/">11:31 pm</a>
-     / <a href="/tags/coding-agents/">coding-agents</a>, <a href="/tags/ai/">ai</a>, <a href="/tags/llms/">llms</a>
-  </p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[commit-rewriter 0.2]]></title>
-        <id>https://github.com/simonw/commit-rewriter/releases/tag/0.2</id>
-        <link href="https://github.com/simonw/commit-rewriter/releases/tag/0.2"/>
-        <updated>2026-09-24T22:47:02.829Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/commit-rewriter/releases/tag/0.2">commit-rewriter 0.2</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><blockquote>
-<p>Support for branches other than the default branch. Use <code>uvx commit-rewriter --branch other</code> to run against another branch. <a href="https://github.com/simonw/commit-rewriter/issues/3">#3</a></p>
-</blockquote></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/24/commit-rewriter/" rel="bookmark">24th Sep 2026, 8:06 pm</a> · <a href="/tags/git/">git</a>
-    </div>
-  </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette 1.0a41]]></title>
-        <id>https://github.com/simonw/datasette/releases/tag/1.0a41</id>
-        <link href="https://github.com/simonw/datasette/releases/tag/1.0a41"/>
-        <updated>2026-09-24T22:47:02.829Z</updated>
-        <content type="html"><![CDATA[<div class="beat-content">
-    <div class="beat-row1">
-      
-        <a class="beat-label release" href="/elsewhere/release/">Release</a>
-      
-      <span class="beat-title"><a href="https://github.com/simonw/datasette/releases/tag/1.0a41">datasette 1.0a41</a></span>
-      
-    </div>
-    <div class="beat-note blogmark-body"><p>Alec Garcia added <a href="https://docs.datasette.io/en/latest/internals.html#internals-telemetry">support for OpenTelemetry</a> to Datasette in this release.</p>
-<p>I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now <a href="https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modals">documented for other plugins to use</a>.</p></div>
-    <div class="beat-meta beat-row2">
-      <a href="/2026/Sep/24/datasette/" rel="bookmark">24th Sep 2026, 7:15 pm</a> · <a href="/tags/datasette/">datasette</a>, <a href="/tags/web-components/">web-components</a>, <a href="/tags/opentelemetry/">opentelemetry</a>, <a href="/tags/alex-garcia/">alex-garcia</a>, <a href="/tags/javascript/">javascript</a>
     </div>
   </div>]]></content>
     </entry>
