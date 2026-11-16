@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://pwn.ai/blog</id>
+    <title>Security Research Blog | PWN.AI</title>
+    <updated>2026-11-16T10:06:13.099Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <icon>https://pwn.ai/pwner.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Firecracker VM Escape: PwnEscape Part 2.]]></title>
+        <id>https://pwn.ai/blog/firecracker-escape</id>
+        <link href="https://pwn.ai/blog/firecracker-escape"/>
+        <updated>2026-11-16T10:06:12.953Z</updated>
+        <content type="html"><![CDATA[A malicious guest crossed Firecracker's microVM boundary, resolved the live VMM from inside the VM, and took control of a root-run host process—turning a Linux networking flaw into a guest-to-host code-execution primitive.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2026-106378: Chrome GPU Sandbox Escape to RCE]]></title>
+        <id>https://pwn.ai/blog/chrome-escape</id>
+        <link href="https://pwn.ai/blog/chrome-escape"/>
+        <updated>2026-11-16T10:06:12.953Z</updated>
+        <content type="html"><![CDATA[How an allowed WindowServer connection and inherited macOS event-posting permission let Chrome’s sandboxed GPU process inject keystrokes and launch apps outside the sandbox.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inside the Sandbox: How pwn Escaped Google kvmCTF (Before the Watershed)]]></title>
+        <id>https://pwn.ai/blog/kvmescape</id>
+        <link href="https://pwn.ai/blog/kvmescape"/>
+        <updated>2026-11-16T10:06:12.953Z</updated>
+        <content type="html"><![CDATA[Before sandbox escapes became one of AI security’s loudest conversations, pwn spent weeks inside nested KVM, built a 14,338-line exploit harness, and made Google’s live kvmCTF host return the flag. This is the story of what happened inside the sandbox.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Click2Shell: Preauth WordPress Core Theme Preview Injection to  RCE Chain]]></title>
+        <id>https://pwn.ai/blog/click2shell</id>
+        <link href="https://pwn.ai/blog/click2shell"/>
+        <updated>2026-09-17T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[A pre-authentication Theme Injection to RCE chain in WordPress Core that allows unauthenticated attackers to achieve remote code execution on any default WordPress installation through a single click.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XSS2Shell: WordPress Preauth XSS to RCE Chain (CVE-2026-64638)]]></title>
+        <id>https://pwn.ai/blog/xss2shell</id>
+        <link href="https://pwn.ai/blog/xss2shell"/>
+        <updated>2026-08-05T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[A pre-authentication XSS to RCE chain in WordPress Core that allows unauthenticated attackers to achieve remote code execution on any default WordPress installation through the login page.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2026-14077: Select Your Own Origin - Spoofing Chrome's Address Bar]]></title>
+        <id>https://pwn.ai/blog/select-your-own-origin-spoofing-chrome-s-address-bar-with-native-ui</id>
+        <link href="https://pwn.ai/blog/select-your-own-origin-spoofing-chrome-s-address-bar-with-native-ui"/>
+        <updated>2026-07-19T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[How one HTML select crossed Chrome's line of death and turned a single click into a spoofed, convincing fake software-download flow.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Search for AGI through Security: Introducing the World's First AI-Based Novel Attack Vector Researcher]]></title>
+        <id>https://pwn.ai/blog/the-search-for-agi-through-security-and-novelity</id>
+        <link href="https://pwn.ai/blog/the-search-for-agi-through-security-and-novelity"/>
+        <updated>2026-04-09T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[We believe one of the clearest paths toward AGI is automating one of the hardest knowledge-worker roles in cybersecurity: the researcher who discovers novel attack vectors before the industry has language for them.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ImageMagick: From Arbitrary File Read to RCE In Every Policy]]></title>
+        <id>https://pwn.ai/blog/imagemagick-from-arbitrary-file-read-to-rce-in-every-policy-zeroday</id>
+        <link href="https://pwn.ai/blog/imagemagick-from-arbitrary-file-read-to-rce-in-every-policy-zeroday"/>
+        <updated>2026-03-29T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[How pwn.ai turned a routine client pentest into multiple ImageMagick exploits. By autonomously researching the product’s internals for days, it found a path from a single image upload to file leaks, security policy bypasses, and remote code execution across a wide range of default and real-world configurations.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2025-54322 (ZERODAY) - Unauthenticated Root RCE affecting ~70,000+ Hosts]]></title>
+        <id>https://pwn.ai/blog/cve-2025-54322-zeroday-unauthenticated-root-rce-affecting-70-000-hosts</id>
+        <link href="https://pwn.ai/blog/cve-2025-54322-zeroday-unauthenticated-root-rce-affecting-70-000-hosts"/>
+        <updated>2025-12-25T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[A critical zero-day vulnerability, CVE-2025-54322, has been discovered that enables Unauthenticated Root Remote Command Execution (RCE) in devices running Xspeeder's SXZOS firmware. These networking devices, primarily edge routers and SD-WAN appliances, are extensively used, resulting in an estimated 30,000+ hosts being publicly exposed to full system compromise. The vulnerability was autonomously discovered by the pwn.ai platform. This public disclosure follows six months of unsuccessful attempts to notify the vendor, Xspeeder. The technical findings reveal that the exploit bypasses several superficial defenses, including an Nginx user-agent check and a custom Django GateKeeper middleware that attempts to restrict access using a time-sensitive header nonce and session checks.]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Juniper SSLVPN / JunOS RCE and Multiple Vulnerabilities]]></title>
+        <id>https://pwn.ai/blog/juniper-sslvpn-junos-rce-and-multiple-vulnerabilities</id>
+        <link href="https://pwn.ai/blog/juniper-sslvpn-junos-rce-and-multiple-vulnerabilities"/>
+        <updated>2022-10-27T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[The following software releases have been updated to resolve these specific issues: Junos OS 19.1R3-S9, 19.2R3-S6, 19.3R3-S7, 19.4R3-S9, 20.1R3-S5, 20.2R3-S5, 20.3R3-S5, 20.4R3-S4, 21.1R3-S2,...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Novel Attack Vector to Bypass CSP Via Same Origin Method Execution (Wordpress Zeroday)]]></title>
+        <id>https://pwn.ai/blog/bypass-csp-using-wordpress-by-abusing-same-origin-method-execution</id>
+        <link href="https://pwn.ai/blog/bypass-csp-using-wordpress-by-abusing-same-origin-method-execution"/>
+        <updated>2022-05-28T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[By Paulos Yibelo There are two scenarios found in which CSP can be bypassed if Wordpress is hosted on the website that uses CSP: Websites that don't use Wordpress directly but have an endpoint of...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2022-24990: TerraMaster TOS unauthenticated remote command execution via PHP Object Instantiation]]></title>
+        <id>https://pwn.ai/blog/cve-2022-24990-terrmaster-tos-unauthenticated-remote-command-execution-via-php-object-instantiation</id>
+        <link href="https://pwn.ai/blog/cve-2022-24990-terrmaster-tos-unauthenticated-remote-command-execution-via-php-object-instantiation"/>
+        <updated>2022-03-06T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[Introduction This report explains how researchers at Octagon Networks were able to chain two interesting vulnerabilities to achieve unauthenticated remote command execution as root on TerraMaster NAS...]]></content>
+    </entry>
+</feed>
