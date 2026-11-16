@@ -2037,3 +2037,16 @@ titleSelector = "h3"
 linkSelector = "a.link_abs"
 dateSelector = "div[fs-list-field='date']"
 dateFormat = "MMMM d, yyyy"
+
+[pwnai]
+title = "Security Research Blog | PWN.AI"
+url = "https://pwn.ai/blog"
+# 页面为 Next.js 渲染，文章卡片是 <a href="/blog/...">；:has(h3) 排除顶部 banner 链接。
+# 日期仅在卡片底部 gap-3 行的第 2 个 span（最新 3 篇该 span 为空，工具回退为生成时间，保持置顶）。
+entrySelector = "a[href^='/blog/']:has(h3)"
+titleSelector = "h3"
+linkSelector = "*"
+contentSelector = "p"
+dateSelector = "[class*='gap-3'] > span:nth-child(2)"
+dateFormat = "MMM d, yyyy"
+waitUntil = "networkidle"
