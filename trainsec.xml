@@ -2,35 +2,178 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://trainsec.net/library/</id>
     <title>trainsec</title>
-    <updated>2026-10-08T22:28:50.758Z</updated>
+    <updated>2026-11-17T02:03:23.971Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://trainsec.net/wp-content/uploads/2024/05/Icon-no-space@2x-100x100.png</icon>
     <entry>
-        <title type="html"><![CDATA[Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode]]></title>
-        <id>https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/</id>
-        <link href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/"/>
-        <updated>2026-10-04T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg" class="attachment-full size-full wp-image-12517 entered lazyloaded" alt="Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-768x432.jpg 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg" data-ll-status="loaded" sizes="(max-width: 1280px) 100vw, 1280px" srcset="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-768x432.jpg 768w"><noscript><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg" class="attachment-full size-full wp-image-12517" alt="Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" srcset="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
+        <title type="html"><![CDATA[Creating a Process: Windows vs. Linux]]></title>
+        <id>https://trainsec.net/library/windows-internals/creating-a-process-windows-vs-linux/</id>
+        <link href="https://trainsec.net/library/windows-internals/creating-a-process-windows-vs-linux/"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/creating-a-process-windows-vs-linux/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault.jpg" class="attachment-full size-full wp-image-13361 entered lazyloaded" alt="Creating a Process: Windows vs. Linux" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-768x432.jpg 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault.jpg" data-ll-status="loaded" sizes="(max-width: 1280px) 100vw, 1280px" srcset="https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-768x432.jpg 768w"><noscript><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault.jpg" class="attachment-full size-full wp-image-13361" alt="Creating a Process: Windows vs. Linux" srcset="https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/">
-				Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode			</a>
+			<a href="https://trainsec.net/library/windows-internals/creating-a-process-windows-vs-linux/">
+				Creating a Process: Windows vs. Linux			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
 			Pavel Yosifovich		</span>
 				<span class="elementor-post-date">
-			October 4, 2026		</span>
+			November 15, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>Pavel Yosifovich reverses the new WESP driver with the registry, WinObj, !drvobj and PE imports, and finds a filter communication port instead of devices.</p>
+			<p>How process creation differs on Windows and Linux. Compare CreateProcessW with fork and exec, with a working example built in WSL.</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/" aria-label="Read more about Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/creating-a-process-windows-vs-linux/" aria-label="Read more about Creating a Process: Windows vs. Linux" tabindex="-1">
 			Dive in		</a>
 
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating a Process: Windows vs. Linux]]></title>
+        <id>https://trainsec.net/library/windows-internals/creating-a-process-windows-vs-linux/</id>
+        <link href="https://trainsec.net/library/windows-internals/creating-a-process-windows-vs-linux/"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/creating-a-process-windows-vs-linux/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20720'%3E%3C/svg%3E" class="attachment-full size-full wp-image-13361" alt="Creating a Process: Windows vs. Linux" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-768x432.jpg 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault.jpg"><noscript><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault.jpg" class="attachment-full size-full wp-image-13361" alt="Creating a Process: Windows vs. Linux" srcset="https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/11/k-cTW6ztJeY-maxresdefault-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/creating-a-process-windows-vs-linux/">
+				Creating a Process: Windows vs. Linux			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			November 15, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>How process creation differs on Windows and Linux. Compare CreateProcessW with fork and exec, with a working example built in WSL.</p>		</div>
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/creating-a-process-windows-vs-linux/" aria-label="Read more about Creating a Process: Windows vs. Linux" tabindex="-1">
+			Read More 		</a>
+
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hiding a DLL in Another Process: Cross-Process PEB Unlinking Explained]]></title>
+        <id>https://trainsec.net/library/malware-analysis/hiding-a-dll-in-another-process-cross-process-peb-unlinking-explained/</id>
+        <link href="https://trainsec.net/library/malware-analysis/hiding-a-dll-in-another-process-cross-process-peb-unlinking-explained/"/>
+        <updated>2026-10-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/hiding-a-dll-in-another-process-cross-process-peb-unlinking-explained/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/10/t-gNiJd-YDE-maxresdefault.jpg" class="attachment-full size-full wp-image-12761" alt="Hiding a DLL in Another Process: Cross-Process PEB Unlinking Explained" srcset="https://trainsec.net/wp-content/uploads/2026/10/t-gNiJd-YDE-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/t-gNiJd-YDE-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/t-gNiJd-YDE-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/t-gNiJd-YDE-maxresdefault-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px"></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/malware-analysis/hiding-a-dll-in-another-process-cross-process-peb-unlinking-explained/">
+				Hiding a DLL in Another Process: Cross-Process PEB Unlinking Explained			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			October 29, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Pavel Yosifovich extends DLL hiding across process boundaries, reading and writing a remote PEB, loader		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/hiding-a-dll-in-another-process-cross-process-peb-unlinking-explained/" aria-label="Read more about Hiding a DLL in Another Process: Cross-Process PEB Unlinking Explained" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hiding a DLL from the PEB Loader List (And Why Process Explorer Still Sees It)]]></title>
+        <id>https://trainsec.net/library/windows-internals/hiding-a-dll-from-the-peb-loader-list-and-why-process-explorer-still-sees-it/</id>
+        <link href="https://trainsec.net/library/windows-internals/hiding-a-dll-from-the-peb-loader-list-and-why-process-explorer-still-sees-it/"/>
+        <updated>2026-10-21T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/hiding-a-dll-from-the-peb-loader-list-and-why-process-explorer-still-sees-it/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20720'%3E%3C/svg%3E" class="attachment-full size-full wp-image-12654" alt="Hiding a DLL from the PEB Loader List (And Why Process Explorer Still Sees It)" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/10/o2557eL7oe8-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/o2557eL7oe8-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/o2557eL7oe8-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/o2557eL7oe8-maxresdefault-768x432.jpg 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/10/o2557eL7oe8-maxresdefault.jpg"><noscript><img loading="lazy" decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/10/o2557eL7oe8-maxresdefault.jpg" class="attachment-full size-full wp-image-12654" alt="Hiding a DLL from the PEB Loader List (And Why Process Explorer Still Sees It)" srcset="https://trainsec.net/wp-content/uploads/2026/10/o2557eL7oe8-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/o2557eL7oe8-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/o2557eL7oe8-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/o2557eL7oe8-maxresdefault-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/hiding-a-dll-from-the-peb-loader-list-and-why-process-explorer-still-sees-it/">
+				Hiding a DLL from the PEB Loader List (And Why Process Explorer Still Sees It)			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			October 21, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Pavel Yosifovich unlinks a DLL from the PEB’s loader module list, compares it to EnumProcessModules,		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/hiding-a-dll-from-the-peb-loader-list-and-why-process-explorer-still-sees-it/" aria-label="Read more about Hiding a DLL from the PEB Loader List (And Why Process Explorer Still Sees It)" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detection Engineering for Blue Team, Purple Team and Red Team]]></title>
+        <id>https://trainsec.net/library/cyber-defense-response/detection-engineering-blue-purple-red-team/</id>
+        <link href="https://trainsec.net/library/cyber-defense-response/detection-engineering-blue-purple-red-team/"/>
+        <updated>2026-10-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/cyber-defense-response/detection-engineering-blue-purple-red-team/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20720'%3E%3C/svg%3E" class="attachment-full size-full wp-image-12641" alt="Detection Engineering for Blue Team, Purple Team and Red Team" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/10/featured-detection-engineering-cycle.png 1280w, https://trainsec.net/wp-content/uploads/2026/10/featured-detection-engineering-cycle-300x169.png 300w, https://trainsec.net/wp-content/uploads/2026/10/featured-detection-engineering-cycle-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2026/10/featured-detection-engineering-cycle-768x432.png 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/10/featured-detection-engineering-cycle.png"><noscript><img loading="lazy" decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/10/featured-detection-engineering-cycle.png" class="attachment-full size-full wp-image-12641" alt="Detection Engineering for Blue Team, Purple Team and Red Team" srcset="https://trainsec.net/wp-content/uploads/2026/10/featured-detection-engineering-cycle.png 1280w, https://trainsec.net/wp-content/uploads/2026/10/featured-detection-engineering-cycle-300x169.png 300w, https://trainsec.net/wp-content/uploads/2026/10/featured-detection-engineering-cycle-1024x576.png 1024w, https://trainsec.net/wp-content/uploads/2026/10/featured-detection-engineering-cycle-768x432.png 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/cyber-defense-response/detection-engineering-blue-purple-red-team/">
+				Detection Engineering for Blue Team, Purple Team and Red Team			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Uriel Kosayev		</span>
+				<span class="elementor-post-date">
+			October 13, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Uriel Kosayev explains detection engineering for SOC analysts, Purple Team and Red Team practitioners: a		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/cyber-defense-response/detection-engineering-blue-purple-red-team/" aria-label="Read more about Detection Engineering for Blue Team, Purple Team and Red Team" tabindex="-1">
+			Read More 		</a>
+
+					</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DLL Injection with SetWinEventHook: The Accessibility Hook as an Injector]]></title>
+        <id>https://trainsec.net/library/windows-internals/dll-injection-with-setwineventhook-the-accessibility-hook-as-an-injector/</id>
+        <link href="https://trainsec.net/library/windows-internals/dll-injection-with-setwineventhook-the-accessibility-hook-as-an-injector/"/>
+        <updated>2026-10-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/dll-injection-with-setwineventhook-the-accessibility-hook-as-an-injector/" tabindex="-1">
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20720'%3E%3C/svg%3E" class="attachment-full size-full wp-image-12639" alt="DLL Injection with SetWinEventHook: The Accessibility Hook as an Injector" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/10/0LH1MySzPFc-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/0LH1MySzPFc-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/0LH1MySzPFc-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/0LH1MySzPFc-maxresdefault-768x432.jpg 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/10/0LH1MySzPFc-maxresdefault.jpg"><noscript><img loading="lazy" decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/10/0LH1MySzPFc-maxresdefault.jpg" class="attachment-full size-full wp-image-12639" alt="DLL Injection with SetWinEventHook: The Accessibility Hook as an Injector" srcset="https://trainsec.net/wp-content/uploads/2026/10/0LH1MySzPFc-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/0LH1MySzPFc-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/0LH1MySzPFc-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/0LH1MySzPFc-maxresdefault-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
+		</a>
+				<div class="elementor-post__text">
+				<h2 class="elementor-post__title">
+			<a href="https://trainsec.net/library/windows-internals/dll-injection-with-setwineventhook-the-accessibility-hook-as-an-injector/">
+				DLL Injection with SetWinEventHook: The Accessibility Hook as an Injector			</a>
+		</h2>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Pavel Yosifovich		</span>
+				<span class="elementor-post-date">
+			October 12, 2026		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Pavel Yosifovich injects a DLL using SetWinEventHook, the accessibility event hook, covering in-context hooks, the		</p></div>
+					<div class="elementor-post__read-more-wrapper">
+		
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/dll-injection-with-setwineventhook-the-accessibility-hook-as-an-injector/" aria-label="Read more about DLL Injection with SetWinEventHook: The Accessibility Hook as an Injector" tabindex="-1">
+			Read More 		</a>
+
+					</div>
 				</div>]]></content>
     </entry>
     <entry>
@@ -39,7 +182,7 @@
         <link href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/"/>
         <updated>2026-10-04T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/" tabindex="-1">
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20720'%3E%3C/svg%3E" class="attachment-full size-full wp-image-12517" alt="Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-768x432.jpg 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg"><noscript><img decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg" class="attachment-full size-full wp-image-12517" alt="Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" srcset="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
+			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20720'%3E%3C/svg%3E" class="attachment-full size-full wp-image-12517" alt="Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-768x432.jpg 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg"><noscript><img loading="lazy" decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg" class="attachment-full size-full wp-image-12517" alt="Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" srcset="https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/10/KPfrasBqYBE-maxresdefault-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
@@ -53,11 +196,13 @@
 			October 4, 2026		</span>
 				</div>
 				<div class="elementor-post__excerpt">
-			<p>Pavel Yosifovich reverses the new WESP driver with the registry, WinObj, !drvobj and PE imports, and finds a filter communication port instead of devices.</p>		</div>
+			<p>Pavel Yosifovich reverses the new WESP driver with the registry, WinObj, !drvobj and PE imports,		</p></div>
+					<div class="elementor-post__read-more-wrapper">
 		
 		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-kernel/basic-reversing-of-a-windows-kernel-driver-how-wesp-talks-to-user-mode/" aria-label="Read more about Basic Reversing of a Windows Kernel Driver: How WESP Talks to User Mode" tabindex="-1">
 			Read More 		</a>
 
+					</div>
 				</div>]]></content>
     </entry>
     <entry>
@@ -91,15 +236,15 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[How to Run a Windows Service Inside Svchost.exe]]></title>
-        <id>https://trainsec.net/library/malware-analysis/how-to-run-a-windows-service-inside-svchostexe-service-dll-walkthrough/</id>
-        <link href="https://trainsec.net/library/malware-analysis/how-to-run-a-windows-service-inside-svchostexe-service-dll-walkthrough/"/>
+        <id>https://trainsec.net/library/windows-internals/how-to-run-a-windows-service-inside-svchostexe-service-dll-walkthrough/</id>
+        <link href="https://trainsec.net/library/windows-internals/how-to-run-a-windows-service-inside-svchostexe-service-dll-walkthrough/"/>
         <updated>2026-09-15T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/how-to-run-a-windows-service-inside-svchostexe-service-dll-walkthrough/" tabindex="-1">
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/windows-internals/how-to-run-a-windows-service-inside-svchostexe-service-dll-walkthrough/" tabindex="-1">
 			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20720'%3E%3C/svg%3E" class="attachment-full size-full wp-image-12465" alt="How to Run a Windows Service Inside Svchost.exe (Service DLL Walkthrough)" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/09/FezmUgjeVpo-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/09/FezmUgjeVpo-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/09/FezmUgjeVpo-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/09/FezmUgjeVpo-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/09/FezmUgjeVpo-maxresdefault-600x338.jpg 600w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/09/FezmUgjeVpo-maxresdefault.jpg"><noscript><img loading="lazy" decoding="async" width="1280" height="720" src="https://trainsec.net/wp-content/uploads/2026/09/FezmUgjeVpo-maxresdefault.jpg" class="attachment-full size-full wp-image-12465" alt="How to Run a Windows Service Inside Svchost.exe (Service DLL Walkthrough)" srcset="https://trainsec.net/wp-content/uploads/2026/09/FezmUgjeVpo-maxresdefault.jpg 1280w, https://trainsec.net/wp-content/uploads/2026/09/FezmUgjeVpo-maxresdefault-300x169.jpg 300w, https://trainsec.net/wp-content/uploads/2026/09/FezmUgjeVpo-maxresdefault-1024x576.jpg 1024w, https://trainsec.net/wp-content/uploads/2026/09/FezmUgjeVpo-maxresdefault-768x432.jpg 768w, https://trainsec.net/wp-content/uploads/2026/09/FezmUgjeVpo-maxresdefault-600x338.jpg 600w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/malware-analysis/how-to-run-a-windows-service-inside-svchostexe-service-dll-walkthrough/">
+			<a href="https://trainsec.net/library/windows-internals/how-to-run-a-windows-service-inside-svchostexe-service-dll-walkthrough/">
 				How to Run a Windows Service Inside Svchost.exe			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
@@ -112,7 +257,7 @@
 			<p>Pavel Yosifovich builds a service DLL that svchost.exe hosts, wiring up ServiceMain, the control handler,		</p></div>
 					<div class="elementor-post__read-more-wrapper">
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/how-to-run-a-windows-service-inside-svchostexe-service-dll-walkthrough/" aria-label="Read more about How to Run a Windows Service Inside Svchost.exe" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/windows-internals/how-to-run-a-windows-service-inside-svchostexe-service-dll-walkthrough/" aria-label="Read more about How to Run a Windows Service Inside Svchost.exe" tabindex="-1">
 			Read More 		</a>
 
 					</div>
@@ -265,15 +410,15 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Meet TrainSec Co-Founder Uriel Kosayev at DEF CON 34]]></title>
-        <id>https://trainsec.net/library/malware-analysis/meet-uriel-kosayev-def-con-34/</id>
-        <link href="https://trainsec.net/library/malware-analysis/meet-uriel-kosayev-def-con-34/"/>
+        <id>https://trainsec.net/library/cyber-defense-response/meet-uriel-kosayev-def-con-34/</id>
+        <link href="https://trainsec.net/library/cyber-defense-response/meet-uriel-kosayev-def-con-34/"/>
         <updated>2026-07-20T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/malware-analysis/meet-uriel-kosayev-def-con-34/" tabindex="-1">
+        <content type="html"><![CDATA[<a class="elementor-post__thumbnail__link" href="https://trainsec.net/library/cyber-defense-response/meet-uriel-kosayev-def-con-34/" tabindex="-1">
 			<div class="elementor-post__thumbnail"><img decoding="async" width="400" height="400" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20400'%3E%3C/svg%3E" class="attachment-full size-full wp-image-11884" alt="images" data-lazy-srcset="https://trainsec.net/wp-content/uploads/2026/07/images.png 400w, https://trainsec.net/wp-content/uploads/2026/07/images-300x300.png 300w, https://trainsec.net/wp-content/uploads/2026/07/images-150x150.png 150w, https://trainsec.net/wp-content/uploads/2026/07/images-100x100.png 100w, https://trainsec.net/wp-content/uploads/2026/07/images-50x50.png 50w" data-lazy-sizes="(max-width: 400px) 100vw, 400px" data-lazy-src="https://trainsec.net/wp-content/uploads/2026/07/images.png"><noscript><img loading="lazy" decoding="async" width="400" height="400" src="https://trainsec.net/wp-content/uploads/2026/07/images.png" class="attachment-full size-full wp-image-11884" alt="images" srcset="https://trainsec.net/wp-content/uploads/2026/07/images.png 400w, https://trainsec.net/wp-content/uploads/2026/07/images-300x300.png 300w, https://trainsec.net/wp-content/uploads/2026/07/images-150x150.png 150w, https://trainsec.net/wp-content/uploads/2026/07/images-100x100.png 100w, https://trainsec.net/wp-content/uploads/2026/07/images-50x50.png 50w" sizes="(max-width: 400px) 100vw, 400px" /></noscript></div>
 		</a>
 				<div class="elementor-post__text">
 				<h2 class="elementor-post__title">
-			<a href="https://trainsec.net/library/malware-analysis/meet-uriel-kosayev-def-con-34/">
+			<a href="https://trainsec.net/library/cyber-defense-response/meet-uriel-kosayev-def-con-34/">
 				Meet TrainSec Co-Founder Uriel Kosayev at DEF CON 34			</a>
 		</h2>
 				<div class="elementor-post__meta-data">
@@ -286,7 +431,7 @@
 			<p>Uriel Kosayev presents The Silent Tunneler, a real-world incident response workshop, at DEF CON 34		</p></div>
 					<div class="elementor-post__read-more-wrapper">
 		
-		<a class="elementor-post__read-more" href="https://trainsec.net/library/malware-analysis/meet-uriel-kosayev-def-con-34/" aria-label="Read more about Meet TrainSec Co-Founder Uriel Kosayev at DEF CON 34" tabindex="-1">
+		<a class="elementor-post__read-more" href="https://trainsec.net/library/cyber-defense-response/meet-uriel-kosayev-def-con-34/" aria-label="Read more about Meet TrainSec Co-Founder Uriel Kosayev at DEF CON 34" tabindex="-1">
 			Read More 		</a>
 
 					</div>

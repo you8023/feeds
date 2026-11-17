@@ -2,9 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aquilax.ai/blog</id>
     <title>AquilaX Security Blog</title>
-    <updated>2026-10-08T22:28:50.745Z</updated>
+    <updated>2026-11-17T02:03:23.956Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://aquilax.ai/assets/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[AI Writes the Average of the Internet. That's the Problem.]]></title>
+        <id>https://aquilax.ai/blog/ai-code-trained-on-average-code</id>
+        <link href="https://aquilax.ai/blog/ai-code-trained-on-average-code"/>
+        <updated>2026-11-17T01:59:03.491Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags"><span class="b-tag red">AI Code</span><span class="b-tag ">SAST</span><span class="b-tag green">Research</span></div>
+          <h3>AI Writes the Average of the Internet. That's the Problem.</h3>
+          <p>Code models learn from public repositories and Q&amp;A sites, where insecure patterns are common. Why that makes AI-generated code fail in predictable ways, what the research found, and what to do about it.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Nov 2026 &nbsp;·&nbsp; 9 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Fix That Deletes the Check: How AI 'Fixes' Remove Security]]></title>
+        <id>https://aquilax.ai/blog/ai-fixes-that-remove-security-checks</id>
+        <link href="https://aquilax.ai/blog/ai-fixes-that-remove-security-checks"/>
+        <updated>2026-11-17T01:59:03.491Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags"><span class="b-tag red">AI Code</span><span class="b-tag ">SAST</span><span class="b-tag green">IaC</span></div>
+          <h3>The Fix That Deletes the Check: How AI 'Fixes' Remove Security</h3>
+          <p>Ask an AI assistant to make an error go away and it often removes the security control that raised it. Seven real patterns (TLS, JWT, CSRF, CORS, IAM, CSP, row-level security) and how to catch them before merge.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Nov 2026 &nbsp;·&nbsp; 8 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coding From the Training Cutoff: Old Versions, Old Crypto, Old APIs]]></title>
+        <id>https://aquilax.ai/blog/ai-code-outdated-dependencies-training-cutoff</id>
+        <link href="https://aquilax.ai/blog/ai-code-outdated-dependencies-training-cutoff"/>
+        <updated>2026-11-17T01:59:03.491Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags"><span class="b-tag red">AI Code</span><span class="b-tag ">SCA</span><span class="b-tag green">Supply Chain</span></div>
+          <h3>Coding From the Training Cutoff: Old Versions, Old Crypto, Old APIs</h3>
+          <p>AI assistants suggest the library versions and APIs that were common in their training data. Some now have known CVEs, some are abandoned, and some were removed. Examples and how SCA catches them at pull-request time.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Nov 2026 &nbsp;·&nbsp; 8 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Logged In Isn't the Same as Allowed: The Access Bug AI Writes on Repeat]]></title>
+        <id>https://aquilax.ai/blog/ai-code-authenticated-not-authorized</id>
+        <link href="https://aquilax.ai/blog/ai-code-authenticated-not-authorized"/>
+        <updated>2026-11-17T01:59:03.491Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags"><span class="b-tag red">AI Code</span><span class="b-tag ">API Security</span><span class="b-tag green">DAST</span></div>
+          <h3>Logged In Isn't the Same as Allowed: The Access Bug AI Writes on Repeat</h3>
+          <p>AI-generated CRUD endpoints almost always check that a user is logged in, and often skip whether the record belongs to them. Why models make this mistake, what it looks like in Express, FastAPI and Supabase, and how to test for it.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Nov 2026 &nbsp;·&nbsp; 9 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Where Scanning Pays Off When AI Writes the Code]]></title>
+        <id>https://aquilax.ai/blog/where-scanning-pays-off-ai-generated-code</id>
+        <link href="https://aquilax.ai/blog/where-scanning-pays-off-ai-generated-code"/>
+        <updated>2026-11-17T01:59:03.491Z</updated>
+        <content type="html"><![CDATA[<div class="blog-card-tags"><span class="b-tag red">AI Code</span><span class="b-tag ">DevSecOps</span><span class="b-tag green">Guide</span></div>
+          <h3>Where Scanning Pays Off When AI Writes the Code</h3>
+          <p>AI raised how much code each developer ships. Review capacity didn't grow with it. A practical map of which scanner catches which AI mistake, where in the pipeline to run it, and how to roll it out without drowning the team.</p>
+          <div class="blog-card-footer">
+            <div class="blog-card-meta">Nov 2026 &nbsp;·&nbsp; 10 min read</div>
+            <span class="blog-card-read">Read <span class="arrow">→</span></span>
+          </div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Is Humanity Ready for Full AI Security Engineers?]]></title>
         <id>https://aquilax.ai/blog/ai-security-engineers-are-we-ready</id>

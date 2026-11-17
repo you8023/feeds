@@ -2,9 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ssd-disclosure.com/advisories/</id>
     <title>ssd_disclosure</title>
-    <updated>2026-10-08T22:28:49.732Z</updated>
+    <updated>2026-11-17T02:03:23.980Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://ssd-disclosure.com/wp-content/uploads/2022/08/Group-36.png</icon>
+    <entry>
+        <title type="html"><![CDATA[TightVNC Viewer Pre-auth RCE]]></title>
+        <id>https://ssd-disclosure.com/tightvnc-viewer-pre-auth-rce/</id>
+        <link href="https://ssd-disclosure.com/tightvnc-viewer-pre-auth-rce/"/>
+        <updated>2026-11-17T01:52:33.799Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/tightvnc-viewer-pre-auth-rce/">
+				TightVNC Viewer Pre-auth RCE			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary In VNC the server announces the screen size and the viewer allocates a pixel buffer for it. TightVNC computes that buffer’s byte size in a 32-bit int. A server announcing 32768 x 32769 at</p>
+		</div>
+				</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LG webOS sync-demo Preauth RCE]]></title>
+        <id>https://ssd-disclosure.com/lg-webos-sync-demo-preauth-rce/</id>
+        <link href="https://ssd-disclosure.com/lg-webos-sync-demo-preauth-rce/"/>
+        <updated>2026-11-17T01:52:33.800Z</updated>
+        <content type="html"><![CDATA[<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://ssd-disclosure.com/lg-webos-sync-demo-preauth-rce/">
+				LG webOS sync-demo Preauth RCE			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Summary This report covers a fullchain built from sync-demo LG-signed manifest replay client-key issuance bypass, cmp-client interactiveUrl PalmServiceBridge SSRF, and pmlogd collectAllLog targetDir command injection. First, the attacker replays the LG-signed manifest embedded in com.webos.app.sync-demo.</p>
+		</div>
+				</div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DCOM Service PsmServiceExtHost LPE]]></title>
         <id>https://ssd-disclosure.com/dcom-service-psmserviceexthost-lpe/</id>
@@ -152,36 +182,6 @@
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>Summary Google’s Threat Analysis Group (TAG) recently discovered two critical vulnerabilities in Android GPU drivers being actively exploited in the wild. Both bugs enable Chrome sandbox escape when exploited from a compromised renderer. Clément Lecigne</p>
-		</div>
-				</div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joomla! Novarain/Tassos Framework Vulnerabilities]]></title>
-        <id>https://ssd-disclosure.com/joomla-novarain-tassos-framework-vulnerabilities/</id>
-        <link href="https://ssd-disclosure.com/joomla-novarain-tassos-framework-vulnerabilities/"/>
-        <updated>2026-10-04T18:43:18.034Z</updated>
-        <content type="html"><![CDATA[<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="https://ssd-disclosure.com/joomla-novarain-tassos-framework-vulnerabilities/">
-				Joomla! Novarain/Tassos Framework Vulnerabilities			</a>
-		</h3>
-				<div class="elementor-post__excerpt">
-			<p>Summary Source code review of the Novarain/Tassos Framework revealed three critical primitives – unauthenticated file read, unauthenticated file deletion, and SQL injection leading to arbitrary database read – across five widely deployed Joomla! extensions (Convert</p>
-		</div>
-				</div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Kernel net/sched CAKE Qdisc Use-After-Free LPE]]></title>
-        <id>https://ssd-disclosure.com/linux-kernel-net-sched-cake-qdisc-use-after-free-lpe/</id>
-        <link href="https://ssd-disclosure.com/linux-kernel-net-sched-cake-qdisc-use-after-free-lpe/"/>
-        <updated>2026-10-04T18:43:18.035Z</updated>
-        <content type="html"><![CDATA[<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="https://ssd-disclosure.com/linux-kernel-net-sched-cake-qdisc-use-after-free-lpe/">
-				Linux Kernel net/sched CAKE Qdisc Use-After-Free LPE			</a>
-		</h3>
-				<div class="elementor-post__excerpt">
-			<p>Summary A local user under the CentOS 9 operating system can trigger an use-after-free, which in turn can be used to elevate to root privileges. Vendor Response The vendor has been notified more than 90</p>
 		</div>
 				</div>]]></content>
     </entry>
